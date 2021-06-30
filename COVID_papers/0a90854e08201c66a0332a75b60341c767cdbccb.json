@@ -1,0 +1,2376 @@
+{
+    "paper_id": "0a90854e08201c66a0332a75b60341c767cdbccb",
+    "metadata": {
+        "title": "Clinical characteristics and risk factors for severe COVID-19 infections in Malaysia: A nationwide observational study-NC-ND license ( http://creativecommons.org/licenses/by-nc-nd/4.0/ )",
+        "authors": [
+            {
+                "first": "Benedict",
+                "middle": [],
+                "last": "Lim",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Heng",
+                "middle": [],
+                "last": "Sim",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sungai Buloh Hospital",
+                    "location": {
+                        "country": "Malaysia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Kumar",
+                "middle": [],
+                "last": "Chidambaram",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sungai Buloh Hospital",
+                    "location": {
+                        "country": "Malaysia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ci",
+                "middle": [],
+                "last": "Wong",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Mohan",
+                "middle": [],
+                "last": "Dass Pathmanathan",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Kalaiarasu",
+                "middle": [
+                    "M"
+                ],
+                "last": "Peariasamy",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Peng",
+                "middle": [],
+                "last": "Chee",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Hor",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Seberang Jaya Hospital",
+                    "location": {
+                        "settlement": "Penang",
+                        "country": "Malaysia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Hiu",
+                "middle": [
+                    "Jian"
+                ],
+                "last": "Chua",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sungai Buloh Hospital",
+                    "location": {
+                        "country": "Malaysia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Pin",
+                "middle": [],
+                "last": "Goh",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Background: COVID-19 emerged as a major public health outbreak in late 2019. Malaysia reported its first imported case on 25th January 2020, and adopted a policy of extensive contact tracing and hospitalising of all cases. We describe the clinical characteristics of COVID-19 cases nationwide and determine the risk factors associated with disease severity. Method: Clinical records of all RT-PCR confirmed COVID-19 cases aged \u226512 years admitted to 18 designated hospitals in Malaysia between 1st February and 30th May 2020 with complete outcomes were retrieved. Epidemiological history, co-morbidities, clinical features, investigations, management and complications were captured using REDCap database. Variables were compared between mild and severe diseases. Univariate and multivariate regression were used to identify determinants for disease severity. Findings: The sample comprised of 5889 cases (median age 34 years, male 71.7%). Majority were mild (92%), and 3.3% required intensive care, with 80% admitted within the first five days. Older age ( \u226551 years), underlying chronic kidney disease and chronic pulmonary disease, fever, cough, diarrhoea, breathlessness, tachypnoea, abnormal chest radiographs and high serum CRP ( \u22655 mg/dL) on admission were significant determinants for severity ( p < 0.05). The case fatality rate was 1.2%, and the three commonest complications were liver injuries (6.7%), kidney injuries (4%), and acute respiratory distress syndrome (2.3%). Interpretations: Lower case fatality rate was possibly contributed by young cases with mild diseases and early hospitalisation. Abnormal chest radiographic findings in elderly with tachypnoea require close monitoring in the first five days to detect early deterioration. (X.C. Wong). clinical presentation and blood investigations. Pulmonary complications were commoner than other organ dysfunctions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "We reported clinical characteristics of COVID-19 cases with more than 90% of cases had mild diseases and low fatality rates in Malaysia which implemented early, compulsory hospitalisation, regardless of disease stage upon diagnosis. Progression to severe diseases requiring intensive care occurred within five days of admission. Abnormal plain chest X-ray predicted severe diseases, apart from the symptomatic presentation and abnormal biochemical pahttps://doi.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Up to 80% of COVID-19 cases had mild to moderate diseases, with 15% having severe diseases, and 5% became critically ill. The case fatality ratio by countries ranges between 1% and 12%, with various public health response mechanisms. Abnormality in pulmonary CT scan was predictive of severe disease together with rameters. Occurrence of acute liver and kidney injuries were more common than acute respiratory distress syndrome.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Evidence before this study"
+        },
+        {
+            "text": "Early compulsory hospitalisation of cases upon COVID-19 diagnosis allows close monitoring for deterioration and may prevent deaths. Abnormal plain chest X-ray findings could be a useful predictor for severe disease in a resource-limited setting.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Implications of all the available evidence"
+        },
+        {
+            "text": "The coronavirus disease 2019 pandemic caused by the novel severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2) has infected more than 16 million people with over 60 0,0 0 0 deaths worldwide [1] . Malaysia, a multi-racial tropical country in Southeast Asia, first reported its cases involving three Chinese tourists on 25th January 2020. By the end of February, a total of 29 cases were reported, mostly overseas travellers. In early March, Malaysia had a large cluster linked to a three-day religious gathering attended by approximately 16,0 0 0 participants, including 1500 non-Malaysians [2] . This cluster was also linked to other cases in at least six other Southeast Asian countries.",
+            "cite_spans": [
+                {
+                    "start": 198,
+                    "end": 201,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 598,
+                    "end": 601,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In response to the large cluster outbreak, Malaysia implemented \"Movement Control Order 2020\" under the Prevention and Control of Infectious Diseases Act 1988 and the Police Act 1967 on 18th March [3] . Major government hospitals in the country were designated as facilities for managing COVID-19 cases, and triaging centres for suspected individuals categorised as Person Under Investigation were established. As of 20th May, there were 3347 cases linked to the religious cluster contributing to nearly 50% of reported cases in Malaysia. Continuous intensive public health effort s resulted in the reduction of confirmed cases from a peak of about 200 new cases from middle of March to less than 50 per day in April [3] .",
+            "cite_spans": [
+                {
+                    "start": 197,
+                    "end": 200,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 717,
+                    "end": 720,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "COVID-19 infections can be symptomless or mildly symptomatic but remain contagious [ 4 , 5 ] . From the beginning of the outbreak, Malaysia escalated its national preparedness response by implementing contact tracing, early identification of cases and compulsory hospital admission regardless of disease severity strategies, aiming to break the cycle of transmission.",
+            "cite_spans": [
+                {
+                    "start": 83,
+                    "end": 92,
+                    "text": "[ 4 , 5 ]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "As of 8th July 2020, COVID-19 cases in Malaysia numbered 8674 with 8481 recoveries and 121 fatalities, giving CFR of 1.39% and a crude mortality rate of 0.037 deaths per 10 0,0 0 0 populations with Malaysia population currently around 32.6 million [3] .",
+            "cite_spans": [
+                {
+                    "start": 248,
+                    "end": 251,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Reports on case fatality rate vary between geographical regions with studies reporting different outcomes and risk factors [6] [7] [8] . This disparity has raised a few postulations including the effectiveness of government policies, epidemic preparedness and response, and bias in reporting of the actual number of cases [7] . Most papers reported clinical characteristics and mortality rates based on data from single or selected centres. At the time of this writeup, there are limited studies describing a whole country experience during this COVID-19 pandemic from its onset until flattening of the epidemiological curve. This study aimed to characterise the clinical features, management and outcomes of the first 5889 COVID-19 cases nationwide in Malaysia. We also examined the factors associated with severe disease.",
+            "cite_spans": [
+                {
+                    "start": 123,
+                    "end": 126,
+                    "text": "[6]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 127,
+                    "end": 130,
+                    "text": "[7]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 131,
+                    "end": 134,
+                    "text": "[8]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 322,
+                    "end": 325,
+                    "text": "[7]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "This study is a multi-centre observational study supported by National Institutes of Health, Malaysia, together with Infectious Diseases teams from 18 COVID-19 designated hospitals in Malaysia.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study design"
+        },
+        {
+            "text": "All reverse-transcriptase-polymerase chain reaction (RT-PCR) confirmed COVID-19 cases aged 12 years and above were consecutively recruited from 18 designated COVID-19 hospitals between 1st February 2020 and 30th May 2020. They were followed up until achieving complete outcome at discharge. Hospital admission and isolation were compulsory to all COVID-19 cases according to the Acts. Cases aged below 12 years of age had their data captured separately for further analysis. A national ClinData_COVID-19 registry using Research Electronic Data Capture (REDCap) system adapted from International Severe Acute Respiratory and Emerging Infection Consortium (ISARIC) -WHO Case Report Form was used for data entry [ 9 , 10 ] . Individual case data were extracted and entered into REDCap database by trained research assistants in respective hospitals with a standardised data definition dictionary as reference. Data verification was performed with standardised protocol prior to submission into the ClinData_COVID-19 registry. The data management performed quality assurance check on data entry, prior to extraction of data for analysis by independent data analysts.",
+            "cite_spans": [
+                {
+                    "start": 709,
+                    "end": 719,
+                    "text": "[ 9 , 10 ]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data source"
+        },
+        {
+            "text": "The study was registered with the National Medical Research Register (NMRR-20-580-54339) and approved by the Medical Research and Ethics Committee, Ministry of Health, Malaysia (KKM/NIHSEC/P20-706).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study ethics"
+        },
+        {
+            "text": "Nasopharyngeal and/or oropharyngeal swabs, tracheal aspirates, sputum or serum samples were used for reverse-transcriptasepolymerase chain reaction (RT-PCR) analysis at designated National Public Health Laboratories, Institute for Medical Research, and accredited hospital laboratories.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Laboratory confirmation"
+        },
+        {
+            "text": "Cases admitted at designated hospitals were managed by infectious diseases teams according to COVID-19 Management Guideline in Malaysia by the Ministry of Health [3] . This national guideline was developed based on expert panel consensus from Ministry of Health, with reference to interim guidelines from China and Singapore [ 11 , 12 ] .",
+            "cite_spans": [
+                {
+                    "start": 162,
+                    "end": 165,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 325,
+                    "end": 336,
+                    "text": "[ 11 , 12 ]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Disease staging and clinical management"
+        },
+        {
+            "text": "Each case was staged according to clinical severity; stage I: asymptomatic case, stage II: symptomatic without pneumonia, stage III: pneumonia without hypoxia, stage IV: pneumonia with hypoxia requiring oxygen supplementation therapy and stage V: critically ill. Close monitoring for signs of early deterioration and appropriate aggressive interventions were instituted. As per guideline, all cases were admitted for 14 days, or until free of SARS-CoV-2 carriage on repeated nasopharyngeal/oropharyngeal swabs, or death ensued.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Disease staging and clinical management"
+        },
+        {
+            "text": "Variables related to sociodemographic data, admission characteristics, clinical progression, laboratory and radiographic investigations, management and clinical outcome were analysed for its association with disease severity. For this study, we focused on disease severity with worst clinical progression (worst disease severity experienced by each case) throughout hospitalisation and concluded upon discharge. We classified stages I to III diseases as mild diseases, whilst stages IV and V as severe diseases. We defined disease complication according to ISARIC -WHO Case Report Form. Table S1 . \u1d5e Other ethnics in Sabah and Sarawak, and indigenous people from Peninsular Malaysia.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 587,
+                    "end": 595,
+                    "text": "Table S1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Study variables and outcomes of interest"
+        },
+        {
+            "text": "Cases' data were de-identified and analysed as a cohort. Cases aged below 12 years were excluded from the analyses for this study. Variables with missing data are reported in Supplementary  Table S1 . Missing data were treated with listwise deletion in subsequent analyses. Continuous measurements were presented as median and interquartile range, while categorical variables were described using frequency and percentage. Mann-Whitney U test and Fisher's exact test were used respectively to compare differences between the severity of COVID-19 cases. Univariate and multivariate logistic regressions were used to analyse risk factors associated with disease severity upon discharge. We selected variables from demographics, clinical histories and assessment, laboratory and imaging investigation to be included in the multivariate logistic regressions, based on clinical justification and statistical reasoning from univariate analyses. Variables from univariate analyses with p < 0.05 were recruited for the multivariate logistic regression model. Multivariate logistic regressions were performed in a stepwise approach with results from the final model reported in this study. The two-sided statistical significance level, p -value, was set at 0.05 for all analyses in this study. R version 3.6.3 used for all analyses.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 175,
+                    "end": 198,
+                    "text": "Supplementary  Table S1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Statistical analyses"
+        },
+        {
+            "text": "None.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Role of funding source"
+        },
+        {
+            "text": "During the study period, 5889 COVID-19 cases were admitted to hospitals nationwide. On admission, 4815 (81.8%) COVID-19 cases presented with stages I and II, followed by 801 (13.6%) at stage III, 210 (3.6%) at stage IV while 63 (1.1%) presented at stage V ( Table 1 ) . Overall, 95% presented with a mild disease on admission, and 3.5% subsequently progressed to severe disease. About 70% were male, whilst the median age was 34 years (24,51) with more than half of the severe cases aged \u2265 51 years. Nearly 23% of the cases were non-Malaysians either visiting or employed in the country, and about 6% were healthcare workers. A significant number of cases (62.7%) had a history of contact with known COVID-19 cases within the past 14 days of diagnosis and/or symptoms onset.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 256,
+                    "end": 267,
+                    "text": "( Table 1 )",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Sociodemographic, clinical histories and disease staging"
+        },
+        {
+            "text": "There were 71 COVID-19 infected pregnant women with 23 being in the first trimester, 18 in the second trimester and 29 in the third trimester. Among them, six cases underwent lower segment Table S1 . \u1d5e Only a total of 4517 chest X-ray being done.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 189,
+                    "end": 197,
+                    "text": "Table S1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Sociodemographic, clinical histories and disease staging"
+        },
+        {
+            "text": "caesarean section with no reported vertical transmission, whereas six had severe COVID-19 with two requiring ICU care.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sociodemographic, clinical histories and disease staging"
+        },
+        {
+            "text": "About 25% of admitted cases had at least one comorbidity, and 1053 (20.0%) had history of medication for chronic diseases. Hypertension was the most common comorbidity (931, 15.8%) followed by diabetes mellitus (578, 9.8%) and asthma (196, 3.3%). About 496 (9.2%) active smokers had mild disease, while 33 (7.0%) had severe COVID-19 disease.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sociodemographic, clinical histories and disease staging"
+        },
+        {
+            "text": "At presentation, it was observed that almost 70% remained afebrile up to admission. Only a quarter of cases with mild disease reported fever as compared to three-quarters of those with severe diseases. The pattern was similar for cough. Out of 329 severe COVID-19 cases with cough, 153 (32.5%) had sputum. Other upper respiratory tract symptoms included sore throat (841, 14.3%) and rhinorrhoea (608, 10.3%). Only less than 3% of cases presented with anosmia. For gastrointestinal symptoms, 298 (5.1%) of cases reported diarrhoea, and diarrhoea was one of the earliest symptoms among severe cases (21%).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sociodemographic, clinical histories and disease staging"
+        },
+        {
+            "text": "The median of illness onset to admission was 3 days (0, 7). Those who had severe COVID-19 were admitted later at day 6 (IQR 3, 9) as compared to those with mild disease.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sociodemographic, clinical histories and disease staging"
+        },
+        {
+            "text": "Higher systolic blood pressure, pulse rate, respiratory rate and temperature upon initial assessment during admission, were observed among those with severe diseases ( Table 2 ) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 166,
+                    "end": 177,
+                    "text": "( Table 2 )",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Clinical assessment, imaging findings and laboratory parameters"
+        },
+        {
+            "text": "Among 5053 (85.8%) cases underwent chest X-ray imaging, 4517 (72.9%) were reported by independent radiologists. Up 26.6% of cases with mild diseases had abnormal features on their chest Xrays. The main abnormalities reported were ground-glass opaci-ties (733, 16.2%), followed by consolidation (379, 8.4%), interstitial opacities (336, 7.4%), and nodular opacities (101, 2.2%).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Clinical assessment, imaging findings and laboratory parameters"
+        },
+        {
+            "text": "Lymphopenia, coupled with raised inflammatory markers, were observed in the severe disease group, apart from increased liver transaminases levels and serum creatinine.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Clinical assessment, imaging findings and laboratory parameters"
+        },
+        {
+            "text": "Hydroxychloroquine was prescribed for more than 37% of cases, mainly those with severe disease ( Table 3 ) . Antiviral agents, especially lopinavir/ritonavir, were initiated for 77% of severe disease. Steroids and tocilizumab were prescribed sparingly, mostly to cases with severe diseases.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 95,
+                    "end": 106,
+                    "text": "( Table 3 )",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Clinical use of medications, complications and clinical outcomes of COVID-19 cases"
+        },
+        {
+            "text": "Acute liver (6.7%) and kidney (4%) injuries, and acute respiratory distress syndrome (ARDS) (2.3%) were the three most common complications seen in our COVID-19 cases. Among those severe cases, 7.7% developed secondary bacteraemia. For cardiac complications, 39 (8.3%) of severe COVID-19 cases developed cardiac arrhythmia. Deep vein thrombosis and pulmonary embolism affected 10 (2.1%) severe COVID-19 cases.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Clinical use of medications, complications and clinical outcomes of COVID-19 cases"
+        },
+        {
+            "text": "A total of 193 (3.3%) ICU admissions were reported in this cohort, with 51 cases admitted for at least 14 days in ICU ( Table 4 ) . Almost all cases admitted longer than 13 days were on invasive ventilation. Almost 80% of all ICU admissions occurred within the first five days of hospitalisation.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 118,
+                    "end": 129,
+                    "text": "( Table 4 )",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "Clinical use of medications, complications and clinical outcomes of COVID-19 cases"
+        },
+        {
+            "text": "For all severe cases, around 40% were admitted into an intensive care unit with 29% requiring invasive ventilation. Duration of hospitalisation was significantly longer among severe cases with a median of 14 (9, 23) days. Our cohort recorded 73 in-hospital deaths with a case fatality rate (CFR) of 1.2%. All mortality occurred ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Clinical use of medications, complications and clinical outcomes of COVID-19 cases"
+        },
+        {
+            "text": "From univariate regression analyses, several factors were associated with severe disease ( Table 5 ). Adjusting these variables in the multivariate complete case analysis model ( n = 2427), severe disease (5.32%) was associated with older age \u226551 years, underlying comorbidities such as chronic kidney disease and chronic pulmonary disease, presenting symptoms such as fever, cough, diarrhoea, shortness of breath, clinically assessed tachypnoea and chest X-ray abnormality as well as high CRP, but not lymphopenia. The odds of an abnormal chest x-ray on admission were five times more in severe COVID-19 cases.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 89,
+                    "end": 98,
+                    "text": "( Table 5",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "Factors associated with severe COVID-19 disease"
+        },
+        {
+            "text": "This study is the first national study in Southeast Asia for all laboratory-confirmed COVID-19 cases representing a whole country's experience with definite outcome showing low mortality. Malaysia implemented serial policies including extensive contact tracing, expedited laboratory testing, compulsory hospital quarantine for those suspected for COVID-19, and instituted movement control order for the public which were made possible by the normative legal acts: Prevention and Control of Infectious Diseases Act 1988 and the Police Act 1967 [13] . We reported up to 92% having mild diseases with a low case fatality rate of 1.2%. These findings were similar to other reports [ 1 , 14 , 15 ] . Older groups were mostly symptomatic, and for those with comorbidities, the likelihood of progressing to poorer outcomes was high [ 16 , 17 ] . In Malaysia, hy- pertension (15.1%), diabetes mellitus (9.8%), cardiovascular disease (3.2%), asthma (3.3%) and chronic kidney disease (1.6%) were the most prevalent comorbidities [18] . The prevalence of chronic diseases amongst COVID-19 cases was below the national average, which suggests that public health preventive measures might have a role in reducing the risk of transmission to this vulnerable population. Our distribution of comorbidities was similar, as reported by Fu et al. in a systematic review of 26 studies in China [19] . The review showed that the median proportion for hypertension was 16.0%, diabetes was 10.1%. In our cohort, underlying comorbidities such as chronic kidney disease and chronic pulmonary disease were associated with severe COVID-19 disease.",
+            "cite_spans": [
+                {
+                    "start": 543,
+                    "end": 547,
+                    "text": "[13]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 677,
+                    "end": 692,
+                    "text": "[ 1 , 14 , 15 ]",
+                    "ref_id": null
+                },
+                {
+                    "start": 825,
+                    "end": 836,
+                    "text": "[ 16 , 17 ]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1019,
+                    "end": 1023,
+                    "text": "[18]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1374,
+                    "end": 1378,
+                    "text": "[19]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The CFR for COVID-19 in Malaysia was low as compared to other coronavirus epidemics such as SARS-CoV (9.5%) and MERS-CoV (34.4%) [20] . Presentation of COVID-19 was milder despite high virological similarity with SARS-CoV causing higher transmissibility than the other two. This could lead to underestimation of CFR due to underreporting of the asymptomatic infected population in the community [21] .",
+            "cite_spans": [
+                {
+                    "start": 129,
+                    "end": 133,
+                    "text": "[20]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 395,
+                    "end": 399,
+                    "text": "[21]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Early hospitalisation leads to enforced separation from the greater community, especially those in vulnerable groups. In Malaysia, the strategy of hospital isolation of all suspected and confirmed individuals contributed to the reduction of local transmission. Our approach was similar to countries demonstrated lower CFR such as Singapore (0.05%) and Republic of Korea (2.10%) where \"trace, test and treat\" was practised [22] [23] [24] . In countries where selective hospitalisation was implemented, the CFR was much higher in Italy (14.24%), Iran (5.47%), United States (3.44%) and United Kingdom (15.25%) [ 16 , 24 , 25 ] . This stringent hospital containment has helped Malaysia in identifying individuals at risk of deterioration and allows for early intervention when they do deteriorate.",
+            "cite_spans": [
+                {
+                    "start": 422,
+                    "end": 426,
+                    "text": "[22]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 427,
+                    "end": 431,
+                    "text": "[23]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 432,
+                    "end": 436,
+                    "text": "[24]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 608,
+                    "end": 624,
+                    "text": "[ 16 , 24 , 25 ]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The majority of affected individuals in Malaysia were of younger age group, with a median age of our sample at 34 years with a male preponderance. In contrast, New York, China, Korea and Singapore reported a much older group of cases between 40 and 63 years. This skewed age distribution could be related to the cluster effect from 3-days religious gathering where more younger males were involved [2] . As asymptomatic transmission and presymptomatic transmission of SARS-CoV2 happens, clustering effects among young males can contribute to a higher transmission rate [ 26 , 27 ] . In addition, effective contact tracing, early confinement and stringent social distancing limited the spread of disease from younger, mobile population to the elderly, as compared to overseas study [28] . This religious clustering effect was similarly noted in countries like Korea, where a sudden spike of cases occurred after a religious congregation with about 5200 followers tested positive [29] . The number of clusters reduced once mass gatherings were suspended in these countries [2] .",
+            "cite_spans": [
+                {
+                    "start": 398,
+                    "end": 401,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 569,
+                    "end": 580,
+                    "text": "[ 26 , 27 ]",
+                    "ref_id": null
+                },
+                {
+                    "start": 781,
+                    "end": 785,
+                    "text": "[28]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 978,
+                    "end": 982,
+                    "text": "[29]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1071,
+                    "end": 1074,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Fever and cough were the commonest symptoms on admission. We found that less than 30% of cases had a fever on admission, and this finding was similar to large cohort studies in China and New York [ 1 , 14 ] . In other coronavirus epidemics such as MERS and SARS, about 98-100% presented with fever on admission [20] . The difference in presentation among these coronavirus diseases is still being investigated, but viral tropism may be a factor [30] . When clinical endpoints were considered, there were no differences in severity of COVID-19 based on gender and ethnicity. This observation was different from the UK and US, where ethnicity was linked to disease severity [ 31 , 32 ] . The Malaysian public healthcare system is subsidised with good accessibility for both citizens and foreigners according to geographical coverage. On the contrary, even with The Families First Coronavirus Response Act (FFCRA) and numerous policies in the US to relieve public health burden, health disparities still prominent as evident by more African Americans had poorer COVID-19 outcomes [ 31 , 33-35 ] .",
+            "cite_spans": [
+                {
+                    "start": 196,
+                    "end": 206,
+                    "text": "[ 1 , 14 ]",
+                    "ref_id": null
+                },
+                {
+                    "start": 311,
+                    "end": 315,
+                    "text": "[20]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 445,
+                    "end": 449,
+                    "text": "[30]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 672,
+                    "end": 683,
+                    "text": "[ 31 , 32 ]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1077,
+                    "end": 1091,
+                    "text": "[ 31 , 33-35 ]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Majority of severe cases (87.4%) had abnormalities on baseline CXR. These non-specific radiographical changes like ground-glass opacity, bilateral lower zone involvements were consistent with computed tomography (CT) findings as described in other studies [ 36 , 37 ] . China utilised CT scan with an artificial intelligent solution and was found to be useful for early detection, but our study showed CXR alone sufficed for COVID-19 management. Furthermore, CXR is low cost, easily performed with a less complex disinfectant protocol as compared to CT scan [38] .",
+            "cite_spans": [
+                {
+                    "start": 256,
+                    "end": 267,
+                    "text": "[ 36 , 37 ]",
+                    "ref_id": null
+                },
+                {
+                    "start": 558,
+                    "end": 562,
+                    "text": "[38]",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Various risk factors have been associated with the worst prognosis throughout the illness [ 16 , 17 , 39 , 40 ] . In our sample, those with higher C-reactive protein had greater disease severity [41] . Other predictors such as older age group, tachypnoea, abnormal CXR findings are also significantly associated with disease severity. These findings were similar to Chang et al. in a sample of 211 cases [42] .",
+            "cite_spans": [
+                {
+                    "start": 90,
+                    "end": 111,
+                    "text": "[ 16 , 17 , 39 , 40 ]",
+                    "ref_id": null
+                },
+                {
+                    "start": 195,
+                    "end": 199,
+                    "text": "[41]",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 404,
+                    "end": 408,
+                    "text": "[42]",
+                    "ref_id": "BIBREF43"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Clinical decisions on the use of medications were made by physicians in-charge with reference to national guideline. Steroid usage in our cohort (2.2%) was very low as compared to four studies from China, ranging from 7.6 to 44.9% [ 41 , 43-45 ] . Although one study indicated steroid may have a beneficial effect by reducing mortality in ARDS, it is not conclusive for routine use of steroid in COVID-19 treatment [46] . The number of cases developed ARDS was low (136, 2.3%) which is comparable with cohort reported by Guan et al. [1] . However, some studies showed a higher prevalence of ARDS (10-40%) presumably due to delay in hospitalisation [ 43 , 44 ] .",
+            "cite_spans": [
+                {
+                    "start": 231,
+                    "end": 245,
+                    "text": "[ 41 , 43-45 ]",
+                    "ref_id": null
+                },
+                {
+                    "start": 415,
+                    "end": 419,
+                    "text": "[46]",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 533,
+                    "end": 536,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 648,
+                    "end": 659,
+                    "text": "[ 43 , 44 ]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The most common extra-pulmonary manifestations were deranged liver function (6.7%) and acute kidney injury (4.0%). Cheng et al. reported that elevated creatinine ( > 132 umol/L) at baseline and acute kidney injury above stage 2 (KDIGO criteria) were associated with higher mortality. The aetiology of kidney involvement is multifactorial with possible direct cytopathic effects on kidney tissues [47] . A review on liver injuries by Cha et al. postulated that this complication could be due to direct viral attack on hepatocyte, cytokine storm or hypoxic injury secondary to severe acute respiratory syndrome [48] . Lower incidence of ARDS compared to acute kidney and liver injuries possibly due to the nature of milder disease occurred in our young cohort [41] .",
+            "cite_spans": [
+                {
+                    "start": 396,
+                    "end": 400,
+                    "text": "[47]",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 609,
+                    "end": 613,
+                    "text": "[48]",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 758,
+                    "end": 762,
+                    "text": "[41]",
+                    "ref_id": "BIBREF42"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "First five days of hospitalisation was vital in COVID-19 management as 85% of ICU admission in the sample occurred at this period. Similarly, Gupta et al. found in a study of 2215 ICU cases in the US, the median time from onset to ICU admission was 7 days [49] . This observation is crucial as close observation for deterioration of COVID-19 cases can be implemented. Beyond this critical period, cases with lesser risk factors can be placed at a quarantine centre with less intensive care facility. Cases with higher CRP level on admission had longer ICU stay, possibly due to its correlation with the level of inflammation reflecting severe COVID-19 disease in early stage [44] .",
+            "cite_spans": [
+                {
+                    "start": 256,
+                    "end": 260,
+                    "text": "[49]",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 675,
+                    "end": 679,
+                    "text": "[44]",
+                    "ref_id": "BIBREF45"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "There were several limitations to this study. We were unable to have standardised laboratory investigations for all cases as these were based on available data according to the study sites. This had led to selective and limited analyses which shall be interpreted with cautions. We also acknowledged recall and documentation biases on clinical histories involving presenting symptoms, duration of illness and exposure history. Hence, we evaluated risk factors for disease severity based on the context of present evidence. Nonetheless, our study recruited a large sample whereby all cases admitted consecutively from 18 hospitals.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In Malaysia, our COVID-19 cohort was younger, with the majority having a mild disease and low mortality. Identification of factors associated with severe disease and early hospitalisation allows risk stratification and monitoring of cases for timely interventions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "All authors contributed equally to this paper.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Contributors"
+        },
+        {
+            "text": "All data used within the study belongs to ClinData_COVID-19 Research Team. Please contact the corresponding author for the data extraction procedure.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data sharing statement"
+        },
+        {
+            "text": "The authors declare no competing interests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of Competing Interest"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Clinical characteristics of coronavirus disease 2019 in China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "New England journal of medicine",
+            "volume": "382",
+            "issn": "18",
+            "pages": "1708--1728",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "COVID-19 and religious congregations: implications for spread of novel pathogens",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Quadri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "International Journal of Infectious Diseases",
+            "volume": "96",
+            "issn": "",
+            "pages": "219--240",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Ministry of Health Malaysia",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "COVID-19 (Latest Updates)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Clinical characteristics of 24 asymptomatic infections with COVID-19 screened among close contacts in Nanjing, China",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science China Life Sciences",
+            "volume": "63",
+            "issn": "5",
+            "pages": "706--717",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Clinical and immunological assessment of asymptomatic SARS-CoV-2 infections",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Long",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Shi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature medicine",
+            "volume": "26",
+            "issn": "8",
+            "pages": "1200--1204",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "497--506",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "The many estimates of the COVID-19 case fatality rate. The Lancet Infectious Diseases",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Rajgor",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Archuleta",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Bagdasarian",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Quek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "20",
+            "issn": "",
+            "pages": "776--783",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Increase in COVID-19 cases and case-fatality and case-recovery rates in Europe: a cross-temporal meta-analysis",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Karada G",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Medical Virology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "The REDCap consortium: building an international community of software platform partners",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Harris",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Taylor",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Minor",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Journal of biomedical informatics",
+            "volume": "95",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "COVID-19 clinical research resources 2020",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Interim Treatment Guidelines for COVID-19 (Version 1.0, dated 2nd",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Chinese Centre for Disease Control and Prevention (2020)",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Movement control as an effective measure against Covid-19 spread in Malaysia: an overview",
+            "authors": [
+                {
+                    "first": "Khd",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Public Health",
+            "volume": "13",
+            "issn": "",
+            "pages": "1--4",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Presenting characteristics, comorbidities, and outcomes among 5700 patients hospitalised with COVID-19 in the New York City Area",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Richardson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hirsch",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Narasimhan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "323",
+            "issn": "20",
+            "pages": "2052--2061",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Association between ages and clinical characteristics and outcomes of coronavirus disease 2019",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Mao",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "European Respiratory Journal",
+            "volume": "55",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1183/13993003.01112-2020"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Factors associated with hospital admission and critical illness among 5279 people with coronavirus disease 2019 in New York City: prospective cohort study",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Petrilli",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ",
+            "volume": "369",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmj.m1966"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Factors associated with COVID-19-related death using OpenSAFELY",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Williamson",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Walker",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Bhaskaran",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "584",
+            "issn": "7821",
+            "pages": "430--436",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2521-4"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "non-communicable diseases, risk factors & other health problems. Institute for Public Health",
+            "authors": [],
+            "year": 2015,
+            "venue": "NHMS 2015)",
+            "volume": "II:",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Clinical characteristics of coronavirus disease 2019 (COVID-19) in China: a systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Fu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Infection",
+            "volume": "80",
+            "issn": "6",
+            "pages": "656--65",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "COVID-19, SARS and MERS: are they closely related? Clinical Microbiology and Infection",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Petrosillo",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Viceconte",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Ergonul",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Ippolito",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Petersen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "26",
+            "issn": "",
+            "pages": "729--734",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cmi.2020.03.026"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Understanding and interpretation of case fatality rate of coronavirus disease 2019",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Choe",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Jeong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Korean Medical Science",
+            "volume": "35",
+            "issn": "12",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3346/JKMS.2020.35.E137"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "COVID-19 in Singapore-current experience: critical global issues that require attention and action",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Leo",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Tan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "323",
+            "issn": "13",
+            "pages": "1243--1247",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Face masks and containment of COVID-19: experience from South Korea",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Yoon",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Hospital Infection",
+            "volume": "106",
+            "issn": "20",
+            "pages": "30302--30311",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Novel Coronavirus ( 2019-nCoV) : situation report -19",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "World Health Organisation",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Case-fatality rate and characteristics of patients dying in relation to COVID-19 in Italy",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Onder",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Rezza",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Brusaferro",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "323",
+            "issn": "18",
+            "pages": "1775--1781",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Rapid asymptomatic transmission of COVID-19 during the incubation period demonstrating strong infectivity in a cluster of youngsters aged 16-23 years outside Wuhan and characteristics of young patients with COVID-19: a prospective contact-tracing study",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Infection",
+            "volume": "80",
+            "issn": "6",
+            "pages": "1--13",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Temporal dynamics in viral shedding and transmissibility of COVID-19",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature medicine",
+            "volume": "26",
+            "issn": "5",
+            "pages": "672--677",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Data from the COVID-19 epidemic in Florida suggest that younger cohorts have been transmitting their infections to less socially mobile older adults",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Harris",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Review of Economics of the Household",
+            "volume": "18",
+            "issn": "",
+            "pages": "1019--1056",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Transmission potential and severity of COVID-19 in South Korea",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Shim",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tariq",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Chowell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "International Journal of Infectious Diseases",
+            "volume": "93",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ijid.2020.03.031"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Tropism, replication competence, and innate immune responses of influenza virus: an analysis of human airway organoids and ex-vivo bronchus cultures",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Hui",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Ching",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Lancet Respiratory Medicine",
+            "volume": "6",
+            "issn": "11",
+            "pages": "846--54",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Hospitalization and mortality among black patients and white patients with COVID-19",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Price-Haywood",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Burton",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Fort",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Seoane",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "New England Journal of Medicine",
+            "volume": "382",
+            "issn": "26",
+            "pages": "2534--2577",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Covid-19: PHE review has failed ethnic minorities, leaders tell BMJ",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Iacobucci",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ",
+            "volume": "369",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Cognitive bias and public health policy during the COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Halpern",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Truog",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Miller",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "324",
+            "issn": "4",
+            "pages": "337--345",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Covid-19 and the need for health care reform",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "King",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "New England Journal of Medicine",
+            "volume": "382",
+            "issn": "26",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Assessing racial and ethnic disparities using a COVID-19 outcomes continuum for New York State",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Holtgrave",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Barranco",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Tesoriero",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Blog",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Rosenberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Annals of epidemiology",
+            "volume": "48",
+            "issn": "",
+            "pages": "9--14",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Radiology perspective of coronavirus disease 2019 (COVID-19): lessons from severe acute respiratory syndrome and middle east respiratory syndrome",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hosseiny",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kooraki",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gholamrezanezhad",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Reddy",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Myers",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "American Journal of Roentgenology",
+            "volume": "214",
+            "issn": "5",
+            "pages": "1078--82",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Essentials for radiologists on COVID-19: an update-radiology scientific expert panel",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Kanne",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Little",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chung",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Elicker",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Ketai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Radiology",
+            "volume": "296",
+            "issn": "2",
+            "pages": "113--127",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Operational strategies to prevent coronavirus disease 2019 (COVID-19) spread in radiology: experience from a Singapore radiology department after severe acute respiratory syndrome",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Goh",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Chua",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of the American College of Radiology",
+            "volume": "17",
+            "issn": "6",
+            "pages": "717--740",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Risk factors of critical & mortal COVID-19 cases: a systematic literature review and meta-analysis",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Infection",
+            "volume": "81",
+            "issn": "2",
+            "pages": "16--25",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Clinical features of COVID-19 and factors associated with severe clinical course: a systematic review and meta-analysis. SSRN",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Arora",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sharma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "3566166",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Risk factors associated with acute respiratory distress syndrome and death in patients with coronavirus disease 2019 pneumonia in Wuhan, China",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Cai",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA internal medicine",
+            "volume": "180",
+            "issn": "7",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jamainternmed.2020.0994"
+                ]
+            }
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Risk factors for disease progression in COVID-19 patients",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMC Infectious Diseases",
+            "volume": "20",
+            "issn": "1",
+            "pages": "1--6",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Persistence and clearance of viral RNA in 2019 novel coronavirus disease rehabilitation patients",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ling",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chinese Medical Journal",
+            "volume": "133",
+            "issn": "9",
+            "pages": "1039--1082",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Clinical characteristics of 138 hospitalised patients with 2019 novel coronavirus-infected pneumonia in Wuhan, China",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "323",
+            "issn": "11",
+            "pages": "1061--1069",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Clinical characteristics of novel coronavirus cases in tertiary hospitals in Hubei Province",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chinese Medical Journal",
+            "volume": "133",
+            "issn": "9",
+            "pages": "1025--1056",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Use of corticosteroids in coronavirus disease 2019 pneumonia: a systematic review of the literature",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Veronese",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Demurtas",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Frontiers in Medicine",
+            "volume": "7",
+            "issn": "170",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Kidney disease is associated with in-hospital death of patients with COVID-19",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Kidney International",
+            "volume": "97",
+            "issn": "5",
+            "pages": "829--867",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Gastrointestinal and hepatic manifestations of COVID-19: a comprehensive review",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Cha",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Regueiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Sandhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "World Journal of Gastroenterology",
+            "volume": "26",
+            "issn": "",
+            "pages": "2323--2355",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Factors associated with death in critically ill patients with coronavirus disease 2019 in the US",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gupta",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hayek",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA Internal Medicine",
+            "volume": "180",
+            "issn": "11",
+            "pages": "1436--1446",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": "Sociodemographic, clinical histories and disease staging of COVID-19 cases upon admission.Data are median (IQR) or n (%). P values were calculated by Mann-Whitney U test or Fisher's exact test, as appropriate. * There were missing data for this variable with details reported in",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Clinical assessment, imaging findings and laboratory parameters of cases with COVID-19 cases upon admission. There were missing data for all laboratory parameters, ranging between 40.3% and 59.2% with details reported in",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Clinical use of medications, complications and clinical outcomes of COVID-19 cases.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Characteristics of COVID-19 cases admitted to intensive care unit.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Risk factors associated with COVID-19 severity.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We acknowledge all healthcare workers involved in the treatment of COVID-19 cases in Malaysia; we thank our infectious disease team and researchers from 18 designated COVID-19 treat-ing hospitals for assisting in data collection we thank our infectious disease team and researchers from 18 designated COVID-19 treating hospitals for assisting in data collection (Supplementary Table  S2 for list of contributors); we thank WHO and the International Severe Acute Respiratory and Emerging Infections Consortium (IS-ARIC) for sharing case report form publicly online, and we thank the Director-General of Health Malaysia for his permission to publish the article.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 377,
+                    "end": 386,
+                    "text": "Table  S2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Acknowledgments"
+        },
+        {
+            "text": "Supplementary materials associated with this article can be found, in the online version, at doi: 10.1016/j.lanwpc.2020.10 0 055 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary materials"
+        }
+    ]
+}

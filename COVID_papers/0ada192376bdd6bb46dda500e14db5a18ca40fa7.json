@@ -1,0 +1,831 @@
+{
+    "paper_id": "0ada192376bdd6bb46dda500e14db5a18ca40fa7",
+    "metadata": {
+        "title": "",
+        "authors": []
+    },
+    "abstract": [
+        {
+            "text": "Background: Some coronavirus disease 2019 patients initially present with early oxygen demand, requiring more medical resources, and some develop severe conditions, while others worsen later in their clinical course. Whether the nature of the two groups is the same but in the spectrum of different diagnostic time points is not certain. Methods: Hospitalized COVID-19 patients who needed oxygen therapy from February to November 2020 were included in the study. The patients were divided into early and late groups based on the time when the oxygen requirement occurred. Basic and epidemiologic characteristics were compared. Clinical variables were analyzed in both groups. Results: A total of 164 patients needed oxygen therapy, 94 of whom were in the early group and 70 of whom were in the late group. The early and late groups had similar baseline characteristics except age (median age, 73 vs. 67 years), uncertain exposure history (50% vs. 31.4%) and the time from the onset of illness to admission (median, 5 vs. 2 days). Multivariate analysis showed that age > 65 years (OR, 4.65), symptom onset > 5 days (OR, 9.13) and several clinical manifestations, such as febrile sensation (OR, 6.01), dyspnea (OR, 30.0), C-reactive protein > 1 mg/dL (OR, 7.87) and chest X-ray abnormality (OR, 8.15), were predictive factors in the early group. The early group required more intensive care such as mechanical ventilation care, extracorporeal membrane oxygenation and death (29.8% vs. 14.3%, P = 0.002). Conclusion: Older age, especially > 65 years, and a delay of over 5 days from the onset of illness to admission were associated with early oxygen demand in COVID-19 patients. Interventions for earlier diagnosis of elderly people may benefit clinical outcomes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Since December 2019, the novel severe acute respiratory syndrome-coronavirus-2 (SARS-CoV-2) that causes coronavirus disease 2019 (COVID-19) 1 has led to a worldwide pandemic. 2 The pandemic has resulted in substantial morbidity and mortality, threatening the collapse of medical systems. The clinical course of COVID-19 varies from asymptomatic to severe or critical. Most patients have mild to moderate disease (81%), but 14% have severe disease and 5% have critical disease. [3] [4] [5] Patients with mild to moderate COVID-19 can be managed well in community-treatment centers (CTCs), 6,7 but patients with severe COVID-19 require treatment at hospital settings to receive various managements, including oxygen supplementation. Therefore, it is important to recognize severe COVID-19 in a timely manner when medical resources are insufficient. One of the most important things in the management of severe COVID-19 is supplemental oxygenation therapy. 8 Some patients need oxygen therapy in the early stages of hospitalization, while others need oxygen therapy in the late stage of hospitalization. Many previous studies have identified several risk factors for severe COVID-19, such as old age, obesity, diabetes and hypertension. 9-12 However, the differences underlying an early oxygen requirement and late oxygen requirement in COVID-19 are still unknown, and there are still difficulties in managing patients who progress early during hospitalization. The purpose of this study was to investigate whether there are differences in the epidemiologic and clinical characteristics of COVID-19 patients with an early oxygen requirement and those with a late oxygen requirement.",
+            "cite_spans": [
+                {
+                    "start": 175,
+                    "end": 176,
+                    "text": "2",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 477,
+                    "end": 480,
+                    "text": "[3]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 481,
+                    "end": 484,
+                    "text": "[4]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 485,
+                    "end": 488,
+                    "text": "[5]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 954,
+                    "end": 955,
+                    "text": "8",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "This retrospective, single-center study was conducted on patients aged \u2265 18 years old with confirmed SARS-CoV-2 infection admitted to Boramae Medical Center in Seoul, South Korea, and who were finally discharged from February to November 2020. Patients who were admitted directly from the community were included, and those who were referred by CTCs or other hospitals were excluded. Patients with COVID-19 were defined as having a positive real-time reverse transcription polymerase chain reaction (rRT-PCR) test result targeting the E gene and RdRP gene of SARS-CoV-2 according to the definition of the Korea Centers for Disease Control and Prevention (KCDC). 13 The requirement for supplementary oxygen therapy among the COVID-19 patients was classified as 'early' versus 'late' according to the temporal urgency after hospital admission. Oxygen requirement was defined as continuous oxygen demand for more than 24 consecutive hours. The early group was defined as cases that needed oxygen therapy within 3 days of hospitalization, and the late group was defined as cases that needed oxygen therapy after > 3 days. The '3 days' was arbitrarily set up in this study considering the usual working time required for the initial evaluation. The baseline demographic and epidemiologic characteristics were compared to assess the homogeneity of the two groups. Clinical course and outcome were also compared. Outcomes were defined as the maximum level of oxygen supplementation during the entire hospitalization period, and death was defined as a case of death during hospitalization, regardless of the level of oxygen supplementation. We retrospectively collected epidemiologic, clinical and laboratory variables and underlying comorbidities using electronic medical records. However, the epidemiologic data were based on the individual formal official report made by the KCDC. For the initial clinical variables, the worst values during the first 24 hours after hospitalization were selected. Febrile sensation was subjectively expressed by patients, and objective fever was defined as an axillary temperature of 37.5\u00b0C or higher. As of November 2020, the Korean government instituted a policy requiring all COVID-19 patients to be admitted at either a CTC or hospital for isolation and clinical care immediately after the confirmation of their COVID-19 diagnosis.",
+            "cite_spans": [
+                {
+                    "start": 662,
+                    "end": 664,
+                    "text": "13",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Patients, study design and data collection"
+        },
+        {
+            "text": "Continuous variables were presented as the mean \u00b1 standard deviation or the median with the range. Categorical variables were presented as counts and percentages. Univariate analysis was performed to compare the early and late groups using Student's t-test or a Mann-Whitney test and a chi-square test or Fisher's exact test, depending on the type of variables. Multivariable logistic regression was performed to determine the risk factors for the early group using variables with P < 0.1 in the univariate analysis. Age group analysis was categorized in 10-years intervals, and then further sub-categorized by 5-years interval to find out the risky age group. A P < 0.05 was considered statistically significant. Statistical analyses were performed using IBM SPSS Statistics, version 26.0 (IBM Corp., Armonk, NY, USA).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "This study was approved by the Institutional Review Board at Boramae Medical Center (10-2020-33), and informed consent was waived by the Institutional Review Board because of the retrospective nature of the study. This study was in compliance with the Helsinki Declaration.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ethics statement"
+        },
+        {
+            "text": "During the study period, 174 COVID-19 patients who required oxygen therapy after admission were screened. A total of 164 patients were finally included in this study, excluding 10 patients who were referred by CTCs or other hospitals. Among them, 94 patients needed supplemental oxygen therapy within 3 days of hospitalization (the early group), and the other 70 patients needed supplemental oxygen therapy after 3 days (the late group) ( Table 1 ). The two groups showed similar demographic baselines except for older age in the early group (median 73 vs. 67 years, P = 0.002).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 439,
+                    "end": 446,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "Epidemiologically, the early group had a more uncertain exposure history, and the late group had a more definite exposure history, such as direct contact with confirmed patients or association with large-scale outbreaks (50% vs. 68.6%, P = 0.017). The duration from the onset of symptoms to hospitalization was significantly longer in the early group (median 5 days vs. 2 days, P < 0.001). The median duration from diagnosis to hospitalization was 0 days in both groups, indicating that most patients were hospitalized immediately after diagnosis. The median duration from onset of symptoms to initial oxygen requirement was 6 and 8 days (P < 0.001) in the early and late groups, respectively. With regard to the clinical variables at admission, the early group showed more febrile sensation (64.9% vs. 42.9%, P = 0.005), general weakness (14.9% vs. 4.3%, P = 0.037) and dyspnea (38.3% vs. 1.4%, P < 0.001), and the late group was more asymptomatic (2.1% vs. 20%, P < 0.001). The laboratory findings showed that leukocytosis and an elevation of aspartate transaminase, lactate dehydrogenase and C-reactive protein (CRP) were more prominent in the early group. Lung infiltration was present in 96.8% of the early group and in 64.3% of the late group (P < 0.001) ( Table 1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1263,
+                    "end": 1271,
+                    "text": "Table 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "Multivariate analysis showed that older age, especially > 65 years (odds ratio [OR], 4.65), and symptoms for more than 5 days at admission (OR, 9.13) were significant predictors in the early group, and febrile sensation (OR, 6.01), dyspnea (OR, 30.0), increased CRP > 1 mg/dL (OR, 7.87) and chest X-ray abnormality (OR, 8.15) were more prominent in the early group ( Table 2) . Critical outcomes, such as mechanical ventilation care, extracorporeal membrane oxygenation and death, were higher in the early group (29.8% vs. 14.3%, P = 0.002), especially in the group over 65 years of age. Regarding the treatment options, the use of dexamethasone was higher in Onset of illness to admission 5 (0-16) 2 (\u22125-14) a < 0.001 Diagnosis to admission 0 (0-3) 0 (0-2) 0.271 Data are presented as number (%), unless otherwise indicated. BMI = body mass index, SD = standard deviation, COPD = chronic obstructive pulmonary disease, WBC = white blood cells, PLT = platelets, AST = aspartate transaminase, ALT = alanine transaminase, LDH = lactate dehydrogenase, CRP = C-reactive protein, SOFA score = Sequential Organ Failure Assessment score. a the early group (71.3% vs. 55.7%, P = 0.039), and remdesivir tended to be used more in the early group (59.6% vs. 44.3%, P = 0.052). In-hospital mortality was also higher in the early group, but the difference was not statistically significant ( Table 3) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 367,
+                    "end": 375,
+                    "text": "Table 2)",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 1379,
+                    "end": 1387,
+                    "text": "Table 3)",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "As of February 2021, South Korea has maintained a strategy of prompt tracking, mass diagnosis and early isolation for most COVID-19 patients. Under these circumstances, most patients are admitted to CTCs 6 or hospitals without delay, and clinicians have found that some patients become aggravated just after admission, requiring supplemental oxygen therapy, and others go through the usual clinical course of 14 In this study, the two groups had similar baseline characteristics except older age and delayed diagnosis combined with delayed admission in the early group. Other factors, such as febrile sensation, dyspnea, increased CRP and chest X-ray abnormality, were associated with this group, indicating a characteristic of severe inflammation in this group. Moreover, the early group had worse critical clinical outcomes. Timely diagnosis seems to be crucial in older people.",
+            "cite_spans": [
+                {
+                    "start": 409,
+                    "end": 411,
+                    "text": "14",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The strategy of rapid tracking and mass diagnostic approaches not only prevents subsequent infections but also enables COVID-19 patients to be admitted quickly for standard care. 15 The patients with a definite exposure history tended to be diagnosed earlier, and their oxygen requirements were delayed. On the other hand, the early group tended to have an uncertain exposure history and was therefore not included in the active scope of tracking and diagnosis, which resulted in delayed diagnosis. There is doubt that early supportive care is beneficial in the absence of sufficiently effective specific therapeutics against COVID-19. However, our results showed that the duration from onset of illness to oxygen requirement was shorter in the early group, which suggests that early best supportive medical care is beneficial. During the study period, antibody therapy was not available, and due to the shortage, the government allowed remdesivir for patients only after the occurrence of oxygen demand. We do not use steroids in the early phase. Thus, specific therapeutics might not play a role in the improvement before the initiation of oxygen therapy. With the oxygen therapy the antiviral or anti-inflammatory treatments were more common in the early group, which might be related to the severer clinical status of the group. Clinical outcomes were also poorer, and in-hospital mortality tended to be increased in the early group.",
+            "cite_spans": [
+                {
+                    "start": 179,
+                    "end": 181,
+                    "text": "15",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The strategy of mass tracking and hospitalization of every case requires considerable resources, and sustainability is a continuous issue to overcome. Not every country can afford this approach. Thus, a focused approach to target older people and to provide selective tracking, diagnostic testing and timely medical care may be a reasonable option. In view of the relatively mild nature of COVID-19 in young people, this strategy may not be harmful. Our results provide positive evidence supporting a targeted approach for certain at-risk groups. Other factors may play a role in the individual differences in immune responses or immunity to COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Our study has some limitations. First, it was a retrospective single-center study, and the number of subjects was relatively small. There were some patients with dementia from outbreaks in nursing homes who could not present their symptoms. Second, there might be some bias in selection of subjects because patients referred from CTCs or other hospitals were excluded. However, this study center is a public hospital where most patients are admitted without specific limitations. Third, other factors, such as individual differences in immune responses or age-related immunity to COVID-19, might have played a role. Basic research combined with clinical analysis may better explain the different severities of COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "In conclusion, our study showed that older age, especially >65 years, and a delay of over 5 days from the onset of illness to admission, are associated with early oxygen demand in COVID-19 patients. Interventions for earlier diagnosis of elderly people may lead to a better clinical outcome. A focused strategy of mass tracking and isolation may deserve attention in the later stage of the COVID-19 pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A novel coronavirus from patients with pneumonia in China",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "8",
+            "pages": "727--760",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "World Health Organization. Coronavirus Disease (COVID-2019) Situation Reports. Geneva: World Health Organization",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Clinical characteristics of coronavirus disease 2019 in China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Ou",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "He",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "18",
+            "pages": "1708--1728",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Characteristics of and important lessons from the coronavirus disease 2019 (COVID-19) outbreak in China: summary of a report of 72 314 cases from the Chinese Center for Disease Control and Prevention",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mcgoogan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "323",
+            "issn": "13",
+            "pages": "1239--1281",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Epidemiological and clinical characteristics of coronavirus disease 2019 in Daegu, South Korea",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Hong",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hyun",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Suh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Infect Dis",
+            "volume": "98",
+            "issn": "",
+            "pages": "462--468",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Selecting coronavirus disease 2019 patients with negligible risk of progression: early experience from non-hospital isolation facility in Korea",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Choe",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Oh",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Im",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Korean J Intern Med",
+            "volume": "35",
+            "issn": "4",
+            "pages": "765--70",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Operating protocols of a community treatment center for isolation of patients with coronavirus disease",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Jung",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Cho",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "South Korea. Emerg Infect Dis",
+            "volume": "26",
+            "issn": "10",
+            "pages": "2329--2366",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Cumulative oxygen deficit is a novel predictor for the timing of invasive mechanical ventilation in COVID-19 patients with respiratory distress",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ge",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Lv",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "PeerJ",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Clinical characteristics of COVID-19: clinical dynamics of mild severe acute respiratory syndrome coronavirus 2 infection detected by early active surveillance",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Suh",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Heo",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Korean Med Sci",
+            "volume": "35",
+            "issn": "32",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Clinical characteristics and mortality predictors of COVID-19 patients hospitalized at nationally-designated treatment hospitals",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Moon",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Korean Med Sci",
+            "volume": "35",
+            "issn": "36",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Risk factors for Covid-19 severity and fatality: a structured literature review",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wolff",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Nee",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hickey",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Marschollek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Infection",
+            "volume": "49",
+            "issn": "1",
+            "pages": "15--28",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Prevalence of comorbidities and its effects in patients infected with SARS-CoV-2: a systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Gou",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Pu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Infect Dis",
+            "volume": "94",
+            "issn": "",
+            "pages": "91--96",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "1054--62",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Application of testing-tracing-treatment strategy in response to the COVID-19 outbreak in Seoul",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Huh",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Korea. J Korean Med Sci",
+            "volume": "35",
+            "issn": "45",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "TABREF2": {
+            "text": "Risk",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Clinical outcomes between the early group and the late group",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors have no potential conflicts of interest to disclose.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "acknowledgement"
+        }
+    ]
+}

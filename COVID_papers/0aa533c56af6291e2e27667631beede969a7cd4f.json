@@ -1,0 +1,1257 @@
+{
+    "paper_id": "0aa533c56af6291e2e27667631beede969a7cd4f",
+    "metadata": {
+        "title": "SARS-CoV-2 antibody responses in children with MIS-C and mild and severe COVID-19",
+        "authors": [
+            {
+                "first": "Elizabeth",
+                "middle": [
+                    "M"
+                ],
+                "last": "Anderson",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Pennsylvania",
+                    "location": {
+                        "settlement": "Philadelphia",
+                        "region": "PA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Caroline",
+                "middle": [],
+                "last": "Diorio",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Pennsylvania Perelman School of Medicine",
+                    "location": {
+                        "settlement": "Philadelphia",
+                        "region": "PA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Eileen",
+                "middle": [
+                    "C"
+                ],
+                "last": "Goodwin",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Pennsylvania",
+                    "location": {
+                        "settlement": "Philadelphia",
+                        "region": "PA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Kevin",
+                "middle": [
+                    "O"
+                ],
+                "last": "Mcnerney",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Pennsylvania Perelman School of Medicine",
+                    "location": {
+                        "settlement": "Philadelphia",
+                        "region": "PA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Madison",
+                "middle": [
+                    "E"
+                ],
+                "last": "Weirick",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Pennsylvania",
+                    "location": {
+                        "settlement": "Philadelphia",
+                        "region": "PA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sigrid",
+                "middle": [],
+                "last": "Gouma",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Pennsylvania",
+                    "location": {
+                        "settlement": "Philadelphia",
+                        "region": "PA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Marcus",
+                "middle": [
+                    "J"
+                ],
+                "last": "Bolton",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Pennsylvania",
+                    "location": {
+                        "settlement": "Philadelphia",
+                        "region": "PA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Claudia",
+                "middle": [
+                    "P"
+                ],
+                "last": "Arevalo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Pennsylvania",
+                    "location": {
+                        "settlement": "Philadelphia",
+                        "region": "PA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Julie",
+                "middle": [],
+                "last": "Chase",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Pennsylvania Perelman School of Medicine",
+                    "location": {
+                        "settlement": "Philadelphia",
+                        "region": "PA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Philip",
+                "middle": [],
+                "last": "Hicks",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Tomaz",
+                "middle": [
+                    "B"
+                ],
+                "last": "Manzoni",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Pennsylvania",
+                    "location": {
+                        "settlement": "Philadelphia",
+                        "region": "PA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Amy",
+                "middle": [
+                    "E"
+                ],
+                "last": "Baxter",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Pennsylvania",
+                    "location": {
+                        "settlement": "Philadelphia",
+                        "region": "PA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Kurt",
+                "middle": [
+                    "P"
+                ],
+                "last": "Andrea",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Pennsylvania",
+                    "location": {
+                        "settlement": "Philadelphia",
+                        "region": "PA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Chakkapong",
+                "middle": [],
+                "last": "Burudpakdee",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Pennsylvania Perelman School of Medicine",
+                    "location": {
+                        "settlement": "Philadelphia",
+                        "region": "PA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jessica",
+                "middle": [
+                    "H"
+                ],
+                "last": "Lee",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Pennsylvania Perelman School of Medicine",
+                    "location": {
+                        "settlement": "Philadelphia",
+                        "region": "PA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Laura",
+                "middle": [
+                    "A"
+                ],
+                "last": "Vella",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Pennsylvania",
+                    "location": {
+                        "settlement": "Philadelphia",
+                        "region": "PA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sarah",
+                "middle": [
+                    "E"
+                ],
+                "last": "Henrickson",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Division of Allergy and Immunology",
+                    "institution": "University of Pennsylvania Perelman School of Medicine",
+                    "location": {
+                        "settlement": "Philadelphia",
+                        "region": "PA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Rebecca",
+                "middle": [
+                    "M"
+                ],
+                "last": "Harris",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Pennsylvania Perelman School of Medicine",
+                    "location": {
+                        "settlement": "Philadelphia",
+                        "region": "PA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "E",
+                "middle": [
+                    "John"
+                ],
+                "last": "Wherry",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Pennsylvania",
+                    "location": {
+                        "settlement": "Philadelphia",
+                        "region": "PA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Paul",
+                "middle": [],
+                "last": "Bates",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Pennsylvania",
+                    "location": {
+                        "settlement": "Philadelphia",
+                        "region": "PA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Hamid",
+                "middle": [],
+                "last": "Bassiri",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Pennsylvania Perelman School of Medicine",
+                    "location": {
+                        "settlement": "Philadelphia",
+                        "region": "PA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Edward",
+                "middle": [
+                    "M"
+                ],
+                "last": "Behrens",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Pennsylvania Perelman School of Medicine",
+                    "location": {
+                        "settlement": "Philadelphia",
+                        "region": "PA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "David",
+                "middle": [
+                    "T"
+                ],
+                "last": "Teachey",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Pennsylvania Perelman School of Medicine",
+                    "location": {
+                        "settlement": "Philadelphia",
+                        "region": "PA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Scott",
+                "middle": [
+                    "E"
+                ],
+                "last": "Hensley",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Pennsylvania",
+                    "location": {
+                        "settlement": "Philadelphia",
+                        "region": "PA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "SARS-CoV-2 antibody responses in children remain poorly characterized. Here, we show that pediatric patients with multisystem inflammatory syndrome in children (MIS-C) possess higher SARS-CoV-2 spike IgG titers compared to those with severe coronavirus disease 2019 (COVID-19), likely reflecting a longer time since onset of infection in MIS-C patients.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) manifests differently in pediatric populations. While the absolute numbers and rate of development of severe coronavirus disease 2019 (COVID- 19) is significantly lower in children compared to adults (1), some pediatric patients develop severe to critical illness. Pediatric patients can also become afflicted with multisystem inflammatory syndrome in children (MIS-C) (2, 3) . MIS-C is a syndrome that is typically seen in previously healthy children and manifests as a hyperinflammatory syndrome with multiorgan involvement that has some overlapping clinical features with Kawasaki disease shock syndrome (4) (5) (6) (7) (8) (9) .",
+            "cite_spans": [
+                {
+                    "start": 203,
+                    "end": 206,
+                    "text": "19)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 430,
+                    "end": 433,
+                    "text": "(2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 434,
+                    "end": 436,
+                    "text": "3)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 668,
+                    "end": 671,
+                    "text": "(4)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 672,
+                    "end": 675,
+                    "text": "(5)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 676,
+                    "end": 679,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 680,
+                    "end": 683,
+                    "text": "(7)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 684,
+                    "end": 687,
+                    "text": "(8)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 688,
+                    "end": 691,
+                    "text": "(9)",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "In adults, acute COVID-19 cardiovascular syndrome (ACovCS) can occur and has several overlapping clinical presentations with MIS-C including elevated inflammatory cytokines and myocarditis (10, 11) . While it is believed that MIS-C represents a post-infectious sequela of SARS-CoV-2, the pathophysiology of this syndrome has not yet been delineated. We sought to determine the humoral responses to SARS-CoV-2 in children presenting with COVID-19 vs. MIS-C to help illuminate potential pathophysiologies induced by the virus.",
+            "cite_spans": [
+                {
+                    "start": 189,
+                    "end": 193,
+                    "text": "(10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 194,
+                    "end": 197,
+                    "text": "11)",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "We enrolled patients based on evidence of past or active SARS-CoV-2 infection (by positive RT-PCR in blood, stool or mucosa, the presence of serum IgG to SARS-CoV-2) or a very high clinical suspicion of MIS-C (12) . Patients were categorized into three diseases phenotypes (MIS-C, severe COVID-19, or minimal COVID-19) after enrollment into the study. Patients were categorized as having MIS-C per the CDC case definition of MIS-C (13) . Patients who presented with a primarily respiratory process requiring an increase in positive pressure support above their baseline and did not meet the criteria for MIS-C were categorized as having \"severe COVID-19\". Patients were classified as having \"minimal COVID-19\" if they required hospitalization but did not otherwise meet criteria for MIS-C or severe COVID-19. Co-infections were identified by chart review for microbiologically proven infections that were deemed clinically significant by a panel of infectious disease physicians.",
+            "cite_spans": [
+                {
+                    "start": 209,
+                    "end": 213,
+                    "text": "(12)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 431,
+                    "end": 435,
+                    "text": "(13)",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Study participants"
+        },
+        {
+            "text": "Co-infections were included if they occurred contemporaneously with acute COVID-19 infection of A c c e p t e d M a n u s c r i p t 4 MIS-C. Immunocompromise was defined in patients with primary immunodeficiency, receiving cancer chemotherapy, within 2 months of solid organ transplantation or hematopoietic stem cell transplantation, high dose steroid (>20 mg or >2 mg/kg/day of prednisone for at least 14 days), receiving immunomodulating agents, or asplenia or functional asplenia (14). This study was approved by the institutional review board at the Children's Hospital of Philadelphia. Verbal informed consent was obtained from patients or their guardians in accordance with the Declaration of Helsinki. Due to the COVID-19 pandemic, verbal consent was obtained and written consent was signed by the consenting physician. All participants were provided with a paper copy of the consent form.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study participants"
+        },
+        {
+            "text": "A real time-PCR assay for SARS-CoV-2 RNA was performed in a CLIA certified high-complexity clinical laboratory using a laboratory developed test with emergency use authorization from the FDA (12) . The assay contained a primer/probe set for amplification and detection of a region of the SARS-CoV-2 nucleocapsid gene (N2) multiplexed with a primer/probe set for amplification of human \uf062actin as an internal control. RNA extraction from clinical samples was performed using the Roche MagNA Pure LC Total Nucleic Acid automated extraction platform. RT-PCR was performed using the Applied Biosystems Quant Studio DX using TaqMan chemistry. A cycle threshold (Ct) of 45 or lower for the SARS-CoV-2 N2 target was defined as a positive result.",
+            "cite_spans": [
+                {
+                    "start": 191,
+                    "end": 195,
+                    "text": "(12)",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Detection of SARS-CoV-2 Nucleic Acid"
+        },
+        {
+            "text": "Serum IgG, IgM, and IgA antibody titers against SARS-CoV-2 antigens were quantified by enzymelinked immunosorbent assays (ELISA) as previously described (15) . Plasmids encoding the full- A c c e p t e d M a n u s c r i p t 5 phosphate buffered saline. Serum antibody titers were expressed as the reciprocal serum dilution at a set OD that was based off of a standard curve from the monoclonal antibody CR3022 starting at 0.5 \u03bcg/mL (for S and S-RBD ELISAs) or serially diluted pooled serum from actively SARS-CoV-2 infected adults (for N ELISAs). The plasmids to express CR3022 were a provided by Ian Wilson (Scripps Research Institute, San Diego CA). Standard curves were included on every plate to control for plate-to-plate variation.",
+            "cite_spans": [
+                {
+                    "start": 153,
+                    "end": 157,
+                    "text": "(15)",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Quantification of SARS-CoV-2 serum antibody titers"
+        },
+        {
+            "text": "Vesicular stomatitis virus (VSV) pseudotypes with SARS-CoV-2 S were produced for neutralization assays. 293T cells plated 24 hours previously at 5 X 10 6 cells per 10 cm dish were transfected using calcium phosphate with 35\u03bcg of pCG1 SARS-CoV S delta18 expression plasmid encoding a codon ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Production of VSV pseudotypes with SARS-CoV-2 S for neutralization assays"
+        },
+        {
+            "text": "Serum neutralizing antibody titers were measured using pseudo-typed VSV. All sera were heatinactivated for 1 hour at 55\u2070 C prior to use in neutralization assay. Vero E6 cells stably expressing TMPRSS2 were seeded in 100 \u03bcl at 2. was measured as the greatest serum dilution at which focus count was reduced by at least 50% relative to control cells that were infected with pseudo-type virus in the absence of patient serum. FRNT 50 titers for each sample were measured in at least two technical replicates performed on separate days.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Antibody neutralization assay using VSV\u0394G-RFP SARS-CoV-2"
+        },
+        {
+            "text": "Reciprocal serum dilution antibody titers were log2 transformed for statistical analysis. ELISA antibody titers below the limit of detection were set to a reciprocal titer of 25. Log2 transformed antibody titers were compared with one-way ANOVAs and unpaired t-tests. Statistical significance was set to p-value <0.05. Linear regressions were also performed using log2 transformed titers and untransformed data from the other variables. Statistical analyses were performed using Prism version 8 (GraphPad Software, San Diego CA). We performed ELISAs to measure serum IgG antibodies against the SARS-CoV-2 full-length spike protein (S), the receptor binding domain (S-RBD) of the S protein (3, 15) , and the nucleocapsid (N) protein ( Figure 1A-C) . We found that children with minimal COVID-19 had varied levels of serum IgG against all SARS-CoV-2 antigens tests (Figure 1) , which likely reflects the clinical heterogeneity of these patients. Half of the children with minimal COVID-19 (5 of 10) were",
+            "cite_spans": [
+                {
+                    "start": 689,
+                    "end": 692,
+                    "text": "(3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 693,
+                    "end": 696,
+                    "text": "15)",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 734,
+                    "end": 746,
+                    "text": "Figure 1A-C)",
+                    "ref_id": null
+                },
+                {
+                    "start": 863,
+                    "end": 873,
+                    "text": "(Figure 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "immunocompromised, yet the majority (4/5) still mounted a SARS-CoV-2 S-specific IgG response.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "To determine the humoral responses to SARS-CoV"
+        },
+        {
+            "text": "We observed no difference between SARS-CoV-2 antibody levels in children with or without immunodeficiency. These patients were either completely asymptomatic with respect to SARS-CoV-2 (n=2), or were admitted for treatment of another infection (n=3). In contrast, we found that the majority of children with severe COVID-19 had undetectable levels of SARS-CoV-2 S, S-RBD, and N IgG antibodies ( Figure 1A-C) . This observation stands in contrast to that in adults with severe COVID-19, who typically possess higher levels of SARS-CoV-2 antibodies compared to adults with milder disease (17, 18) . We found that patients with MIS-C had higher IgG antibody titers against S-RBD and full-length S (p=0.010 and p=0.025 in one-way ANOVA, respectively) compared to children with severe COVID-19 ( Figure 1C ). Children with MIS-C also had elevated levels of serum anti-SARS-CoV-2 N antibodies; however, this was not significantly higher than children with minimal or severe disease. We also performed ELISAs to measure serum IgM and IgA antibodies A c c e p t e d M a n u s c r i p t 8 against the SARS-CoV-2 S, S-RBD, and N proteins ( Figure 1D-I) . Unlike IgG titers, we found no statistically significant differences in IgM antibody titers between children with different SARS-CoV-2 diseases. We found that children with MIS-C had higher IgA antibody titers compared to children with severe COVID-19 against full-length S but not S-RBD (p=0.010 in one-way ANOVA).",
+            "cite_spans": [
+                {
+                    "start": 586,
+                    "end": 590,
+                    "text": "(17,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 591,
+                    "end": 594,
+                    "text": "18)",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 395,
+                    "end": 407,
+                    "text": "Figure 1A-C)",
+                    "ref_id": null
+                },
+                {
+                    "start": 791,
+                    "end": 800,
+                    "text": "Figure 1C",
+                    "ref_id": null
+                },
+                {
+                    "start": 1130,
+                    "end": 1142,
+                    "text": "Figure 1D-I)",
+                    "ref_id": null
+                }
+            ],
+            "section": "To determine the humoral responses to SARS-CoV"
+        },
+        {
+            "text": "To measure levels of functional antibodies in pediatric patients, we also performed neutralization assays using pseudo-typed vesicular stomatitis virus (VSV) expressing the SARS-CoV-2 S protein ( Figure 1J ). Neutralization antibody titers highly correlated with IgG titers to full length S, S-RBD, and N (R 2 =0.586, 0.632, and 0.4643, respectively; Figure1K). We found that children who presented with minimal disease had variable levels of neutralizing SARS-CoV-2 antibodies ( Figure   1J ). Children with MIS-C had higher neutralization titers compared to children with severe COVID-19 ( Figure 1J ), which is consistent with higher serum IgG titers against full length S ( Figure 1A ) and S-RBD ( Figure 1B ) in children with MIS-C.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 196,
+                    "end": 205,
+                    "text": "Figure 1J",
+                    "ref_id": null
+                },
+                {
+                    "start": 480,
+                    "end": 491,
+                    "text": "Figure   1J",
+                    "ref_id": null
+                },
+                {
+                    "start": 592,
+                    "end": 601,
+                    "text": "Figure 1J",
+                    "ref_id": null
+                },
+                {
+                    "start": 678,
+                    "end": 687,
+                    "text": "Figure 1A",
+                    "ref_id": null
+                },
+                {
+                    "start": 702,
+                    "end": 711,
+                    "text": "Figure 1B",
+                    "ref_id": null
+                }
+            ],
+            "section": "To determine the humoral responses to SARS-CoV"
+        },
+        {
+            "text": "Collectively, our study suggests that children with MIS-C have higher levels of IgG antibodies that neutralize SARS-CoV-2 more effectively compared to children with severe COVID-19. Although this observation will require further study, we suspect that this finding may be due to a longer time since onset of infection in children with MIS-C relative to children with severe COVID-19. We could not formally investigate this possibility, since many of the patients with minimal COVID-19 and MIS-C did not recall a specific exposure or disease symptoms. Children who presented with severe COVID-19 reported a median of 5 days since symptom onset (Supplementary   table S1 ). Our previous studies indicate that adults with severe COVID-19 possess higher titers of SARS-CoV-2 S-RBD antibodies compared to adults with milder disease (17, 18) . It is interesting that only 2 of 9 pediatric patients with severe COVID-19 had detectable IgG antibody titers against the S-RBD protein. One of these seropositive patients presented with severe COVID-19 associated acute respiratory distress syndrome (ARDS) 10 days post symptom onset in the setting of pre-existing hypertension, insulin-dependent diabetes mellitus and hypertrophic cardiomyopathy and eventually died from cardiac causes (19) . The other seropositive patient presented 4 days post symptom onset A c c e p t e d M a n u s c r i p t 9 and had a history of adrenal insufficiency due to panhypopituitarism and presented with hypotension leading to respiratory failure, in the setting of multiple co-infections including rhinovirus, adenovirus, and a radiologically confirmed osteomyelitis. Several children in all three phenotypic categories had co-infection, and the role of co-infections in COVID-19 is an important area for future investigation.",
+            "cite_spans": [
+                {
+                    "start": 827,
+                    "end": 831,
+                    "text": "(17,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 832,
+                    "end": 835,
+                    "text": "18)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1275,
+                    "end": 1279,
+                    "text": "(19)",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 643,
+                    "end": 668,
+                    "text": "(Supplementary   table S1",
+                    "ref_id": null
+                }
+            ],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Further studies are required to determine why children with severe COVID-19 tend to have lower titers of SARS-CoV-2 antibodies compared to adults with similar disease. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Systematic review of COVID-19 in children shows milder cases and a better prognosis than adults",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Ludvigsson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Acta Paediatr",
+            "volume": "109",
+            "issn": "",
+            "pages": "1088--1095",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Coronavirus Disease 2019 in Children -United States",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "-R",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Team",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "69",
+            "issn": "",
+            "pages": "422--426",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "A serological assay to detect SARS-CoV-2 seroconversion in humans",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Amanat",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41591-020-0913-5"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Hyperinflammatory shock in children during COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Riphagen",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Gomez",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gonzalez-Martinez",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Wilkinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Theocharis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "1607--1608",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "An outbreak of severe Kawasaki-like disease at the Italian epicentre of the SARS-CoV-2 epidemic: an observational cohort study",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Verdoni",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "1771--1778",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Autoimmune and inflammatory diseases following COVID-19",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Galeotti",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bayry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Rev Rheumatol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41584-020-0448-7"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Multisystem Inflammatory Syndrome in Children during the COVID-19 pandemic: a case series",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Chiotos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Pediatric Infect Dis Soc",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/jpids/piaa069"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Multisystem Inflammatory Syndrome in Children in New York State",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Dufort",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2021756"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Multisystem Inflammatory Syndrome in U.S. Children and Adolescents",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Feldstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2021680"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Description and Proposed Management of the Acute COVID-19 Cardiovascular Syndrome",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hendren",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Drazner",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Bozkurt",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Cooper",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jr",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Circulation",
+            "volume": "141",
+            "issn": "",
+            "pages": "1903--1914",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "The Striking Similarities of Multisystem Inflammatory Syndrome in Children and a Myocarditis-like Syndrome in Adults: Overlapping Manifestations of COVID-19",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Most",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Hendren",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Drazner",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Perl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1161/circulationaha.120.050166"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Multisystem inflammatory syndrome in children and COVID-19 are distinct presentations of SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Diorio",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clin Invest",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1172/jci140970"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "CDC (2020) Multisystem Inflammatory Syndrome in Children (MIS-C) Associated with Coronavirus Disease",
+            "authors": [],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Immunization in Immunocompromised Children",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kimberlin",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Jackson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Long",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Red Book\u00ae: 2015 REPORT OF THE COMMITTEE ON INFECTIOUS DISEASES",
+            "volume": "",
+            "issn": "",
+            "pages": "74--89",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "SARS-CoV-2 seroprevalence among parturient women in Philadelphia",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Flannery",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Sci Immunol",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hoffmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell",
+            "volume": "181",
+            "issn": "",
+            "pages": "271--280",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Comprehensive mapping of immune perturbations associated with severe COVID-19",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Kuri-Cervantes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Sci Immunol",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Deep immune profiling of COVID-19 patients reveals distinct immunotypes with therapeutic implications",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Mathew",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.abc8511"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Convalescent plasma for pediatric patients with SARS-CoV-2-associated acute respiratory distress syndrome. Pediatr Blood Cancer",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Diorio",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/pbc.28693"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "length SARS-CoV-2 spike (S) protein and the receptor binding domain (S-RBD) were provided by Florian Krammer (Icahn School of Medicine at Mt. Sinai, New York City NY). SARS-CoV-2 nucleoprotein (N) was purchased (Sino Biological; Chesterbrook PA) and reconstituted in Dulbecco's",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "optimized SARS-CoV S gene with an 18 residue truncation in the cytoplasmic tail (kindly provided by Stefan Pohlmann, German Primate Center, G\u00f6ttingen, DE) (16). 12 hours post transfection, the cells were fed with fresh media containing 5mM sodium butyrate to increase expression of the transfected DNA. 30 hours after transfection, the SARS-CoV-2 spike expressing cells were infected for 2-4 hours with VSV-G pseudo-typed VSV\u0394G-RFP at an multiplicity of infection of ~1-3. After infection, the cells were washed twice with media to remove unbound virus. Media containing the VSV\u0394G-RFP SARS-CoV-2 pseudo-types was harvested 28-30 hours after infection and clarified by centrifugation twice at 6000xg then aliquoted and stored at -80\u00b0C until used for antibody neutralization analysis.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "5x10 4 cells/well in a 96 well collagen coated plate. The next day, 2-fold serially diluted serum samples were mixed with VSV\u0394G-RFP SARS-CoV-2 pseudo-type virus (50-200 focus forming units/well) and incubated for 1hr at 37\u2070 C. Also included in this mixture then used to replace the media on VeroE6 TMPRSS2 cells. 23-24 hours post infection, the cells were washed and fixed with 4% paraformaldehyde before visualization on an S6 FluoroSpot Analyzer (CTL, Shaker Heights OH). Individual infected foci were enumerated and the values compared to control wells without antibody. The focus reduction neutralization titer 50% (FRNT 50 )",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "-2 in children presenting with COVID-19 vs. MIS-C, we analyzed serum samples from 29 SARS-CoV-2 infected children admitted to the Children's Hospital of Philadelphia (CHOP) in April and May 2020 (Supplementary table S1). We categorized these patients into three clinical disease phenotypes: children with minimal COVID-19 (asymptomatic children, or those with minimal symptoms; n=10), children with severe COVID-19 (children requiring invasive respiratory support or an increase in positive pressure ventilation above their baseline; n=9), and children with MIS-C (children meeting Centers for Disease Control criteria (2, 12, 13); n=10). Detailed case studies of 6 of the 10 children with MIS-C (CD12, CD18, CD19, Ct) values of SARS-CoV-2 RT-PCR were significantly lower in the pediatric patients presenting with severe COVID-19 (median: 28, IQR: 26 -29) compared to children with MIS-C (p=0.002 in one-way ANOVA) (Supplementarytable S1). Similar to other reports (3), we found that children with SARS-CoV-2 had systemic inflammation evidenced by elevated inflammatory markers, including ESR, CRP, ferritin, and D-dimer(12). The children with severe COVID-19 and MIS-C also displayed elevated pro-and anti-inflammatory plasma cytokines(4,5,8). Finally, B-type natriuretic protein (BNP), a marker of cardiac inflammation, was higher in the children with MIS-C versus the severe COVID-19 group, with the difference approaching statistical significance (Supplementary table S1).",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "EMA and TBM were supported by the NIH Training in Virology T32 Program through grant number T32-AI-007324. CD was supported by the Institute for Translational Medicine and Therapeutics of the Perelman School of Medicine at the University of Pennsylvania. PH was supported by the NIH Emerging Infectious Diseases T32 Program T32-AI055400. PB was supported by a Peer Reviewed Medical Research Program award PR182551 and grants from the NIH (R21AI129531 and R21AI142638). This work was supported by institutional funds from the University of Pennsylvania.We thank the COVID-19 Processing Unit (CPU) at the University of Pennsylvania for receiving and processing sera samples. We thank Jeffrey Lurie and we thank Joel Embiid, Josh Harris, David Blitzer for philanthropic support.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ACKNOWLEDGEMENTS"
+        },
+        {
+            "text": "SEH has received consultancy fee from Sanofi Pasteur, Lumen, Novavax, and Merck for work unrelated to this report. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COMPETING INTERESTS"
+        }
+    ]
+}

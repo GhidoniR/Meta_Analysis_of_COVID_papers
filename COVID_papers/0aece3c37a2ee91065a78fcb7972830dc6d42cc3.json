@@ -1,0 +1,1567 @@
+{
+    "paper_id": "0aece3c37a2ee91065a78fcb7972830dc6d42cc3",
+    "metadata": {
+        "title": "Impact of the COVID-19 pandemic on morbidity and mortality in patients with inflammatory joint diseases and in the general population: a nationwide Swedish cohort study",
+        "authors": [
+            {
+                "first": "Hannah",
+                "middle": [],
+                "last": "Bower",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Karolinska Institutet",
+                    "location": {
+                        "postCode": "171 76",
+                        "settlement": "Stockholm",
+                        "country": "Sweden"
+                    }
+                },
+                "email": "hannah.bower@ki.se"
+            },
+            {
+                "first": "Thomas",
+                "middle": [],
+                "last": "Frisell",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Karolinska Institutet",
+                    "location": {
+                        "postCode": "171 76",
+                        "settlement": "Stockholm",
+                        "country": "Sweden"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Daniela",
+                "middle": [
+                    "Di"
+                ],
+                "last": "Giuseppe",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Karolinska Institutet",
+                    "location": {
+                        "postCode": "171 76",
+                        "settlement": "Stockholm",
+                        "country": "Sweden"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "B\u00e9n\u00e9dicte",
+                "middle": [],
+                "last": "Delcoigne",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Karolinska Institutet",
+                    "location": {
+                        "postCode": "171 76",
+                        "settlement": "Stockholm",
+                        "country": "Sweden"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Gerd-Marie",
+                "middle": [],
+                "last": "Ahlenius",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Karolinska Institutet",
+                    "location": {
+                        "postCode": "171 76",
+                        "settlement": "Stockholm",
+                        "country": "Sweden"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Eva",
+                "middle": [],
+                "last": "Baecklund",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Karolinska Institutet",
+                    "location": {
+                        "postCode": "171 76",
+                        "settlement": "Stockholm",
+                        "country": "Sweden"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Katerina",
+                "middle": [],
+                "last": "Chatzidionysiou",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Karolinska Institutet",
+                    "location": {
+                        "postCode": "171 76",
+                        "settlement": "Stockholm",
+                        "country": "Sweden"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Nils",
+                "middle": [],
+                "last": "Feltelius",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Karolinska Institutet",
+                    "location": {
+                        "postCode": "171 76",
+                        "settlement": "Stockholm",
+                        "country": "Sweden"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Helena",
+                "middle": [],
+                "last": "Forsblad-D&apos;elia",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Karolinska Institutet",
+                    "location": {
+                        "postCode": "171 76",
+                        "settlement": "Stockholm",
+                        "country": "Sweden"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Alf",
+                "middle": [],
+                "last": "Kastbom",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Karolinska Institutet",
+                    "location": {
+                        "postCode": "171 76",
+                        "settlement": "Stockholm",
+                        "country": "Sweden"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Lars",
+                "middle": [],
+                "last": "Klareskog",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Karolinska Institutet",
+                    "location": {
+                        "postCode": "171 76",
+                        "settlement": "Stockholm",
+                        "country": "Sweden"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Elisabet",
+                "middle": [],
+                "last": "Lindqvist",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Karolinska Institutet",
+                    "location": {
+                        "postCode": "171 76",
+                        "settlement": "Stockholm",
+                        "country": "Sweden"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ulf",
+                "middle": [],
+                "last": "Lindstr\u00f6m",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Karolinska Institutet",
+                    "location": {
+                        "postCode": "171 76",
+                        "settlement": "Stockholm",
+                        "country": "Sweden"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Carl",
+                "middle": [],
+                "last": "Turesson",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Karolinska Institutet",
+                    "location": {
+                        "postCode": "171 76",
+                        "settlement": "Stockholm",
+                        "country": "Sweden"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Christopher",
+                "middle": [],
+                "last": "Sj\u00f6wall",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Karolinska Institutet",
+                    "location": {
+                        "postCode": "171 76",
+                        "settlement": "Stockholm",
+                        "country": "Sweden"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Johan",
+                "middle": [],
+                "last": "Askling",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Karolinska Institutet",
+                    "location": {
+                        "postCode": "171 76",
+                        "settlement": "Stockholm",
+                        "country": "Sweden"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "The SARS-CoV-2 pandemic has raised concerns regarding its impact in individuals with chronic inflammatory joint diseases (IJDs) such as rheumatoid arthritis (RA), with a morbidity and mortality pattern already higher than in the general population, [1] [2] [3] and with treatments (diseasemodifying antirheumatic drugs, DMARDs) on the one hand linked with increased risks for serious infections, and on the other hand suggested to Epidemiology exert beneficial effects on severe COVID-19. 4 5 These concerns have led to considerable challenges in clinical practice and for patient counselling.",
+            "cite_spans": [
+                {
+                    "start": 249,
+                    "end": 252,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 253,
+                    "end": 256,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 257,
+                    "end": 260,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 489,
+                    "end": 492,
+                    "text": "4 5",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Commendable efforts to address these questions have been carried out. [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] Local patient cohorts have been followed up through surveys, 7 local/regional hospital databases have been queried, 8 9 and the COVID-19 Global Rheumatology Alliance has established a repository of COVID-19 cases among patients with rheumatic diseases. 10 While providing preliminary evidence, interpretation of these results is not straightforward. 17 Studies based on questionnaires may miss fatal cases. Hospital queries may miss cases dying out of hospital. Case repositories based on active reporting suffer from unknown selection processes, and lack of external comparators make it impossible to assess absolute risks, let alone put these into context, for example, to COVID-19-related risks in individuals without rheumatic disease, or to risks in individuals with rheumatic disease but not COVID- 19 .",
+            "cite_spans": [
+                {
+                    "start": 70,
+                    "end": 73,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 74,
+                    "end": 77,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 78,
+                    "end": 81,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 82,
+                    "end": 85,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 86,
+                    "end": 90,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 91,
+                    "end": 95,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 96,
+                    "end": 100,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 101,
+                    "end": 105,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 106,
+                    "end": 110,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 111,
+                    "end": 115,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 116,
+                    "end": 120,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 237,
+                    "end": 240,
+                    "text": "8 9",
+                    "ref_id": null
+                },
+                {
+                    "start": 374,
+                    "end": 376,
+                    "text": "10",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 471,
+                    "end": 473,
+                    "text": "17",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 926,
+                    "end": 928,
+                    "text": "19",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Through a COVID-19-specific update to a multiregister linkage by the Anti-Rheumatic Therapy in Sweden group, see for example, 18 we are able to address several of these outstanding issues by evaluating morbidity and mortality related to COVID-19 in nationwide, unselected cohorts of practically all patients with IJD, and individually matched general population referents, followed through a system of virtually complete national registers.",
+            "cite_spans": [
+                {
+                    "start": 126,
+                    "end": 128,
+                    "text": "18",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Our study has the following aims: (1) To assess whether the mortality among patients with IJDs, per se as well as compared with that of the general population, was different during the first period of the COVID-19 pandemic in 2020 compared with 2015-2019, (2) To assess absolute, excess and relative risks of COVID-19-related outcomes among patients with IJD compared with the general population, and (3) In relation to specific DMARDs.",
+            "cite_spans": [
+                {
+                    "start": 256,
+                    "end": 259,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Swedish healthcare is universally available to all residents. Patients with IJDs treated with DMARDs are managed by rheumatologists, mainly through hospital-based clinics. The COVID-19 pandemic had reached Sweden by March 2020, and by September 2020 resulted in 5000 deaths (online supplemental figure 1); one of the higher mortality rates per 100 000 inhabitants in Europe and the USA. 19 General recommendations (not legally binding) urged social distancing when possible, in particular for risk groups and those aged above 70 years. There have been no specific recommendations for patients with IJDs.",
+            "cite_spans": [
+                {
+                    "start": 387,
+                    "end": 389,
+                    "text": "19",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "SUBJECTS AND METHODS Setting"
+        },
+        {
+            "text": "This study was designed in response to frequent questions asked by patients with IJD, but did not contain any active patient or public involvement.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patient and public involvement"
+        },
+        {
+            "text": "We updated a previously described linkage between several national Swedish registers: the Swedish Rheumatology Quality Register (SRQ), The Patient Register, the Prescribed Drug Register, the Cause of Death Register and the Population Register, with data until September 2020, and added data on admission to intensive care units (ICUs) through linkage to the  Intensive Care Quality Register (online supplemental table 1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 328,
+                    "end": 420,
+                    "text": "(ICUs) through linkage to the  Intensive Care Quality Register (online supplemental table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Data sources"
+        },
+        {
+            "text": "We used previously devised algorithms based on data from the Rheumatology Quality Register, International Classification of Diseases 10th Revision (ICD-10) codes in the Patient Register, and anatomical therapeutic chemical (ATC) codes in the Prescribed Drug Register (online supplemental table 2) to identify two open cohorts of individuals above 18 years; all prevalent RA March 2015 through September 2020 (n alive on 1 March 2020=53 455), and other IJDs (here: psoriatic arthritis, ankylosing spondylitis, other spondyloarthropathies, or juvenile idiopathic arthritis, n alive on 1 March 2020=57 112). 18 20 Each unique individual was matched on year of birth, sex and region of domicile (Sweden is organised in 21 regions) to five randomly selected population subjects (n alive 1 March 2020=484 277) from the Swedish Population Register, required to be alive and free from IJD at the time their index individual qualified into his/her cohort.",
+            "cite_spans": [
+                {
+                    "start": 605,
+                    "end": 610,
+                    "text": "18 20",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Study population"
+        },
+        {
+            "text": "Among the individuals with IJD, and based on treatment data in the Rheumatology Quality Register and dispensing of DMARDs from the Prescribed Drug Register, we created DMARD cohorts defined by the treatment status 1 March 2020. We identified 33 296 individuals on active treatment with a conventional synthetic (cs) DMARD (methotrexate, sulfasalazine, antimalarials, leflunomide, or azathioprine, excluding those on biologic (b) or targeted synthetic (ts) DMARD), and 28 336 subjects on active treatment with any b/tsDMARD, defined as abatacept (n=1324), janus kinase inhibitors (JAKi) (baricitinib or tofacitinib, n=1725, baricitinib being the most common), rituximab (n=2180), tumour necrosis factor inhibitors (TNFi) adalimumab, certolizumab pegol, etanercept, golimumab or infliximab, n=22 070) and tocilizumab (n=1037). As only 2% changed their DMARD status between March and September 2020, we did not update the DMARD status over time.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DMARD treatments"
+        },
+        {
+            "text": "We defined the following five outcomes: death from any cause (based on death notifications from the Tax agency), death from COVID-19 (based on main and contributory causes of death recorded on death certificates March until September 2020), hospitalisation for any cause and due to COVID-19 (data from the Patient Register), and admission to intensive care due to COVID-19 (the Intensive Care Register).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Outcomes"
+        },
+        {
+            "text": "The register linkage provided data on age, sex, region of domicile, characteristics of the IJD including disease activity score-28 (DAS28) and disease duration, concomitant csDMARD and steroid use, the prevalence of specific comorbid conditions including history of hospitalisations, educational level, country of birth and civil status at cohort entry (see online supplemental table 4 for definitions). All covariates were updated over time to",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Covariates"
+        },
+        {
+            "text": "How might this impact on clinical practice or future developments? \u25ba Our risk estimates may be used for patient counselling, and suggest that for COVID-19, the general health status matters more than a diagnosis of inflammatory joint disease per se, or its treatment. Signals for rituximab and JAK inhibitors call for replication.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Key messages"
+        },
+        {
+            "text": "reflect status at start of follow-up, in each analysis. No imputation of missing data was performed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Key messages"
+        },
+        {
+            "text": "To assess whether the absolute all-cause mortality during March-September 2020 in each cohort differed compared with the corresponding time periods 2015-2019, we defined annual cohorts of all prevalent individuals with IJD, and of their matched population comparator subjects, on 1 March, and followed these until September each year, emigration or death. Within each cohort (RA, other IJD, population referents), we calculated weekly crude mortality rates as the number of deaths divided by person time for each year, and weekly excess mortality as the difference between the mortality during 2020 and the corresponding averages 2015-2019. We used Cox regression to estimate relative risks (expressed as HRs) comparing individuals with IJD to the general population March-September each year 2015 through 2020. We calculated unadjusted HRs (age, sex and region of domicile were accommodated through matching) as well as HRs adjusted for comorbidities, healthcare resource utilisation and socioeconomy; see tables 2 and 3 and online supplemental table 4 for details. We tested whether the mortality rate was higher in 2020 than during 2015-2019 by inclusion of an interaction term between indicator variables for year 2020, and for patients with IJD.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistics"
+        },
+        {
+            "text": "In each cohort, we next calculated absolute risks for hospitalisation, admission to intensive care and death due to COVID-19, defined as the ratio of the number of incident events 1 March through 1 September 2020 and the number of individuals at risk in each cohort 1 March 2020. We calculated excess risks (IJD vs the general population) as the difference in risk between the IJD and its population comparator cohort, and relative risks via unadjusted and adjusted Cox models as described above. To contextualise the COVID-19-related outcomes, we also assessed all-cause death and hospitalisation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistics"
+        },
+        {
+            "text": "To investigate the association between DMARDs and each of the outcomes, we first estimated propensity scores for the probability of belonging to each DMARD group, separately for RA, other IJDs and all IJDs combined (online supplemental methods, online supplemental tables 8-10 and online supplemental figures 2-4). We then fitted inverse probability of treatment-weighted Cox regressions, additionally adjusted for use of oral glucocorticosteroids and csDMARD combinations (whether with csDMARD or b/tsDMARD). We abstained from calculating HRs for comparisons based on fewer than five events. The online supplemental materials describe a post hoc analysis of patients treated with sulfasalazine. We used Stata V.16.1 and SAS V.9.4.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistics"
+        },
+        {
+            "text": "Between 1 March and 1 September 2020 (55 336 person-years), 1310 (1.2%) of the 110 567 individuals with IJD died (968 (1.8%) with RA, and 342 (0.6%) with other IJDs), (tables 1-3). Figure 1 describes the weekly mortality rate in each IJD cohort and in their general population comparator cohorts during this period, and the average mortality rate in the corresponding ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 181,
+                    "end": 189,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "All-cause mortality in IJDs and their matched general population subjects March-September 2020 and 2015-2019"
+        },
+        {
+            "text": "cohorts 2015 through 2019. In all cohorts, the mortality during 2020 was higher than during previous years. Figure 2 displays the excess mortality during 2020 (compared with the average in the same cohort 2015 through 2019). By mid-April 2020 (the peak of the period under study) the RA cohort had a more pronounced excess mortality than that observed in the general population. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 108,
+                    "end": 116,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Epidemiology"
+        },
+        {
+            "text": "Among all individuals with IJD, the risk for hospitalisation because of COVID-19 during March through September 2020 was 0.5% (vs 0.3% in their general population referents), 0.04% (vs 0.03%) for admission to ICD due to COVID-19 and 0.10% (vs 0.07%) for death from COVID-19. For comparison, the absolute risk for hospitalisations for any cause was 8.1% (vs 5.0%) and the risk for death from any cause was 1.2% (vs 0.6%, table 3).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Risks, excess risks and relative risks for COVID-19-related and other outcomes among individuals with IJD and in the general population March-September 2020"
+        },
+        {
+            "text": "The unadjusted HRs for each of these outcomes were all elevated (with the exception of HRs for admission to intensive care due to COVID-19 in other IJDs) with somewhat higher HRs for the COVID-19-specific outcomes than for hospitalisation or for death from any cause in the RA cohort. Adjustment for comorbidities and socioeconomy lowered the associations between IJD and the COVID-19-related outcomes, though less clearly so for admission to intensive care (table 3) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 458,
+                    "end": 467,
+                    "text": "(table 3)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Risks, excess risks and relative risks for COVID-19-related and other outcomes among individuals with IJD and in the general population March-September 2020"
+        },
+        {
+            "text": "Online supplemental tables 5-7 display characteristics of the DMARD cohorts. Before weighting, there were differences across the DMARD cohorts. Online supplemental table 8-10 display the level of balancing achieved through the weighting, expressed as standardised mean differences. After weighting, all standardised mean differences were below 0.2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID-19-related and other outcomes in relation to DMARDs"
+        },
+        {
+            "text": "Using csDMARDs as reference (see table 4 for crude risks and HRs), we noted no risk increase with b/tsDMARDs for hospitalisation listing COVID-19 (HR=1.08, 95% CI 0.73 to 1.58), admission to intensive care due to COVID-19 (HR=1.74, 95% CI 0.63 to 4.84) or death from COVID-19 (HR=1.26, 95% CI 0.60 to 2.64), nor for hospitalisation for any cause. When we assessed HRs for the above outcomes by individual b/tsDMARD (using csDMARD as reference) we noted no signal of increased risks with TNFi, abatacept and tocilizumab, but for several assessments the numbers of events were small. For rituximab, In post hoc analysis contrasting patients on sulfasalazine monotherapy to patients on any other csDMARD therapy, we noted increased point estimates for hospitalisation and admission to ICU due to COVID-19 (details in online supplemental material).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 33,
+                    "end": 40,
+                    "text": "table 4",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "COVID-19-related and other outcomes in relation to DMARDs"
+        },
+        {
+            "text": "We covered excess mortality and COVID-19-related outcomes among practically all patients with RA or other IJDs during the first period of the COVID-19 pandemic in the entire country of Table 3 Absolute and relative risks for COVID-19-related events and other outcomes in Swedish residents with rheumatoid arthritis (RA), and other inflammatory joint diseases (IJDs, defined as ankylosing spondylitis, psoriatic arthritis, other spondyloarthropathies and juvenile idiopathic arthritis) compared with matched general population comparator subjects 1 March through September 2020 ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 185,
+                    "end": 192,
+                    "text": "Table 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Sweden. We made the following observations: (1) During the first period of the pandemic, patients with IJDs had approximately 1.5-2 times higher mortality from any cause than the general population. (2) In relative terms, this increase was not higher than during previous years, and could almost entirely be explained by comorbidities and socioeconomic factors. (3) In absolute terms, the risks for admission to hospital due to COVID-19 (0.5%, an additional 0.2 per 100 persons compared with the general population), to intensive care due to COVID-19 (0.04%, an additional 0.01 per 100 persons) and for death due to COVID-19 (0.10%, an additional 0.03 per 100 persons) among patients with IJDs were low. (4) The increased relative risks were not specific to COVID-19-related outcomes but present also for hospitalisations and deaths due to any cause. (5) Patients treated with b/tsDMARDs were, on average, not at higher risk for COVID-19-related outcomes than those on csDMARDs. (6) We noted increased risks for rituximab and for JAKi for COVID-19 outcomes, based on a limited number of events. Taking differences in study design and the comparisons made (if any) in previous reports on COVID-19, our results add to the emerging picture that a diagnosis of chronic IJDs per se does not seem to increase the risk of serious COVID-19-related outcomes, but that age and comorbidities are strong risk factors for these outcomes. 6 9-13 This is not to say that IJDs themselves do not increase mortality-our study population comprised unselected patients with a mean disease duration around a decade. Many comorbidities and socioeconomic characteristics may thus have occurred as a consequence of the IJD. For the outcome admission to intensive care, adjustment had less effect on the HRs suggesting that other triaging may have been at play.",
+            "cite_spans": [
+                {
+                    "start": 1425,
+                    "end": 1431,
+                    "text": "6 9-13",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Epidemiology"
+        },
+        {
+            "text": "Our results extend previous findings on COVID-19 by anchoring them both to risks in individuals with IJD pre-COVID-19, to risks (excess and relative) versus the general population, and to risks not specifically from COVID-19. Importantly, our results indicate that during March-September of the pandemic 2020, the increase in all-cause mortality and the risks for COVID-19-related outcomes in patients with IJD remained largely proportional to those in the general population. Our results have important implications for patient counselling in that they suggest that (1) The absolute risk of death from COVID-19 among individuals with IJD between March and September was in the order of 1 in a 1000, (2) The additional risk in individuals with IJD compared with the general population was in the order of 3 per 10000, and (3) In a given individual with RA or another IJD, the health status seems much more important than the IJD diagnosis per se, both for overall mortality and for COVID-19-outcomes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Epidemiology"
+        },
+        {
+            "text": "Previous reports have generally not suggested particular risks with TNFi or other cytokine inhibitors, at least when used in monotherapy, 6 8 and even suggested a protective effect of TNFi. 10 Our results suggest that csDMARDs, TNFi, abatacept and tocilizumab are neutral in terms of risks for serious COVID-19-outcomes. Baricitinib has been reported to exert beneficial effects when used against COVID-19. 21 While our results for JAKi are in seeming disagreement, they were based on small numbers and we cannot refute residual confounding. For rituximab, for which there is also substantial clinical channelling, the increased risks were not specific to COVID-19. Similar signals for rituximab have been observed in reports on bDMARDs and risks for other infections. 22 In either case, these results call for verification. An association between sulfasalazine and severe COVID-19 was recently reported. 23 Our post hoc analysis did not unequivocally confirm or reject this signal (online supplemental analysis). Because of the intimate correlation between disease activity and lack of alternative treatment options, and since we did not have prospective information on glucocorticoid dosing or disease activity from start of follow-up nor at the time point of any COVID-19 infection, we adjusted for but abstained from assessing risks specifically in relation to glucocorticoids. Our study has limitations. We assessed risks for outcomes of known COVID-19 cases, but similar to most previous studies could not study risks for acquiring SARS-CoV-2 infection in the first place. While we had the possibility to compare risks between patients with IJDs to age-matched, sex-matched and domicilematched general population referents, all risks presented represent averages across age and sex and are as such not directly applicable to individual patients. In the assessment of risks with individual DMARDs, we used a propensity score weighting approach to accommodate confounding by indication. For this, we included a wide array of covariates from several different domains and achieved good balance, but we cannot exclude residual confounding, and lack reliable data on several known COVID-19 risk factors such as body mass index and hypertension. We defined DMARD exposure on the basis of active treatment at the beginning of the study period, but can only speculate about patient-initiated discontinuations or dose reductions related to fear of COVID-19. Our results should therefore be viewed as an 'intention to treat' approach. Finally, while many of our results had good precision, some estimates were based on small numbers.",
+            "cite_spans": [
+                {
+                    "start": 138,
+                    "end": 141,
+                    "text": "6 8",
+                    "ref_id": null
+                },
+                {
+                    "start": 190,
+                    "end": 192,
+                    "text": "10",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 407,
+                    "end": 409,
+                    "text": "21",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 769,
+                    "end": 771,
+                    "text": "22",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 905,
+                    "end": 907,
+                    "text": "23",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Epidemiology"
+        },
+        {
+            "text": "Our study has several strengths. Our study population encompassed virtually all DMARD-treated patients with RA, and other IJDs in the country and throughout the entire first period of the pandemic, thereby minimising bias due to patient selection. We could prospectively follow-up each individual through registers of high quality, with outcome information assigned independently of the IJD. This design enabled the estimation of absolute risks and of the corresponding relative risks comparing both within patients with inflammatory disease and versus the general population, rather than, for example, a restriction to internal comparisons within patients with rheumatic disease and COVID-19. 10 In conclusion, the increased risks of hospitalisation and death due to COVID-19 among patients with IJDs largely mirror those in the general population, at least in relative terms. In absolute terms, risks and excess risks are low. csDMARDs, TNF inhibitors, abatacept and tocilizumab as used in clinical practice appear safe, but signals for rituximab and JAKis require verification to determine whether these are specific to COVID-19 or reflective of channelling. Finally, in demonstrating that the overall mortality in unselected patients with IJDs remains markedly elevated compared with the general population, also in the absence of COVID-19, our study serves as a reminder of a remaining large unmet need.",
+            "cite_spans": [
+                {
+                    "start": 694,
+                    "end": 696,
+                    "text": "10",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Epidemiology"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Risk of cardiovascular mortality in patients with rheumatoid arthritis: a meta-analysis of observational studies",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Avi\u00f1a-Zubieta",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sadatsafavi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Arthritis Rheum",
+            "volume": "59",
+            "issn": "",
+            "pages": "1690--1697",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/art.24092"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Roles of postdiagnosis accumulation of morbidities and lifestyle changes in excess total and cause-specific mortality risk in rheumatoid arthritis",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Yoshida",
+                    "suffix": ""
+                },
+                {
+                    "first": "T-C",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Wei",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Arthritis Care Res",
+            "volume": "73",
+            "issn": "",
+            "pages": "188--98",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/acr.24120"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Natural history, prognosis, and socioeconomic aspects of psoriatic arthritis",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Helliwell",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ruderman",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "History",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Rheum Dis Clin North Am",
+            "volume": "41",
+            "issn": "",
+            "pages": "581--91",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.rdc.2015.07.004"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Beneficial impact of Baricitinib in COVID-19 moderate pneumonia; multicentre study",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Cantini",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Niccoli",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Nannini",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Infect",
+            "volume": "81",
+            "issn": "",
+            "pages": "647--79",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jinf.2020.06.052"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Tocilizumab in patients hospitalized with Covid-19 pneumonia",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Salama",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yau",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "N Engl J Med",
+            "volume": "384",
+            "issn": "",
+            "pages": "20--30",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2030340"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Prevalence and clinical outcomes of COVID-19 in patients with autoimmune diseases: a systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Akiyama",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hamdeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Micic",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Ann Rheum Dis",
+            "volume": "2020",
+            "issn": "",
+            "pages": "2020--218946",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/annrheumdis-2020-218946"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "COVID-19 in French patients with chronic inflammatory rheumatic diseases: clinical features, risk factors and treatment adherence",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Costantino",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Bahier",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Taranc\u00f3n",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Joint Bone Spine",
+            "volume": "88",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jbspin.2020.105095"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Incidence of COVID-19 in patients with rheumatic diseases treated with targeted immunosuppressive drugs: what can we learn from observational data?",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Favalli",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Monti",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ingegnoli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Arthritis Rheumatol",
+            "volume": "72",
+            "issn": "",
+            "pages": "1600--1606",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/art.41388"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Risk factors for hospital admissions related to COVID-19 in patients with autoimmune inflammatory rheumatic diseases",
+            "authors": [
+                {
+                    "first": "Freites",
+                    "middle": [],
+                    "last": "Nu\u00f1ez",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Leon",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Mucientes",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Ann Rheum Dis",
+            "volume": "79",
+            "issn": "",
+            "pages": "1393--1402",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/annrheumdis-2020-217984"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Characteristics associated with hospitalisation for COVID-19 in people with rheumatic disease: data from the COVID-19 global rheumatology alliance physician-reported registry",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gianfrancesco",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Hyrich",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Al-Adely",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Ann Rheum Dis",
+            "volume": "79",
+            "issn": "",
+            "pages": "859--66",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/annrheumdis-2020-217871"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "COVID-19 in patients with inflammatory arthritis: a prospective study on the effects of comorbidities and disease-modifying antirheumatic drugs on clinical outcomes",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Haberman",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Castillo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Arthritis Rheumatol",
+            "volume": "72",
+            "issn": "",
+            "pages": "1981--1990",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/art.41456"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Incidence and case fatality rate of COVID-19 in patients with inflammatory articular diseases",
+            "authors": [
+                {
+                    "first": "Mena",
+                    "middle": [],
+                    "last": "V\u00e1zquez",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Manrique-Arija",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cabezudo-Garc\u00eda",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Int J Clin Pract",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/ijcp.13707"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Clinical outcomes of hospitalised patients with COVID-19 and chronic inflammatory and autoimmune rheumatic diseases: a multicentric matched cohort study",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Pablos",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Galindo",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Carmona",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Ann Rheum Dis",
+            "volume": "79",
+            "issn": "",
+            "pages": "1544--1553",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/annrheumdis-2020-218296"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Clinical characteristics and outcomes of patients with coronavirus disease 2019 (COVID-19) and rheumatic disease: a comparative cohort study from a US 'hot spot",
+            "authors": [
+                {
+                    "first": "D&apos;",
+                    "middle": [],
+                    "last": "Silva",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Serling-Boyd",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Wallwork",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Ann Rheum Dis",
+            "volume": "79",
+            "issn": "",
+            "pages": "1156--62",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/annrheumdis-2020-217888"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Coronavirus disease 2019 outcomes among patients with rheumatic diseases 6 months into the pandemic",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Serling-Boyd",
+                    "suffix": ""
+                },
+                {
+                    "first": "D&apos;",
+                    "middle": [],
+                    "last": "Silva",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Ann Rheum Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/annrheumdis-2020-219279"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Effect of pre-exposure use of hydroxychloroquine on COVID-19 mortality: a population-based cohort study in patients with rheumatoid arthritis or systemic lupus erythematosus using the OpenSAFELY platform",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Rentsch",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Devito",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Mackenna",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Lancet Rheumatol",
+            "volume": "3",
+            "issn": "",
+            "pages": "19--27",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2665-9913(20)30378-7"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Rheumatic disease and COVID-19: epidemiology and outcomes",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Hyrich",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Machado",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Nat Rev Rheumatol",
+            "volume": "17",
+            "issn": "",
+            "pages": "71--73",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41584-020-00562-2"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Malignant neoplasms in patients with rheumatoid arthritis treated with tumor necrosis factor inhibitors, tocilizumab, abatacept, or rituximab in clinical practice: a nationwide cohort study from Sweden",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wadstr\u00f6m",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Frisell",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Askling",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "JAMA Intern Med",
+            "volume": "177",
+            "issn": "",
+            "pages": "1605--1617",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jamainternmed.2017.4332"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "COVID-19 and excess all-cause mortality in the US and 18 comparison countries",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bilinski",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Emanuel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "324",
+            "issn": "",
+            "pages": "2100--2102",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.20717"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Impact of extra-articular spondyloarthritis manifestations and comorbidities on drug retention of a first TNF-inhibitor in ankylosing spondylitis: a population-based nationwide study",
+            "authors": [
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Lindstr\u00f6m",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Olofsson",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wedr\u00e9n",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "RMD Open",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/rmdopen-2018-000762"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Baricitinib restrains the immune dysregulation in patients with severe COVID-19",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Bronte",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ugel",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Tinazzi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clin Invest",
+            "volume": "130",
+            "issn": "",
+            "pages": "6409--6425",
+            "other_ids": {
+                "DOI": [
+                    "10.1172/JCI141772"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Risk of serious infections in patients with rheumatoid arthritis treated in routine care with abatacept, rituximab and tocilizumab in Denmark and Sweden",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Gr\u00f8n",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Arkema",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Glintborg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Ann Rheum Dis",
+            "volume": "78",
+            "issn": "",
+            "pages": "320--327",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/annrheumdis-2018-214326"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Factors associated with COVID-19-related death in people with rheumatic diseases: results from the COVID-19 global rheumatology alliance physician-reported registry",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Strangfeld",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sch\u00e4fer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Gianfrancesco",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Ann Rheum Dis",
+            "volume": "2021",
+            "issn": "",
+            "pages": "2020--219498",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/annrheumdis-2020-219498"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "All-cause mortality in adult Swedish residents with rheumatoid arthritis (RA) or other inflammatory joint diseases (IJDs, defined as ankylosing spondylitis, psoriatic arthritis, other spondyloarthropathies and juvenile idiopathic arthritis), and among individually matched general population subjects, during 1 March until September 2020 compared with the corresponding average mortality during the same seasons 2015 through 2019.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Difference (excess or deficit) in all-cause mortality for Swedish residents with rheumatoid arthritis (RA), other inflammatory joint diseases (IJDs, defined as ankylosing spondylitis, psoriatic arthritis, other spondyloarthropathies and juvenile idiopathic arthritis) and in their individually matched general population cohorts 1 March until September 2020, estimated as the difference between the mortality in each cohort 2020 compared with the average mortality in the same cohort during the same seasons 2015 through 2019.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Characteristics of adult Swedish residents with rheumatoid arthritis (RA) and other inflammatory joint diseases (IJDs, defined as ankylosing spondylitis, psoriatic arthritis, other spondyloarthropathies and juvenile idiopathic arthritis) in Sweden, 1 March 2020, and their matched general population comparator subjects *Individually matched to each individual with an IJD, that is, to the column 'All IJDs combined'. Note that full variable definitions are presented in online supplemental table 4.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "describes unadjusted and adjusted annual HRs of all-cause mortality in the IJD cohorts compared with general population comparators March until September (here: through August 18) each year 2015 through 2020. Unadjusted models demonstrated an increased mortality among individuals with RA (eg, HR 2020 = 1.99, 95% CI 1.84 to 2.16), and other IJD (eg, HR 2020 = 1.52, 95% CI 1.34 to 1.73). Importantly, the HRs for 2020 were not different from those of 2015 through 2019. Within each calendar year, once adjusted for comorbid conditions and socioeconomy, most of the increased mortality in RA (adjusted HR 2020 = 1.18, 95% CI 1.09 to 1.28), and all of the increased mortality in other IJD (adjusted HR 2020 = 0.96, 95% CI 0.84 to 1.09) disappeared.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "All-cause mortality March-September each year 2015 through 2020 among Swedish residents with rheumatoid arthritis (RA), other inflammatory joint diseases (IJDs, defined as ankylosing spondylitis, psoriatic arthritis, other spondyloarthropathies and juvenile idiopathic arthritis), compared with their general population comparator subjects through HRs from Cox regression Cox model, matched for age, sex and geographical region.\u2020Cox model additionally adjusted for history of cancer, heart failure, ischaemic heart disease, infections, lung disease, kidney failure, stroke, joint surgery, venous thromboembolism, region of domicile, education, civil status, country of birth and time hospitalised in days (previous 10 years, and previous 1 year). \u2021Note that follow-up in this table ends 18 August, which is why numbers and HRs differ slightly compared with all other analyses of all-cause mortality in which follow-up ends 1 September.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "*Defined as the difference between the risk in the inflammatory joint disease cohort and that in its matched population comparator cohort.\u2020Cox model unadjusted, matched for age, sex and geographical region; general population comparators are the reference. \u2021Cox model additionally adjusted for history of cancer, diabetes, heart failure, ischaemic heart disease, infections, lung disease, kidney failure, stroke, joint surgery, venous thromboembolism, country of birth, highest educational achievement, civil status, region, number of days in hospital (in previous 1 year and 10 years). ICU, intensive care unit.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Occurrence and relative risks of COVID-19-related events and other outcomes in individuals with chronic inflammatory joint diseases (rheumatoid arthritis, ankylosing spondylitis, psoriatic arthritis, other spondyloarthropathies and juvenile idiopathic arthritis), 1 March through September 2020, according to DMARD treatment status 1 March *HR from propensity score-weighted Cox regression, adjusted for oral steroids and csDMARD co-medication. Separate models for individual drugs and for all b/tsDMARDs. b/tsDMARD, biologic/targeted synthetic DMARD; csDMARD, conventional synthetic DMARD; DMARD, disease modifying antirheumatic drug.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Competing interests All authors have completed the Unified Competing Interest form (available on request from the corresponding author) and declare: JA: PI for agreements between Karolinska Institutet and Abbvie, BMS, Eli Lilly, Pfizer, Roche, Samsung Bioepis, and Sanofi for safety monitoring of anti-rheumatic therapies (ARTIS). KC: consultancy fees and speaker's honoraria from Eli Lilly, Abbvie and Pfizer. NF is employed by the Medical Products Agency (MPA), which is a governmental body. The views in this article may not represent the views of the MPA. AK: former employee of Sanofi. CT: Research grant from Bristol-Myers Squibb, consultancy fees and speaker's honorarium from Roche, and speaker's honoraria from Abbvie and Pfizer.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "annex"
+        },
+        {
+            "text": "Ethics approval The study was approved by the Swedish Ethical Review Authority (2020-01756).Provenance and peer review Not commissioned; externally peer reviewed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patient consent for publication Not required."
+        },
+        {
+            "text": "No data are available. For reasons related to the legal framework governing the raw data used for this study, individual-level data cannot be freely shared. For requests for study data please contact the corresponding author.Supplemental material This content has been supplied by the author(s). It has not been vetted by BMJ Publishing Group Limited (BMJ) and may not have been peer-reviewed. Any opinions or recommendations discussed are solely those of the author(s) and are not endorsed by BMJ. BMJ disclaims all liability and responsibility arising from any reliance placed on the content. Where the content includes any translated material, BMJ does not warrant the accuracy and reliability of the translations (including but not limited to local regulations, clinical guidelines, terminology, drug names and drug dosages), and is not responsible for any error and/or omissions arising from translation and adaptation or otherwise.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data availability statement"
+        },
+        {
+            "text": "This is an open access article distributed in accordance with the Creative Commons Attribution Non Commercial (CC BY-NC 4.0) license, which permits others to distribute, remix, adapt, build upon this work non-commercially, and license their derivative works on different terms, provided the original work is properly cited, appropriate credit is given, any changes made indicated, and the use is non-commercial. See: http:// creativecommons. org/ licenses/ by-nc/ 4. 0/.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Open access"
+        }
+    ]
+}

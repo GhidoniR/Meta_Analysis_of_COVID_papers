@@ -1,0 +1,1186 @@
+{
+    "paper_id": "0abda4e3d743ccd5a4eb358fd163b7e60a950792",
+    "metadata": {
+        "title": "Lack of association of baseline 25-hydroxyvitamin D levels with disease severity and mortality in Indian patients hospitalized for COVID-19",
+        "authors": [
+            {
+                "first": "Ganesh",
+                "middle": [],
+                "last": "Jevalikar",
+                "suffix": "",
+                "affiliation": {},
+                "email": "gjevalikar@gmail.com"
+            },
+            {
+                "first": "Ambrish",
+                "middle": [],
+                "last": "Mithal",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Anshu",
+                "middle": [],
+                "last": "Singh",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Rutuja",
+                "middle": [],
+                "last": "Sharma",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Khalid",
+                "middle": [
+                    "J"
+                ],
+                "last": "Farooqui",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Shama",
+                "middle": [],
+                "last": "Mahendru",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Arun",
+                "middle": [],
+                "last": "Dewan",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Sandeep",
+                "middle": [],
+                "last": "Budhiraja",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Vitamin D deficiency (VDD) owing to its immunomodulatory effects is believed to influence outcomes in COVID-19. We conducted a prospective, observational study of patients, hospitalized with COVID-19. Serum 25-OHD level < 20 ng/mL was considered VDD. Patients were classified as having mild and severe disease on basis of the WHO ordinal scale for clinical improvement (OSCI). Of the 410 patients recruited, patients with VDD (197,48.2%) were significantly younger and had lesser comorbidities. The levels of PTH were significantly higher in the VDD group (63.5 \u00b1 54.4 vs. 47.5 \u00b1 42.9 pg/mL). The proportion of severe cases (13.2% vs.14.6%), mortality (2% vs. 5.2%), oxygen requirement (34.5% vs.43.4%), ICU admission (14.7% vs.19.8%) was not significantly different between patients with or without VDD. There was no significant correlation between serum 25-OHD levels and inflammatory markers studied. Serum parathormone levels correlated with D-dimer (r 0.117, p-0.019), ferritin (r 0.132, p-0.010), and LDH (r 0.124, p-0.018). Amongst VDD patients, 128(64.9%) were treated with oral cholecalciferol (median dose of 60,000 IU). The proportion of severe cases, oxygen, or ICU admission was not significantly different in the treated vs. untreated group. In conclusion, serum 25-OHD levels at admission did not correlate with inflammatory markers, clinical outcomes, or mortality in hospitalized COVID-19 patients. Treatment of VDD with cholecalciferol did not make any difference to the outcomes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) induced coronavirus disease-19 (COVID- 19) pandemic has affected more than 60 million individuals and has claimed more than 1.4 million lives globally since it first broke out in China in November 2019 1 . India has been one of the worst affected countries in terms of the total number of cases (more than 9 million) second only to the United States of America 1 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Vitamin D is thought to play an important role in respiratory infections. Evidence from observational studies suggests an association between low serum 25-hydroxyvitamin D (25-OHD) level and susceptibility to acute respiratory infections 2 . Several meta-analyses have shown modest protective effects of vitamin D supplementation on respiratory infections [3] [4] [5] . The active metabolite of vitamin D, 1,25-dihydroxy-D can directly affect viral replication or immune responses to viral infections including induction of antimicrobial peptides like cathelicidin 6 , regulate immune response by promoting TH2 proliferation and suppression of TH1 proliferation 7 and modulation of nuclear factor kappa B (NFkB) pathway 8 . In general vitamin D deficiency (VDD) has been observed to lead to dysregulated immune response leading to excessive pro-inflammatory cytokines, implicated in the damage caused by COVID-19 9, 10 .",
+            "cite_spans": [
+                {
+                    "start": 356,
+                    "end": 359,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 360,
+                    "end": 363,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 364,
+                    "end": 367,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 913,
+                    "end": 915,
+                    "text": "9,",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Indirect evidence for the role of vitamin D in COVID -19 is based on the epidemiological studies which reveal higher mortality in countries from the Northern hemisphere which have a higher prevalence of VDD than countries from the Southern hemisphere 11 . Observational studies have also documented a negative correlation between VDD and the total number of COVID-19 cases and COVID-19 associated mortality per www.nature.com/scientificreports/ million population 12 . The association of low vitamin D with the severity of COVID-19 infection has also been reported [13] [14] [15] . However, a small sample size, pre-pandemic 25-OHD levels rather than at the time of infection, and the concomitant presence of other risk factors like obesity and older age make these results difficult to interpret 16 . Hence there is a need for studies to further clarify the role of vitamin D in COVID-19. Despite being a sunny country, India has a high prevalence of VDD, particularly in urban areas 17 . Interestingly, the case fatality rate (CFR) of COVID-19 in India has also been one of the lowest 18 . In the present prospective observational study, we estimated the prevalence of VDD in consecutive hospitalized Indian patients and studied the association of baseline 25-OHD levels with the severity of COVID-19 infection. The study also provided us an opportunity to see if treatment with cholecalciferol is associated with a change in the outcome of COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 565,
+                    "end": 569,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 570,
+                    "end": 574,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 575,
+                    "end": 579,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Study design. This is a prospective, single-center, cross-sectional, observational study carried out at a tertiary care, designated COVID-19 treatment center situated in New Delhi, India. Hospitalized patients were enrolled from July 9, 2020, to August 8, 2020, and were observed till the time of discharge or death while in the hospital. The hospital predominantly caters to the middle and upper socioeconomic class from the National Capital Region of India. The study was approved by the Max Healthcare Ethics Committee, New Delhi, India. A waiver of consent was sought because deidentified patient data was used and the study protocol did not affect the treatment protocol of the patient in any way. The same was approved by the Max Healthcare Ethics Committee. All methods were performed according to the relevant guidelines and regulations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "Participants. Consecutive patients hospitalized with COVID-19 infection proven by positive nasal and/ or nasopharyngeal swab for SARS-CoV-2 by RT-PCR method were included. Patients requiring second hospital admission within the study period were excluded. Asymptomatic patients were generally not hospitalized, except in 17 cases where the patient was either a healthcare worker of home isolation was not possible. A total of 410 patients (including 9 pediatric (< 18 years of age), 17 asymptomatic, 127 females) were included.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "Sample size calculation. The sample size was calculated based on a study comparing parameters of patients requiring ICU admission versus those not requiring ICU admission 13 . A minimum sample size of 319 was calculated to be able to detect a difference of at least 10% in the prevalence of 25-OHD < 20 ng/mL between severe and mild illness with a power of 80% and a significance level of 5%.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "Clinical data were collected from the electronic medical records (EMR) including age, sex, presence of comorbidities, presenting symptoms, duration of symptoms, anthropometry, blood pressure, baseline oxygen saturation (SpO 2 ), results of laboratory evaluation, and treatment received. All patients were assigned a severity score based on the WHO ordinal scale for clinical improvement (OSCI) (supplementary Table S1 ) 19 at hospital admission (baseline) and the highest score during the hospital stay (outcome). Based on the outcome OSCI scores, patients were classified as hospitalized mild disease (3-no oxygen therapy, 4-oxygen by mask or nasal prongs) and hospitalized severe disease (5-non-invasive ventilation or high flow oxygen, 6-intubation and mechanical ventilation, 7-ventilation plus other organ support like inotropes/renal replacement therapy (RRT)/ extracorporeal membrane oxygenation (ECMO), 8-death). All patients had a blood sampling done to determine 25-hydroxyvitamin-D (25-OHD) and parathormone (PTH) in addition to the standard COVID-19 protocol which included assessment of inflammatory markers, C-reactive protein (CRP), Interleukin-6 (IL-6), D-dimer, ferritin, lactate dehydrogenase (LDH) and procalcitonin. The level of 25-OHD and PTH was determined using chemiluminescence immune-assay (Beckman Coulter DxI 600 immunoassay system). Vitamin D deficiency was defined by a level of 25-OHD < 20 ng/mL. No change was made in the treatment protocol and the decision of cholecalciferol treatment was as per the treating physician's decision. For most patients, the treatment was administered as cholecalciferol granules (60,000 units per gram) administered under the supervision of a nurse.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 409,
+                    "end": 417,
+                    "text": "Table S1",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "Measurements."
+        },
+        {
+            "text": "Outcomes. The primary outcome assessed was proportion of severe cases in VDD versus no VDD. Other outcomes assessed were proportion of cases requiring admission to intensive care unit (ICU), administration of oxygen, inotropic support and renal replacement therapy (RRT). Difference in the mean levels of inflammatory markers was compared. Number of deaths in each of the group was also compared. Finally, outcomes of patients who received cholecalciferol versus those who did not receive cholecalciferol treatment were compared in overall patients and in the subgroup of vitamin D deficient patients.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Measurements."
+        },
+        {
+            "text": "Statistical analysis. Statistical analysis was performed using IBM SPSS statistics software version 22.0 (IBM Corp, Armonk NY). Categorical variables were presented as frequency and percentages, whereas continuous variables were described either as mean and standard deviation (SD) or standard error (SE) for mean or median and range. Chi-square test was used to compare differences between categorical variables and the student's 't' test was used to compare continuous variables. Comparison of continuous variables in more than 2 groups was done using one-way ANOVA test. A 'p' value of < 0.05 was considered as significant. Pearson correlation method was used to study the association between 25-OHD, PTH, and outcome severity scores and inflammatory markers. Table 1 shows the comparison of cases with or without VDD. Patients with VDD were significantly younger and had a lower percentage of comorbidities (including) diabetes and hypertension. The duration of symptoms, percentage of symptomatic cases, and baseline severity including SPO2 were similar in the two groups. There was no difference in clinical outcomes of the two groups with regard to mean outcome OSCI scores, the proportion of severe cases, mortality, requirement of ICU admission, oxygen administration, inotropic support, or RRT. PTH levels were significantly higher and albumin corrected calcium levels were significantly lower in those with VDD. There was no difference between the levels of markers of inflammation (CRP, IL-6, D-dimer, ferritin, and LDH) between the two groups. The findings remained similar after excluding pediatric and asymptomatic cases. The results were the same when patients with severe VDD (25-OHD < 10 ng/mL) were compared to those with 25-OHD > 10 ng/mL and comparison by 4 categories of 25-OHD levels (< 10, 11-20, 21-30 and 30-100 ng/mL). When a cut-off value of 30 ng/mL was used to define vitamin D sufficiency, in the group with 25-OHD > 30 ng/ mL (n = 145), oxygen administration and ICU admission was required in a significantly higher number of cases compared to those with levels < 30 ng/mL (46.2% vs. 35.2%, p-0.03, 22.8% vs. 14.4%, p-0.04). There was no To evaluate the impact of confounding factors like age and comorbidities, we conducted a subgroup analysis of 105 elderly patients (age \u2265 65 y), 33 patients with VDD were compared with 72 patients without VDD ( Table 2 ). The proportion of comorbidities was similar in the groups. There was no difference in the clinical outcomes and inflammatory markers.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 763,
+                    "end": 770,
+                    "text": "Table 1",
+                    "ref_id": "TABREF3"
+                },
+                {
+                    "start": 2381,
+                    "end": 2388,
+                    "text": "Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Measurements."
+        },
+        {
+            "text": "In multivariate analysis (Table 3 ) neither 25-OHD nor PTH was related to the severity of the disease.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 25,
+                    "end": 33,
+                    "text": "(Table 3",
+                    "ref_id": "TABREF5"
+                }
+            ],
+            "section": "Comparison of cases with or without VDD."
+        },
+        {
+            "text": "Pearson correlation between 25OHD showed a weak positive correlation with outcome severity scores and hospital stay (Table 4 ). There was no significant correlation between 25-OHD level and the inflammatory markers studied. However, there was a positive correlation between PTH levels and D-dimer, ferritin, and LDH levels.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 116,
+                    "end": 124,
+                    "text": "(Table 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Correlation of 25-OHD and PTH with outcome severity scores and inflammatory markers."
+        },
+        {
+            "text": "(65%) patients with VDD in a median total dose of 60,000 IU. In the VDD group, cholecalciferol treatment did not change clinical outcomes and was not associated with any difference in the inflammatory markers (Table 5) . ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 209,
+                    "end": 218,
+                    "text": "(Table 5)",
+                    "ref_id": "TABREF7"
+                }
+            ],
+            "section": "Outcomes of patients treated with cholecalciferol. Cholecalciferol was administered to 128/197"
+        },
+        {
+            "text": "In this prospective, observational study of 410 Indian patients hospitalized for COVID-19, there was a high prevalence of vitamin D deficiency. However, there was no association between baseline serum 25-OHD level and clinical outcomes of COVID-19 (the proportion of severe cases, mortality, requirement of ICU admission, oxygen, inotropic support, or RRT) as well as the levels of the inflammatory markers. Treatment with cholecalciferol in patients with VDD was not associated with any difference in these outcomes. Vitamin D has been a matter of intense discussion in the COVID-19 pandemic for its possible role in decreasing the risk of infection as well as affecting the severity of the disease and mortality 20 . India has a high prevalence of VDD 17 , which is also reflected in our study with 48% of the study population being deficient. This percentage was even higher (64.3%) if a 25-OHD cut off of 30 ng/mL was used to define vitamin D sufficiency 21 . Table 2 . Outcomes of elderly hospitalized COVID-19 patients (age \u2265 65 years) with or without VDD, data presented as number (percentage) for categorical a and mean (SD) for continuous variables b .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 964,
+                    "end": 971,
+                    "text": "Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "No VDD (n = 72) VDD (n = 33) P-value Table 4 . Correlation of 25-OHD and PTH with outcome severity scores and inflammatory markers in hospitalized COVID-19 patients. **Correlation is significant at the 0.01 level (2-tailed). *Correlation is significant at the 0.05 level (2-tailed). www.nature.com/scientificreports/ An association between VDD and mortality has been suggested based on epidemiologic evidence of higher mortality in countries with low 25-OHD levels 12 . A study from India correlated historically published data on mean 25-OHD levels with mortality reported from different states, and suggested that mortality may be higher in VDD areas. However this study has major limitations as 25-OHD levels were not measured and most of the historical data used was heterogenous and scant 22 . Several hospital-based studies have reported an association between low 25-OHD and severe/critical COVID-19 disease 14, 15, 23 , higher rates of ICU admission 13 , higher levels of inflammatory markers 15 and mortality 14, 24 . Vitamin D deficiency was shown to be associated with higher morbidity in the elderly 25 and poor prognosis in patients with respiratory failure 26 . However, most studies are limited by a retrospective design and small sample size. In our study, we did not find any association of serum 25-OHD levels with severe outcomes and higher levels of inflammatory markers. These findings were similar despite using cut-offs of 10 ng/mL, 20 or 30 ng/mL and performing subgroup analysis after removing pediatric or asymptomatic cases. Younger age and lower prevalence of comorbidities in the VDD group could act as a confounding factors in our study but a subgroup analysis of elderly patients with similar prevalence of comorbidities as well as multivariate analysis did not show an association of serum 25-OHD level with severe outcomes. On the other hand, there was a weak positive association of 25-OHD levels with outcome severity scores and hospital stay, and patients with 25-OHD > 30 ng/mL had higher rates of ICU admission and oxygen administration. This finding could be explained by the older age and higher comorbidities in this group. It is noteworthy that one study 27 did note an association of higher serum 25-OHD level with mortality and another 28 found longer duration of hospital stay with 25-OHD > 20 ng/mL. One notable difference from other studies was the use of WHO-OSCI scale for defining severity of disease.",
+            "cite_spans": [
+                {
+                    "start": 915,
+                    "end": 918,
+                    "text": "14,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 919,
+                    "end": 922,
+                    "text": "15,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1018,
+                    "end": 1021,
+                    "text": "14,",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 37,
+                    "end": 44,
+                    "text": "Table 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Parameter"
+        },
+        {
+            "text": "A study from Spain 28 did not find an association of serum 25-OHD level with the severity of the disease but reported significantly high levels of ferritin levels in VDD, which was not seen in our study. Data from a European registry 29 did not find a relationship between serum 25-OHD levels at onset or after 8 weeks of COVID-19 with disease severity, persistent symptom burden, lung function impairment, ongoing inflammation, or more severe CT abnormalities on follow up. This study reported higher PTH at 8 weeks follow-up in patients who required ICU admission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Correlation coefficient p-value Correlation coefficient p-value"
+        },
+        {
+            "text": "Typically, serum PTH level is inversely correlated with serum 25-OHD level. It has been suggested that the PTH level may be a marker of the biological impact of VDD. However, no data is available on PTH levels in the setting of COVID-19. Our study showed that in hospitalized COVID-19 patients, serum PTH level had a weak positive but significant correlation with D-dimer, ferritin, and LDH but not with severity, mortality, or other clinical outcomes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Correlation coefficient p-value Correlation coefficient p-value"
+        },
+        {
+            "text": "Although our study was not a randomized controlled trial, we did not find any benefit of cholecalciferol treatment of patients with VDD on outcomes and inflammatory markers. The decision of treatment was based on the 25-OHD levels rather than the severity of the disease in our study and the proportion of cases treated with cholecalciferol was similar across all A recent randomized controlled trial 30 has reported benefits of short-term high dose cholecalciferol which was shown to be associated with higher number of patients becoming SARS-CoV2 negative with significant decrease in fibrinogen in 7 days. Our findings do not rule out the role of long-term supplementation with vitamin D. Our study, however, does not support benefit of treating VDD with single dose of 60,000 units of cholecalciferol for improving outcomes in hospitalized patients. Our observation needs to be confirmed in adequately powered randomized controlled trials aimed to detect differences in outcomes with vitamin D treatment. It is also possible that daily dosing or higher doses of vitamin D may have a different effect than the treatment used in our study 31 . A recent randomized controlled study, did not show benefit in terms of hospital stay, mortality, ICU admission or need for mechanical ventilation with administration of single large dose of 200,000 units of cholecalciferol in moderate to severely ill hospitalized patients 32 . We also cannot rule out the possible benefits of improving vitamin D status in the general population in regard to reducing the risk www.nature.com/scientificreports/ of contracting COVID-19. A possibility of type II error of 20% can be there in our conclusion of lack of efficacy of vitamin D in mitigating COVID severity. The strengths of our study are an appropriate sample size and prospective determination of 25-OHD and PTH in consecutive patients at the time of hospitalization. Apart from it being an observational study, a significant limitation is the lack of information on vitamin D supplementation prior to admission. Obesity is an important contributor to COVID severity, however data on BMI was available only for 136 patients in our study. During hospital stay, cholecalciferol treatment was administered per the decision of the treating physician, and not planned as part of the study, and physician bias in treatment decision and dosing cannot be ruled out.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Correlation coefficient p-value Correlation coefficient p-value"
+        },
+        {
+            "text": "In conclusion, we did not find any association of VDD with the severity of COVID-19 and mortality in a population with high prevalence of VDD. Serum 25-OHD levels were not associated with levels of inflammatory markers. Treatment of VDD with 60,000 units of cholecalciferol did not seem to offer any benefits with respect to immediate outcomes. While improving vitamin D status of the population to impact bone health remains an important goal for populations with a high prevalence of deficiency, its use in the context of COVID-19 remains questionable.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Correlation coefficient p-value Correlation coefficient p-value"
+        },
+        {
+            "text": "The datasets generated during and/or analyzed during the current study are available from the corresponding author on reasonable request. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data availability"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Coronavirus Update (Live): 63,198,955 Cases and 1,467,506 Deaths from COVID-19 Virus Pandemic-Worldometer",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Epidemic influenza and vitamin D",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cannell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Epidemiol. Infect",
+            "volume": "134",
+            "issn": "",
+            "pages": "1129--1140",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Vitamin D supplementation to prevent acute respiratory tract infections: Systematic review and meta-analysis of individual participant data",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Martineau",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "BMJ",
+            "volume": "356",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Acute respiratory tract infection and 25-hydroxyvitamin D concentration: A systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Pham",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rahman",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Majidi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Waterhouse",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Neale",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Int. J. Environ. Res. Public Health",
+            "volume": "16",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/ijerph16173020"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Vitamin D supplementation for the prevention of childhood acute respiratory infections: A systematic review of randomised controlled trials",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Br. J. Nutr",
+            "volume": "114",
+            "issn": "",
+            "pages": "1026--1034",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Toll-like receptor triggering of a vitamin D-mediated human antimicrobial response",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Science",
+            "volume": "311",
+            "issn": "",
+            "pages": "1770--1773",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Unexpected actions of vitamin D: New perspectives on the regulation of innate and adaptive immunity",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Adams",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hewison",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Nat. Clin. Pract. Endocrinol. Metab",
+            "volume": "4",
+            "issn": "",
+            "pages": "80--90",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Vitamin D decreases respiratory syncytial virus induction of NF-kappaB-linked chemokines and cytokines in airway epithelium while maintaining the antiviral state",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hansdottir",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J. Immunol",
+            "volume": "184",
+            "issn": "",
+            "pages": "965--974",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Clinical characteristics of Coronavirus disease 2019 in China",
+            "authors": [
+                {
+                    "first": "W.-J",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N. Engl. J. Med",
+            "volume": "382",
+            "issn": "",
+            "pages": "1708--1720",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Risk factors associated with acute respiratory distress syndrome and death in patients with coronavirus disease 2019 pneumonia in Wuhan China",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA Intern. Med",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jamainternmed.2020.0994"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "A. low population mortality from COVID-19 in countries south of latitude 35 degrees North supports vitamin D as a factor determining severity",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Rhodes",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Subramanian",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Laird",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kenny",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Aliment. Pharmacol. Ther",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/apt.15777"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "The role of vitamin D in the prevention of coronavirus disease 2019 infection and mortality",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Ilie",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Stefanescu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Aging Clin. Exp. Res",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s40520-020-01570-8"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Low serum 25-hydroxyvitamin D (25[OH]D) levels in patients hospitalised with COVID-19 are associated with greater disease severity",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Panagiotou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin. Endocrinol",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/cen.14276"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Vitamin D deficiency and outcome of COVID-19 patients",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Radujkovic",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nutrients",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/nu12092757"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Analysis of vitamin D level among asymptomatic and critically ill COVID-19 patients and its correlation with inflammatory markers",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Jain",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Sci. Rep",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Vitamin D for COVID-19: A case to answer?",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Martineau",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Forouhi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Diabetes Endocrinol",
+            "volume": "8",
+            "issn": "",
+            "pages": "735--736",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Global vitamin D status and determinants of hypovitaminosis D",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mithal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Osteoporos. Int",
+            "volume": "20",
+            "issn": "",
+            "pages": "1807--1820",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "The enigma of low COVID-19 fatality rate in India",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Samaddar",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gadepalli",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Nag",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Misra",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Front. Genet",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "rint/ prior itydisea ses/ key-action/ COVID-19_ Treat ment_ Trial_ Design_ Master_ Proto col_ synop sis_ Final_ 18022 020",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Covid-19_Treatment_Trial_Design_Master_Protocol_Synopsis_Final_18022020",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Role of vitamin D in preventing of COVID-19 infection, progression and severity",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ali",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Infect. Public Health",
+            "volume": "13",
+            "issn": "",
+            "pages": "1373--1380",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Evaluation, treatment, and prevention of vitamin D deficiency: An Endocrine Society clinical practice guideline",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Holick",
+                    "suffix": ""
+                }
+            ],
+            "year": 1911,
+            "venue": "J. Clin. Endocrinol. Metab",
+            "volume": "96",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Lower levels of vitamin D are associated with SARS-CoV-2 infection and mortality in the Indian population: An observational study",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Padhi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Suvankar",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Panda",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Pati",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Panda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int. Immunopharmacol",
+            "volume": "88",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Vitamin D sufficiency, a serum 25-hydroxyvitamin D at least 30 ng/mL reduced risk for adverse clinical outcomes in patients with COVID-19 infection",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Maghbooli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "PLoS ONE",
+            "volume": "15",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0239799"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Impact of serum 25(OH) vitamin D level on mortality in patients with COVID-19 in Turkey",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Karahan",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Katkat",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Nutr. Health Aging",
+            "volume": "1",
+            "issn": "",
+            "pages": "1--8",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Vitamin D status and outcomes for hospitalised older patients with COVID-19",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Baktash",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Postgrad. Med. J",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/postgradmedj-2020-138712"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Vitamin D deficiency as a predictor of poor prognosis in patients with acute respiratory failure due to COVID-19",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Carpagnano",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Endocrinol. Invest",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s40618-020-01370-x"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Vitamin D 25OH deficiency in COVID-19 patients admitted to a tertiary referral hospital",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Cereda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin. Nutr",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.clnu.2020.10.055"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Vitamin D status in hospitalized patients with SARS-CoV-2 infection",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Hern\u00e1ndez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Clin. Endocrinol. Metab",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1210/clinem/dgaa733"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Impact of vitamin D deficiency on COVID-19: A prospective analysis from the CovILD registry",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Pizzini",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nutrients",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/nu12092775"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Short term, high-dose vitamin D supplementation for COVID-19 disease: A randomised, placebo-controlled, study (SHADE study)",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rastogi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Postgraduate Med. J",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/postgradmedj-2020-139065"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Vitamin D supplementation in COVID-19 patients: A clinical case series",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Ohaegbulam",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Swalih",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Patel",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Perrin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Am J Ther",
+            "volume": "27",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/MJT.0000000000001222"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Effect of a Single High Dose of Vitamin D3 on Hospital Length of Stay in Patients With Moderate to Severe COVID-19: A Randomized Clinical Trial",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Murai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.26848"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Mean 25-hydroxyvitamin-D levels in mild and severe cases.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF1": {
+            "text": "9%) were symptomatic cases with a median symptom duration of 5 days (range 1-20 days). At baseline, a total of 390 (95.1%) patients had mild disease (no oxygen requirement in 318 and low flow oxygen requirement in 72) whereas 20 (4.9%) patients had severe disease (high flow oxygen-18, intubation-1, intubation, and other organ support-1) During the hospital stay, 57 (13.9%) patients had severe outcomes, including mortality in 15 (3.7%), intubation and intubation along with other organ support in 2 (0.5%) each, and high flow oxygen/non-invasive ventilation in 38 (9.3%) patients. A total of 248 (60.5%) patients did not require any supplemental oxygen and 105 (25.6%) required low flow oxygen. Admission to ICU, inotropic support, and renal replacement therapy (RRT) was required 72 (17.6%), 19 (4.6%), and 7 (1.7%) patients each.25-OHD levels in the study population.A total of 197 (48.2%) patients had VDD (25-OHD < 20 ng/ mL), among whom 100 (24.4%) had severe VDD (25-OHD < 10 ng/mL). Levels between 20 and 30 ng/mL, 30-100 and > 100 ng/mL were seen in 67 (16.4%), 139 (34%) and 6 (1.5%) patients respectively. Information about prior vitamin D supplementation was not available. The mean serum levels of 25-OHD in mild vs severe cases (26.3 \u00b1 24.9 vs 31.7 \u00b1 26.8, p-0.165) were not significantly different(Fig. 1).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Comparison of hospitalized COVID-19 patients with or without vitamin D deficiency (VDD), data presented as number (percentage) for categorical a and mean (SD) for continuous variables b .",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "Multivariate analysis for factors determining the severity.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF7": {
+            "text": "Outcomes of cholecalciferol treatment in hospitalized COVID-19 patients with VDD, data presented as number (percentage) for categorical a and mean (SD) for continuous variables b . https://doi.org/10.1038/s41598-021-85809-y",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors acknowledge Dr. Vinitaa Jha and Mr. Rajesh Saxena for assistance in planning and conduct of the study. Funding for the study was received from the Endocrine and Diabetes Foundation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": "G.J. drafted the study protocol, supervised patient enrollment, analyzed data, wrote the first draft of the manuscript, and will be the corresponding author for the manuscript. A.M. conceptualized the study, guided the study protocol, and critically reviewed the manuscript. A.S. supervised collection and reporting of laboratory investigations and contributed to the data collection. R.S., K.J.F., S.M. contributed to the data collection and analysis. K.J.F. reviewed the study protocol. A.D., S.B. critically reviewed the manuscript along with A.M.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Author contributions"
+        },
+        {
+            "text": "The study was funded by the Endocrinology and Diabetes Foundation, New Delhi. The funding agency did not play any role in the writing of the protocol and the conduct of the study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding"
+        },
+        {
+            "text": "The authors declare no competing interests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Competing interests"
+        },
+        {
+            "text": "The online version contains supplementary material available at https:// doi. org/ 10. 1038/ s41598-021-85809-y.Correspondence and requests for materials should be addressed to G.J.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary Information"
+        },
+        {
+            "text": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http:// creat iveco mmons. org/ licen ses/ by/4. 0/.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+        }
+    ]
+}

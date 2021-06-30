@@ -1,0 +1,2092 @@
+{
+    "paper_id": "0a7229802e14b19a762c4fbc58e11111b2bedaca",
+    "metadata": {
+        "title": "Overcoming Supply Shortage for SARS-CoV-2 Detection by RT-qPCR",
+        "authors": [
+            {
+                "first": "Gustavo",
+                "middle": [
+                    "Barcelos"
+                ],
+                "last": "Barra",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sabin Medicina Diagn\u00f3stica",
+                    "location": {
+                        "postCode": "70632-340",
+                        "settlement": "Bras\u00edlia",
+                        "country": "Brazil"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ticiane",
+                "middle": [],
+                "last": "Henriques",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sabin Medicina Diagn\u00f3stica",
+                    "location": {
+                        "postCode": "70632-340",
+                        "settlement": "Bras\u00edlia",
+                        "country": "Brazil"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Santa",
+                "middle": [],
+                "last": "Rita",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sabin Medicina Diagn\u00f3stica",
+                    "location": {
+                        "postCode": "70632-340",
+                        "settlement": "Bras\u00edlia",
+                        "country": "Brazil"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Pedro",
+                "middle": [],
+                "last": "G\u00f3es Mesquita",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sabin Medicina Diagn\u00f3stica",
+                    "location": {
+                        "postCode": "70632-340",
+                        "settlement": "Bras\u00edlia",
+                        "country": "Brazil"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Rafael",
+                "middle": [],
+                "last": "Henriques",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sabin Medicina Diagn\u00f3stica",
+                    "location": {
+                        "postCode": "70632-340",
+                        "settlement": "Bras\u00edlia",
+                        "country": "Brazil"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "J\u00e1como",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sabin Medicina Diagn\u00f3stica",
+                    "location": {
+                        "postCode": "70632-340",
+                        "settlement": "Bras\u00edlia",
+                        "country": "Brazil"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "L\u00eddia",
+                "middle": [],
+                "last": "Freire",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sabin Medicina Diagn\u00f3stica",
+                    "location": {
+                        "postCode": "70632-340",
+                        "settlement": "Bras\u00edlia",
+                        "country": "Brazil"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Abdalla",
+                "middle": [],
+                "last": "Nery",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sabin Medicina Diagn\u00f3stica",
+                    "location": {
+                        "postCode": "70632-340",
+                        "settlement": "Bras\u00edlia",
+                        "country": "Brazil"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "In February 2020, our laboratory started to offer an RT-qPCR assay for the qualitative detection of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) for Brazil's Federal District population. The validated protocol was an optimization of the assay described by the Centers for Disease Control and Prevention (CDC) [1] . A few months after the assay was released to our patients, some materials, reagents, and equipment became in short supply. Alternative protocols were necessary in order to avoid stopping testing for the population. However, the suitability of these alternatives needed to be validated before their use [2] .",
+            "cite_spans": [
+                {
+                    "start": 325,
+                    "end": 328,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 633,
+                    "end": 636,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The most often used and reliable clinical specimen for SARS-CoV-2 detection is nasopharyngeal swabs samples [3] . However, acquiring a nasopharyngeal swab is not as easy as obtaining other types of specimens, such as saliva, and may result in suboptimal specimens, particularly if the specimens are obtained by inexperienced personnel. The procedure can cause coughing, increasing the risk of nosocomial spread of respiratory viruses [4] . Moreover, nasal swabs for sample collection are in short supply from our providers, and saliva could be a good candidate as alternative primary sample to mitigate these sample collection difficulties.",
+            "cite_spans": [
+                {
+                    "start": 108,
+                    "end": 111,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 434,
+                    "end": 437,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Additionally, we validated the sample collection in tubes containing guanidine hydrochloride. This viral transport media virtually inactivates the pathogens present in the sample and preserves the nucleic acid of the specimen [5] [6] [7] [8] , however, it this also ended up resulting in a short supply. It has been described that 0.9% saline and phosphate-buffered saline (PBS) are appropriated viral transport media for SARS-CoV-2 collection and testing during the shortage of commercials tubes containing a viral transport medium [9, 10] . Saline at a lower concentration (e.g., 0.45%) may be more appropriate, but descriptions of the use of this lower concentration of saline as a viral transport media for SARS-CoV-2 detection is scarce or absent from the scientific literature.",
+            "cite_spans": [
+                {
+                    "start": 226,
+                    "end": 229,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 230,
+                    "end": 233,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 234,
+                    "end": 237,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 238,
+                    "end": 241,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 533,
+                    "end": 536,
+                    "text": "[9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 537,
+                    "end": 540,
+                    "text": "10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Moreover, molecular detection methods do not require the replication of a competent virus, but the preservation of nucleic acid is essential [2] . The stability of SARS-CoV-2 or its RNA overtime in specimens collected in different tubes additives (e.g., guanidine hydrochloride and 0.45% saline) are pre-analytical knowledge gaps that can influence the accuracy of SARS-CoV-2 detection using RT-qPCR. Because of this, the ex-vivo virus stability must be investigated, especially at room temperature, in order to eliminate the need for a cold chain during the challenging period of a pandemic [11] .",
+            "cite_spans": [
+                {
+                    "start": 141,
+                    "end": 144,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 592,
+                    "end": 596,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Furthermore, the number of samples referred to our laboratory for SARS-CoV-2 RNA detection increased substantially following the rapid spread rate of the virus, which is attributed to its ability to be transmitted before becoming symptomatic [12] [13] [14] . Primers and probes, as well as new qPCR thermocyclers, were in short supply at their manufacturers [15] , halting us from providing more tests to our patients. Decreasing the primer/probe concentrations in the reaction and diminishing the RT-qPCR cycling times can be alternatives to restore the testing capacity, thus avoiding the collapse of test availability [16, 17] .",
+            "cite_spans": [
+                {
+                    "start": 242,
+                    "end": 246,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 247,
+                    "end": 251,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 252,
+                    "end": 256,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 358,
+                    "end": 362,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 621,
+                    "end": 625,
+                    "text": "[16,",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 626,
+                    "end": 629,
+                    "text": "17]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In light of the above-mentioned factors, in this study, we investigated the following questions regarding alternatives to our validated protocol for SARS-CoV-2 qualitative detection:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "(a) Is saliva a reliable alternative specimen to nasopharyngeal swabs? (b) Is 0.45% saline a reliable alternative to guanidine hydrochloride as a collection viral transport media? (c) Can SARS-COV-2 collected in guanidine hydrochloride or in 0.45% saline be detected after 10 and 50 days of incubation at room temperature (18-23 \u2022 C)? (d) Can the primer/probe concentration and thermocycling times be reduced to overcome the short supply of reagents and equipment without a significant loss in the RT-qPCR assay performance?",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "To test if saliva is a reliable alternative specimen to nasopharyngeal swabs, 10 volunteers that tested positive for SARS-CoV-2 in our daily routine testing were invited to donate paired saliva and nasopharyngeal samples. Sample collection was performed at their residence using the appropriate protection equipment. Volunteers were asked to spit 2.5 mL of voided saliva into a tube containing guanidine hydrochloride (Cobas \u00ae PCR Media tubes from Roche Molecular Systems, Inc., Basel, Switzerland). One nasopharyngeal swab was collected and placed into another guanidine hydrochloride tube.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Primary Samples Collection and Processing"
+        },
+        {
+            "text": "To test if 0.45% saline is a reliable alternative viral transport media, the 10 volunteers that tested positive for SARS-CoV-2 were invited to donate two nasopharyngeal swabs (one form each nostril), which were placed into a 0.45% saline tube (in house produced 15 mL tube with 2.5 mL of 0.45% saline) and into a guanidine hydrochloride tube, respectively. These specimens were also used to test the sample stability after 10 and 50 days of incubation at room temperature (18-23 \u2022 C). These tubes were tested for SARS-CoV-2 RNA at day 0, and were retested after 10 and 50 days, respectively.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Primary Samples Collection and Processing"
+        },
+        {
+            "text": "To evaluate if the primer/probe concentrations and thermocycling times could be reduced without a loss of assay performance, a previously described synthetic SARS-CoV-2 RNA fragment was introduced directly into the RT-qPCR reactions [1] . Additionally, 105 anonymized leftover RNA samples that were positive for the virus were submitted to the three tested conditions (validated primer/probe concentrations and thermocycling conditions, named (+); decreased primer/probe concentrations and validated thermocycling conditions, named [\u2212]; and decreased primer/probe concentrations and reduced thermocycling times, named [\u2212] fast) in order to evaluate their effect on the Cq values.",
+            "cite_spans": [
+                {
+                    "start": 233,
+                    "end": 236,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Primary Samples Collection and Processing"
+        },
+        {
+            "text": "When applied, the nucleic acids were extracted from 200 \u00b5L of the primary sample using a MagNA Pure 96 Instrument (Roche Diagnostics, Basel, Switzerland) and MagNA Pure 96 DNA and Viral NA Small Volume Kit (protocol Viral NA Universal version 4.0, Roche Diagnostics, Basel, Switzerland), with elution in 100 \u00b5L of elution buffer (Roche Diagnostics, Basel, Switzerland).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Nucleic Acid Extraction"
+        },
+        {
+            "text": "The RT-qPCR reaction (20 \u00b5L) consisted of 4 \u00b5L of LightCycler \u00ae Multiplex RNA Virus Master (5\u00d7; Roche, Basel, Switzerland), 1500 nM of (or 300 nM for experiments with a reduced concentration) N1 SARS-CoV-2 primer and 375 nM (or 150 nM for experiments with ra educed concentration) probe (FAM), 80 nM of RPP30 primer and 40 nM of RPP30 probe (HEX), 0.1 \u00b5L of reverse transcriptase (200\u00d7) (Roche), 10 \u00b5L of extracted nucleic acid, and 3.34 \u00b5L of nuclease-free water. The primer and probe sequences were described elsewhere [1] . The thermocycling conditions were reverse transcription (10 min at 50 \u2022 C) and polymerase activation (3 min at 94 \u2022 C), followed by 45 cycles of 15 s at 95 \u2022 C and 30 s at 55 \u2022 C, with a total time of 85 min or a reverse transcription of 5 min at 50 \u2022 C; polymerase activation (30 s at 94 \u2022 C); and this was followed by 45 cycles of 5 s at 95 \u2022 C and 15 s at 55 \u2022 C, for a total time of 60 min. The instrument used was LightCycler 480 II.",
+            "cite_spans": [
+                {
+                    "start": 521,
+                    "end": 524,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "One-Step RT-qPCR Reaction and Thermocycling Conditions"
+        },
+        {
+            "text": "The amplification efficiencies of each primer/probe set were investigated by testing the 10-fold dilution (1.48 \u00d7 10 8 to 1.48 \u00d7 10 2 copies/PCR) of the synthetic SARS-CoV-2 diagnostic RNA, followed by the evaluation of the standard curve parameters, especially its slope, from which the amplification efficiency is derived. These analyses were performed using linear regression tools available in Graphpad Prism software version 6.0 (Graphpad, Inc., La Jolla, CA, USA).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Amplification Efficiency"
+        },
+        {
+            "text": "The limits of detection were calculated using the probit regression analysis of a 1:2 serial dilution (from 2.64 \u00d7 10 2 to 4.04 \u00d7 10 \u22121 copies/reaction) of the synthetic SARS-CoV-2 diagnostic RNA. Six technical replicates corresponding to each dilution point were tested in a single day (n = 6) and the assay response (detected or not detected) was measured. Applying the probit regression analysis to the data, a probability of detection versus concentration was returned. The target concentrations, which the assay tested positive 95% of the time (limit of detection-LOD), were estimated using Minitab version 19 (Minitab, LLC, State College, PA, USA).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Determining Assays Limit of Detection"
+        },
+        {
+            "text": "Paired nasopharyngeal swabs and saliva samples from 10 volunteers with a recent SARS-CoV-2 diagnostic were simultaneously submitted for a new SARS-CoV-2 detection test in order to evaluate the virus RNA detection in saliva. The median (min-max) N1 Cq values were 21.01 (14.53-27.59) for nasopharyngeal swabs and 29.51 (24.50-40) for saliva (Figure 1 ), suggesting a lower diagnostic capability of SARS-CoV-2 in saliva.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 340,
+                    "end": 349,
+                    "text": "(Figure 1",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Is Saliva a Reliable Alternative Specimen to Nasopharyngeal Swabs?"
+        },
+        {
+            "text": "Paired nasopharyngeal swabs and saliva samples from 10 volunteers with a recent SARS-CoV-2 diagnostic were simultaneously submitted for a new SARS-CoV-2 detection test in order to evaluate the virus RNA detection in saliva. The median (min-max) N1 Cq values were 21.01 (14.53-27.59) for nasopharyngeal swabs and 29.51 (24.50-40) for saliva (Figure 1 ), suggesting a lower diagnostic capability of SARS-CoV-2 in saliva. Figure 1 . Evaluation of whether saliva (green) is a reliable alternative specimen to nasopharyngeal swabs (blue). The N1 Cq values were consistently higher in saliva compared with the paired nasopharyngeal swab sample, suggesting a decreased diagnostic capability of SARS-CoV-2 RNA in saliva.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 340,
+                    "end": 349,
+                    "text": "(Figure 1",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 419,
+                    "end": 427,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Is Saliva a Reliable Alternative Specimen to Nasopharyngeal Swabs?"
+        },
+        {
+            "text": "Paired samples from the 10 volunteers with a recent SARS-CoV-2 diagnosis collected in both guanidine hydrochloride and 0.45% saline as a viral transport media were simultaneously submitted to a new SARS-CoV2 detection test in order to evaluate the virus detection in 0.45% saline. The median (min-max) N1 Cq values were 27.46 (12.88-35.52) for guanidine hydrochloride and 28.33 (15.66-35.40) for 0.45% saline (Figure 2 ), suggesting an acceptable and conformable diagnostic capability of SARS-CoV-2 using 0.45% saline as a viral transport media. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 409,
+                    "end": 418,
+                    "text": "(Figure 2",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Is 0.45% Saline a Reliable Alternative Collection Viral Transport Media to Guanidine Hydrochloride?"
+        },
+        {
+            "text": "Paired nasopharyngeal swabs and saliva samples from 10 volunteers with a recent SARS-CoV-2 diagnostic were simultaneously submitted for a new SARS-CoV-2 detection test in order to evaluate the virus RNA detection in saliva. The median (min-max) N1 Cq values were 21.01 (14.53-27.59) for nasopharyngeal swabs and 29.51 (24.50-40) for saliva (Figure 1) , suggesting a lower diagnostic capability of SARS-CoV-2 in saliva. Figure 1 . Evaluation of whether saliva (green) is a reliable alternative specimen to nasopharyngeal swabs (blue). The N1 Cq values were consistently higher in saliva compared with the paired nasopharyngeal swab sample, suggesting a decreased diagnostic capability of SARS-CoV-2 RNA in saliva.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 340,
+                    "end": 350,
+                    "text": "(Figure 1)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 419,
+                    "end": 427,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Is Saliva a Reliable Alternative Specimen to Nasopharyngeal Swabs?"
+        },
+        {
+            "text": "Paired samples from the 10 volunteers with a recent SARS-CoV-2 diagnosis collected in both guanidine hydrochloride and 0.45% saline as a viral transport media were simultaneously submitted to a new SARS-CoV2 detection test in order to evaluate the virus detection in 0.45% saline. The median (min-max) N1 Cq values were 27.46 (12.88-35.52) for guanidine hydrochloride and 28.33 (15.66-35.40) for 0.45% saline (Figure 2 ), suggesting an acceptable and conformable diagnostic capability of SARS-CoV-2 using 0.45% saline as a viral transport media. The same samples used in the previous experiment were stored for 10 day and then for 50 days at room temperature before been resubmitted to SARS-CoV-2 RNA detection. In guanidine hydrochloride, the median (min-max) N1 Cq values were 29.53 (15.58-37.75) for day 10 66-35.40) ). These results suggest a slightly diminished SARS-CoV-2 diagnostic capability after 10 days and a decreased SARS-CoV-2 diagnostic capability after 50 days of sample collection in both the guanidine hydrochloride and 0.45% saline tubes. The decrease in the diagnostic capability after 50 days appears to be more pronounced in guanidine hydrochloride, suggesting less stability for SARS-CoV-2 RNA in this additive (Figure 3 ). In summary, SARS-CoV-2 diagnostics can reliably be performed after sample storage for 10 days at room temperature in both 0.45% saline and guanidine hydrochloride, but for extended periods (e.g., 50 days) SARS-CoV-2 detection seems to be more reliable in 0.45% saline.",
+            "cite_spans": [
+                {
+                    "start": 807,
+                    "end": 809,
+                    "text": "10",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 409,
+                    "end": 418,
+                    "text": "(Figure 2",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 810,
+                    "end": 819,
+                    "text": "66-35.40)",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 1234,
+                    "end": 1243,
+                    "text": "(Figure 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Is 0.45% Saline a Reliable Alternative Collection Viral Transport Media to Guanidine Hydrochloride?"
+        },
+        {
+            "text": "(a) (a) (b) (a) (b) Figure 3 . Evaluation of the SARS-CoV-2 detection capability in guanidine hydrochloride (red) (a) and in 0.45% saline (blue) (b) after 10 and 50 days of incubation at room temperature (Nasopharyngeal samples). The N1 Cq values were slightly increased on day 10 versus day 0 for both tubes additives suggesting that a reliable SARS-CoV-2 detection can be performed for 10 days at room temperature after sample collection. However, the N1 Cq values were higher on day 50 versus day 0 for both tubes' additives, indicating that after 50 days at room temperature, the diagnostic capability is affected, especially in guanidine hydrochloride. In summary, SARS-CoV-2 diagnostics can reliably be performed in both 0.45% saline and guanidine hydrochloride after sample storage for 10 days at room temperature, but for extended periods (e.g., 50 days), the detection seems to be more reliable in 0.45% saline. The dashed line is the Cq value cut-off value and a Cq of 45 was arbitrarily attributed to samples where SARS-CoV-2 was not detected.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 20,
+                    "end": 28,
+                    "text": "Figure 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Is 0.45% Saline a Reliable Alternative Collection Viral Transport Media to Guanidine Hydrochloride?"
+        },
+        {
+            "text": "In the first version of our method, The N1 primer and probe concentrations per reaction were 1500 nM and 375 nM, respectively (named [+] ). Here, we tested if the primer and concentration could be reduced to 300 nM and 150 nM per reaction, respectively (named [\u2212]). After that, we investigated if the thermocycling time could be reduced from reverse transcription of 10 min at 50 \u2022 C, polymerase activation of 3 min at 94 ",
+            "cite_spans": [
+                {
+                    "start": 133,
+                    "end": 136,
+                    "text": "[+]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Can the Primer/Probe Concentrations and Thermocycling Time Be Reduced to SARS-COV2 Testing Capability without Loss of Assay Performance"
+        },
+        {
+            "text": "Here, we investigated the preanalytical and analytical parameters that can affect SARS-CoV-2 RNA using a CDC N1-based assay, and also tested some alternatives to our validated protocol in order to overcome the short supply of tubes, reagents, and equipment during pandemics, avoiding halting testing for the population. The most appropriate specimen and viral transport media for SARS-CoV-2 detection were evaluated. The ex-vivo SARS-CoV-2 RNA stability at room temperature was also determined. Additionally, we investigated whether the primer/probe concentrations in the reaction and the thermocycling times could be reduced without compromising the assay performance.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "First, we found that our assay performs better in nasopharyngeal swabs compared with saliva. Paired specimens were submitted to an identical process, involving RNA extraction of 200 uL of each type of sample, which were collected in tubes containing guanidine hydrochloride, but the saliva showed consistently higher Cq N1 values compared with the nasopharyngeal swabs (median Cq values of 21.01 versus 29.51). Qualitatively, no difference was observed between the tested specimens, but after observing the Cq values, we can conclude that the saliva collected using the drooling technique was not an appropriate primary sample for our assay because of the presumed decrease in the assay sensibility and diagnostic capability in samples with a low viral load. Collecting only oral fluids instead of mucous secretions from the oropharynx or lower respiratory tract may have contributed to the overall higher Cq values found saliva. Indeed, overall higher Cq values for saliva were overserved in one study [18] , but not in another [19] . A systematic review concluded that saliva is a reliable sample for SARS-CoV-2 detection [20] . Our results highlight that the validation of the primary sample locally for each laboratory is important in order to achieve the best sensitivity and specificity for the SARS-CoV-2 detection method, as we found that the nasopharyngeal swab performed better in our study.",
+            "cite_spans": [
+                {
+                    "start": 1003,
+                    "end": 1007,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1029,
+                    "end": 1033,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1124,
+                    "end": 1128,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Next, we investigated if 0.45% saline is a reliable collection viral transport media compared to the validated method of guanidine hydrochloride. The median Cq values were slightly higher for 0.45% saline (28.33) versus guanidine hydrochloride (27.46). Some paired samples presented higher Cq values in 0.45% saline and others in guanidine hydrochloride, suggesting a random effect over the amount of material that could be secondary to the nasopharyngeal sampling. We conclude that 0.45% saline and guanidine hydrochloride have a similar diagnostic capability. The validation of 0.9% saline and PBS as an alternative transport medium for SARS-CoV-2 testing has been done by others [9, 10] . The downside of 0.45% saline use instead of guanidine hydrochloride is that the former does not inactivate the microorganisms that may be present in the sample, and extra cautious should be applied during the sample measurement [7] . To our knowledge, this is the first description of use of 0.45% saline as a viral transport media for SARS-CoV-2 detection. Saline with a lower concentration is desirable for extraction-free RT-qPCR, because 0.9% saline and PBS are compatible with SARS-CoV-2 direct RT-qPCR only at lower input volumes [21] .",
+            "cite_spans": [
+                {
+                    "start": 682,
+                    "end": 685,
+                    "text": "[9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 686,
+                    "end": 689,
+                    "text": "10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 920,
+                    "end": 923,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1228,
+                    "end": 1232,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The observed stability of SARS-CoV-2 RNA in both 0.45% saline and guanidine hydrochloride was high at room temperature. The virus could be reliably detected for 10 days after sample collection (median Cq values of 27.46 on day 0 versus 29.53 on day 10 for guanidine hydrochloride, and 28.33 on day 0 versus 30.20 on day 10 for 0.45% saline). The median N1 Cq value fluctuation was 1.87 in 0.45% saline and 2.07 in guanidine hydrochloride. These two tested tube additives had differences regarding the state of the SARS-CoV-2 RNA inside them. In the 0.45% saline tubes, it is expected that SARS-CoV-2 is intact, protected by its envelope and membrane proteins. On the other hand, SARS-CoV-2 RNA is unprotected in guanidine hydrochloride tubes because of its chaotropic effect, which degrades the envelope and membrane of viruses [5] [6] [7] [8] . We conclude that SARS-CoV-2 detection is highly reliable in both samples, at least for 10 days. Additional time can negatively affect the diagnostic capabilities, especially in guanidine hydrochloride tubes, where the virus RNA is unprotected (see Figure 3a , b for 50-day results).",
+            "cite_spans": [
+                {
+                    "start": 828,
+                    "end": 831,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 832,
+                    "end": 835,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 836,
+                    "end": 839,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 840,
+                    "end": 843,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1094,
+                    "end": 1103,
+                    "text": "Figure 3a",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "The stability of SARS-CoV-2 in phosphate-buffered saline at room temperature has been studied elsewhere; for samples with high viral loads (10,000-50,000 copies per mL), the median N1 Cq values fluctuation was less than 1 though 28 days. For samples with low viral loads, the reduction in positivity began at day 7, and by day 28, 0% of samples were detected using N1 [11] . These findings corroborate our results indicating reliable stability of SARS-CoV-2 at room temperatures for 7-10 days in different viral transport media. To our knowledge, this is the first description of SARS-CoV-2 stability in 0.45% saline and guanidine hydrochloride for diagnostic purposes.",
+            "cite_spans": [
+                {
+                    "start": 368,
+                    "end": 372,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The primer/probe concentrations used in the validated protocol are high, and increase the assay sensitivity [1] . Scaling down the primer/probe concentration to legacy levels would allow us to perform more diagnostic tests with the same amount of material. The challenge is to perform this scaling down without a significant loss of sensitivity. It is important to highlight that many oligo manufactures experienced undesirable SARV-CoV-2 target contamination during the manufacturing, which lead to a short or delayed supply of these reagents [22] . So, as many assays as possible must be performed with approved uncontaminated primers lots. Using synthetic SARS-COV-2 diagnostic RNA, the reduction in the N1 primer concentration from 1500 nM to 300 nM (five-fold or 500%) and the probe from 375 nM to 150 nM (2.5-fold or 250%) did not affect the PCR amplification efficiency of the assay, but a 3.2-fold decrease in LOD was observed (7.3 versus 23.7 copies/reaction). However, it is expected that the diagnostic capability of the clinical samples with viral loads higher than 23.7 copies/reaction is not affected, as observed in . We concluded that a decrease in the primer/probe concentration will not affect the vast majority of the diagnostics, only those with viral loads between 7.2 copies/reaction (~722 copies/mL of viral transport media) and 23.7 copies/reaction (~2370 copies/mL of viral transport media).",
+            "cite_spans": [
+                {
+                    "start": 108,
+                    "end": 111,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 544,
+                    "end": 548,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Reducing the thermocycling time is an alternative to increase the number of tests that could be performed per day, as the new thermocycler was under stock depletion from the manufactures. Decreasing the reaction time from 1 h and 25 min to 1 h would increase the testing capability by 30%, eliminating our necessity of new thermocyclers. Using synthetic SARS-CoV-2 diagnostic RNA, the reduction in the thermocycling time as described above did not affect the PCR amplification efficiency of the N1 assay, but did decrease the assay LOD to 44.2 copies/reaction (six-fold compared with the original LOD). The same deliberation used above for the primer concentration can be used here (median Cq values of 23.87 for [\u2212] versus 24.92 for [\u2212] fast). We concluded that reducing the thermocycling time will not affect the vast majority of diagnostics, only those with viral loads between 7.2 copies/reaction (~722 copies/mL viral transport media) and 44.2 copies/reaction (~4420 copies/mL of viral transport media).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "It is expected that limit of detection matters and low viral load infections will be missed [23] . However, these modifications increased our daily testing capability by 30% and our reagent stock by 500% for primers and 250% for probes, which have a more profound effect on combating the pandemic in Brazil's Federal District and other Brazilian regions that send their samples to us. Using real clinical samples with Cq value ranging from~12.15 to~36.46, the results of the three tested conditions were almost identical. This observation corroborates the amplification efficiency experiment, where the assay presented a linear response similar to this range ( Figure 4a) . Indeed, some laboratories use a Cq cut-off value of 35-36 [24] , which means that reactions that returns Cq higher that these values are judge as negative or indeterminate results. Our assay presented a linear response until Cq 36 suggesting the higher Cq values can be detected. Taken together, the above-described evidences favor our statement that primer/probe concentration and thermocycling modifications will not affect the vast majority of diagnostics.",
+            "cite_spans": [
+                {
+                    "start": 92,
+                    "end": 96,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 732,
+                    "end": 736,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 661,
+                    "end": 671,
+                    "text": "Figure 4a)",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "In conclusion, (a) saliva is not an appropriate specimen for our method, nasopharyngeal swabs perform better; (b) saline (0.45%) and guanidine hydrochloride have similar SARS-CoV-2 diagnostic capability as tube additives; (c) reliable SARS-Cov-2 RNA detection can be performed after sample storage for 10 days at room temperature using 0.45% saline and guanidine hydrochloride as the collection medium; (d) decreasing the primers and probe concentration increases the LOD of the assay by 3.3-fold; (e) reducing the thermocycling time increases the LOD by 6.1-fold; and both alterations (d and e) will not affect the vast majority of diagnostics, but will increase our daily testing capability and our primer/probe stocks. Using 0.45% saline as a viral transport media and reducing primer and thermocycling conditions together with using the optimized direct PCR method (in publication), 105,757 samples were processed, and 25,156 SARS-CoV-2 diagnostics were performed from 9 May 2020 to 30 June 2020 by our laboratory. Funding: This work was entirely funded by Sabin Laboratory-equipment, reagents, and professionals (authors).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Institutional Review Board Statement: Ethical review and approval were waived for this study, because the manuscript is a description of experiments to find alternative protocols for SARS-CoV-2 detection and WHO urges everyone to share as much as possible information about the SARS-CoV-2 diagnostics during a pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Informed consent was obtained from all subjects or waived because only specimens deidentified and collected as part of standard diagnostic protocols that would normally be discarded were included in the experiment.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Informed Consent Statement:"
+        },
+        {
+            "text": "The data presented in this study are contained within the article.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Availability Statement:"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Analytical Sensitivity and Specificity of Two RT-QPCR Protocols for SARS-CoV-2 Detection Performed in an Automated Workflow",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Barra",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Santa Rita",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Mesquita",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "J\u00e1como",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "F A"
+                    ],
+                    "last": "Nery",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Genes",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/genes11101183"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Evaluation of Swabs, Transport Media, and Specimen Transport Conditions for Optimal Detection of Viruses by PCR",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Druce",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Garcia",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Tran",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Papadakis",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Birch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J. Clin. Microbiol",
+            "volume": "50",
+            "issn": "",
+            "pages": "1064--1065",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JCM.06551-11"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Detection of SARS-CoV-2 in Different Types of Clinical Specimens",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "JAMA",
+            "volume": "2020",
+            "issn": "",
+            "pages": "1843--1844",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.3786"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Review of Aerosol Transmission of Influenza A Virus",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Tellier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Emerg. Infect. Dis",
+            "volume": "12",
+            "issn": "",
+            "pages": "1657--1662",
+            "other_ids": {
+                "DOI": [
+                    "10.3201/eid1211.060426"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Retention of nucleic acid integrity in guanidine thiocyanate lysates of whole blood",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Kravchenko",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Chetverina",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Chetverin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Bioorg. Khim",
+            "volume": "32",
+            "issn": "",
+            "pages": "609--614",
+            "other_ids": {
+                "DOI": [
+                    "10.1134/s1068162006060070"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Laboratory Diagnosis of COVID-19: Current Issues and Challenges",
+            "authors": [
+                {
+                    "first": "Y.-W",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Schmitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Persing",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Stratton",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J. Clin. Microbiol",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JCM.00512-20"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Analysis of Inactivation of SARS-CoV-2 by Specimen Transport Media, Nucleic Acid Extraction Reagents, Detergents, and Fixatives",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Welch",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Davies",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Buczkowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Hettiarachchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Green",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Arnold",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hannah",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Evans",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Burton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Clin. Microbiol",
+            "volume": "58",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JCM.01713-20"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Virus Inactivation by Nucleic Acid Extraction Reagents",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Blow",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Dohm",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Negley",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Mores",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J. Virol. Methods",
+            "volume": "119",
+            "issn": "",
+            "pages": "195--198",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jviromet.2004.03.015"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Detection of Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) Is Comparable in Clinical Samples Preserved in Saline or Viral Transport Medium",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Radbel",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jagpal",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Roy",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Brooks",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tischfield",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sheldon",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Bixby",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Witt",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Gennaro",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Horton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Mol. Diagn",
+            "volume": "22",
+            "issn": "",
+            "pages": "871--875",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jmoldx.2020.04.209"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Evaluation of Saline, Phosphate-Buffered Saline, and Minimum Essential Medium as Potential Alternatives to Viral Transport Media for SARS-CoV-2 Testing",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Rodino",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Espy",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Buckwalter",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Walchak",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Germer",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Fernholz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Boerger",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Schuetz",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Yao",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Binnicker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Clin. Microbiol",
+            "volume": "58",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JCM.00590-20"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Stability of SARS-CoV-2 in Phosphate-Buffered Saline for Molecular Detection",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Perchetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.-L",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Peddu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Jerome",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Greninger",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J. Clin. Microbiol",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JCM.01094-20"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Infection Fatality Rate of SARS-CoV2 in a Super-Spreading Event in Germany",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Streeck",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Schulte",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "K\u00fcmmerer",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Richter",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "H\u00f6ller",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fuhrmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Bartok",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Dolscheid-Pommerich",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Berger",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wessendorf",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat. Commun",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41467-020-19509-y"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Estimating the Asymptomatic Proportion of Coronavirus Disease 2019 (COVID-19) Cases on Board the Diamond Princess Cruise Ship",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Mizumoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kagaya",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zarebski",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Chowell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "25",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2807/1560-7917.ES.2020.25.10.2000180"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Asymptomatic Carrier State, Acute Respiratory Disease, and Pneumonia Due to Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2): Facts and Myths",
+            "authors": [
+                {
+                    "first": "C.-C",
+                    "middle": [],
+                    "last": "Lai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.-Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y.-H",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.-C",
+                    "middle": [],
+                    "last": "Hsueh",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.-Y",
+                    "middle": [],
+                    "last": "Yen",
+                    "suffix": ""
+                },
+                {
+                    "first": "W.-C",
+                    "middle": [],
+                    "last": "Ko",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.-R",
+                    "middle": [],
+                    "last": "Hsueh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Microbiol. Immunol. Infect",
+            "volume": "53",
+            "issn": "",
+            "pages": "404--412",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jmii.2020.02.012"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Effective Optimization of SARS-CoV-2 Laboratory Testing Variables in an Era of Supply Chain Constraints",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Sahajpal",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Mondal",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Njau",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ananth",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Ahluwalia",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ahluwalia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Jilani",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Chaubey",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hegde",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Future Microbiol",
+            "volume": "2020",
+            "issn": "",
+            "pages": "1483--1487",
+            "other_ids": {
+                "DOI": [
+                    "10.2217/fmb-2020-0094"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Validation of a Primer Optimisation Matrix to Improve the Performance of Reverse Transcription-Quantitative Real-Time PCR Assays",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Mikeska",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dobrovic",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "BMC Res. Notes",
+            "volume": "2",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/1756-0500-2-112"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "RT-QPCR Testing of SARS-CoV-2: A Primer",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Bustin",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Nolan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int. J. Mol. Sci",
+            "volume": "21",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/ijms21083004"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "A Direct Comparison of Enhanced Saliva to Nasopharyngeal Swab for the Detection of SARS-CoV-2 in Symptomatic Patients",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Procop",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Shrestha",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Vogel",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Van Sickle",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Harrington",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Rhoads",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Rubin",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Terpeluk",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J. Clin. Microbiol",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JCM.01946-20"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Saliva or Nasopharyngeal Swab Specimens for Detection of SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Wyllie",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Fournier",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Casanovas-Massana",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Campbell",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tokuyama",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Vijayakumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Warren",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Geng",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Muenker",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Moore",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N. Engl. J. Med",
+            "volume": "383",
+            "issn": "",
+            "pages": "1283--1286",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMc2016359"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Saliva as a Diagnostic Specimen for Detection of SARS-CoV-2 in Suspected Patients: A Scoping Review",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Fakheran",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dehghannejad",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Khademi",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Infect. Dis. Poverty",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s40249-020-00728-w"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Massive and Rapid COVID-19 Testing Is Feasible by Extraction-Free SARS-CoV-2 RT-PCR",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Smyrlaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ekman",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lentini",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Rufino De Sousa",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Papanicolaou",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Vondracek",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Aarum",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Safari",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Muradrasoli",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Rothfuchs",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat. Commun",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41467-020-18611-5"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Contamination of SARS-CoV-2 RT-PCR Probes at the Oligonucleotide Manufacturer",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "Y T"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Buckley",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Bletchly",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Harris",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Whiley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Pathology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.pathol.2020.08.002"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "SARS-CoV2 Testing: The Limit of Detection Matters",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Arnaout",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Callahan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Yen",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Arora",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Kirby",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.06.02.131144"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Interpreting the COVID-19 Test Results: A Guide for Physiatrists",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hur",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Am. J. Phys. Med. Rehabil",
+            "volume": "99",
+            "issn": "",
+            "pages": "583--585",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/PHM.0000000000001471"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Evaluation of whether 0.45% saline (blue) is a reliable alternative viral transport media to guanidine hydrochloride (red). The N1 Cq values were analogous or slightly decrease in 0.45% saline compared with the paired guanidine hydrochloride sample, suggesting an acceptable diagnostic capability of SARS-CoV-2 in 0.45% saline.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Evaluation of whether saliva (green) is a reliable alternative specimen to nasopharyngeal swabs (blue). The N1 Cq values were consistently higher in saliva compared with the paired nasopharyngeal swab sample, suggesting a decreased diagnostic capability of SARS-CoV-2 RNA in saliva.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Is 0.45% Saline a Reliable Alternative Collection Viral Transport Media to Guanidine Hydrochloride?Paired samples from the 10 volunteers with a recent SARS-CoV-2 diagnosis collected in both guanidine hydrochloride and 0.45% saline as a viral transport media were simultaneously submitted to a new SARS-CoV2 detection test in order to evaluate the virus detection in 0.45% saline. The median (min-max) N1 Cq values were 27.46 (12.88-35.52) for guanidine hydrochloride and 28.33 (15.66-35.40) for 0.45% saline(Figure 2), suggesting an acceptable and conformable diagnostic capability of SARS-CoV-2 using 0.45% saline as a viral transport media.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Evaluation of whether 0.45% saline (blue) is a reliable alternative viral transport media to guanidine hydrochloride (red). The N1 Cq values were analogous or slightly decrease in 0.45% saline compared with the paired guanidine hydrochloride sample, suggesting an acceptable diagnostic capability of SARS-CoV-2 in 0.45% saline.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Evaluation of whether 0.45% saline (blue) is a reliable alternative viral transport media to guanidine hydrochloride (red). The N1 Cq values were analogous or slightly decrease in 0.45% saline compared with the paired guanidine hydrochloride sample, suggesting an acceptable diagnostic capability of SARS-CoV-2 in 0.45% saline.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "\u2022 C, followed by 45 cycles of 15 s at 95 \u2022 C and 30 s at 55 \u2022 C, for a total time of 85 min, to reverse transcription of 5 min at 50 \u2022 C, polymerase activation of 30 s at 94 \u2022 C, followed by 45 cycles of 5 s at 95 \u2022 C and 15 s at 55 \u2022 C, for a total time of 60 min (named [\u2212] fast). The PCR amplification efficiencies using the SARS-CoV-2 diagnostic RNA (described in [1]) were 98.5% (y = \u22123.357x + 42.74) for [+], 97.5 % (y = \u22123.383x + 42.52) for [\u2212], and 97.5% (y = \u22123.383x + 43.35) for [\u2212] fast (Figure 4a). The probit regression analysis showed a LOD of 7.3 (95% CI 5.21-18.84) copies/reaction for [+], 23.7 (95% CI 16.decrease versus [+]). Then, we submitted 105 real clinical nasopharyngeal samples positive for SARS-CoV-2 RNA collected in 0.45% saline to the three tested conditions, and they presented almost identical results (Figure 4b). The median (min-max) N1 Cq values were 24.21 (12.15-36.46) for [+], 23.87 (11.88-35.98) for [\u2212], and 24.92 (12.98-37,65) for [\u2212] fast. Genes 2021, 12, x. https://doi.org/10.3390/xxxxx www.mdpi.com/journal/genes (a) Amplification efficiencies and (b) Cq values observed for 105 SARS-CoV-2 positive samples. The values for both parameters for [+] (blue), [\u2212] (green), and [\u2212] fast (red) were almost identical, suggesting that the three tested conditions did not affect the diagnostic capability of the N1 assay. A three-fold decrease in the limit of detection (LOD) was observed for [\u2212] compared with [+] (7.3 versus 23.7 copies/reaction), and a six-fold decrease in the LOD was observed for [\u2212] compared with [\u2212] fast (7.3 versus 44.2 copies/reaction) using synthetic SARS-CoC-2 RNA and probit regression, suggesting that the differences between the tested conditions will be noted only on samples with a very low viral load.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "where [+] (high amount of oligos) and [\u2212] (less amount of oligos) showed very similar N1 Cq values on extracted RNA samples that were tested positive for SARS-CoV-2 (median Cq values of 24.21 for [+] versus 23.87 for [\u2212])",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Contributions: Conceptualization, G.B.B. and T.H.S.R.; methodology, P.G.M.; software, P.G.M.; validation, G.B.B., T.H.S.R. and P.G.M.; formal analysis, T.H.S.R. and P.G.M.; investigation, G.B.B.; resources, R.H.J. and L.F.A.N.; data curation, G.B.B.; writing-original draft preparation, G.B.B., T.H.S.R. and P.G.M.; writing-review and editing, R.H.J. and L.F.A.N.; visualization, G.B.B., T.H.S.R. and P.G.M.; supervision, R.H.J. and L.F.A.N.; project administration, R.H.J. and L.F.A.N.; funding acquisition, R.H.J. and L.F.A.N. All authors have read and agreed to the published version of the manuscript.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors are very thankful to Janete Ana Ribeiro Vaz and Sandra Santana Costa Soares from Sabin Laboratory, Bras\u00edlia, Federal District, Brazil, who approved the funding for this validation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments:"
+        },
+        {
+            "text": "Sabin laboratory is a private commercial laboratory. All authors are employees of Sabin Laboratory. The authors declare no conflict of interest.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflicts of Interest:"
+        }
+    ]
+}

@@ -1,0 +1,395 @@
+{
+    "paper_id": "0ad12c10003318c9f1884bf104bc407ba3efbadb",
+    "metadata": {
+        "title": "Journal Pre-proof Relation between COVID-19 vaccination and myocardial infarction -Casual or coincidental? RELATION BETWEEN COVID-19 VACCINATION AND MYOCARDIAL INFARCTION -CASUAL OR COINCIDENTAL ?",
+        "authors": [
+            {
+                "first": "K",
+                "middle": [
+                    "N"
+                ],
+                "last": "Srinivasan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sr. Interventional Cardiologist",
+                    "location": {
+                        "addrLine": "Apollo Main Hospitals",
+                        "settlement": "Chennai-600006"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "I",
+                "middle": [],
+                "last": "Sathyamurthy",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sr. Interventional Cardiologist",
+                    "location": {
+                        "addrLine": "Apollo Main Hospitals",
+                        "settlement": "Chennai-600006"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Manodaya",
+                "middle": [],
+                "last": "Neelagandan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sr. Interventional Cardiologist",
+                    "location": {
+                        "addrLine": "Apollo Main Hospitals",
+                        "settlement": "Chennai-600006"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [
+                    "K N"
+                ],
+                "last": "Srinivasan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sr. Interventional Cardiologist",
+                    "location": {
+                        "addrLine": "Apollo Main Hospitals",
+                        "settlement": "Chennai-600006"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ms",
+                "middle": [],
+                "last": "Manodaya Neelagandan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sr. Interventional Cardiologist",
+                    "location": {
+                        "addrLine": "Apollo Main Hospitals",
+                        "settlement": "Chennai-600006"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "B",
+                "middle": [
+                    "Physician"
+                ],
+                "last": "Assistant",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sr. Interventional Cardiologist",
+                    "location": {
+                        "addrLine": "Apollo Main Hospitals",
+                        "settlement": "Chennai-600006"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Increase in rate of cardiovascular disease (CVD) has been evidenced in patients infected with novel coronavirus of 2019 . Corona viruses are \"single stranded RNA viruses\" that primarily affect the respiratory system in humans and animals. The World Health organization (WHO) declared COVID-19 as an outbreak pandemic after development of pneumonia due to the severe acute respiratory syndrome corona virus-2 1 (SARS-CoV-2). Research has shown high mortality rates due to co-existence of viral pneumonia and cardiac co-morbidities. Many infected individuals presented in the form of myocarditis, acute coronary syndrome (ACS) 2 , stress cardiomyopathy, arrhythmias, Type II myocardial infarction (MI) and silent left ventricular (LV) dysfunction. The disarray of coagulation and fibrinolytic system was found to be the main reason for the increased incidence of arterial and venous thrombi in these patients 3 Further research data can aid to determine direct causal host-vaccine relationship. Until then, an absolute contraindication towards COVID-19 vaccination cannot be implemented to the population. As the benefits overweigh the side effects, it is well understood that immunization is mandatory for the population. Any untoward incidence after vaccination must be dealt as with any other conventional cardiac ailment. No specific post-vaccination cardiac management regimes are recommended till date. For now, therapeutic protocols unique to the individual case is suggested.",
+            "cite_spans": [
+                {
+                    "start": 907,
+                    "end": 908,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "No funding involved from any source.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "FUNDING"
+        },
+        {
+            "text": "J o u r n a l P r e -p r o o f",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DECLARATION OF COMPETING INTEREST"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Genomic characterization and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Niu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "565--74",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Pathogen recognition and inflammatory signaling in innate immune defenses",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Mogensen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Clin Microbiol Rev",
+            "volume": "22",
+            "issn": "",
+            "pages": "240--73",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "COVID-19 for the Cardiologist: Basic Virology, Epidemiology, Cardiac Manifestations, and Potential Therapeutic Strategies",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Atri",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Siddiqi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Lang",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Nauffal",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Morrow",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Bohula",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JACC Basic Transl Sci",
+            "volume": "5",
+            "issn": "5",
+            "pages": "518--554",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "COVID-19 in critical care: epidemiology of the first epidemic wave across England, Wales and Northern Ireland",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Richards-Belle",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Orzechowska",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Gould",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Intensive Care Med",
+            "volume": "46",
+            "issn": "",
+            "pages": "2035--2082",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Safety and efficacy of the ChAdOx1 nCoV-19 vaccine (AZD1222) against SARS-CoV-2: an interim analysis of four randomized controlled trials in Brazil, South Africa, and the UK",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Voysey",
+                    "suffix": ""
+                },
+                {
+                    "first": "Sac",
+                    "middle": [],
+                    "last": "Clemens",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Madhi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Lancet",
+            "volume": "397",
+            "issn": "",
+            "pages": "99--111",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Untimely Myocardial Infarction or COVID-19 Vaccine Side Effect",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Boivin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Martin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Cureus",
+            "volume": "13",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Safety and immunogenicity of the ChAdOx1 nCoV-19 vaccine against SARS-CoV-2: a preliminary report of a phase 1/2, single-blind, randomised controlled trial",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Folegatti",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ewer",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Aley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "396",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "FBS) of 184 mg% and post prandial blood sugar (PPBS) of 386 mg%. Computerized Tomography(CT) chest was suggestive of pulmonary edema. Electrocardiography (ECG) showed Sinus rhythm (SR), evolved infero-posterior wall myocardial infarction (IPWMI) (Figure 1-a, 1-b). Echocardiography (Echo) revealed mild left ventricular hypertrophy (LVH), regional wall motion abnormality (RWMA) involving infero-posterolateral wall with left ventricular ejection fraction(LVEF)of 55%. He was loaded with anti-platelets, statins and was lysed with Reteplase in a nearby clinic. After overnight stabilization, he arrived at our hospital and underwent coronary angiogram (CAG), which showed triple vessel disease (TVD) (severe disease of left anterior descending artery (LAD), distal left circumflex(dLCX) and 100% occlusion of distal right coronary artery (dRCA)) (Figure 1-c,1-e,1-g). Adhoc percutaneous coronary intervention (PCI) to culprit proximal LAD and RCA (Figure 1-d,1-f) were done with 2x30mm, 2.5 x26mm RESOLUTE ONYX stents respectively and was discharged after 2 days. Case-2: A 48-year-old male patient presented with complaints of severe chest pain associating cough and sweat. He had diabetes and hypertension for 4yrs. He is on treatment for branch vessel coronary artery disease (CAD) for 3 years. History disclosed that he had received his second dose of COVISHIELD Covid vaccine 6 days before. His Blood pressure (BP) was 170/80 mm Hg with Pulse rate (PR) of 142/min. Lipid profile is suggestive of dyslipidemia (Low density cholesterol (LDL-C) 207mg%, High density cholesterol (HDL-C) 40mg%, Triglycerides (TGL-C) 172mg%) with normal platelet count of 257 10\u00b3/mm\u00b3 and high sugar level. ECG showed SR, 142/min with ST elevation in V1-V2, avR with qR in lead I and avL (Figure 2-a, 2-b). Echo revealed RWMA involving mid anterior wall, mild to moderate LV dysfunction, LVEF-45%, mild mitral regurgitation (MR). He was loaded with antiplatelet, statins in the emergency ward and was taken up for Emergency CAG, which showed Double vessel disease (DVD). The culprit vessel LAD had thrombus containing 95% proximal stenosis and distal LCX had 70% lesion (A 75-year-old female presented with complaints of central chest blocking sensation with profuse sweating. History revealed that she had her first dose of COVID-19 vaccination (COVISHIELD) on previous day. BP was 120/80 mm Hg with PR of 62/min. Her Troponin T was positive with LDL-C of 126mg%. Platelet count was 235 10\u00b3/mm\u00b3 with rise in levels of CRP (59 mg/L) and ESR (23 mm/hr). ECG showed SR, 62 /min, ST elevation with qR in lead II, III & avF (IWMI) (Figure 3-a). Echo revealed RWMA involving basal inferior wall and inferior septum with mildly impaired LV function, LVEF-55%, 2+ MR. CAG revealed TVD with 100% occlusion of postero-lateral branch (PLB), moderate disease of LAD and severe disease of small 1 st branch of obtuse marginal (OM1) (Figure 3-b, 3-c, 3-d). The culprit vessel was small PLB branch. Hence, she was managed conservatively with anti-platelets, statins and anti-anginal drugs. She responded well to medical treatment and was discharged on the same day. DISCUSSION Across the globe, the severity of COVID-19 manifestation facilitated implementation of Covid vaccines against the disease. A compulsive demand was raised to at least minimize the acuteness of infection in high-risk individuals. Different candidate vaccines were developed, and ongoing clinical trials aim to develop neutralizing antibody responses post vaccination. The virus entry facilitated binding of SARS-CoV-2 spike protein to ACE2 receptors. Infected patients showed an immunodominant spike protein antigen with antibody and T-cell responses during recovery stage. Thus, most vaccines, ventured to induce anti-spike protein immune response as immunisation strategy. A novel vaccine was developed by the Oxford Vaccine Centre, Centre for Clinical Vaccinology and Serum Institute of India (SII). This vaccination drug was marketed as Covishield in India. This vaccine is made from a weakened version of chimpanzee adenovirus victor (ChAdOx1) that contain spike protein (nCoV-19) of SARS-CoV-2 gene 7 . The interim analysis of the efficacy and safety of this vaccine includes data from four ongoing blinded, randomized, controlled trials done across 3 continents 5 . It provides the first evidence of development of immunity against spike protein using viral vector in humans. It showed J o u r n a l P r e -p r o o f significant vaccine efficacy of 70.4% after 2 doses and protection of 64.1% after at least one standard dose against symptomatic disease, with no major safety concerns. As per the reports from Centers for Disease Control and prevention (CDC) and WHO, the common side effects of a COVID-19 vaccine include headache, dizziness, myalgia, fever, which usually settles by the end of second day. Rarely a person may also experience swelling and pain around the injection site. Signs of redness, prickling rash, and other low-grade forms of irritation at the upper arm are also perceived after vaccination. However, major cardiac events were not reported so far in the literature. We had three consecutive cases of ACS following COVID-19 vaccination (COVISHIELD). Two of them were middle aged and one was elderly patient. Both the male patients had co-morbid risk factors. They were tested negative for Covid-19 by RT-PCR at the time of admission and were asymptomatic prior to vaccination. Management of acute cardiac events post vaccination, varied depending on individual case. One among the three cases, was managed with medication. Other two cases required interventional procedures to stabilize the situation and were discharged after 48 hours of PCI. The possible relation between the vaccination and the development of ACS is ambiguous. Hostvaccine interaction determines the degree of immune response and the resultant inflammatory state with rise in C-reactive protein (CRP). Even though, CRP is considered as acute phase reactant, there has been studies showing its direct association with CAD, as it co-localizes with the terminal component of complement in intima of blood vessel and there by activates complement-mediated atherosclerotic process 8 . In general, patients who have multiple co-morbid risk factors carry high risk of developing acute cardiac events. Psychological stress of getting COVID-19 vaccination itself can destabilize a chronic stable plaque into vulnerable plaque. Even though, precipitation of acute inflammation as immunologic response after injection of vaccination drug, may be the cause of acute J o u r n a l P r e -p r o o f coronary syndrome, it is almost impossible to affirm vaccination as the cause for ACS instead it could be just a co-incidental occurrence.CONCLUSIONThree cases of acute coronary syndrome post Covishield vaccination are reported. Association between the vaccine and development of ACS may be a mere coincidental one. At this stage, drawing definitive cause-effect relationship cannot be ascertained. But inflammation and development of ACS following an active infection is well known, which is the reason for annual influenza vaccination being recommended for all CAD patients to prevent acute cardiac ailments 9,10 . In this regard, it is unlikely to determine whether there is a significant risk posed to middle aged patients with comorbid risk factors or elderly patients, who receive the vaccine. On the other hand, it gives us an opportunity to do additional screening for occult CAD in these otherwise, potential high-risk individuals prior to vaccine administration. The management of these patients is like conventional treatment for de novo ACS. Nevertheless, as responsible health care providers, we should avoid overstating this finding, because it might give a false alarm to the public. In present day crisis, COVID -19 vaccination is of utmost significance to entire population for development of herd immunity, prevent severe disease and mortality.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": ". SevereCovid-19 infection has been found predominantly in male sex, elderly people, and those with obesity 4 .To combat this fight against this deadly situation, continuous research enabled origin of two feasible COVID-19 vaccines named as Covishield and Covaxin in India5 . Till now, only few studies documented instigation of acute coronary syndrome (ACS) following COVID-19 vaccination6 . This paper describes case report of three consecutive cases of ACS following COVID-19 vaccination with Covishield. Description of these patients, whose real time ReverseTranscription Polymerase Chain Reaction (RT-PCR) of nasal and oral swabs were negative for COVID-19 at the time of reporting are elaborated as follows.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

@@ -1,0 +1,2005 @@
+{
+    "paper_id": "0aa1dbe7a13b12b6f393c4772118965789c80634",
+    "metadata": {
+        "title": "Journal Pre-proof Molecular epidemiology analysis of early variants of SARS- CoV-2 reveals the potential impact of mutations P504L and Y541C (NSP13) in the clinical COVID-19 outcomes Molecular epidemiology analysis of early variants of SARS-CoV-2 reveals the potential impact of mutations P504L and Y541C (NSP13) in the clinical COVID-19 outcomes",
+        "authors": [
+            {
+                "first": "Canhui",
+                "middle": [],
+                "last": "Cao",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Cancer Biology Research Center (Key Laboratory of the Ministry of Education)",
+                    "institution": "Huazhong University of Science and Technology",
+                    "location": {
+                        "postCode": "430030",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Liang",
+                "middle": [],
+                "last": "He",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Cancer Biology Research Center (Key Laboratory of the Ministry of Education)",
+                    "institution": "Huazhong University of Science and Technology",
+                    "location": {
+                        "postCode": "430030",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yuan",
+                "middle": [],
+                "last": "Tian",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Cancer Biology Research Center (Key Laboratory of the Ministry of Education)",
+                    "institution": "Huazhong University of Science and Technology",
+                    "location": {
+                        "postCode": "430030",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yu",
+                "middle": [],
+                "last": "Qin",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Cancer Biology Research Center (Key Laboratory of the Ministry of Education)",
+                    "institution": "Huazhong University of Science and Technology",
+                    "location": {
+                        "postCode": "430030",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Haiyin",
+                "middle": [],
+                "last": "Sun",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Cancer Biology Research Center (Key Laboratory of the Ministry of Education)",
+                    "institution": "Huazhong University of Science and Technology",
+                    "location": {
+                        "postCode": "430030",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Wencheng",
+                "middle": [],
+                "last": "Ding",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Cancer Biology Research Center (Key Laboratory of the Ministry of Education)",
+                    "institution": "Huazhong University of Science and Technology",
+                    "location": {
+                        "postCode": "430030",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Lingli",
+                "middle": [],
+                "last": "Gui",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Huazhong University of Science and Technology",
+                    "location": {
+                        "postCode": "430030",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Peng",
+                "middle": [],
+                "last": "Wu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Cancer Biology Research Center (Key Laboratory of the Ministry of Education)",
+                    "institution": "Huazhong University of Science and Technology",
+                    "location": {
+                        "postCode": "430030",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Since severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has caused global pandemic with alarming speed, comprehensively analyzing the mutation and evolution of early SARS-CoV-2 strains contributes to detect and prevent such virus.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Here, we explored 1 962 high-quality genomes of early SARS-CoV-2 strains obtained from 42 countries before April 2020. The changing trends of genetic variations in SARS-CoV-2 strains over time and country were subsequently identified. In addition, viral genotype mapping and phylogenetic analysis were performed to identify the variation features of SARS-CoV-2. Results showed that 57.89% of genetic variations involved in ORF1ab, most of which (68.85%) were nonsynonymous. Haplotype maps and phylogenetic tree analysis showed that amino acid variations in ORF1ab (p.5828P>L and p.5865Y>C, also NSP13: P504L and NSP13: Y541C) were the important characteristics of such clade. Furthermore, these variants showed more significant aggregation in the United States (P = 2.92E-66, 95%) than in Australia or Canada, especially in strains from Washington State (P = 1.56E-23, 77.65%). Further analysis demonstrated that the report date of the variants was associated with the date of increased infections and the date of recovery and fatality rate change in the United States. More importantly, the fatality rate in Washington State was higher (4.13%) and",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "showed poorer outcomes (P = 4.12E-21 in fatality rate, P = 3.64E-29 in death and recovered cases) than found in other states containing a small proportion of strains with such variants. Using sequence alignment, we found that variations at the 504 and J o u r n a l P r e -p r o o f Journal Pre-proof 3 / 34 541 sites had functional effects on NSP13. In this study, we comprehensively analyzed genetic variations in SARS-CoV-2, gaining insights into amino acid variations in ORF1ab and COVID-19 outcomes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Notably, the United States has recorded 28.5 million confirmed infections and 0.5 million deaths due to COVID-19, accounting for 25.08% of global infections and 20.36% of global deaths, thus making it one of the most severely affected countries.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "However, the reasons for the rapid spread of this novel virus and the pathogenesis of infections remain to be determined.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Recent studies focused on the mutation of Spike protein and showed that variants carrying D614G have become the most prevalent worldwide, suggesting the fitness advantage for SARS- CoV-2 (Canhui et al., 2020; Korber et al., 2020) . However, variations in other genes beyond the Spike protein might be important for the evolution of this virus. SARS-CoV-2 was indicated to evolve into at least three phylogenetic groups, characterized by positive selection from ORF1ab, ORF3a, and ORF8. Of note, for the first time, Velazquez-Salinas et al identified the potential relevance of amino acid Y5865C in ORF1ab, showing that this residue is experimenting directional selection. Also, the increased evolutionary rate of ORF10 was identified by Velazquez-Salinas et al (Velazquez-Salinas et al., 2020) . Moreover, the exoribonuclease (ExoN) of NSP14 knockout mutant assays showed the replication 5 / 34 lockdown in the United Kingdom (du Plessis et al., 2021) . At the phylogeny of SARS-CoV-2, strains were identified as lineage A, B, and C according to variants, and the variant carrying the Y5865C mutation was associated with the lineage S or 19 B (Velazquez-Salinas et al., 2020) .",
+            "cite_spans": [
+                {
+                    "start": 181,
+                    "end": 208,
+                    "text": "CoV-2 (Canhui et al., 2020;",
+                    "ref_id": null
+                },
+                {
+                    "start": 209,
+                    "end": 229,
+                    "text": "Korber et al., 2020)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 761,
+                    "end": 793,
+                    "text": "(Velazquez-Salinas et al., 2020)",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 918,
+                    "end": 951,
+                    "text": "Kingdom (du Plessis et al., 2021)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1143,
+                    "end": 1175,
+                    "text": "(Velazquez-Salinas et al., 2020)",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In the correlation analysis, variants of S 614G was associated with case fatality rates (CRF) and median CFR in 12 countries (Becerra-Flores and Cardozo, 2020) , and variants ORF1ab 4715L and S 614G were reported correlated with fatality rates in 28 countries and 17 states of the United States (Toyoshima et al., 2020) . It is still unclear whether the different mortality rates or transmission rates observed in different regions may be the consequences of the differences in clade virulence (Mercatelli and Giorgi, 2020) . ORF1 accounts for about two-thirds of the whole genome and encodes two polyproteins, i.e., pp1a (approximately 486 kD) and pp1ab (approximately 790 kD) (Hilgenfeld and Peiris, 2013) , which are processed by two viral cysteine proteases, i.e., papain-like protease (PLpro, Nsp3 domain) and main protease (Mpro or 3CLpro, Nsp5), into 15 or 16 NSPs. Most of these Nsps are involved in the transcription or replication of viral genomes (Sawicki et al., 2007) . SARS-CoV-2. Based on the infection, fatality, and recovery rates, as well as dynamic curves for the emergence of genome variations, in different countries, we identified amino acid variations in ORF1ab at the 5828 and 5865 loci (NSP13: P504L and NSP13: Y541C) and gained insight into COVID-19 outcomes in the United States that contained different proportions of strains with these ORF1ab variations.",
+            "cite_spans": [
+                {
+                    "start": 125,
+                    "end": 159,
+                    "text": "(Becerra-Flores and Cardozo, 2020)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 295,
+                    "end": 319,
+                    "text": "(Toyoshima et al., 2020)",
+                    "ref_id": null
+                },
+                {
+                    "start": 494,
+                    "end": 523,
+                    "text": "(Mercatelli and Giorgi, 2020)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 678,
+                    "end": 707,
+                    "text": "(Hilgenfeld and Peiris, 2013)",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 958,
+                    "end": 980,
+                    "text": "(Sawicki et al., 2007)",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Genetic variations in SARS-CoV-2 strains were determined based on data obtained from 2019nCoVR (v2.1) (https://bigd.big.ac.cn/ncov) ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Genetic variations in SARS-CoV-2 strains"
+        },
+        {
+            "text": "Genetic variation heatmaps of SARS-CoV-2 strains were generated by the online tool (Spatiotemporal dynamics) in 2019nCoVR (v2.1) (https://bigd.big.ac.cn/ncov) . By calculating the frequency of mutation sites of SARS-CoV-2 strains at each time point, the dynamic trend over time is displayed in the form of a genetic variation heatmap. By calculating the frequency of mutation sites in each country, the dynamic trend in different countries was displayed in the form of a genetic variation heatmap.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Genetic variation heatmap"
+        },
+        {
+            "text": "Amino acid variations in SARS-CoV-2 strains corresponded to genetic variation data. . The full SARS-CoV-2 proteome was based on the NCBI reference sequence (NC_045512), with GenBank entry MN908947. The mutation density of each virus region was calculated by dividing the mutation number of strains by the length of each region (bp).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Nonsynonymous and synonymous variation in SARS-CoV-2 strains"
+        },
+        {
+            "text": "Genetic variations in ORF1ab: 17858 (A->G) and ORF1ab: 17747 (C->T) J o u r n a l P r e -p r o o f Journal Pre-proof corresponded to amino acid variations in ORF1ab: p.5865Y>C and ORF1ab: p.5828P>L, or NSP13: P504L and NSP13: Y541C. In the protein sequence, the amino acid of ORF1ab at site 5828 P (proline) mutated into L (leucine) and at site 5865 Y (tyrosine) mutated into C (cystine).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Genome variations in ORF1ab at 17747 and 17858"
+        },
+        {
+            "text": "Viral genotyping maps were used to perform haplotype analysis across countries based on 2019nCoVR (v2.1) (https://bigd.big.ac.cn/ncov) . We used 1 962 viral strains for genetic variation analysis and 1 211 strains for haplotype maps (Fig. S1 ). Strain numbers used for haplotype and genetic variation analyses were different due to the asynchronous operation process of these two results in the dataset. We used the latest 2 250 strains of the virus from 13 December 2019 to 26 March 2020, identifying 1 210 haplotypes in total. Haplotype network maps were used to demonstrate the genetic distance and evolutionary relationships among different haplotypes. Root and leaf nodes indicated the direction of SARS-CoV-2 variants. The phylogenetic tree was built using 2019nCoVR with default settings. The phylogenetic tree was analyzed using the Molecular Evolutionary Genetics Analysis (MEGA) tool, with a scale of 0.0001. Two phylogenetic treemaps based on ORF1ab:",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 233,
+                    "end": 241,
+                    "text": "(Fig. S1",
+                    "ref_id": "FIGREF9"
+                }
+            ],
+            "section": "Viral genotyping maps and phylogenetic tree of SARS-CoV-2 strains."
+        },
+        {
+            "text": "p.5828P>L and ORF1ab: p.5865Y>C were download from Nextstrain (https://nextstrain.org/ncov) (Hadfield et al., 2018) . ",
+            "cite_spans": [
+                {
+                    "start": 92,
+                    "end": 115,
+                    "text": "(Hadfield et al., 2018)",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Viral genotyping maps and phylogenetic tree of SARS-CoV-2 strains."
+        },
+        {
+            "text": "The COVID-19 infection, mortality, and recovery rates in the United States were collected from the Centers for Disease Control and Prevention (CDC) (https://www.cdc.gov/) and virusncov (https://virusncov.com/covid-statistics/usa), and included confirmed and presumptive positive cases reported to the CDC since 22 January 2020, not including cases repatriated to the United States from Wuhan (China) or Japan. COVID-19 cases, mortality rates, and recovery rates of other countries were collected from the World Health Organization (WHO) (https://www.who.int/).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID-19 case collections"
+        },
+        {
+            "text": "The \u03b1-helix, \u03b2-sheet, and \u03b2-turn structures were used to represent protein secondary structures. Protein secondary structure prediction of ORF1ab (QHD43415.1) and the ORF1ab variant (p.5865Y>C and p.5828P>L, also NSP13: P504L and NSP13: J o u r n a l P r e -p r o o f Journal Pre-proof Y541C) was performed based on the Chou-Fasman algorithm (Chou and Fasman, 1974) . We used the amino acid sequence of ORF1ab (QHD43415.1) and the ORF1ab variant (QHD43415.1: p.5865Y>C and p.5828P>L) to compare differences between the two ORF1ab proteins.",
+            "cite_spans": [
+                {
+                    "start": 342,
+                    "end": 365,
+                    "text": "(Chou and Fasman, 1974)",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Protein secondary structure predictions"
+        },
+        {
+            "text": "Polymorphism Phenotyping v2 (PolyPhen-2) is a tool for predicting the possible impact of the amino acid substitution or indel on the structure and function of a protein (Adzhubei et al., 2010) . Protein Variation Effect Analyzer (PROVEAN) is also a tool for predicting the possible impact of an amino acid substitution or indel on the biological function of a protein (Choi et al., 2012; Choi and Chan, 2015) .",
+            "cite_spans": [
+                {
+                    "start": 169,
+                    "end": 192,
+                    "text": "(Adzhubei et al., 2010)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 368,
+                    "end": 387,
+                    "text": "(Choi et al., 2012;",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 388,
+                    "end": 408,
+                    "text": "Choi and Chan, 2015)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Functional effect prediction of ORF1ab variation"
+        },
+        {
+            "text": "PolyPhen-2 (http://genetics.bwh.harvard.edu/pph2/index.shtml) and PROVEAN (v1.1) (http://provean.jcvi.org/index.php) were used to predict whether the variation in NSP13: P504L and NSP13: Y541C affected the protein function of NSP13. We used the amino acid sequence of the variants for the query. In PolyPhen-2, the HumDiv value was used to evaluate rare alleles and dense mapping of regions and to analyze natural selection, whereas the HumVar value was used to help diagnose Mendelian disease. The closer the value (HumDiv or HumVar) is to 1.0, the greater the effect on 2019nCoVR dataset. We first performed variation frequency integration for whole genomes of SARS-CoV-2 strains over time. We found 1 660 sites with genetic variations, including several regions with a significant number of variations, i.e., ORF1ab (961) and S (162). Notably, variation frequency was markedly enriched from 27 February 2020 (Fig. 1A) . Variation heatmap of countries demonstrated the composition of several significant genetic variation sites, including variation in We next conducted variation annotation of all genome variations according to the NCBI reference sequence NC_045512, with GenBank entry MN908947. In general, we found 1 458 genome variations in coding regions of SARS-CoV-2, 69.48% of which were nonsynonymous. In addition, 66.05% (963/1458) of genetic variations were distributed in ORF1ab, of which 68.85% (663/963) were found to be nonsynonymous (Fig. 1C, Supplementary Table S1 ). As the length of ORF1ab occupied more than two-thirds of the whole genome, the mutation rate of each gene region should be determined in consideration of gene length. We calculated the mutation density of each gene via dividing the mutation number of each gene region by the length of each SARS-CoV-2 gene and found that the ORF10 region had a higher mutation rate (Fig. S3 ). We also found that the average variation frequency of coding regions was 5.48 (ranging from 1 to 597) and of noncoding regions was 6.96 (ranging from 1 to 592).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 911,
+                    "end": 920,
+                    "text": "(Fig. 1A)",
+                    "ref_id": "FIGREF9"
+                },
+                {
+                    "start": 1451,
+                    "end": 1483,
+                    "text": "(Fig. 1C, Supplementary Table S1",
+                    "ref_id": "FIGREF9"
+                },
+                {
+                    "start": 1852,
+                    "end": 1860,
+                    "text": "(Fig. S3",
+                    "ref_id": "FIGREF11"
+                }
+            ],
+            "section": "Functional effect prediction of ORF1ab variation"
+        },
+        {
+            "text": "To identify changes in genetic variations over time and by country, we constructed variation dynamic curves. Results showed that genetic variations in United States strains were not only responsible for the top nonsynonymous variations in the ORF1ab, S, and ORF8 regions but also were responsible for the top synonymous variations in the ORF1ab: 8782 and ORF1ab: 3037 sites. Furthermore, the occurrence date of the genetic variations in the United States strains contributed to the temporal trend of variations observed on 27 February 2020 (Fig. 2B ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 540,
+                    "end": 548,
+                    "text": "(Fig. 2B",
+                    "ref_id": "FIGREF10"
+                }
+            ],
+            "section": "Characteristics of genetic variations in SARS-"
+        },
+        {
+            "text": "Due to their extremely high mutation rates, short generation time, and large populations, viruses can rapidly develop viral quasispecies in diverse intra-host J o u r n a l P r e -p r o o f Journal Pre-proof populations (Domingo et al., 2012) , NGS data was used to produce thousands to millions of reads from a mixed sample and to estimate viral quasispecies (Giallonardo et al., 2014) . Here, the haplotype maps of SARS-CoV-2 strains across countries were based on genetic variations from high-quality genome sequencing data. From the 2 250 viral strains, we identified 1 210 haplotypes in total. Importantly, we observed that haplotype (H (140)) occurred in more strains than any other haplotype.",
+            "cite_spans": [
+                {
+                    "start": 220,
+                    "end": 242,
+                    "text": "(Domingo et al., 2012)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 360,
+                    "end": 386,
+                    "text": "(Giallonardo et al., 2014)",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Variation features of SARS-CoV-2 strains."
+        },
+        {
+            "text": "Furthermore, 97.14% (136/140) of these strains were from the United States, with the remaining 2.85% (3/140) from Canada, thus showing significant differences between the two countries (P = 7.90E-14; Fig. 3A ). These results indicate that this virus strain from the United States exhibited the aggregation in the population than any other strain.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 200,
+                    "end": 207,
+                    "text": "Fig. 3A",
+                    "ref_id": "FIGREF11"
+                }
+            ],
+            "section": "Variation features of SARS-CoV-2 strains."
+        },
+        {
+            "text": "As different viruses follow different patterns of variation, phylogenetic trees can be used to investigate their variation features (Holmes, 2008). Here, we constructed a phylogenetic tree of SARS-CoV-2 strains from the 2019nCoVR dataset using default settings . Results identified a clade enriched with strains from the United States (enriched clade, Fig. 3B ). Furthermore, 236 strains fell within the enriched cluster, while 140 strains belong to Haplotype H (140) and the Tacoma (Fig. 4E) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 352,
+                    "end": 359,
+                    "text": "Fig. 3B",
+                    "ref_id": "FIGREF11"
+                },
+                {
+                    "start": 483,
+                    "end": 492,
+                    "text": "(Fig. 4E)",
+                    "ref_id": "FIGREF12"
+                }
+            ],
+            "section": "Variation features of SARS-CoV-2 strains."
+        },
+        {
+            "text": "To further analyze the variation in ORF1ab (p.5828P>L and p.5865Y>C, NSP13: P504L and NSP13: Y541C) in SARS-CoV-2, we explored variation frequency over time. Results demonstrated that variation frequency increased on 27 February 2020 and peaked on 15-16 March 2020 (Fig. 5A) . We then calculated the infection, fatality, and recovery rates of COVID-19 in the United States. On 15 and 16 March 2020, infections increased by more than 1 000 cases, totaling 2 234 and 3 487 cases, respectively. In addition, the recovery rate dropped on 27 February 2020 and the fatality rate increased on 28 February 2020 (Fig. 5B) . These date links between ORF1ab variation and COVID-19 condition were not found in Iceland or Australia (Fig. S4A, B) In particular, the ORF1ab 4715L and S protein 614G variants were correlated with a higher fatality rate. Although the NSP13: P505L and NSP13: Y541C variants were identified in Cluster 3, mainly in the United States, Australia, and Canada, the fatality rate of Cluster 3 showed no statistical significance compared with Cluster 1 and Cluster 2 (Toyoshima et al., 2020) .",
+            "cite_spans": [
+                {
+                    "start": 1076,
+                    "end": 1100,
+                    "text": "(Toyoshima et al., 2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 265,
+                    "end": 274,
+                    "text": "(Fig. 5A)",
+                    "ref_id": "FIGREF13"
+                },
+                {
+                    "start": 603,
+                    "end": 612,
+                    "text": "(Fig. 5B)",
+                    "ref_id": "FIGREF13"
+                },
+                {
+                    "start": 719,
+                    "end": 732,
+                    "text": "(Fig. S4A, B)",
+                    "ref_id": "FIGREF12"
+                }
+            ],
+            "section": "COVID-19 outcomes in states with different proportions of strains containing variation in NSP13: P504L and NSP13: Y541C"
+        },
+        {
+            "text": "Using the genomic diversity of mutations in early SARS-CoV-2 strains, scientists have identified two distinct mutations, i.e., S or L type, with the S type considered more aggressive and faster spreading (Tang et al., 2020) . Moreover, in silico structure modeling of Nsp13 and Nsp14, potential dual-target inhibitors of SARS-CoV-2 with high binding affinity were identified (Gurung, 2020) .",
+            "cite_spans": [
+                {
+                    "start": 204,
+                    "end": 223,
+                    "text": "(Tang et al., 2020)",
+                    "ref_id": null
+                },
+                {
+                    "start": 375,
+                    "end": 389,
+                    "text": "(Gurung, 2020)",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "COVID-19 outcomes in states with different proportions of strains containing variation in NSP13: P504L and NSP13: Y541C"
+        },
+        {
+            "text": "The data was identified and integrated from the 2019nCoVR database, with the J o u r n a l P r e -p r o o f Journal Pre-proof non-redundant and duplicated biases . Factors associated with the fatality rate of COVID-19 fall into objective factors, such as the quality and capacity of the healthcare system, and subjective factors related to individual patients, such as age and history of chronic respiratory disease, hypertension, diabetes, and coronary heart disease (Zhou et al., 2020a) . In Washington State, although the number of infections ranks tenth, the fatality rate ranks second (as of 2 April 2020), with a higher fatality rate than even New York. However, we found that for mortality rate in Washington State was high, with 69.05% of strains containing ORF1ab variants (NSP13: P504L and NSP13: Y541C), whereas other states (e.g., Minnesota, Utah, Wisconsin, and California) that only contained a small proportion of strains with the ORF1ab variants, showed better disease outcomes.",
+            "cite_spans": [
+                {
+                    "start": 468,
+                    "end": 488,
+                    "text": "(Zhou et al., 2020a)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "COVID-19 outcomes in states with different proportions of strains containing variation in NSP13: P504L and NSP13: Y541C"
+        },
+        {
+            "text": "However, outcomes in hosts infected with strains containing whether ORF1ab variations (NSP13: P504L and NSP13: Y541C) or not in the same States were missing, making it difficult to directly build the correlation between them.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID-19 outcomes in states with different proportions of strains containing variation in NSP13: P504L and NSP13: Y541C"
+        },
+        {
+            "text": "The only way to know whether a nonsynonymous variation of a virus affects its function is to study it in cell assays or animal models to clarify entrance and transmission processes (Muth et al., 2018) . As Velazquez-Salinas's study identified that residue 5865 (NSP13: Y541C) was under directional selection, which is also shown by the datamonkey evolutionary server, the variants (NSP13: P504L and NSP13: Y541C) may be under experimenting positive selection (Velazquez-Salinas et al., 2020) . Besides, we only predicted secondary structures of proteins (\u03b1-helix, J o u r n a l P r e -p r o o f Journal Pre-proof \u03b2-sheet, and \u03b2-turn) and functional effects based on computational methods, without the application of cell cultures or animal models to demonstrate the consequences of the variations, which need further study. Furthermore, virus strains carrying the two key variations were also found in Iceland and Australia but were not dominant in these two countries. The mutation frequencies of these two loci were high in Mexico, Canada, and the United States (Fig. S7) , which are geographically close to each other.",
+            "cite_spans": [
+                {
+                    "start": 181,
+                    "end": 200,
+                    "text": "(Muth et al., 2018)",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 459,
+                    "end": 491,
+                    "text": "(Velazquez-Salinas et al., 2020)",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1064,
+                    "end": 1073,
+                    "text": "(Fig. S7)",
+                    "ref_id": null
+                }
+            ],
+            "section": "COVID-19 outcomes in states with different proportions of strains containing variation in NSP13: P504L and NSP13: Y541C"
+        },
+        {
+            "text": "And genetic mutation heatmaps of regions showed that the mutation type of Iceland, Australia, and the United States were different (Fig. S8 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 131,
+                    "end": 139,
+                    "text": "(Fig. S8",
+                    "ref_id": null
+                }
+            ],
+            "section": "COVID-19 outcomes in states with different proportions of strains containing variation in NSP13: P504L and NSP13: Y541C"
+        },
+        {
+            "text": "In this research, we explored 1 962 high-quality genomes of early SARS-CoV-2 to identify the changing trends in genetic variations over time and by country. Haplotype mapping and phylogenetic tree analysis showed that amino acid variations in ORF1ab Zhou, P., Yang, X.L., Wang, X.G., Hu, B., Zhang, L., Zhang, W., et al. (2020b) . A pneumonia outbreak associated with a new coronavirus of probable bat origin.",
+            "cite_spans": [
+                {
+                    "start": 284,
+                    "end": 328,
+                    "text": "Hu, B., Zhang, L., Zhang, W., et al. (2020b)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "COVID-19 outcomes in states with different proportions of strains containing variation in NSP13: P504L and NSP13: Y541C"
+        },
+        {
+            "text": "Nature 579 (7798), 270-273. doi: 10.1038 /s41586-020-2012 -7. Zhu, N., Zhang, D., Wang, W., Li, X., Yang, B., Song, J., et al. (2020 ",
+            "cite_spans": [
+                {
+                    "start": 19,
+                    "end": 40,
+                    "text": "270-273. doi: 10.1038",
+                    "ref_id": null
+                },
+                {
+                    "start": 41,
+                    "end": 57,
+                    "text": "/s41586-020-2012",
+                    "ref_id": null
+                },
+                {
+                    "start": 58,
+                    "end": 132,
+                    "text": "-7. Zhu, N., Zhang, D., Wang, W., Li, X., Yang, B., Song, J., et al. (2020",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "COVID-19 outcomes in states with different proportions of strains containing variation in NSP13: P504L and NSP13: Y541C"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A method and server for predicting damaging missense mutations",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Adzhubei",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Schmidt",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Peshkin",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Ramensky",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gerasimova",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Bork",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "The proximal origin of SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Andersen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rambaut",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Lipkin",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Holmes",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Garry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Med",
+            "volume": "26",
+            "issn": "4",
+            "pages": "450--452",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41591-020-0820-9"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "SARS-CoV-2 viral spike G614 mutation exhibits higher case fatality rate",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Becerra-Flores",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Cardozo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Clin Pract",
+            "volume": "74",
+            "issn": "8",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/ijcp.13525"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "The SWISS-MODEL Repository-new features and functionality",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bienert",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Waterhouse",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "De Beer",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Tauriello",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Studer",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Bordoli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "2745--2747",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/bioinformatics/btv195"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Predicting the functional effect of amino acid substitutions and indels",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Sims",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Murphy",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "PLoS One",
+            "volume": "7",
+            "issn": "10",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0046688"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Prediction of protein conformation",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Chou",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Fasman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1974,
+            "venue": "Biochemistry",
+            "volume": "13",
+            "issn": "2",
+            "pages": "222--245",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/bi00699a002"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Viral quasispecies evolution",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Domingo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sheldon",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Perales",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Establishment and lineage dynamics of the SARS-CoV-2 epidemic in the UK",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Du Plessis",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Mccrone",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Zarebski",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Hill",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ruis",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Gutierrez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Science",
+            "volume": "371",
+            "issn": "6530",
+            "pages": "708--712",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.abf2946"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Phylogeography and evolutionary history of reassortant H9N2 viruses with potential human health implications",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Fusaro",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Monne",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Salviato",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Valastro",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Schivo",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Amarin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Virol",
+            "volume": "85",
+            "issn": "16",
+            "pages": "8413--8421",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.00219-11"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Full-length haplotype reconstruction to infer the structure of heterogeneous virus populations",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Giallonardo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Topfer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rey",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Prabhakaran",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Duport",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Leemann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Nucleic Acids Res",
+            "volume": "42",
+            "issn": "14",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nar/gku537"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "In silico structure modelling of SARS-CoV-2 Nsp13 helicase and Nsp14 and repurposing of FDA approved antiviral drugs as dual inhibitors",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Gurung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Nextstrain: real-time tracking of pathogen evolution",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hadfield",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Megill",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Bell",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Huddleston",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Potter",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Callender",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Bioinformatics",
+            "volume": "34",
+            "issn": "23",
+            "pages": "4121--4123",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/bioinformatics/bty407"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "From SARS to MERS: 10 years of research on highly pathogenic human coronaviruses",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Hilgenfeld",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Peiris",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Antiviral Res",
+            "volume": "100",
+            "issn": "1",
+            "pages": "286--295",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.antiviral.2013.08.015.10.1146/annurev.micro.62.081307.162912"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Genomic characterization and infectivity of a novel SARS-like coronavirus in Chinese bats",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ai",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Emerg Microbes Infect",
+            "volume": "7",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41426-018-0155-5"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Delicate structural coordination of the Severe Acute Respiratory Syndrome coronavirus Nsp13 upon ATP hydrolysis",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Jia",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nucleic Acids Res",
+            "volume": "47",
+            "issn": "12",
+            "pages": "6538--6550",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nar/gkz409"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Tracking Changes in SARS-CoV-2 Spike: Evidence that D614G",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Korber",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Fischer",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gnanakaran",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yoon",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Theiler",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Abfalterer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Increases Infectivity of the COVID-19 Virus",
+            "authors": [],
+            "year": null,
+            "venue": "Cell",
+            "volume": "182",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cell.2020.06.043"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Niu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "30251--30259",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Geographic and Genomic Distribution of SARS-CoV-2 Mutations",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Mercatelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "Giorgi",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Front Microbiol",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fmicb.2020.01800"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Novel coronavirus 2019-nCoV: prevalence, biological and clinical characteristics comparison with SARS-CoV and MERS-CoV",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Meo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Alhowikan",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Al-Khlaiwi",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Meo",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Halepoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Iqbal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eur Rev Med Pharmacol Sci",
+            "volume": "24",
+            "issn": "4",
+            "pages": "2012--2019",
+            "other_ids": {
+                "DOI": [
+                    "10.26355/eurrev_202002_20379"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Attenuation of replication by a 29 nucleotide deletion in SARS-coronavirus acquired during the early stages of human-to-human transmission",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Muth",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Corman",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Roth",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Binger",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Dijkman",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Gottula",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Sci Rep",
+            "volume": "8",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41598-018-33487-8"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "The Enzymatic Activity of the nsp14",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Ogando",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Zevenhoven-Dobbe",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Van Der Meer",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Bredenbeek",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Posthuma",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Snijder",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Exoribonuclease Is Critical for Replication of MERS-CoV and SARS-CoV-2",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "A contemporary view of coronavirus transcription",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Sawicki",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Sawicki",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Siddell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J Virol",
+            "volume": "81",
+            "issn": "1",
+            "pages": "20--29",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.01358-06"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "ProMod3-A versatile homology modelling toolbox",
+            "authors": [],
+            "year": null,
+            "venue": "PLoS Comput Biol",
+            "volume": "17",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pcbi.1008667"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "The Global Landscape of SARS-CoV-2 Genomes, Variants, and Haplotypes",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zou",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Tian",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "SARS-CoV-2 genomic variations associated with mortality rate of COVID-19",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Positive Selection of ORF1ab, ORF3a, and ORF8 Genes Drives the Early Evolutionary Trends of SARS-CoV-2 During the",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Velazquez-Salinas",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zarate",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Eberl",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Gladue",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Novella",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Borca",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "2020--2039",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "SWISS-MODEL: homology modelling of protein structures and complexes",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Waterhouse",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bertoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bienert",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Studer",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Tauriello",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gumienny",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nucleic Acids Res",
+            "volume": "46",
+            "issn": "W1",
+            "pages": "296--303",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nar/gky427"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "A new coronavirus associated with human respiratory disease in China",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Song",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "579",
+            "issn": "7798",
+            "pages": "265--269",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2008-3"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "The 2019 novel coronavirus resource",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zou",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Ma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Yi Chuan",
+            "volume": "42",
+            "issn": "2",
+            "pages": "212--221",
+            "other_ids": {
+                "DOI": [
+                    "10.16288/j.yczz.20-030"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "The mutation number of virus regions (5'UTR, ORF1ab, S, ORF3a, E, M, ORF6, ORF7a, ORF8, N, ORF10) represented the number of strains with genetic variation at each site. The variation annotation reference was NCBI: txid2697049, which was submitted by the Shanghai Public Health Clinical Center & School of Public Health, Fudan University, Shanghai, China",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "diarrhea virus, Canine respiratory coronavirus, Ferret coronavirus, Beta coronavirus Erinaceus/VMC/DEU, Human coronavirus OC43, Bat coronavirus_QBP43288, Hedgehog coronavirus 1, Tylonycteris bat coronavirus HKU5, Tylonycteris bat coronavirus HKU4, BatCoV RaTG13, MERS, SARS, bat-SL-CoVZC45, and bat-SL-CoVZXC21) were downloaded from the Protein Database of NCBI (https://www.ncbi.nlm.nih.gov/protein).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": ">T, NSP13:P504L, missense)(Fig. 1B).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "17747 (NSP13:P504L, 285 strains). Among them, 5'UTR was the untranslated region, and the variations in ORF1ab: 3037 (NSP3:F106F), ORF1ab: 8782 (NSP4:S76S), and ORF1ab: 18060 (NSP14:L7L) were synonymous (Fig. 2A).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": ". Furthermore, the number of infections in countries other than China exceeded the number of infections in China on 15 March 2020, with the fatality rate exceeded on 17 March 2020 (Fig. 5C). By the detection time on 2 April 2020, Washington State had one of the highest (NSP13: P504L and NSP13: Y541C) were responsible for the phylogenetic branches. Toyoshima et al. identified three clusters with a different mortality rate of COVID-19.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "From the analysis of early trends in the COVID-19 evolutionary patterns, Velazquez-Salinas et al. for the first time identified the effect of mutation ORF1ab:5865 as a factor of phylogenetic divergence of SARS-CoV-2 (Velazquez-Salinas et al., 2020). Our analysis of genetic variation in early SARS-CoV-2 strains found that most variations were in ORF1ab, and most variations in ORF1ab were nonsynonymous. As nonsynonymous variations are usually under stronger negative selection than synonymous variations (Fusaro et al., 2011). It has been reported that functional constraints on viral genomes are weakened after the disruption of ORF1ab in SARS-CoV-2 (Tang et al., 2020).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "(p.5828P>L and p.5865Y>C, NSP13: P504L and NSP13: Y541C) were important characteristics of this clade. Moreover, different disease outcomes were found among states containing different proportions of the variants with NSP13 variations (at 501 and 541 loci) in the United States, especially in Washington State. Thus, by analyzing genetic variations in SARS-CoV-2, we identified a correlation between amino acid variation in ORF1ab and COVID-19 outcomes.risk factors for mortality of adult inpatients with COVID-19 in Wuhan,",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Patients with Pneumonia in China, 2019. N Engl J Med 382(8), 727-733. doi: 10.1056/NEJMoa2001017.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Legends",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Mutant landscape of genetic variations in SARS-CoV-2 strains. Genetic variation heatmap of SARS-CoV-2 strains over time (A) and country (B). Strains from different time points and different countries (partial) are indicated in the figure. Each vertical line shows mutation loci, yellow arrows indicate significant genetic variations. (C) Sankey diagram of coding regions in SARS-CoV-2 strains. Nonsynonymous and synonymous variations are shown on top, each gene region of SARS-CoV-2 is indicated on bottom.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "Characteristics of genetic variations in SARS-CoV-2 strains. (A) Number of strains at each locus of the genetic variations. All gene regions of SARS-CoV-2 are complied in histogram, with top loci labeled. (B) Variation dynamic curve for occurrence of genetic variations in different countries. Significant loci, ORF1ab: 3037, S: 23403, ORF1ab: 14408, ORF1ab: 8782, ORF8: 28114, ORF1ab: 17858, ORF1ab: J o u r n a l P r e -p r o o f 17747, are displayed by detected time and country.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "Variation characteristics of SARS-CoV-2 strains. (A) Viral genotyping maps for haplotypes by country; gray circle indicates haplotype H (140). Strains from different countries are indicated in the figure, purple circle indicates haplotype type containing ORF1ab variation in 17747 and 17858 loci. (B) Phylogenetic tree across countries based on genome variation of SARS-CoV-2 strains downloaded from the 2019nCoVR dataset with default settings. Strains from different countries are indicated in the figure, blue square indicates enriched clade. (C) Venn diagram of strains with haplotype H (140) and enriched clade. Number of merged strains = 140.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "ORF1ab variations (NSP13: P504L and NSP13: Y541C) in SARS-CoV-2. (A) Phylogenetic tree of strains downloaded from Nextstrain. Strains are colored by amino acid variations in ORF1ab (p.5828P>L or p.5865Y>C) (yellow) or not. (B) Pie chart of variants from Iceland, Australia, and the United States. (C) Column chart of variants from the United States, Iceland, and Australia, with number of strains labeled. (D) Distribution of 271 variants in ORF1ab (p.5828P>L and p.5865Y>C). (E) Sankey diagram of strains from Washington, Utah, Minnesota, Wisconsin, and California states, with strain number of each state labeled. (F) Distribution of variants in ORF1ab (p.5828P>L and p.5865Y>C) or not in Washington State.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF13": {
+            "text": "COVID-19 outcomes in states with different proportions of strains containing variation in NSP13: P504L and NSP13: Y541C. (A) Variation frequency curve of ORF1ab p.5828P>L (NSP13: P504L) and ORF1ab p.5865Y>C J o u r n a l P r e -p r o o f (NSP13: Y541C), black line chart indicates variation frequency, green histogram indicates SARS-CoV-2 strains. (B) Infection, recovery, and fatality rates in the United States, blue histogram indicates infection cases, green line chart indicates recovery rate, and gray line chart indicates fatality rate. (C) Infection, recovery, and fatality rates in China and other countries. (D) Infection and fatality rates in different states in the United States, blue histogram indicates infection cases, gray histogram indicates fatality rate. (E) Infection, fatality, and recovery rates in different states, blue histogram indicates infection cases, gray histogram indicates fatality rate, and green histogram indicates recovery rate. (F) Infection and fatality rates in Washington State counties.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF14": {
+            "text": "Effects of NSP13: P504L and NSP13: Y541C on NSP13 function. (A) Sequence alignment of SARS-CoV-2 and other coronavirus, with amino acid sequences around ORF1ab variations aligned. (B) Results of protein secondary structure prediction in ORF1ab variations (QHD43415.1: p.5828P>L and p.5865Y>C) and ORF1ab (QHD43415.1), with \u03b1-helix, \u03b2-sheet, and \u03b2-turn structures of variant and QHD43415.1 displayed. Prediction results of ORF1ab variations (NSP13: P504L and NSP13: Y541C) based on PolyPhen-2 (C), and PROVEAN v1.1 (D). Supplementary Fig. 1: Haplotype maps of 1 211 viral strains. We performed haplotype analysis using 1 211 SARS-CoV-2 strains from the 2019nCoVR dataset with default settings. Strains from different countries are indicated in the figure, purple circle indicates haplotype type containing ORF1ab variation in 17747 and J o u r n a l P r e -p r o o f",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "of the National Genomics Data Center (NGDC), China National Center for Bioinformation (CNCB)/Beijing Institute of Genomics (BIG) of the Chinese Academy of Sciences. We explored 1 962 viral strains with complete genomes sampled from 13 December 2019 to 21 March 2020. To demonstrate genetic variations in SARS-CoV-2 strains, we performed the variation frequency analysis of",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

@@ -1,0 +1,304 @@
+{
+    "paper_id": "0aab44da77862f31353adddd48d66aed0371a794",
+    "metadata": {
+        "title": "Commentary regarding video-based telemedicine triage in emergency ophthalmology during COVID-19",
+        "authors": [
+            {
+                "first": "Natasha",
+                "middle": [
+                    "Nayak"
+                ],
+                "last": "Kolomeyer",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Wills Eye Hospital A R T I C L E I N F O",
+                    "location": {}
+                },
+                "email": "es:nkolomeyer@willseye.orgn.n.kolomeyer"
+            },
+            {
+                "first": "Jonathan",
+                "middle": [
+                    "S"
+                ],
+                "last": "Myers",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Wills Eye Hospital A R T I C L E I N F O",
+                    "location": {}
+                },
+                "email": "jmyers@willseye.org"
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "In the midst of the COVID-19 pandemic ophthalmology practices were one of the hardest hit specialties [1] requiring major adjustments to minimize COVID exposure; telemedicine has been a key component of adaptation. We congratulate on their investigation of one telemedicine model for triaging eye emergencies comparing outcomes of adults who chose to be triaged face-to-face to outcomes via video-based telemedicine triage for emergent ophthalmologic care at Moorfields Eye Hospital during one month of the lockdown period in the United Kingdom [2] .",
+            "cite_spans": [
+                {
+                    "start": 102,
+                    "end": 105,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 545,
+                    "end": 548,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Li et al. [2] investigated harm to patients that were triaged using video teleconsultation rather than in person triage. Two graders found no 'actual harm' based on re-attendance rates and chart review within 1 month of initial triage. Both graders did find some 'potential harm' with teleconsultation, although the inter-rater reliability was poor. The authors prioritize this important outcome measure, however their results highlight ophthalmology's lack of an accepted, validated method to determine harm.",
+            "cite_spans": [
+                {
+                    "start": 10,
+                    "end": 13,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "There are further challenges to assessing potential harm. In the absence of a telemedicine option, patients may choose to forego evaluation or may risk pandemic exposure by coming in. During subsequent peaks of this pandemic or future emergencies, offering a telemedicine option may minimize other potential harms in ways that are not easily measured by direct comparison to traditional care.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Telemedicine is projected to have a significant role in many ophthalmology settings post-pandemic, but the exact nature of this will be determined by research such as the accompanying article, patient interest, and healthcare compensation models. It may be helpful to understand which patients are most likely to gravitate towards teleconsultation. In Li et al.'s study [2] , women and those with complaints of photophobia and eye injury were more likely to choose triage via video consultation. However, a majority of those with foreign body (86%) presented for face-toface consultation. This is an interesting observation-do patients have adequate insight to determine which triage system is more appropriate for them? Prior to accepting teleconsultation, should patients be informed of scenarios for which teleconsultation is not recommended and prompt arrival would be preferred? Understanding factors behind patients' choices may allow for improved protocols that empower patients to make the best decision.",
+            "cite_spans": [
+                {
+                    "start": 370,
+                    "end": 373,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "We appreciate the authors assessing re-attendance rates, however it is difficult to be certain that patients did not seek care elsewhere or suffer harm without further evaluation. While initial video-based triage was associated with decreased rate of in-person ophthalmic review, this group of patients was more likely to re-attend the emergency service within 1 month compared to those who initially attended in person [2] . Was this related to lack of patient confidence, unresolved issues, or confounding associations? These questions have implications for the optimal design and monitoring of teleophthalmology triage. Separate questions remain regarding cost.",
+            "cite_spans": [
+                {
+                    "start": 420,
+                    "end": 423,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In many countries, emergency departments are overwhelmed with non-emergent issues comprising 40\u00c070% of patient presentations [3, 4] , contributing to long wait times and increased costs. Telemedicine may achieve more effective triage and help reduce crowding. At the same time, filtering out the non-emergent cases without an exam may lead to further delay in the diagnosis (sometimes incidental) of asymptomatic or nonspecifically symptomatic diseases such as glaucoma, diabetic retinopathy, and age-related macular degeneration. Missing these cases early may result in worse outcomes [5] . This type of potential harm is likely to be missed by reattendance rates or surveys.",
+            "cite_spans": [
+                {
+                    "start": 125,
+                    "end": 128,
+                    "text": "[3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 129,
+                    "end": 131,
+                    "text": "4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 586,
+                    "end": 589,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "As the pandemic came by surprise, the efforts of Li et al. and others are to be applauded-it is important to take the extra step and review the outcomes of such a paradigm shift in clinical practice. There are of course limitations to such a retrospective review.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Future prospective research may address teleophthalmology's limitations and potential to improve access to vulnerable populations and to those with limited access or experience with the internet. Challenges remain in enhancing patient acceptance and identifying types of technology that are most beneficial. Innovation and improvement of mobile apps and home monitoring devices (for measurement of visual acuity, color vision, metamorphopsia, and perhaps even retinal imaging) will greatly impact the quality and breadth of care that can be provided remotely especially in an emergent setting. Future studies with rigorous methodology, short-and long-term DOI of original article: http://dx.doi.org/10.1016/j.eclinm.2021.100818.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "National patient and procedure volume tracker and report. Strata decision technology",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Safety of video-based telemedicine compared to in-person triage in emergency ophthalmology during COVID-19",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.eclinm.2021.100818"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "An audit of the ophthalmic division of the accident and emergency department of the royal victoria eye and ear hospital, Dublin",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Fenton",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Jackson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Fenton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Ir Med J",
+            "volume": "94",
+            "issn": "9",
+            "pages": "265--271",
+            "other_ids": {
+                "PMID": [
+                    "11820516"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Epidemiology of eye-related emergency department visits",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Channa",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Zafar",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Canner",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Haring",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Schneider",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Friedman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "JAMA Ophthalmol",
+            "volume": "134",
+            "issn": "3",
+            "pages": "312--321",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jamaophthalmol.2015.5778"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Surveillance of sight loss due to delay in ophthalmic treatment or review: frequency, cause and outcome",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Foot",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Macewen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "31",
+            "issn": "",
+            "pages": "771--776",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/eye.2017.1"
+                ],
+                "PMID": [
+                    "28128796"
+                ]
+            }
+        }
+    },
+    "ref_entries": {},
+    "back_matter": []
+}

@@ -1,0 +1,3722 @@
+{
+    "paper_id": "0a40071b6969fd2887cd6a8defbc4e6436d365f2",
+    "metadata": {
+        "title": "Article 597399 (2021) Immune Interaction Map of Human SARS-CoV-2 Target Genes: Implications for Therapeutic Avenues",
+        "authors": [
+            {
+                "first": "Chunhe",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Johan",
+                "middle": [
+                    "Van"
+                ],
+                "last": "Weyenbergh",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "K",
+                "middle": [
+                    "U"
+                ],
+                "last": "Leuven",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Belgium",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Barbara",
+                "middle": [],
+                "last": "Seliger",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Martin Luther University Halle-Wittenberg",
+                    "location": {
+                        "settlement": "Halle",
+                        "country": "Germany"
+                    }
+                },
+                "email": "barbara.seliger@uk-halle.de"
+            },
+            {
+                "first": "Subbarayan",
+                "middle": [
+                    "K"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ulagappan",
+                "middle": [
+                    "K"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Wickenhauser",
+                "middle": [
+                    "C"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Bachmann",
+                "middle": [
+                    "M"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Seliger",
+                "middle": [
+                    "B"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Karthikeyan",
+                "middle": [],
+                "last": "Subbarayan",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Kamatchi",
+                "middle": [],
+                "last": "Ulagappan",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Claudia",
+                "middle": [],
+                "last": "Wickenhauser",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Martin Luther University Halle-Wittenberg",
+                    "location": {
+                        "settlement": "Halle",
+                        "country": "Germany"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Michael",
+                "middle": [],
+                "last": "Bachmann",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Martin Luther University Halle-Wittenberg",
+                    "location": {
+                        "settlement": "Halle",
+                        "country": "Germany"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "There exists increasing evidence that people with preceding medical conditions, such as diabetes and cancer, have a higher risk of infection with SARS-CoV-2 and are more vulnerable to severe disease. To get insights into the possible role of the immune system upon COVID-19 infection, 2811 genes of the gene ontology term \"immune system process GO: 0002376\" were selected for coexpression analysis of the human targets of SARS-CoV-2 (HT-SARS-CoV-2) ACE2, TMPRSS2, and FURIN in tissue samples from patients with cancer and diabetes mellitus. The network between HT-SARS-CoV-2 and immune system process genes was analyzed based on functional protein associations using STRING. In addition, STITCH was employed to determine druggable targets. DPP4 was the only immune system process gene, which was coexpressed with the three HT-SARS-CoV-2 genes, while eight other immune genes were at least coexpressed with two HT-SARS-CoV-2 genes. STRING analysis between immune and HT-SARS-CoV-2 genes plotted 19 associations of which there were eight common networking genes in mixed healthy (323) and pan-cancer (11003) tissues in addition to normal (87), cancer (90), and diabetic (128) pancreatic tissues. Using this approach, three commonly applicable druggable connections between HT-SARS-CoV-2 and immune system process genes were identified. These include positive associations of ACE2-DPP4 and TMPRSS2-SRC as well as a negative association of FURIN with ADAM17. Furthermore, 16 drugs were extracted from STITCH (score <0.8) with 32 target genes. Thus, an immunological network associated with HT-SARS-CoV-2 using bioinformatics tools was identified leading to novel therapeutic opportunities for COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Coronaviruses (CoV) are a large family of viruses that cause illnesses ranging from a common cold to more severe diseases. A novel coronavirus (nCoV named SARS-CoV-2) belonging to this family was identified in 2019 in China and in March 2020 the WHO declared a worldwide pandemic of SARS-CoV-2 infection. As of February 13, 2021, more than 108 million cases have been confirmed, with more than 2.28 million deaths attributed to Even though SARS-CoV and MERS-CoV have previously caused serious outbreaks, the intensity of these was much lower than the ongoing SARS-CoV-2 pandemic. Recent studies have demonstrated that SARS-CoV-2 utilizes the angiotensinconverting enzyme II (ACE-2) receptor (1, 2) , MERS-CoV, the dipeptidyl peptidase-4 (DPP4/CD26) as an entry (3) . The transmembrane serine protease 2 (TMPRSS2) and the proprotein convertase FURIN cleave and activate the viral glycoprotein spike (S), which facilitates virus-cell membrane fusion. SARS-CoV-2 requires both, the ACE2 receptor and TMPRSS2 for protein priming to enter the cell (4), while FURIN facilitates the active binding of SARS-CoV-2 through the ACE2 receptor (5) , which is a risk factor for a more severe cause of COVID-19 (4, 6) .",
+            "cite_spans": [
+                {
+                    "start": 691,
+                    "end": 694,
+                    "text": "(1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 695,
+                    "end": 697,
+                    "text": "2)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 761,
+                    "end": 764,
+                    "text": "(3)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1131,
+                    "end": 1134,
+                    "text": "(5)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1196,
+                    "end": 1199,
+                    "text": "(4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1200,
+                    "end": 1202,
+                    "text": "6)",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "However, there exists limited information on why SARS-CoV-2 is more lethal and spreads faster than its two ancestors and how the immune system responds to SARS-CoV-2 infection. Recent publications have reported differences in the genome structure of the CoV family members (7) and immunological responses next to inflammation (5, 8) . The viral entry has been shown to cause a cytokine storm, which may attack lung cells (9) . This results in fluid filling the air sacks and alveolar cell apoptosis causing respiratory insufficiency, ultimately leading to death (10) . Some strategies have been developed for the treatment of SARS-CoV-2 infection, such as potential vaccines and drugs targeting SARS-CoV-2 or host cell components, e.g., host cell receptors, necessary for viral replication. The complete knowledge of interactions between proteins in SARS-CoV-2 infected cells represents an essential milestone toward understanding the cellular mechanisms and functions of proteins including the genes involved in immune responses against virus infection (11) . The gene ontology term (GO: 0002376) comprises genes involved in the development and/or function of the immune system that are necessary for the calibration of immune responses to potential internal or invasive threats.",
+            "cite_spans": [
+                {
+                    "start": 273,
+                    "end": 276,
+                    "text": "(7)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 326,
+                    "end": 329,
+                    "text": "(5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 330,
+                    "end": 332,
+                    "text": "8)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 421,
+                    "end": 424,
+                    "text": "(9)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 562,
+                    "end": 566,
+                    "text": "(10)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1054,
+                    "end": 1058,
+                    "text": "(11)",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "The outbreak of SARS-CoV-2 is an ongoing global public health crisis. A study analyzing the impact of SARS-CoV-2 infection on patients with cancer demonstrated that the all-cause mortality within 30 days was high and a general risk factor for Abbreviations: ACE-2, angiotensin converting enzyme II; ADAM17, ADAM metallopeptidase domain 17; ARB, angiotensin receptor blockers; BP, biological process; CC, cellular component; CoV, coronavirus; COVID-19, coronavirus disease 2019; DII, Delta-Like Ligand; DPP4, dipeptidyl peptidase-4; GO, gene ontology; GP2, glycoprotein 2; HT-SARS-CoV-2, human targets of SARS-CoV-2; MF, molecular function; nCoV, novel coronavirus; OS, overall survival; PBMC, peripheral blood mononuclear cell; PPI, protein-protein interaction; SARS-CoV-2, severe acute respiratory syndrome coronavirus type 2; TFRC, transferrin receptor 1; TMPRSS2, transmembrane serine protease 2. patients with active or prior cancer and confirmed SARS-CoV-2 infection (12) . The demographic data from Italy showed that among 3,000 reported COVID-19 cases, 20% of the patients who died had a medical history of malignancies during the previous 5 years (13) . A systematic review and meta-analysis of eight studies in predominantly Chinese populations (n = 46,248, searches run February 25, 2020) and six studies (n = 1,527) found diabetes with a frequency of 8% (95% CI 6-11%) and 9.7% (6.9-12.5%), respectively (14) .",
+            "cite_spans": [
+                {
+                    "start": 972,
+                    "end": 976,
+                    "text": "(12)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1155,
+                    "end": 1159,
+                    "text": "(13)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1415,
+                    "end": 1419,
+                    "text": "(14)",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "The demographic data relating to patients and their past medical history are crucial for the development of effective treatment opportunities. Therapeutic targets are urgently needed to manage COVID-19. One possibility is targeting the expression, the transcriptional regulation, or activity of host receptors and associated proteins known to play a critical role in the pathogenicity of CoV infections (4, (15) (16) (17) . Indeed, studies using TMPRSS2 transgenic knockout mice have shown that the loss of TMPRSS2 reduces CoV replication in the lungs, and elicits a weaker proinflammatory response, and results in a milder lung pathology (15) . In addition, SARS-CoV-2 entry into cells is also decreased upon functional inhibition of TMPRSS2 by the serine protease inhibitor camostat (4) . Likewise, ACE2 antibodies or soluble recombinant ACE2 can attenuate viral entry and infection by SARS-CoV-2 (4, 16) . Thus, a better understanding of the regulatory mechanisms that control expression levels of HT-SARS-CoV-2 might be key for the development of effective novel treatments for SARS-CoV-2 infection.",
+            "cite_spans": [
+                {
+                    "start": 403,
+                    "end": 406,
+                    "text": "(4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 407,
+                    "end": 411,
+                    "text": "(15)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 412,
+                    "end": 416,
+                    "text": "(16)",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 417,
+                    "end": 421,
+                    "text": "(17)",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 639,
+                    "end": 643,
+                    "text": "(15)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 785,
+                    "end": 788,
+                    "text": "(4)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 899,
+                    "end": 902,
+                    "text": "(4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 903,
+                    "end": 906,
+                    "text": "16)",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "DPP4/CD26 is a ubiquitous membrane-bound aminopeptidase and has multiple physiological functions, such as the T cell receptor-mediated activation and proliferation of T cells (18) as well as the regulation of glucose homeostasis. Its importance has been highlighted by the approval of DPP4 inhibitors as an established glucose-lowering therapy in type 2 diabetes (19) . Modeling the structure of the SARS-CoV-2 spike protein predicts an interaction of DPP4 in addition to ACE2 (20, 21) . Interestingly, a correlation between DPP4 and ACE2 was found to suggest that both membrane proteins are relevant for virus entry (22) . Indeed, DPP4 acted as a CoV co-receptor, suggesting a similar mechanism for the entry of SARS-CoV-2 (23) . The coexpression of ACE2 and DPP4 as receptors of the spike glycoprotein postulates that different human CoVs target similar cell types across different human tissues and explains the presence of comparable clinical features in patients infected with different CoVs. Evaluation of SARS-CoV infections revealed that the virus was not only present in the tissues of the lung, liver, kidney, and intestine, but also of the pancreas indicating the pancreas as a potential CoV target (24, 25) .",
+            "cite_spans": [
+                {
+                    "start": 175,
+                    "end": 179,
+                    "text": "(18)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 363,
+                    "end": 367,
+                    "text": "(19)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 477,
+                    "end": 481,
+                    "text": "(20,",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 482,
+                    "end": 485,
+                    "text": "21)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 617,
+                    "end": 621,
+                    "text": "(22)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 724,
+                    "end": 728,
+                    "text": "(23)",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1210,
+                    "end": 1214,
+                    "text": "(24,",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1215,
+                    "end": 1218,
+                    "text": "25)",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "In this study, the coexpression of HT-SARS-CoV-2 and immune system process genes was evaluated followed by STRING analysis to determine the functional interactions between HT-SARS-CoV-2 and immune system genes. The STRING database network integrates direct and indirect/functional protein-protein interactions, such as stable physical associations, transient binding, substrate chaining, information relay, and others (26) . Despite many limitations due to the low number of patients, the retrospective nature of evidence, and limited patient follow-up, these data provide early insights into how the management of patients with cancer and/or diabetes mellitus might be affected by the SARS-CoV-2 pandemic. This is an important issue, particularly since cancer and diabetes mellitus are risk factors for disease progression and such patients were shown to present more severe symptoms and unfavorable outcomes upon SARS-CoV-2 infection (27) (28) (29) .",
+            "cite_spans": [
+                {
+                    "start": 418,
+                    "end": 422,
+                    "text": "(26)",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 936,
+                    "end": 940,
+                    "text": "(27)",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 941,
+                    "end": 945,
+                    "text": "(28)",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 946,
+                    "end": 950,
+                    "text": "(29)",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "The R2 Genomics Platform is a web-based genomics analysis and visualization platform and allows biomedical researchers to integrate, analyze and visualize clinical and genomics data. The transcriptome data of healthy and cancer patients were sourced from The Cancer Genome Atlas (TCGA) dataset (http://cancergenome.nih.gov/) and microarray data of the NCBI Gene Expression Omnibus (NCBI GEO) (30) . The datasets were available on R2 Genomics Analysis and Visualization Platform (http://r2. amc.nl) and ImmuCo (31) . Human samples and immune cell, subpopulations were then analyzed and samples included: ",
+            "cite_spans": [
+                {
+                    "start": 392,
+                    "end": 396,
+                    "text": "(30)",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 509,
+                    "end": 513,
+                    "text": "(31)",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Samples and Patients"
+        },
+        {
+            "text": "The Gene Ontology source (GO; http://geneontology.org) provides structured, computable knowledge regarding the functions and products of genes. GO enrichment analyses included three categories, biological process (BP), molecular function (MF), and cellular components (CC). For our studies, the GO term \"immune system process (GO: 0002376)\" was selected, which comprises 2811 genes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Gene Ontology Enrichment Analyses"
+        },
+        {
+            "text": "The protein-protein network was constructed using the STRING Database (String v10) (36) as a protein-protein interaction network, which also analyzed functional enrichments. STRING consisted of 24.6 million proteins with more than 2,000 million interactions. The coexpression scores in STRING v10 were computed by employing a revised and improved pipeline. Using high throughput microarray gene expression data from the NCBI GEO, we mined databases and literature as well as predictions based on genomic context analysis. The gene expression values are then correlated gene-by-gene (Pearson correlation) and the resulting values were calibrated against common members in KEGG pathway maps to compute STRING scores. Text mining score was computed by parsed search of statistically relevant cooccurrences of gene names in the scientific texts (SGD, OMIM, FlyBase, PubMed). The parameters included in the analysis for screening targets were a medium confidence score of 0.4 and a medium FDR stringency of 5%.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Networking Analyses and Drug Screening"
+        },
+        {
+            "text": "In the search for significant drug molecules and determine potential drug-associated mechanisms upon SARS-CoV-2 infections, we employed the Search Tool for Interactions of Chemicals (STITCH, stitch.embl.de), a chemical protein interaction database that contains 0.5 million compounds and 9.6 million proteins. STITCH (\"search tool for interactions of chemicals\") integrates information about interactions from metabolic pathways, crystal structures, binding experiments, and drug-target relationships. The inferred information from phenotypic effects, text mining, and chemical structure similarity is used to predict relations between chemicals. STITCH further allowed exploration of the network of chemical relations, also in the context of associated binding proteins. Each proposed interaction can be traced back to the source of that data.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Networking Analyses and Drug Screening"
+        },
+        {
+            "text": "Gene correlation analyses were performed with the R2: Genomics Analysis and Visualization Platform and ImmuCo. Correlation statistics were reflected by Pearson correlation coefficients and Pearson's r is a measure of linear correlation between two sets of data. It is the covariance of two variables; it is essentially a normalized measurement of the covariance, such that the result always has a value between \u22121 and 1. A p-value < 0.05 was considered statistically significant.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Correlation Analysis"
+        },
+        {
+            "text": "PrognoScan (http://www.prognoscan.org/) is a large collection of publicly available cancer microarray datasets with clinical annotation and a tool for assessing the biological relationship between gene expression and prognosis. In the PrognoScan database, the association of gene expression with the survival of patients were evaluated by the minimum p-value approach. Briefly, patients were first arranged by expression levels of a given gene. They were then divided into high-and lowexpression groups, and the risk differences between any 2 groups were estimated by the log-rank test. Meta-survival analysis of pancreatic cancers was computed and derived from the GENT2 (http://gent2.appex.kr/gent2/).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Survival Analysis"
+        },
+        {
+            "text": "Statistical computations and drawings of figures were performed with several packages (ggplot2 and circlize) in the statistical software environment R, version 3.3.2 (http://www.r-project.org).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Analysis"
+        },
+        {
+            "text": "The three human proteins ACE2, TMPRSS2, and FURIN used by SARS-CoV-2 to efficiently enter into human cells were studied for their functional protein associations using the STRING database. TMPRSS2 was networked as a center point associated with both ACE2 and FURIN, while ACE2 and FURIN showed no interactions between each other (Supplementary Figure 1) . To study the immune system interactions of the human targets, the GO term immune system processes (GO: 0002376) in the Gene Ontology resource was analyzed.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 344,
+                    "end": 353,
+                    "text": "Figure 1)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Identification of Protein Associations"
+        },
+        {
+            "text": "In total, 2811 genes (Supplementary Table 1 ) were studied for functional protein association networks using STRING Frontiers in Immunology | www.frontiersin.org The association of HT-SARS-Cov-2 with immune relevant genes was determined by STRING analyses and represented as coexpression, text mining, and score.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 36,
+                    "end": 43,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Identification of Protein Associations"
+        },
+        {
+            "text": "(string-db.org). This analysis produced 24,072 protein associations (Supplementary Table 2 ), among which, ACE2 shared 21 protein associations ( Figure 1A ) and proteinprotein interaction (PPI) network analysis revealed 23 nodes, 80 edges, and an average node degree of 6.96. The PPI enrichment p-value was < 1.0e-16, whereas the average local clustering co-efficient was 0.777. The PPI of ACE2 enriched notably for IL-6 binding at molecular function ( Figure 1B) Figure 3C) . Among the protein associations within the three HT-SARS-CoV-2, DPP4 shared associations with ACE2, TMPRSS2, and FURIN (Figure 2) , while ADAM17, glycoprotein 2 (GP2), transferrin receptor 1 (TFGC) were the common network elements with ACE2 and FURIN. CTSL, GAPDH, MYC, AKT1, and SRC were functionally associated with TMPRSS2 and FURIN ( Table 1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 83,
+                    "end": 90,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 145,
+                    "end": 154,
+                    "text": "Figure 1A",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 453,
+                    "end": 463,
+                    "text": "Figure 1B)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 464,
+                    "end": 474,
+                    "text": "Figure 3C)",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 595,
+                    "end": 605,
+                    "text": "(Figure 2)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 814,
+                    "end": 822,
+                    "text": "Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Identification of Protein Associations"
+        },
+        {
+            "text": "Although no genes were coexpressed at significant levels (p \u2264 0.05, Table 1 ), DPP4 was coexpressed with the three HT-SARS-CoV-2 analyzed with a p-value of 0.06. Likewise, FURIN with ADAM17 (p 0.063) and MYC (p 0.061) and CTSL with TMPRSS2 (p 0.061) and FURIN (p 0.062) shared coexpression patterns. The top text-mining score was obtained by FURIN/GP2 (0.859), followed by ACE2/DPP4 (0.717) and ACE2/ADAM17 (0.706). On the other hand, ACE2/DPP4 had the highest STRING score (0.942) followed by FURIN/GP2 (0.859) and ACE2/ADAM17 (0.707) ( Table 1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 68,
+                    "end": 75,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 538,
+                    "end": 546,
+                    "text": "Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Identification of Protein Associations"
+        },
+        {
+            "text": "The STRING network analysis screened 102 of the HT-SARS-CoV-2association genes from the 2811 immune system process' genes. Correlation of HT-SARS-Cov2 with immune process relevant genes was performed by RZ2 genomics using mixed healthy and mixed cancer data sets and presented as correlation values (R) including the statistical significance (P).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Identification of Protein Associations"
+        },
+        {
+            "text": "The ACE2, TMPRSS2, and FURIN expression were correlated to every single gene in the five different datasets described in the Materials and Methods section above. The top \u223c 1500 genes of the respective association, i.e., having a highly significant correlation (p < 0.01) in the corresponding dataset, are summarized in Supplementary Table 3 . From the common STRING associations between the human target genes, 19 associations of eight commonly networking genes were plotted to the three HT-SARS-CoV-2 ( This collected data enabled classification into four distinct categories: (i) associations between human target genes; (ii) triple association of DPP4; and, (iii) double associations of FURIN with either ACE2; or (iv) with TMPRSS2, respectively. The top segment of Table 2 Table 2) . Normal and cancer samples mostly followed the same pattern. However, ACE2/GP2 (R 0.108 in normal and R \u22120.045 in cancer) and FURIN/GAPDH (R \u22120.198 in normal and R 0.023) present differential correlations between normal and cancer samples.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 319,
+                    "end": 340,
+                    "text": "Supplementary Table 3",
+                    "ref_id": "TABREF3"
+                },
+                {
+                    "start": 769,
+                    "end": 776,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 777,
+                    "end": 785,
+                    "text": "Table 2)",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Determination of Genes Correlating With HT-SARS-CoV-2 in Cancer"
+        },
+        {
+            "text": "To explore gene association patterns in the wide range of datasets, ACE2, TMPRSS2, and FURIN were correlated to DPP4, SRC, and ADAM17 expression regardless of the tissue and the disease. The analysis demonstrated that ACE2 and TMPRSS2 displayed a positive correlation, whereas FURIN showed a negative correlation with their counterparts ( Table 3 and Frontiers in Immunology | www.frontiersin.org Correlation of HT-SARS-CoV-2 with immune process relevant genes was performed by R2 genomics using data sets obtained from normal pancreatic, pancreatic cancer, and diabetic pancreatic tissues. Data are presented as correlation values (R), including the statistical significance (P).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 339,
+                    "end": 346,
+                    "text": "Table 3",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "Determination of Genes Correlating With HT-SARS-CoV-2 in Cancer"
+        },
+        {
+            "text": "ACE2 expression in the pancreas was reported to cause pancreatic damage after SARS-CoV-2 infection (37). Interestingly, ACE2 and DPP4 were connected irrespective of the pancreatic nature i.e., healthy, cancer and diabetes mellitus. The healthy pancreatic tissues exhibited distinct associations when compared to pancreatic cancer tissues or tissue samples from patients suffering from diabetes. DPP4 was differentially expressed with TMPRSS2 and FURIN, while TMPRSS2 was highly expressed in healthy and only scanty expressed in the diseased pancreatic tissue. The HT-SARS-CoV-2 ACE2 and TMPRSS2 were positively associated with healthy pancreatic tissue, while a non-significant positive association was noted in the context of cancer and diabetes mellitus. A positive correlation between TMPRSS2 and FURIN was found in the diseased, but not in the healthy pancreas ( Table 3) . FURIN expression was not correlated with DPP4 except for pancreatic cancer, where a negative correlation was found. The FURIN/ADAM17 axis remained negatively associated with pancreatic tissues. Interestingly, TMPRSS2 positively correlated with SRC in the pancreatic tissues in mixed healthy and cancer datasets. Other double associated genes lacked any specific correlation pattern. FURIN and MYC were positively associated with healthy tissues and pancreatic cancer. However, FURIN positively acted with MYC in pancreatic cancer, but not in the mixed cancer dataset. AKT1 with TMPRSS2 and FURIN were positively correlated in all contexts except for pancreatic cancer and healthy pancreas, respectively ( Table 3) . Interestingly, many networking genes were not correlated in pancreatic tissues. These included ACE2/ADAM17, FURIN/GAPDH, ACE2/FURIN, ACE2/GP2, and ACE2/TFRC, respectively.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 867,
+                    "end": 875,
+                    "text": "Table 3)",
+                    "ref_id": "TABREF3"
+                },
+                {
+                    "start": 1583,
+                    "end": 1591,
+                    "text": "Table 3)",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "Correlation Pattern of HT-SARS-CoV-2 in Pancreatic Tissues"
+        },
+        {
+            "text": "The impact of HT-SARS-CoV-2 on immune responses were analyzed in PBMC and different immune cell subpopulations. In agreement with the mixed normal and tumor datasets, PBMC displayed positive correlations between ACE2/TMPRSS2, TMPRSS2/FURIN, ACE2/TFRC, FURIN/TFRC, TMPRSS2/CTSL, FURIN/CTSL, TMPRSS2/MYC, and FURIN/AKT1 and a negative association between ACE2/ADAM17. Interestingly, FURIN/ADAM17 and TMPRSS2/GAPDH showed a positive correlation ( Table 4 and  Supplementary Table 4 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 444,
+                    "end": 478,
+                    "text": "Table 4 and  Supplementary Table 4",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "Correlation Pattern of HT-SARS-CoV-2 in Peripheral Blood Mononuclear Cells and Immune Cells"
+        },
+        {
+            "text": "ACE2 and TMPRSS2 were positively correlated in immune cells like B cells, T cells, dendritic cells (DC), macrophages, monocytes, and NK cells. In contrast, TMPRSS2 and FURIN exhibited positive associations in B cells and monocytes, while other immune cell subpopulations lacked any correlations. Except for B cells, immune cells displayed no correlations with the central association markers, DPP4/ACE2 or TMPRSS2. FURIN and DPP4 revealed positive correlations in CD4 + and CD8 + T cells and negatively correlated in DC and monocytes. FURIN and ADAM17 showed a general significant association with a positive association in B cells, T cells, monocytes, and NK cells, but negative correlations in DC and macrophages ( Table 4 and Supplementary Table 4 ). Irrespective of any immune cell type, ACE2 and GP2 were significantly positively correlated to each other. It is noteworthy that many networking genes were not associated with the immune cells under study.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 717,
+                    "end": 724,
+                    "text": "Table 4",
+                    "ref_id": "TABREF4"
+                },
+                {
+                    "start": 743,
+                    "end": 750,
+                    "text": "Table 4",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "Correlation Pattern of HT-SARS-CoV-2 in Peripheral Blood Mononuclear Cells and Immune Cells"
+        },
+        {
+            "text": "Altogether \u223c0.5 million compounds were studied on the STITCH database. Among these compounds, 16 target drugs were found according to the screening conditions ( Table 5) . The active components involved 32 drug-associated genes (Supplementary Table 4) , which were acquired by STITCH analysis. As shown in Figure 4 , ACE2/DPP4 ( Figure 4A ) and FURIN/ADAM17 ( Figure 4C ) were predicted to have drug connections, whereas TMPRSS2/SRC ( Figure 4B ) had no predicted drug connection. Several inhibitors of the angiotensin receptor (ACE) and DPP4, in particular gliptin members, such as sitagliptin, teneligliptin, linagliptin, vildagliptin, and saxagliptin, were identified. For FURIN and ADAM17, a therapeutic involvement via calcium ions and Zn (II) and for ADAM17, an involvement via IK-682 were identified ( Table 5) . Among these three interactions, two druggable connections were suggested for a putative therapeutic option.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 161,
+                    "end": 169,
+                    "text": "Table 5)",
+                    "ref_id": "TABREF5"
+                },
+                {
+                    "start": 228,
+                    "end": 251,
+                    "text": "(Supplementary Table 4)",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 306,
+                    "end": 314,
+                    "text": "Figure 4",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 329,
+                    "end": 338,
+                    "text": "Figure 4A",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 360,
+                    "end": 369,
+                    "text": "Figure 4C",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 435,
+                    "end": 444,
+                    "text": "Figure 4B",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 809,
+                    "end": 817,
+                    "text": "Table 5)",
+                    "ref_id": "TABREF5"
+                }
+            ],
+            "section": "Identification of Drug Candidates for HT-SARS-CoV-2 and Co-expressed Genes"
+        },
+        {
+            "text": "HT-SARS-CoV-2 and their drug connections were tested for their association with overall survival (OS) rates in 11 different cancer types (Supplementary Table 6 ). Although many cancer types did not show a significant survival ratio, ACE2 was significant in brain cancer (HR 0.44; p 0.003), breast cancer (HR 1.23; p 0.002), lung cancer (HR 0.7; p 0.009), ovarian cancer (HR 0.63; p 0.048) and renal cell carcinoma (HR 0.17; p 0.021). ADAM17 showed high hazard ratios in bladder (HR 4.65; p 0.04), brain (HR 3.65; p 0.0004) and colorectal (HR 2.0; p 0.024) cancers. The meta-survival analysis on pancreatic cancer datasets only showed significance in ADAM17 (HR 1.21; p 0.08) (Supplementary Figure 4) . OS did not follow any relations with the correlation and networking of HT-SARS-CoV-2.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 152,
+                    "end": 159,
+                    "text": "Table 6",
+                    "ref_id": null
+                },
+                {
+                    "start": 675,
+                    "end": 699,
+                    "text": "(Supplementary Figure 4)",
+                    "ref_id": "FIGREF7"
+                }
+            ],
+            "section": "Survival Analysis on HT-SARS-CoV-2 and Druggable Targets"
+        },
+        {
+            "text": "In this comprehensive study, the critical immune-related associations with the HT-SARS-CoV-2 ACE2, TMPRSS2, and FURIN were identified using bioinformatics analyses. SARS-CoV-2 requires the proteins ACE2, TMPRSS2, and FURIN for cell entry (4) , which are the same proteins used by SARS-CoV (38) , the cause of the 2002-2004 SARS epidemic. The SARS-CoV-2 viral genome encodes for 29 different proteins. A recent study by Gordon and et al. expressed and purified 26 of these proteins and analyzed them for protein-protein interactions (39) . Using this approach, 332 high confident protein-protein interactions between SARS-CoV-2 and human proteins and 66 druggable human proteins were identified. Interestingly, two sets of pharmacological drugs had antiviral activities. These included inhibitors of mRNA translation of two sigma receptors.",
+            "cite_spans": [
+                {
+                    "start": 238,
+                    "end": 241,
+                    "text": "(4)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 289,
+                    "end": 293,
+                    "text": "(38)",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 532,
+                    "end": 536,
+                    "text": "(39)",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Several drugs/drug classes were identified. Most of them are already used clinically for other indications. These include recombinant soluble ACE2, indirect ACE2 modulators (angiotensin receptor blockers, calmodulin antagonists, selective estrogen receptor modifiers), TMPRSS2 inhibitors (camostat mesylate, nafamostat mesylate, antiandrogens, inhaled corticosteroids), and ADAM-17 enhancers (5-fluorouracil).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "FURIN and ADAM17 are both intertwined with Notch, an evolutionarily conserved communication system between adjacent cells, and thus targeting of Notch might represent an alternative approach to inhibit FURIN and upregulate ADAM17 (40) . In this context, it is noteworthy that ADAM17 is involved in the shedding of ACE2 (41) . Such hypothesis-driven studies based on the knowledge of the molecular details of virus-cell interaction are still crucial for the identification of therapeutic targets to treat COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 230,
+                    "end": 234,
+                    "text": "(40)",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 319,
+                    "end": 323,
+                    "text": "(41)",
+                    "ref_id": "BIBREF40"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "SARS-CoV-2 infection of pancreatic endocrine cells via ACE2 appears an unlikely central pathogenic feature of SARS-CoV-2 as it relates to diabetes (42) . However, we found that ACE2 was highly expressed in pancreas islets. This could be an explanation for the finding that SARS-CoV-2 infections can cause damage of the islets and subsequent acute diabetes (25, 43) . In our studies, we found that ACE2 and DPP4 were positively connected irrespective of the pancreatic nature, i.e., normal, cancer and diabetes. A positive correlation of ACE2 and DPP4 with TMPRSS2 was lacking in pancreatic cancer and diabetes.",
+            "cite_spans": [
+                {
+                    "start": 147,
+                    "end": 151,
+                    "text": "(42)",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 356,
+                    "end": 360,
+                    "text": "(25,",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 361,
+                    "end": 364,
+                    "text": "43)",
+                    "ref_id": "BIBREF42"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Studies have shown a strong correlation between the severity of COVID-19 and concentrations of different cytokines, such as IL2, IL7, IL10, GCSF, MCP1, and TNF-alpha (44) . Notch and IL-6 cooperate to activate the immune system and perpetuate the cytokine storm. In macrophages, Delta Like Canonical Notch Ligand 4 (Dll4)/Notch signaling promotes the production of inflammatory cytokines, including IL-6 (40). IL-6, in turn, increases the expression of the Notch ligands (Dll1 and DII4), thus amplifying the Notch signaling, thereby establishing a feedback loop that promotes the further production of IL-6. In T cells, Notch signaling triggered by Dll1/Dll4 ligands promotes inflammatory Th1/Th17 cytokines, while Jagged1 ligands dampen the IL-6-induced Th17 activation (40) .",
+            "cite_spans": [
+                {
+                    "start": 166,
+                    "end": 170,
+                    "text": "(44)",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 771,
+                    "end": 775,
+                    "text": "(40)",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Currently, there are few reports on the specific mechanisms of interaction networks and associations of TMPRSS2, ACE2, Correlation of HT-SARS-CoV-2 with immune process relevant genes was performed by ImmuCo using data sets obtained from PBMC, B cells, and T cells. Data are presented as correlation values (R), including the statistical significance (P). Drug candidates of HT-SARS-CoV-2, and immune process relevant genes were determined by STRING analysis and experimental interaction, database annotation, automatic text mining presented. Besides, the data were summarized in a combined score.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "and FURIN with their targets. Using bioinformatics tools, we here show that ACE2 may participate in Notch signaling to exert immune effects. However, the relationship between these molecules has to be analyzed and further experimentally validated concerning the possible targeting of ACE2/DPP4 and FURIN/ADAM17-related factors in diseased COVID-19 patients. The delicate balance between ACE2, ADAM17, and TMPRSS2 interactions could be decisive for the clinical outcome of COVID-19 (45). Angiotensin receptor blockers (ARBs) similar to angiotensinconverting enzyme (ACE) inhibitors, act by preventing the formation of angiotensin II rather than by blocking the binding of angiotensin II to muscle cells on blood vessels. The therapeutic indication for ARBs prescription comprises control of high blood pressure, treating heart failure, and preventing kidney failure, especially in patients suffering from diabetes mellitus. Since ACE inhibitors are associated with cough, accumulation of bradykinin, and angioedema, ARBs, like losartan and captopril, might be a more favorable therapeutic option by blocking the binding and attachment of the SARS-CoV-2 receptor binding domain to ACE2-expressing cells, thereby inhibiting the infection of host cells (46) . Ferrario and colleagues reported that the administration of either ACE inhibitors or ARBs increased the levels of ACE2 mRNA in Lewis rats, compared to rats receiving placebo (47) . In particular, the cardiac levels of ACE2 mRNA expression increased by 4.7-fold or 2.8-fold in rats treated with losartan, which was accompanied by increased ACE2 activity. Treatment with the ACE inhibitor captopril can significantly increase ACE2 protein expression in rats with acute lung injury (48) . Furthermore, Mourad and Levy suggested aliskiren treatment as an option in the context of SARS-CoV-2 infection, since it can reduce the expression of ACE2 (49) .",
+            "cite_spans": [
+                {
+                    "start": 1249,
+                    "end": 1253,
+                    "text": "(46)",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 1430,
+                    "end": 1434,
+                    "text": "(47)",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 1735,
+                    "end": 1739,
+                    "text": "(48)",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 1897,
+                    "end": 1901,
+                    "text": "(49)",
+                    "ref_id": "BIBREF48"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Early trials in the 1990s showed that DPP4 inhibitors improve glycaemia in animals. Subsequent clinical studies during the 2000s showed a glucose-lowering authority of DPP4 inhibitors in humans with type 2 diabetes as monotherapy or in combination with other therapies, i.e., metformin, sulfonylureas, tiazolidinediones, or exogenous insulin. Five DPP-4 inhibitors (sitagliptin, vildagliptin, alogliptin, saxagliptin, and linagliptin) were approved by regulatory authorities for the treatment of type 2 diabetes and entered the market between 2006 and 2013 (50) .",
+            "cite_spans": [
+                {
+                    "start": 557,
+                    "end": 561,
+                    "text": "(50)",
+                    "ref_id": "BIBREF49"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The inhibition of DPP4 led to the suppression of breast cancer tumor growth (51) and displayed a positive trend in OS of colorectal cancer (52) and prostate cancer (53) . Analysis of colorectal cancer and lung cancer patients showed a similar trend toward beneficial effects associated with DPP4 inhibition (54) ; however, further studies are required on the clinical impact of DPP4 inhibition on tumor patients. Based on our results it is suggested that the modulation of DPP4 might interfere with the infection and/or progression of COVID-19 and therefore might represent a therapeutic strategy. Since DPP4 inhibitors have been shown to modulate inflammation and exert anti-fibrotic activity, they might have the potential to affect the hyperinflammatory state associated with severe COVID-19 (55) .",
+            "cite_spans": [
+                {
+                    "start": 76,
+                    "end": 80,
+                    "text": "(51)",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 139,
+                    "end": 143,
+                    "text": "(52)",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 164,
+                    "end": 168,
+                    "text": "(53)",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 307,
+                    "end": 311,
+                    "text": "(54)",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 795,
+                    "end": 799,
+                    "text": "(55)",
+                    "ref_id": "BIBREF54"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "COVID-19 is a devastating novel disease resulting in thousands of deaths worldwide. It is essential to find causal therapies for those patients with a severe course, among them patients with comorbidities, as quickly as possible. The results of the present study suggest novel drug candidates for COVID-19 and underscore that new treatment options can be postulated by using different bioinformatics tools, which now have to be experimentally proven. Screening based on drug targets and their mechanisms is still key to developing new drugs. The present study provides comprehensive bioinformatics information on genes that are potential targets and candidate drugs for SARS-CoV-2. This information may help us to better understand the relevant molecular targeting mechanisms of this disease. However, further explorations are required to evaluate the biological functions of these biomarkers and drugs in the pathogenesis of the disease.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONCLUSIONS"
+        },
+        {
+            "text": "The original contributions generated in the study are included in the article/Supplementary Material, further inquiries can be directed to the corresponding author.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DATA AVAILABILITY STATEMENT"
+        },
+        {
+            "text": "KS and BS designed the study and wrote the article. KU and KS performed the data analyses. MB and CW discussed the data and revised the manuscript. All authors contributed to the article and approved the submitted version. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "AUTHOR CONTRIBUTIONS"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "579",
+            "issn": "",
+            "pages": "270--273",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2012-7"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Functional assessment of cell entry and receptor usage for SARS-CoV-2 and other lineage B betacoronaviruses",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Letko",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Marzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Munster",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Microbiol",
+            "volume": "5",
+            "issn": "",
+            "pages": "562--571",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41564-020-0688-y"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Molecular basis of binding between novel human coronavirus MERS-CoV and its receptor CD26",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Qi",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Nature",
+            "volume": "500",
+            "issn": "",
+            "pages": "227--258",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nature12328"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "SARS-CoV-2 Cell entry depends on ACE2 and TMPRSS2 and is blocked by a clinically proven protease inhibitor",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hoffmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kleine-Weber",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Schroeder",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kruger",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Herrler",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Erichsen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell",
+            "volume": "181",
+            "issn": "",
+            "pages": "271--80",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cell.2020.02.052"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "The trinity of COVID-19: immunity, inflammation and intervention",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Tay",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Poh",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Renia",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Macary",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lfp",
+                    "middle": [],
+                    "last": "Ng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Rev Immunol",
+            "volume": "20",
+            "issn": "",
+            "pages": "363--74",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41577-020-0311-8"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "SARS-CoV-2 receptor ACE2 and TMPRSS2 are primarily expressed in bronchial transient secretory cells",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lukassen",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Chua",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Trefzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Kahn",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Schneider",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Muley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "EMBO J",
+            "volume": "39",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.15252/embj.20105114"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "A genomic perspective on the origin and emergence of SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Holmes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell",
+            "volume": "181",
+            "issn": "",
+            "pages": "223--230",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cell.2020.03.035"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Imbalanced host response to SARS-CoV-2 drives development of COVID-19",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Blanco-Melo",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Nilsson-Payant",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Uhl",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Hoagland",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Moller",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell",
+            "volume": "181",
+            "issn": "",
+            "pages": "1036--1081",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cell.2020.04.026"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "COVID-19: consider cytokine storm syndromes and immunosuppression",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Mehta",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Mcauley",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Sanchez",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Tattersall",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Manson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "1033--1037",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30628-0"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Understanding novel COVID-19: its impact on organ failure and risk assessment for diabetic and cancer patients",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Dariya",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Nagaraju",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cytokine Growth Factor Rev",
+            "volume": "53",
+            "issn": "",
+            "pages": "43--52",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cytogfr.2020.05.001"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "STRING v9.1: protein-protein interaction networks, with increased coverage and integration",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Franceschini",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Szklarczyk",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Frankild",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kuhn",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Simonovic",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Roth",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Nucleic Acids Res",
+            "volume": "41",
+            "issn": "",
+            "pages": "808--823",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nar/gks1094"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Clinical impact of COVID-19 on patients with cancer (CCC19): a cohort study",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kuderer",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Choueiri",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Shah",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shyr",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Rubinstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Rivera",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "31187--31196",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)31187-9"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Case-fatality rate and characteristics of patients dying in relation to COVID-19 in Italy",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Onder",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Rezza",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Brusaferro",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "323",
+            "issn": "",
+            "pages": "1775--1781",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.4683"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Prevalence of comorbidities and its effects in patients infected with SARS-CoV-2: a systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Gou",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Pu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Infect Dis",
+            "volume": "94",
+            "issn": "",
+            "pages": "91--96",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ijid.2020.03.017"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "TMPRSS2 Contributes to virus spread and immunopathology in the airways of murine models after coronavirus infection",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Iwata-Yoshikawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Okamura",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shimizu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hasegawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Takeda",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Nagata",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Virol",
+            "volume": "93",
+            "issn": "",
+            "pages": "1815--1833",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.01815-18"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Inhibition of SARS-CoV-2 infections in engineered human tissues using clinical-grade soluble human ACE2",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Monteil",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kwon",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Prado",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hagelkruys",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Wimmer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Stahl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell",
+            "volume": "181",
+            "issn": "",
+            "pages": "905--918",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cell.2020.04.004"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Targeting transcriptional regulation of SARS-CoV-2 entry factors ACE2 and TMPRSS2",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Qiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Mannan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pitchiaya",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Wotring",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Proc Natl Acad Sci",
+            "volume": "118",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1073/pnas.2021450118"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Distribution of ACE2, CD147, CD26 and other SARS-CoV-2 associated molecules in tissues and immune cells in health and in asthma, COPD, obesity, hypertension, and COVID-19 risk factors",
+            "authors": [
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Radzikowska",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ding",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhakparov",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wawrzyniak",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Allergy",
+            "volume": "75",
+            "issn": "",
+            "pages": "2829--2874",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/all.14429"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Inhibitor selectivity in the clinical application of dipeptidyl peptidase-4 inhibition",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kirby",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "O&apos;connor",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Gorrell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Clin Sci (Lond)",
+            "volume": "118",
+            "issn": "",
+            "pages": "31--41",
+            "other_ids": {
+                "DOI": [
+                    "10.1042/CS20090047"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "COVID-19 and comorbidities: a role for dipeptidyl peptidase 4 (DPP4) in disease severity?",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Bassendine",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Bridge",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Mccaughan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Gorrell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Diabetes",
+            "volume": "12",
+            "issn": "",
+            "pages": "649--58",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/1753-0407.13052"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Emerging WuHan (COVID-19) coronavirus: glycan shield and structure prediction of spike glycoprotein and its interaction with human CD26",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Vankadari",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Wilce",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emerg Microbes Infect",
+            "volume": "9",
+            "issn": "",
+            "pages": "601--605",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/22221751.2020.1739565"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Single cell RNA sequencing of 13 human tissues identify cell types and receptors of human coronaviruses",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Qi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Qian",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Biochem Biophys Res Commun",
+            "volume": "526",
+            "issn": "",
+            "pages": "135--175",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.bbrc.2020.03.044"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Dipeptidyl peptidase 4 is a functional receptor for the emerging human coronavirus-EMC",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Raj",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Mou",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Smits",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Dekkers",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Muller",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Dijkman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Nature",
+            "volume": "495",
+            "issn": "",
+            "pages": "251--255",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nature12005"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Organ distribution of severe acute respiratory syndrome (SARS) associated coronavirus (SARS-CoV) in SARS patients: implications for pathogenesis and virus transmission pathways",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ding",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Che",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Hou",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J Pathol",
+            "volume": "203",
+            "issn": "",
+            "pages": "622--652",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/path.1560"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Pancreatic injury patterns in patients with coronavirus disease 19 pneumonia",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Gastroenterology",
+            "volume": "159",
+            "issn": "",
+            "pages": "367--70",
+            "other_ids": {
+                "DOI": [
+                    "10.1053/j.gastro.2020.03.055"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "STRING v10: protein-protein interaction networks, integrated over the tree of life",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Szklarczyk",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Franceschini",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wyder",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Forslund",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Heller",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Huerta-Cepas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Nucleic Acids Res",
+            "volume": "43",
+            "issn": "",
+            "pages": "447--52",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nar/gku1003"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "COVID-19 and cancer: what we know so far",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sidaway",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Rev Clin Oncol",
+            "volume": "17",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41571-020-0366-2"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Diabetes and COVID-19: psychosocial consequences of the COVID-19 pandemic in people with diabetes in Denmark-what characterizes people with high levels of COVID-19-related worries",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Joensen",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Madsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Holm",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Nielsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Rod",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Petersen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Diabet Med",
+            "volume": "37",
+            "issn": "",
+            "pages": "1146--54",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/dme.14319"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Global burden of noncommunicable diseases attributable to high fasting plasma glucose",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zeng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Diabetes",
+            "volume": "12",
+            "issn": "",
+            "pages": "807--825",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/1753-0407.13072"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "NCBI GEO: archive for functional genomics data sets-update",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Barrett",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Wilhite",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ledoux",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Evangelista",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tomashevsky",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Nucleic Acids Res",
+            "volume": "41",
+            "issn": "",
+            "pages": "991--996",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nar/gks1193"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "ImmuCo: a database of gene co-expression in immune cells",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Qi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Nucleic Acids Res",
+            "volume": "43",
+            "issn": "",
+            "pages": "1133--1142",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nar/gku980"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Gene expression analyses reveal molecular relationships among 20 regions of the human CNS",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Roth",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Hevezi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Willhite",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lechner",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Foster",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Neurogenetics",
+            "volume": "7",
+            "issn": "",
+            "pages": "67--80",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s10048-006-0032-6"
+                ]
+            }
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Sex differences in the genome-wide DNA methylation pattern and impact on gene expression, microRNA levels and insulin secretion in human pancreatic islets",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Hall",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Volkov",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Dayeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Esguerra",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Salo",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Eliasson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Genome Biol",
+            "volume": "15",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s13059-014-0522-z"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Integration of metabolomics and transcriptomics revealed a fatty acid network exerting growth inhibitory effects in human pancreatic cancer",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Budhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gaedcke",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ghadimi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Clin Cancer Res",
+            "volume": "19",
+            "issn": "",
+            "pages": "4983--93",
+            "other_ids": {
+                "DOI": [
+                    "10.1158/1078-0432.CCR-13-0209"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "The complement inhibitor CD59 regulates insulin secretion by modulating exocytotic events",
+            "authors": [
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Krus",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "King",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Nagaraj",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Gandasi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sjolander",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Buda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Cell Metab",
+            "volume": "19",
+            "issn": "",
+            "pages": "883--90",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cmet.2014.03.001"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "STRING v11: protein-protein association networks with increased coverage, supporting functional discovery in genome-wide experimental datasets",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Szklarczyk",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Gable",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Lyon",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Junge",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wyder",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Huerta-Cepas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nucleic Acids Res",
+            "volume": "47",
+            "issn": "",
+            "pages": "607--620",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nar/gky1131"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "ACE2 Expression in pancreas may cause pancreatic damage after SARS-CoV-2 infection",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Long",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Gastroenterol Hepatol",
+            "volume": "18",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cgh.2020.04.040"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "A transmembrane serine protease is linked to the severe acute respiratory syndrome coronavirus receptor and activates virus entry",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Shulla",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Heald-Sargent",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Subramanya",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Perlman",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Gallagher",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Virol",
+            "volume": "85",
+            "issn": "",
+            "pages": "873--82",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.02062-10"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "A SARS-CoV-2 protein interaction map reveals targets for drug repurposing",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Gordon",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Jang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bouhaddou",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Obernier",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "White",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "583",
+            "issn": "",
+            "pages": "459--68",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2286-9"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "COVID-19 in the heart and the lungs: could we \"Notch\" the inflammatory storm?",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Rizzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Vieceli Dalla Sega",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Fortini",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Marracino",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Rapezzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ferrari",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Basic Res Cardiol",
+            "volume": "115",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00395-020-0791-5"
+                ]
+            }
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Tumor necrosis factor-alpha convertase (ADAM17) mediates regulated ectodomain shedding of the severe-acute respiratory syndrome-coronavirus (SARS-CoV) receptor, angiotensin-converting enzyme-2 (ACE2)",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Lambert",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Yarski",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Warner",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Thornhill",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Parkin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J Biol Chem",
+            "volume": "280",
+            "issn": "",
+            "pages": "30113--30122",
+            "other_ids": {
+                "DOI": [
+                    "10.1074/jbc.M505111200"
+                ]
+            }
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Expression of SARS-CoV-2 entry factors in the pancreas of normal organ donors and individuals with COVID-19",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Kusmartseva",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Syed",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Van Der Heide",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Jorgensen",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Joseph",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell Metab",
+            "volume": "32",
+            "issn": "",
+            "pages": "1041--51",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cmet.2020.11.005"
+                ]
+            }
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Binding of SARS coronavirus to its receptor damages islets and causes acute diabetes",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ji",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Guo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Acta Diabetol",
+            "volume": "47",
+            "issn": "",
+            "pages": "193--202",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00592-009-0109-4"
+                ]
+            }
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "A review of coronavirus disease-2019 (COVID-19)",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Singhal",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zipeto",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jdf",
+                    "middle": [],
+                    "last": "Palmeira",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Arganaraz",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Arganaraz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Indian J Pediatr",
+            "volume": "87",
+            "issn": "",
+            "pages": "281--287",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s12098-020-03263-6"
+                ]
+            }
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "ACE2/ADAM17/TMPRSS2 interplay may be the main risk factor for COVID-19",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fimmu.2020.576745"
+                ]
+            }
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Angiotensinconverting enzyme 2 and antihypertensives (angiotensin receptor blockers and angiotensin-converting enzyme inhibitors) in coronavirus disease 2019",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Sanchis-Gomar",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lavie",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Perez-Quilis",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Henry",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Lippi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Mayo Clin Proc",
+            "volume": "95",
+            "issn": "",
+            "pages": "1222--1252",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.mayocp.2020.03.026"
+                ]
+            }
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Effect of angiotensin-converting enzyme inhibition and angiotensin II receptor blockers on cardiac angiotensin-converting enzyme 2",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ferrario",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Jessup",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Chappell",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Averill",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Brosnihan",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Tallant",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Circulation",
+            "volume": "111",
+            "issn": "",
+            "pages": "2605--2615",
+            "other_ids": {
+                "DOI": [
+                    "10.1161/CIRCULATIONAHA.104.510461"
+                ]
+            }
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Angiotensinconverting enzyme inhibition attenuates lipopolysaccharide-induced lung injury by regulating the balance between angiotensin-converting enzyme and angiotensin-converting enzyme 2 and inhibiting mitogenactivated protein kinase activation",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Shock",
+            "volume": "43",
+            "issn": "",
+            "pages": "395--404",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/SHK.0000000000000302"
+                ]
+            }
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Interaction between RAAS inhibitors and ACE2 in the context of COVID-19",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Mourad",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Levy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Rev Cardiol",
+            "volume": "17",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41569-020-0368-x"
+                ]
+            }
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "DPP-4 Inhibition and the path to clinical proof",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Ahren",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Front Endocrinol (Lausanne)",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fendo.2019.00376"
+                ]
+            }
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Dipeptidyl peptidase 4 promotes epithelial cell transformation and breast tumourigenesis via induction of PIN1 gene expression",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Yun",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Choi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Br J Pharmacol",
+            "volume": "172",
+            "issn": "",
+            "pages": "5096--109",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/bph.13274"
+                ]
+            }
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "A multicenter retrospective analysis of the effect of DPP4 inhibitors on progressionfree survival in advanced airway and colorectal cancers",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ali",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Fuentes",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Skelton",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mcgorray",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Shah",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Mol Clin Oncol",
+            "volume": "10",
+            "issn": "",
+            "pages": "118--142",
+            "other_ids": {
+                "DOI": [
+                    "10.3892/mco.2018.1766"
+                ]
+            }
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Impact of DPP4 Inhibitors in Survival of Patients With Prostate",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Shah",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Hong",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Bishnoi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ali",
+                    "suffix": ""
+                },
+                {
+                    "first": "Skelton",
+                    "middle": [],
+                    "last": "Wpt",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Dang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Pancreas, and Breast Cancer. Front Oncol",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fonc.2020.00405"
+                ]
+            }
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Dipeptidyl peptidase 4 inhibitors as novel agents in improving survival in diabetic patients with colorectal cancer and lung cancer: a surveillance epidemiology and endpoint research medicare study",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Bishnoi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Hong",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Shah",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ali",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Skelton",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Huo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Cancer Med",
+            "volume": "8",
+            "issn": "",
+            "pages": "3918--3945",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/cam4.2278"
+                ]
+            }
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "DPP4 inhibition: preventing SARS-CoV-2 infection and/or progression of COVID-19?",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Strollo",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Pozzilli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Diabetes Metab Res Rev",
+            "volume": "36",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/dmrr.3330"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "(i) Normal Various\u2212353 (32); (ii) Mixed Cancer\u221211003 (TCGA; https://www.cancer.gov/tcga); (iii) Pancreatic Islets-Normal\u221287 (33); (iv) Pancreas-Mixed Tumor\u221290 (34); (v) Pancreatic Islets-Diabetes\u2212128 (35); (vi) B cell\u221238; (vii) CD4+ T cell\u2212551; (viii) CD8+ T cell\u2212149; (ix) DC\u2212406; (x) macrophage\u2212362; (xi) monocyte\u2212427; (xii) NK\u2212128; and, (xiii) PBMC\u22121921.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Construction and analysis of a protein-protein interaction network of ACE2 and immune genes. The protein-protein interaction network was visualized by STRING. The color saturation of the edges represents the confidence score of a functional association. (A) Intricate protein-protein interaction network (number of nodes 23, number of edges 80, average node degree 6.96, PPI enrichment p-value < 1.0e-16, average local clustering co-efficient 0.777). (B) Enrichment analysis by molecular function. (C) Enrichment analysis by KEGG.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Venn diagrams of common protein associations between HT-SARS-CoV-2 and immune genes. The association between the HT-SARS-CV-2 ACE2, TMPRSS2, and FURIN and 2811 immune genes is demonstrated showing only one common immune molecule associated with all three HT-SARS-CoV-2.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "and AGE-RAGE signaling pathway in diabetic complications at KEGG(Figure 1C). TMPRSS2 shared 17 protein associations (SupplementaryFigure 2A) and the PPI displayed 18 nodes, 62 edges, and an average node degree of 6.89 with average local clustering co-efficient 0.797 (PPI enrichment p-value 5.35e-10). This network was the highest enriched for histone acetyltransferase binding at molecular function(Supplementary Figure 2B), and highest enriched for different cancer types at KEGG(Supplementary Figure 2C).With 64 proteins, FURIN indicated the highest associations (number of edges 464, average node degree 14.3, average local clustering coefficient 0.731, PPI enrichment p-value < 1.0e-16)(Supplementary Figure 3A). The PPI of FURIN was enriched at the molecular function for receptor activity and binding. KEGG was enriched at bladder cancer (SupplementaryFigure 3B)and Notch signaling pathway (Supplementary",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "represents the positive correlations involving TMPRSS2 in both healthy and tumor datasets. The central association marker, DPP4 positively correlated with ACE2 (normal: R 0.308; cancers: 0.382), TMPRSS2 (normal: R 0.524; cancers: 0.382) and FURIN (normal: R 0.498; cancers: R 0.246) in both datasets (Figure 3). ADAM17 exhibited negative correlations with ACE2 (normal: R \u22120.187; cancers: R \u22120.044) and FURIN (normal: R \u22120.281; cancers: R \u22120.079). GP2 and TFRC showed differential association patterns with ACE2 and FURIN. The common TMPRSS2 and FURIN associated genes CTSL, MYC, AKT1, and SRC displayed positive correlations with their corresponding subjects except for the FURIN and MYC correlation in cancers (R 0.012; p 0.199). TMPRSS2 negatively correlated with GAPDH (",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": ".",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Correlation plot of HT-SARS-CoV-2 genes in mixed normal and cancers, and pancreatic normal, cancer, and diabetic tissue. (A) Positive correlations of ACE2/DPP4. (B) Negative correlations of FURIN/ADAM17. 2log: logarithmic values with base of 2.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Drug-target networks of HT-SARS-CoV-2 using the STITCH database. The druggable targets of the association of HT-SARS-CoV-2 with immune process genes were curated from the STITCH database. Pill-shaped and spheres nodes represent the compounds and proteins, respectively. (A) ACE2/DPP4. (B) TMPRSS2/SRC. (C) FURIN/ADAM17.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "This work was sponsored by a grant from Wilhelm Sander-Stiftung (BS: 2019.076.1).",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Identification of immune process relevant genes associated with three HT-SARS-CoV-2.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Association of HT-SARS-CoV-2 with immune process relevant genes in mixed cancers vs. mixed normal tissues.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Associations of HT-SARS-CoV-2 with immune process relevant genes in normal pancreas, pancreatic cancer, and diabetic pancreatic tissues.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Associations of HT-SARS-CoV-2 with immune process relevant genes in PBMC, B cells, and T cells.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "Known drug candidates targeting HT-SARS-CoV-2 and associated genes.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "This manuscript has been released as a pre-print at Research Square. We would like to thank N. Ott and V. Goldhorn for their excellent secretarial help.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ACKNOWLEDGMENTS"
+        },
+        {
+            "text": "The Supplementary Material for this article can be found online at: https://www.frontiersin.org/articles/10.3389/fimmu. 2021.597399/full#supplementary-material Conflict of Interest: The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.Copyright \u00a9 2021 Subbarayan, Ulagappan, Wickenhauser, Bachmann and Seliger. This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "SUPPLEMENTARY MATERIAL"
+        }
+    ]
+}

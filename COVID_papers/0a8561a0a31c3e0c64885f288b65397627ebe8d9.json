@@ -1,0 +1,2526 @@
+{
+    "paper_id": "0a8561a0a31c3e0c64885f288b65397627ebe8d9",
+    "metadata": {
+        "title": "Decontamination of common healthcare facility surfaces contaminated with SARS-CoV-2 using peracetic acid dry fogging",
+        "authors": [
+            {
+                "first": "T",
+                "middle": [],
+                "last": "Cutts",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "S",
+                "middle": [],
+                "last": "Kasloff",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "D",
+                "middle": [],
+                "last": "Safronetz",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "J",
+                "middle": [],
+                "last": "Krishnan",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "S",
+                "middle": [
+                    "U"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "A",
+                "middle": [
+                    "R"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Y",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Background: The SARS-CoV-2 pandemic has highlighted the urgent need for safe and effective surface decontamination methods, particularly in healthcare settings. Aim: To evaluate the effectiveness of peracetic acid (PAA) dry fogging in decontaminating healthcare facility surfaces experimentally contaminated with SARS-CoV-2. Methods: Nine materials (stainless steel, latex painted wood, unsealed hardwood, melamine countertop, vinyl flooring, clear plastic, faux leather, computer keyboard button, and smartphone touch screen) were surface contaminated with >10 6 median tissue culture infectious dose (TCID 50 ) of SARS-CoV-2, and allowed to dry before exposing to PAA dry fogging. Findings: When fumigated with PAA dry fog for 1 h, no infectious SARS-CoV-2 virus was recovered from any of the experimentally inoculated surface types. By contrast, high titres of infectious virus were recovered from corresponding untreated drying controls of the same materials. Conclusion: Standard surface decontamination processes, including sprays and wipes, are laborious and frequently cannot completely decontaminate sensitive electronic equipment. The ease of use, low cost, and overall effectiveness of a PAA dry fogging suggest that it should be considered for decontaminating healthcare settings, particularly intensive care units where severely ill SARS-CoV-2 patients are cared for.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Crown",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The burden of COVID-19 among healthcare workers has been enormous during the ongoing COVID-19 pandemic [1e5]. Environmental sampling has demonstrated the presence of SARS-CoV-2, the causative agent of COVID-19, in indoor air and on various surfaces in healthcare settings [6e8] . SARS-CoV-2 may persist on common surfaces for several weeks [9e11] . Such contaminated surfaces could pose a significant risk of infection to healthcare workers and visitors [12] . Surface decontamination using a variety of liquid disinfectants is routinely employed to disinfect various surfaces in healthcare facilities [13, 14] . Disinfectants are generally applied as a spray or wipe, which is labour intensive even on readily accessible surfaces and difficult, if not impossible, to apply on hard-to-reach surfaces. Employees who undertake liquid disinfectant application often are exposed to the hazardous chemicals in them [15, 16] .",
+            "cite_spans": [
+                {
+                    "start": 272,
+                    "end": 277,
+                    "text": "[6e8]",
+                    "ref_id": null
+                },
+                {
+                    "start": 340,
+                    "end": 346,
+                    "text": "[9e11]",
+                    "ref_id": null
+                },
+                {
+                    "start": 454,
+                    "end": 458,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 602,
+                    "end": 606,
+                    "text": "[13,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 607,
+                    "end": 610,
+                    "text": "14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 910,
+                    "end": 914,
+                    "text": "[15,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 915,
+                    "end": 918,
+                    "text": "16]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Decontamination by fumigation using a gas, vapour, or fine mist is effective on all surfaces including those in the hard-to-reach areas; in addition, fumigation decontaminates the air in the room [17] . The objective of this study was to validate the efficacy of peracetic acid (PAA) dry fogging fumigation in decontaminating two rooms, and a variety of SARS-CoV-2 contaminated surfaces placed in them. Here we report the successful decontamination of two rooms and nine healthcare facility surfaces experimentally contaminated with SARS-CoV-2 using PAA dry fogging.",
+            "cite_spans": [
+                {
+                    "start": 196,
+                    "end": 200,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Liquid PAA is a strong oxidant and an excellent microbicide; its microbicidal capability has been known for more than a century and it can inactivate bacterial spores, fungi, and viruses [18e21]. It is widely used in the food production/processing industry because of its lack of toxic by-products [22e24]. In the healthcare field, it has been used to disinfect endoscopes, sterilize bone allograft, and decontaminate surfaces to control nosocomial infections, especially the ones caused by spore-forming bacteria [25e28]. A number of PAA formulations have been registered with US Environmental Protection Agency and Health Canada as general disinfectants and as COVID-19 specific disinfectants [29, 30] .",
+            "cite_spans": [
+                {
+                    "start": 695,
+                    "end": 699,
+                    "text": "[29,",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 700,
+                    "end": 703,
+                    "text": "30]",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Peracetic acid disinfectant"
+        },
+        {
+            "text": "In 1968, PAA in vapour form was used to inactivate bacterial spores [31] ; in 2001 a fogger that created fine PAA particles smaller than 10 mm was used for decontaminating hospital rooms and operation theatres [32] . Unlike regular spray, the ultrafine particles of a fog fail to settle readily on surfaces and cause dampness, hence the name dry fog. The dry fog behaves like a vapour: it fills the entire space, and diffuses into all areas and surfaces to provide decontamination of the whole space and the surfaces contained within. PAA fumigation has been effective against bacterial spores and viruses, and it has been used to decontaminate subway railcar, laboratories, biosafety cabinets, and N95 respirators [33e39]. In the air, the PAA has a half-life of 22 min, followed by breakdown to water, oxygen, and carbon dioxide [40] . ",
+            "cite_spans": [
+                {
+                    "start": 68,
+                    "end": 72,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 210,
+                    "end": 214,
+                    "text": "[32]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 830,
+                    "end": 834,
+                    "text": "[40]",
+                    "ref_id": "BIBREF40"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Peracetic acid disinfectant"
+        },
+        {
+            "text": "Low passage SARS CoV-2 (hCoV-19/Canada/ON-VIDO-01/ 2020, GISAID accession# EPI_ISL_425177, kindly provided by the Vaccine and Infectious Disease Organization, VIDO, Saskatoon, Saskatchewan, Canada) was used to prepare concentrated stocks by infecting T-175 flasks of confluent Vero E6 cells at 0.01 multiplicity of infection. The health of the cell monolayer of the infected flask was compared to a non-infected Vero E6 flask over the course of the incubation. On day 3e4, cytopathic effect, as defined by cell detachment and cell rounding, became evident where >90% of the cell monolayer was lifted in infected flasks. At this point, the supernatant was aspirated and pooled with a clarification step at low-speed centrifugation (4500 g) for 10 min. The clarified supernatant was overlaid on to a 20% (w/v) sucrose cushion in TriseNaCleEDTA buffer and centrifuged at 134,000 g for 2 h. The resulting viral pellet was suspended in VCM by repeat pipetting and aliquots stored in cryovials at e70 C until needed. Stock virus preparation was carried out in a BSL-3 laboratory at the Canadian Science Centre for Human and Animal Health.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Stock virus preparation"
+        },
+        {
+            "text": "Nine surfaces that are commonly found in healthcare settings were identified and used for this study: stainless steel, latex painted wood, unsealed hardwood flooring, melamine countertop, vinyl flooring, clear plastic, faux leather, computer keyboard button, and smartphone touch screen. Small coupons (1e2 cm 2 ) were cut where possible, and individual buttons were removed from an old computer keyboard. Three blackberry smartphones with touch-sensitive screens were used to represent the omnipresent touch-sensitive screens in healthcare facilities. Prior to use, all coupons were sterilized using gamma irradiation (1 Mrad, Cobalt-60 source), whereas the test surfaces of the smart phones were decontaminated using 70% ethanol wipes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Preparation of coupons"
+        },
+        {
+            "text": "To prepare SARS-CoV-2-contaminated test surfaces, we followed an American Society for Testing and Materials (ASTM) International standard disinfectant testing method, ASTM E2197 [41] . High titre SARS-CoV-2 virus (w 5 \u00c2 10 8 TCID 50 /mL) was mixed in a tripartite soil load to create the test virus inoculum [42] . The tripartite matrix e which consisted of BSA, tryptone, and mucin e represents the organic soil load: secretions/excretions within which the virus is released from an infected person. The inoculum was prepared fresh for each test replicate performed. Using a positive displacement pipette, 10 mL of inoculum was deposited on to the coupon surfaces and air-dried for 45e60 min in a biological safety cabinet.",
+            "cite_spans": [
+                {
+                    "start": 178,
+                    "end": 182,
+                    "text": "[41]",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 308,
+                    "end": 312,
+                    "text": "[42]",
+                    "ref_id": "BIBREF42"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Preparation of coupons"
+        },
+        {
+            "text": "Fumigation experiments were carried out in a 164 m 3 animal cubicle in BSL-4 containment; the cubicle consisted of two rooms with a door in between. The dry fogging system used for this study has been described elsewhere [34] . Briefly, a portable dry fogger equipped with three AKIMist\u00d2 E nozzles that produces 7.5 mm sized droplets (Ikeuchi USA, Inc., Blue Ash, OH, USA) was used. An air compressor (model 2807CE72; Thomas, Monroe, LA, USA) set at 40 psi supplied compressed air needed for the nozzles to generate the dry fog from the chemical mixture contained in the 19 L reservoir. The chemical mixture, Minncare Cold Sterilant (Mar Cor Purification, Skippack, PA, USA), contained 4.5% PAA, which was diluted appropriately to achieve 1.6 mL/m 3 at 80% relative humidity (RH). Initial temperature and relative humidity levels of the rooms were measured using Professional Thermo-Hygrometer (TFA Dostmann Product #30.3039) and were used to calculate the amount of chemical and deionized water needed to be mixed to attain 80% RH. The door between the rooms was left open during the fumigation; the fogger was placed in the doorway with one nozzle directed towards the small room and the other two towards the large room ( Figure 1 ). Fourteen biological indicators (Spordex, #NA333, Steris, Mentor, OH, USA) were placed at various locations within the rooms to validate room decontamination. Each biological indicator contained >10 6 spores of Geobacillus stearothermophilus bacteria.",
+            "cite_spans": [
+                {
+                    "start": 221,
+                    "end": 225,
+                    "text": "[34]",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1225,
+                    "end": 1233,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Dry fog fumigation assay"
+        },
+        {
+            "text": "One from each group of SARS-CoV-2-inoculated coupons was placed on the lids of three 12-well plates with their inoculated sides up (Figure 2 ). The lids were positioned at a height of w4 ft above the floor at three different locations in the room (Figure 1 ). An exact set of triplicate coupons for each surface serving as unexposed positive controls was left in the biological safety cabinet for the duration of the fumigation.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 131,
+                    "end": 140,
+                    "text": "(Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 247,
+                    "end": 256,
+                    "text": "(Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Dry fog fumigation assay"
+        },
+        {
+            "text": "Dry fogging process was initiated after turning off the laboratory air system; this took w8e20 min and 2.5 L of dilute chemical to reach 80% RH. After a contact time of 1 h, the air system was turned on to aerate out the residual chemicals from the rooms; biological indicators and test surface coupons were retrieved for processing. Biological indicators were incubated in trypticase soy broth at 56 C for 48 h; an unexposed biological indicator was also incubated similarly to serve as positive control for growth. The inoculum from each of the coupons was eluted in VCM along with their unexposed counterparts for quantification of viable virus titre in Vero E6 cells by TCID 50 . Three independent fumigation trials were performed, each of which consisted of three replicates of each surface: three for fumigation and three as unexposed controls.",
+            "cite_spans": [
+                {
+                    "start": 679,
+                    "end": 681,
+                    "text": "50",
+                    "ref_id": "BIBREF50"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Dry fog fumigation assay"
+        },
+        {
+            "text": "As some coupon material could absorb residual PAA and/or contain chemicals from their manufacturing process, their potential negative impact on the cell monolayer (cytotoxicity) was also investigated. In replicates of three, each of the surfaces was exposed to the dry fog for 1 h followed by 1e2 h of aeration. Coupons were retrieved and subjected to the same elution protocol as test coupons. Eluates from each coupon were ten-fold serially diluted in VCM and added to Vero E6 monolayer in 96-well plates (50 mL/well containing 150 mL of VCM). Evidence of cytotoxicity to the cell monolayer was visually scored at day 5.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Cytotoxicity control"
+        },
+        {
+            "text": "Vero E6 cells were seeded the previous day in a 96-well plate format to attain 80% confluence on the day of testing for virus titre by TCID 50 . Triplicate inoculated drying control coupons (unexposed control coupons) of each surface type as well as inoculated coupons that had been exposed to PAA dry fog (exposed test coupons) were eluted into 1 mL of VCM by repeat pipetting, each of which was then ten-fold serially diluted in VCM. Inoculated touch screens were eluted in a total volume of 1 mL of VCM by repeat washing of the inoculated area with 200 mL VCM at a time. Media from the previously seeded 80% confluent Vero E6 cells were replaced with 150 mL of fresh VCM prior to addition of the diluted virus inoculum. In replicates of five per dilution series, 50 mL of diluted virus was added to Vero E6 cells and incubated at 37 C \u00fe5% CO 2 for 5 days. Plates were examined for cytopathic effect under a light microscope and compared to a negative control to determine viral titre in TCID 50 by the Reed Muench procedure [43] .",
+            "cite_spans": [
+                {
+                    "start": 140,
+                    "end": 142,
+                    "text": "50",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 1027,
+                    "end": 1031,
+                    "text": "[43]",
+                    "ref_id": "BIBREF43"
+                }
+            ],
+            "ref_spans": [],
+            "section": "TCID 50 procedure"
+        },
+        {
+            "text": "Eluates obtained from fumigated clean coupons (cytotoxicity controls) showed no signs of cell death, except unsealed wood coupons (3/3 trials) and painted latex coupons (2/3 trials), which showed signs of cell death after overnight incubation when the undiluted eluates were added to Vero E6 cells. Whereas titres of viable virus recovered from unexposed positive control coupons ranged between 10 4.5 and 10 6.5 TCID 50 / mL, no infectious virus was detected in tissue culture from any of the fumigated surface coupons in any of the three fumigation trials (Figure 3 ). Triplicate coupons were tested in each independent fumigation experiment, all of which showed complete inactivation of SARS-CoV-2.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 558,
+                    "end": 567,
+                    "text": "(Figure 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "For surface eluates which demonstrated cytotoxic effects to the Vero E6 cells (wood and painted latex), additional subpassage of supernatants from the TCID 50 plates was performed to ensure that cell death observed at the neat dilutions of eluates from inoculated, PAA-treated surfaces was due to cytotoxicity rather than to virus-induced cytopathic effect. Sub-passaging confirmed the lack of detectable infectious SARS-CoV-2 on both surface types in all experimental replicates. Interestingly, high titres of virus were recovered from unexposed control coupons made of non-porous materials whereas porous material coupons such as unsealed wood yielded lower concentrations (Figure 3) , which is consistent with previous studies [44, 45] .",
+            "cite_spans": [
+                {
+                    "start": 730,
+                    "end": 734,
+                    "text": "[44,",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 735,
+                    "end": 738,
+                    "text": "45]",
+                    "ref_id": "BIBREF45"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 675,
+                    "end": 685,
+                    "text": "(Figure 3)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "The biological indicators failed to grow upon incubation for 48 h, demonstrating that the entire two rooms were decontaminated along with the SARS-CoV-2-contaminated test surface coupons.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Widespread SARS-CoV-2 nosocomial infections have been reported from hospitals worldwide [46] ; according to the World Coupons were inoculated with 10 mL of SARS-CoV-2 virus (>10 6 TCID 50 /coupon) mixed in a standard organic soil load and then allowed to dry in a biological safety cabinet before being exposed to the peracetic acid dry fog. Note that the inoculum deposited on unsealed wood coupon was instantly absorbed. Top row (left to right): melamine, unsealed hardwood, latex painted particleboard, stainless steel. Bottom row (left to right): faux leather, clear plastic, keyboard, vinyl flooring.",
+            "cite_spans": [
+                {
+                    "start": 88,
+                    "end": 92,
+                    "text": "[46]",
+                    "ref_id": "BIBREF46"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Health Organization, healthcare workers accounted for one in seven COVID-19 cases worldwide. SARS-CoV-2 transmission occurs via direct contact with infected persons, small airborne droplets, or larger respiratory droplets, or indirectly through contaminated surfaces/objects (fomite transmission). Heavily contaminated surfaces in environments housing infected patients present multiple sources of infection to healthcare personnel. One recent study showed evidence of widespread contamination on surfaces in patient rooms including toilets, ventilation grills, and even on the floor under the beds without direct patient contact [6] . Therefore, it is critical that the decontamination methods adopted should reach all surfaces in the room, including those in hard-to-reach areas.",
+            "cite_spans": [
+                {
+                    "start": 630,
+                    "end": 633,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Routine surface decontamination processes using liquid sprays/wipes are labour intensive, often hazardous to the decontamination personnel, and cannot reach all hard-toreach surfaces; whereas fumigation keeps the personnel out of the room being fumigated while decontaminating the entire room including the air and the various surfaces contained within. Infectious agents do not deposit themselves cleanly on the surfaces; they will be in a milieu of patients' excretions/ secretions, which after drying would be a challenge for disinfecting chemicals to inactivate. In this study, the SARS-CoV-2 virus was suspended in a standard tripartite organic soil load to represent such a challenging milieu, and then dried on to the test coupons. As noted before, PAA e both in the liquid and the fumigant form e tolerates organic soil load well, which is consistent with our finding here, where all the surfaces were decontaminated upon a 1 h exposure [34, 47] . Expensive electronic equipment is plentiful in modern healthcare settings; they are a necessity to provide modern patient care. A fumigation technology selected to decontaminate such a facility and the equipment in it should not damage electronic equipment; PAA fumigation has previously been shown to be compatible with electronics after repeat exposures in a laboratory setting [34] .",
+            "cite_spans": [
+                {
+                    "start": 945,
+                    "end": 949,
+                    "text": "[34,",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 950,
+                    "end": 953,
+                    "text": "47]",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 1336,
+                    "end": 1340,
+                    "text": "[34]",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "This study was also undertaken in a laboratory that was equipped with a controllable air-handling system; turning the exhaust air on after the fumigation process to evacuate the residual PAA was easily achieved. Entering the room before removing the PAA residues to safe levels would be unsafe since levels >0.4 ppm may cause hazardous health effects [48] . In most healthcare settings, the heatingeventilationeair conditioning system may not be equipped to exhaust a room/section easily. A variety of commercially available standalone gas scrubbers containing activated charcoal may be employed to remove residual PAA from such rooms after fumigation. A direct reading electrochemical PAA monitor (e.g. ChemDAQ, Pittsburgh, PA, USA) or a visual PAA test strip (e.g. Giotto Biotech, Sesto Fiorentino, Italy) may be used to determine the level of PAA in the room before re-entry.",
+            "cite_spans": [
+                {
+                    "start": 351,
+                    "end": 355,
+                    "text": "[48]",
+                    "ref_id": "BIBREF48"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In conclusion, dry fog fumigation using PAA is a low-tech, cost-effective, and portable decontamination technology for decontaminating large areas within a short period. This study shows that PAA fumigation resulted in the complete inactivation of SARS-CoV-2 on all the nine test surfaces as well as the decontamination of the rooms that housed them. Whereas the focus of this work was decontamination of surfaces found in healthcare settings, these materials are common in a variety of structures. There have been reports of COVID-19 outbreaks in cruise ships, schools, sports facilities, and long-term care centres [14,49e52] . Thus, PAA fumigation can be used to Figure 3 . Inactivation of SARS-CoV-2 on nine common healthcare facility surfaces by peracetic acid dry fogging. Surface coupons contaminated with 10 mL of virus inoculum were subjected to 1 h dry fogging cycle (N \u00bc 3 biological replicates per surface type) followed by elution in virus culture medium. No infectious virus was recovered from dry-fog-exposed coupons; viral titres recovered from the unexposed, dried positive control coupons of the same material type and quantified by end-point titration in Vero E6 cells are also shown.",
+            "cite_spans": [
+                {
+                    "start": 617,
+                    "end": 627,
+                    "text": "[14,49e52]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 666,
+                    "end": 674,
+                    "text": "Figure 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "Dotted lines indicate limits of quantification for the TCID 50 assay. Results represent means of three independent experiments.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Understanding Mexican health worker COVID-19 deaths",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Agren",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "396",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Update: characteristics of health care personnel with COVID-19 e United States",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hughes",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Groenewold",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Lessem",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Ussery",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Wiegand",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Morb Mortal Wkly Rep",
+            "volume": "69",
+            "issn": "",
+            "pages": "1364--1372",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Transmission of COVID-19 to health care personnel during exposures to a hospitalized patient e Solano County",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Heinzerling",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Stuckey",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Scheuer",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Perkins",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Resseger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Morb Mortal Wkly Rep",
+            "volume": "69",
+            "issn": "",
+            "pages": "472--478",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Regional variation in trajectories of healthcare worker infections during the COVID-19 pandemic in Italy",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bellizzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Panu",
+                    "middle": [],
+                    "last": "Napodano",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Salaris",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Pichierri",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Sotgiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Infect Control Hosp Epidemiol",
+            "volume": "41",
+            "issn": "",
+            "pages": "1472--1476",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Epidemic curve of contamination in a hospital that served as sentinel of the spread of the SARS-CoV-2 epidemic in the city of Rio de Janeiro",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Santos",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Guimaraes",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Rey",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Mucillo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Carvalho",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Bezerra",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.10.19.20215079"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Aerosol and surface contamination of SARS-CoV-2 observed in quarantine and isolation care",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Santarpia",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Rivera",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Herrera",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Morwitzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Creager",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Santarpia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Sci Rep",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "SARS-CoV-2: air/aerosols and surfaces in laboratory and clinical settings",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Hosp Infect",
+            "volume": "105",
+            "issn": "",
+            "pages": "577--586",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Viable SARS-CoV-2 in the air of a hospital room with COVID-19 patients",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lednicky",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lauzard",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Jutla",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Tilly",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gangwar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Infect Dis",
+            "volume": "100",
+            "issn": "",
+            "pages": "476--82",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "The effect of temperature on persistence of SARS-CoV-2 on common surfaces",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Riddell",
+                    "suffix": ""
+                },
+                {
+                    "first": "Goldie",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hill",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Eagles",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Drew",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Virol J",
+            "volume": "17",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Stability of SARS-CoV-2 on critical personal protective equipment",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Kasloff",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Strong",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Funk",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Cutts",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Aerosol and surface stability of SARS-CoV-2 as compared with SARS-CoV-1",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Van Doremalen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bushmaker",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Morris",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Holbrook",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gamble",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Williamson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "",
+            "pages": "1564--1571",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "How can airborne transmission of COVID-19 indoors be minimised?",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Morawska",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Bahnfleth",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Bluyssen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Boerstra",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Buonanno",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Environ Int",
+            "volume": "142",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Prospective cluster controlled crossover trial to compare the impact of an improved hydrogen peroxide disinfectant and a quaternary ammonium-based disinfectant on surface contamination and health care outcomes",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Boyce",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Guercia",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Sullivan",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Havill",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Fekieta",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kozakiewicz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Am J Infect Control",
+            "volume": "45",
+            "issn": "",
+            "pages": "1006--1016",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Environmental cleaning is effective for the eradication of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) virus in contaminated hospital rooms: a patient from the Diamond Princess cruise ship",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hirotsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Maejima",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Nakajima",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Mochizuki",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Omata",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Infect Control Hosp Epidemiol",
+            "volume": "41",
+            "issn": "",
+            "pages": "1105--1111",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Knowledge and practices regarding safe household cleaning and disinfection for COVID-19 prevention e United States",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gharpure",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hunter",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Schnall",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Barrett",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Kirby",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kunz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Morb Mortal Wkly Rep",
+            "volume": "69",
+            "issn": "",
+            "pages": "705--714",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Cleaning and disinfectant chemical exposures and temporal associations with COVID-19 e National Poison Data System",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Schnall",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Law",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Bronstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Marraffa",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Spiller",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Morb Mortal Wkly Rep",
+            "volume": "69",
+            "issn": "",
+            "pages": "496--504",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Disinfection of indoor air microorganisms in stack room of university library using gaseous chlorine dioxide",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Environ Monit Assess",
+            "volume": "187",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "On the formation, decomposition and germicidal action of benzoyl acetyl and diacetyl peroxides",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Freer",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Novy",
+                    "suffix": ""
+                }
+            ],
+            "year": 1902,
+            "venue": "Am Chem J",
+            "volume": "27",
+            "issn": "",
+            "pages": "161--92",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Sporicidal activity of peracetic acid against B anthracis spores",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Hussaini",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Ruby",
+                    "suffix": ""
+                }
+            ],
+            "year": 1976,
+            "venue": "Vet Rec",
+            "volume": "98",
+            "issn": "",
+            "pages": "257--266",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Inactivation of stable viruses in cell culture facilities by peracetic acid fogging",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Gregersen",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Roth",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Biologicals",
+            "volume": "40",
+            "issn": "",
+            "pages": "282--289",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "The application of peracetic acid germicidal washes to mold control of tomatoes",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Greenspan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Mackellar",
+                    "suffix": ""
+                }
+            ],
+            "year": 1951,
+            "venue": "Food Technol",
+            "volume": "5",
+            "issn": "",
+            "pages": "95--102",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Efficacy of lactic acid, lactic acideacetic acid blends, and peracetic acid to reduce salmonella on chicken parts under simulated commercial processing conditions",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ramirez-Hernandez",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Brashears",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Sanchez-Plata",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Food Prot",
+            "volume": "81",
+            "issn": "",
+            "pages": "17--24",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "An evaluation of alternative methods for sanitizing hatching eggs",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Melo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Wls",
+                    "middle": [],
+                    "last": "Cl\u00edmaco",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Triginelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Vaz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "De Souza",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Bai\u00e3o",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Poult Sci",
+            "volume": "98",
+            "issn": "",
+            "pages": "2466--73",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Efficacy of peroxy acetic acid in reducing Salmonella and Campylobacter spp. populations on chicken breast fillets",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Singh",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Cosby",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Cox",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Thippareddi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Poult Sci",
+            "volume": "99",
+            "issn": "",
+            "pages": "2655--61",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Efficacy of peracetic acid (EndoPA\u00d2) for disinfection of endoscopes",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Go",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ko",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Korean J Gastroenterol",
+            "volume": "71",
+            "issn": "",
+            "pages": "319--342",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "The effect of chemical cleansing procedures combined with peracetic acideethanol sterilization on biomechanical properties of cortical bone",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Haimi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vienonen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hirn",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Pelto",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Virtanen",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Suuronen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Biologicals",
+            "volume": "36",
+            "issn": "",
+            "pages": "99--104",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "An evaluation of buffered peracetic acid as an alternative to chlorine and hydrogen peroxide based disinfectants",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Otterspoor",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Farrell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Infect Dis Health",
+            "volume": "24",
+            "issn": "",
+            "pages": "240--243",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "An increase in healthcare-associated Clostridium difficile infection associated with use of a defective peracetic acid-based surface disinfectant",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Cadnum",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Jencson",
+                    "suffix": ""
+                },
+                {
+                    "first": "O&apos;donnell",
+                    "middle": [],
+                    "last": "Mc",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Flannery",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Nerandzic",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Donskey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Infect Control Hosp Epidemiol",
+            "volume": "38",
+            "issn": "",
+            "pages": "300--305",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "List N: Disinfectants for coronavirus (COVID-19)",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "List of disinfectants with evidence for use against COVID-19",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Sporicidal effect of peracetic acid vapor",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Portner",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Hoffman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1968,
+            "venue": "Appl Microbiol",
+            "volume": "16",
+            "issn": "",
+            "pages": "1782--1787",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Evaluation of an automatic fogging disinfection unit",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Nakata",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ikeda",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Nakatani",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sakamoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Higashidutsumi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Honda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Environ Health Prev Med",
+            "volume": "6",
+            "issn": "",
+            "pages": "160--164",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "The effect of various disinfectants in fumigation on the inactivation of HBsAg",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Tian",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Evaluation of a dry fogging system for laboratory decontamination",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Krishnan",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Fey",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Stansfield",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Landry",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Nguy",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Klassen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Appl Biosaf",
+            "volume": "17",
+            "issn": "",
+            "pages": "132--173",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Inactivation of an enterovirus by airborne disinfectants",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Thevenin",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Lobert",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Hober",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "BMC Infect Dis",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Inactivation of Bacillus anthracis spores to decontaminate subway railcar and related materials via the fogging of peracetic acid and hydrogen peroxide sporicidal liquids",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Richter",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Wood",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mqs",
+                    "middle": [],
+                    "last": "Wendling",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Rogers",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Environ Manag",
+            "volume": "206",
+            "issn": "",
+            "pages": "800--806",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Decontamination validation of a class II type A2 biosafety cabinet during laboratory fumigation",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Fey",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Robertson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Krishnan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Appl Biosaf",
+            "volume": "25",
+            "issn": "",
+            "pages": "48--52",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "N95 Mask decontamination using standard hospital sterilization technologies",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Kasloff",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Cutts",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Strong",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hills",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Scalable in-hospital decontamination of N95 filtering facepiece respirator with a peracetic acid room disinfection system",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "John",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Raju",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Cadnum",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Mcclellan",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Akkus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "PubChem compound summary for CID 6585, Peracetic acid",
+            "authors": [],
+            "year": 2020,
+            "venue": "National Center for Biotechnology Information",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Standard quantitative disk carrier test method for determining bactericidal, virucidal, fungicidal, mycobactericidal, and sporicidal activities of chemicals",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Astm International",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "E2197",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "The fingerpad protocol to assess hygienic hand antiseptics against viruses",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Sattar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ansari",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "J Virol Methods",
+            "volume": "103",
+            "issn": "",
+            "pages": "171--81",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "A simple method of estimating fifty per cent endpoints",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Reed",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Muench",
+                    "suffix": ""
+                }
+            ],
+            "year": 1938,
+            "venue": "Am J Epidemiol",
+            "volume": "27",
+            "issn": "",
+            "pages": "493--500",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Decontamination efficacy of three commercial-off-the-shelf (COTS) sporicidal disinfectants on medium-sized panels contaminated with surrogate spores of Bacillus anthracis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Edmonds",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Sabol",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Rastogi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "PLoS One",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Quantitative method to determine sporicidal decontamination of building surfaces by gaseous fumigants, and issues related to laboratoryscale studies",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Rastogi",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wallace",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Ryan",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Martin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Appl Environ Microbiol",
+            "volume": "75",
+            "issn": "",
+            "pages": "3688--94",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Hospital-acquired SARS-CoV-2 infection: lessons for public health",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Richterman",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Meyerowitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cevik",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.21399"
+                ]
+            }
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "A systematic evaluation of a peracetic-acid-based high performance disinfectant",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Humphreys",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Finan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Rout",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hewitt",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Thistlethwaite",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Barnes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Infect Prev",
+            "volume": "14",
+            "issn": "",
+            "pages": "126--157",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Draft substance summary for the December 12 2017 HEAC meeting: peracetic acid",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Calosha",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Public health responses to COVID-19 outbreaks on cruise ships e worldwide",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Moriarty",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Plucinski",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Marston",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Kurbatova",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Knust",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Murray",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Morb Mortal Wkly Rep",
+            "volume": "69",
+            "issn": "",
+            "pages": "347--52",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "COVID-19 Outbreak among college students after a spring break",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Anonymous",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Morb Mortal Wkly Rep",
+            "volume": "69",
+            "issn": "",
+            "pages": "830--835",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "An outbreak of COVID-19 associated with a recreational hockey game e Florida",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Atrubin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wiese",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Bohinc",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Morb Mortal Wkly Rep",
+            "volume": "69",
+            "issn": "",
+            "pages": "1492--1495",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "COVID-19 in a long-term care facility e King County",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mcmichael",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Clark",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pogosjans",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kay",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lewis",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Baer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Morb Mortal Wkly Rep",
+            "volume": "69",
+            "issn": "",
+            "pages": "339--381",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Preparation of SARS-CoV-2 contaminated test coupons from eight commonly found materials in healthcare settings.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Preparation of the rooms for peracetic acid dry fog fumigation. Stars indicate three different locations of SARS-CoV-2contaminated test coupons, placed 4 ft above the floor. The dry fog system circle on the doorway between the rooms marks the location of the dry fogger; arrows indicate the directions of the fog nozzles. Numbers 1e14 indicate the locations of the biological indicators placed throughout the room to validate room decontamination.successfully decontaminate not only healthcare facilities, but also a variety of other indoor spaces and facilities.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Government of Canada, through the Public Health Agency of Canada.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": "None declared.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of interest statement"
+        },
+        {
+            "text": "None.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding sources"
+        }
+    ]
+}

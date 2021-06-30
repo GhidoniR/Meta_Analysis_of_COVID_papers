@@ -1,0 +1,3021 @@
+{
+    "paper_id": "0aa1cbda0d5a4219211e28ab2312491aa0c6f3f1",
+    "metadata": {
+        "title": "Beliefs and interests in physical activity programs of cancer survivors and their romantic partners",
+        "authors": [
+            {
+                "first": "G",
+                "middle": [
+                    "R"
+                ],
+                "last": "Ulrich",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "&amp;",
+                "middle": [
+                    "S"
+                ],
+                "last": "Callan",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "&amp;",
+                "middle": [
+                    "K W"
+                ],
+                "last": "Ranby",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Purpose Physical activity is associated with improved health outcomes for cancer survivors and their romantic partners, yet it is unclear if joint exercise programs for survivor-partner dyads are acceptable. This study examined demographic, relationship, exercise, and cancer history correlates of survivors' and their romantic partners' couples-based exercise beliefs and their preferences for program designs. Methods All participants (survivors n=209, partners n=155, couples n=143) completed an online survey. Correlations and linear regression analyses were used to examine correlates of participants' importance of and interest in couples-based exercise and their likelihood of joining a couples-based exercise program. Intraclass correlations estimated shared variance at the couple level.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Results Most participants believed that couples-based exercise was highly important (51.8%) and were interested in a couplesbased exercise program (61.5%), but fewer survivors believed their partner would be interested or would likely join a couplesbased program. Across all outcomes, partner support for exercise was most strongly associated with participants' couples-based exercise beliefs (r = 0.19-0.54, p<.05), and couples were significantly aligned in their beliefs (\u03c1=0.20-0.31, p<.01). Participants were interested in exercise programs involving exercising together (67.3%) as well as exercising separately while sharing activity data on an app or website (48.0%). Conclusions This novel understanding of couples-based exercise beliefs provides a strong foundation upon which future exercise programs may be designed for survivors and their romantic partners. Impact for Cancer Survivors Survivors' adoption and maintenance of exercise may be enhanced by the inclusion of romantic partners in exercise programs, and partners' inclusion is appealing to couples.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "It is projected that there are over 16.9 million cancer survivors alive in the USA today, and this number is expected to increase to over 22.1 million by 2030 [1] . Despite many advances in treatments, survivors are at an increased risk for health complications including cancer recurrence, secondary cancers, and long-term side effects (e.g., pain, fatigue, sexual dysfunction) [2] . In order to prevent or ameliorate these potential adverse outcomes and improve survivorship, research has focused on the promotion of physical activity. Regular physical activity engagement is associated with reductions in cancer recurrence, cancer-specific mortality, and all-cause mortality for multiple cancer sites [3, 4] and with improvements in cancer treatment-related side effects including physiological (e.g., weight management, mobility, muscle strength), psychological (e.g., distress, self-efficacy, quality of life), and social (e.g., peer support, relationships) health outcomes [5, 6] .",
+            "cite_spans": [
+                {
+                    "start": 159,
+                    "end": 162,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 379,
+                    "end": 382,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 704,
+                    "end": 707,
+                    "text": "[3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 708,
+                    "end": 710,
+                    "text": "4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 979,
+                    "end": 982,
+                    "text": "[5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 983,
+                    "end": 985,
+                    "text": "6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Despite established benefits, up to 70% of cancer survivors do not meet the American College of Sports Medicine's (ACSM) guidelines for physical activity [4] (i.e., 150-300 min of moderate or 75-150 min of vigorous intensity aerobic physical activity and 2 or more days of strength exercise per week) [7] . Further, researchers have failed to demonstrate sustained physical activity following exercise interventions, as intervention effects on physical activity levels are rarely maintained long term [8] . Within the realm of cancer, of the few trials that included postintervention follow-up measures, most focused exclusively on breast cancer survivors and failed to demonstrate physical activity adherence after 3 months [9, 10] . One reason physical activity interventions may not always lead to sustained effects on physical activity levels is that they rarely consider the social environment within which physical activity occurs. In response, some have suggested that new research should focus on the sustainability of physical activity participation in real-world settings by examining the influences of social and environmental factors [10, 11] .",
+            "cite_spans": [
+                {
+                    "start": 154,
+                    "end": 157,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 301,
+                    "end": 304,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 501,
+                    "end": 504,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 725,
+                    "end": 728,
+                    "text": "[9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 729,
+                    "end": 732,
+                    "text": "10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1146,
+                    "end": 1150,
+                    "text": "[10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1151,
+                    "end": 1154,
+                    "text": "11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Romantic relationships in adulthood represent one of the strongest influences on both health behavior change and illness coping [12, 13] . Indeed, romantic couples are more similar to one another in health behavior and health behavior change than are individuals in the general population [13] . Research has shown that when one partner improves his or her health behavior, the other partner is significantly more likely to make a positive health change as well [14] . Further, individual changes in exercise have been positively correlated with spousal changes, and individuals had a greater likelihood of meeting physical activity guidelines if their spouse met the recommendations [15] . Patient-caregiver exercise interdependence has also been demonstrated in cancer populations, such that increased patient exercise was associated with greater caregiver exercise [16] . Finally, for those experiencing a chronic condition (i.e., cancer), couple-focused interventions have been shown to be more effective than individual or treatment-as-usual interventions [17] .",
+            "cite_spans": [
+                {
+                    "start": 128,
+                    "end": 132,
+                    "text": "[12,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 133,
+                    "end": 136,
+                    "text": "13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 289,
+                    "end": 293,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 462,
+                    "end": 466,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 684,
+                    "end": 688,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 868,
+                    "end": 872,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1061,
+                    "end": 1065,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "It is especially important to consider romantic partners' influence on cancer survivors' physical activity levels, as cancer-related events are interpersonal, affecting the psychological and physical health of both survivors and their caregivers [18] . It is known that many caregivers engage in less health promotion activities for themselves (i.e., self-care, exercise), which may lead to their own negative health consequences and increased mortality [19, 20] . Caregiver physical activity levels, specifically, may be impacted by caregiving [21] . Recent research found that 42% of caregivers of patients with ovarian cancer reported decreasing their physical activity levels since their family member's diagnosis [22] .",
+            "cite_spans": [
+                {
+                    "start": 246,
+                    "end": 250,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 454,
+                    "end": 458,
+                    "text": "[19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 459,
+                    "end": 462,
+                    "text": "20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 545,
+                    "end": 549,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 718,
+                    "end": 722,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Given both survivors' and romantic partners' own vulnerability to negative health outcomes-and the influence of romantic partners on physical activity-it is important to include partners in intervention designs moving forward. Further, preliminary research suggests that dyadic physical activity interventions for cancer survivors and their partners are efficacious [23] [24] [25] [26] . However, most cancer-related exercise programs thus far have been designed exclusively for cancer survivors, and interventions that have included cancer caregivers have largely focused on psychoeducation, skill development, and counseling rather than behavioral modification or exercise adoption [20, 27] . Therefore, cancer caregivers may not have adequate access to physical activity programs, or they may perceive that exercise is more important for survivors than for themselves. Despite this, preliminary evidence suggests that family caregivers not meeting physical activity recommendations are motivated to increase their physical activity [28] and are willing to participate in lifestyle programs [29] . Please note, as some romantic partners may not identify with the term caregiver later in survivorship, the current study will use the term partner rather than caregiver.",
+            "cite_spans": [
+                {
+                    "start": 366,
+                    "end": 370,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 371,
+                    "end": 375,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 376,
+                    "end": 380,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 381,
+                    "end": 385,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 684,
+                    "end": 688,
+                    "text": "[20,",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 689,
+                    "end": 692,
+                    "text": "27]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1035,
+                    "end": 1039,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1093,
+                    "end": 1097,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Understanding both survivors' and romantic partners' perceptions about engaging in a dyadic exercise program is essential for designing a successful intervention. Thus, our first objective was to examine survivors' and their partners' beliefs about the importance of couples-based exercise, their interest in a couples-based exercise program, and their likelihood of participating in such a program. Further, it is important to consider who to target for couples-based exercise programs. Therefore the current study explored four categories of correlates (sociodemographic, health history, relationship factors, current physical activity) that may be associated with survivors' and partners' couples-based exercise beliefs. These categories of correlates were identified for several reasons. First, if demographics and health history factors are deemed important, they could be easily screened using medical record data to identify people to recruit for interventions. If relationship factors and physical activity levels and abilities are associated with beliefs and interests, they could be assessed prior to an intervention's start so that researchers may offer education or skills training that improves relationship dynamics or offers customizable exercise goals, which may increase intervention efficacy. Several physical activity intervention considerations have been examined among survivors [30] [31] [32] but are novel among partners and within couples. Similarly, survivors' and partners' agreement on beliefs regarding couples-based physical activity programs is currently unknown and may impact intervention recruitment, retention, and ultimate outcomes.",
+            "cite_spans": [
+                {
+                    "start": 1400,
+                    "end": 1404,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 1405,
+                    "end": 1409,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1410,
+                    "end": 1414,
+                    "text": "[32]",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Our second objective was to understand survivors' and their romantic partners' preferences related to couples-based program designs, their perceived barriers and concerns about couples-based exercise, and their likelihood of working with their partner to overcome such barriers. For instance, some research suggests that cancer survivors prefer exercising alone, which is one potential barrier to participating in couples-based exercise [33] . Establishing which cancer survivors and partners are interested in dyadic exercise interventions, what types of dyadic interventions they prefer, and what their perceived barriers are will provide a necessary and informative foundation upon which more tailored interventions may be successfully designed.",
+            "cite_spans": [
+                {
+                    "start": 437,
+                    "end": 441,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Study procedures were approved by the Colorado Multiple Institutions Review Board. The study was advertised in several ways including through the University of Colorado Cancer Center, Facebook, and cancer survivor listserv emails including the Love Research Army\u00a9. All electronic advertisements contained a link to a secure, online contact survey, which described the study and asked for contact information for the individual and their romantic partner. Within 72 h of completing this initial contact survey, the study team emailed both members of the couple individually with a personalized link to the study survey, which included an online screening tool and informed consent. Eligibility criteria included (1) cancer survivor post primary treatment or the romantic partner of a cancer survivor post primary treatment (i.e., survivors endorsed that they were not currently undergoing nor had future plans to undergo chemotherapy, radiation, or surgery);",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Participants and recruitment"
+        },
+        {
+            "text": "(2) member of a committed, romantic relationship; (3) access to a computer or tablet with internet; (4) willingness to share an email address with the study team; and (5) age \u2265 18 years and < 90 years. Participation was not limited based on current levels of physical activity, cancer treatment received, recurrence(s), time since diagnosis, nor any specific relationship factors (e.g., married). If one member of a couple was not eligible or declined participation, his or her romantic partner could still participate.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Participants and recruitment"
+        },
+        {
+            "text": "Eligible participants automatically proceeded to the informed consent, and if they consented, they automatically continued to the online questionnaire. Participants were instructed to complete the survey alone in a private location. The survey assessed demographics and cancer history, relationship factors, current physical activity, couples-based exercise beliefs and barriers, and preferences for couples-based program designs. Participants who completed the survey were entered into a drawing to receive a $100.00 Target gift card as compensation for their time and effort.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Participants and recruitment"
+        },
+        {
+            "text": "Demographics and health history Gender, age, race, ethnicity, education, employment status, and income were assessed. Participants with a cancer history were asked age at diagnosis, time since diagnosis, cancer type, treatment received, time since treatment, and if cancer recurred.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Measures"
+        },
+        {
+            "text": "Participants' relationship length, marital status, and living situation (i.e., cohabitating) were asked. The satisfaction subscale from the Investment Model Scale [34] assessed whether their partner fulfills various needs (e.g., intimacy, companionship, emotional involvement) and if they are satisfied with their relationship on a scale from 1 (do not agree at all) to 4 (completely agree), and items were averaged. The internal consistency of this measure was \u03b1=0.97 in survivors and \u03b1=0.97 in partners. The Social Support for Exercise Scale [35] assessed perceptions about the degree to which romantic partners (modified from all family members) have demonstrated support for exercise behaviors in the previous 3 months. Items on scale ranging from 1 (never) to 5 (very often) were averaged. The scale demonstrated good reliability in both survivors (\u03b1=0.95) and partners (\u03b1=0.95). Finally, a variable was created to code whether one or both people in the couple participated in the survey.",
+            "cite_spans": [
+                {
+                    "start": 163,
+                    "end": 167,
+                    "text": "[34]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 544,
+                    "end": 548,
+                    "text": "[35]",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Relationship factors"
+        },
+        {
+            "text": "Participants completed the 4-item International Fitness Scale [36] , which assessed their level of overall and cardiorespiratory fitness, muscular strength, and flexibility compared to others their age on a scale from 1 (very poor) to 5 (very good), and items were summed. The scale demonstrated good reliability in survivors (\u03b1=0.90) and partners (\u03b1=0.89). To assess exercise intensity, participants completed the Godin Leisure Time Exercise Questionnaire (GLTEQ) [37] and indicated the frequency (times per week) and average amount of time (in minutes) they had spent engaging in strenuous (e.g., jogging), moderate (e.g., fast walking), and mild (e.g., easy walking) exercise for at least 15 min over the past 7 days. The total volume of time spent in moderate to vigorous physical activity (MVPA) was calculated by multiplying the weekly frequency by duration for strenuous and moderate activities. Lastly, participants indicated how many times per week (ranging from 0 to more than 7) they exercise with and without their romantic partner.",
+            "cite_spans": [
+                {
+                    "start": 62,
+                    "end": 66,
+                    "text": "[36]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 465,
+                    "end": 469,
+                    "text": "[37]",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Current physical activity"
+        },
+        {
+            "text": "Participants rated the importance of exercising with their partner on a scale from 1 (not at all important) to 10 (extremely important). Additionally, participants indicated their own and their perceived partner's interest in participating in a couplesbased program on a scale from 1 (very uninterested) to 6 (very interested). Further, participants indicated the likelihood that they and their partner would participate in a couples-based exercise program on a scale from 1 (very unlikely) to 6 (very likely).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Dyadic exercise beliefs"
+        },
+        {
+            "text": "Participants' interest in specific couples-based exercise program formats (e.g., exercising together, exercising individually, and sharing data via an app/website) was captured on a scale from 1 (very uninterested) to 6 (very interested), and they chose which couples-based exercise program format they would most prefer. Further, participants were asked their concerns about couples-based exercise programs (e.g., lack of commitment, nagging, etc.) using a scale from 1 (strongly disagree) to 6 (strongly agree) (survivors \u03b1=0.78, partners \u03b1=0.84). Finally, participants reported the greatest barrier that may keep them from exercising with their partner and the likelihood of overcoming that barrier (1-6 scale). See the Appendix for the full items.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Program designs and considerations"
+        },
+        {
+            "text": "Individual level analyses are presented for survivors whose partner was not a survivor and partners who are not cancer survivors in order to examine findings in conceptually distinct groups and ensure that assumptions of independence within the data were not violated. Descriptive statistics including frequencies, means, and standard deviations were calculated. Correlations and linear regressions assessed whether perceived importance of couples-based exercise and interest in and intentions to join a couples-based exercise program differed by participant characteristics. Finally, intraclass correlations (ICC) demonstrated the proportion of variance shared at the couple level on these same outcomes and was calculated using mean squares estimates from analysis of variance in which the couples' ID variable was the factor and all interval-scale measures of interest in joining a program were the dependent variables (ICC = MS between \u2212 MS within / MS between + MS within ).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data analysis plan"
+        },
+        {
+            "text": "Approximately two-thirds of the individuals who were sent the study survey completed all study measures (survivors n=209, partners n=155, couples n=143). Participant characteristics are presented in Table 2 . The mean age at diagnosis was 45 years. The average time since diagnoses was 8.6 years, and 39.7% of survivors were within 5 years of diagnosis. The most common diagnoses were breast cancer (70.8%), followed by skin cancer (10.5%), and blood cancers (9.1%). Regarding cancer treatments, the majority of survivors received surgery (86.6%), chemotherapy (63.6%), and/or radiation (58.4%), and almost half of survivors received hormone therapy (48.8%). The average time since primary treatment (i.e., surgery, chemotherapy, or radiation) was 6.4 years, with 48.8% within 5 years and 18.4% within 1 year. Finally, 9.6% of survivors were diagnosed with a cancer recurrence.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 199,
+                    "end": 206,
+                    "text": "Table 2",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Participants"
+        },
+        {
+            "text": "Participants' relationship factors are presented in Table 1 . About 68.4% of survivors and 85.7% of partners had a romantic partner also complete the study. The average relationship length for both survivors and partners was 22 years, and most participants were cohabitating (survivors 93.3%, partners 94.2%) and married (survivors 85.1%, partners 86.5%). Survivors and partners' mean relationship satisfaction was 3.3 and 3.5, respectively. Finally, participants' average support received from their partner for exercise was near the midpoint of the scale (survivors M=3.1, partners M=3.4.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 52,
+                    "end": 59,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Participants"
+        },
+        {
+            "text": "Additionally, participants' current physical activity is described in Table 1 . On average, survivors scored 13.8, and partners scored 14.7 on the International Fitness Scale. Approximately half of survivors (54.9%) and partners (48.4%) met the exercise guidelines of at least 150 min of MVPA per week. Participants reported exercising without their romantic partner an average of 2.6 (partners) to 3.0 (survivors) times per week and with their romantic partner 1.2 (survivors) to 1.4 (partners) times per week. Roughly half of survivors (51.2%) and partners (56.1%) exercised with their romantic partner at least once per week.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 70,
+                    "end": 77,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Participants"
+        },
+        {
+            "text": "Survivors and partners had similar beliefs regarding the importance of couples-based exercise. On average, survivors and partners rated the importance of couples-based exercise as a 6.3 and 6.4, respectively, with more than half of survivors (51.3%) and partners (52.3%) reporting that couples-based exercise is highly important. Survivors' mean score of personal interest in a couples-based exercise program (4.9) was higher than partners (4.5) (t(361)=3.01, p<0.01), yet both were interested overall. Specifically, more than two-thirds of survivors (68.4%) and half of partners (54.6%) were interested/very interested in a couples-based program. In Table 1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 651,
+                    "end": 658,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Dyadic exercise beliefs"
+        },
+        {
+            "text": "To determine what may influence dyadic exercise beliefs, all demographic characteristics, relationship factors, current physical activity, and cancer history factors described in Tables 1 and 2 were explored as correlates of the four outcomes (couples-based exercise importance, personal interest and perceived partner interest in a couples-based program, and likelihood of joining a couples-based exercise program). Correlations are presented in Table 3 . Of demographic characteristics assessed (gender, age, race, ethnicity, education, employment, and income), only race is related to outcomes among survivors. Non-White survivor perceived their partner's interest in a couples-based program as higher (r pb = 0.14, p<0.05), and non-White survivors had a higher reported likelihood of joining a couples-based program (r pb = 0.14, p<0.05) than White participants. For partners, being male and employed at least part-time were associated with perceived partner interest in a couples-based program (male r pb =0.22, p<0.01; employed r pb =0.23, p<0.01), and higher income was associated with greater likelihood of joining a couples-based program (r=0.19, p<0.05). Next, relationship factors (participation from both partners, relationship length, cohabitating, married, relationship satisfaction, and partner support for exercise), were correlated with outcomes.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 179,
+                    "end": 193,
+                    "text": "Tables 1 and 2",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 447,
+                    "end": 454,
+                    "text": "Table 3",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "Dyadic exercise beliefs"
+        },
+        {
+            "text": "Having your romantic partner also complete the study was associated with survivors' perceived partner interest in a couples-based program (r pb =0.27, p<0.01) and likelihood of joining a couples-based program (r pb =0.21, p<0.01).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Dyadic exercise beliefs"
+        },
+        {
+            "text": "Relationship satisfaction correlated with both survivors' and partners' perceived partner interest in a couples-based program (survivors r=0.27, p<0.01; partners r=0.25, p<0.01) and likelihood of joining a couples-based program (survivors r=0.34, p<0.01; partners r=0.27, p<0.01), as well as partners' ratings of the importance of couples-based exercise (r=0.19, p<0.05). Partner support for exercise was the only factor significantly related to all four dyadic exercise belief items for both survivors and partners (see Table 3 ). Further, physical activity measures (International Fitness Scale, volume of MVPA, and exercise frequency with and without a romantic partner) and survivor's cancer history (age at diagnosis, time since diagnosis, cancer type (breast), treatments received, time since last treatment, and cancer recurrence) were examined as correlates of outcomes. Exercise frequency with your romantic partner was positively associated with survivors' and partners' couples-based exercise importance (survivors r=0.37, p<0.01; partners r=0.36, p<0.01), perceived partner interest in a couples-based program (survivors r=0.30, p<0.01; partners r=0.19, p<0.05), and likelihood of joining a couples-based program (survivors r=0.33, p<0.01; partners r=0.27, p<0.01). Exercise frequency without your romantic partner was negatively associated with these items. Regarding survivors' cancer history, both time since diagnosis and time since treatment were negatively associated with survivors' couples-based exercise importance (diagnosis r= \u22120.15, p<0.05; treatment r= \u22120.18, p<0.05), and time since treatment was also negatively related to the likelihood of joining a couples-based exercise program (r= \u22120.18, p<0.01).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 521,
+                    "end": 528,
+                    "text": "Table 3",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "Dyadic exercise beliefs"
+        },
+        {
+            "text": "Although not detailed in the current report, multiple regression analyses replicated findings from the correlations analyses; when controlling for other variables, partner support for exercise continued to be the strongest, most consistent correlate of all four outcomes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Dyadic exercise beliefs"
+        },
+        {
+            "text": "To explore whether couples (n=143) were aligned in their couples-based exercise beliefs, we examined shared variance at the couple level (i.e., intraclass correlations) and found significant alignment for all four belief items (Table 4 ). Additionally, cross-tabulations assessed the percent of couples aligned in their beliefs on each of the four items (Table 4 ). All items were recoded into three response categories (see table note). Roughly half of the couples demonstrated agreement in their responses for couples-based exercise importance (51.0%), personal interest in a couples-based program (51.7%), likelihood of joining a couples-based program (47.6%), and perceived partner interest in a couples-based program (43.7%). Further, many couples were in agreement that couples-based exercise is important (32.0%), that they personally are interested (42.7%) and perceived their partner as interested (32.2%) in a couples-based program, and that they and their partner would be likely to join a couplesbased program (28.7%). However, a notable portion of couples had extreme mismatch (i.e., couple members chose responses from the lowest and highest response categories) in their ratings of these four outcomes. Specifically, extreme mismatch was found in couples for dyadic exercise importance (11.9%), personal interest (12.6%) and perceived partner interest (18.2%) in a couples-based program, and likelihood of joining a couples-based program (14.7%).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 227,
+                    "end": 235,
+                    "text": "(Table 4",
+                    "ref_id": "TABREF4"
+                },
+                {
+                    "start": 354,
+                    "end": 362,
+                    "text": "(Table 4",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "Dyadic exercise beliefs"
+        },
+        {
+            "text": "In order for this work to provide a substantial contribution to future efficacious dyadic interventions, we assessed survivors' and partners' preferences for program designs as well as their couples-based exercise concerns. Considering possible program designs, survivors and partners highly rated exercising together (survivors and partners M=4.9). Survivors and partners were also interested in the possibility of exercising separately while working toward shared goals and sharing activity progress via an app or website (survivors M=4. 5 ",
+            "cite_spans": [
+                {
+                    "start": 540,
+                    "end": 541,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Program designs and considerations"
+        },
+        {
+            "text": "Exercise interventions may benefit from targeting both cancer survivors and their romantic partners concurrently [38] [39] [40] . However, a couples-based exercise intervention may not appeal to all couples, and the success of a couples-based program will hinge on couples' shared exercise beliefs. Thus, a necessary step proceeding intervention design is to determine whether cancer survivors and romantic partners are interested in a couples-based exercise program and elucidate demographic, relationship, exercise, and cancer factors that may be associated with couples-based exercise importance, interest, and likelihood. Further, this work lays the groundwork for future couples-based interventions by exploring possible program designs, participants' concerns, and their likelihood of working with their partner to overcome barriers. Findings from this study demonstrated that more than half of survivors and partners believed that couples-based exercise is highly important and were personally interested/very interested in a couples-based exercise program. These finding are especially noteworthy as our cut-offs were stringent (score \u2265 7 for importance, score \u2265 5 for interest) and do not include participants who indicated \"somewhat\" important or interested. Additionally, a large portion of couples (42.7%) showed member agreement, such that both members within a couple highly rated interest in a couples-based program. Thus, the idea of a couples-based exercise program was attractive to survivors and their romantic partners, but gaps remain regarding why participants had lower rating for their likelihood of joining a couples-based program. Data indicated that survivors and partners may be unaware of each other's interest in a couples-based program as both survivors' and partners' perceived lower partner interest than what they themselves actually reported. Further, survivors appeared more in doubt of their partners' interest and seemed less confident in their likelihood to overcome barriers to couples-based exercise, which likely contributed to their reduced belief that they and their partner would join a couples-based exercise program. This finding is consistent with within-couple effects as couples had lowest agreement and the greatest rates of extreme mismatch regarding perceived partner interest in a couples-based program. Future research should examine whether greater communication within couples contributes to more accurate knowledge of romantic partners' exercise beliefs and, in turn, increases survivors' and partners' perceived likelihood of joining a couples-based exercise program.",
+            "cite_spans": [
+                {
+                    "start": 113,
+                    "end": 117,
+                    "text": "[38]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 118,
+                    "end": 122,
+                    "text": "[39]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 123,
+                    "end": 127,
+                    "text": "[40]",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "This work also examined a large number of factors in order to understand which participant characteristics are associated with couples-based exercise beliefs. Understanding correlates of participants' beliefs may facilitate recruitment and intervention strategies as researchers may wish to screen based on specific factors or offer skills training prior to an intervention's start. Of all the factors explored, only partner support for exercise was consistently associated with survivors' and partners' couples-based exercise importance, interest, and likelihood. Additionally, partner support for exercise was almost always the strongest correlate of survivors' and partners' beliefs, regardless of which other factors were controlled. Thus, partner support for exercise is likely a better determinant of the likelihood of couple participation in an exercise program over couples' current exercise together and their general relationship satisfaction. Partner support for exercise assessed partners' recent (in the last 3 months) exercise communication (e.g., discussed physical activity with me, asked me for ideas on how he/she can get more physically active) and efforts (e.g., helped plan activities around my activity routine, changed their schedule so we could be active together). Therefore, partner support for exercise may, in part, capture frequency of couple exercise (survivors r=0.61, p<0.01; partners r=0.52, p<0.01) and relationship functioning (survivors r=0.49, p<0.01; partners r=0.48, p<0.01) and be the single best correlate of dyadic exercise behavior. Thus, researchers may wish to increase partner support for exercise prior to an interventions' start by modifying couples' exercise communication and efforts. One dyadic manipulation that may target partner support is collaborative implementation intentions, which guide couples on forming scripted plans for health behavior engagement [41] .",
+            "cite_spans": [
+                {
+                    "start": 1912,
+                    "end": 1916,
+                    "text": "[41]",
+                    "ref_id": "BIBREF40"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The finding that partner support for exercise was strongly associated with couples-based exercise interest is consistent with the broader literature on the effects of social support for exercise behavior. Social support has been positively associated with the adoption and maintenance of physical activity in both cancer [42] and non-cancer populations [43, 44] . However, the construct of social support within exercise interventions may include broad social levels such as family, peer, or professional support [45] , and the source of social support may influence physical activity outcomes [46] . A strength of this research was that social support was specifically defined as partner support; thus, the modified use of the family subscale from the Social Support for Exercise Scale [35] may be advantageous to dyadic researchers as it may be a more precise measure of couples-based support. Future research should further validate the use of this modified scale to assess support from romantic partners, rather than all family members.",
+            "cite_spans": [
+                {
+                    "start": 321,
+                    "end": 325,
+                    "text": "[42]",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 353,
+                    "end": 357,
+                    "text": "[43,",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 358,
+                    "end": 361,
+                    "text": "44]",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 513,
+                    "end": 517,
+                    "text": "[45]",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 594,
+                    "end": 598,
+                    "text": "[46]",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 787,
+                    "end": 791,
+                    "text": "[35]",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Several additional surprising findings emerged from the exploration of the various study variables. Although the vast majority of survivors were White, non-White survivors perceived greater partner interest in a couples-based program and reported a higher likelihood of joining a couples-based program than White survivors. Future work should re-examine this relationship in more diverse samples. Also notable, age and volume of MPVA were not significantly correlated with survivors' or partners' beliefs about couples-based exercise importance, interest, or likelihood. Further, the absence of significant relationships cannot be attributed to lack of variability on age or volume of MVPA. These findings suggest that couples-based exercise interventions may appeal to couples of all ages and activity levels and thus have large dissemination potential. Further, survivors recently diagnosed with cancer or who recently completed primary treatment were more likely to believe that couples-based exercise is important, with the latter group also endorsing a greater likelihood of joining a couples-based exercise program. Thus, while age and MVPA may not limit recruitment, researchers should aim to further understand how time since diagnosis and treatment may impact survivors' beliefs in order to target recruitment efforts, especially among survivors of different cancer types.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Finally, this study collected survivors' and partners' feedback on couples-based program designs and their concerns and perceived barriers regarding couples-based exercise. When participants were presented with two ideas for couples-based programs (i.e., exercise together, exercise separately, and share activity data), survivors and partners preferred the idea of exercising together. However, when directly asked if they had a preference on program format, the two options seemed equally appealing. Thus, participants appear flexible and may be open to various types of couples-based exercise programs. On average, survivors and partners scored low on couples-based exercise concerns. Interestingly, more participants were concerned (choosing \u2265 5 on items) that their partner would not want to exercise with them (survivors 19.3%, partners 9.8%) than share their activity data (survivors 5.3%, partner 5.3%), so technology-supported programs promoting both individual-and couples-based exercise may appear more feasible to couples. This idea is further supported by time being participants' greatest perceived barrier to couples-based exercise. Perhaps the option for individual exercise that contributes to a couple's shared goal may help couples overcome time barriers while still promoting change at the couple level. Previous research has explored survivors' preferences for technology-supported physical activity interventions [32, 47, 48] , but little work has been done within couples.",
+            "cite_spans": [
+                {
+                    "start": 1435,
+                    "end": 1439,
+                    "text": "[32,",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1440,
+                    "end": 1443,
+                    "text": "47,",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 1444,
+                    "end": 1447,
+                    "text": "48]",
+                    "ref_id": "BIBREF47"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The results of this study need to be interpreted within the context of the recruited sample. This convenience sample included a majority of participants who were White, non-Hispanic/Latino/a, college educated, employed at least parttime, and had an annual household income greater than $100,000.00. Additionally, the sample was physically active, as about half of survivors and partners met the current exercise guidelines of at least 150 min of MVPA per week. Thus, this sample may be more educated, of a higher socio-economic status, and more physically active than most survivor-partner dyads. This finding is consistent with a recent systematic review and meta-analysis on physical activity in cancer survivors; most research participants were well-educated, predominately White, and tended to already engage in some physical activity prior to enrolling in an intervention [49] .",
+            "cite_spans": [
+                {
+                    "start": 877,
+                    "end": 881,
+                    "text": "[49]",
+                    "ref_id": "BIBREF48"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Limitations and strengths"
+        },
+        {
+            "text": "Additionally, the majority of cancer survivors were female, breast cancer survivors recruited from the Love Research Army. Given this limitation, future research with more male survivors and greater variability across cancer types should examine gender and cancer type as correlates of survivors' and partners' dyadic exercise beliefs. Further, participants recruited from the Love Research Army are often involved in other cancer research studies, so they may be more healthminded with more positive exercise beliefs than typical populations of cancer survivors. Further, limitations are present at the couple level. It is possible that this study attracted couples with good relationships and common interests in health behaviors and goals. Additionally, most participants were in very long relationships, cohabitating, and married; thus, the results of this study may not generalize to all couples. Finally, data collection was completed prior to the COVID-19 pandemic, so it is unclear how increased time at home and greater safety precautions (e.g., closed gyms, social distancing) may have influenced couples dyadic exercise beliefs or preferences for couples-based exercise programs. Continued research is needed in more heterogeneous cancer couples to further understand couples' beliefs about couples-based exercise.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Limitations and strengths"
+        },
+        {
+            "text": "Despite the noted limitations, this research has several strengths. Little work has been done exploring couples' beliefs about exercising together, especially within the realm of cancer. Further, by assessing whether beliefs about dyadic exercise importance, interest, and likelihood differed based on a variety of demographic, relationship, physical activity, and cancer factors, this research yields insight into how future interventions may tailor recruitment for greater success. Because partner support for exercise was found to be such a consistent and strong correlate of dyadic exercise beliefs, future work should not only validate this measure but explore how it can function as an early intervention target.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Limitations and strengths"
+        },
+        {
+            "text": "Additionally, little work has examined the couples' preferences for exercise programs or their potential concerns about working jointly toward exercise goals. Finally, this research utilized a patient-centered approach by engaging both cancer survivors and their romantic partners from the outset, which may better inform the design of future dyadic exercise interventions. Thus, this work is a foundational step toward intervention development.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Limitations and strengths"
+        },
+        {
+            "text": "In conclusion, this research examined survivors' and their romantic partners' beliefs about the importance of couplesbased exercise, their personal interest and perceived partner interest in a couples-based exercise program, and their likelihood of joining a couples-based exercise intervention. The majority of cancer survivors and partners believed that couples-based exercise is important and were personally interested in a couples-based exercise program. Partner support for exercise emerged as the strongest and most consistent correlate of couples' interest in and likelihood of joining a couplesbased exercise program. Further, program designs and considerations are outlined. These findings provide a strong foundation upon which future efficacious exercise interventions may be designed and disseminated for cancer survivors and their romantic partners.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "3. If a couples-based exercise program were offered to you and your partner, how interested would your partner be in participating?",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "4. If a couples-based exercise program were offered to you and your partner, how likely is it that both you and your partner would participate?",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "The following questions are about ideas for a couples-based exercise program. 5. One idea for an exercise program is one in which partners exercise together. They may exercise together by taking an exercise class together, working with a personal trainer together, or simply walk outside together. To what extent do you think cancer survivors and their significant others would be interested in exercising together? 6. Another idea for an exercise program is one in which partners exercise separately but work toward shared goals. Partners would set personal goals (e.g., 150 min of activity) and composite goals (e.g., hit more than 300 min combined) that they can individually work toward by doing activities of their choice at their convenience. After exercising, each partner would login to an app or website and record his/her progress toward both his/her personal goal and the couple's composite goal. To what extent do you think cancer survivors and their significant others would be interested in exercising individually, yet share exercise data via an app or website? 7. If you were to participate in an exercise program with your partner, would you prefer the program to involve exercising together or the ability for each individual to exercise alone yet share activity data with their partner via an app or website? \u25a1 Exercise together. \u25a1 Exercise individually but share exercise data via an app or website.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "\u25a1 I like both ideas equally. \u25a1 I do not like either idea. \u25a1 No preference. 8. If you were to participate in an exercise program with your significant other, indicate the extent to which you agree with each potential concern.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "The following items reflect common reasons that prevent couples from exercising together. Please answer the following questions as honestly as possible. 9. What is the greatest barrier that may keep you from exercising with your partner? (choose one) \u25a1 Time or scheduling difficulties. Data availability The data that support the findings of this study are available from the corresponding author upon reasonable request.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "Ethics approval The questionnaire and methodology for this study were approved by the Colorado Multiple Institutional Review Board (Protocol #17-1649).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declarations"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Cancer treatment and survivorship statistics",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Nogueira",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Mariotto",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Rowland",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Yabroff",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Alfano",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "CA Cancer J Clin",
+            "volume": "69",
+            "issn": "5",
+            "pages": "363--85",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Long-term and latent side effects of specific cancer types",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Gegechkori",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Haines",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Med Clin North Am",
+            "volume": "101",
+            "issn": "6",
+            "pages": "1053--73",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Physical activity and cancer-specific mortality in the NIH-AARP Diet and Health Study cohort",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Arem",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Moore",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ballard-Barbash",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hollenbeck",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Leitzmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Int J Cancer",
+            "volume": "135",
+            "issn": "2",
+            "pages": "423--454",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "American College of Sports Medicine roundtable report on physical activity, sedentary behavior, and cancer prevention and control",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Patel",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Friedenreich",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Moore",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Hayes",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Silver",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Campbell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Med Sci Sports Exerc",
+            "volume": "51",
+            "issn": "11",
+            "pages": "2391--402",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Reviewing the benefits of physical activity during cancer survivorship",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Sabiston",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Brunet",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Am J Lifestyle Med",
+            "volume": "6",
+            "issn": "2",
+            "pages": "167--77",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Physical activity for cancer survivors: meta-analysis of randomised controlled trials",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Fong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Ho",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Hui",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Macfarlane",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Bmj",
+            "volume": "344",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Exercise guidelines for cancer survivors: consensus statement from International Multidisciplinary Roundtable",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Campbell",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Winters-Stone",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wiskemann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Med Sci Sports Exerc",
+            "volume": "51",
+            "issn": "11",
+            "pages": "2375--90",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Exercise-based interventions to enhance long-term sustainability of physical activity in older adults: a systematic review and meta-analysis of randomized clinical trials",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Sansano-Nadal",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gin\u00e9-Garriga",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Brach",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Wert",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Jerez-Roig",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Guerra-Balic",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Int J Environ Res Public Health",
+            "volume": "16",
+            "issn": "14",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Physical activity and/or dietary interventions in breast cancer survivors: a systematic review of the maintenance of outcomes",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Spark",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Reeves",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Fjeldsoe",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Eakin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Cancer Surviv",
+            "volume": "7",
+            "issn": "1",
+            "pages": "74--82",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Taking the next step: a systematic review and meta-analysis of physical activity and behavior change interventions in recent post-treatment breast cancer survivors",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Bluethmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Vernon",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Gabriel",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Murphy",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Bartholomew",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Breast Cancer Res Treat",
+            "volume": "149",
+            "issn": "2",
+            "pages": "331--373",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Determinants of exercise adherence and maintenance among cancer survivors: a systematic review",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kampshoff",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Jansen",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Van Mechelen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "May",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Brug",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Chinapaw",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Int J Behav Nutr Phys Act",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "The influence of the social environment on health behavior",
+            "authors": [
+                {
+                    "first": "La",
+                    "middle": [],
+                    "last": "Guardia",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Patrick",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "299--315",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Health behaviour change interventions for couples: a systematic review",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Arden-Close",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Mcgrath",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Br J Health Psychol",
+            "volume": "22",
+            "issn": "2",
+            "pages": "215--252",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "The influence of partner's behavior on health behavior change: the English Longitudinal Study of Ageing",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Jackson",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Steptoe",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wardle",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "JAMA Intern Med",
+            "volume": "175",
+            "issn": "3",
+            "pages": "385--92",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Spousal influence on physical activity in middle-aged and older adults: the ARIC study",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Cobb",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Godino",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Selvin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kucharska-Newton",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Coresh",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Koton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Am J Epidemiol",
+            "volume": "183",
+            "issn": "5",
+            "pages": "444--51",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Engagement in health-promoting behaviors and patient-caregiver interdependence in dyads facing advanced cancer: an exploratory study",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Ellis",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Janevic",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kershaw",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Caldwell",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Janz",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Northouse",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Behav Med",
+            "volume": "40",
+            "issn": "3",
+            "pages": "506--525",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Review and meta-analysis of couple-oriented interventions for chronic illness",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Martire",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Schulz",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Helgeson",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Small",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Saghafi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Ann Behav Med",
+            "volume": "40",
+            "issn": "",
+            "pages": "325--367",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Interdependence of physical and psychological morbidity among patients with cancer and family caregivers: review of the literature",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Streck",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Wardell",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Lobiondo-Wood",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Beauchamp",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Psycho-Oncology",
+            "volume": "29",
+            "issn": "",
+            "pages": "974--89",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Is caregiving hazardous to one's physical health? A meta-analysis",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Vitaliano",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Scanlan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Psychol Bull",
+            "volume": "129",
+            "issn": "6",
+            "pages": "946--72",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Interventions with family caregivers of cancer patients: metaanalysis of randomized trials",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Northouse",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Katapodi",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Mood",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "CA Cancer J Clin",
+            "volume": "60",
+            "issn": "5",
+            "pages": "317--356",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Physical, psychosocial, relationship, and economic burden of caring for people with cancer: a review",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Girgis",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lambert",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Waller",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Currow",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Oncol Pract",
+            "volume": "9",
+            "issn": "4",
+            "pages": "97--202",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Work productivity and health of informal caregivers of persons with advanced cancer",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mazanec",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Daly",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Douglas",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Lipson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Res Nurs Health",
+            "volume": "34",
+            "issn": "6",
+            "pages": "483--95",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Benefits of partnered strength training for prostate cancer survivors and spouses: results from a randomized controlled trial of the Exercising Together project",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Winters-Stone",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lyons",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dobek",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Dieckmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Bennett",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Nail",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J Cancer Surviv",
+            "volume": "10",
+            "issn": "4",
+            "pages": "633--677",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "The effects of partnered exercise on physical intimacy in couples coping with prostate cancer",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lyons",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Winters-Stone",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Bennett",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Beer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Health Psychol",
+            "volume": "35",
+            "issn": "5",
+            "pages": "509--522",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "A dance intervention for cancer survivors and their partners (RHYTHM)",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Pisu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Demark-Wahnefried",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kenzik",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Oster",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Manne",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Cancer Surviv",
+            "volume": "11",
+            "issn": "3",
+            "pages": "350--359",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "A dyadic exercise intervention to reduce psychological distress among lesbian, gay, and heterosexual cancer survivors",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Kamen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Heckler",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Janelsins",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Peppone",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mcmahon",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Morrow",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "LGBT Health",
+            "volume": "3",
+            "issn": "1",
+            "pages": "57--64",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Informal caregivers of cancer patients: review of interventions, care activities, and outcomes",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Frambes",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Given",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lehto",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sikorskii",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Wyatt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "West J Nurs Res",
+            "volume": "40",
+            "issn": "7",
+            "pages": "1069--97",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Health behaviors, readiness to change, and interest in health promotion programs among smokers with lung cancer and their family members: a pilot study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Cooley",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Finn",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Roper",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Morones",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Cancer Nurs",
+            "volume": "36",
+            "issn": "2",
+            "pages": "145--54",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Receptivity and preferences for lifestyle programs to reduce cancer risk among lung cancer family members",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Howell",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Brockman",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Sinicrope",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Patten",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Decker",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Busta",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Adv Cancer Prev",
+            "volume": "1",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Factors associated with exercise counseling and program preferences among breast cancer survivors",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Rogers",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Courneya",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Verhulst",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Markwell",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Mcauley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "J Phys Act Health",
+            "volume": "5",
+            "issn": "5",
+            "pages": "688--705",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Physical activity preferences of early-stage lung cancer survivors",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Philip",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Coups",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Feinstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wilson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Ostroff",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Support Care Cancer",
+            "volume": "22",
+            "issn": "2",
+            "pages": "495--502",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Breast cancer survivors' preferences for technology-supported exercise interventions",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Phillips",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Conroy",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Keadle",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Pellegrini",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Lloyd",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Penedo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Support Care Cancer",
+            "volume": "25",
+            "issn": "10",
+            "pages": "3243--52",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Physical activity programming and counseling preferences among cancer survivors: a systematic review",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Mcauley",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Trinh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Int J Behav Nutr Phys Act",
+            "volume": "15",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "The investment model scale: measuring commitment level, satisfaction level, quality of alternatives, and investment size",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Rusbult",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Martz",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Agnew",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Pers Relat",
+            "volume": "5",
+            "issn": "4",
+            "pages": "357--87",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "The development of scales to measure social support for diet and exercise behaviors",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Sallis",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Grossman",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Pinski",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Patterson",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Nader",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "Prev Med",
+            "volume": "16",
+            "issn": "",
+            "pages": "825--861",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "The International Fitness Scale (IFIS): usefulness of self-reported fitness in youth",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Ortega",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Ruiz",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Espana-Romero",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Vicente-Rodriguez",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Mart\u00ednez-G\u00f3mez",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Manios",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Int J Epidemiol",
+            "volume": "40",
+            "issn": "3",
+            "pages": "701--712",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "A simple method to assess exercise behavior in the community",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Godin",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Shephard",
+                    "suffix": ""
+                }
+            ],
+            "year": 1985,
+            "venue": "Can J Appl Sport Sci",
+            "volume": "10",
+            "issn": "",
+            "pages": "141--147",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Marriage and health: his and hers",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Kiecolt-Glaser",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Newton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Psychol Bull",
+            "volume": "127",
+            "issn": "4",
+            "pages": "472--503",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Understanding health behavior change among couples: an interdependence and communal coping approach",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lewis",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mcbride",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Pollak",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Puleo",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Butterfield",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Emmons",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Soc Sci Med",
+            "volume": "62",
+            "issn": "6",
+            "pages": "1369--80",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Coping as a communal process",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Lyons",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Mickelson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Sullivan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Coyne",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "J Soc Pers Relat",
+            "volume": "15",
+            "issn": "5",
+            "pages": "579--605",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "A couples-based approach for increasing physical activity among adults with type 2 diabetes: a pilot feasibility randomized controlled trial",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Wooldridge",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Ranby",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Roberts",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Huebschmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Diab Educ",
+            "volume": "45",
+            "issn": "6",
+            "pages": "629--670",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Social cognitive influences on physical activity participation in long-term breast cancer survivors",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Phillips",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Mcauley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Psycho-Oncology",
+            "volume": "22",
+            "issn": "4",
+            "pages": "783--91",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "The influence of close others' exercise habits and perceived social support on exercise",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Darlow",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Psychol Sport Exerc",
+            "volume": "12",
+            "issn": "5",
+            "pages": "575--583",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "The association between social support and physical activity in older adults: a systematic review",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Banting",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Eime",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "O&apos;sullivan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Van Uffelen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Int J Behav Nutr Phys Act",
+            "volume": "14",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Breast cancer survivors' preferences for social support features in technology-supported physical activity interventions: findings from a mixed methods evaluation",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Lloyd",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hoffman",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Welch",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Blanch-Hartigan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Gavin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cottrell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Transl Behav Med",
+            "volume": "10",
+            "issn": "2",
+            "pages": "423--457",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Cancer survivors' attitudes towards and knowledge of physical activity, sources of information, and barriers and facilitators of engagement: a qualitative study",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Croker",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Fisher",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Williams",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wardle",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Beeken",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Eur J Cancer Care (Engl)",
+            "volume": "26",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Breast cancer survivors' preferences for mHealth physical activity interventions: findings from a mixed methods study",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Phillips",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Courneya",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Welch",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Gavin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cottrell",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nielsen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Cancer Surviv",
+            "volume": "13",
+            "issn": "2",
+            "pages": "292--305",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Mobile health physical activity intervention preferences in cancer survivors: a qualitative study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Robertson",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Tsai",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lyons",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Srinivasan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Swartz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Baum",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "JMIR mHealth uHealth",
+            "volume": "5",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Systematic review and meta-analysis of maintenance of physical activity behaviour change in cancer survivors",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Grimmett",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Corbett",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Brunet",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shepherd",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Pinto",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "May",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Int J Behav Nutr Phys Act",
+            "volume": "16",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": "Study variables",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "The majority of survivors (88.5%) were female, and the majority of partners were male (83.9%). The mean age for both survivors and partners was 54 years. The vast majority of participants were White (survivors 92.3%, partners 89.7%), non-Hispanic/Latino/a (survivors 93.8%, partners 93.3%), and college educated (survivors 74.6%, partners 72.3%). Most participants were working at least part-time (survivors 65.1%, partners 71.0%) with an annual household income greater than $100,000 (survivors 50.3%, partners 54.2%).Survivors' cancer characteristics are presented in",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Cancer history (n=209)",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Correlations between factors and dyadic exercise beliefs",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Couples' agreement regarding couples-based exercise (n=143 couples)",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF7": {
+            "text": "\u25a1 We like different types of exercise. \u25a1 We have different exercise abilities. \u25a1 My partner prefers to exercise without me. \u25a1 I prefer to exercise alone. \u25a1 I prefer to exercise with friends. \u25a1 My partner dislikes exercise. \u25a1 I dislike exercise. \u25a1 I am satisfied with how much we exercise together. \u25a1 Other. If other is selected: Please specify:______________. 10. How likely is it that you and your partner will work together to overcome this barrier? I am concerned my significant other will be too competitive with exercise I am concerned my significant other will make excuses not to exercise I am concerned my significant other and I may argue over exercise I am concerned my significant other may not understand my personal barriers to exercise I am concerned my significant other will not want to exercise with me I am concerned my significant other will not want to share his/her exercise data with me",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "1. How important do you think it is that you and your partner engage in regular physical activity together?2. If a couples-based exercise program were offered to you and your partner, how interested would you be in participating? ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Appendix"
+        },
+        {
+            "text": "The authors declare no competing interests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of interest"
+        }
+    ]
+}

@@ -1,0 +1,3407 @@
+{
+    "paper_id": "0aaf69f7a59ae9594a434f243cc2f7dedf09807b",
+    "metadata": {
+        "title": "",
+        "authors": [
+            {
+                "first": "Jun",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The First Affiliated Hospital of Chongqing Medical University",
+                    "location": {
+                        "settlement": "Chongqing",
+                        "country": "People's Republic of China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Weichu",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The First Affiliated Hospital of Chongqing Medical University",
+                    "location": {
+                        "settlement": "Chongqing",
+                        "country": "People's Republic of China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yunmei",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Chongqing Medical University",
+                    "location": {
+                        "settlement": "Chongqing",
+                        "country": "People's Republic of China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Shiqi",
+                "middle": [],
+                "last": "Xie",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Chongqing Medical University",
+                    "location": {
+                        "settlement": "Chongqing",
+                        "country": "People's Republic of China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Bing",
+                "middle": [],
+                "last": "Yang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Stomatological Hospital of Chongqing Medical University",
+                    "location": {
+                        "settlement": "Chongqing",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "These authors contributed equally to this work Purpose: After a year of the COVID-19 pandemic, countries have repeatedly imposed strict quarantine regimes as the virus mutates and becomes more contagious. Medical undergraduate education has been disrupted and transformed into prolonged home isolation and online learning. Although studies have reported that the COVID-19 pandemic tends to increase perceived stress (PS) and affect the mental health of medical students, the influencing factors are unclear. Therefore, based on the stress process model, this study will comprehensively evaluate the distribution of stressors of medical students and explore the personal and environmental predictors of PS during the epidemic. Participants and Methods: An online survey was conducted among medical students (n=369) from three medical universities in western China who engaged in online learning. A stress process conceptual framework was formed to explore the influencing factors of PS. The survey items contained four sections: (a) the potential stressors derived from academic, psychosocial and health-related demands; coping resources such as (b) online learning environment support and (c) personal resilience, including online learning behavior and individual characteristics; and (d) PS, perception of imbalanced demands and coping resources. Results: The mean PS score was 17.39 (SD=4.58), and over four-fifths (82.3%) of the students had moderate to high levels of stress. The average item scores of academic, psychosocial and health-related stressors were 2.72 (SD=0.55), 2.31 (SD=0.55) and 2.07 (SD=0.50), respectively. Gender, grade, psychosocial stressors, health-related stressors, specific online learning behavior (persistence, attitude and flexibility), and the online learning environment (teaching, social and cognitive presence) were predictors of PS. Conclusion: Our results specify that a reduction in psychological and health-related stressor stimulation, specific online learning behavior promotion, and well-established online learning environment support could be considered essential for alleviating the negative impacts of COVID-19 on the psychosocial health of medical undergraduates.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Due to the global COVID-19 outbreak, undergraduate students from Chinese universities were quarantined at home, face-to-face teaching has been suspended since late February, and courses have moved entirely online according to the requirements of the Ministry of Education (MOE). 1 Because of their strong selfawareness of hygienic habits, social isolation and professional courses, medical students were more vulnerable to the negative effects of these public health emergencies and showed higher levels of perceived stress (PS) compared to the general learning period. 2 PS is defined as a condition or feeling experienced when a person perceives that the demands exceed the personal and coping resources the individual can mobilize. 3 Facing extreme changes in study habits and living styles, the current PS among medical students could therefore be understood as an imbalance between their living and online learning needs during the COVID-19 pandemic and the existing social support and resources of individuals' capabilities to respond. 4 The modified stress model conducted for medical students identified the direct effects of personal resources (eg optimism, resilient coping, etc.) on perceived stress and indirect effects on stress reactions (eg depression, anxiety, etc.). 5 Serval studies also revealed that prolonged periods of high levels of PS strongly affect mental health and also have unfavorable effects on academic performance. [5] [6] [7] [8] In the absence of COVID-19, given the strikingly higher proportion of stress among undergraduate medical students compared to the age-matched general population and students in other academic fields, Western and Asian studies have assessed PS and explored the potential stressors for improving students' stress and mental health. 9, 10 Generally, medical students' main stressors can be classified into three groups: academic pressure, psychosocial issues and health-related stressors. 11, 12 In other words, these sources of stress could be considered to be the students' unmet needs from learning, psychosocial and healthy aspects. 13 Although interventions have been developed based on the identified stressors, the leading stressors also vary across cultural backgrounds and learning environments. 14, 15 A large sampled survey across 12 nations found that parental expectations as a key stressor among medical students from India. 15 Financial instability in the family would be more likely reported as a stressor in high-income group countries, such as Portugal, Italy and Poland, while performance in examinations was the main stressor in Chinese students. 15, 16 Before the COVID-19 pandemic, online learning has been growing steadily worldwide over the past 20 years resulting in a significant change in the academic environment and the experience of stress among students. 17 Keeping up with information is one of the most cited stressors in online education. Online educators and learners need to be available any time of the day via mobile phones and/or electronic mail. 18 Furthermore, the students are exposed to unique stressors, such as the diversity in using social media and acceptance of ever-changing technology to enable flexible learning, independent learning, and participation in online communities. 19, 20 Therefore, it is necessary to include the influence of cultures and social backgrounds on the PS of the target student group in future studies.",
+            "cite_spans": [
+                {
+                    "start": 279,
+                    "end": 280,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 570,
+                    "end": 571,
+                    "text": "2",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 735,
+                    "end": 736,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1042,
+                    "end": 1043,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1284,
+                    "end": 1285,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1448,
+                    "end": 1451,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1452,
+                    "end": 1455,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1456,
+                    "end": 1459,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1460,
+                    "end": 1463,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1794,
+                    "end": 1796,
+                    "text": "9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1797,
+                    "end": 1799,
+                    "text": "10",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1950,
+                    "end": 1953,
+                    "text": "11,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1954,
+                    "end": 1956,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 2098,
+                    "end": 2100,
+                    "text": "13",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 2266,
+                    "end": 2269,
+                    "text": "14,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 2270,
+                    "end": 2272,
+                    "text": "15",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 2400,
+                    "end": 2402,
+                    "text": "15",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 2628,
+                    "end": 2631,
+                    "text": "15,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 2632,
+                    "end": 2634,
+                    "text": "16",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 2847,
+                    "end": 2849,
+                    "text": "17",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 3047,
+                    "end": 3049,
+                    "text": "18",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 3288,
+                    "end": 3291,
+                    "text": "19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 3292,
+                    "end": 3294,
+                    "text": "20",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Currently, the COVID-19 pandemic represents the most universal shared stressor threatening health, is more serious, and may indirectly increase students' PS through the negative effects on learning behavior, attitude and online education. 21 A review showed that the intense shift to online learning during the outbreak may lead to increased PS because of increased on-screen time. 22 A study in Saudi Arabia stated that long-term COVID-19 quarantine may cause 56.2% of all medical students to decrease the time they spend studying. 23 Medical students with a higher level of severe stress were reported to prefer face-to-face classes rather than the current online learning and have trouble with time management. 24 Learning environmental barriers to online education, such as the absence of practice and inadequate online learning material, contribute to students' stressed emotions. 25 It is worth noting that both developed and developing countries faced an enormous challenge, due to the unprecedented circumstances of COVID-19 and conversion from lectures or tutorials to online learning. 26 Medical students (29.8%) from Japan reported concerns about the shift toward online education, as they thought online education could have been ineffective compared with in-person learning. 27 More than half of medical students (56.3%) from Libya disagreed that online learning better than traditional teaching methods during the COVID-19 pandemic. 28 Although China plans to emphasized the building of online education by 2025, according to a document jointly issued by the MOE which proposed the nationwide construction of first-class online medical courses, to ensure that online education resources are accessible to all students. 29 Recent literature has also pointed to 30% of Chinese medical students had no prior learning experiences with most of the online learning modes and 64.97% were low satisfaction with the ongoing online education as the support and service of platforms to be insufficient. 30 In front of a sudden outbreak of the disease, however, might be too fast to create a proper online learning environment without a specific theoretical framework for meeting learning needs. The Community of Inquiry framework (CoI) provides the basis for creating a learner-centered environment for online education, and the framework includes three core components that have been confirmed as considerable predictors of meeting students' learning experience and optimizing their academic performance in higher online medical education: teaching presence, social presence and cognitive presence. 32, 33 Since then, the CoI instrument has gradually developed based on the CoI framework and has been widely used to measure the online learning environment. 33 However, compared with assessments the completion of the online learning program, the medical students' needs and perception of the online learning environment have received less attention during the outbreak of the COVID-19 pandemic. Whether the learning environment can meet students' needs and may contribute to PS during isolation needs to be further investigated.",
+            "cite_spans": [
+                {
+                    "start": 239,
+                    "end": 241,
+                    "text": "21",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 382,
+                    "end": 384,
+                    "text": "22",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 533,
+                    "end": 535,
+                    "text": "23",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 714,
+                    "end": 716,
+                    "text": "24",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 886,
+                    "end": 888,
+                    "text": "25",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1095,
+                    "end": 1097,
+                    "text": "26",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1288,
+                    "end": 1290,
+                    "text": "27",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 1447,
+                    "end": 1449,
+                    "text": "28",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 1733,
+                    "end": 1735,
+                    "text": "29",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 2006,
+                    "end": 2008,
+                    "text": "30",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 2603,
+                    "end": 2606,
+                    "text": "32,",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 2607,
+                    "end": 2609,
+                    "text": "33",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 2761,
+                    "end": 2763,
+                    "text": "33",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Public health emergencies could affect the PS among medical students in both direct and indirect ways by changing their needs, learning and lifestyles. Therefore, understanding the potential stressors and risk factors for PS to alleviate the negative impacts of public health emergencies on medical students to obtain candidate targets for preventive strategies will be very significant. This study hypothesized a conceptual framework ( Figure 1 ) in which there is a change in terms of stressors among medical students before and after the full-scale switch to online learning due to the outbreak of the COVID-19 pandemic, and the amount of PS is associated with individual characteristics, behaviors and online learning environments. PS occurs when stressors (ie demands) go up, and resources (ie supports) go down, that is, demands overload. To verify the hypothesis, the present study sought (1) to investigate the level and sources of the stress experienced by Chinese undergraduate medical students due to online learning and (2) to identify the predictors related to why undergraduate medical students do not receive the necessary support. Focusing on the stressors and risk factors of PS among medical students in such a pandemic period is indispensable before developing adapted and targeted interventions to maintain good mental health. This study would also strengthen the impacts of medical education and especially provide references for better understanding online learning facilitators and barriers and creating innovative online teaching strategies among medical students.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 437,
+                    "end": 445,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Introduction"
+        },
+        {
+            "text": "This Internet-based cross-sectional survey was conducted among students majoring in clinical medicine across three medical schools in Western China. The medical schools that participated in the study were free-standing health professional institutions and develop comprehensive online teaching plans. All clinical medicine students participate in school curricula in the first 4 years and engage in one year of clinical practice in the fifth year. There are two learning phases in school curricula: (a) general skills and basic medical education in the first two years; (b) clinical medical knowledge education, from third-year to fourthyear study. A policy called \"Suspend classes, no stop learning\" was banned by MOE of China on February 1, 2020. The majority of students, containing medical undergraduates, involve in online learning at their own homes since late February. The times of getting back to school and the end times of online learning of these three involved medical schools varied. The participants meeting inclusion criteria were invited via convenience sampling to complete questionnaires two weeks before they got back to school. Inclusion criteria: Clinical medicine students who engaged in formal online learning at home. Exclusion criteria: (a) Students who were infected with COVID-19 and (b) in the clinical practice stage without formal continuous online learning during the epidemic at the time of the survey.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study Design, Setting and Sample"
+        },
+        {
+            "text": "A total of 756 medical students were invited via convenience sampling method and 403 students (53.31%) completed the questionnaires voluntarily. Invalid questionnaires with all options consistent (n=13) and completed questionnaires with response time less than 3 minutes (n=30) were eliminated and final samples were 369 questionnaires, with an effective sample rate of 91.5%. The sample size was computed by conducting linear multiple regression prior to power analysis using the G* Power 3.1 software 34 The required sample size was 191 based on an alpha error of 0.05, a power of 0.90, a medium effect size of 0. 15 and an assumed number of tested predictors of 15.",
+            "cite_spans": [
+                {
+                    "start": 503,
+                    "end": 505,
+                    "text": "34",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 616,
+                    "end": 618,
+                    "text": "15",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Study Design, Setting and Sample"
+        },
+        {
+            "text": "Demographic information included the participants' age, gender, year of study, GPA, monthly household income, network conditions, number of online courses, online learning time per day, prior online learning experiences, the inclination to online learning. GPA of the student, the mean of grades from weighted compulsory courses for previously taken by students throughout the preceding studies. Students could obtain their previous GPA and relevant ranking among all nursing students from the university's intranet network. GPA and GPA ranking were self-reported by participants. Students in the first 2 years of study are categorized as juniors, seniors are third-year to fourth-year study students.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Measurements Demographics"
+        },
+        {
+            "text": "PS was measured with the Perceived Stress Scale (PSS-10), which was developed by Cohen et al. 35 The Chinese revised version scale showed good reliability and validity among Chinese undergraduates. 36 It is a self-reported questionnaire that assessed PS over the past month. The scale included 6 negative items and 4 positive items that were scored ranging from 0 (never) to 4 (very often). For example, \"In the last month, how often have you been upset because of something that happened unexpectedly?\" \"In the last month, how often have you felt that things were going your way?\" The total score (0 to 40) was computed by reversing positive items' scores and summing up all items' scores. A higher score indicates a greater perception of stress. The total PS score was categorized as low (0~13 points), moderate (14~26 points), and high (27~40 points). 37 The Cronbach's alpha of the scale in this study was 0.768.",
+            "cite_spans": [
+                {
+                    "start": 94,
+                    "end": 96,
+                    "text": "35",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 198,
+                    "end": 200,
+                    "text": "36",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 855,
+                    "end": 857,
+                    "text": "37",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Perceived Stress"
+        },
+        {
+            "text": "The potential stressors in this study were adapted from the Source of Stress Questionnaire applied to medical students in previous similar publications of Sreeramareddy et al and Gazzaz et al. 11, 38 There were 29 stressors listed, including academic-related stressors (10 items), psychosocial stressors (11 items), and health-related stressors (8 items). physical disability, illness affecting academic performance, quality of food in mess, etc. played roles in health-related stress. We revised the item \"political situation of the country\" to \"COVID-19 prevention and control situation of the country\". The occurrence frequency of each stressor was scored ranging from 1 (never) to 5 (always). The higher score indicates the higher frequency of stressors. The Cronbach's alpha of the scale in this study was 0.920.",
+            "cite_spans": [
+                {
+                    "start": 179,
+                    "end": 196,
+                    "text": "Gazzaz et al. 11,",
+                    "ref_id": null
+                },
+                {
+                    "start": 197,
+                    "end": 199,
+                    "text": "38",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Stressors"
+        },
+        {
+            "text": "Online learning behavior was measured by the Chinese Undergraduate Students' Online Learning Behaviour Questionnaire. 39 It was adopted from Li-An's 40 e-learning behavior scale and Jin's 41 online learning behavior questionnaire. The questionnaire contained 22 items that were divided into 5 categories, including cooperation (eg interaction with classmates and teachers, sharing with peers, involvement, etc.), persistence (eg concentration, enthusiasm, and giving up), attitude (eg self-confidence, goal achievement, and initiative), online learning preference (eg network use and learning time), and flexibility (eg technology application and innovation). Items were scored ranging from 1 (strongly disagree) to 5 (strongly agree). Behavioral persistence refers to the degree of concentration in the online learning process. It was measured by negative items, such as \"Once something else affects me, I can not concentrate on learning\", that is, a higher score of the item indicated less persistence. All other categories were positive items, such as the item of attitude category \"I am very confident in learning by using the network\". The scores of the negative item were reversed into positive item scores for analysis. The Cronbach's alpha of the scale in this study was 0.912.",
+            "cite_spans": [
+                {
+                    "start": 118,
+                    "end": 120,
+                    "text": "39",
+                    "ref_id": "BIBREF40"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Online Learning Behavior"
+        },
+        {
+            "text": "The CoI instrument developed by Arbaugh et al, 43 which has been widely used in the context of medical education, was used to measure the online learning environment. 32, 42, 43 It has also shown good reliability and validity among Chinese undergraduate students. 44 It contained 3 sections and 10 subsections, including teaching presence (13 items), social presence (9 items) and cognitive presence (12 items). Teaching presence is interpreted as the role of teachers before and of the teaching, including course design and organization, facilitation, and direct instruction. For example, \"The instructor clearly communicated important subject topics\". Social presence refers to the ability to express oneself and establish social interactions among learning groups, including affective expression, open communication, and group cohesion such as \"Online discussions help me to develop a sense of collaboration\". Cognitive presence outlines the establishment of critical and higher-order thinking during the following four stages of the inquiry learning process: triggering event, exploration, integration, and resolution, eg \"I can describe ways to test and apply the knowledge created in this subject\". Items were scored ranging from 1 (strongly disagree) to 5 (strongly agree). The higher score indicates the better online learning environment created for students. The Cronbach's alpha of the scale in this study was 0.969.",
+            "cite_spans": [
+                {
+                    "start": 47,
+                    "end": 49,
+                    "text": "43",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 167,
+                    "end": 170,
+                    "text": "32,",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 171,
+                    "end": 174,
+                    "text": "42,",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 175,
+                    "end": 177,
+                    "text": "43",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 264,
+                    "end": 266,
+                    "text": "44",
+                    "ref_id": "BIBREF45"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Online Learning Environment"
+        },
+        {
+            "text": "The study was conducted in accordance with the Declaration of Helsinki and approved by the Ethics Committee of Chongqing Medical University.The questionnaires were distributed to participants using Survey Monkey \u00ae (https://sur veymonkey.com). The data collection in every medical school remained open for two weeks. We designed local covering emails to encourage medical students to participate in the survey and sent reminders at intervals. The purpose of the study was explained to the participants before their enrolment. Participation was anonymous, and students' responses did not affect the teacher's evaluation of students' performance. All students volunteered to participate in the survey and signed an informed consent form on the first page of the questionnaire. The questionnaires used unified instructions, and all questions were required to be answered before submission. To ensure data quality, the same IP address can be answered only once.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Collection"
+        },
+        {
+            "text": "SPSS version 23.0 was used for data analysis. A descriptive analysis of the variables was performed using percentages for dichotomous variables and means (M) and standard deviation (SD) for continuous variables. The correlation among continuous variables was assessed by Pearson's linear correlation. The independent sample t-test and one-way ANOVA test were used to examine the mean differences in PS between demographic variables. Multiple linear regression analyses were then used to determine the predictors of PS. We defined PS as the dependent variable and the subdimensions of stressors, online learning behavior and environment as independent variables. The statistically significant demographic variables in the univariate analysis were also entered into the linear regression analysis and analyzed using dummy variables. The multivariate linear regression analysis model fit was tested by model residual and normal probability graphs. A significant two-tailed \u0251 value was 0.05. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Analysis"
+        },
+        {
+            "text": "Of 369 medical students, the mean age was 20.20 (SD=1.41) with a range from 18 to 28. 189 (51.2%) were junior students and 180 (48.8%) were seniors. Nearly two-thirds of students had a GPA ranked in the top 50%, and only 26 (7.05%) had a GPA ranked in the last 25%. 330 (89.43%) of students thought that the proportion of online learning should be less than 50% while 39 (10.57%) held the opposite view. 219 (59.3%) female students had a higher mean PS score than that of 150 (40.65%) males, and the difference was reported to be significant (t= \u22123.709, P< 0.001). Students who often or always attended online learning previously had lower mean PS scores and the difference was statistically significant (t= \u22122.890, P=0.004). Additionally, the mean difference in PS was found to be significant for grade (t=2.256, P< 0.05) and the number of online courses (t= 2.161, P< 0.05). The results are shown in Table 1 . Figure 2 illustrates that academic stressors were mainly derived from terms of performance in examinations and practical, competition with peers and the vastness of the academic curriculum. Psychosocial stressors were mainly manifested in the three aspects of worrying about the future, family financial instability and high parental expectations. Last, 10.57% of students often felt stressed about the COVID-19 prevention Figure 3C ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 902,
+                    "end": 909,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 912,
+                    "end": 920,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 1335,
+                    "end": 1344,
+                    "text": "Figure 3C",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "Demographic Characteristics of Participants"
+        },
+        {
+            "text": "The mean total PS score in this study was 17.39 (SD=4.58) and over four-fifths (82.3%) ranked moderate to high ( Figure 3A and B) . For online learning behavior, persistence and attitude were reported to have relatively low scores with mean scores of 3.12 (SD=0.70) and 3.29 (SD=0.61), respectively ( Figure 3C ). Concerning the online learning environment, social presence was ranked the lowest (M=3.43, SD=0.53), closely followed by the cognitive presence (M=3.45, SD = 0.54) ( Figure 3C ). Figure 3D demonstrates that three sources of stress (academic, psychosocial and health-related) and teaching, social and cognitive presence in the online learning environment were all positively associated with PS (r >0, P<0.05). For online learning behavior, cooperation, persistence, attitude, preference and flexibility were negatively related to PS (r <0, P<0.05). Linear Regression Analysis Table 2 indicates that gender (female, \u03b2= 0.156, P < 0.001) and grade (junior students, \u03b2= 0.108, P= 0.007) were positive predictors of PS. The persistence, attitude and flexibility of students' online learning played a negative role in PS. Regarding sources of stress, psychosocial ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 113,
+                    "end": 129,
+                    "text": "Figure 3A and B)",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 301,
+                    "end": 310,
+                    "text": "Figure 3C",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 480,
+                    "end": 489,
+                    "text": "Figure 3C",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 493,
+                    "end": 502,
+                    "text": "Figure 3D",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 889,
+                    "end": 896,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Descriptive Analysis and the Correlations of Continuous Variables"
+        },
+        {
+            "text": "This study indicated that the majority of medical students engaging in online learning during the COVID-19 outbreak experienced moderate to high levels of PS, most prominently in female and junior students. Although the level of PS among medical students in this study did less differentiated from that before the COVID-19 outbreak, 45 the distribution of stressors varied, psychosocial (P=0.003) and health-related stressors (P=0.008) significantly associated with the level of PS. Besides, the better persistence, attitude and flexibility of learning behavior, and greater teaching and social presence in the learning environment could alleviate students' PS. Nevertheless, a higher PS was found to be related to a greater application of cognitive presence. ",
+            "cite_spans": [
+                {
+                    "start": 333,
+                    "end": 335,
+                    "text": "45",
+                    "ref_id": "BIBREF46"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The participants in this study reported moderate levels of PS, which was consistent with other studies regarding the level of PS of medical students during the COVID-19 outbreak. 46, 47 The proportions of moderate to high levels of PS differed from some studies conducted using the same instrument (PSS-10). The prevalence of medical students with moderate to high levels of PS in this study was 82.3%, which was in line with a study in Nepal (82.0%). 48 However, a higher proportion was reported in dental students from Pakistan (96.9%) and nursing students (96.01%) in Pune. 46, 49 The potential reasons for such variability may be that (1) the severity and isolation modes of COVID-19 prevention and control vary during the different survey times and locations and (2) the characteristics of the investigation population are different. For instance, studies revealed that dental and nursing students experienced higher PS due to early practice stage. 10, 50 The present study comprehensively investigated the Chinese subpopulation from a total of 29 stressors classified as academic, psychosocial and health-related demands. Specifically, the top two stressors were \"performance in examinations\" from the academic area and \"worry about the future\" from the psychosocial area. This result seemed consistent with another Chinese study that noted that the strongest stressor among Chinese dental students was \"performance pressure\", specifically, fear of examinations, competition with peers, and uncertainty about the future. 51 This result suggested that \"academic performance\" and \"career expectations\" may be sustained demands or challenges among Chinese medical school students. In addition, health-related stressors were also proposed by our participants. The \"COVID-19 prevention and control situation of the country\" was the most mentioned stressor while \"alcohol/drug abuse/smoking\" was the least mentioned stressor. In contrast, \"alcohol/drug abuse\" was the leading stressor of Nepal and Brazilian medical students. 11, 52 The occurrence of stressors may vary due to the differences in national cultures and students' character traits. Thus, the number and distribution of stressors varied with the various cultural backgrounds and survey contexts. 15, 53 ",
+            "cite_spans": [
+                {
+                    "start": 179,
+                    "end": 182,
+                    "text": "46,",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 183,
+                    "end": 185,
+                    "text": "47",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 452,
+                    "end": 454,
+                    "text": "48",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 577,
+                    "end": 580,
+                    "text": "46,",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 581,
+                    "end": 583,
+                    "text": "49",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 954,
+                    "end": 957,
+                    "text": "10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 958,
+                    "end": 960,
+                    "text": "50",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 1527,
+                    "end": 1529,
+                    "text": "51",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 2026,
+                    "end": 2029,
+                    "text": "11,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 2030,
+                    "end": 2032,
+                    "text": "52",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 2259,
+                    "end": 2262,
+                    "text": "15,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 2263,
+                    "end": 2265,
+                    "text": "53",
+                    "ref_id": "BIBREF54"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The Status of Perceived Stress and Stressors"
+        },
+        {
+            "text": "According to the definition of PS, in addition to describing the amount and distribution of stressors, the investigators in this study extracted the potential resources that respond to PS in the context of the COVID-19 crisis to jointly identify the predictors of PS. 54, 55 In terms of individual backgrounds, female students perceived higher stress than males, which agrees with the findings from other studies. 24, 56 Females are more sensitive to perceiving academic and interpersonal demands and more willing to express their feelings, thus, a higher level of PS was reported. Also, females in medicine are more likely to experience different expectations, pressures, obstacles, and harassment in the process of developing the capacity to gain scientific excellence and gender equality-related management positions. 57 Besides, a previous study revealed that females perceived higher stress was due to the differences in neuroendocrine and hypothalamic-pituitary-adrenal (HPA) axis reactivity. 58 Gender as a predictor of PS that could not be underestimated, thus, special consideration to female students was needed. In agreement with other literature on preclinical students, 47 this study revealed that junior-year students experienced higher stress than seniors. The junior-year students mainly engaged in basic medical courses such as gross anatomy during the pandemic. They experienced higher pressure may be due to the maladjustments to online learning of basic medical practical courses such as gross anatomy in quarantine and more worry about the final examination. 59 In addition, lower levels of professional knowledge, skills and the absence of a learning strategy of junior-year students could be one explanation of this finding. 60 This suggested that adequate resources such as coping strategies, resilience and learning environment supports were considerable to support junior-year students.",
+            "cite_spans": [
+                {
+                    "start": 268,
+                    "end": 271,
+                    "text": "54,",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 272,
+                    "end": 274,
+                    "text": "55",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 414,
+                    "end": 417,
+                    "text": "24,",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 418,
+                    "end": 420,
+                    "text": "56",
+                    "ref_id": null
+                },
+                {
+                    "start": 821,
+                    "end": 823,
+                    "text": "57",
+                    "ref_id": "BIBREF59"
+                },
+                {
+                    "start": 999,
+                    "end": 1001,
+                    "text": "58",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 1183,
+                    "end": 1185,
+                    "text": "47",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 1580,
+                    "end": 1582,
+                    "text": "59",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 1748,
+                    "end": 1750,
+                    "text": "60",
+                    "ref_id": "BIBREF62"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Predictors of Perceived Stress"
+        },
+        {
+            "text": "The studies before the COVID-19 pandemic reported that academic stressor was the significant predictor of PS among medical students, which contradicts the finding in this study. 61, 62 In the current study, there seemed to be few significant associations between academic-related stressors and PS, instead, the greater the exposure to social-related stressors and health-related stressors, the greater the perceived stress. For instance, medical students who were concerned about \"high parental expectations\", \"worry about the future\", \"lack of entertainment\", \"sleeping difficulties\", \"COVID-19 prevention and control situation of the country\", etc. might experience high stress levels. Different from a previous study conducted at a university, the participants in this study have been learning at home and quarantining together with their parents for nearly four months; furthermore, they might frequently perceive that their parents strongly expect them to gain a prestigious career in line with Asian cultural values, which contributes to negative long-term effects. 63, 64 Moreover, the strict isolation in Chongqing, China led to a lack of entertainment and irregular daily routines, and medical students expressed an urgent desire to return to normal school life and tended to pay special attention to the control of the coronavirus, which showed a positive association with PS, in line with a study of nursing students in Turkey. 47 Comparing the pre-epidemic literature, the results of this study suggested that the COVID-19 crisis did affect the distribution of stressors among medical students.",
+            "cite_spans": [
+                {
+                    "start": 178,
+                    "end": 181,
+                    "text": "61,",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 182,
+                    "end": 184,
+                    "text": "62",
+                    "ref_id": "BIBREF64"
+                },
+                {
+                    "start": 1072,
+                    "end": 1075,
+                    "text": "63,",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 1076,
+                    "end": 1078,
+                    "text": "64",
+                    "ref_id": "BIBREF66"
+                },
+                {
+                    "start": 1439,
+                    "end": 1441,
+                    "text": "47",
+                    "ref_id": "BIBREF48"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Predictors of Perceived Stress"
+        },
+        {
+            "text": "The pandemic has accelerated the inevitable implementation of online learning in medical education. Online learning behavior and the online learning environment might be the critical internal and external associated factors of PS among medical students. 24, 25 Consistent with the perspective from Puljak et al, this result of the regression model revealed a significant correlation between the online learning environment and PS. 25 Among the online learning environments, teaching presence and social presence were negative predictors of PS. Namely, if the instructor provided a trusting environment to communicate in and clear instructions on how to participate in subject learning activities, the students might be satisfied with the learning activity and experience less PS. Besides, the better social presence of online learning represents more cooperative and interactive learning environment. It helped students to develop interpersonal relationships and active learning patterns, which could alleviate the mental distress of students. 65 Cognitive presence was, however, a positive predictor of PS. That is, if the course starts with more exploratory learning activities, such as brainstorming or online discussions to develop solutions to subject problems that can be applied in practice, PS will be increased among Chinese medical students. This finding agreed with a study conducted by Katernyak et al. 66 Besides, this study identified that some dimensions of online learning behavior, such as worse persistence, attitude and flexibility of students, contributed to increased PS. For instance, being unable to \"concentrate on actively learning, solve problems over the internet and transfer new technology for learning\" were more likely to be risk factors for PS. Interestingly, some studies 67,68 described some inhibitors of online learning behavior that could arouse distress and discourage students from active engagement in online learning.",
+            "cite_spans": [
+                {
+                    "start": 254,
+                    "end": 257,
+                    "text": "24,",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 258,
+                    "end": 260,
+                    "text": "25",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 431,
+                    "end": 433,
+                    "text": "25",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1044,
+                    "end": 1046,
+                    "text": "65",
+                    "ref_id": "BIBREF67"
+                },
+                {
+                    "start": 1415,
+                    "end": 1417,
+                    "text": "66",
+                    "ref_id": "BIBREF68"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Predictors of Perceived Stress"
+        },
+        {
+            "text": "These inhibitors include poor communication, the absence of collaboration, difficulty engaging in social interaction, collapsed online identity management across multiple network platforms, the desire for ideal selfexpression and uncertainty of online social norms, etc. that indicate the absence of social presence and teaching presence in an online learning environment. 69 In that sense, we therefore reasoned that the lack of social presence and vague teaching presence could increase PS by interfering with medical students' online learning behavior.",
+            "cite_spans": [
+                {
+                    "start": 373,
+                    "end": 375,
+                    "text": "69",
+                    "ref_id": "BIBREF71"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Predictors of Perceived Stress"
+        },
+        {
+            "text": "This study contributed to understanding multiple aspects of the unmet needs of medical students and the predictors of their PS due to the coronavirus outbreak in China. First, considering that individual stress comes from many aspects, mainly academic, psychosocial, and healthrelated stressors, this study conducted a comprehensive investigation of the three sources of stress, which compensated for the limitations of COVID-19 as a single independent source of stress. Furthermore, compared with other stress scales that focus on learning issues and the lack of the inclusion of individual life issues, the PSS-10 does not link an assessment to a specific situation and covers situations in students' lives that are regarded as stressful and as their reactions. In addition, PS was measured relatively reliable through self-reported real feelings in the past month when the epidemic was smoothly controlled and online learning was stable and not based on the discretion of simple symptoms and stress at a certain time. Ultimately, in the special case of an overall shift to online learning, to our knowledge, this was the first study to assess the impact of the online learning environment and behavior on PS. Meanwhile, the valid online learning environment and behavioral measurements were used to enhance the credibility of the results.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Strengths and Limitations"
+        },
+        {
+            "text": "Several limitations of our study should be addressed. According to students' self-reported GPA ranking, only 7.05% of them had a GPA ranked in the lowest 25%. This might cause a selection and/or self-reported bias in the sample because students tend to report higher GPA than actual GPA or higher-performance students more likely to participate in the survey. Meanwhile, due to the lack of probability sampling and moderate response rates (53.31%), the existence of some selection or nonresponse bias is yet another limitation. Fortunately, the distribution of grade, gender and age of medical students in our study was relatively balanced. Our results should be proved and expanded with less selection bias and in larger student samples. Furthermore, the analysis of the predictors was based on cross-sectional survey data, unlike a longitudinal design, which could not determine the causal relationships among the study variables. The COVID-19 outbreak is still ongoing. Online learning is still vital means. Future prospective studies to develop interventions based on predictive factors and explore the occurrence mechanism of PS among college students in public health emergencies in-depth may be conducted.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Strengths and Limitations"
+        },
+        {
+            "text": "Our study revealed that mental stress facing the challenges of significant changes in social life and learning patterns is inevitable and obvious among medical undergraduates in southwestern China. Under the epidemic situation, first, the main stressors showed as psychosocial and healthrelated aspects. Second, certain individual characteristics, online learning behavior and the online learning environment play vital roles in medical students' PS. These findings will be regarded as a reference for helping educators cope with the psychological problems of medical students and the construction of online learning courses during public health emergencies.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Suspend classes but don't stop learning by using online course platforms",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Impact of COVID-19 outbreak on the mental health status of undergraduate medical students in a COVID-19 treating medical college: a prospective longitudinal study",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Saraswathi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Saikarthik",
+                    "suffix": ""
+                },
+                {
+                    "first": "Senthil",
+                    "middle": [],
+                    "last": "Kumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Madhan",
+                    "middle": [],
+                    "last": "Srinivasan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Ardhanaari",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gunapriya",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "PeerJ",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.7717/peerj.10164"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Personal control and stress and coping processes: a theoretical analysis",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Folkman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1984,
+            "venue": "J Pers Soc Psychol",
+            "volume": "46",
+            "issn": "4",
+            "pages": "839--852",
+            "other_ids": {
+                "DOI": [
+                    "10.1037/0022-3514.46.4.839"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Coalition for medical education-A call to action: a proposition to adapt clinical medical education to meet the needs of students and other healthcare learners during COVID-19",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Newman",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lattouf",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Card Surg",
+            "volume": "35",
+            "issn": "6",
+            "pages": "1174--1175",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/jocs.14590"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Perceived stress in first year medical students -associations with personal resources and emotional distress",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Heinen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bullinger",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Kocalevent",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "BMC Med Educ",
+            "volume": "17",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12909-016-0841-8"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Systematic review of depression, anxiety, and other indicators of psychological distress among U.S. and Canadian medical students",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Dyrbye",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Thomas",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Shanafelt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Acad Med",
+            "volume": "81",
+            "issn": "4",
+            "pages": "354--373",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/00001888-200604000-00009"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Perceived medical school stress of undergraduate medical students predicts academic performance: an observational study",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "K\u00f6tter",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wagner",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Br\u00fcheim",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Voltmer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "BMC Med Educ",
+            "volume": "17",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12909-017-1091-0"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Examining anxiety, life satisfaction, general health, stress and coping styles during COVID-19 pandemic in Polish sample of university students",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Rogowska",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ku\u015bnierz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bokszczanin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Psychol Res Behav Manag",
+            "volume": "13",
+            "issn": "",
+            "pages": "797--811",
+            "other_ids": {
+                "DOI": [
+                    "10.2147/PRBM.S266511"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Commentary: medical student distress: a call to action",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Dyrbye",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Shanafelt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Acad Med",
+            "volume": "86",
+            "issn": "7",
+            "pages": "801--803",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/ACM.0b013e31821da481"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Perceived stress and associated factors in Russian medical and dental students: a cross-sectional study in North-West Russia",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Drachev",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Stangvaltaite-Mouhat",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Bolstad",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Johnsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Yushmanova",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Trovik",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Environ Res Public Health",
+            "volume": "17",
+            "issn": "15",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/ijerph17155390"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Psychological morbidity, sources of stress and coping strategies among undergraduate medical students of Nepal",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Sreeramareddy",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Shankar",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Binu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Mukhopadhyay",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Ray",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Menezes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "BMC Med Educ",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/1472-6920-7-26"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Sources and severity of perceived stress among Iranian medical students",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Borjalilu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mohammadi",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Mojtahedzadeh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Iran Red Crescent Med J",
+            "volume": "17",
+            "issn": "10",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.5812/ircmj.17767"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Unmet need for professional mental health care among adolescents with high psychological distress",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sheppard",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Deane",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ciarrochi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Aust N Z J Psychiatry",
+            "volume": "52",
+            "issn": "1",
+            "pages": "59--67",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/0004867417707818"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Perceived stress and self efficacy among college students: a global review",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Varghese",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Norman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Thavaraj",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Soc Sci Electron Publish",
+            "volume": "5",
+            "issn": "3",
+            "pages": "15--24",
+            "other_ids": {
+                "DOI": [
+                    "10.2139/ssrn.2703908"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Cultural variations in wellbeing, burnout and substance use amongst medical students in twelve countries",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Molodynski",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Lewis",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kadhum",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int Rev Psychiatr",
+            "volume": "",
+            "issn": "",
+            "pages": "1--6",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/09540261.2020.1738064"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Lifestyle practices, satisfaction with life and the level of perceived stress of Polish and foreign medical students studying in Poland",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Machul",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bieniak",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cha\u0142da\u015b-Majda\u0144ska",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Environ Res Public Health",
+            "volume": "17",
+            "issn": "12",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/ijerph17124445"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Online education: worldwide status, challenges, trends, and implications",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Palvia",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Aeron",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gupta",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Glob Info Technol Manag",
+            "volume": "21",
+            "issn": "4",
+            "pages": "1--9",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/1097198X.2018.1542262"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Mental health in higher education: a comparative stress risk assessment at an open distance learning university in South Africa",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Jacolize",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Ad\u00e9le",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Int Rev Res Open Distrib Learn",
+            "volume": "19",
+            "issn": "2",
+            "pages": "170--191",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "A framework for developing competencies in open and distance e-learning",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Arinto",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Int Rev Res Open Distrib Learn",
+            "volume": "14",
+            "issn": "1",
+            "pages": "168--185",
+            "other_ids": {
+                "DOI": [
+                    "10.19173/irrodl.v14i1.1393"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Comparing the extent and pattern of use of social networking sites by medical and non medical university students: a multi-center study",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Guraya",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Al-Qahtani",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Bilal",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Guraya",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Almaramhy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Psychol Res Behav Manag",
+            "volume": "12",
+            "issn": "",
+            "pages": "575--584",
+            "other_ids": {
+                "DOI": [
+                    "10.2147/PRBM.S204389"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "The influence of Coronavirus diseases 2019 (COVID-19) pandemic and the quarantine practices on university students' beliefs about the online learning experience in Jordan",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Almomani",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Qablan",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Atrooz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Almomany",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hajjo",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Almomani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Front Public Health",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fpubh.2020.595874"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Coping with stress and burnout associated with telecommunication and online learning",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Mheidly",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Fares",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Fares",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Front Public Health",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fpubh.2020.574969"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "COVID-19 pandemic: impact of quarantine on medical students' mental wellbeing and learning behaviors",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Meo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Abukhalaf",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Alomar",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Sattar",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Klonoff",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Pak J Med Sci",
+            "volume": "36",
+            "issn": "",
+            "pages": "43--48",
+            "other_ids": {
+                "DOI": [
+                    "10.12669/pjms.36.COVID19-S4.2809"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Association of COVID-19 pandemic with undergraduate medical students' perceived stress and coping",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Abdulghani",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Sattar",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ahmad",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Akram",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Psychol Res Behav Manag",
+            "volume": "13",
+            "issn": "",
+            "pages": "871--881",
+            "other_ids": {
+                "DOI": [
+                    "10.2147/PRBM.S276938"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Attitudes and concerns of undergraduate university health sciences students in Croatia regarding complete switch to e-learning during COVID-19 pandemic: a survey",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Puljak",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "\u010civljak",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Haramina",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMC Med Educ",
+            "volume": "20",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12909-020-02343-7"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Our education, our concerns: the impact on medical student education of COVID-19",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Theoret",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Ming",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Med Edu",
+            "volume": "54",
+            "issn": "7",
+            "pages": "591--592",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/medu.14181"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Impact of the COVID-19 pandemic on psychological distress of medical students: a Japanese cross-sectional survey",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Nishimura",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Ochi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Tokumasu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "J Med Internet Res",
+            "volume": "23",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2196/25232"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Impact of the COVID-19 pandemic on medical education: medical students' knowledge, attitudes, and practices regarding electronic learning",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Alsoufi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Alsuyihili",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Msherghi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "PLoS One",
+            "volume": "15",
+            "issn": "11",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0242905"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Ministry of Education of the People's Republic of China. China to significantly improve online education system by 2025",
+            "authors": [],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Association between medical students' prior experiences and perceptions of formal online education developed in response to COVID-19: a cross-sectional study in China",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ Open",
+            "volume": "10",
+            "issn": "10",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmjopen-2020-041886"
+                ]
+            }
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Online education research adopting the community of inquiry framework: a systematic review",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gurvitch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Quest",
+            "volume": "72",
+            "issn": "4",
+            "pages": "395--409",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/00336297.2020.1761843"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Enhancement of student perceptions of learner-centeredness and community of inquiry in flipped classrooms",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "BMC Med Educ",
+            "volume": "18",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12909-018-1347-3"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "A systematic review of the community of inquiry survey",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Stenbom",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Internet High Educ",
+            "volume": "39",
+            "issn": "",
+            "pages": "22--32",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.iheduc.2018.06.001"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "The importance of a priori sample size estimation in strength and conditioning research",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Beck",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Strength Condition Res",
+            "volume": "27",
+            "issn": "8",
+            "pages": "2323--2337",
+            "other_ids": {
+                "DOI": [
+                    "10.1519/JSC.0b013e318278eea0"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "A global measure of perceived stress",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cohen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kamarck",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Mermelstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 1983,
+            "venue": "J Health Soc Behav",
+            "volume": "24",
+            "issn": "4",
+            "pages": "385--396",
+            "other_ids": {
+                "DOI": [
+                    "10.2307/2136404"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Chinese version of the perceived stress scale-10: a psychometric study in Chinese university students",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Bian",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "PLoS One",
+            "volume": "12",
+            "issn": "12",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0189543"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Perceived stress and coping strategies among ICU nurses in government tertiary hospitals in Saudi Arabia: a cross-sectional study",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Alharbi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Alshehry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Ann Saudi Med",
+            "volume": "39",
+            "issn": "1",
+            "pages": "48--55",
+            "other_ids": {
+                "DOI": [
+                    "10.5144/0256-4947.2019.48"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Perceived stress, reasons for and sources of stress among medical students at Rabigh Medical College",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Gazzaz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Baig",
+                    "suffix": ""
+                },
+                {
+                    "first": "Al",
+                    "middle": [],
+                    "last": "Alhendi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Bsm",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "BMC Med Educ",
+            "volume": "18",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12909-018-1133-2"
+                ]
+            }
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "A survey on undergraduate students' online learning behavior",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Yao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "eEduc Res",
+            "volume": "34",
+            "issn": "11",
+            "pages": "59--65",
+            "other_ids": {
+                "DOI": [
+                    "10.13811/j.cnki.eer.2013.11.010"
+                ]
+            }
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "The antecedents of e-learning outcome: an examination of system quality, technology readiness, and learning behavior",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ho",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Adolescence",
+            "volume": "44",
+            "issn": "175",
+            "pages": "581--599",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11199-009-9603-y"
+                ]
+            }
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Online Learning Behavior of Undergraduate Students. Nanjing: Nanjing University",
+            "authors": [
+                {
+                    "first": "Jin",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Medical community of inquiry: a diagnostic tool for learning, assessment, and research",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Nave",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ackerman",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Dori",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Interdisciplin J eSkills Lifelong Learn",
+            "volume": "13",
+            "issn": "",
+            "pages": "1--017",
+            "other_ids": {
+                "DOI": [
+                    "10.28945/3632"
+                ]
+            }
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Developing A Community Of Inquiry Instrument: Testing A Measure Of The Community Of Inquiry Framework Using A Multi-institutional Sample",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Arbaugh",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cleveland-Innes",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Diaz",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Sr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Internet High Educ",
+            "volume": "11",
+            "issn": "3-4",
+            "pages": "133--136",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.iheduc.2008.06.003"
+                ]
+            }
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Verifying causal relationships among the presences of the community of inquiry framework in the Chinese context",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Kong",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Int Rev Res Open Dist Learn",
+            "volume": "18",
+            "issn": "6",
+            "pages": "213--230",
+            "other_ids": {
+                "DOI": [
+                    "10.19173/irrodl.v18i6.3197"
+                ]
+            }
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Exploring the gender difference and predictors of perceived stress among students enrolled in different medical programs: a cross-sectional study",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Infortuna",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Gratteri",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Benotakeia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Environ Res Public Health",
+            "volume": "17",
+            "issn": "18",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/ijerph17186647"
+                ]
+            }
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "A study to assess the perceived stress and coping strategies among B. Sc. nursing students of selected colleges in Pune during COVID-19 pandemic lockdown'",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Sheroun",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wankhar",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Devrani",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Lissamma",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Chatterjee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Sci Healthc Res",
+            "volume": "5",
+            "issn": "2",
+            "pages": "280--288",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Nursing students' views on the COVID-19 pandemic and their percieved stress levels",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Aslan",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Pekince",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Perspect Psychiatr Care",
+            "volume": "",
+            "issn": "",
+            "pages": "1--7",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/ppc.12597"
+                ]
+            }
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "An online survey of factors associated with self-perceived stress during the initial stage of the COVID-19 outbreak in Nepal",
+            "authors": [
+                {
+                    "first": "Sca",
+                    "middle": [],
+                    "last": "Samadarshi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sharma",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bhatta",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Ethiop J Health Dev",
+            "volume": "34",
+            "issn": "2",
+            "pages": "84--89",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Perceived stress levels in Pakistani dental students during COVID-19 lockdown",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Raja",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Saleem",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Saleem",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eur J Dent Oral Health",
+            "volume": "1",
+            "issn": "4",
+            "pages": "1--7",
+            "other_ids": {
+                "DOI": [
+                    "10.24018/ejdent.2020.1.4.14"
+                ]
+            }
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Effect of the novel Coronavirus Pneumonia pandemic on medical students' psychological stress and its influencing factors",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Front Psychol",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fpsyg.2020.548506"
+                ]
+            }
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Stress and its association with academic performance among dental undergraduate students in Fujian, China: a cross-sectional online questionnaire survey",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMC Med Educ",
+            "volume": "20",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12909-020-02095-4"
+                ]
+            }
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Stressors, psychological distress, and mental health problems amongst Brazilian medical students",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Castaldelli-Maia",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Lewis",
+                    "suffix": ""
+                },
+                {
+                    "first": "Marques Dos",
+                    "middle": [],
+                    "last": "Santos",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Int Rev Psychiatr",
+            "volume": "31",
+            "issn": "7",
+            "pages": "603--607",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/09540261.2019.1669335"
+                ]
+            }
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Affective temperament traits and age-predicted recreational cannabis use in medical students: a cross-sectional study",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Infortuna",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Silvestro",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Crenshaw",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Environ Res Public Health",
+            "volume": "17",
+            "issn": "13",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/ijerph17134836"
+                ]
+            }
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Medical student resilience and stressful clinical events during clinical training",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Houpy",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Woodruff",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Pincavage",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Med Educ Online",
+            "volume": "22",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/10872981.2017.1320187"
+                ]
+            }
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "Medical students' perceptions of stress due to academic studies and its interrelationships with other domains of life: a qualitative study",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Bergmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Muth",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Loerbroks",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Med Educ Online",
+            "volume": "24",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/10872981.2019.1603526"
+                ]
+            }
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "Gender-specific effects of raising year-1 standards on medical students' academic performance and stress levels",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Stegers-Jager",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Savas",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Van Der Waal",
+                    "suffix": ""
+                },
+                {
+                    "first": "Efc",
+                    "middle": [],
+                    "last": "Van Rossum",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Woltman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "DovePress",
+            "volume": "56",
+            "issn": "6",
+            "pages": "538--546",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/medu.14068"
+                ]
+            }
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Gender as an underestimated factor in mental health of medical students",
+            "authors": [
+                {
+                    "first": "Phm",
+                    "middle": [],
+                    "last": "Burger",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Scholz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Ann Anatomy",
+            "volume": "218",
+            "issn": "",
+            "pages": "1--6",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.aanat.2018.02.005"
+                ]
+            }
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "Gender differences in cardiovascular and hypothalamic-pituitary-adrenal axis responses to psychological stress in healthy older adult men and women",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Traustad\u00f3ttir",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Bosch",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Matt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Stress",
+            "volume": "6",
+            "issn": "2",
+            "pages": "133--140",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/1025389031000111302"
+                ]
+            }
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "Academic achievement, perceived stress, admission data, and sociodemographic background among therapy students in Israel",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Jacob",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Einstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Allied Health",
+            "volume": "46",
+            "issn": "2",
+            "pages": "72--78",
+            "other_ids": {}
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "Stress in medical students",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Nechita",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Nechita",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "P\u00eerlog",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Rogoveanu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Romanian J Morphol Embryol",
+            "volume": "55",
+            "issn": "3",
+            "pages": "1263--1266",
+            "other_ids": {}
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Perceived psychological stress among undergraduate medical students: role of academic factors",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Chowdhury",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mukherjee",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Mitra",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Naskar",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Karmakar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Lahiri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Indian J Public Health",
+            "volume": "61",
+            "issn": "1",
+            "pages": "55--57",
+            "other_ids": {
+                "DOI": [
+                    "10.4103/0019-557X.200253"
+                ]
+            }
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "Perceived stress, sources and severity of stress among medical undergraduates in a Pakistani medical school",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Shah",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hasan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Malik",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Sreeramareddy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "BMC Med Educ",
+            "volume": "10",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/1472-6920-10-2"
+                ]
+            }
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "Parental career expectations: effect on medical students' career attitudes over time",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Griffin",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Med Edu",
+            "volume": "53",
+            "issn": "6",
+            "pages": "584--592",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/medu.13812"
+                ]
+            }
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "Parental influences on medical students' self-efficacy and career exploration in collectivist culture",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Jasmon",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Masturah",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Nugraha",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Syakurah",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Afifah",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Siburian",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Educ Health Promot",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.4103/jehp.jehp_86_20"
+                ]
+            }
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "Impact of virtual learning environment on students' satisfaction, engagement, recall, and retention",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Ryan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Poole",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Med Imaging Radiat Sci",
+            "volume": "50",
+            "issn": "3",
+            "pages": "408--415",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jmir.2019.04.005"
+                ]
+            }
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "Cognitive presence and effect of immersion in virtual learning environment",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Katernyak",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Loboda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Universal J Educ Res",
+            "volume": "4",
+            "issn": "11",
+            "pages": "2568--2573",
+            "other_ids": {
+                "DOI": [
+                    "10.13189/ujer.2016.041109"
+                ]
+            }
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "How an environment of stress and social risk shapes student engagement with social media as potential digital learning platforms: qualitative study",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hartnup",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Eisingerich",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "JMIR Med Educ",
+            "volume": "4",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2196/10069"
+                ]
+            }
+        },
+        "BIBREF70": {
+            "ref_id": "b70",
+            "title": "Barriers and solutions to online learning in medical education -an integrative review",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Diane",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Marie",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Justan",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ailish",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jason",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Deirdre",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "BMC Med Educ",
+            "volume": "18",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12909-018-1240-0"
+                ]
+            }
+        },
+        "BIBREF71": {
+            "ref_id": "b71",
+            "title": "Online community of inquiry review: social, cognitive, and teaching presence issues",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Garrison",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Online Learn",
+            "volume": "11",
+            "issn": "1",
+            "pages": "61--72",
+            "other_ids": {
+                "DOI": [
+                    "10.24059/olj.v11i1.1737"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "31 https://doi.org/10.2147/PRBM.S308497 DovePress Psychology Research and Behavior Management 2021:14",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "The conceptual framework to demonstrate the influencing factors of medical students' perceived stress. Psychology Research and Behavior Management 2021:14 https://doi.org/10.2147/PRBM.S308497 DovePress 551",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "For example, the items of academic-related stressors contained performance in examinations and practical, competition with peers and the vastness of the academic curriculum, etc. The sources of psychosocial stress included high parental expectations, loneliness, worrying about the future, adjustment with families, etc. Sleeping difficulties, https://doi.org/10.2147/PRBM.S308497 DovePress Psychology Research and Behavior Management 2021:14",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Research and Behavior Management 2021:14 https://doi.org/10.2147/PRBM.S308497 DovePress 553",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "The medical students' responses to stressors (N=369). Psychology Research and Behavior Management 2021:14 https://doi.org/10.2147/PRBM.S308497 DovePress 555",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Descriptive analysis and the correlations of continuous variables included in the model. (A) Distribution of severity of PS. (B) Mean scores of PS. (C) Average item score of continuous variables included in the model. (D) The correlations of continuous variables included in the model, all the correlation coefficients were statistically significant (P<0.05). Abbreviations: TP, teaching presence; SP, social presence; CP, cognitive presence; PS, perceived stress. https://doi.org/10.2147/PRBM.S308497 DovePress Psychology Research and Behavior Management 2021:14 stressors (\u03b2= 0.212, P= 0.003) and health-related stressors (\u03b2= 0.166, P= 0.008) increased students' PS. For the online learning environment, teaching presence (\u03b2= \u22120.140, P= 0.025) and social presence (\u03b2= \u22120.160, P= 0.033) were significant and negative predictors correlated with PS. Additionally, the model revealed that cognitive presence (\u03b2= 0.259, P= 0.005) positively predicted PS. All the above predictors collectively accounted for 44.70% of the variance in PS (adjusted R 2 = 0.447).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "https://doi.org/10.2147/PRBM.S308497 DovePress Psychology Research and Behavior Management 2021:14",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Research and Behavior Management 2021:14 https://doi.org/10.2147/PRBM.S308497 DovePress 559",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Demographic Characteristics of Participants and the Mean Difference in Perceived Stress Between Demographic VariablesNotes: a Values when equal variance not assumed.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Linear Regression Model Predicting Students' Perceived Stress (N=369)",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We would like to thank all study participants for their considerable support and assistance.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        },
+        {
+            "text": "This study was funded by the Chongqing Education Science Planning Project(2016-GX-036) and the Education Research Project of Chongqing Medical University (JY180328).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding"
+        },
+        {
+            "text": "The authors had no competing interests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Disclosure"
+        },
+        {
+            "text": "Psychology Research and Behavior Management is an international, peer-reviewed, open access journal focusing on the science of psychology and its application in behavior management to develop improved outcomes in the clinical, educational, sports and business arenas. Specific topics covered in the journal include: Neuroscience, memory and decision making; Behavior modification and management; Clinical applications; Business and sports performance management; Social and developmental studies; Animal studies. The manuscript management system is completely online and includes a very quick and fair peer-review system, which is all easy to use. Visit http://www. dovepress.com/testimonials.php to read real quotes from published authors. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Publish your work in this journal"
+        }
+    ]
+}

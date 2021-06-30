@@ -1,0 +1,665 @@
+{
+    "paper_id": "0ac71961b9ef65e37d5e7b37090362ddf1535339",
+    "metadata": {
+        "title": "Increasing Medical Student Exposure to Pathology by Creating an Integrated Rotation During Surgery Clerkship",
+        "authors": [
+            {
+                "first": "Madelyn",
+                "middle": [],
+                "last": "Lew",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Michigan",
+                    "location": {
+                        "settlement": "Ann Arbor",
+                        "region": "MI",
+                        "country": "USA"
+                    }
+                },
+                "email": "lewm@med.umich.edu"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Following a nationwide trend, the University of Michigan Medical School has restructured its curriculum to facilitate integration of basic science curricula and early inclusion of clinical experiences, resulting in a truncation of a 19-month didactic-based preclinical curriculum to 13 months. Because preclinical didactic and lab sessions formed the bulk of pathology contact hours, the curriculum overhaul significantly reduced student exposure to pathologists. This reduction in exposure may decrease student understanding of how pathology integrates into the larger picture of healthcare delivery and could also decrease the pipeline of students interested in pursuing pathology as a career choice. To ameliorate these concerns, a mandatory 1-week rotation through the Pathology Department was integrated into the surgery clerkship. This brief report outlines the process of creating a new, unique pathology rotation for surgery clerkship students that includes observation in autopsy and surgical pathology sign-out, small group sessions focused on foundational concepts in microbiology, chemistry, and transfusion medicine, and access to online case-based modules. Available qualitative student feedback indicates that students appreciate how this rotation granted them a \"behind the scenes\" look at pathology but also noted that the fast pace of clinical sign-out sessions and length of small group sessions were suboptimal for student learning. This feedback and future survey data will serve as a platform on which curricular improvements can be made to enhance the learning environment for both learners and educators.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Paradigm shifts in education have led to a heavier emphasis on active learning through small group sessions, team-based learning, problem-based learning, self-directed learning, and flipped classrooms instead of the traditional didactic sessions seen in passive learning. 1 However, education reform in medical school curricula has not only been in pedagogy and method of content delivery but also in the content itself. 2 Medical schools nationwide have radically restructured curricula to emphasize communication, critical thinking, and medical reasoning skills, leading to integrated curricula that focus on the early integration of clinical experiences in the first 2 years of medical school. However, this often leads to truncation of the traditional basic sciences curriculum. 3 For pathology, with roots in both basic science and clinical medicine, the impact of these new curricular designs is significant. Although the principles of pathology are recognized as foundational to understanding the basis of clinical reasoning, the time dedicated to pathology in new curricula is often significantly decreased and fragmented among other basic science and clinical components. [4] [5] [6] As such, most medical students will have limited exposure to pathology, which reduces their understanding of how pathology integrates into daily clinical care and, potentially, the likelihood that they will consider pathology as a career option. This contributes to the continued decline in the applications of American medical school graduates to pathology residency programs and projected shortages of pathologists. 7, 8 Post-sophomore fellowships, in which medical students take year-long positions with responsibilities comparable to first-year pathology residents, have been shown to be an effective means of increasing students' exposure to the clinical practice of pathology as well as their likelihood of selecting pathology as a career. [9] [10] [11] [12] [13] However, students consider the time sacrifice for a year-long exploration to be a significant disadvantage to the post-sophomore fellowship. Additionally, due to the time, faculty, and monetary resources required to maintain a post-sophomore fellowship, only a handful of institutions offer such positions. 14 Therefore, academic pathologists are investigating opportunities to enhance student exposure to pathology within the standard 4-year medical school curriculum.",
+            "cite_spans": [
+                {
+                    "start": 1181,
+                    "end": 1184,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1185,
+                    "end": 1188,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1189,
+                    "end": 1192,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1939,
+                    "end": 1942,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1943,
+                    "end": 1947,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1948,
+                    "end": 1952,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1953,
+                    "end": 1957,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1958,
+                    "end": 1962,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The University of Michigan Medical School (UMMS) has undergone a curriculum overhaul in which a 19-month didactic-based preclinical curriculum has been condensed into 13 months. To address the aforementioned concern of decreased exposure to pathology, the UMMS curriculum integrated a mandatory 1-week pathology rotation within the surgery clerkship. UMMS students start their core clinical rotations in October of their second year. During the 3-month Surgery & Applied Sciences Clerkship, 2 months are spent on surgical rotations, and 1 month is spent on a collective experience called Applied Sciences ( Figure 1A ). The Applied Sciences experience consists of 1-week rotations through anesthesiology, anatomy (simulation center to practice procedures), radiology, and pathology ( Figure 1B ). The week-long pathology rotation provides an opportunity for UMMS students to explore facets of anatomic and clinical pathology. developers and faculty educators met to establish learning objectives for each small group session and review best practices of content delivery to optimize student engagement. The sessions were subsequently developed as a mixture of didactics and case-based presentations, where students work through presented clinical scenarios with faculty guidance. Prework is assigned to facilitate and bolster discussion during some small group sessions and is made available on the centralized learning management system. The focus of these small group discussions is to highlight the utility of various clinical pathology laboratories and promote lab stewardship in the students' subsequent rotations and careers. Virtual or in-person laboratory tours are also included in the chemistry and microbiology small group sessions to further enhance understanding of specimen processing and provide an opportunity to discuss topics such as appropriate specimen labeling, preparation, handling, and test selection. Pitfalls associated with suboptimal specimen labeling, collection, and test ordering are discussed during these lab tours to promote optimal lab utilization.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 607,
+                    "end": 616,
+                    "text": "Figure 1A",
+                    "ref_id": null
+                },
+                {
+                    "start": 784,
+                    "end": 793,
+                    "text": "Figure 1B",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "To consolidate histopathology knowledge garnered from the first-year preclinical curriculum and to enhance understanding of clinicopathologic correlations, interactive case-based modules were developed on www.MDCases.net, a third-party website on which users can build cases utilizing various information resources. Individuals with a medical school-affiliated email address can sign-up for a free account and access publicly shared cases. University of Michigan Medical School initiated a contract with MDCases developers to preliminarily limit access to cases developed by University of Michigan faculty, trainees, and students to users with University of Michigan credentials. The pathology modules on www.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "MDCases.net are formatted as case-based presentations that provide information through text, video, and hyperlinked references. The cases allow for formative assessment through a combination of text-and imaged-based multiple-choice questions, each with immediate feedback based on student selection of answer choices. The online modules cover foundational content in surgical pathology, microbiology, immunology, hematopathology, and transfusion medicine. For an example of one of the publicly accessible surgical pathology cases, visit https://mdcases.net/case/200.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "On the UMMS learning management system, Canvas, rotating medical students access their weekly schedules and required assignments and can view pathology textbooks and faculty-created primer material to further enhance their knowledge about pathology practice. Primer material includes presentations introducing the various facets of anatomic and clinical pathology, such as the utility of intraoperative pathology consultation and the macroscopic and microscopic features of common disease entities students encounter during sign-out sessions. The primer material also highlights the clinical indications for biopsy/resection and the implications of specific diagnoses.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "From implementation in October 2018 until in-person teaching was discontinued to promote social distancing guidelines due to COVID-19, approximately 263 medical students completed this pathology rotation experience. A brief survey was distributed to these students to assess the quality of their experience using a 5-point scale (1 \u00bc poor, 2 \u00bc fair, 3 \u00bc good, 4 \u00bc very good, 5 \u00bc excellent). 208 students responded for a 79% response rate. The average score for the pathology rotation was 3.55 with 4.2%, 12%, 27.9%, 35.6%, and 20.2% of students demarcating their experience as poor, fair, good, very good, and excellent, respectively. Limited qualitative feedback from students highlighted how observation of workflows and small group sessions contributed to a deeper understanding of health systems and allowed for a \"behind-the-scenes\" look at pathology. Some constructive feedback included sentiments that the length of the small group sessions and tours may have been too long to facilitate sustained student engagement and that learning foundational concepts of pathology can be difficult in busy sign-out sessions. More detailed survey data will be collected and analyzed to provide a foundation for curricular improvements to enhance the learning experience for medical students and educators alike.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In response to qualitative feedback that the fast-paced anatomic pathology sign-out environment was suboptimal for medical student learning, one potential change would be to enhance student engagement with active learning sessions. As previously mentioned, paradigm shifts in education have changed medical school curricula to prioritize active learning strategies, which allow students to generate relationships between new content and their existing knowledge base by participating in activities that enhance their critical thinking skills. As a result, some institutions have undergone major preclinical curricular overhauls in which they have transitioned from didactic-predominant learning to entirely problem or case-based learning. Noting this, more opportunities can be created within clinical curricula to transition from the traditional reliance on principles of social learning theory to more active and self-directed learning. As such, future iterations of our pathology rotation could include the development of student-directed sign-out sessions where surgical pathology cases are provided for presession student review with supplemental learning materials and questions about the clinical impact of pathologic diagnoses. This would improve student understanding of clinicopathologic correlations and thought processes involved with microscopic evaluation. However, like many other active learning strategies, dedicated resources in the form of educators, sign-out space, and content development would be required for successful implementation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Although this rotation focuses on essential principles of pathology that are relevant to all medical practitioners, it will be interesting to see whether there is a long-term impact in increasing the number of medical students pursuing careers in pathology. The first cohort of students who completed this rotation is entered the 2021 National Residency Matching Program (NRMP) Match. Of 168 students, 2 are applying into pathology, which falls within the typical range of 0 to 3 UMMS pathology residency applicants over the past 5 years. Although there has not been an immediate change in the number of pathology residency applicants, there has been a change in the number of students expressing a career interest in pathology. In 2016, 2017, and 2018, 0, 3, and 8 students enrolled in third and fourth year pathology electives expressed a career interest in pathology. Following implementation of this clinical rotation, this number increased to 14. In the upcoming years, we will observe if this increased level of interest will translate to growth in our pathology pipeline, which is an important aspect of efforts aimed at increasing early student exposure to pathology. National Residency Matching Program data from 2000 to 2019 show that there has been a 40% decrease in the number of American medical school graduates applying to pathology residency programs. A recent study by McCloskey et al explored the factors that impacted the career pathway decisions of over 300 medical students graduating from American allopathic medical schools. The authors found that clinical rotations during medical school were listed as the second highest rated factor in the decision-making process, 15 highlighting the importance of a required pathology experience during clinical curricula. As such, the lack of a broad-reaching pathology rotation in many institutions can stifle larger recruitment efforts into the field. Additionally, this study highlights how negative perceptions of future job markets and pathology as a specialty on various websites and social media outlets play a significant role in discouraging medical students from applying to pathology. Noting this, a required pathology rotation may be helpful in dispelling misinformation and negative perceptions of the field.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In conclusion, curriculum changes have reduced the traditional points of contact between pathologists and medical students. However, implementing an interactive curriculum within the clerkship-year of medical student education can increase student exposure to pathology while also giving a more accurate impression of the daily workflow and impact of pathology in health care delivery.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Saying goodbye to lectures in medical school-paradigm shift or passing fad?",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Schwartzstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Roberts",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "N Engl J Med",
+            "volume": "377",
+            "issn": "",
+            "pages": "605--607",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Repeal and replace? a note of caution for medical school curriculum reformers",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Stevens",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Acad Med",
+            "volume": "93",
+            "issn": "",
+            "pages": "1425--1427",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "The integrated curriculum in medical education: AMEE guide no. 96",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Brauer",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ferguson",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Med Teach",
+            "volume": "37",
+            "issn": "",
+            "pages": "312--322",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "The integration of pathology into the clinical years of undergraduate medical education: a survey and review of the literature",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Magid",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Cambor",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Hum Pathol",
+            "volume": "43",
+            "issn": "",
+            "pages": "567--576",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Innovating undergraduate pathology education through public engagement",
+            "authors": [
+                {
+                    "first": "Mukundu",
+                    "middle": [],
+                    "last": "Nagesh",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chiva",
+                    "middle": [],
+                    "last": "Giurca",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Lishman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Virchows Arch",
+            "volume": "472",
+            "issn": "",
+            "pages": "853--863",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Pathology competencies for medical education and educational cases",
+            "authors": [
+                {
+                    "first": "Bec",
+                    "middle": [],
+                    "last": "Knollmann-Ritschel",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Regula",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Borowitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Conran",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Prystowsky",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Acad Pathol",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/23742"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Fewer seniors from United States allopathic medical schools are filling pathology residency positions in the main residency match",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Jajosky",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Jajosky",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Kleven",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Singh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Hum Pathol",
+            "volume": "73",
+            "issn": "",
+            "pages": "26--32",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Pathology graduate medical education (overview from 2006-2010)",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Alexander",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Hum Pathol",
+            "volume": "42",
+            "issn": "",
+            "pages": "763--769",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "The Rochester student fellowship program",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Fenninger",
+                    "suffix": ""
+                }
+            ],
+            "year": 1958,
+            "venue": "J Med Educ",
+            "volume": "33",
+            "issn": "",
+            "pages": "207--210",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "University of Missouri-Columbia school of medicine post-sophomore fellowship program",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Longo",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Senhauser",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Taylor",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Lucas",
+                    "suffix": ""
+                }
+            ],
+            "year": 1976,
+            "venue": "J Med Educ",
+            "volume": "51",
+            "issn": "",
+            "pages": "340--342",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "A 35 year experience with the post-sophomore fellowship program in pathology: analysis of its effectiveness as a recruitment resource",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Dodd",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Rosenthal",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Cancilla",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Hum Pathol",
+            "volume": "36",
+            "issn": "",
+            "pages": "1168--1171",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "The pathology student fellowship program at the University of Vermont",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Macpherson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Hum Pathol",
+            "volume": "36",
+            "issn": "",
+            "pages": "1168--1171",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Post-Sophomore fellowships in pathology: a national survey",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Summers",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Klen",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Westein",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Bracamonte",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Modern Pathol",
+            "volume": "25",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "The pathologist pipeline: implications of changes for programs and post-sophomore fellowshipsprogram directors' section perspective",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Naritoku",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Timmons",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Acad Pathol",
+            "volume": "3",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/2374289516646117"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Factors influencing US allopathic medical students to choose pathology as a specialty",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Mccloskey",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Brissette",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Acad Pathol",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/2374289520951924"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Pathology rotation schedule.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The author(s) declared no potential conflicts of interest with respect to the research, authorship, and/or publication of this article.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of Conflicting Interests"
+        },
+        {
+            "text": "The author(s) received no financial support for the research, authorship, and/or publication of this article.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding"
+        }
+    ]
+}

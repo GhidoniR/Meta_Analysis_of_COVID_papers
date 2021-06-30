@@ -1,0 +1,1610 @@
+{
+    "paper_id": "0ac9db2d120881b97361c44d599df18c8e570a57",
+    "metadata": {
+        "title": "Primary Pancreatic Signet Ring Cell Carcinoma: A Case Report and Review of the Literature",
+        "authors": [
+            {
+                "first": "Daniel",
+                "middle": [
+                    "J"
+                ],
+                "last": "Campbell",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Emily",
+                "middle": [
+                    "L"
+                ],
+                "last": "Isch",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Geoffrey",
+                "middle": [
+                    "M"
+                ],
+                "last": "Kozak",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Charles",
+                "middle": [
+                    "J"
+                ],
+                "last": "Yeo",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Background: Primary pancreatic signet ring cell carcinoma (PPSRCC) is a rare (<1%) poorly reported histopathological variant of pancreatic cancer with ill-defined treatment guidelines. Herein, we describe a case of nonmetastatic PPSRCC in a 45-year-old female. Presentation: A 45-year-old female presented with 3 weeks of abdominal pain radiating to her back. Other pertinent positives included a 20-pound (9.1-kilogram) weight loss and jaundice, with a known 30-pack-year smoking history. CT scan revealed a 4.6 \u00b7 3.6 cm hypoattenuating mass in the head of the pancreas (HOP) with dilatation of the common bile duct. Total bilirubin at presentation was elevated, and a biliary stent was placed endoscopically. Subsequent endoscopic ultrasonography revealed a periampullary ulcerated mass involving the HOP and second portion of the duodenum, with pathology revealing poorly differentiated adenocarcinoma with mucinous background and focal signet ring cells. A classic pancreatoduodenectomy (Whipple procedure) was performed. Final pathology revealed a poorly differentiated (G3) pT3/pN2/pM0 PPSRCC with 11 of 16 positive specimen lymph nodes. The tumor had evidence of both KRAS and TP53 mutations and expressed an MUC1+/MUC2-/MUC5AC+ immunophenotype. Medical oncology recommended a 6-month course of adjuvant modified-dose FOLFIRINOX therapy. Conclusion: This report highlights the need for further research into the pathogenesis of gastrointestinal signet ring cell carcinoma to identify and study therapeutic targets that can eventually be translated to PPSRCC treatment. Given the paucity of PPSRCC, adjuvant therapy candidates follow the current literature on more common pancreatic cancer subtypes to guide treatment.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Pancreatic cancer is the third leading cause of cancerrelated deaths in the United States, with an estimated 57,600 new cases in 2020. 1 Although highly dependent on its stage at the time of diagnosis, the overall 5-year survival rate for all types of pancreatic cancer is 9%, relatively low compared with other cancers. 1 Approximately 65% of pancreatic cancers are in the head of the pancreas (HOP), and resectable tumors of this location can be treated with a pancreatoduodenectomy (Whipple) procedure. 2 At least nine histopathological variants of pancreatic cancer have been identified, of which adenocarcinoma is the most prevalent (85.8%). 3 Treatment protocols for pancreatic cancer vary by institution and individual case tumor characteristics, but all generally include one or more of the following modalities: (1) resection, (2) radiation, or (3) systemic chemotherapy. Given the relative high proportion of pancreatic cancers that are adenocarcinomas, many subtypes of pancreatic cancer generally draw on literature specifically related to the adenocarcinoma variant when guiding treatments. 4 Primary pancreatic signet ring cell carcinoma (PPSRCC) is a rare infrequently reported histopathological variant of pancreatic cancer with an estimated incidence of <1%. 5 The most recent 2019 World Health Organization classification system defines PPSRCC as a subtype of pancreatic ductal adenocarcinoma. 6 Recent literature suggests that PPSRCC has a lower overall 5-year survival rate than pancreatic adenocarcinoma as a whole (4% vs. 9%) and is more likely to present with distant disease at the time of diagnosis (69.4% vs. 52%). 5 Owing to its low prevalence and reporting, treatment guidelines specific for PPSRCC do not exist in the literature, and treatment is guided by existing literature on pancreatic adenocarcinoma. Herein, we describe a case of a nonmetastatic PPSRCC in a 45-year-old female treated with classic pancreatoduodenectomy.",
+            "cite_spans": [
+                {
+                    "start": 135,
+                    "end": 136,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 321,
+                    "end": 322,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 506,
+                    "end": 507,
+                    "text": "2",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 647,
+                    "end": 648,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1104,
+                    "end": 1105,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1276,
+                    "end": 1277,
+                    "text": "5",
+                    "ref_id": null
+                },
+                {
+                    "start": 1412,
+                    "end": 1413,
+                    "text": "6",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "A 45-year-old moderately active female presented to our institution for evaluation and management of a periampullary ulcerated mass consistent with poorly differentiated adenocarcinoma with mucinous and signet ring features. The patient was initially seen at an outside hospital 3 weeks before presentation to us, with symptoms of jaundice, weight loss, vomiting, and worsening abdominal pain with radiation to her back. She underwent a CT scan with intravenous contrast that revealed a 4.6 \u00b7 3.6 cm hypoattenuating mass in the HOP (Figs. 1 and 2). There was probable obstruction and dilation of the common bile duct (CBD). Minimal distension of the pancreatic duct was seen, measuring up to 3.0 mm. The liver showed no focal mass lesions. She subsequently underwent an esophagogastroduodenoscopy with endoscopic ultrasonography and was found to have a periampullary ulcerated mass with invasion into the HOP. She then underwent endoscopic CBD stent placement. Biopsies taken at that time revealed a poorly differentiated adenocarcinoma with a mucinous background and focal signet ring cells. The primary etiology was unclear. The patient's medical history was notable for anxiety, hypertension, hyperlipidemia, and mitral valve prolapse. Her surgical history was notable for prior cesarean section and tubal ligation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Case Report"
+        },
+        {
+            "text": "On presentation to our surgical clinic (through Tele-Health in the setting of the nationwide COVID-19 pandemic), resolving jaundice was suspected. Laboratory studies revealed elevated transaminases, but normal bilirubin levels (total and direct bilirubin of 1.1 and 0.6 mg/dL, respectively). Both carbohydrate antigen (CA) 19-9 and carcinoembryonic antigen (CEA) levels were within the normal range (17 U/mL and 0.9 ng/mL, respectively). The patient was educated regarding her options, which included no operation, bypass alone, surgical resection, chemotherapy, or chemoradiotherapy. Surgical resection was agreed upon and subsequently pursued.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Case Report"
+        },
+        {
+            "text": "After telehealth-assisted preoperative assessment and negative COVID-19 testing, the patient was explored. The duodenum was adherent to the pancreas and mass, and, thus, we felt it was necessary to sacrifice the pylorus and entire duodenum. After resection, reconstruction consisted of an end-to-side invaginated pancreatojejunostomy, end-to-side hepaticojejunostomy, and a retrocolicpositioned end-to-side gastrojejunostomy. 7 Final pathology for the resected pancreatic mass confirmed poorly differentiated (G3) signet-ring cell carcinoma of probable pancreatic origin (Figs. 3 and 4). The greatest dimension of the tumor was 5.6 cm and did not involve the celiac axis, superior mesenteric artery, or common hepatic artery. There was invasion into the peripancreatic soft tissues and duodenal wall.",
+            "cite_spans": [
+                {
+                    "start": 426,
+                    "end": 427,
+                    "text": "7",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Case Report"
+        },
+        {
+            "text": "Eleven of 16 resected specimen lymph nodes were positive for metastatic tumor. All surgical resection margins were reported as negative. The tumor was staged as pT3/pN2/pM0 PPSRCC according to the American Joint Committee on Cancer 8th edition staging system. 8 The tumor had KRAS and TP53 mutations, and immunohistochemical (IHC) analysis of mismatch repair proteins revealed retained expression of MLH1, PMS2, MSH2, and MSH6. Subsequent IHC staining was performed per protocol to identify mucin (MUC) expression, which revealed positive MUC1 and MUC5AC expression, and negative MUC2, MUC4, and MUC6 expression (Figs. 5 and 6). 9 The patient recovered uneventfully and per the Whipple accelerated recovery pathway (WARP protocol). 10 She was discharged home on postoperative day 5 on a full liquid diet. She was quickly advanced to a regular diet and has been progressing well, without any significant complications, as of 2 months postoperatively. She has been seen by a medical oncologist, with plans to initiate adjuvant chemotherapy consisting of modifieddose FOLFIRINOX (mFOLFIRINOX) therapy for an expected duration of 6 months. Germline testing to rule out any DNA damage response deficiencies, such as BRCA and PALB2, was advised and is pending.",
+            "cite_spans": [
+                {
+                    "start": 260,
+                    "end": 261,
+                    "text": "8",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 629,
+                    "end": 630,
+                    "text": "9",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 732,
+                    "end": 734,
+                    "text": "10",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Case Report"
+        },
+        {
+            "text": "PPSRCC of the pancreas is a rarely reported subtype of pancreatic adenocarcinoma with only 10 other case reports found in the literature (Table 1) . [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] A recent study analyzing surveillance, epidemiology, and end results program (SEER) data found 497 cases of PPSRCC from 1973 to 2018. 5 Over 90% of signet ring cell carcinomas (SRCCs) are gastric cancers, and it is estimated that up to 28.2% of primary gastric cancers are in fact SRCCs. 5,21 Less commonly, SRCCs are found in the breast, gallbladder, bladder, and other locations within the gastrointestinal (GI) tract, including the esophagus, colorectum, and pancreas. 21 Within the periampullary region, determining the origin of poorly differentiated malignancies can be difficult, and certain MUC staining techniques can aid in determining the origin. MUC staining was performed on our specimen, which revealed expression of MUC1/MUC5AC and lack of expression of MUC2/4/6. Such an expression pattern, particularly the MUC1+/MUC2-/MUC5AC+ immunophenotype, is characteristic of pancreatic adenocarcinoma (Figs. 5 and 6). 22 Although these findings furthered the supposition that this tissue is pancreatic in origin, it should be noted that this immunophenotype may also be present in cholangiocarcinoma. 22 Although within the periampullary region, cancers of biliary origin are rarer than that of pancreatic origin, a cancer of biliary origin cannot be completely ruled out. 23 Pathologically, SRCC is a highly malignant form of adenocarcinoma that produces abundant amounts of MUC, which push the nucleus to the periphery and generate the characteristic phenotype of the ''signet ring'' cell (Fig. 5) . It is hypothesized that these cells originate from constitutive activation of the ErbB2/ErbB3 pathway, leading to unregulated activity of PI3K/MEK1 and downstream disruption of adherens junction proteins, notably E-Cadherin. 24 This loss of key cell-to-cell interactions has two primary effects in the development of SRCC: (1) formation of a desmoplastic stroma, which facilitates the creation of a tumor growth-enhancing microenvironment, and (2) the generation of the signet ring cell phenotype. It should be noted that the development of a desmoplastic stroma is not unique to SRCC and is in fact characteristic of many carcinomas. However, it is a subsequent mechanism that leads to the generation of the SRCC phenotype, notably constitutive Muc4/ErbB2 interaction. Muc4 is an integral membrane glycoprotein normally located on the basolateral surface of cells that functions to tether membranebound MUCs to the cell membrane. Owing to its location on the basolateral membrane, Muc4 is normally physically separated from the ErbB2 tyrosine kinase typically located on the cell's apical surface. Aberrant interaction of Muc4 with ErbB2 allows for unregulated MUC production and the generation of the signet ring cells. 24, 25 SRCC is histologically defined as >50% signet ring cells in the tumor pathological specimen. 26 The origin of SRCC in the HOP is not well elucidated and several proposed mechanisms exist within the literature. First, given that >90% of SRCCs are of gastric origin, it is suggested that these cancers stem from a heterotopic gastric mucosa nidus in the pancreatic region. 27 Indeed, there are reports of ectopic gastric mucosa in the periampullary region in SRCC. 28 Others suggest that these tumors in the pancreas originate from gastric-type metaplasia to the periampullary region that subsequently develops into a neoplastic pancreatic tumor. This theory stems from reports of gastric metaplasia found near the duodenal bulb of peptic ulcer disease (PUD) patients. It is suggested that increased acidity in the duodenal bulb in PUD patients leads to a metaplastic response in which gastric-type epithelium is protective. 26 The metaplastic response later spreads through the periampullary region to the pancreas, where it acquires neoplastic potential.",
+            "cite_spans": [
+                {
+                    "start": 149,
+                    "end": 153,
+                    "text": "[11]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 154,
+                    "end": 158,
+                    "text": "[12]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 159,
+                    "end": 163,
+                    "text": "[13]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 164,
+                    "end": 168,
+                    "text": "[14]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 169,
+                    "end": 173,
+                    "text": "[15]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 174,
+                    "end": 178,
+                    "text": "[16]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 179,
+                    "end": 183,
+                    "text": "[17]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 184,
+                    "end": 188,
+                    "text": "[18]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 189,
+                    "end": 193,
+                    "text": "[19]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 194,
+                    "end": 198,
+                    "text": "[20]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 671,
+                    "end": 673,
+                    "text": "21",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1124,
+                    "end": 1126,
+                    "text": "22",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1307,
+                    "end": 1309,
+                    "text": "22",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1479,
+                    "end": 1481,
+                    "text": "23",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1933,
+                    "end": 1935,
+                    "text": "24",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 2930,
+                    "end": 2933,
+                    "text": "24,",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 2934,
+                    "end": 2936,
+                    "text": "25",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 3030,
+                    "end": 3032,
+                    "text": "26",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 3308,
+                    "end": 3310,
+                    "text": "27",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 3400,
+                    "end": 3402,
+                    "text": "28",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 3860,
+                    "end": 3862,
+                    "text": "26",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 137,
+                    "end": 146,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 1697,
+                    "end": 1705,
+                    "text": "(Fig. 5)",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "A recent study analyzing SEER data from 1973 to 2013 found 497 total cases of PPSRCC, 247 (49.7%) specifically in the HOP. 5 Compared with other forms of primary pancreatic cancer, this gives PPSRCC a prevalence of <1%. The most common form of pancreatic cancer is pancreatic adenocarcinoma (85.8% of pancreatic cancers); as such, it is useful to draw comparisons between PPSRCC and pancreatic adenocarcinoma. 3 PPSRCC was shown to have a 5-year overall survival (OS) of *4% (compared with 9% in pancreatic adenocarcinoma). PPSRCC was less likely to present as a localized disease than pancreatic adenocarcinoma (3.0% vs. 11%), and more likely to present with distant disease (69.4% vs. 52%). Distant disease at the time of presentation was shown to portend a 62.2% decrease in overall survival when compared with localized/regional tumors. The median ages of presentation for SRCCs appear to drastically vary based on the primary organ, ranging from 40 to 70 years old. In relation to the pancreas, PPSRCC had a median age of presentation of 68 years, slightly younger than the 70-year-old median age of presentation of pancreatic adenocarcinoma. 5 No research to date has compared levels of blood tumor markers in PPSRCC, such as CA 19-9 and CEA, with other forms of pancreatic cancer. However, existing case reports suggest that reporting is inconsistent and that levels can be highly variable at presentation (Table 1) .",
+            "cite_spans": [
+                {
+                    "start": 410,
+                    "end": 411,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1413,
+                    "end": 1422,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "Although comprehensive literature regarding treatment of PPSRCC is sparse, SEER data do provide information on whether reported PPSRCCs were treated with pancreatectomy, external beam radiation therapy (EBRT), or both. Localized/regional disease showed improved OS when treated with pancreatectomy or pancre-atectomy+EBRT. No effect was noted for EBRT alone. Distant disease showed improved OS with pancreatectomy, pancreatectomy+EBRT, and EBRT alone. Indeed, studies in patients with metastatic disease from the breast, prostate, and kidney have shown that resection and radiotherapy can independently predict improved survival. [29] [30] [31] Unfortunately, SEER data do not currently report the use of concurrent chemotherapy. Given that chemotherapy and radiation therapy are often coadministered in the treatment of pancreatic adenocarcinoma, it is suggested that the isolated improvement in OS of distant disease patients treated with EBRT alone could be at least partially due to contaminant use of chemotherapy. 5, 32 Moreover, it remains difficult to draw conclusions regarding PPSRCC treatment from this analysis given that therapies have considerably improved from 1973, the starting year for this particular cohort. The only stratified temporal analysis done with this cohort combined all localized, regional, and metastatic PPSRCC tumors from 2000 to 2013 and reported that all three treatment modalities (EBRT, pancreatectomy, and pancreatecto-my+EBRT) independently improved OS. However, this analysis has significant drawbacks, as localized, regional, and metastatic tumors have considerable differences in clinical outcomes. Unfortunately, this is the only comprehensive analysis of PPSRCC to date. 5 Given the lack of robust recent data regarding PPSRCC, such a discussion about therapy and survival is only hypothetical.",
+            "cite_spans": [
+                {
+                    "start": 630,
+                    "end": 634,
+                    "text": "[29]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 635,
+                    "end": 639,
+                    "text": "[30]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 640,
+                    "end": 644,
+                    "text": "[31]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 1023,
+                    "end": 1025,
+                    "text": "32",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Surgical resection is currently the only potentially curative treatment for pancreatic cancer. 32 Unfortunately, it is estimated that only *26% of all pancreatic cancers are regarded as curative surgery candidates, and National Cancer Database analyses have shown that only 30% to 40% of stage 1 pancreatic cancer patients undergo surgical resection. 33 Patients with high risk of recurrence postresection are typically started on an adjuvant chemotherapy regime. Robust data on the use of adjuvant chemotherapy exist for pancreatic adenocarcinoma but are lacking for other histopathological subtypes, including PPSRCC. Table 1 demonstrates this lack of PPSRCC treatment guideline data by displaying the varying treatment strategies implored across the existing case reports. Various adjuvant chemotherapy regimens for pancreatic adenocarcinoma have been investigated, and large-scale studies have identified that combination adjuvant therapies have increased benefits compared with that of monotherapies. 34 Specifically, in 2018, the Canadian Cancer Trails Group and the Unicancer GI-PRODIGE Group conducted a multicenter international randomized phase III trial comparing gemcitabine monotherapy with FOLFIRINOX as an adjuvant treatment. 35 The FOLFIRINOX group showed improved median OS (54.4 months vs. 35.0 months). Based on this literature, and the fact that PPSRCC is indeed a subtype of pancreatic adenocarcinoma, our patient was recommended for treatment with adjuvant mFOLFIRINOX for 6 months.",
+            "cite_spans": [
+                {
+                    "start": 95,
+                    "end": 97,
+                    "text": "32",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 351,
+                    "end": 353,
+                    "text": "33",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 1006,
+                    "end": 1008,
+                    "text": "34",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 1241,
+                    "end": 1243,
+                    "text": "35",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 620,
+                    "end": 627,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "Given the paucity of PPSRCC, it is difficult to expect evidence-based treatment guidelines specifically for PPSRCC in the near future. However, SRCC of the GI tract, specifically gastric SRCC, is much more commonly reported, and future research into the pathogenesis of GI SRCC could offer therapeutic targets that can eventually be studied in PPSRCC.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Beyond resection, there is still no overall consensus for perioperative chemotherapeutic management of gastric SRCC. 36 Gastric SRCC was classically thought to be less ''chemosensitive'' than other forms of gastric cancer. However, this literature was largely based on treatment with 5-fluorouricil and platinum-based therapies, and recent literature suggests that gastric SRCC may be uniquely chemosensitive to taxane-based therapy. 36, 37 Given that gastric and pancreatic SRCCs share a common pathogenesis, it can be posited that, similar to gastric SRCC, PPSRCC may be less chemosensitive to the above-mentioned adjuvant chemotherapies studied in pancreatic cancer literature.",
+            "cite_spans": [
+                {
+                    "start": 117,
+                    "end": 119,
+                    "text": "36",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 434,
+                    "end": 437,
+                    "text": "36,",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 438,
+                    "end": 440,
+                    "text": "37",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Given the complex molecular signaling cascades involved in the development of the signet ring phenotype, current research in chemical inhibitors and small-interfering RNA that target varying parts of this pathology is promising. 38 Such therapies are experimental at this point and would likely have to demonstrate efficacy in gastric SRCC before demonstrating efficacy in PPSRCC. Further research into targetable parts of the GI, specifically gastric, SRCC pathogenesis is needed to advance the eventual development of PPSRCC therapeutic research.",
+            "cite_spans": [
+                {
+                    "start": 229,
+                    "end": 231,
+                    "text": "38",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "PPSRCC is a rare form pancreatic cancer that is more likely to present as distant disease than other pancreatic cancers. Sparse reporting and overall paucity of PPSRCC have resulted in a failure to adequately study this cancer, causing treatment to be guided by literature not specific to PPSRCC. More rigorous research into the pathogenesis of GI SRCCs as a whole is needed into others to develop targeted therapeutic strategies that can eventually be studied in PPSRCC.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Cancer Facts and Figures 2020",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "The anatomic location of pancreatic cancer is a prognostic factor for survival",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Artinyan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Soriano",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Prendergast",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "HPB (Oxford)",
+            "volume": "10",
+            "issn": "",
+            "pages": "371--376",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Characteristics and outcomes of pancreatic cancer by histological subtypes",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Gong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Pancreas",
+            "volume": "48",
+            "issn": "",
+            "pages": "817--822",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Pancreatic cancer: a review of clinical diagnosis, epidemiology, treatment and outcomes",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mcguigan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Kelly",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Turkington",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "World J Gastroenterol",
+            "volume": "24",
+            "issn": "",
+            "pages": "4846--4861",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The impact of epidemiological factors and treatment interventions on survival in patients with signet ring cell carcinoma of the pancreas",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Patel",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hans",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Am J Clin Oncol",
+            "volume": "41",
+            "issn": "",
+            "pages": "1176--1184",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Digestive System Tumours: WHO Classification of Tumours",
+            "authors": [],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Reconstruction following the pylorus preserving Whipple resection: PJ, HJ, and DJ",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Kennedy",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Brumbaugh",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Yeo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J Gastrointest Surg",
+            "volume": "14",
+            "issn": "",
+            "pages": "408--415",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "AJCC Cancer Staging Manual",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Amin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Edge",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Greene",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "MUC4 (8G7) Mouse Monoclonal Antibody",
+            "authors": [],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Enhancing patient outcomes while containing costs after complex abdominal operation: a randomized controlled trial of the Whipple accelerated recovery pathway",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Lavu",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mccall",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Winter",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Am Coll Surg",
+            "volume": "228",
+            "issn": "",
+            "pages": "415--424",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Signet ring carcinoma of the pancreas, a rare variant with very high CEA values. Immunohistologic comparison with adenocarcinoma",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Tracey",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "O&apos;brien",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Williams",
+                    "suffix": ""
+                }
+            ],
+            "year": 1984,
+            "venue": "Dig Dis Sci",
+            "volume": "29",
+            "issn": "",
+            "pages": "573--576",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Signet-ring mucinous adenocarcinoma of the pancreas",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Chow",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chow",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "Chin Med Sci J",
+            "volume": "9",
+            "issn": "",
+            "pages": "176--178",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Rare primary signet ring carcinoma of the pancreas",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Mcarthur",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Fiorella",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Saran",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "Mo Med",
+            "volume": "92",
+            "issn": "",
+            "pages": "298--302",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Signet ring cell carcinoma of the pancreas: a case report",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Marcy",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Chetaille",
+                    "suffix": ""
+                },
+                {
+                    "first": "Charafe-Jauffret",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Ann Pathol",
+            "volume": "22",
+            "issn": "",
+            "pages": "314--316",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Primary signet-ring cell carcinoma of the pancreas diagnosed by endoscopic retrograde pancreatic duct biopsy: a case report with an immunohistochemical study",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Terada",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Endoscopy",
+            "volume": "44",
+            "issn": "",
+            "pages": "141--142",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Signet ring cell carcinoma of both colon and pancreas",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Karaahmet",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Basar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Coban",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Gastrointest Cancer",
+            "volume": "46",
+            "issn": "",
+            "pages": "445--446",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "A patient with signet ring cell carcinoma of the pancreas with a prolonged course: a case report",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Nauta",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Knoester",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Van Zanten",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "JOP",
+            "volume": "17",
+            "issn": "",
+            "pages": "313--315",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Primary signet ring cell carcinoma of the pancreas with a good response to chemotherapy: case report and literature review",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Radojkovic",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ilic",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Ilic",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Tumori",
+            "volume": "103",
+            "issn": "",
+            "pages": "50--52",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Poorly differentiated signet ring cell carcinoma of pancreas masquerading as chronic pancreatitis",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Yepuri",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Naous",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Richards",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Surg Case Rep",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Primary signet ring cell carcinoma of the pancreatic head: a case report",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Alexander",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Rashid",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hollis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Clin Case Rep",
+            "volume": "7",
+            "issn": "",
+            "pages": "2235--2238",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Survival in signet ring cell carcinoma varies based on primary tumor location: a Surveillance, Epidemiology, and End Results database analysis",
+            "authors": [
+                {
+                    "first": "S-G",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X-T",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "W-W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Expert Rev Gastroenterol Hepatol",
+            "volume": "12",
+            "issn": "",
+            "pages": "209--214",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Differential expression of MUC1, MUC2, and MUC5AC in carcinomas of various sites: an immunohistochemical study",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Weiss",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Chu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Am J Clin Pathol",
+            "volume": "122",
+            "issn": "",
+            "pages": "61--69",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Incidence and comparative outcomes of periampullary cancer: a population-based analysis demonstrating improved outcomes and increased use of adjuvant therapy from 2004 to 2012",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hester",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Dogeas",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Augustine",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Surg Oncol",
+            "volume": "119",
+            "issn": "",
+            "pages": "303--317",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Mechanisms behind signet ring cell carcinoma formation",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Fukui",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Biochem Biophys Res Commun",
+            "volume": "450",
+            "issn": "",
+            "pages": "1231--1233",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Muc4 is required for activation of ErbB2 in signet ring carcinoma cell lines",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Yokoyama",
+                    "suffix": ""
+                },
+                {
+                    "first": "B-H",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kawai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Biochem Biophys Res Commun",
+            "volume": "355",
+            "issn": "",
+            "pages": "200--203",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Signet ring cell carcinoma of the ampulla of Vater: immunophenotype and differentiation",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wen",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Oncol Lett",
+            "volume": "8",
+            "issn": "",
+            "pages": "1687--1692",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Signet ring cell carcinoma of the ampulla of vater: report of a case and a review of the literature",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wakasugi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tanemura",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Furukawa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Int J Surg Case Rep",
+            "volume": "12",
+            "issn": "",
+            "pages": "108--111",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Signet-ring-cell carcinoma of the Vater's ampulla",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ramia",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mansilla",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Villar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "JOP",
+            "volume": "5",
+            "issn": "",
+            "pages": "495--497",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Radical prostatectomy or external beam radiation therapy vs no local therapy for survival benefit in metastatic prostate cancer: a SEER-medicare analysis",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Satkunasivam",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Desai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Urol",
+            "volume": "194",
+            "issn": "",
+            "pages": "378--385",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Can locoregional treatment of the primary tumor improve outcomes for women with stage IV breast cancer at diagnosis?",
+            "authors": [
+                {
+                    "first": "Dha",
+                    "middle": [],
+                    "last": "Nguyen",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Truong",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lesperance",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Int J Radiat Oncol Biol Phys",
+            "volume": "29",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Radical nephrectomy plus interferon-alfa-based immunotherapy compared with interferon alfa alone in metastatic renal-cell carcinoma: a randomised trial",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Mickisch",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Garin",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Van Poppel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Lancet",
+            "volume": "358",
+            "issn": "",
+            "pages": "966--970",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Pancreatic cancer",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kamisawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Wood",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Itoi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Lancet",
+            "volume": "388",
+            "issn": "",
+            "pages": "73--85",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Neoadjuvant therapy and pancreatic cancer: a national cancer database analysis",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Shridhar",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Takahashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Huston",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Gastrointest Oncol",
+            "volume": "10",
+            "issn": "",
+            "pages": "663--673",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Chemotherapy and radiotherapy for advanced pancreatic cancer",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Chin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nagrial",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Sjoquist",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Cochrane Database Syst Rev",
+            "volume": "3",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "FOLFIRINOX or gemcitabine as adjuvant therapy for pancreatic cancer",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Conroy",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Hammel",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hebbar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "N Engl J Med",
+            "volume": "379",
+            "issn": "",
+            "pages": "2395--2406",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "State of the art for gastric signet ring cell carcinoma: from classification, prognosis, and genomic characteristics to specified treatments",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Machlowska",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Pucu1ek",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sitarz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Cancer Manag Res",
+            "volume": "11",
+            "issn": "",
+            "pages": "2151--2161",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Benchmarking of gastric cancer sensitivity to anti-cancer drugs ex vivo as a basis for drug selection in systemic and intraperitoneal therapy",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hultman",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Mahteme",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sundbom",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J Exp Clin Cancer Res",
+            "volume": "33",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "The clinicopathological characteristics and genetic alterations of signet-ring cell carcinoma in gastric cancer",
+            "authors": [
+                {
+                    "first": "K-H",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M-H",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "W-L",
+                    "middle": [],
+                    "last": "Fang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cancers (Basel)",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Axial CT image revealing mass in the HOP with CBD (arrowhead) and pancreatic duct (arrow) dilation up to 14 and 3 mm, respectively. CBD, common bile duct; HOP, head of the pancreas.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Coronal CT image revealing a 4.6 cm by 3.6 cm hypoattenuating mass (arrow) in the HOP.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Histology image of resected PPSRCC specimen with characteristic signet ring cells (arrows) comprising >50% of resected specimen. Hematoxylin and eosin stain. 100 \u00b7 magnification. PPSRCC, primary pancreatic signet ring cell carcinoma. FIG. 4. Histology image of resected PPSRCC specimen (left) with emphasis on characteristic signet ring cell (arrow on left, right). Hematoxylin and eosin stain. 400 \u00b7 magnification.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "IHC staining of resected PPSRCC specimen demonstrating positive MUC1 expression. 200 \u00b7 magnification. IHC, immunohistochemical; MUC, mucin. FIG. 6. IHC staining of resected PPSRCC specimen demonstrating positive MUC5AC expression. 200 \u00b7 magnification.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Patient Demographics, Laboratory Results, Treatment, and Follow-Up from Existing Case Reports of Primary Pancreatic Signet Ring Cell Carcinoma CA, carbohydrate antigen; CEA, carcinoembryonic antigen; mFOLFIRINOX, modified-dose FOLFIRINOX; n/a, not applicable; PPSRCC, primary pancreatic signet ring cell carcinoma; pt, patient; SRCC, signet ring cell carcinoma; WNL, within normal limits.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We thank Dr. Peter McCue (Director of Surgical Pathology, Thomas Jefferson University) for his contributions regarding tumor immunohistochemistry and classification.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgment"
+        },
+        {
+            "text": "No competing financial interests exist.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Author Disclosure Statement"
+        },
+        {
+            "text": "No funding was received.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding Information"
+        },
+        {
+            "text": "Cite this article as: Campbell DJ, Isch EL, Kozak GM, Yeo CJ (2021) Primary pancreatic signet ring cell carcinoma: a case report and review of the literature, Journal of Pancreatic Cancer 7:1, 1-7, DOI: 10.1089/pancan.2020.0013. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "annex"
+        }
+    ]
+}

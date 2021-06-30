@@ -1,0 +1,1427 @@
+{
+    "paper_id": "00ef49176ab3215f851f845fdcde1ebc4e2c1c1a",
+    "metadata": {
+        "title": "Improved algorithms for non-adaptive group testing with consecutive positives",
+        "authors": [
+            {
+                "first": "Thach",
+                "middle": [
+                    "V"
+                ],
+                "last": "Bui",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Cheraghchi",
+                "middle": [
+                    "\u2020"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Thuc",
+                "middle": [
+                    "D"
+                ],
+                "last": "Nguyen",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The goal of group testing is to efficiently identify a few specific items, called positives, in a large population of items via tests. A test is an action on a subset of items which returns positive if the subset contains at least one positive and negative otherwise. In non-adaptive group testing, all tests are independent, can be performed in parallel and represented as a measurement matrix. In this work, we consider non-adaptive group testing with consecutive positives in which the items are linearly ordered and the positives are consecutive in that order.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "We proposed two improved algorithms for efficiently identifying consecutive positives. In particular, without storing measurement matrices, we can identify up to d consecutive positives with 2 log 2 n d + 2d (4 log 2 n d + 2d, resp.) tests in O log 2 2 n d + d (O log 2 n d + d , resp.) time. These results significantly improve the state-of-the-art scheme in which it takes 5 log 2 n d + 2d + 21 tests to identify the positives in O n d log 2 n d + d 2 time with the measurement matrices associated with the scheme stored somewhere.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The goal of group testing (GT) is to efficiently identify up to d positive items in a large population of n items. Positive items satisfy some specific properties while negative items do not. Emerged by the seminal work of Dorfman [1] in World War II, GT was considered as an efficient way to save time and money in identifying syphilitic draftees among a large population of draftees. Currently, with the ongoing Covid-19 pandemic since 2019, GT has been found to be an efficient tool for mass testing to identify infected persons [2] , [3] . The strategy of GT is as follows. Instead of testing each item one by one to verify whether it is positive or negative, a group of items is pooled then tested. In the noiseless setting, the outcome of a test on a group of items is positive if the group has at least one positive and negative otherwise.",
+            "cite_spans": [
+                {
+                    "start": 231,
+                    "end": 234,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 532,
+                    "end": 535,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 538,
+                    "end": 541,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION A. Group testing"
+        },
+        {
+            "text": "There are two basic approaches to designing tests. The first is adaptive group testing in which the design of a test depends on the designs of the previous tests. This approach usually attains informationtheoretic bounds on the number of tests required; however, it takes much time because of multiple stages. To remedy this drawback, the second approach, which is non-adaptive group testing (NAGT), is to design all tests independently such that they can be performed simultaneously. NAGT has been widely applied in various fields such as computational and molecular biology [4] , networking [5] , and neuroscience [6] . The focus of the work reported here is on the second approach, i.e., NAGT.",
+            "cite_spans": [
+                {
+                    "start": 576,
+                    "end": 579,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 593,
+                    "end": 596,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 616,
+                    "end": 619,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION A. Group testing"
+        },
+        {
+            "text": "NAGT can be represented by a measurement matrix indicating how a test should be executed in which the number of rows and the number of columns are the number of items and the number of tests, respectively. An entry at row i and column j equals to 1 indicates that the jth item in the input set belongs to test i and the jth item in the input set does not belong to test i otherwise. The procedure to get the matrix is called construction, the procedure to get the outcomes of all tests using the measurement matrix is called encoding, and the procedure to get the positive items from the outcomes is called decoding. Note that the encoding procedure includes the construction procedure.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION A. Group testing"
+        },
+        {
+            "text": "A measurement matrix is random if it satisfies the preconditions after the construction procedure with some probability. Meanwhile, a measurement matrix is explicit if it can be constructed in poly(d, n) time. However, random and explicit matrices are not good in practice because they are usually to be saved somewhere before using. A matrix being a good fit in practice is strongly explicit in which every column in the matrix can be generated in poly(d, log n) time. This implies that it is unnecessary to store the matrix. Nonetheless, an explicit matrix can be generated by using or not using probability. In the latter case, the matrix is nonrandom.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION A. Group testing"
+        },
+        {
+            "text": "There are two main requirements to tackle group testing: minimize the number of tests and efficiently identify the set of positive items. To combinatorial GT, i.e., up to d positives items are uniformly distributed in a population of n items, it requires at least \u2126(d 2 log (n/d))) tests to identify all positive items [4] in the non-adaptive design. Porat and Rothschild [7] could construct an explicit measurement matrix with O(d 2 ln n) rows. However, their construction is not associated with any efficient (sublinear to n) decoding algorithm. To have an efficient decoding algorithm, namely poly(d, ln n), while keeping the number of tests as small as possible, namely O(d 1+o(1) ln 1+o(1) n), several schemes have been proposed [8] - [12] . Recently, Bondorf et al. [13] presented a bit mixing coding that achieves asymptotically vanishing error probability with O(d log n) tests to identify defective items in time O(d 2 log d \u00b7 log n) as n \u2192 \u221e. For further reading, we recommend readers to refer to the survey in [14] .",
+            "cite_spans": [
+                {
+                    "start": 319,
+                    "end": 322,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 372,
+                    "end": 375,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 734,
+                    "end": 737,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 740,
+                    "end": 744,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 772,
+                    "end": 776,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1021,
+                    "end": 1025,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION A. Group testing"
+        },
+        {
+            "text": "Colbourn [15] firstly considered a specific case of group testing called group testing with consecutive positives in which the input items are linearly ordered and the positives are consecutive in that order. Suppose that the number of items is n, the population of items contains only consecutive positives, and the number of positives is up to d. In this setting, the number of tests required can be reduced to O(log(dn) + c) and O log 2 n d\u22121 + d for adaptive and non-adaptive designs, respectively, which is much smaller than the bounds O(d log n) and \u2126(d 2 log n/d)) in combinatorial group testing, where c is some positive constant. Juan and Chang [16] could make the number of tests fall in a very tight interval [ log 2 (dn) \u2212 1, log 2 (dn) + 1] in adaptive approach.",
+            "cite_spans": [
+                {
+                    "start": 9,
+                    "end": 13,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 654,
+                    "end": 658,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "B. Group testing with consecutive positives"
+        },
+        {
+            "text": "With non-adaptive approach, Muller and Jimbo [17] considered the case d = 2 and could construct an explicit measurement matrix with log 2 n d\u22121 + 2d + 1 rows and n columns. Unfortunately, neither Colbourn nor Muller and Jimbo showed how to efficiently identify positives by using their proposed measurement matrices. Chang et al. [18] later used random measurement matrices with 5 log 2 n d + 2d + 21 rows (tests) to identify all positives in time O n d log 2 n d + d 2 . The focus of this work is on non-adaptive group testing with consecutive positives. For informationtheoretic bound, Colbourn [15] showed that any group testing method must employ at least log 2 (nd) \u2212 1 tests. On the other hand, he also showed the minimum number of tests required in any non-adaptive group testing with up to d consecutive positives is d \u2212 1. Therefore, the minimum number of tests in non-adaptive group testing with up to d consecutive positives is max{log 2 (nd) \u2212 1, d \u2212 1}.",
+            "cite_spans": [
+                {
+                    "start": 45,
+                    "end": 49,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 330,
+                    "end": 334,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 597,
+                    "end": 601,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "B. Group testing with consecutive positives"
+        },
+        {
+            "text": "We have reduced the number of tests and the decoding complexity without storing measurement matrices for efficiently identifying up to d consecutive positives. In particular, without storing measurement matrices, we can identify up to d consecutive positives with 2 log 2 n d +2d (4 log 2 n d +2d, resp.) tests in O log 2 2 n d + d (O log 2 n d + d , resp.) time. These results significantly improve the state-of-the-art scheme in which it takes 5 log 2 n d + 2d + 21 tests to identify the positives in O n d log 2 n d + d 2 time with the measurement matrices associated with the scheme stored somewhere. Note that the decoding complexity in [18] is linear to the number of items while ours is sublinear. A summary of our comparison is shown in Table I [15] \u2264 d Adaptive Not available log 2 (dn) + c t stages Juan and Chang [16] \u2264 d Adaptive Not available log 2 (dn) \u2212 1 \u2264 t \u2264 log 2 (dn) + 1 t stages Colbourn [15] \u2264 D. General idea of improved algorithms Although our improved algorithms reflect Colbourn's strategy [15] , we refine every technical details to attain efficient encoding and decoding procedures. More importantly, Colbourn only designed measurement matrices but decoding procedures. Here, we propose two improved algorithms to identify up to d consecutive positives.",
+            "cite_spans": [
+                {
+                    "start": 642,
+                    "end": 646,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 753,
+                    "end": 757,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 824,
+                    "end": 828,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 910,
+                    "end": 914,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1017,
+                    "end": 1021,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 745,
+                    "end": 752,
+                    "text": "Table I",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "C. Contributions"
+        },
+        {
+            "text": "Colbourn's strategy consists of two simultaneous phases. In the first phase, the author partitioned the n (linearly ordered) items into subpools in which we here call them super items such that there are up to two super positive items and if two super items are positive, they are consecutive. Hence, the objective of this phase is to locate the super positive items among the (linearly ordered) super items. In the second phase, with careful design of measurement matrices, the true positives can be identified based on the location of the super positive items.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "C. Contributions"
+        },
+        {
+            "text": "Our improved algorithms are described here and more details with illustrations are presented in Section IV. We first create super items with linear order in which each super item contains exactly d consecutive items. Specifically, the jth super item contains items indexed from (j \u2212 1)d + 1 to jd, for 1 \u2264 j \u2264 n/d. Naturally, a super item is positive if it contains at least one positive item and negative otherwise.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "C. Contributions"
+        },
+        {
+            "text": "Our improved algorithms are based on two inseparable compartments: the linear order of the input items which contain consecutive positives and nonrandom matrices designed based on that linear order. For the first phase, from the original set of items N = {1, 2, . . . , n}, we generate a subset (or two subsets) of super items with linear order and their corresponding measurement matrix (matrices). For the second phase, we simply generate a 2d \u00d7 n measurement matrix by horizontally placing 2d \u00d7 2d identity matrices in a series such that when the super positive items are located, every item contained in these super positive items is identified as positive or negative by utilizing it.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "C. Contributions"
+        },
+        {
+            "text": "The decoding procedure is as follows. By using the input set(s) of super items with their corresponding measurement matrix (matrices), given an outcome vector(s) generated from them, we can recover up to two super positive items, i.e., there are up to 2d potential positives after using super items. Because the measurement matrix associated with the set of n items is composed by a series of 2d \u00d7 2d identity matrices, we finally can locate which potential positive is truly positive.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "C. Contributions"
+        },
+        {
+            "text": "II. PRELIMINARIES For simplicity, we assume n is divisible by d, i.e., n = kd for some positive integer k 1 . Any set C = {c 1 , . . . , c k } used in this work is equipped with the linear order c i \u227a c i+1 for 1 \u2264 i < k, where \u227a is the linear order notation. There are n items indexed from 1 to n. Two sets of items are considered throughout this paper, which are N = {1, 2, . . . , n} and P = {2, 3, . . . , n}. We should keep in mind that the index of an item may be different to its position in a set of items containing it, i.e., the jth item in a set may be not item j. Precisely, the position of an item in N is identical to its index. However, the position of an item in P is one unit smaller than to its index. For example, let us consider two sets N = {1, 2, 3, 4} and P = {2, 3, 4} for n = 4. The position of item 2 in set N is 2, which is identical to the index of item 2, but its position in set P is 1.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "C. Contributions"
+        },
+        {
+            "text": "For consistency, we use capital calligraphic letters for matrices, non-capital letters for scalars, bold letters for vectors, and capital letters for sets. All matrix and vector entries are binary. Let",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A. Notations"
+        },
+        {
+            "text": "The main notations are as follows:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A. Notations"
+        },
+        {
+            "text": "1) n, d, x = (x 1 , . . . , x n ) T : number of items, maximum number of defective items, binary representation of n items.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A. Notations"
+        },
+        {
+            "text": "We index the population of n items from 1 to n. Let N = [n] = {1, 2, . . . , n} and S be the defective set, where |S| \u2264 d. A test is defined by a subset of items P \u2286 [n]. A pool with a negative (positive) outcome is called a negative (positive) pool. The outcome of a test on a subset of items is positive if the subset contains at least one defective item, is negative otherwise.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B. Problem definition"
+        },
+        {
+            "text": "We can model non-adaptive group testing as follows. A t \u00d7 n binary matrix T = (t ij ) is defined as a measurement matrix, where n is the number of items and t is the number of tests. Vector x = (x 1 , . . . , x n ) T is the binary representation vector of n items, where |x| = n j=1 x j \u2264 d. An entry x j = 1 indicates that item j is defective, and x j = 0 indicates otherwise. The jth item corresponds to the jth column of the matrix. An entry t ij = 1 naturally means that item j belongs to test i, and t ij = 0 means otherwise. The outcome of all tests is y = (y 1 , . . . , y t ) T , where y i = 1 if test i is positive and y i = 0 otherwise. The procedure used to get outcome vector y is called encoding. The procedure used to identify defective items from y is called decoding. Outcome vector y is given by",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B. Problem definition"
+        },
+        {
+            "text": "where is a notation for the test operation in non-adaptive group testing; namely,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B. Problem definition"
+        },
+        {
+            "text": "Our objective is to find an efficient encoding and decoding scheme to identify up to d consecutive positives in non-adaptive group testing. Precisely, our task is to minimize the number of rows in matrix T and the time for recovering x from y by using T .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B. Problem definition"
+        },
+        {
+            "text": "Our objective is to identify positives in a set of items which contains exactly two consecutive positives or up to one positive. The basic idea of our proposed scheme is to exploit the structure of a nonrandom measurement matrix and the linear order of n items. We create a nonrandom measurement matrix such that the union of any two consecutive columns in it is different from the union of other two consecutive columns. Based on this property and the measurement matrix structure, we carefully develop a decoding scheme whose decoding time is up to the square of the number of measurements.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "III. IDENTIFICATION OF TWO CONSECUTIVE POSITIVES A. Overview"
+        },
+        {
+            "text": "The first encoding and decoding procedures to identify two consecutive positives or up to one positive are described in Algorithm 1 and summarized in Lemma 1.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "III. IDENTIFICATION OF TWO CONSECUTIVE POSITIVES A. Overview"
+        },
+        {
+            "text": "Lemma 1. Let n be a positive integer and N = {1, 2, . . . , n} be the set of linearly ordered items. Then there exists a nonrandom 2 log n \u00d7 n measurement matrix such that:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "III. IDENTIFICATION OF TWO CONSECUTIVE POSITIVES A. Overview"
+        },
+        {
+            "text": "\u2022 If N has exactly two positives which are consecutive and the index of the first positive is 1 \u2264 a \u2264 n\u22121, the two positives can be identified with s = 2 log n tests in s time if a is odd and in s 2 = O(log 2 n) time if a is even. \u2022 If N has up to one positive, the decoding complexity is s = 2 log n .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "III. IDENTIFICATION OF TWO CONSECUTIVE POSITIVES A. Overview"
+        },
+        {
+            "text": "Since the decoding complexity in Lemma 1 is O(log 2 n) which is larger O(log n), our next objective is to design an encoding procedure such that its decoding complexity is just O(log n) by exploiting properties of consecutive positives. Lemma 1 tells us that if the index of the first positive in a measurement matrix, which is also its position in set N , is odd, it can be identified in time O(log n). Therefore, thanks to the linear order of the input set, we can remove the first item in N to create P and assure that the position of the first positive in P is odd in case its position in N is even. In particular, it is possible to construct two measurement matrices of size s \u00d7 n and s \u00d7 (n \u2212 1) such that item j \u2265 2 is represented by column j and column j \u2212 1 in the first and second matrices, respectively, where s = 2 log n . As a result, we only need 2s tests to recover the two consecutive positive in 2s time. This idea is summarized as follows.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "III. IDENTIFICATION OF TWO CONSECUTIVE POSITIVES A. Overview"
+        },
+        {
+            "text": "Lemma 2. Let n be a positive integer and N = {1, 2, . . . , n} be the set of linearly ordered items. There exist two nonrandom measurement matrices with size of 2 log n \u00d7 n and 2 log n \u00d7 (n \u2212 1) such that if N has exactly two positives which are consecutive or has up to one positive, they can be identified with s = 4 log n tests in s time.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "III. IDENTIFICATION OF TWO CONSECUTIVE POSITIVES A. Overview"
+        },
+        {
+            "text": "Let S be an s \u00d7 n measurement matrix associated with the input set of items N = {1, 2, . . . , n}:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B. First encoding procedure"
+        },
+        {
+            "text": "where s = 2 log n , b j is the log n -bit binary representation of integer j \u2212 1, b j is the complement of b j , and S j := b j b j for j = 1, 2, . . . , n. Column S j represents for the jth item of N and that the weight of every column in S is s/2 = log n . Furthermore, the jth item of N , which is also item j, is uniquely identified by b j . For example, if we set n = 8, s = 2 log n = 6, and the matrix in (2) becomes:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B. First encoding procedure"
+        },
+        {
+            "text": "Let s = (s 1 , . . . , s n ) T be a binary representation vector of set N in which an entry s j = 1 indicates that the jth item in the set N is positive and s j = 0 indicates otherwise. The outcome vector by performing tests on the input set of items N and its measurement matrix S is y = S s.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B. First encoding procedure"
+        },
+        {
+            "text": "The decoding procedure is summarized in Algorithm 1. Steps 1 to 3 are to identify whether there are no positives in the input set. If there exists at least one positive, we will proceed to Step 4. Steps 4 to 7 are to verify whether there is only one positive in the input set. From Step 8, it suffices to say that the input set has exactly two consecutive positives.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "C. First decoding procedure"
+        },
+        {
+            "text": "Step 8 is to initialize vector z which is presumed to be b a \u2228 b a+1 for some integer 1 \u2264 a \u2264 n \u2212 1 by using the outcome vector y and Step 9 is to calculate that a. Because b a is the log n -bit binary representation of integer j \u2212 1, we shift a one unit to a + 1 for simple representation in later steps. Once a is odd, Steps 10 to 11 are to recover a. However, if a is even, we have to scan every possibility of odd numbers generated from y by altering one bit in the first half of y. This procedure is done by Steps 13 to 16. Finally, Steps 18 to 20 are simply to verify whether the value a obtained from Step 17 for an alteration is genuinely the index of the first positive. Set z = (y(1), . . . , y(s/2)) T . 15: if y(i) = 1 then 16: Set z(i) = 0.",
+            "cite_spans": [
+                {
+                    "start": 715,
+                    "end": 718,
+                    "text": "15:",
+                    "ref_id": null
+                },
+                {
+                    "start": 736,
+                    "end": 739,
+                    "text": "16:",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "C. First decoding procedure"
+        },
+        {
+            "text": "Calculate index a with the input z. Set a := a + 1.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "17:"
+        },
+        {
+            "text": "if S a \u2228 S a+1 \u2261 y then To prove that matrix S in (2) can be used to identify two positives which are consecutive or up to one positive in a population of n linearly ordered items, we first state the following lemma. Proof. To prove S a \u2261 S b, our task is to show that there exists an index i 0 such that S a (i 0 ) \u2228 S a+1 (i 0 ) = S b (i 0 ) \u2228 S b+1 (i 0 ). Therefore, we have S a \u2261 S b, where a = vecc [n] ({a, a + 1}) and b = vecc [n] ({b, b + 1}). The proof for the existence of i 0 is proceeded as follows. We consider two cases:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "18:"
+        },
+        {
+            "text": "When b a (1) = b b (1), without loss of generality, we assume that b a (1) = 0 and b b (1) = 1. Since b a (1) = 0, we must have b a+1 (1) = 1 and b a (i) = b a+1 (i) for i = 2, . . . , s/2. On the other hand,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "18:"
+        },
+        {
+            "text": "In summary, there exists an index i 0 such that S a (i 0 ) \u2228 S a+1",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "18:"
+        },
+        {
+            "text": "Regarding the case S a \u2261 S b , we prove this by contradiction. Assume S a \u2261 S b , we are going to show that a = a + 1, which is wrong. Indeed, for any i \u2208 [1, s/2], if b a (i) = 0 and b a+1 (i) = 1 or b a (i) = 1 and b a+1 = 0 then b b (i) andb a (i) \u2228b a+1 (i) must equal to 1. However, because b b (i) = 1, we getb b (i) = 0. Because S a \u2261 S b , we must haveb a (i) \u2228b a+1 (i) = 0, which contradicts to the previous argument thatb a (i) \u2228b a+1 (i) = 1. Hence, we have b a (i) = b a+1 (i) for all i \u2208 [1, s/2], i.e., a = a + 1, which is wrong. We thus claim that S a \u2261 S b .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "18:"
+        },
+        {
+            "text": "We are now ready to prove the correctness of Algorithm 1 in identifying up to two unknown consecutive positives.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "18:"
+        },
+        {
+            "text": "It is obvious that if there are no positives in the input set, the condition in Step 1 holds and the algorithm stops at Step 3. If the algorithm proceeds to Step 4, there exists at least one positive in the input set N . Because of Lemma 3, if there is exactly one positive in the input set N , Steps 4 to 7 are to recover the index of that positive.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "18:"
+        },
+        {
+            "text": "If the algorithm proceeds to Step 8, there must be two positives in the input set. Because of Lemma 3, it is clear that there exists only one index a such that y = S a. We now proceed with two scenarios of b a (1): b a (1) = 0, i.e., a is odd, and b a (1) = 1, i.e., a is even. Note that y(1) is always equal to 1 because a = vecc [n] ({a, a + 1}).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "18:"
+        },
+        {
+            "text": "We first assume that b a (1) = 0, i.e., a is odd. In this case, we get b a+1 (1) = 1 and b a (i) = b a+1 (i) for every 2 \u2264 i \u2264 s/2. Moreover, since b a (i) \u2228 b a+1 (i) = y(i), we get b a (i) = y(i) for every 2 \u2264 i \u2264 s/2. Because the first half of b a is already identified, the second half of b a , which is the complement of b a , can be obtained. The last step is to compare whether y is equal to b a \u2228 b a+1 . If this is true then a is identified by using the first half of b a . Otherwise, the assumption b a (1) = 0 is not true and we proceed to the case b a (1) = 1. This phase takes 2s time to complete.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "18:"
+        },
+        {
+            "text": "When b a (1) = 1, i.e., a is even, the decoding procedure becomes more complicated. It works in principle of propagation as follows. We first prove that there exists only one index i such that b a+1 (i ) = 1 and b a (i ) = 0. Indeed, assume that there does not exist such index i or there are more than one index i satisfying the condition. For the former case, we must have b a \u2228 b a+1 = b a , i.e., a + 1 is equal to or smaller than a, causing a wrong fact. For the latter case, we must have a + 1 is larger than a at least 2 0 + 2 1 = 3 units, which is also wrong.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "18:"
+        },
+        {
+            "text": "Because there exists only one index i such that b a+1 (i ) = 1 and b a (i ) = 0, the number of disagreed positions between b a \u2228 b a+1 and b a is just one. Moreover, because y is the union of two consecutive columns S a and S a+1 , there exists an index 2 \u2264 i 0 \u2264 s/2 such that y(i 0 ) = 1 and b a = (y(1), . . . , y(i \u2212 1), 0, y(i + 1), . . . , y(s/2). Based on this fact, we can simply make a decoding procedure for the case b a (1) = 1 as follows. For each i = 1, . . . , s/2, if y(i) = 1, we assign b a as the first half of the vector y with the entry y(i) altered to become 0. We then create the complement vectorb a of b a and its next column S a+1 . If S a \u2228 S a+1 = y, the indexes a and a + 1 are identified and we stop the decoding procedure. The decoding complexity is up to s/2 \u00d7 2s = s 2 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "18:"
+        },
+        {
+            "text": "Matrix S is obviously nonrandom because the jth column of S is the log n -big binary representation of integer j \u2212 1. Steps 1 to 7 are to identify up to one positive and take only 3s time. As analyzed in the preceding subsection, once the input set of items has exactly two positives which are consecutive, if the index of the first positive is odd, Steps 10 and 11 are implemented in s time. If the index of the first positive is even, Step 11 is skipped and Steps 13 to 22 are executed. The running time for these steps is s 2 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "E. Proof of Lemma 1"
+        },
+        {
+            "text": "In summary, there exists a nonrandom 2 log n \u00d7 n measurement matrix such that:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "E. Proof of Lemma 1"
+        },
+        {
+            "text": "\u2022 If N has up to one positive, the decoding complexity is s = 2 log n .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "E. Proof of Lemma 1"
+        },
+        {
+            "text": "\u2022 If N has exactly two positives which are consecutive and the index of the first positive is 1 \u2264 a \u2264 n \u2212 1, the two positives can be identified with s = 2 log n tests in s time if a is odd and in s 2 = O(log 2 n) time if a is even. To reduce the decoding complexity in Algorithm 1, we have to use alternative measurement matrices and decoding procedure. The details are presented below.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "E. Proof of Lemma 1"
+        },
+        {
+            "text": "Let P = {2, . . . , n} be a set of items. Let P be an s \u00d7 (n \u2212 1) measurement matrix:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "F. Second encoding procedure"
+        },
+        {
+            "text": "where s = 2 log n , b j is the log n -bit binary representation of integer j \u2212 1, b j is the complement of b j , and S j := b j b j as the same as defined in (2) for j = 1, 2, . . . , n \u2212 1. Column S j represents for the (j + 1)th item in the set P and that the weight of every column in P is s/2 = log n . Furthermore, the (j + 1)th item in P is uniquely identified by b j . The outcome vector is obtained by performing tests on two distinct pairs of inputs set of items and their corresponding measurement matrices as follows.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "F. Second encoding procedure"
+        },
+        {
+            "text": "where y = S s, w = P p, s = (s 1 , . . . , s n ) T and p = (p 1 , . . . , p n\u22121 ) T are the binary representation vectors of sets N and P , respectively. An entry s j = 1 (p j = 1, resp.) indicates that the jth item in the set N (P , resp.) is positive, and s j = 0 (p j = 0, resp.) indicates otherwise.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "F. Second encoding procedure"
+        },
+        {
+            "text": "The decoding procedure is summarized in Algorithm 2. Steps 1 to 3 are to identify whether there are no positives in the input set. If there exists at least one positive, we will proceed to Step 4. Since there are two measurement matrices associated with two input sets of items, we need two vectors to recover the index(es) of the positive(s) in the two input sets from two outcome vectors. Steps 4 and 12 are to initiate those vectors. Since the first set of items is N = {1, 2, . . . , n}, if there is only one positive present and its index is odd, the condition in Step 6 holds.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "G. Second decoding procedure"
+        },
+        {
+            "text": "Step 7 is naturally to return that index.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "G. Second decoding procedure"
+        },
+        {
+            "text": "If the input set has exactly two consecutive positives, the algorithm will proceed to Step 8. If the index of the first positive is odd, Steps 9 to 11 are to recover it and hence the index of the second positive is also obtained. However, if the index of the first positive is even, the condition in Step 9 does not hold but the one in Step 14 does.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "G. Second decoding procedure"
+        },
+        {
+            "text": "Step 15 is simply to return that index. Algorithm 2 DecConsecutivePositives(y, S, w, P): Decoding procedure for up to two consecutive positives. Input: Outcome vectors y and w, matrices S and P defined in (2) It is obvious that if there are no positives in the input set, the condition in Step 1 holds and the algorithm stops at Step 3. If the algorithm proceeds to Step 4, there exists at least one positive item in the input set N .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "G. Second decoding procedure"
+        },
+        {
+            "text": "If the index of the first positive is odd, it can be identified in time O(log n). Therefore, thanks to the linear order of the input set, we can remove the first item in N to create P and assure that the position of the first positive in P is odd in case its position in N is even. From the construction of matrices S and P, item j \u2265 2 is represented by column j and column j \u2212 1 in S and P, respectively. Note that item 1 is only presented in S and represented as the first column of S.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "G. Second decoding procedure"
+        },
+        {
+            "text": "Step 4 is to guess whether the first positive is odd or even. Because b j is the log n -bit binary representation of integer j \u2212 1, Step 5 is just to shift our guesses to the right index of the first positive. Because of Lemma 3, if there is exactly one positive in the input set N , Steps 4 to 7 are to recover the index of that positive.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "G. Second decoding procedure"
+        },
+        {
+            "text": "Once the algorithm proceeds to Step 9, there must exist exactly two consecutive positives. If there are exactly two positives in the input set N which are consecutive and the index of the first positive is odd, the condition in Step 9 holds. Hence, the set of two consecutive positives is returned by Step 10. The remaining case is that the index of the first positive in the two consecutive positive is even. In this case, Steps 12 to 13 are to identify that index. Again, because of Lemma 3, the condition in Step 14 holds and",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "G. Second decoding procedure"
+        },
+        {
+            "text": "Step 15 returns the set of positives.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "G. Second decoding procedure"
+        },
+        {
+            "text": "The previous section shows that we can use two nonrandom measurement matrices, namely S and P, with size of 2 log n \u00d7n and 2 log n \u00d7(n\u22121) such that if the set of input items has exactly two positives which are consecutive or has up to one positive, they can be identified with s = 4 log n tests. Since the running time for each if statement and Steps 4, 5, 12, 13 is s, the decoding complexity of Algorithm 2 is 8s = O(s). Therefore, Lemma 2 is proved.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "I. Proof of Lemma 2"
+        },
+        {
+            "text": "Colbourn [15] proposed a strategy to identify consecutive positives in two simultaneous phases. In the first phase, the author partitioned the n (linearly ordered) items into subpools in which we here call them super items such that there are up to two super positive items and if two super items are positive, they are consecutive. Hence, the objective of this phase is to locate the super positive items among the (linearly ordered) super items. We denote the matrices used in the first phase to as filter matrices. In the second phase, with careful design of measurement matrices, the true positives can be identified based on the location of the super positive items. We denote the matrices used in the second phase to as verification matrices.",
+            "cite_spans": [
+                {
+                    "start": 9,
+                    "end": 13,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "IV. IMPROVED ALGORITHMS A. Overview"
+        },
+        {
+            "text": "Although Colbourn's strategy is breakthrough, his design in the first phase is not efficient. More importantly, he did not propose any efficient decoding scheme associated with his design. Here, we propose two improved algorithms to identify up to d consecutive positives.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IV. IMPROVED ALGORITHMS A. Overview"
+        },
+        {
+            "text": "For the first phase, our proposed algorithms work based on two inseparable compartments: the linear order of the input items which contain consecutive positives and nonrandom matrices designed based on that linear order. For the second phase, we simply generate a measurement matrix by horizontally placing a series of 2d \u00d7 2d identity matrices. The details of our proposed algorithms are described in the following subsections.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IV. IMPROVED ALGORITHMS A. Overview"
+        },
+        {
+            "text": "We first create super items with linear order in which each super item contains exactly d items, except for the last super item which may contain less than d items. In particular, the n items are distributed into n/d subsets (for simplicity, we assume n is divisible by d) in which the jth subset contains items indexed from (j \u2212 1)d + 1 to jd. The jth super item is the jth subset. A super item is positive if it contains at least one positive item and negative otherwise. There are up to two super positive items which are consecutive because the input items are linearly ordered, the number of positive items is up to d, the positive items are consecutive and each super item contains up to d items. This procedure is illustrated in Fig. 1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 736,
+                    "end": 742,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "B. Super items"
+        },
+        {
+            "text": "Creating super items. A super item is a subset of items. In particular, the n items are distributed into n/d subsets (for simplicity, we assume n is divisible by d) in which the jth subset contains items indexed from (j \u2212 1)d + 1 to jd. The jth super item is the jth subset.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B. Super items"
+        },
+        {
+            "text": "The encoding procedure includes the first and seconds phases as described in Section IV-A. Regarding the first phase, there are two designs for measurement matrices corresponding to two improved algorithms.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "C. Encoding procedure"
+        },
+        {
+            "text": "1) First phase in the first improved algorithm: The measurement matrix S used here is as the same as the one in Section III-B by replacing items with super items and n with n/d.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "C. Encoding procedure"
+        },
+        {
+            "text": "2) First phase in the second improved algorithm: The measurement matrices used here, namely S and P, are as the same as the one in Section III-F by replacing items with super items and n with n/d.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "C. Encoding procedure"
+        },
+        {
+            "text": "3) Second phase: A 2d \u00d7 n measurement matrix H, called a verification matrix, is created as follows:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "C. Encoding procedure"
+        },
+        {
+            "text": "where I 2d is a 2d \u00d7 2d identity matrix and matrix I :, 1 : n \u2212 2d n 2d contains the first n \u2212 2d n 2d columns of I 2d . There are n 2d such I 2d matrices. The outcome vector by using H is h = H x, where x = (x 1 , . . . , x n ) T is a binary representation vector of set N in which an entry x j = 1 indicates that the jth item in the set N is positive and x j = 0 indicates otherwise. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "C. Encoding procedure"
+        },
+        {
+            "text": "Measurement matrix",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Super item"
+        },
+        {
+            "text": "Measurement matrix Fig. 2 . Encoding procedure. Each measurement matrix is associated with a set of items or super items. Vector bj is the log 2 (n/d) -bit binary representation of integer j \u2212 1, bj is the complement of bj for j = 1, 2, . . . , n/d. Matrix I 2d is a 2d \u00d7 2d identity matrix and matrix I :, 1 : n \u2212 2d n 2d contains the first n \u2212 2d n 2d columns of I 2d . For a given pair of a measurement matrix and a set of (super) items, each item and each test are represented by a column and a row, respectively. For every entry a at row i and column j, test i contains (does not contain, resp.) the jth (super) item if a = 1 (a = 0, resp.). A test on a subset of (super) items is positive if the subset contains at least one (super) positive item.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 19,
+                    "end": 25,
+                    "text": "Fig. 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Measurement matrix"
+        },
+        {
+            "text": "The flow of the decoding procedure is illustrated in Fig. 3 . We first identify up to two consecutive super positives to get a range of items which contains all positives. The true positives are then identified by using the verification matrix H and the outcome vector h.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 53,
+                    "end": 59,
+                    "text": "Fig. 3",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "D. Decoding procedure"
+        },
+        {
+            "text": "The details of the decoding procedure, which merges the first and second improved algorithms, in Algorithm 3. With the input in the first (second, resp.) improved algorithm, Algorithm 3 skips Step 2 ( 1, resp.).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "D. Decoding procedure"
+        },
+        {
+            "text": "Step 3 returns an empty set of positives because there are no super positives in the input set of items when T = \u2205. Steps 4 and 5 are to get the first super positive and initialize an empty positive set, respectively. The usage of the first phase in the encoding procedure ends here. We now proceed to identify the true positives. Because all positives lie in the index range from (\u03b1 \u2212 1)d + 1, . . . , (\u03b1 + 1)d, we scan every entry in the outcome vector h in Step 6 then its corresponding positive is identified by using the rules in Steps 6 to 17. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "D. Decoding procedure"
+        },
+        {
+            "text": "True positives \u27a2 When is odd and \u210e = 1, item \u2212 1 + is positive \u27a2 When is even, \u210e = 1, and \u2264 , item + is positive \u27a2 When is even, \u210e = 1, and > , item \u2212 2 + is positive Dec. Fig. 3 . Decoding procedure. From the outcome vector(s) generated by super items, we can identify up to two super positive items. Then there are up to 2d potential consecutive positives. Every entry in the outcome vector h is then scanned to identify its corresponding positive by using some specific rules.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 172,
+                    "end": 178,
+                    "text": "Fig. 3",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Potential positives"
+        },
+        {
+            "text": "Algorithm 3 Decoding procedure for up to d consecutive positives. Input in the first improved algorithm: Outcome vector y, matrix S of size s \u00d7 n defined in (2) . Input in the second improved algorithm: Outcome vectors y and w, matrices S and P defined in (2) and (4). Step 4, there exists at least one positive item in N . As analyzed in Section IV-B, there are up to two super positive items which are consecutive. Moreover, since each super items contains d consecutive items, we can assure that all positives lie in the index range (\u03b1 \u2212 1)d + 1, . . . , (\u03b1 + 1)d when 1 \u2264 \u03b1 \u2264 n 2d or (\u03b1 \u2212 1)d + 1 + 1, . . . , n if n is not divisible by 2d, where \u03b1 = n 2d \u2212 1. To facilitate our proof, we can add \u03b2 \"dummy negative items\" into the set of n items such that n + \u03b2 is divisible by 2d. It is clear that those dummy negative items do not affect the outcome vector h. Therefore, it suffices to say that all positives lie in the index range (\u03b1 \u2212 1)d + 1, . . . , (\u03b1 + 1)d for 1 \u2264 \u03b1 \u2264 n 2d . We now can only consider the pruning matrix of H, called H , which contains only columns indexed from (\u03b1 \u2212 1)d + 1 to (\u03b1 + 1)d. There are only two possibilities for H :",
+            "cite_spans": [
+                {
+                    "start": 157,
+                    "end": 160,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Potential positives"
+        },
+        {
+            "text": "Note that there are (\u03b1 \u2212 1)d negative items before reaching to the index range containing all positives indexes. Moreover, all items indexed from 1 to (\u03b1 \u2212 1)d and from (\u03b1 + 1)d + 1 to n or n + \u03b2 are negative.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Potential positives"
+        },
+        {
+            "text": "The first possibility of H occurs when \u03b1 is odd. Therefore, the positions of non-zero entries of H are also the indexes of the positives in N . This case is handled in Step 6 and Steps 7 to 9.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Potential positives"
+        },
+        {
+            "text": "The first possibility of H occurs when \u03b1 is odd. Because of the structure of H , the positions of positives are identified in Step 6 and Steps 10 to 16.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Potential positives"
+        },
+        {
+            "text": "It is easy to confirm that the complexity of Steps 3 to 17 is 2d \u00d7 5 = O(d). Therefore, the decoding complexities of the first and second improved algorithms vary with the complexities of Steps 2 and 1, respectively. The complexities of Steps 2 and 1 are summarized in Lemmas 1 and 2, which are O log 2 n d and O log n d , respectively. We summarize the results of our two improved algorithms in the two following theorems. In this paper, we have presented two improved algorithms to efficiently identify up to d consecutive positives. In particular, we reduce the decoding complexity in [18] from linear to sublinear time with respect to the number of items. We also reduce the number of tests required. Since the informationtheoretic bound shows that we need at least max{log(nd), d \u2212 1} tests, our improved algorithms require O log 2 n d + d tests which is approximate to that bound. An extension of this work to other settings in group testing such as threshold group testing or complex group testing is still an open problem. ",
+            "cite_spans": [
+                {
+                    "start": 588,
+                    "end": 592,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "F. The decoding complexity"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "The detection of defective members of large populations",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Dorfman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1943,
+            "venue": "The Annals of Mathematical Statistics",
+            "volume": "14",
+            "issn": "4",
+            "pages": "436--440",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Efficient high-throughput sars-cov-2 testing to detect asymptomatic carriers",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Shental",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Levy",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Wuvshet",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Skorniakov",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Shalem",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ottolenghi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Greenshpan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Steinberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Edri",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gillis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science advances",
+            "volume": "6",
+            "issn": "37",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Ac-dc: Amplification curve diagnostics for covid-19 group testing",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gabrys",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pattabiraman",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Rana",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ribeiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cheraghchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Guruswami",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Milenkovic",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:2011.05223"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Combinatorial group testing and its applications",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Hwang",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Hwang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Separable codes for the symmetric multiple-access channel",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Polyanskii",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Shchukin",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Vorobyev",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "2018 IEEE ISIT",
+            "volume": "",
+            "issn": "",
+            "pages": "291--295",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "A framework for generalized group testing with inhibitors and its potential application in neuroscience",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Bui",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kuribayashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cheraghchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Echizen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:1810.01086"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Explicit nonadaptive combinatorial group testing schemes",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Porat",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rothschild",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "IEEE Trans. Inf. Theory",
+            "volume": "57",
+            "issn": "12",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Efficiently decodable non-adaptive group testing",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Indyk",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Ngo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rudra",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Proceedings of the twenty-first annual ACM-SIAM symposium on Discrete Algorithms",
+            "volume": "",
+            "issn": "",
+            "pages": "1126--1142",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Efficiently decodable error-correcting list disjunct matrices and applications",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Ngo",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Porat",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rudra",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "ICALP",
+            "volume": "",
+            "issn": "",
+            "pages": "557--568",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Noise-resilient group testing: Limitations and constructions",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cheraghchi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Discrete Applied Mathematics",
+            "volume": "161",
+            "issn": "1-2",
+            "pages": "81--95",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Efficient (nonrandom) construction and decoding for non-adaptive group testing",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Bui",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kuribayashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kojima",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Haghvirdinezhad",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Echizen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Journal of Information Processing",
+            "volume": "27",
+            "issn": "",
+            "pages": "245--256",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Grotesque: noisy group testing (quick and efficient)",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cai",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Jahangoshahi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bakshi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jaggi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "1234--1241",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Sublinear-time non-adaptive group testing with o(k log n) tests via bit-mixing coding",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bondorf",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Scarlett",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:1904.10102"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Group testing: an information theory perspective",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Aldridge",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Scarlett",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:1902.06002"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Group testing for consecutive positives",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Colbourn",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Annals of Combinatorics",
+            "volume": "3",
+            "issn": "1",
+            "pages": "37--41",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Adaptive group testing for consecutive positives",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "-T",
+                    "middle": [],
+                    "last": "Juan",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Chang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Discrete mathematics",
+            "volume": "308",
+            "issn": "7",
+            "pages": "1124--1129",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Consecutive positive detectable matrices and group testing for consecutive positives",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "M\u00fcller",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Jimbo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Discrete mathematics",
+            "volume": "279",
+            "issn": "1-3",
+            "pages": "369--381",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "A variation of cover-free families and its applications",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y.-C",
+                    "middle": [],
+                    "last": "Chiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y.-L",
+                    "middle": [],
+                    "last": "Tsai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Journal of Computational Biology",
+            "volume": "22",
+            "issn": "7",
+            "pages": "677--686",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "DecConsecutivePositives(y, S): Decoding procedure for up to two consecutive positives. Input: Outcome vector y, matrix S of size s \u00d7 n defined in (2). Output: Set of two consecutive positive items. 1: if y \u2261 0 then 2: Return the set P = \u2205. 3: end if 4: Calculate an index a with the input as the first half of y. Set a := a + 1. 5: if S a \u2261 y then 6: Return the set P = {a}. 7: end if 8: Initialize a 1 \u00d7 s/2 vector z by setting z(1) = 0 and z(i) = y(i) for i = 2, . . . , s/2. 9: Calculate an index a with the input z. Set a := a + 1. 10: if S a \u2228 S a+1 \u2261 y then 11:Return the set P = {a, a + 1}.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "set P = {a, a + 1}.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Given the matrix S defined in (2), for any two distinct indexes a = b in [n \u2212 1], we have S a \u2261 S b and S a \u2261 S b , where a = vecc [n] ({a, a + 1}) and b = vecc [n] ({b, b + 1}).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "set P = \u2205. 3: end if 4: Initialize a 1 \u00d7 s/2 vector y by setting y (1) = 0 and y (i) = y(i) for i = 2, . . . , s/2. 5: Calculate index a with the input y . Set a = a + 1. 6: if S a \u2261 y then 7: Return the set P = {a}. 8: end if 9: if S a \u2228 S a+1 \u2261 y then 10: Return the set P = {a, a + 1}. 11: end if 12: Initialize a 1 \u00d7 s/2 vector w by setting w (1) = 0 and w (i) = w(i) for i = 2, . . . , s/2. 13: Calculate index b with the input w . Set b = b + 1. 14: if S b \u2228 S b+1 \u2261 w then 15: Return the set P = {b + 1, b + 2}. 16: end if H. Correctness of the second decoding procedure",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Output: Set of consecutive positives. 1: T = DecConsecutivePositives(y, S). First improved algorithm. 2: T = DecConsecutivePositives(y, S, w, P). Second improved algorithm. 3: Return P = \u2205 if T = \u2205. 4: Let \u03b1 be the first item in T . 5: Initialize the positive set P = \u2205. 6: for i = 1 to 2d do 7: if \u03b1 is odd and h(i) = 1 then 8: P = P \u222a {(\u03b1 \u2212 1)d + i}.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "17: end for E. Correctness of the decoding procedure Either Step 1 or 2 returns the set of super positive items. If T = \u2205, there are no positive items in the input set of items N . Therefore, Step 3 returns an empty set of positives. Once Algorithm 3 proceeds to",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "(The first improved algorithm) Let n be a positive integer and N = {1, 2, . . . , n} be the set of linearly ordered items. Then there exists nonrandom measurement matrices such that up to d consecutive positives can be identified with 2 log 2 n d + 2d tests in O log 2 n d + d time. Theorem 2. (The second improved algorithm) Let n be a positive integer and N = {1, 2, . . . , n} be the set of linearly ordered items. There exists nonrandom measurement matrices such that up to d consecutive positives can be identified with 4 log 2 n d + 2d tests in O log n d + d time. V. CONCLUSION",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "VI. ACKNOWLEDGMENTS Thach V. Bui and Thuc D. Nguyen were supported in part by Vietnam National University Ho Chi Minh City (VNU-HCM) under grant number NCM2019-18-01.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": ".",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "OF IMPROVED ALGORITHMS WITH PREVIOUS ONES. \"NOT AVAILABLE\" MEANS THAT THE CRITERION DOES NOT HOLD OR IS NOT CONSIDERED FOR THAT SCHEME. PARAMETER c IS SOME CONSTANT.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Dec.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

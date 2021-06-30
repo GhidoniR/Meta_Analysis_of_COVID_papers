@@ -1,0 +1,2664 @@
+{
+    "paper_id": "0ad021652bb8cca024f0549a5a10d0016c7b264b",
+    "metadata": {
+        "title": "Journal Pre-proof How did socio-demographic status and personal attributes influence compliance to COVID-19 preventive behaviours during the early outbreak in Japan? Lessons for pandemic management Title page How did socio-demographic status and personal attributes influence compliance to COVID-19 preventive behaviours during the early outbreak in Japan? Lessons for pandemic management List of authors Dr Shahadat Uddin (First author) Dr Tasadduq Imam (Second author and corresponding author)",
+        "authors": [
+            {
+                "first": "Shahadat",
+                "middle": [],
+                "last": "Uddin",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Tasadduq",
+                "middle": [],
+                "last": "Imam",
+                "suffix": "",
+                "affiliation": {},
+                "email": "t.imam@cqu.edu.au"
+            },
+            {
+                "first": "Matloob",
+                "middle": [],
+                "last": "Khushi",
+                "suffix": "",
+                "affiliation": {},
+                "email": "matloob.khushi@sydney.edu.au"
+            },
+            {
+                "first": "Arif",
+                "middle": [],
+                "last": "Khan",
+                "suffix": "",
+                "affiliation": {},
+                "email": "arif.khan@sydney.edu.au"
+            },
+            {
+                "first": "Mohammad",
+                "middle": [],
+                "last": "Ali",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Dr",
+                "middle": [],
+                "last": "Mohammad",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ali",
+                "middle": [],
+                "last": "Moni",
+                "suffix": "",
+                "affiliation": {},
+                "email": "m.moni@unsw.edu.au"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "This study focuses on how socio-demographic status and personal attributes influence self-protective behaviours during a pandemic, with protection behaviours being assessed through three perspectivessocial distancing, personal protection behaviour and social responsibility awareness. The research considers a publicly available and recently collected dataset on Japanese citizens during the COVID-19 early outbreak and utilises a data analysis framework combining Classification and Regression Tree (CART), a data mining approach, and regression analysis to gain deep insights. The analysis reveals Socio-demographic attributessex, marital family status and having childrenas having played an influential role in Japanese citizens\" abiding by the COVID-19 protection behaviours.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Especially women with children are noted as more conscious than their male counterparts. Work status also appears to have some impact concerning social distancing. Trust in government also appears as a significant factor. The analysis further identifies smoking behaviour as a factor characterising subjective prevention actions with non-smokers or less-frequent smokers being more compliant to the protection behaviours. Overall, the findings imply the need of public policy campaigning to account for variations in protection behaviour due to socio-demographic and personal attributes during pandemics and national emergencies. J o u r n a l P r e -p r o o f Journal Pre-proof J o u r n a l P r e -p r o o f Journal Pre-proof Thus, with many COVID-19 cases being asymptotic, leading to people carrying on with their daily life as normal and thereby acting as virus carriers and threat especially to elderly people, it is interesting to explore the public behaviour and their understanding of the risk associated with COVID-19 spread. Research in this context notes the influence of education level and subjective trust of the government as factors that influence the perception of COVID-19 as a conspiracy 13 . Another work finds subjective perceptions of COVID-19 crisis rather than personality as more influential in explaining compliance to Government recommendations in Poland 14 . Further, research identifies links between personality and COVID-19 behaviour 15 , and the positive influence of lifestyle, culture, and healthcare in flattening the COVID-19 infection curve 16 in Japan.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Despite such explorations, it is still instructive to assess how the pandemic was perceived at subjective level in the early stages especially with the unprecedentedness of the disease. Lessons learned from such undertaking can guide policy makers to prepare for further outbreaks or a new disaster. In this study, we analyse data from Japan to understand the level of people\"s compliance to the government suggested preventive guidelines during the early COVID-19 outbreak and the impacts socio-demographic status and personal attributes had on their behaviours.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "An outstanding feature of this work is going beyond the use of traditional statistical approaches like multiple linear regression, as often exploited in existing studies. Such approaches often assume different conditions persisting in data that may not always hold. In this research, we apply the Classification and Regression Tree (CART), a non-parametric data mining algorithm that are not restricted by such assumptions and can model complex non-linear relationship 17, 18 . We combine the flexibility of CART with linear regression for a robust analysisan approach, to the best of our knowledge, is yet to be employed in assessing pandemic situations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Implementing large scale lockdown and social distancing was difficult for highly populated countries such as Indonesia. However, modelling shows early interventions have saved thousands of lives 19 . A WeChat survey of 3083 participants concludes that people living in cities have a better understanding J o u r n a l P r e -p r o o f Journal Pre-proof public health system, economical and mental health issues of the public. Therefore, this study analyses the effect of personal attributes, age, social and demographics on public behaviour and their perception about the spread of the disease and means to control it. 3. Materials 3.1 Data source J o u r n a l P r e -p r o o f Journal Pre-proof J o u r n a l P r e -p r o o f Journal Pre-proof Figure 2: CART outcome tree for the \"Social distance\" dependent variable. Out of ten, three attributes (Trust in Government, Marital status, and Sex) were included as nodes in this tree. J o u r n a l P r e -p r o o f Journal Pre-proof J o u r n a l P r e -p r o o f Journal Pre-proof J o u r n a l P r e -p r o o f Journal Pre-proof Author Credits Journal Pre-proof Highlights -Assesses how individuality impact pandemic protection behaviours -Subjectivity characterises protection behaviours from various perspectives -When devising public health policy, need to consider individualistic variations -Data mining can assist in understanding subjective pandemic behaviour J o u r n a l P r e -p r o o f Journal Pre-proof",
+            "cite_spans": [
+                {
+                    "start": 195,
+                    "end": 197,
+                    "text": "19",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "There have been several outbreaks of coronavirus in the past, namely SARS (severe acute respiratory syndrome) and MERS (Middle East respiratory syndrome) 1 . The latest outbreak known as COVID- 19 is caused by a novel strain of coronavirus (SARS-CoV-2) and was first reported in Wuhan, China in late December 2019 2 . The outbreak was first declared as Public Health Emergency of International Concern and later as a pandemic in March 2020 by the World Health Organization (WHO) 3 . COVID-19 infection could be asymptomatic or could show mild to severe pneumonia like symptoms 4 . The most common symptoms include fever, dry cough, and tiredness, while the less common symptoms include headache, chest pain, loss of speech, difficulty in breathing, sore throat, diarrhoea, conjunctivitis or other aches and pains 5 . A noticeable feature of the disease is its highly contagious nature and, while the virus outbreak is still under investigation, there are views that the spread can happen person-to-person due to close contacts, airborne particles, and contact with contaminated surfaces 6 . Additionally, the high risk group of the COVID-19 is different from recent pandemics with the current strain particularly deadly for older individuals 7 . Thus, while the world has confronted multiple epidemics in recent times and different countries have had several preparedness plans in place following their past experiences 8 , the current pandemic has come as an unprecedented context in many countries. Indeed, even after different public health measures instituted by the governments, the virus has continued to spread across countries. As of 13 th December 2020, WHO\"s weekly update identifies over 70 million positive cases globally and close to 1.6 million deaths from the disease 9 .",
+            "cite_spans": [
+                {
+                    "start": 154,
+                    "end": 155,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 194,
+                    "end": 196,
+                    "text": "19",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 577,
+                    "end": 578,
+                    "text": "4",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 813,
+                    "end": 814,
+                    "text": "5",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1087,
+                    "end": 1088,
+                    "text": "6",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1242,
+                    "end": 1243,
+                    "text": "7",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1420,
+                    "end": 1421,
+                    "text": "8",
+                    "ref_id": null
+                },
+                {
+                    "start": 1783,
+                    "end": 1784,
+                    "text": "9",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Despite uniqueness of the COVID-19 context, countries have adopted some common measures. These include staying at home, social distancing, contact tracing, wearing masks, washing hands, and using hand sanitiser. There have also been public and media communications to increase public awareness. However, individual behaviour during an epidemic can be influenced by various factors including trust in the Government\"s advice and subjective perceptions 10, 11 . Additionally, individual health protection behaviour during an influenza pandemic can be characterised by social contexts 12 .",
+            "cite_spans": [
+                {
+                    "start": 451,
+                    "end": 454,
+                    "text": "10,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 455,
+                    "end": 457,
+                    "text": "11",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 582,
+                    "end": 584,
+                    "text": "12",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "of the disease compared to those in rural areas 20 . The study also demonstrates males (OR: 0.544, 95% CI: 0.440-0.673), younger adults (1.844, 1.466-2.320), and subjects with higher education (2.200, 1.780-2.718) exhibited better behaviour when protective measures such as washing hands, wearing masks or exercising were given 20 . This finding indicates that health education should be strengthened among adults living in rural areas where access to medical services is limited. A survey of 976 university academics and students of the Iraqi Kurdistan region revealed that the perceived risk of contracting COVID-19 infection, serious illness and death (26.9%, 29 .7%, and 41.7%, respectively) is low in the participants 21 . Similarly, a Bangladeshi cross sectional study of 320 adults identified people living in the urban area (p<0.01), high education (p<0.01), rich (p<0.01) and joint family (p<0.01) had the most contributions to good practice 22 .",
+            "cite_spans": [
+                {
+                    "start": 48,
+                    "end": 50,
+                    "text": "20",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 328,
+                    "end": 330,
+                    "text": "20",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 655,
+                    "end": 665,
+                    "text": "(26.9%, 29",
+                    "ref_id": null
+                },
+                {
+                    "start": 723,
+                    "end": 725,
+                    "text": "21",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 951,
+                    "end": 953,
+                    "text": "22",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The reception of public plays a key role in controlling an infectious disease such as COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The best example of this is Singapore where the disease was very well controlled compared to other countries. The key factors of this success come from the experience that the Singapore government and its public have experienced during earlier outbreaks. In 2000, 2003 and 2009 they experienced hand-foot-mouth disease, SARS and H1N1 outbreaks respectively 23 . They learnt that response to such a pandemic has to be well-coordinated and multi-stakeholder approach including participation from public.",
+            "cite_spans": [
+                {
+                    "start": 357,
+                    "end": 359,
+                    "text": "23",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The issues that were caused by COVID-19 are unparalleled and unprecedented. This generation has not seen anything like it. It has been argued that the road to full recovery will be very long and multiple waves of infection are predicted 24 . Hence, as the pandemic continues to progress across countries, governments face myriad of multi-dimensional challenges including surge in demand for This study used an open-source research dataset that was made available by Yamamoto 25 . The data was collected through an online survey in Japan in late March 2020 25 . The provided dataset consists of the survey responses by 11,342 Japanese recruited through a cross-sectional approach from a pool of 1.2 million registered individuals. The researchers involved in data collection adopted nonprobabilistic quota sampling to match the distribution of demographic status (gender, age, and work status) in the respective national statistics 25 .",
+            "cite_spans": [
+                {
+                    "start": 237,
+                    "end": 239,
+                    "text": "24",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 475,
+                    "end": 477,
+                    "text": "25",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 556,
+                    "end": 558,
+                    "text": "25",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 931,
+                    "end": 933,
+                    "text": "25",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "This study considered responses to one survey question in particular to quantify the subjective attitudes of Japanese citizens during the early COVID-19 outbreak -\"Have you ever conducted anything to prevent novel coronavirus infections or outbreaks?\" 25 . For the response of this question, each respondent needed to select one of the five options (\"Very true\", \"True\", \"Neither\", \"Not true\" and \"Not at all\") against each of 21 activities. We quantify the responses innovatively in terms of three dependent variables. Notably, a recent article on the same dataset focused on the same question to characterise the Japanese citizens\" behaviour across three government recommended measures 26 . We consider the same question and items are labelled exactly as in the research dataset 26, 27 . However, our approach in assessment of pandemic protection behaviour is different. The published work examines the citizens\" behaviour and attitudes through a common umbrella of social distancing and personal etiquettes and focuses mainly on 12 items separately within the same question 26 . We, by contrast, utilise all 21 items and group these activities across three individualistic protective behaviours -\"social distancing\", \"personal protection behaviour\" and \"social responsibility behaviour\". Table 1 details the 21 activities grouped across the three dependent variables. We interpret the meaning and impacts of the respective behaviour to form the grouping. For example, stockpiling masks, medication, food, or other essential items can be interpreted as socially irresponsible behaviour especially if the general or vulnerable populace misses out on these goods. While eating nutritious diet or getting rest and exercise may be interpreted as personal behaviour, we consider the social side of the impacts of such behaviour and the need for a healthy societythus, these items are also grouped under social responsibility. Similarly, avoiding closed but ill-ventilated spaces, not J o u r n a l P r e -p r o o f speaking in close proximity, avoiding mass gathering, and related practices are grouped under social distancing behaviours; while taking measures to disinfect surroundings, wearing masks, avoiding travels for any reason when having cold, and related practices are deemed as personal protection behaviours. Smoking frequency; (iii) Drinking frequency; and (iv) Trust in Government policy. The first of these attributes has a binary response (yes/no), smoking frequency has four choices (\"Every day\", \"Sometimes\", \"Used to smoke but do not now\" and \"Never smoked\"); whereas, drinking frequency offers six choices (\"Never drink\", \"I used to drink but I quitted\", \"Few times per month\", \"1-2 times per month\", \"3-6 times per month\" and \"Every day\") 25, 26 . The last one has been derived from the responses of three Government policies. They are -the Government should (a) allow mass gatherings now; (b) continue to request self-restraints of mass gatherings; and (c) limit movement in addition to mass gatherings 26 . For each policy, there are five possible responses (\"Agree\", \"Relatively agree\", \"Neither\", \"Relatively disagree\", \"Disagree\" and \"Do not know\". An aggregate of scores for the three policies reflect values of the trust in Government policy. Notably, having children, and smoking and drinking J o u r n a l P r e -p r o o f frequency are related to quality of lifestyle an individual has chosen to lead, and can also in turn influence their compliance to any policies and rulesconsidering these personal attributes, hence, makes sense. Additionally, six socio-demographic variables are considered in this study. They are -(i) Age (with five choices, 20s, 30s, 40s, 50s and 60-64); (ii) Gender (female/male); (iii) Marital status (Married or Not married); (iv) Education (university/college graduate or not); (v) Work status (four choices -\"Regular employee\", \"Non-regular employee\", \"Self-employed or others\" and \"Not working\");",
+            "cite_spans": [
+                {
+                    "start": 252,
+                    "end": 254,
+                    "text": "25",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 689,
+                    "end": 691,
+                    "text": "26",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 782,
+                    "end": 785,
+                    "text": "26,",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 786,
+                    "end": 788,
+                    "text": "27",
+                    "ref_id": null
+                },
+                {
+                    "start": 1078,
+                    "end": 1080,
+                    "text": "26",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 2758,
+                    "end": 2761,
+                    "text": "25,",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 2762,
+                    "end": 2764,
+                    "text": "26",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 3023,
+                    "end": 3025,
+                    "text": "26",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1292,
+                    "end": 1299,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Variable quantification"
+        },
+        {
+            "text": "and (vi) Household annual income (10 ascending choices -\"less than 2,000K Japanese yen\", seven choices between 2,000K and 19,999K Japanese yen, \"More than 20,000K Japanese yen\" and \"Do not know\") 25 . As indicated in earlier sections, existing literature has focused on various demographic attributes like education, age, and gender in characterising public response to government actions during pandemics. Additionally, smoking has been noted as a risk factor of COVID-19 in multiple studies 28 , while drinking and having young children (i.e., choosing to have children) can also impact the way individuals behave in different situations. Thus, our choice of personal and sociodemographic attributes variables is guided by the present literature and knowledge. Figure 1 shows the data analysis framework followed in this research. To convert the categorical responses into a numerical one, the RIDIT analysis has been applied to the dependent variables of this research. After this, CART, a state-of-the-art data mining approach, is applied to identify important independent variables. Finally, regression is used to model the dependent variables using the independent variables. Here is a brief about each of these three methods.",
+            "cite_spans": [
+                {
+                    "start": 196,
+                    "end": 198,
+                    "text": "25",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 493,
+                    "end": 495,
+                    "text": "28",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 763,
+                    "end": 771,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Variable quantification"
+        },
+        {
+            "text": "Journal Pre-proof ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "RIDIT is a statistical method for analysing subjectively categorized response variable, i.e., ordered qualitative measurements often called as ordinal data 29, 30 . For example, if the response variable has subjective scales with ordered categories, such as -\"never smoked', \"smokes sometimes', 'smokes every day' or 'minor pain', \"moderate pain', \"severe pain' etc., then they may not be adequately analysed by chi-square-or t-test-based statistical methods. RIDIT analysis is often used to transform the response variable by allocating scores relative to the identified (or reference) distribution of the data.",
+            "cite_spans": [
+                {
+                    "start": 156,
+                    "end": 159,
+                    "text": "29,",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 160,
+                    "end": 162,
+                    "text": "30",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "RIDIT scoring"
+        },
+        {
+            "text": "The term RIDIT stands for \"relative to an identified distribution integral transformation\" and this was termed by Bross for its analogy with other statistical transformation methods such as probit and logit 31 . Essentially, the process of RIFIT analysis can be summarised in the following steps:",
+            "cite_spans": [
+                {
+                    "start": 207,
+                    "end": 209,
+                    "text": "31",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "RIDIT scoring"
+        },
+        {
+            "text": "Step 1: Select the categorical response variable whose response values are categorical, subjective and in order. For example, for the survey question -\"How often do you smoke?\", the response values are -\"never\", \"sometimes\" and \"daily\". Respondents giving the same response is called a group.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "RIDIT scoring"
+        },
+        {
+            "text": "Step 2: Choose references or identified distribution data. Based on this set, the non-reference data will be baselined. For this reference set, each group is assigned a score or weight. Thus, each of the response values or categories is transformed into a score. Let us assume, a response variable has ordered responses in the reference set marked as -.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "denotes the total number of responses for . Then, RIDIT for response will be,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "Here is the probability of choosing response in the reference set.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "\u2211 \u2211"
+        },
+        {
+            "text": "Step 3: The score is assigned to each group in the non-reference or test set and a mean RIDIT score is calculated for each group. The score relates to the probability that a member of the group differs (i.e., have higher score) from a member of the reference population 29 .",
+            "cite_spans": [
+                {
+                    "start": 270,
+                    "end": 272,
+                    "text": "29",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "\u2211 \u2211"
+        },
+        {
+            "text": "For this research, we used RIDIT scores as described in step 2 above to transform the categorical responses into numerical scores. The reference set consisted of all the 11,342 respondents sampled from the whole dataset.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "\u2211 \u2211"
+        },
+        {
+            "text": "CART (short for Classification and Regression Trees) is an umbrella term 32 for referring to two types of decision treesclassification tree and regression tree. Decision tree or decision tree learning is a widely used predictive modelling approach used in machine learning, data mining and statistics.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Classification and Regression Tree"
+        },
+        {
+            "text": "Given a dataset with multiple observation of an outcome variable with respect to one or more input (i.e., independent) variable, the decision tree essentially generates a binary tree to predict the outcome variable based on the input variable. The binary tree starts at the single root node and keeps splitting in every non-leaf node into two branches based on a logical comparison of an input variable, e.g., \"if In our research, we generated three CART trees (regression trees as the outcome is a continuous number) based on three outcome variablessocial distance, personal protection behaviour, social responsibility awareness. In each case, the ten socio-demographic and personal attributes outlined earlier are used as independent or input variables. Applying CART can generate trees with many levels and cause overfitting to data, and pruning is applied to enhance generalisation of the outcomes 33, 34 . The pruning step, further, to improving generalisation, also identifies input variables most influential in characterising the dependent variables. The variables that are finally present in the resultant trees are used in the next step of the analysis.",
+            "cite_spans": [
+                {
+                    "start": 902,
+                    "end": 905,
+                    "text": "33,",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 906,
+                    "end": 908,
+                    "text": "34",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Classification and Regression Tree"
+        },
+        {
+            "text": "For CART analyses, we used IBM SPSS Statistics (version 24) software tool. We further used the \"Gini impurity\" measure to split off the category. This measure is widely used to split trees and computationally inexpensive to implement 35 . It focuses to maximise the homogeneity of child nodes with respect to the classification performance of the underlying dependent variable 35 . The variable chosen for split is known as \"primary splitter'; and, at each split, other variables that can replace primary splitters including when values for primary splitters are missing are considered and these other predictors are known as \"surrogate splitters\" or surrogates [36] [37] [38] . Since we have ten independent variables, a value of nine (which is one less than the maximum number of independent variables) has been used as the maximum number of surrogates in the SPSS tree growing mechanism. This ensures consideration of most possibilities in the event of a missing value for the primary splitter. We further use the 10-fold cross-validation technique for the validation purpose.",
+            "cite_spans": [
+                {
+                    "start": 234,
+                    "end": 236,
+                    "text": "35",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 377,
+                    "end": 379,
+                    "text": "35",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 662,
+                    "end": 666,
+                    "text": "[36]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 667,
+                    "end": 671,
+                    "text": "[37]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 672,
+                    "end": 676,
+                    "text": "[38]",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Classification and Regression Tree"
+        },
+        {
+            "text": "J o u r n a l P r e -p r o o f",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Multiple regression and t-test"
+        },
+        {
+            "text": "Multiple regression is used to explain the relationship between one continuous dependent variable with two or more independent variables. It is an extension of simple linear regression. The result of the multiple regression indicates whether the outcome or dependent variable can be predicted from the independent variables, the accuracy of the prediction, model fits and statistical significance.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Journal Pre-proof"
+        },
+        {
+            "text": "Application of multiple regression requires several assumptions 39 includingdependent variables should be continuous and linearly dependent on independent variables, at least two or more independent variableswhich can be either continuous or categorical and should not be highly correlated, independence among the observations, homoscedasticity in the data and normallydistributed residuals.",
+            "cite_spans": [
+                {
+                    "start": 64,
+                    "end": 66,
+                    "text": "39",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Journal Pre-proof"
+        },
+        {
+            "text": "In this research, we combine the generalisability of CART and interpretability of multiple regression to gain insightsan innovative approach used in this work. More precisely, after applying CART for each of the dependent variables (social distance, personal protection behaviour, social responsibility awareness) and identifying the influential variables for the respective models in the first step, we generated three multiple regression models for each of these dependent variables with the combined set of identified independent variables as predictors. This ensures that variables that are not highly influential in characterising dependent variables are excluded, especially to reduce potential biasness in the final models. We further used one sample t-test 40 to determine if there is a significant difference between two groups in following COVID-19 preventive practices.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Journal Pre-proof"
+        },
+        {
+            "text": "Overall, we hypothesise that demographic attributes and individual status of respondents in Japan characterised their compliance across the three categories of pandemic protection behaviours during early stage of the pandemic. We further assume that a selected set of these variables has been highly influential particularly. Through our adopted approach, we aim at identifying these influential individuality related variables and to what extent they characterised the pandemic protection behaviour. The following section outlines the results.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Journal Pre-proof"
+        },
+        {
+            "text": "J o u r n a l P r e -p r o o f Table 2 shows the corresponding RIDIT scores for the five responses against each of 21 activities.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 31,
+                    "end": 38,
+                    "text": "Table 2",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "The survey respondents reported these activities in response to the considered survey question. The responses of these activities were considered to quantify the three dependent variables (Social distance, Personal protection behaviour, Social responsibility awareness). Drinking frequency, and Education) were not found in any of the three CART modelsan indication that these variables may have low influence on the dependent variables. For this reason, these four variables were not considered in the multi regression model considered in the next stage. There are six attributes that were found in at least one trees. Table 3 indicates the highest trust. As notable, the dataset contains a balance of male and female respondents. on each of the three dependent variables. The \"work status\" attribute has significant positive impact on only the \"social distance\" measure. We also considered VIF (variance inflation factor), which is a statistical measure that can detect the presence of multicollinearity in a regression analysis. In regression analyses, multicollinearity is a phenomenon which is used to explore the presence of any linear relations among predictor variables 40 . In general, a VIF value of >10 indicates a high presence J o u r n a l P r e -p r o o f of multicollinearity. As revealed by the VIF (variance inflation factor) values indicated in Table 4 , multicollinearity is not present in our regression analysis. As revealed in Table 4 , females are more likely to follow COVID-19 preventive practices than males. During the regression analyses, the numerical values of \"1\" and \"2\" are used for males and females, respectively. So, a positive coefficient in Table 4 for the \"sex\" attribute indicates a higher adherence of females in following the preventive practices. As mentioned earlier, the \"child\" attribute has also a negative impact on each of the three preventive measures of this study. We further categorise the survey respondents based on their \"sex\" and \"child\" information and, using t-test, explore the difference in abiding by the COVID-19 preventive practices among those categories. As outlined in Table 5 , regardless of having a child, females tend to adhere preventive practices more than males. in the source dataset and then use multiple linear regression to note any influence of independent variables on the dependent variables. Also, for the three resultant CART models, we note that the value for the \"risk\" measure varied from 0.027 to 0.029. In tree classification, the \"risk\" quantifies the proportion of cases incorrectly classified by the underlying tree. Thus, low values of risk reflect the robustness of the CART models, and which, adapting existing findings from the present literature 42 ,",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 620,
+                    "end": 627,
+                    "text": "Table 3",
+                    "ref_id": "TABREF3"
+                },
+                {
+                    "start": 1364,
+                    "end": 1371,
+                    "text": "Table 4",
+                    "ref_id": "TABREF4"
+                },
+                {
+                    "start": 1450,
+                    "end": 1457,
+                    "text": "Table 4",
+                    "ref_id": "TABREF4"
+                },
+                {
+                    "start": 1680,
+                    "end": 1687,
+                    "text": "Table 4",
+                    "ref_id": "TABREF4"
+                },
+                {
+                    "start": 2137,
+                    "end": 2144,
+                    "text": "Table 5",
+                    "ref_id": "TABREF6"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "arguably complement any low R 2 values for the regression stage.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Finally, we assess the reliability of findings. As outlined earlier, this research considered three constructs (social distancing, personal protection and social responsibility awareness). In quantifying these three constructs, we used 21 different survey items from the considered survey question and categorised these into three equal-sized groups (i.e., 7 per group) corresponding to each of the three constructs. The groupings are statistically reliable, as revealed from the corresponding Cronbach\"s alpha values outlined in Table 6 .Cronbach\"s alpha is a measure of internal consistency and reliability used to explore \"how closely a set of items are related\" when they are used to quantify a construct 43 .",
+            "cite_spans": [
+                {
+                    "start": 709,
+                    "end": 711,
+                    "text": "43",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 530,
+                    "end": 537,
+                    "text": "Table 6",
+                    "ref_id": "TABREF7"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "In general, a value of 0.70 or more is considered as \"acceptable\" in most social science research situations. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Overall, it appears that the demographic attributes like sex, marital and family status have played an influential role in abiding by COVID-19 protection behaviours in Japan. Research notes that, during the H1N1 pandemic, sex and marital status differently characterised intentions to get vaccinated among the Italian health workers 44 . Another research highlights that males were more adoptive of protection behaviours during the H1N1 pandemic in Saudi Arabia 45 , while females were noted as more compliant to H1N1 prevention measures in Hong Kong 46 . A research further notes that the reason for vaccination following the H1N1 pandemic varied between males and females in Japan 47 .",
+            "cite_spans": [
+                {
+                    "start": 333,
+                    "end": 335,
+                    "text": "44",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 462,
+                    "end": 464,
+                    "text": "45",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 551,
+                    "end": 553,
+                    "text": "46",
+                    "ref_id": "BIBREF42"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The COVID-19 outbreak, although a different disease, has some similarities to the past pandemic and is also caused by a virus. The findings from this study therefore reaffirm the differences in pandemic protection behaviour in population due to demographic attributes like sex. Further, research highlights that women tended to show more infection protection behaviour than men across countries during the previous pandemics 48 . Thus, this study\"s finding of Japanese women being more compliant to COVID-19 protection measures matches this attitude.",
+            "cite_spans": [
+                {
+                    "start": 425,
+                    "end": 427,
+                    "text": "48",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The analysis also reveals \"work status\" as a contributing factor concerning \"social distancing\".",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In a pandemic situation, work status of individuals can impact their possibility of contacts with other individuals and their ability to absorb the economic impact of any restrictions arising from public health advice. These, in turn, shape individual perceptions of any social distancing measure and personal protection behaviour. Such has also been the case in Japan. In the considered dataset, a value of 1 is assigned to \"regular employee\" and higher values indicate individuals who are occasionally employed or self-employed or unemployed. A positive significant coefficient for work status, hence,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "suggests that non-regular employees were more compliant to social distancingpotentially, which also relates to regular employees finding it difficult to maintain social distancing. Some research has J o u r n a l P r e -p r o o f noted work status of individuals having an impact on their compliance to pandemic protection measure 48 . Our finding thus affirms work status as a factor to consider during pandemic management Also, research suggests that humans well consider sociality when facing the threat of an infectious disease 49 . There have further been some evidences of marital status influencing pandemic protection behaviour in Hong Kong, even though the impact of marital status on infection protection behaviour in general had been inconclusive 48 . Thus, the finding that marital status has played a role in Japanese populaces\" adherence to COVID-19 protection behaviour is, hence, interesting, and potentially relates to their concern about families and the inherent sociality.",
+            "cite_spans": [
+                {
+                    "start": 331,
+                    "end": 333,
+                    "text": "48",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 532,
+                    "end": 534,
+                    "text": "49",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 758,
+                    "end": 760,
+                    "text": "48",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Among the personal attributes, this research particularly notes \"smoking frequency\" as having a negative impact on each of the three COVID-19 preventive behaviours. As outlined in Table 2 , the possible values for the \"smoking frequency\" attribute have been placed in ascending order (i.e., \"1\" for \"never smoked\", \"2\" for \"used to smoked but not now\", \"3\" for \"sometimes\" and \"4\" for \"everyday\").",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 180,
+                    "end": 187,
+                    "text": "Table 2",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "Thus, a negative coefficient for the \"smoking frequency\" attribute indicates that individuals who are non-smoker or smoke less frequently are more likely to adhere COVID-19 preventive measures.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Research notes that smoking and non-smoking behaviour can characterise the practice of seeking health support for influenza types of diseases in the USA 50 . Another study finds smoking behaviour as a contributing factor towards vaccination against H1N1 among pregnant women in France 51 . Thus, this study\"s finding of \"smoking behaviour\" of Japanese citizens shaping their adherence to COVID-19 restrictions also relates to this behavioural attribute as a factor to consider when managing flu or influenza like pandemic.",
+            "cite_spans": [
+                {
+                    "start": 153,
+                    "end": 155,
+                    "text": "50",
+                    "ref_id": "BIBREF46"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Lastly, trust in government has appeared as a significant factor that positively influences public When faced with a pandemic situation, governments historically focus on adopting some public measures as has also been the case during the early outbreak of COVID-19 in Japan. However, as noted by different research covering different countries, subjective beliefs and demographic attributes can shape public adherence to these measures 10, 13, 15, 55 . This research reaffirms the influence sociodemographic factors and personal attributes on compliance to public policies. Interestingly, individuality and subjective behaviour have not received much attention in public health policy management and institution. In a disaster or public health emergency, governments still tend to promote some standard measures and expect everyone to follow the suggested advice. Such has also been the case in Japan. Arguably, the outcomes imply the need of targeted campaigning when governments face a pandemic or a national disaster situation. Acknowledging that not everyone is likely to have the same level of trust and subjective beliefs moderated by socio-demographic and personal attributes are likely to influence individuals\" compliances to any public policy, governments, rather than just instituting common public measures, may also focus on identifying demographic groups at high risk of non-compliance and adopt various social marketing strategies for effective policy outcomes. Future research can provide more insights in this regard. Overall, this article confirms a gap that has largely been overlooked in literature; and reflects the need for public health policy management and institution with a focus on individuality and personal behaviour across different cohorts in the public, further to creating an environment of trust, especially when the policies target some behavioural change to control a pandemic.",
+            "cite_spans": [
+                {
+                    "start": 436,
+                    "end": 439,
+                    "text": "10,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 440,
+                    "end": 443,
+                    "text": "13,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 444,
+                    "end": 447,
+                    "text": "15,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 448,
+                    "end": 450,
+                    "text": "55",
+                    "ref_id": "BIBREF51"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Finally, it is worth noting the technical contribution made in this research. As outlined earlier, while a recently published article on the same dataset also explores Japanese populaces\" response to pandemic protection measures and advice 26 , we zoom into the pandemic protection measures from three behavioural perspectives and considered more items of the respective survey question. In addition, rather than opting only for descriptive statistics and multiple linear regression, we use the CART analysis to extract features that are influential in characterising the dependent variables.",
+            "cite_spans": [
+                {
+                    "start": 240,
+                    "end": 242,
+                    "text": "26",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Notably, while the CART algorithm incepted in 1980s 32 , its application in social science domain has been recent and, to the best of our knowledge, very limited in subjective behaviour assessment. There have also been other algorithms which followed CART including Random Forest (RF) 56another well-known tree-based machine learning approach. Fern\u00e1ndez-Delgado et al 57 claimed RF as the best classifier among the many machine learning approaches. A later work, however, has refuted this claim by identifying weaknesses in the previous study 58 . Another recent research compared CART and RF and noted CART as a better performing approach for data with different conditions including when there are missing information 33 . Considering these, we focus on CART in our research. The choice is also due to the easy interpretability of CART outcomes. In this context, it may be argued that structural equation modelling (SEM) can also lead to similar hierarchical explanation of relationships in data. However, as noted by Medina-Borja and Pasupathy 59 , CART is applicable when the aim is to extract knowledge from data as compared to SEM which can support or contradict any predetermined linear interrelationship between variables. With our focus on identifying influential variables, the use of CART is hence justified. Further, as also outlined earlier, CART can conceptualise non-parametric and nonlinear relationship among data 60 , and can therefore avoid limitations in a linear regression. Overall, our results complement the existing finding 26 , and our approach may also motivate similar interpretative categorisation of pandemic protection behaviour in future research.",
+            "cite_spans": [
+                {
+                    "start": 543,
+                    "end": 545,
+                    "text": "58",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 720,
+                    "end": 722,
+                    "text": "33",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1047,
+                    "end": 1049,
+                    "text": "59",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 1549,
+                    "end": 1551,
+                    "text": "26",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "This study assesses the behavioural perspectives of population differentiated by socio-demographic and personal attributes when confronting a pandemic situation. Using a publicly available and recently collected data on Japanese citizens during the COVID-19 early outbreak and exploiting both CART and regression analysis, the study notes that socio-demographic and personal attributes of individuals indeed shape the subjective prevention actions and thereby the control of spread of a pandemic. Socio-demographic attributessex, marital family status, and having childrenappear to have played an influential role in Japanese citizens\" abiding by the COVID-19 protection behaviours, J o u r n a l P r e -p r o o f especially with women having children being noted more conscious than the male counterparts.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "Among the personality attributes, smoking behaviour appeared as a contributing factor with nonsmokers or less-frequent smokers more compliant to the protection behaviours. Work status also appears to have some impact especially concerning social distancing. Further, trust in government appears as a significant factor.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "There are some limitations of the research. The conclusions drawn are dependent on information recorded in the publicly available dataset. Thus, the study may have sustained the same limitations as the data collector including limitations due to self-reporting by participants, not covering all age groups, random sampling, and timing of data collection 26 . Further, the way the items for the considered questionnaire have been interpreted and grouped across the three behaviours can be subjective, as is not uncommon in qualitative coding.",
+            "cite_spans": [
+                {
+                    "start": 354,
+                    "end": 356,
+                    "text": "26",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "Despite the limitations, the findings provide useful insights especially concerning the need for public policy campaigning to account for variations in responses and protection behaviour due to socio-demographic and personal attributes during a pandemic. Such consideration, rather than a general campaign, may lead to more effective pandemic managementan issue to be explored in future research.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "J o u r n a l P r e -p r o o f",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "The reproductive number of COVID-19 is higher compared to SARS coronavirus",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Gayle",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wilder-Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Rockl\u00f6v",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Travel Medicine",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "China's successful control of COVID-19. The Lancet Infectious Diseases",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Burki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "20",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "COVID-19 (Novel Coronavirus 2019)-recent trends",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kannan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Pss",
+                    "middle": [],
+                    "last": "Ali",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sheeza",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hemalatha",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eur Rev Med Pharmacol Sci",
+            "volume": "24",
+            "issn": "",
+            "pages": "2006--2017",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Characterisation of COVID-19 Pandemic in Paediatric Age Group: A Systematic Review and Meta-Analysis",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mustafa",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Selim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clin Virol",
+            "volume": "128",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Airborne transmission route of COVID-19: why 2 meters/6 feet of inter-personal distance could not Be enough",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Setti",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Passarini",
+                    "suffix": ""
+                },
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Gennaro",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Barbieri",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Perrone",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Borelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "17",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Comparison of Hospitalized Patients With ARDS Caused by COVID-19 and H1N1",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Weekly epidemiological update -15",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Trust During the Early Stages of the 2009 H1N1 Pandemic",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Freimuth",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Musa",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hilyard",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Quinn",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Journal of Health Communication",
+            "volume": "19",
+            "issn": "",
+            "pages": "321--360",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "The importance of coping appraisal in behavioural responses to pandemic flu",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Teasdale",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yardley",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Schlotz",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Michie",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "British Journal of Health Psychology",
+            "volume": "17",
+            "issn": "",
+            "pages": "44--59",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Social Capital and Health-Protective Behavior Intentions in an Influenza Pandemic",
+            "authors": [
+                {
+                    "first": "Y-C",
+                    "middle": [],
+                    "last": "Chuang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y-L",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K-C",
+                    "middle": [],
+                    "last": "Tseng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yen",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "C-H",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yang L-H",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "PLoS ONE",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "COVID-19-related conspiracy beliefs and their relationship with perceived stress and pre-existing conspiracy beliefs",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Georgiou",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Delfabbro",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Balzan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Personality and Individual Differences",
+            "volume": "166",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Who complies with the restrictions to reduce the spread of COVID-19?: Personality and perceptions of the COVID-19 situation",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zajenkowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Jonason",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Leniarska",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Kozakiewicz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Personality and Individual Differences",
+            "volume": "166",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Mentality and behavior in COVID-19 emergency status in Japan: Influence of personality, morality and ideology",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Qian",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yahara",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "PLOS ONE",
+            "volume": "15",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "COVID-19 Pandemic Response in Japan: What Is behind the Initial Flattening of the Curve? Sustainability",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tashiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Shaw",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Classification and Regression Trees",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Breiman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Classification and Regression Tree Approach for Prediction of Potential Hazards of Urban Airborne Bacteria during Asian Dust Events",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Yoo",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yoo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Shukla",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Scientific Reports",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Review and analysis of current responses to COVID-19 in Indonesia: Period of",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Djalante",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lassa",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Setiamarga",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sudjatma",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Indrawan",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Haryanto",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Progress in Disaster Science",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Public's early response to the novel coronavirus-infected pneumonia",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emerg Microbes Infect",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Risk perception and behavioral response to COVID-19 in Iraqi Kurdistan Region",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Shabu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Amen",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Mahmood",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Shabila",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Practice and perception of Bangladeshi adults toward COVID-19: a cross-sectional study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Wadood",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Huq",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mamun",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mohd",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hossain",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Impact of Disasters and Disaster Risk Management in Singapore: A Case Study of Singapore\"s Experience in Fighting the SARS Epidemic",
+            "authors": [
+                {
+                    "first": "Ay-H",
+                    "middle": [],
+                    "last": "Lai",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Tan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Resilience and Recovery in Asian Disasters: Community Ties, Market Mechanisms, and Governance",
+            "volume": "",
+            "issn": "",
+            "pages": "309--345",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Are we there yet? The transition from response to recovery for the COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Fakhruddin",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Blanchard",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ragupathy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Progress in Disaster Science",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Japanese citizens' behavioral changes",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Yamamoto",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Japanese citizens' behavioral changes and preparedness against COVID-19: An online survey during the early phase of the pandemic",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Muto",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Yamamoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Nagasu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tanaka",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wada",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "PLOS ONE",
+            "volume": "15",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Smoking Is Associated With COVID-19 Progression: A Meta-analysis. Nicotine & Tobacco Research",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Patanavanich",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Glantz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "How to use ridit analysis",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Bross",
+                    "suffix": ""
+                }
+            ],
+            "year": 1958,
+            "venue": "Biometrics",
+            "volume": "",
+            "issn": "",
+            "pages": "18--38",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Ridit analysis. Wiley StatsRef: Statistics Reference Online",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Flora",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "How to use ridit analysis",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Bross",
+                    "suffix": ""
+                }
+            ],
+            "year": 1958,
+            "venue": "Biometrics",
+            "volume": "14",
+            "issn": "",
+            "pages": "18--38",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Classification and regression trees",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Breiman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Friedman",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Stone",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Olshen",
+                    "suffix": ""
+                }
+            ],
+            "year": 1984,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Using Classification and Regression Trees (CART) and Random Forests to Analyze Attrition: Results From Two Simulations",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hayes",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Usami",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Jacobucci",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Mcardle",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Psychology and aging",
+            "volume": "30",
+            "issn": "",
+            "pages": "911--940",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Classification and regression trees",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Krzywinski",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Altman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Nature Methods",
+            "volume": "14",
+            "issn": "",
+            "pages": "757--765",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "The Gini methodology: A primer on a statistical methodology",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yitzhaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Schechtman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "CART: Classification and Regression Trees",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Steinberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "The Top Ten Algorithms in Data Mining",
+            "volume": "",
+            "issn": "",
+            "pages": "179--201",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Soft computing paradigms and regression trees in decision support systems",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Tran",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Abraham",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Jain",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Intelligent Information Technologies: Concepts, Methodologies, Tools, and Applications: Concepts, Methodologies, Tools, and Applications",
+            "volume": "",
+            "issn": "",
+            "pages": "1011--1046",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Classification and Regression Trees, CART: A User Manual for Identifying Indicators of Vulnerability to Famine and Chronic Food Insecurity: Intl Food Policy Res Inst",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yohannes",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Webb",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Multiple regression analysis using SPSS statistics",
+            "authors": [],
+            "year": 2009,
+            "venue": "Field A. Discovering statistics using SPSS",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Beware of R2: simple, unambiguous assessment of the prediction accuracy of QSAR and QSPR models",
+            "authors": [
+                {
+                    "first": "Dlj",
+                    "middle": [],
+                    "last": "Alexander",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tropsha",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Winkler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Journal of chemical information and modeling",
+            "volume": "55",
+            "issn": "",
+            "pages": "1316--1338",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Limitations of P-Values and R-squared for Stepwise Regression Building: A Fairness Demonstration in Health Policy Risk Adjustment",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Rose",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Mcguire",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "The American Statistician",
+            "volume": "73",
+            "issn": "",
+            "pages": "152--158",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Coefficient alpha and the internal structure of tests",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cronbach",
+                    "suffix": ""
+                }
+            ],
+            "year": 1951,
+            "venue": "psychometrika",
+            "volume": "16",
+            "issn": "",
+            "pages": "297--334",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Behaviours regarding preventive measures against pandemic H1N1 influenza among Italian healthcare workers",
+            "authors": [
+                {
+                    "first": "La",
+                    "middle": [],
+                    "last": "Torre",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Di",
+                    "middle": [],
+                    "last": "Thiene",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Cadeddu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ricciardi",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Boccia",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Eurosurveillance",
+            "volume": "14",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Epidemiology of H1N1 (2009) influenza among healthcare workers in a tertiary care center in Saudi Arabia: a 6-month surveillance study. infection control and hospital epidemiology",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Balkhy",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "El-Saed",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sallah",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "",
+            "volume": "31",
+            "issn": "",
+            "pages": "1004--1014",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Avoidance behaviors and negative psychological responses in the general population in the initial stage of the H1N1 pandemic in Hong Kong",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Griffiths",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Tsui",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "BMC Infectious Diseases",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Reasons for and against receiving influenza vaccination in a working age population in Japan: a national cross-sectional study",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Iwasa",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wada",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "BMC Public Health",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Demographic and attitudinal determinants of protective behaviours during a pandemic: A review",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bish",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Michie",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "British Journal of Health Psychology",
+            "volume": "15",
+            "issn": "",
+            "pages": "797--824",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Infection-avoidance behaviour in humans and other animals",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Curtis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Trends in Immunology",
+            "volume": "35",
+            "issn": "",
+            "pages": "457--64",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Impact of medical and behavioural factors on influenza-like illness, healthcare-seeking, and antiviral treatment during the 2009 H1N1 pandemic: USA",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Biggerstaff",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Jhung",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Reed",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Garg",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Balluz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Fry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Epidemiology & Infection",
+            "volume": "142",
+            "issn": "",
+            "pages": "114--139",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Determinants of Non-Vaccination against Pandemic 2009 H1N1 Influenza in Pregnant Women: A Prospective Cohort Study",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Freund",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Ray",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Charlier",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Avenell",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Truster",
+                    "suffix": ""
+                },
+                {
+                    "first": "J-M",
+                    "middle": [],
+                    "last": "Tr\u00e9luyer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "PLOS ONE",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Toward a collaborative model of pandemic preparedness and response: Taiwan's changing approach to pandemics",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Schwartz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M-Y",
+                    "middle": [],
+                    "last": "Yen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Immunology and Infection",
+            "volume": "50",
+            "issn": "",
+            "pages": "125--157",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "The Covid-19 pandemic in Denmark: Big lessons from a small country",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Olagnier",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Mogensen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cytokine & Growth Factor Reviews",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Trust is a key factor in the willingness of health professionals to work during the COVID-19 outbreak: Experience from the H1N1 pandemic in Japan",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Imai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Psychiatry and Clinical Neurosciences",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Content matters. Different predictors and social consequences of general and government-related conspiracy theories on COVID-19. Personality and Individual Differences. 2021; 168:110289. 56. Breiman L. Random forests",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Oleksy",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wnuk",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Maison",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "\u0141y\u015b",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Machine learning",
+            "volume": "45",
+            "issn": "",
+            "pages": "5--32",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Do we need hundreds of classifiers to solve real world classification problems? The journal of machine learning research",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Fern\u00e1ndez-Delgado",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Cernadas",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Barro",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Amorim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "",
+            "volume": "15",
+            "issn": "",
+            "pages": "3133--81",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Are random forests truly the best classifiers?",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wainberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Alipanahi",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Frey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "The Journal of Machine Learning Research",
+            "volume": "17",
+            "issn": "",
+            "pages": "3837--3878",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Uncovering complex relationships in system dynamics modeling: Exploring the use of CART, CHAID and",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Medina-Borja",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Pasupathy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Weighing Risk Factors Associated With Bee Colony Collapse Disorder by Classification and Regression Tree Analysis",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Vanengelsdorp",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Speybroeck",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Evans",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kim",
+                    "middle": [],
+                    "last": "Nguyen",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Mullin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Frazier",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Journal of Economic Entomology",
+            "volume": "103",
+            "issn": "",
+            "pages": "1517--1540",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Data analysis framework followed in this research",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "CART outcome tree for the \"Personal protection behaviour\" dependent variable. Out of ten, four attributes (Trust in Government, Sex, Marital status, and Work status) were included as nodes in this tree. CART outcome tree for the \"Social responsibility awareness\" dependent variable. Out of ten, five attributes (Trust to Government, Sex, Marital status, Smoking frequency, and Child) were included as nodes in this tree.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "provides a statistical summary of the five of themsex, marital status, work status, child (i.e. having children), and J o u r n a l P r e -p r o o f smoking frequency. The sixth one (Trust in Government) is a derived measure, which can take values ranging from 0 to 15; where 0 indicates lowest trust about the three Government policies and 15",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "compliance across each of the protection behaviours. Indeed, various literature reflects on trust about government within a pandemic situation. Schwartz and Yen 52 , for example, call for building trust, further to collaboration across government levels and other entities, to prepare for and respond in a pandemic situation. Olagnier and Mogensen 53 suggest trust in government among other factors as having played an influential role in effectively managing the early stage of the COVID-19 in Denmark. Muto et al. (2020), in an article using the same dataset as this research, also refer to trust. Further, there have been explorations that highlighted the influence of trust in government and J o u r n a l P r e -p r o o f authorities during past pandemic situations 10, 12, 54 . Thus, our findings corroborate the significant influence of trust in government also in Japan during the early stage of COVID-19.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "List of activities used for different dependent variables of this study.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "income > 800$: Yes/No\", \"if sex is male: Yes/No\", etc. The leaf nodes indicate an outcome as the J o u r n a l P r e -p r o o f prediction result of the decision tree. Thus, the outcome of a set of input variable values (of future observation) can be predicted by simply following the decision tree logic and reaching towards a particular leaf-node. Now, if the outcome variable has discrete values, i.e., discrete classes such as sex (male, female), disease outcome (benign, malignant), etc., then it is a classification tree. And, if the outcome variable is a continuous variable (price, age in years etc.) then it is a regression tree. CART is a modern term that encompasses a range of algorithms to generate both types of trees.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "RIDIT score for the five responses against each of 21 activities of the considered survey question. illustrate the CART outcomes for the three dependent variables of this study. We used SPSS 40 with default settings for generating these three trees. Four attributes (Age, Income,",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Statistics of the variables chosen following the CART training. Labels are as in original dataset25 .",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "shows the three regression models developed for each of three dependent variables of this study. Three attributes (Trust in Government, Marital status, and Sex) have significant positive impact on each of the three dependent variables (Social distance, Personal protection behaviour and Social responsibility awareness). Two attributes (Child and Smoking frequency) have negative impact",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "Regression outcome for the three dependent variables considered in this study",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "t-test results to explore the differences in abiding by the COVID-19 preventive practices between different subgroups of the survey respondents.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF7": {
+            "text": "Cronbach\"s alpha score for each of the three dependent measures considered in this study.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

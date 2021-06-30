@@ -1,0 +1,4448 @@
+{
+    "paper_id": "0abaaf167c2614365e01ed29df1f54e90127ad84",
+    "metadata": {
+        "title": "Molecular Sciences Predicting Potential SARS-COV-2 Drugs-In Depth Drug Database Screening Using Deep Neural Network Framework SSnet, Classical Virtual Screening and Docking",
+        "authors": [
+            {
+                "first": "Nischal",
+                "middle": [],
+                "last": "Karki",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Southern Methodist University",
+                    "location": {
+                        "postCode": "75205",
+                        "settlement": "Dallas",
+                        "region": "TX",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Niraj",
+                "middle": [],
+                "last": "Verma",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Southern Methodist University",
+                    "location": {
+                        "postCode": "75205",
+                        "settlement": "Dallas",
+                        "region": "TX",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Francesco",
+                "middle": [],
+                "last": "Trozzi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Southern Methodist University",
+                    "location": {
+                        "postCode": "75205",
+                        "settlement": "Dallas",
+                        "region": "TX",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Peng",
+                "middle": [],
+                "last": "Tao",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Southern Methodist University",
+                    "location": {
+                        "postCode": "75205",
+                        "settlement": "Dallas",
+                        "region": "TX",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Elfi",
+                "middle": [],
+                "last": "Kraka",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Southern Methodist University",
+                    "location": {
+                        "postCode": "75205",
+                        "settlement": "Dallas",
+                        "region": "TX",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Brian",
+                "middle": [],
+                "last": "Zoltowski",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Southern Methodist University",
+                    "location": {
+                        "postCode": "75205",
+                        "settlement": "Dallas",
+                        "region": "TX",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Fabio",
+                "middle": [],
+                "last": "Altieri",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Southern Methodist University",
+                    "location": {
+                        "postCode": "75205",
+                        "settlement": "Dallas",
+                        "region": "TX",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Citation: Karki, N.; Verma, N.;Trozzi, F.; Tao, P.; Kraka, E.; Zoltowski, B.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Pathogens have wreaked havoc on human society for as long as human society has existed. Various forms of pathogenic microbes have marked pivotal points in human history among which the notable examples are plague, smallpox, tuberculosis, and cholera [1] . While most of these pathogens have been either eradicated or have a cure developed, as globalization increases, new emergent diseases remain an increasing global threat. Ebola virus, hantavirus, zika virus, human immunodeficiency virus, and coronaviruses are some of the viral families that have been identified and have continuously posed a threat in the past decades [2, 3] . Currently, we are amidst a pandemic caused by a member of the coronavirus family, Severe Acute Respiratory Syndrome Coronavirus-2 (SARS-CoV-2) which has claimed 1.7 million lives and significantly impacted the global economy. The pharmaceutical research in response has been relentless and fruitful, however as seen during the ongoing pandemic, despite recent technology breakthroughs, development and widescale production of vaccines take well over a year. As a result, it is imperative that we develop rapid methods to identify putative therapeutics to combat future rounds of new emergent diseases.",
+            "cite_spans": [
+                {
+                    "start": 250,
+                    "end": 253,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 625,
+                    "end": 628,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 629,
+                    "end": 631,
+                    "text": "3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Disease prevention and treatment can proceed via three avenues with varying utility and timelines. Long-term, a viable vaccine is the best option for an intervention strategy to mitigate the spread and effect of a virus. Short-term, drug re-purposing from approved drug data-sets is most effective, since they can be deployed as soon as they show efficacy against the disease. de novo development of a targeted treatment would require years of testing and regulatory approval, thus, although such a development route may be higher in terms of efficacy, the timeline precludes rapid usage of such an approach. Vaccine development is a difficult process and thus can potentially take much longer to be developed where highly specific de novo drugs could bridge the timeline. For these reasons, the research and pharmaceutical community must focus on a three-tiered platform for disease prevention, treatment, and eventually eradication of emergent diseases.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Against SARS-CoV-2, scientists throughout the world have pushed research on identifying epidemiology, drug re-purposing, de novo drug design, and development of vaccines. With over two thousand clinical studies registered in www.clinicaltrials.gov, many researchers have identified various means of prevention and treatments. Towards eradication, vaccines have been developed with 56 currently in clinical trial and 146 in pre-clinical development worldwide [4] . Multiple vaccines have been authorized for use by the Food and Drugs Administration (FDA) in the USA which has projected over 100 million doses delivered worldwide by March of 2021 [5] . Furthermore, drug re-purposing has allowed the use of many drugs, particularly antivirals for relief against severe disease progression. The rapid developmental success of vaccine has lessened the urgency for de novo drugs that target SARS-CoV-2 with high affinity. Through this diversified focus on dealing with SARS-CoV-2, researchers have managed to find effective means of reducing the severity of cases and most importantly development of several versions of vaccine against SARS-CoV-2.",
+            "cite_spans": [
+                {
+                    "start": 458,
+                    "end": 461,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 645,
+                    "end": 648,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "SARS-CoV-2, like all members of coronavirus family, has a crown-like spike protein (S protein) and a viral core containing a positive sense RNA strand. The S protein is responsible for host specificity and host binding, an essential step for the injection of the viral core into the host cell. The N-terminal S1 domain of SARS-CoV-2 has a high affinity to the membrane bound human Angiotensin-II Converting Enzyme (ACE2) protein allowing the virus to adhere to the cell surface exposing the S protein to host proteases to initiate infection. This mechanism is shared by several known human pathogenic coronavirus [6] [7] [8] [9] . Furthermore, the S1 sub-unit has high genetic variability among coronaviruses, allowing these viruses to cross-species and thereby highlighting the threat of coronavirus in the future [7, 10] . The binding affinity of viral S protein to ACE2 implicates ACE2 as a drug target against SARS-CoV-2. Thus, interrupting the interactions between S1 and ACE2, either through competitive or allosteric inhibition, is of interest as a preventive treatment.",
+            "cite_spans": [
+                {
+                    "start": 613,
+                    "end": 616,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 617,
+                    "end": 620,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 621,
+                    "end": 624,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 625,
+                    "end": 628,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 815,
+                    "end": 818,
+                    "text": "[7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 819,
+                    "end": 822,
+                    "text": "10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "ACE2 is a metallopeptidase that cleaves hormonal peptide angiotensin II at the carboxylic terminal phenylalanine and hydrolyses it to a vasodilator, angiotensin (1-7) [11] . Furthermore, it also shows peptidase activity against bradykinin, apelin, neurotensin, dynorphin A, and ghrelin, playing a crucial role in the regulation of several hormonal pathways [12] . Specifically, ACE2 belongs to Renin-Angiotensin-Aldosterone System (RAAS) where Angiotensin I Converting Enzyme (ACE or ACE1) converts angiotensin I to angiotensin II, a potent vasoconstrictor which in turn is converted into angiotensin (1-7) by ACE2. This system is tightly regulated through orchestration from liver, lungs, kidneys, and renal gland [13] . Thus, it is of the outmost importance to be able to avoid the viral infection while preserving the biological function of this enzyme. To achieve this task, the ACE2:S1 binding interface or the S1 fragment would represent suitable targets. However, protein-protein interaction surfaces are largely featureless, with no direct clefts or pockets amendable to small-molecule recognition. Furthermore, examination of the S1 surface involved in ACE2 binding demonstrates this problem for Spike. The S1 surface is featureless, relatively structurally smooth with no obvious pockets or clefts for small molecules to bind to with high affinity. Small molecules that modulate ACE2 conformational dynamics related to its enzymatic function can be useful tools to modulate CoVID-19 pathology as well as potentially regulating the RAAS system, expanding this study beyond the scope of CoVID-19 treatment.",
+            "cite_spans": [
+                {
+                    "start": 167,
+                    "end": 171,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 357,
+                    "end": 361,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 715,
+                    "end": 719,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Recently, Yan et al. [14] has published the structure of ACE2 in three conformations: an open conformation, a closed conformation, and a closed conformation in complex with a fragment of the viral S protein (Figure 1) . The ACE2 open and closed conformations differ from each other by the degree of opening of the catalytic site cleft of the peptidase domain ( Figure 1b) [14, 15] . This causes a distortion of the ACE2:S1 binding interface [15] . Moreover, ligand binding studies have identified a closing motion associated with ligand binding, suggesting that the closed conformation represents the catalytically active state of the enzyme [16] . These structural insights imply ACE2 as a viable target to block S1 recognition through allosteric control of open-closed transitions necessary for S1 recognition. Indeed, several groups have performed computational drug screens on libraries of approved molecules for potential therapeutic targets and rapid deployment by targeting ACE2 as well as proteases that initiates membrane fusion [17, 18] . We note that the previous computational drug screens of the ACE2-Spike complex focused on limited size data-sets, considered only a single ACE2 structure, and were limited to the ACE2-Spike interface [19, 20] . Such an approach is not able to identify potential allosteric inhibitors of ACE2-Spike complex formation, leverage potential structure-based mechanisms of drug action, and may miss higher affinity sites within the ACE2 protein.",
+            "cite_spans": [
+                {
+                    "start": 21,
+                    "end": 25,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 372,
+                    "end": 376,
+                    "text": "[14,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 377,
+                    "end": 380,
+                    "text": "15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 441,
+                    "end": 445,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 642,
+                    "end": 646,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1038,
+                    "end": 1042,
+                    "text": "[17,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1043,
+                    "end": 1046,
+                    "text": "18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1249,
+                    "end": 1253,
+                    "text": "[19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1254,
+                    "end": 1257,
+                    "text": "20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 207,
+                    "end": 217,
+                    "text": "(Figure 1)",
+                    "ref_id": null
+                },
+                {
+                    "start": 361,
+                    "end": 371,
+                    "text": "Figure 1b)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Introduction"
+        },
+        {
+            "text": "Nevertheless, under the guidance of computational studies taken from both pre-print as well as peer-reviewed papers, in vitro assays and in some cases clinical trials have been performed on various pre-approved drugs [21] [22] [23] [24] [25] [26] [27] [28] . As such, computational studies have been of tremendous assistance, however, most of these screens can only be performed on limited-size libraries of FDA approved compounds for swift drug deployment, which precludes gathering information on mechanistic models as well as de novo drugs with potential high binding affinities for a long term development.",
+            "cite_spans": [
+                {
+                    "start": 217,
+                    "end": 221,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 222,
+                    "end": 226,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 227,
+                    "end": 231,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 232,
+                    "end": 236,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 237,
+                    "end": 241,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 242,
+                    "end": 246,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 247,
+                    "end": 251,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 252,
+                    "end": 256,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Catalytic site ACE2:S1 Interface Zn +2",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "S1 ACE2"
+        },
+        {
+            "text": "(a) ACE2:S1",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "S1 ACE2"
+        },
+        {
+            "text": "(b) ACE2 Figure 1 . Crystal structures showing interaction between human ACE2 and S1 domain of viral S-protein. (a) Viral S1 fragment of the S-protein co-crystallized with ACE2. Only closed conformation can be co-crystallized suggesting ACE2 conformational dependency for S1 interaction [14] . (b) Closed and Open conformation of ACE2. Zn cation is not detected in the open conformation. ACE2 freely explores both open and closed conformations [14] .",
+            "cite_spans": [
+                {
+                    "start": 287,
+                    "end": 291,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 444,
+                    "end": 448,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 9,
+                    "end": 17,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "ACE2 (closed) ACE2 (open)"
+        },
+        {
+            "text": "With this study, we provide a computational strategy that leverages the ability of our machine learning algorithm, SSnet, to rapidly screen a vast amount of compounds. On top of aiding the protocol for immediate drug repurposing, using our model we developed a platform that can be used intuitively and quickly to aid de novo drug design. Specifically, with this study, we demonstrate the efficacy of such protocol, both in terms of accuracy and speed, by identifying existing FDA approved drugs that may treat CoVID-19 and possible mechanisms of action, including allosteric inhibition. These strategies can be leveraged to expand to databases on the scale of millions of compounds, lending the approach amendable to the development of de novo treatments. To demonstrate the efficacy of the approach, we first screen a library of approved drugs from DrugBank and ZINC using a fast and accurate machine learning approach termed SSnet to identify compounds predicted to have high-binding affinities [29] . These hits are cross-validated against traditional drug docking algorithm smina using the Autodock Vina scoring function [30] . The SSnet approach is then extended to a library of 750,000 in BindingDB, to discard compounds that are predicted to have a poor capacity for binding. The truncated library can then be assayed using alternative drug docking approaches and subsequent analysis using molecular dynamics, as well as in vitro assays, to identify possible targeted therapeutics ( Figure 2 ). The analysis and interpretation of the results of the screening large datasets represent a challenge. For this purpose, we built a web interface for easy and intuitive access of our results to provide a platform for the identification of molecular scaffolds and functional groups that might influence target binding, thereby making the results accessible to a broader audience. Figure 2 . Proposed drug discovery workflow using SSnet. The orange boxes represent the steps that are performed in the present study. The blue boxes represent further steps required to complete the drug discovery workflow to obtain drug leads.",
+            "cite_spans": [
+                {
+                    "start": 998,
+                    "end": 1002,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 1126,
+                    "end": 1130,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1491,
+                    "end": 1499,
+                    "text": "Figure 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 1881,
+                    "end": 1889,
+                    "text": "Figure 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "ACE2 (closed) ACE2 (open)"
+        },
+        {
+            "text": "We choose three datasets for screening: (i) Approved: Clinically approved list of drugs or natural products (FDA or world) compiled from DrugBank and ZINC databases, (ii) Natural: South African based herbal medicines SANC [31] and Brazil based herbal medicines NuBBE, [32] (iii) BDB: the BindingDB [33] dataset that has a large number of compounds already been tested to have activity with protein target.",
+            "cite_spans": [
+                {
+                    "start": 222,
+                    "end": 226,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 268,
+                    "end": 272,
+                    "text": "[32]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 298,
+                    "end": 302,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Dataset"
+        },
+        {
+            "text": "SSnet is an end-to-end based deep neural network framework that takes a protein structure and ligand information to predict protein ligand interaction (PLI) probability. The protein structure is taken from PDB formatted file which is used to extract curvatures \u03ba and torsion \u03c4 of the protein backbone. The ligand is taken as Simplified Molecular-Input Line-Entry System (SMILES) string, which is utilized to extract the Morgan Fingerprint [34] of the ligand. The curvatures and torsion of the protein provide unique patterns due to multiple atomic interactions including side chain interactions, which play a major role in PLI. This information is used by SSnet to score the likelihood of ligand binding to target protein at IC50 less than 10 nM. SSnet model outperforms state-of-the-art machine learning models like Atomnet, [35] 3D-CNN, [36] and GNN-CNN [37] and classical force field and knowledge based methods employed by Autodock Vina [38] and Smina [30] in identifying positive protein-ligand pairs (protein ligand complex with high binding affinity). Since SSnet is a pre-trained algorithm [29] , it can rapidly screen drugs from a large database of drugs to find positive hits on the target protein. SSnet is made available for public use on https://github.com/ekraka/SSnet with instructions for both training the neural network as well as calculating scores using the BDB trained model. The resources utilized and the speed of execution for SSnet are provided in the supporting information.",
+            "cite_spans": [
+                {
+                    "start": 439,
+                    "end": 443,
+                    "text": "[34]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 826,
+                    "end": 830,
+                    "text": "[35]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 839,
+                    "end": 843,
+                    "text": "[36]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 856,
+                    "end": 860,
+                    "text": "[37]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 941,
+                    "end": 945,
+                    "text": "[38]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 956,
+                    "end": 960,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 1098,
+                    "end": 1102,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "SSnet"
+        },
+        {
+            "text": "Ligands were obtained from respective datasets in SMILES format which was then converted to 3D structures using openbabel's generate 3D option. The quality of the structures was checked via a python script using atomic distances as a criterion. 3D structures for the faulty structures were regenerated using rdkit [39] . A known limitation of docking methods is dealing with ligands containing a large number of atoms (high degree of freedom) [40] . Approximately 300 structures were excluded from the list of approved and natural compounds since neither rdkit nor openbabel were able to generate 3D structures of the compounds with a high degree of freedom (n > 50) which are provided in the supporting information). Explicit polar hydrogen atoms were added using openbabel. Lastly, the generated 3D structures were converted to pdbqt format.",
+            "cite_spans": [
+                {
+                    "start": 314,
+                    "end": 318,
+                    "text": "[39]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 443,
+                    "end": 447,
+                    "text": "[40]",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Ligand Preparation for Docking"
+        },
+        {
+            "text": "To perform virtual screening and docking, smina was used on a subset of clinically approved drug lists obtained from dataset 1. ACE2 structures from PDB ID 6M1D, 6M17, and 6M18 were taken as well as viral S protein fragment in 6M17. As such, chain B corresponding to ACE2 and chain E for viral S protein fragments were extracted from the structures using pymol with Zn in the catalytic site [41] . The smina runs were performed on the prepared ligands by centering the box of size 32\u00c5 \u00d7 32\u00c5 \u00d7 32\u00c5 around Lys353 ( Figure S1 ), identified as a key interaction residue between ACE2 and S protein, [19] with exhaustiveness of 36 on the default scoring function. The screens were replicated three times to consider the variability of scores from smina. We also re-evaluated the top 100 scoring ligands using exhaustiveness of 504 in triplicate. The results did not significantly impact the affinity scores and had only a weak effect on the standard deviation across the three replicates. As such, we did not increase the exhaustiveness for the entire compound library.",
+            "cite_spans": [
+                {
+                    "start": 391,
+                    "end": 395,
+                    "text": "[41]",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 594,
+                    "end": 598,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 513,
+                    "end": 522,
+                    "text": "Figure S1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Virtual Screening and Docking"
+        },
+        {
+            "text": "H 2 O was considered as the first entry for the list of compounds. The list was then sorted recursively such that each molecule is most similar to the previous molecule in the indexed list. The molecular similarity was considered using Tanimoto Coefficient (TC) of extended circular fingerprint (ECF, specifically Morgan Fingerprint). Approved and natural datasets were sorted in this manner, however the size of BDB dataset limits the generation of such a list. Thus, the BDB dataset was sorted by using k-nearest neighbor algorithm to consider 10,000 nearest neighbors computed by TC. The most similar compound in the 10,000 nearest neighbors was selected as the next molecule in the indexed list. Starting from H 2 O, this process was performed until every molecule was sorted. In case of no neighbor within 10,000 presorted compounds is found, the most similar compound is computed back from all compounds of the BDB dataset excluding the sorted entries. The benefit of using such an algorithm is to compute all nearest neighbor for each compound via parallel computation, significantly reducing the computation time, however, does not guarantee that the two consecutive compounds are most similar to each other from the remaining list. For use in the grouping, to display the data, this approach works despite the pitfall.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Chemical Sorting"
+        },
+        {
+            "text": "The sorted list was used as an index for a line which was then mapped to a pseudo-Hilbert space filling curve. The order of the pseudo-Hilbert curve was taken such that the compounds would be represented by at least one line segment in the curve. A detailed description of Hilbert space filling curve is discussed in the supporting information. The pseudo-Hilbert curve was used to represent the compound list for three reasons: (a) high density of data can be displayed in high resolution, (b) the pseudo-Hilbert curve preserves the spatial proximity of the line onto the map, and (c) similarity sorting of compounds allows easy identification of clusters of molecular scaffolds directly from the map. The preservation of spatial proximity ensures that the sorted list of SMILES based on the Tanimoto Coefficient (TC) is represented in the 2D space by spatial proximity. This representation allows immediate identification of clusters of molecules. The curve was then colored based on the SSnet binding prediction or smina affinity scores. A website was created to allow interactive exploration of the map to identify scaffolds of compounds that are scored highly either by smina or SSnet. The website is made available for public use at https://CoVID19screen.smu.edu/.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Visualization"
+        },
+        {
+            "text": "Computational approaches to screening large molecular databases can be limited due to the computational time required to exhaustively search the conformational space of small molecules that determines diverse binding modes to protein targets. To improve computational efficiency, we have employed a tiered approach to identify potential ligands that bind to the ACE2 receptor and possibly function as CoVID-19 treatments. We target two conformations of ACE2 receptor, open and closed, as well as ACE2 in complex with S1 (closed) Figure 1 . S1 from the S protein of SARS-CoV-2 did not co-crystallized with ACE2 (open) as observed by Yan et al. [14] , thus we posit that S1 cannot bind ACE2 in its open conformation [14] .",
+            "cite_spans": [
+                {
+                    "start": 643,
+                    "end": 647,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 714,
+                    "end": 718,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 529,
+                    "end": 537,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "To that effect, we first test the validity of SSnet prediction scores in two ways: (1) We compare the prediction score for ACE2 against ACE1, two members of the same protein family. (2) We compare SSnet scores to binding affinities computed by smina for a small library of FDA and World approved drugs for which docking method is feasible. For the first, we observe a difference in scores for ligands between ACE2 and ACE1 as seen by the deviation for y = x line on Figure S2 . These results indicate that SSnet can differentiate from closely related proteins and is not biased to specific tertiary or domain folds. For the second, we performed a closer analysis on the results described in SSnet Predicts Ligands with Low Smina Binding Affinities. Upon validation, we can proceed with using SSnet to rapidly screen through a large database of drug-like compounds.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 466,
+                    "end": 475,
+                    "text": "Figure S2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "SSnet, being a machine learning model, is not free from the pitfalls of overfitting. Thus, a crucial task is to first check how SSnet correlates with other methods such as smina. The results of screening for SSnet and smina scores over all approved drugs (8000 compounds) are shown in Figure 3 . The result from screening these compounds demonstrate a strong correlation between smina and SSnet ( Figure 3 ). Briefly, high binding probability hits from SSnet have corresponding low binding affinities computed by smina. We observe that for 1097 ligands with a prediction score of 0.5 or higher, only 7 ligands (0.6%) have higher than \u22126 kcal/mol binding affinity in smina. These values demonstrate that SSnet has a more stringent acceptance rate than smina and thus a higher likelihood of finding true active ligand from a large pool of molecules. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 285,
+                    "end": 293,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 397,
+                    "end": 405,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "SSnet Predicts Ligands with Low Smina Binding Affinities"
+        },
+        {
+            "text": "Molecules that demonstrate high scores in both SSnet and smina are prime candidates for investigation. Preliminary examination of heat maps predicted by SSnet, and poses identified by smina, indicate that compounds bind to two sites depicted in Figure 1 . The majority of compounds bind to the ACE2 catalytic site proximal to the S1 binding interface. As discussed below, we do observe some molecules that directly bind to the interface, or transect the ACE2 catalytic site to contact the S1 interface. In both cases, these ligands could impact S1 recognition through either allostery or direct competition. Although these screens might not reflect the efficacy of drugs in vivo, these results allow us to focus on a handful of ligands that can be experimentally tested. In Tables S1-S3, we complied a list of 12 drugs recognized by both smina and SSnet to be strong binders as well as drugs that are predicted by one and not the other. The top scorers are taken for all the proteins together to highlight some of these top predicted binders.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 245,
+                    "end": 253,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Ligands with High Binding Affinity Scores"
+        },
+        {
+            "text": "Our combined machine learning and docking strategy return high binding affinity ligands consistent with previous computational screens of the ACE2 receptor. Furthermore, sorafinib, [42] irinotecan, [43] and nilotinib [44] (Table S1) show reduction in infection rates in cell assays studies, while zanubrutinib is currently in clinical trial. Although these drugs target other pathways involved in the pathology, the reduction in infection rate could be in part attributed to the ability of the drug to bind ACE2. MD, simulations and drug assays specifically targeting ACE2 and ACE2:S1 would be required to test the hypothesis.",
+            "cite_spans": [
+                {
+                    "start": 181,
+                    "end": 185,
+                    "text": "[42]",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 198,
+                    "end": 202,
+                    "text": "[43]",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 217,
+                    "end": 221,
+                    "text": "[44]",
+                    "ref_id": "BIBREF43"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 222,
+                    "end": 232,
+                    "text": "(Table S1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Top Scores for both Smina and SSnet"
+        },
+        {
+            "text": "Examination of the binding locations for compounds that are either currently being tested as CoVID-19 treatments, or may intersect with ACE2/RAAS indicates that the compounds primarily bind to the ACE2 catalytic site (Figure 4) . Although the highest affinity poses of indinavir, zanubrutinib, and sorafenib all reside in the catalytic site, sorafenib has a pose of comparable score within the ACE2-Spike interface (Figure 4c ). In either case, the compounds contact key elements involved in S1 recognition, and could impact ACE2-S1 interactions. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 217,
+                    "end": 227,
+                    "text": "(Figure 4)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 415,
+                    "end": 425,
+                    "text": "(Figure 4c",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Top Scores for both Smina and SSnet"
+        },
+        {
+            "text": "An examination of compounds identified by SSnet to have a high probability in binding identifies they primarily fall into three pharmaceutical categories, antivirals, protease inhibitors, and kinase inhibitors (Table S2) . Venetoclax [45] and Aliskiren [46] have shown efficacy towards CoVID-19. Since ACE2 hydrolyzes the peptide hormone angiotensin II at C-terminal phenylalanine as well as multiple additional regulatory peptides [11] , protease inhibitors could potentially bind to and inhibit the catalytic site. Consistent with such a mechanism, examination of the binding poses of antiviral compounds reveals primary binding within the ACE2 catalytic site, although some antivirals do dock directly to the ACE2-S1 interface in some poses ( Figure S3 ).",
+            "cite_spans": [
+                {
+                    "start": 234,
+                    "end": 238,
+                    "text": "[45]",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 253,
+                    "end": 257,
+                    "text": "[46]",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 432,
+                    "end": 436,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 210,
+                    "end": 220,
+                    "text": "(Table S2)",
+                    "ref_id": null
+                },
+                {
+                    "start": 746,
+                    "end": 755,
+                    "text": "Figure S3",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Top Scores with SSnet"
+        },
+        {
+            "text": "In addition to antivirals, and protease inhibitors, SSnet recognize among the top scorer an opioid and linaclotide, used to treat irritable bowel syndrome. Most of the anti-cancer drugs have substantial side effects, and most of them, with the exception of afatinib, have reported side effects correlated with alteration of blood pressure. This might be an indication of the correlation of this anti-cancer drugs and ACE2 related biological pathways. It is worth noting that all the drugs identified as top scorers by SSnet are all good binders according to smina binding affinity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Top Scores with SSnet"
+        },
+        {
+            "text": "Protein-protein interactions require the proteins involved to be in specific conformations. The optimal conformation for protein-protein binding can be both induced or inhibited by drug binding. While competitive binding of ligands at the protein-protein interaction interface can directly inhibit the interaction, ligand binding in allosteric sites can stabilize conformations that inhibit or enhance the protein-protein interaction Yan et al. [14] . observed that the viral S1 fragment could only be co-crystallized with ACE2 in the closed ACE2 conformation. In contrast, in the absence of S1 fragment, ACE2 crystallized in both open and closed conformation [14] . Their results indicate that the allosteric control of ACE2 conformational dynamics may enable a robust way to block ACE2:S1 recognition and subsequent SARS-COV-2 infection. Since SSnet predicts the same binding affinities and binding regions regardless of the protein conformation, when multiple structures of a protein are available, SSnet is able to predict ligand binding using a single conformation. Further, PLI prediction can be performed for both ACE2 and ACE2:S1 to investigate selectivity. This approach allows us to propose a hypothesis for PLI mechanism. Herein, we propose four scenarios for ACE2-S1-ligand interaction, summarized in bullets below and shown in Figure 5 . Previous validation of SSnet indicated the method was robust in identifying both allosteric regulators, and ligands that bind to hidden conformations. In this regard, it is well-suited to identify potential regulators for case I-IV. Further, our rapid method can be implemented to screen large drug libraries against all three structures and together with secondary screening in smina, can be used to select for molecules that potentially fall into the favorable Case-III and Case-IV scenarios. The mechanisms of drug action proposed cannot be validated using drug docking and scoring methods alone and will require methods that apply higher levels of theory like molecular dynamics or experimental verification. However, we can still screen for Case-III as the drugs that present a high score for the open conformation but low for the complex might lead to the stabilization of the open conformation and thereby disrupt spike recognition. The case-III would apply for both interface binding ligands as well as ligands that bind to the catalytic pocket or peripheral sites not examined in previous CoVID-19 computational screens. Using these criteria, Table S3 was generated to seek drugs that may selectively bind to ACE2 to negate interactions with S1 via allosteric disruption of ACE2. In addition to the scenarios just presented, the virus could be prevented from binding ACE2 by drug molecules that bind to the surface of the peptidase domain of ACE2, which is the interface where the viral S1 spike protein subunit binds. Figure 5 . Proposed mechanism of drug action for allosteric inhibitors of ACE2:S1 binding. Case I and Case II represent undesired stabilization of the ACE2:S1 complex. Case III and Case IV represent ACE2:S1 complex inhibitors due to allosteric disruption of the ACE2 binding interface, resulting in the stabilization of the open ACE2 conformation.",
+            "cite_spans": [
+                {
+                    "start": 445,
+                    "end": 449,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 660,
+                    "end": 664,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1340,
+                    "end": 1348,
+                    "text": "Figure 5",
+                    "ref_id": null
+                },
+                {
+                    "start": 2503,
+                    "end": 2511,
+                    "text": "Table S3",
+                    "ref_id": null
+                },
+                {
+                    "start": 2879,
+                    "end": 2887,
+                    "text": "Figure 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "Model of Drug Action"
+        },
+        {
+            "text": "Following the rationale illustrated in our proposed allosteric mechanisms of drug action, where a drug that binds preferably to the ACE2 open conformation compared to the closed one might stabilize the open conformation, in Table S3 the scores from the SSnet scores based on the difference between ACE2 in the open conformation and ACE2:S1 complex in closed conformation are presented. Pyronaridine [47] , have shown efficacy towards CoVID-19 in cell assays while Methylprednisone, Linagliptin, and ormeloxifene are in clinical trials (Table S3 ). The top smina docking poses for compounds with a high selective difference (SD) indicates that they lie within the ACE2 catalytic site, close to ACE2:S1 interface. Antivirals such as Nelfinavir [22] , and remdesvir [21] are in clinical trials which all display high SD. Remdesvir demonstrates a preference for the open conformation(SSnet = 0.748) compared to the ACE2:S1 complex (SSnet = 0.578) with a selectivity difference(SD) of 0.17. Lopinavir and ritonavir have shown SD of 0.08 and 0.09 respectively with a preference to open conformation of ACE2 with SSnet scores of 0.90 and 0.91 respectively. Although not presented in the table, we highlight these molecules since they have high SSnet scores as well as are in the clinical trial. These results provide a favorable outlook on the methodology proposed here and might indicate a complementary route of actions of these drugs that leverage the conformational selectivity of the viral spike protein.",
+            "cite_spans": [
+                {
+                    "start": 399,
+                    "end": 403,
+                    "text": "[47]",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 742,
+                    "end": 746,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 763,
+                    "end": 767,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 224,
+                    "end": 232,
+                    "text": "Table S3",
+                    "ref_id": null
+                },
+                {
+                    "start": 535,
+                    "end": 544,
+                    "text": "(Table S3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Top Scores for SSnet ACE2 (Open)-ACE2:S1 (Closed)"
+        },
+        {
+            "text": "ACE2 is a zinc-dependent metalloprotease, which cleaves the C-terminal residue of angiotensin II within its catalytic site. Given the importance of zinc for function we deemed it necessary to include zinc for all smina docking runs. Notably, SSnet was originally trained on structural models independent of any bound metals or cofactors. As such, SSnet strips protein targets of all ligands and cofactors, including zinc. Although SSnet has proven robust in identifying high affinity drug molecules, including for metalloprotein targets, we decided it was important to examine if the presence of zinc may alter predicted affinities from SSnet. To force SSnet to consider ligands in the presence of zinc, smiles strings were modified to include zinc in a manner that mimics co-analysis (or co-administration) of zinc and each ligand. Noteworthy is the fact that SSnet considers metal binding to the protein. Further, SSnet can recognize multiple ligands such as Ferrous cysteine glycinate (Fe 2+ and cysteine glycinate) and it is therefore capable to consider both Fe 2+ and cysteine glycinate together. Comparison of the SSnet scores with and without zinc revealed unexpected results that may impact analysis of compounds selective for the open and S1-complex structures Figure 6 and Table S4 . Correlations of SSnet with and without zinc, indicate the inclusion of zinc has only a modest positive effect for most compounds. This is especially true at low and high scores, where the two methods are equivalent. In this manner, the two methods do not differ in the selection of top-binding compounds. Based on a preliminary analysis, we observed that the top 15 ligands influenced most strongly by the inclusion of zinc lie in the catalytic site near the zinc ion binding site ( Figure S4 ). Further examination reveals two aspects, which may have implications in the identification of compounds selective for the open conformation. First, the effect of zinc on SSnet scores is significantly more pronounced in structures lacking S1 (Figure 6b ). In this regard, zinc seems to enhance ligand binding in the absence of the S1 complex regardless of whether ACE2 is in the open or closed conformation. Second, the effect of zinc is most pronounced within the range of modest SSnet scores where we observed the most selective compounds. To determine whether the role of zinc in SSnet scores may be artifactual, we sorted the approved compound libraries by the difference between SSnet with zinc and SSnet without zinc. Examination of compounds with the largest SSnet score differences with and without zinc are summarized in Table S5 . Here, we observe members of the proton pump inhibitor (PPI) families. Notably, PPIs are well known to potentially cause zinc deficiencies, due to the high affinity of PPIs to zinc. Analysis of other members observed in the top 15 affected compounds, indicates that all are known to have high affinities for zinc, including an ACE-inhibitor and ACE2 receptor blocker. These results strongly suggest that zinc may preferentially enhance binding to the ACE2 receptor that may be particularly relevant to compounds selective to the uncomplexed vs. ACE2-S1 complex structures. Based on these results, we tabulated the top compounds with SSnet(Zn) scores based on the difference between ACE2 in the open conformation and ACE2:S1 complex in the closed conformation in order to identify any that may be zinc dependent (Table S6) . Notably, three estrogen-related molecules, estriol-3-glucuronide, estradiol glucuronide, and 17-alphaestradiol-3-glucuronide are now observed in the top 20 most selective compounds.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1271,
+                    "end": 1279,
+                    "text": "Figure 6",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1284,
+                    "end": 1292,
+                    "text": "Table S4",
+                    "ref_id": null
+                },
+                {
+                    "start": 1778,
+                    "end": 1787,
+                    "text": "Figure S4",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 2032,
+                    "end": 2042,
+                    "text": "(Figure 6b",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 2620,
+                    "end": 2628,
+                    "text": "Table S5",
+                    "ref_id": null
+                },
+                {
+                    "start": 3441,
+                    "end": 3451,
+                    "text": "(Table S6)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Zinc Effect on SSnet Binding Probabilities"
+        },
+        {
+            "text": "An interesting finding of our smina screening is the abundance of natural compounds from the NuBBE and SANC datasets in the top binder list (Table S7) . We see compounds related to avonoids, flavonones, and polyketides in this group. We note that several glycopeptide antibiotics and macrolactams also demonstrate high affinities in smina. However, the comparison of smina affinity scores for these large molecules is complicated by poor 3D structures in molecular databases. Further, high degree of flexibility and conformational degrees of freedom limits the ability to identify the highest affinity pose, as demonstrated by a high average of absolute deviations for some of these compounds. Due to these constraints, we identified that smina has a limitation in the reproducibility of docked energies for these large molecules. They are not included in the tables above but are discussed in the discussion below. Despite the limitations of smina in analyzing these molecules, we do not exclude them entirely for two reasons. First, compounds in these families such as azithromycin and oritavancin have been suggested as CoVID-19 treatments. Further, the efficacy of these large molecules for the intended targets is very high with the working concentrations at sub nM range [48] [49] [50] .",
+            "cite_spans": [
+                {
+                    "start": 1277,
+                    "end": 1281,
+                    "text": "[48]",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 1282,
+                    "end": 1286,
+                    "text": "[49]",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 1287,
+                    "end": 1291,
+                    "text": "[50]",
+                    "ref_id": "BIBREF49"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 140,
+                    "end": 150,
+                    "text": "(Table S7)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Natural Compounds and Large Drug Molecules"
+        },
+        {
+            "text": "In order to assist the design of de novo drugs tailored to fight SARS-COV-2, we developed an interface where libraries of non-approved compounds can be clustered based on structural similarity and visualized in a 2D heatmap based on their affinity and selectivity to a particular conformation of the ACE2 receptor. Potentially active molecular scaffolds can be inferred from the visualization of high affinity compound clusters and used as starting point for further drug design. SSnet proved to be sensitive to functional group modifications. This translates into direct valuable information for drug designers which are now provided not only with potential active scaffold but functional group information to build pharmacophores and help rational drug design as well. An example is provided by estradiol. When analyzing Estradiol analogues from the heatmap derived cluster, they showed considerable deviations in binding affinity upon functional group substitution as can be seen in Figure 7 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 986,
+                    "end": 994,
+                    "text": "Figure 7",
+                    "ref_id": null
+                }
+            ],
+            "section": "SSnet as Tool to Aid the Discovery of De Novo Compounds"
+        },
+        {
+            "text": "Hormones are extremely selective in their functionality and as such small changes in functional groups could significantly alter their selectivity towards protein target. Since SSnet has been trained on a wide variety of ligands from BDB, it is not surprising that the selectivity of hormones is well captured by our model. This is demonstrated in Figure 7 , the coordinates for estradiol were selected in the pseudo-Hilbert map on the website to identify other potential estradiol derivatives that could have strong binding to ACE2. It is important to mention that a normal screening values-based sorting would have not provided such insight as estradiol derivatives are not in the high scoring area. Ulterior information from the clustering on the heatmap can be used to extrapolate how small groups affect the selectivity towards the ACE2 or the ACE2:S1 complex. Figure 8 shows that the highest selectivity is achieved for ACE2 binders with binding probabilities in the range 0.60-0.70. Furthermore, SSnet is blind to tertiary protein conformations, with only up to 0.5% difference in drug scores between the ACE2 open and closed conformations (Figure 8c ). This characteristic reduces the workload since only one ACE2 conformation and one ACE2:S1 complex conformation are needed. Being able to avoid the screening against all the crystal structures allowed us to save precious computational resources and time in the screening of 750,000 compounds in the BindingDB database. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 348,
+                    "end": 356,
+                    "text": "Figure 7",
+                    "ref_id": null
+                },
+                {
+                    "start": 866,
+                    "end": 874,
+                    "text": "Figure 8",
+                    "ref_id": null
+                },
+                {
+                    "start": 1147,
+                    "end": 1157,
+                    "text": "(Figure 8c",
+                    "ref_id": null
+                }
+            ],
+            "section": "SSnet as Tool to Aid the Discovery of De Novo Compounds"
+        },
+        {
+            "text": "The pressure to rapidly find a cure of preventive treatments in response to the life and economic costs of the CoVID-19 pandemic has exposed the necessity for fast and reliable protocols and/or methods to identify treatments when new pathogens appear. The existing computational studies being performed to find therapeutic for CoVID-19 showed that the current approaches have three main limitations: (1) Most studies have used a low-level of exhaustiveness in molecular docking algorithms. Such an approach can lead to difficulty in finding local minima in receptor ligand interactions are a high degree in variability in resulting binding affinities. (2) Computational efforts have been limited to a distinct conformation of the ACE2 receptor and compounds that bind to the ACE2-Spike interface. Such an approach does not leverage the three known structural states of the ACE2 receptor, which include an open conformation that cannot crystallize in complex with the Spike protein [14] . As such, compounds that preferentially bind to the open or closed conformations that may stabilize Spike-incompetent binding states are missed. (3) The approaches are computationally intensive, which limits the utility of the approach in large compound libraries for de novo drug identification. To alleviate these issues we have developed a robust platform to rapidly screen large compound libraries, in three different states of the ACE2 receptor, to identify both existing approved drugs and de novo drug candidates.",
+            "cite_spans": [
+                {
+                    "start": 981,
+                    "end": 985,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1132,
+                    "end": 1135,
+                    "text": "(3)",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "With this study, we showed that our protocol that leverages the recently developed PLI prediction ML algorithm, SSnet, can greatly reduce the chemical space of molecular libraries and, at the same time, ensuring that potential tight binders are not excluded. The fact that SSnet is blind to protein conformation allows us to consider all cryptic and allosteric sites by only looking at a single structure. Our PLI prediction using SSnet against the ACE2 structures to find potential treatment for CoVID-19 resulted in identifying potential binders that are being confirmed experimentally as a treatment for infected individuals.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "It is interesting to evaluate how our protocol composed of a tertiary screening, SSnet, and secondary screening, smina, ranked FDA approved drugs. Multiple molecules identified in this study emerged in other computational studies, have been investigated using in vitro and in vivo assays, and even gone through clinical trials. Antivirals such as remdesvir, nelfinavir, and lopinavir-ritonavir are prominent examples of drugs under clinical investigation. Interestingly, these molecules selectively bind to the virus-incompetent ACE2 open conformation, giving an indication of the validity of our model of drug action. We found that hormones, and in particular estriol metabolites are amongst our tightest binding compounds in smina, and have SD scores exceeding 0.20 for SSnet. In the case of all hormones, we observe that they are binding adjacent to the Zn 2+ binding site required for the function of ACE2, and the primary site differentiating the open and closed conformations. Notably, previous computational screens neglect this site, as it is not directly in the ACE2:spike interface, however, the site does modulate conversion between the open and closed conformation that is believed to be necessary for Spike recognition. These results may add utility to our workflow as a robust means to quickly identify ligand scaffolds as well as pre-existing drugs with high binding probabilities. Currently, the sex-dependent difference in CoVID-19 pathology and therapeutic effects of estrogen are being associated with different ACE2/TMPRSS2 expression, [51] [52] [53] [54] [55] [56] [57] [58] [59] , or immune system modulation [51, 55, 56, [60] [61] [62] [63] . To the best of our knowledge direct binding of sex hormones to ACE2 has not been observed. Given their presumptive ability to selectively bind to the open conformation, sex hormones could have an additional role in disease progression and pathology. Lastly, we did observe an abundance of glycopeptide and macrolactam antibiotics within the top scoring compounds in SSnet and/or smina. We caution in overinterpreting smina results from this class of compounds as the high-degree of freedom leads to difficulties in obtaining consistent high-affinity poses. Issues with large flexible molecules is a known limitation of existing computational docking algorithms [64, 65] . The ability of SSnet to circumvent these issues and selectively identify high probability binders demonstrates the efficacy of using SSnet as a front-end to drug discovery.",
+            "cite_spans": [
+                {
+                    "start": 1556,
+                    "end": 1560,
+                    "text": "[51]",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 1561,
+                    "end": 1565,
+                    "text": "[52]",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 1566,
+                    "end": 1570,
+                    "text": "[53]",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 1571,
+                    "end": 1575,
+                    "text": "[54]",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 1576,
+                    "end": 1580,
+                    "text": "[55]",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 1581,
+                    "end": 1585,
+                    "text": "[56]",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 1586,
+                    "end": 1590,
+                    "text": "[57]",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 1591,
+                    "end": 1595,
+                    "text": "[58]",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 1596,
+                    "end": 1600,
+                    "text": "[59]",
+                    "ref_id": "BIBREF58"
+                },
+                {
+                    "start": 1631,
+                    "end": 1635,
+                    "text": "[51,",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 1636,
+                    "end": 1639,
+                    "text": "55,",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 1640,
+                    "end": 1643,
+                    "text": "56,",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 1644,
+                    "end": 1648,
+                    "text": "[60]",
+                    "ref_id": "BIBREF59"
+                },
+                {
+                    "start": 1649,
+                    "end": 1653,
+                    "text": "[61]",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 1654,
+                    "end": 1658,
+                    "text": "[62]",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 1659,
+                    "end": 1663,
+                    "text": "[63]",
+                    "ref_id": "BIBREF62"
+                },
+                {
+                    "start": 2327,
+                    "end": 2331,
+                    "text": "[64,",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 2332,
+                    "end": 2335,
+                    "text": "65]",
+                    "ref_id": "BIBREF64"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Furthermore, SSnet was shown to be able to emulate co-administration. Based on the requirement of bound zinc for ACE2 function, we forced SSnet to examine ligand binding in the presence of zinc ions. Analysis of molecules affected by this approach identified known zinc-chelators as having significantly affected SSnet scores, that impacted selectivity for the open conformation. We note, that the approach used to force SSnet to examine the role of zinc ions mimics co-administration of Zn and some FDA approved drugs. The results indicate that co-administration of zinc may enhance interactions between some FDA approved drugs and the open conformation of the ACE2 receptor.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Extending the limits of previous computational studies we performed a screening using only SSnet on a large database of BDB (750,000 ligands) to obtain useful information regarding de novo drug design. As described in the result section, we developed a web interface where molecules are clustered based on similarity on a 2D map and colored based on binding affinity to the protein. By selecting points into the interface the user can further explore the effect of different scaffolds and functional groups on the binding score or affinity. With our web-based tool, we aim to provide a fast, intuitive, and flexible way to aid the discovery and design of CoVID-19 therapeutics as well as other diseases. To the best of our knowledge, such an approach for visualizing the chemical space for drug discovery has not been done. This approach can be used for other therapeutical targets besides CoVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "With this study, we highlighted how SSnet can represent a powerful tool in a computational drug discovery protocol. However, in order to obtain crucial information needed for understanding the model of drug action and lead optimizations, other tools have to be used in cooperation with SSnet. In fact, while the latter can provide a fast and reliable first-screening of large libraries, it cannot provide binding poses, needed to analyze protein-ligand interactions, and binding affinities, needed for scoring the most promising drug candidates. The screened results can be directly employed for rapid testing using assays when urgency is required. However, from a drug design perspective, drug docking, molecular dynamics simulations, and binding free energy calculations are still necessary. Lastly, if a drug discovery campaign is aimed at a specific conformation of a protein, SSnet will include in the top binders drugs that bind to alternative conformations of the protein as well.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Herein, we have developed a rapid screening method suitable to compound libraries on the scale of millions of compounds that is capable with high accuracy to identify probable high affinity compounds for two conformations of the ACE2 receptor and the ACE2-S1 complex. These compounds can function as putative leads for de novo drug discovery. We have further developed a web interface to allow researchers to rapidly identify high affinity scaffolds for in vitro characterization and structure-function activity studies. We believe that an open-access utility such as this will allow diverse researchers to contribute to the discovery of both existing FDA approved drugs and de novo development of CoVID-19 treatments. Further, the methodology can be easily extended to any protein, or protein complex involved identified as putative drug targets.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Supplementary Materials: The following are available online at www.mdpi.com/xxx/s1, Figure S1 : Docking box for ACE2:S1; Figure S2 : SSnet scores on ACE and ACE2; Figure S3 : Binding poses supplementary to Table S2; Figure S4 : Top 15 ligands that are significantly affected by considering Zn in SSnet; Table S1 : Top Scores for SSnet and smina; Table S2 : Top Scorers for SSnet; Table S3 : Top Scores for SSnet ACE2 (open)-ACE2:S1 (closed); Table S4 : SSnet scores with and without Zinc of known RAAS interacting molecules; Table S5 : Zinc effect on SSnet binding probabilities, Table S6 : Top Scores for SSnet ACE2 (open)-ACE2:S1 (closed) with Zinc; Table S7 : Smina and SSnet scores for top scoring compounds according to smina without restriction on number of atoms.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 84,
+                    "end": 93,
+                    "text": "Figure S1",
+                    "ref_id": null
+                },
+                {
+                    "start": 121,
+                    "end": 130,
+                    "text": "Figure S2",
+                    "ref_id": null
+                },
+                {
+                    "start": 163,
+                    "end": 172,
+                    "text": "Figure S3",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 216,
+                    "end": 225,
+                    "text": "Figure S4",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 303,
+                    "end": 311,
+                    "text": "Table S1",
+                    "ref_id": null
+                },
+                {
+                    "start": 346,
+                    "end": 354,
+                    "text": "Table S2",
+                    "ref_id": null
+                },
+                {
+                    "start": 380,
+                    "end": 388,
+                    "text": "Table S3",
+                    "ref_id": null
+                },
+                {
+                    "start": 442,
+                    "end": 450,
+                    "text": "Table S4",
+                    "ref_id": null
+                },
+                {
+                    "start": 525,
+                    "end": 533,
+                    "text": "Table S5",
+                    "ref_id": null
+                },
+                {
+                    "start": 580,
+                    "end": 588,
+                    "text": "Table S6",
+                    "ref_id": null
+                },
+                {
+                    "start": 652,
+                    "end": 660,
+                    "text": "Table S7",
+                    "ref_id": null
+                }
+            ],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Author Contributions: Conceptualization, N.K., N.V., F.T. and B.Z.; methodology, N.K., N.V. and F.T.EKPT; software, N.K., N.V., F.T., E.K. and P.T.; validation, N.K., N.V. and F.T.; formal analysis, N.K., N.V., F.T., B.Z., E.K. and P.T.; investigation, N.K., N.V., F.T., B.Z. E.K. and P.T.; data curation, N.K., N.V., F.T. and B.Z.; resources, B.Z., E.K. and P.T. ; writing-original draft preparation, N.K., N.V., F.T. and B.Z.; writing-review and editing, B.Z, E.K. and P.T.; visualization, N.K., F.T. and N.V.; supervision, B.Z., E.K. and P.T.; project administration, B.Z., E.K. and P.T. All authors have read and agreed to the published version of the manuscript. Data Availability Statement: SSnet is openly accessible for both training and prediction at SSnet-GitHub (https://github.com/ekraka/SSnet). The website developed in this work is live at COVID-19Screen (https://CoVID19screen.smu.edu/).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Plagues in World History; Exploring World History",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Aberth",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Antibiotics and Bacterial Resistance in the 21st Century",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Fair",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Tor",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Perspect. Med. Chem",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.4137/PMC.S14459"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Viruses, Plagues, and History: Past, Present, and Future",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "B A"
+                    ],
+                    "last": "Oldstone",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Draft Landscape of COVID-19 Candidate Vaccines",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "WHO",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Covid-19: F.D.A. Clears Pfizer Vaccine and Millions of Doses Will Be Shipped Right Away. The New York Times",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Thomas",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lafraniere",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Weiland",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Goodnough",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Haberman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Coronavirus spike proteins in viral entry and pathogenesis",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Gallagher",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Buchmeier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Virology",
+            "volume": "279",
+            "issn": "",
+            "pages": "371--374",
+            "other_ids": {
+                "DOI": [
+                    "10.1006/viro.2000.0757"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Proteolytic activation of the SARS-coronavirus spike protein: Cutting enzymes at the cutting edge of antiviral research",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Simmons",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zmora",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gierer",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Heurich",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "P\u00f6hlmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Antivir. Res",
+            "volume": "100",
+            "issn": "",
+            "pages": "605--614",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.antiviral.2013.09.028"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Tectonic conformational changes of a coronavirus spike glycoprotein promote membrane fusion",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Walls",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Tortorici",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Snijder",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xiong",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Bosch",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Rey",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Veesler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Proc. Natl. Acad. Sci",
+            "volume": "114",
+            "issn": "",
+            "pages": "11157--11162",
+            "other_ids": {
+                "DOI": [
+                    "10.1073/pnas.1708727114"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "The interaction of animal cytoplasmic RNA viruses with the nucleus to facilitate replication",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hiscox",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Virus Res",
+            "volume": "95",
+            "issn": "",
+            "pages": "13--22",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0168-1702(03)00160-6"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Identification of two critical amino acid residues of the severe acute respiratory syndrome coronavirus spike protein for its variation in zoonotic tropism transition via a double substitution strategy",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Qu",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Hao",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Rao",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zuo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J. Biol. Chem",
+            "volume": "280",
+            "issn": "",
+            "pages": "29588--29595",
+            "other_ids": {
+                "DOI": [
+                    "10.1074/jbc.M500662200"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Cell Biology, Regulation, and Physiological Functions",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Turner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "The Protective Arm of the Renin Angiotensin System (RAS)",
+            "volume": "",
+            "issn": "",
+            "pages": "185--189",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/b978-0-12-801364-9.00025-0"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "ACE2: From vasopeptidase to SARS virus receptor",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Turner",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hiscox",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hooper",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Trends Pharmacol. Sci",
+            "volume": "25",
+            "issn": "",
+            "pages": "291--294",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.tips.2004.04.001"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "ACE Inhibition and Bradykinin-Mediated Renal Vascular Responses: EDHF Involvement",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Imig",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Hypertension",
+            "volume": "43",
+            "issn": "",
+            "pages": "533--535",
+            "other_ids": {
+                "DOI": [
+                    "10.1161/01.HYP.0000118054.86193.ce"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Structural basis for the recognition of SARS-CoV-2 by full-length human ACE2",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "367",
+            "issn": "",
+            "pages": "1444--1448",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.abb2762"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "The Flexibility of ACE2 in the Context of SARS-CoV-2 Infection",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Barros",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Casalino",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Gaieb",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Dommer",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Fallon",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Raguette",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Belfon",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Simmerling",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Amaro",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Biophys. J",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.bpj.2020.10.036"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Prioritizing potential ACE2 inhibitors in the COVID-19 pandemic: Insights from a molecular mechanics-assisted structure-based virtual screening experiment",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Teral\u0131",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Baddal",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "G\u00fclcan",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J. Mol. Graph. Model",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jmgm.2020.107697"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Emerging role of artificial intelligence in therapeutics for COVID-19: A systematic review",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kaushal",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sarma",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Rana",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Medhi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Naithani",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J. Biomol. Struct. Dyn",
+            "volume": "2020",
+            "issn": "",
+            "pages": "1--16",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Molecular Basis of SARS-CoV-2 Infection and Rational Design of Potential Antiviral Agents: Modeling and Simulation Approaches",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Franc\u00e9s-Monerris",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hognon",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Miclot",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Garc\u00eda-Iriepa",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Iriepa",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Terenzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Grandemange",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Barone",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Marazzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Monari",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Proteome Resh",
+            "volume": "19",
+            "issn": "",
+            "pages": "4291--4315",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/acs.jproteome.0c00779"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Identification of SARS-CoV-2 Cell Entry Inhibitors by Drug Repurposing Using in Silico Structure-Based Virtual Screening Approach",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Choudhary",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Malik",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tomar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tomar",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fimmu.2020.01664"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Repurposing therapeutics for COVID-19: Supercomputer-based docking to the SARS-CoV-2 viral spike protein and viral spike protein-human ACE2 interface",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.26434/chemrxiv.11871402.v4"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Discovery of SARS-CoV-2 antiviral drugs through large-scale compound repurposing",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Riva",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yin",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Martin-Sancho",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Matsunaga",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Pache",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Burgstaller-Muehlbacher",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "D D"
+                    ],
+                    "last": "Jesus",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Teriete",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Hull",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "586",
+            "issn": "",
+            "pages": "113--119",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2577-1"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Nelfinavir Is Active Against SARS-CoV-2 in Vero E6 Cells",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.26434/chemrxiv.12039888.v1"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "The FDA-approved Drug Ivermectin inhibits the replication of SARS-CoV-2 in vitro",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Caly",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Druce",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Catton",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Jans",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Wagstaff",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Antiviral Res",
+            "volume": "178",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.antiviral.2020.104787"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Drug Repurposing Study Pinpoints Potential COVID-19 Antivirals",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Abbasi",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "JAMA",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.15948"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Antivirals for COVID-19: A critical review",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Frediansyah",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Tiwari",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Sharun",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Dhama",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Harapan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Clin. Epidemiol. Glob. Health",
+            "volume": "9",
+            "issn": "",
+            "pages": "90--98",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cegh.2020.07.006"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Use of antivirals and antibiotics for COVID-19 in Mexico City: A Real-World Multicenter Cohort Study",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mancilla-Galindo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "\u00d3"
+                    ],
+                    "last": "Garc\u00eda-M\u00e9ndez",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "M\u00e1rquez-S\u00e1nchez",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Reyes-Casarrubias",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Aguirre-Aguilar",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Rocha-Gonz\u00e1lez",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kammar-Garc\u00eda",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.10.13.20211797"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "A Trial of Lopinavir-Ritonavir in Adults Hospitalized with Severe Covid-19",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wen",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ruan",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Cai",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N. Engl. J. Med",
+            "volume": "382",
+            "issn": "",
+            "pages": "1787--1799",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2001282"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Remdesivir for the Treatment of Covid-19-Final Report",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Beigel",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Tomashek",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Dodd",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Mehta",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Zingman",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Kalil",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Hohmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Chu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Luetkemeyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kline",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N. Engl. J. Med",
+            "volume": "383",
+            "issn": "",
+            "pages": "1813--1826",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2007764"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "SSnet-Secondary Structure based End-to-End Learning model for Protein-Ligand Interaction Prediction",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Verma",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Qu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Trozzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Elsaied",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Tao",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Larson",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Kraka",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2019.12.20.884841"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Lessons Learned in Empirical Scoring with Smina from the CSAR 2011 Benchmarking Exercise",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Koes",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Baumgartner",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Camacho",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J. Chem. Inf. Model",
+            "volume": "53",
+            "issn": "",
+            "pages": "1893--1904",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/ci300604z"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "SANCDB: a South African natural compound database",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Hatherley",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Musyoka",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Penkler",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Faya",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lobb",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "\u00d6zlem Tastan",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Bishop",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J. Cheminform",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s13321-015-0080-8"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "NuBBEDB: an updated database to uncover chemical and biological information from Brazilian biodiversity",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Pilon",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Valli",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Dametto",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E F"
+                    ],
+                    "last": "Pinto",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Freire",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Castro-Gamboa",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Andricopulo",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Bolzani",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41598-017-07451-x"
+                ]
+            }
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "BindingDB in 2015: A public Database for Medicinal Chemistry, Computational Chemistry and Systems Pharmacology",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Gilson",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Baitaluk",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Nicola",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Hwang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Nucleic Acids Res",
+            "volume": "44",
+            "issn": "",
+            "pages": "1045--1053",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nar/gkv1072"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Open-source Platform to Benchmark Fingerprints for Ligand-based Virtual Screening",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Riniker",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Landrum",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J. Cheminf",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/1758-2946-5-26"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "A Deep Convolutional Neural Network for Bioactivity Prediction in Structurebased Drug Discovery. arXiv 2015",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Wallach",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dzamba",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Heifets",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Atomnet",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:1510.02855"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Protein-Ligand Scoring with Convolutional Neural Networks",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ragoza",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hochuli",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Idrobo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sunseri",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Koes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J. Chem. Inf. Model",
+            "volume": "57",
+            "issn": "",
+            "pages": "942--957",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/acs.jcim.6b00740"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Compound-protein Interaction Prediction with End-to-end Learning of Neural Networks for Graphs and Sequences",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tsubaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Tomii",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sese",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Bioinformatics",
+            "volume": "35",
+            "issn": "",
+            "pages": "309--318",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/bioinformatics/bty535"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "AutoDock Vina: Improving the Speed and Accuracy of Docking with a New Scoring Function, Efficient Optimization, and Multithreading",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Trott",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Olson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J. Comput. Chem",
+            "volume": "31",
+            "issn": "",
+            "pages": "455--461",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jcc.21334"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "RDKit: Open-Source Cheminformatics",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Landrum",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Key Topics in Molecular Docking for Drug Design",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "H M"
+                    ],
+                    "last": "Torres",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C R"
+                    ],
+                    "last": "Sodero",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Jofily",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Silva",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Jr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Int. J. Mol. Sci",
+            "volume": "20",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/ijms20184574"
+                ]
+            }
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "The AxPyMOL Molecular Graphics Plugin for Microsoft PowerPoint, Version 1.8",
+            "authors": [
+                {
+                    "first": "Llc",
+                    "middle": [],
+                    "last": "Schr\u00f6dinger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Growth factor receptor signaling inhibition prevents SARS-CoV-2 replication",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Klann",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Bojkova",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Tascher",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ciesek",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "M\u00fcnch",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cinatl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Mol. Cell",
+            "volume": "80",
+            "issn": "",
+            "pages": "164--174",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "The AI-discovered aetiology of COVID-19 and rationale of the irinotecan etoposide combination therapy for critically ill COVID-19 patients",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Lovetrue",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Med. Hypotheses",
+            "volume": "144",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.mehy.2020.110180"
+                ]
+            }
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Tyrosine Kinase Inhibitors Play an Antiviral Action in Patients Affected by Chronic Myeloid Leukemia: A Possible Model Supporting Their Use in the Fight Against SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Galimberti",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Petrini",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Barat\u00e8",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ricci",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Balducci",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Grassi",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Guerrini",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Ciabatti",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mechelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Paolo",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fonc.2020.01428"
+                ]
+            }
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "COVID-19 among fit patients with CLL treated with venetoclax-based combinations",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "F\u00fcrstenau",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Langerbeins",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Silva",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Fink",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Robrecht",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Von Tresckow",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Simon",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hohloch",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Droogendijk",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Van Der Klift",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Leukemia",
+            "volume": "34",
+            "issn": "",
+            "pages": "2225--2229",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41375-020-0941-7"
+                ]
+            }
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Preliminary clinical study of direct renin inhibitor aliskiren in the treatment of severe COVID-19 patients with hypertension",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zeng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Zhonghua Nei Ke Za Zhi",
+            "volume": "59",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Antimalarial drugs inhibit the replication of SARS-CoV-2: An in vitro evaluation",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gendrot",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Andreani",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Boxberger",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Jardot",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Fonta",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Bideau",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Duflot",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mosnier",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Rolland",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Bogreau",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hutter",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Scola",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Pradines",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Travel Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.tmaid.2020.101873"
+                ]
+            }
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "MK-5172, a Selective Inhibitor of Hepatitis C Virus NS3/4a Protease with Broad Activity across Genotypes and Resistant Variants",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Summa",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Ludmerer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mccauley",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fandozzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Burlein",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Claudio",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Coleman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Dimuzio",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ferrara",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Filippo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Antimicrob. Agents Chemother",
+            "volume": "56",
+            "issn": "",
+            "pages": "4161--4167",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/AAC.00324-12"
+                ]
+            }
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Prediction of venetoclax activity in precursor B-ALL by functional assessment of apoptosis signaling",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Seyfried",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Demir",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "H\u00f6rl",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "U"
+                    ],
+                    "last": "Stirnwei\u00df",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ryan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Scheffold",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Villalobos-Ortiz",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Boldrin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zinngrebe",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Enzenm\u00fcller",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Cell Death Dis",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41419-019-1801-0"
+                ]
+            }
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "In Vitro Antiviral Activity and Resistance Profile of the Next-Generation Hepatitis C Virus NS3/4A Protease Inhibitor Glecaprevir",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Ng",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Tripathi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Reisch",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Middleton",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hopkins",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Pithawalla",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Irvin",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Dekhtyar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Antimicrob. Agents Chemother",
+            "volume": "62",
+            "issn": "",
+            "pages": "1620--1637",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/AAC.01620-17"
+                ]
+            }
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "An insight into the sex differences in COVID-19 patients: What are the possible causes?",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Dana",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Sadoughi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hallajzadeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Asemi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mansournia",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yousefi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Momen-Heravi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Prehosp Disaster Med",
+            "volume": "35",
+            "issn": "",
+            "pages": "438--441",
+            "other_ids": {
+                "DOI": [
+                    "10.1017/S1049023X20000837"
+                ]
+            }
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "SARS-CoV-2 cell entry depends on ACE2 and TMPRSS2 and is blocked by a clinically proven protease inhibitor",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hoffmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kleine-Weber",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Schroeder",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kr\u00fcger",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Herrler",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Erichsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Schiergens",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Herrler",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nitsche",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell",
+            "volume": "181",
+            "issn": "",
+            "pages": "271--280",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cell.2020.02.052"
+                ]
+            }
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection is likely to be androgen mediated",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Wambier",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Goren",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J. Am. Acad. Dermatol",
+            "volume": "2020",
+            "issn": "",
+            "pages": "308--309",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jaad.2020.04.032"
+                ]
+            }
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "TMPRSS2 and ADAM17 cleave ACE2 differentially and only proteolysis by TMPRSS2 augments entry driven by the severe acute respiratory syndrome coronavirus spike protein",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Heurich",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hofmann-Winkler",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gierer",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Liepold",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Jahn",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "P\u00f6hlmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J. Virol",
+            "volume": "88",
+            "issn": "",
+            "pages": "1293--1307",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.02202-13"
+                ]
+            }
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Commentary: Testosterone, a key hormone in the context of COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Pozzilli",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lenzi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Metab. Clin. Exp",
+            "volume": "108",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.metabol.2020.154252"
+                ]
+            }
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Are sex discordant outcomes in COVID-19 related to sex hormones?",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Strope",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chau",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Figg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Semin. Oncol",
+            "volume": "47",
+            "issn": "",
+            "pages": "335--340",
+            "other_ids": {
+                "DOI": [
+                    "10.1053/j.seminoncol.2020.06.002"
+                ]
+            }
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "Sex-related differences in COVID-19 lethality",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Penna",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Mercurio",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Tocchetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Pagliaro",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Br. J. Pharmacol",
+            "volume": "2020",
+            "issn": "",
+            "pages": "4375--4385",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/bph.15207"
+                ]
+            }
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Sex steroids skew ACE2 expression in human airway: A contributing factor to sex differences in COVID-19?",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "S R"
+                    ],
+                    "last": "Kalidhindi",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Borkar",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Ambhore",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Pabelick",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Prakash",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Sathish",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Am. J. Physiol. Lung Cell Mol. Physiol",
+            "volume": "319",
+            "issn": "",
+            "pages": "843--847",
+            "other_ids": {
+                "DOI": [
+                    "10.1152/ajplung.00391.2020"
+                ]
+            }
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "Molecular mechanisms of sex bias differences in COVID-19 mortality",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Jerkic",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Slutsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Crit Care",
+            "volume": "24",
+            "issn": "",
+            "pages": "1--6",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s13054-020-03118-8"
+                ]
+            }
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Sex hormones determine immune response",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Taneja",
+                    "suffix": ""
+                }
+            ],
+            "year": 1931,
+            "venue": "Front. Immunol",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fimmu.2018.01931"
+                ]
+            }
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "Sex hormones and hormone therapy during covid-19 pandemic: Implications for patients with cancer",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Cattrini",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bersanelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Latocca",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Conte",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Vallome",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Boccardo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cancers",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/cancers12082325"
+                ]
+            }
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "Estradiol, progesterone, immunomodulation, and COVID-19 outcomes",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Mauvais-Jarvis",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Klein",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Levin",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Endocrinology",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1210/endocr/bqaa127"
+                ]
+            }
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "Potential influence of menstrual status and sex hormones on female SARS-CoV-2 infection: A cross-sectional study from multicentre in Wuhan, China",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ding",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Cui",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dai",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin. Infect. Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/cid/ciaa1022"
+                ]
+            }
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Comprehensive assessment of flexible-ligand docking algorithms: Current effectiveness and challenges",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Brief. Bioinform",
+            "volume": "19",
+            "issn": "",
+            "pages": "982--994",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/bib/bbx030"
+                ]
+            }
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "Comparing AutoDock and Vina in Ligand/Decoy Discrimination for Virtual Screening",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Vieira",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Sousa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Appl. Sci",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/app9214538"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Correlation map between smina binding affinities and SSnet scores. Red color indicates strong agreement between the two methods. Blue color indicates strong disagreement between the two methods.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Top 9 lowest energy poses for compounds with high scores in both SSnet and smina of biological interest to CoVID-19. Panel (a): Indinavir binding poses. Panel (b): Zanubrutinib binding poses. Panel (c): Sorafenib binding poses",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Case-I: The ligand binds to the open conformation but does not prevent the protein from exploring the closed conformation. This would render the drug ineffective. \u2022 Case-II: The ligand binds to and stabilizes the closed conformation. This may make the drug counter-productive by making the receptor more susceptible to the docking of the viral S protein. \u2022 Case-III: The ligand binds to and stabilizes the open conformation. This would prevent the docking of the viral S protein since the closed conformation is no longer explored. \u2022 Case-IV: The ligand binds to the closed conformation with or without the viral S1 protein and biases the receptor towards an open conformation. This would either prevent or disrupt the viral docking.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Effect of zinc ion on SSnet binding probabilities.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "A road-map for navigation of the chemical map to find areas of interest. The cluster of molecules with high similarity to Estradiol, when the latter was selected in the map, are shown. Correlation diagram for SSnet scores between each of the protein targets for ligands in BDB (a) ACE2:S1 vs. ACE2(closed), (b) ACE2:S1 vs. ACE2(open), and (c) ACE2 (open) vs. ACE2 (closed). The red curve shows the scores for ligands plotted as x, y. The blue curve is an x = y line representing non-selectivity to the ACE2 conformation. The highest difference between scores is achieved for probabilities in the range 0.60-0.70. High probability binders show no selectivity.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "This work was financially supported by NSF Grants CHE 1464906 (PI: Elfi Kraka); NIH grant: 2R15GM109282 and NSF: MCB 1613643 (PI: Brian Zoltowski); NIH research grant R15GM122013 (PI: Peng Tao).",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We thank Southern Methodist University and the Center for Scientific Computation at Southern Methodist University for providing generous computational resources which made this study possible.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments:"
+        },
+        {
+            "text": "The authors declare no conflict of interest.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflicts of Interest:"
+        }
+    ]
+}

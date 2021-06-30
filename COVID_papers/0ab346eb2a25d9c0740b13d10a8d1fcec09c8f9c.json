@@ -1,0 +1,1173 @@
+{
+    "paper_id": "0ab346eb2a25d9c0740b13d10a8d1fcec09c8f9c",
+    "metadata": {
+        "title": "Relative infectiousness of asymptomatic SARS-CoV-2 infected persons compared with symptomatic individuals: a rapid scoping review",
+        "authors": [
+            {
+                "first": "David",
+                "middle": [],
+                "last": "Mcevoy",
+                "suffix": "",
+                "affiliation": {},
+                "email": "davidmcevoy20@rcsi.com"
+            },
+            {
+                "first": "Conor",
+                "middle": [],
+                "last": "Mcaloon",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Aine",
+                "middle": [],
+                "last": "Collins",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Kevin",
+                "middle": [],
+                "last": "Hunt",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Francis",
+                "middle": [],
+                "last": "Butler",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Andrew",
+                "middle": [],
+                "last": "Byrne",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Miriam",
+                "middle": [],
+                "last": "Casey-Bryars",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ann",
+                "middle": [],
+                "last": "Barber",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "John",
+                "middle": [],
+                "last": "Griffin",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Elizabeth",
+                "middle": [
+                    "Ann"
+                ],
+                "last": "Lane",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Patrick",
+                "middle": [],
+                "last": "Wall",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Simon",
+                "middle": [
+                    "John"
+                ],
+                "last": "More",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "David",
+                "middle": [],
+                "last": "Mr",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Mcevoy",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Objectives The aim of this study was to determine the relative infectiousness of asymptomatic SARS-CoV-2 infected persons compared with symptomatic individuals based on a scoping review of available literature. Design Rapid scoping review of peer-reviewed literature from 1 January to 5 December 2020 using the LitCovid database and the Cochrane library. Setting International studies on the infectiousness of individuals infected with SARS-CoV-2. Participants Studies were selected for inclusion if they defined asymptomatics as a separate cohort distinct from presymptomatics and if they provided a quantitative measure of the infectiousness of asymptomatics relative to symptomatics. Primary outcome measures PCR result (PCR studies), the rate of infection (mathematical modelling studies) and secondary attack rate (contact tracing studies) -in each case from asymptomatic in comparison with symptomatic individuals. Results There are only a limited number of published studies that report estimates of relative infectiousness of asymptomatic compared with symptomatic individuals. 12 studies were included after the screening process. Significant differences exist in the definition of infectiousness. PCR studies in general show no difference in shedding levels between symptomatic and asymptomatic individuals; however, the number of study subjects is generally limited. Two modelling studies estimate relative infectiousness to be 0.43 and 0.57, but both of these were more reflective of the infectiousness of undocumented rather than asymptomatic cases. The results from contact tracing studies include estimates of relative infectiousness of 0, but with insufficient evidence to conclude that it is significantly different from 1. Conclusions There is considerable heterogeneity in estimates of relative infectiousness highlighting the need for further investigation of this important parameter. It is not possible to provide any conclusive estimate of relative infectiousness, as the estimates from the reviewed studies varied between 0 and 1. not possible to provide any conclusive estimate of relative infectiousness, as the estimates from the reviewed studies varied between 0 and 1, including within the same study type.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The first case of COVID-19 was first reported from Wuhan, China, in December 2019. 1 The outbreak of COVID-19 was declared a Public Health Emergency of International Concern on 30 January 2020 and a pandemic was declared on 11 March 2020. 2 Since then, many countries have sought to contain the spread of the virus through a range of measures aimed at limiting transmission within the population.",
+            "cite_spans": [
+                {
+                    "start": 83,
+                    "end": 84,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 239,
+                    "end": 240,
+                    "text": "2",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "At the outset of an epidemic, a key principle of control might be quarantining of individuals with clinical symptoms fitting a particular case definition. However, for many infectious diseases, a proportion of infected individuals may never present with clinical signs (ie, asymptomatic) yet still be infectious to others. The existence of this cohort of SARS-CoV-2 infected individuals is now well recognised. 3 The transmission potential of such asymptomatic individuals is likely to be different from those who have clinical signs. On the one hand, they might shed lower quantities of the infectious agent; on the other hand, their potential for contacts might be greater. Being unaware that they are infected, Strengths and limitations of this study \u25ba A strength of this study is that it only included peerreviewed studies. \u25ba This study also had a robust screening process that was used to ensure that the relative infectiousness of asymptomatic compared with symptomatic was defined properly. It ensured that each study properly distinguished asymptomatic and presymptomatic individuals. \u25ba Differences in the definition of infectiousness and the heterogeneity in results between studies negate the potential to provide a pooled quantitative estimate of relative infectiousness. \u25ba The present study highlights the need for additional studies in this area.",
+            "cite_spans": [
+                {
+                    "start": 411,
+                    "end": 412,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Open access asymptomatic people are less likely to follow quarantine guidelines designed to restrict transmission from infected individuals. Decision making in the midst of a pandemic often relies on predicted outcomes from infectious disease models. Such models may aid in public health decision making by predicting the number of new cases each day as well as possible trajectories of an outbreak given different management options. Estimates from these models may be sensitive to the way in which asymptomatic individuals are considered. 4 In particular, it is important to understand the proportion of individuals who are infectious but remain asymptomatic, as well as understanding the transmission potential in that cohort, compared with symptomatic individuals, that is, the relative infectiousness.",
+            "cite_spans": [
+                {
+                    "start": 541,
+                    "end": 542,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "This study sought to determine the relative infectiousness of asymptomatic SARS-CoV-2 infected persons compared with symptomatic individuals, based on a scoping review of available literature. A scoping review rather than a systematic review was undertaken given the rapidly evolving and complex literature available on SARS-CoV-2 infection and the range of ways in which 'infectiousness' might be defined and measured.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "We followed the Preferred Reporting Items for Systematic Review and Meta-Analysis Protocols with extension for scoping reviews guidelines. 5 A review protocol was established for this work, but the review was not preregistered.",
+            "cite_spans": [
+                {
+                    "start": 139,
+                    "end": 140,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "MATERIALS AND METHODS"
+        },
+        {
+            "text": "The LitCovid database, a curated literature hub for tracking up-to-date scientific information about the COVID-19, was searched up until 5 December 2020 using the following search strategy: (infectious* OR transmissibility OR spread*) AND (asymptomatic* OR symptomatic* OR pre-symptomatic*). 6 The Cochrane database was also searched.",
+            "cite_spans": [
+                {
+                    "start": 292,
+                    "end": 293,
+                    "text": "6",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "MATERIALS AND METHODS"
+        },
+        {
+            "text": "During primary screening, all abstracts from the initial screening process were screened by the first author. Only peer-reviewed studies were considered further. We retained abstracts with subject matter relating to any of the following: the dynamics of infectiousness, contact tracing studies, mathematical studies of transmission, studies that explicitly mentioned relative infectiousness and studies that compared the infectiousness of symptomatic and asymptomatic individuals. Other studies were excluded, including those relating to transmission in animals, COVID-19 comorbidities, risk factors, diagnosis, treatment and healthcare services, immunity and vaccination.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MATERIALS AND METHODS"
+        },
+        {
+            "text": "The secondary screening, a full-paper review, was conducted by the first author. Only English language papers were considered further. At this stage, we retained those papers that specifically identified cohorts of asymptomatic and symptomatic individuals and those that provided estimates of infectiousness (or relative infectiousness) using methods that were either direct (viral load or PCR testing) or indirect (contact tracing methods or posterior estimates from mathematical models). For the purpose of this study, we defined symptomatic and asymptomatic individuals as people who did or did not develop symptoms of COVID-19 during confirmed SARS-CoV-2 infection. Furthermore, we considered symptomatic infection to incorporate both the presymptomatic and symptomatic phases of infection. We excluded editorials, letters or commentaries. Reviews were included for further consideration during the tertiary screen. During secondary screening, all retained papers were categorised as either reviews, contact tracing studies, PCR studies and mathematical modelling studies.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MATERIALS AND METHODS"
+        },
+        {
+            "text": "During the tertiary screening process, each paper was independently reviewed by two people: the first author and either CM or SJM. For all papers, we only retained those with reported methods to differentiate presymptomatic and asymptomatic individuals (noting that presymptomatics will eventually develop symptoms, given sufficient time). For the mathematical modelling papers, we also only retained those with posterior (calculated) rather than prior (input) estimates of (relative) infectiousness. Each review was checked to identify any additional references; these were then each screened using the three-step screening process as outlined. The reviews were then excluded.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MATERIALS AND METHODS"
+        },
+        {
+            "text": "With the contact tracing studies, we calculated relative infectiousness by comparing the secondary attack rate (SAR) of asymptomatic and symptomatic primary cases. The SAR is the number of secondary cases among all those people who were considered close contacts of the primary case. In papers where the point estimate for relative infectiousness was 0, we used Fisher's exact test to test the null hypothesis that the SARs were equal (ie, relative infectiousness was 1). In those papers that identified three groups of primary cases (asymptomatic, presymptomatic and symptomatic), the latter two groups (presymptomatic and symptomatic) were combined.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MATERIALS AND METHODS"
+        },
+        {
+            "text": "With the PCR studies, we provide a narrative description of relative infectiousness by comparing the viral load from asymptomatic and symptomatic individuals, generally based on cycle threshold (Ct) values during PCR testing. The Ct is a semiquantitative value that can broadly categorise the concentration of viral genetic material in a patient sample following testing by RT PCR, with a low Ct indicating a high concentration of viral genetic material (typically associated with a high risk of infectivity) and a high Ct indicating a low concentration of viral genetic material (typically associated with a lower risk of infectivity). 7 With the modelling studies, relative infectiousness was extracted as the model-inferred estimate of the 'infectiousness factor', which used as a multiplier on the infectiousness of asymptomatic infected individuals relative to symptomatic infectious individuals.",
+            "cite_spans": [
+                {
+                    "start": 637,
+                    "end": 638,
+                    "text": "7",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "MATERIALS AND METHODS"
+        },
+        {
+            "text": "A quality assessment was conducted on all retained papers using the following criteria:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MATERIALS AND METHODS"
+        },
+        {
+            "text": "Contact tracing studies \u25ba Asymptomatic status. Methodology used to confirm the asymptomatic status of individuals in the asymptomatic cohort. As a minimum, evidence of observation over time. Earlier work by Buitrago-Garcia et al 8 represents the gold standard, where asymptomatic status was confirmed as follows: a person with laboratory-confirmed SARS-CoV-2 infection, who has no symptoms at the time of first clinical assessment and had no symptoms at the end of follow-up. The end of follow-up was defined as any of the following: virological cure, with one or more negative reverse transcriptase PCR (RT-PCR) test results; follow-up for 14 days or more after the last possible exposure to an index case; and follow-up for 7 days or more after the first RT-PCR positive result. \u25ba Identification of close contacts. Methodology to protect against the potential for bias, between the symptomatic and asymptomatic cohorts, in the identification of close contacts. \u25ba Case ascertainment. Methodology to protect against ascertainment bias, between the symptomatic and asymptomatic cohorts, when identifying close contacts. \u25ba Case attribution. Methodology to minimise error during case attribution. An understanding of the period of infectiousness (including symptom onset) in the index case and exposure period for close contact(s) are each required. \u25ba External validity. The representativeness of the index cases and close contacts for the broader population of interest.",
+            "cite_spans": [
+                {
+                    "start": 229,
+                    "end": 230,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "MATERIALS AND METHODS"
+        },
+        {
+            "text": "PCR studies \u25ba Asymptomatic status. As above.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MATERIALS AND METHODS"
+        },
+        {
+            "text": "\u25ba Testing methods. Methodology to maximise accuracy and precision of PCR testing. \u25ba Considerations relating to infectiousness profile. Methodology to minimise bias, between the symptomatic and asymptomatic cohorts, when assessing the magnitude and/or duration of the period of infectiousness. \u25ba External validity. As above. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MATERIALS AND METHODS"
+        },
+        {
+            "text": "The search strategy in LitCovid resulted in 2081 articles, whereas no results were given in the Cochrane database. After nine duplicates were removed, the abstracts of 2072 articles were reviewed in the primary screening stage yielding 210 articles for the secondary screening process. During secondary screening, 156 papers were removed leaving 47 articles and 7 review papers for the third screening process. During tertiary screening, 37 articles were removed, and the references of each of the seven review papers were examined, leaving 10 papers for analysis. All relevant references from the review papers and an earlier draft of the current paper were screened using the three-stage process, and two were included for analysis, namely Long et al 9 and Li et al, 10 respectively. Therefore 12 studies were retained for the current study. A summary of the screening process is presented in figure 1 . Table 1 provides an overview of the 12 papers, including the type and location of study, the number of relevant study subjects, either number of individuals with available PCR results (PCR studies) or the number of close contacts (contact tracing studies). Numbers of study subjects for modelling studies are not included given that these studies aimed to partition large (national) populations into disease compartments rather than following study participants per se.",
+            "cite_spans": [
+                {
+                    "start": 769,
+                    "end": 771,
+                    "text": "10",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 895,
+                    "end": 903,
+                    "text": "figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 906,
+                    "end": 913,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "In three out of the five PCR studies (namely from Uhm et al, 11 Lavezzo et al 1 and Danis et al 12 ) , the PCR values were similar among asymptomatic and symptomatic carriers. In Long et al, 9 initial Ct values were similar in these two cohorts; however, the duration of shedding based on PCR among asymptomatics was longer than for mild symptomatic individuals. This is in contrast to the Letizia et al 13 study, where the viral load, as estimated using PCR, was approximately four times higher in symptomatic compared with the asymptomatic individuals. However, this study also Open access found that some asymptomatic patients had higher viral loads estimated on the basis of the Ct. For the mathematical modelling studies, Nabi 2 estimated that asymptomatic were roughly half as infectious as symptomatic individuals: its approximate measure for relative infectiousness is 0.57. In Li et al, 10 we consider the most appropriate estimate of the three estimates presented in table 1 as 0.43 (95% CI 0.31 to 0.61). This RI estimate was based on the time period of 24 January-8 February 2020. The other two estimates use earlier time windows (10-23 January and 24 January to 4 February, respectively), where it is more likely that undocumented cases included a larger proportion of symptomatic individuals given lower awareness of the disease.",
+            "cite_spans": [
+                {
+                    "start": 61,
+                    "end": 63,
+                    "text": "11",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 96,
+                    "end": 100,
+                    "text": "12 )",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 191,
+                    "end": 192,
+                    "text": "9",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 896,
+                    "end": 898,
+                    "text": "10",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "RESULTS"
+        },
+        {
+            "text": "In three of the five contact tracing studies (namely Park et al, 14 Cheng et al 15 and Han 16 ), there was no evidence of transmission from asymptomatic individuals. This is in contrast to the Plucinski et al 3 study, using data from the Diamond Princess cruise ship, with an estimated relative infectiousness of 0.78 (95% CI 0.58 to 1.04). The adjusted ORs for transmission risk based on the severity of the primary cases from asymptomatic, mild, moderate and severe are reported in the Luo et al 17 study. The moderate cases are set as the reference category equal to one and the asymptomatic OR is 0.37 (95% CI 0.04 to 2.79), the mild OR is 0.56 (95% CI 0.33 to 0.94) and the severe OR is 1.04 (95% CI 0.57 to 1.90). 17 The quality assessment for these 12 papers is presented in the supplementary material. The quality of the five PCR study papers varied, based on the criteria used. The quality of Lavezzo et al 1 and Danis et al 12 was assessed to be high quality, although the number of cases in Danis et al 12 was very small (five symptomatic, one asymptomatic). Several of the studies will need to be generalised with care, either because they represent a limited age cohort (Letizia et al 13 ; young Marine Corp recruits) or only a subset of the spectrum of symptoms that could present (Long et al 9 ; Uhm et al 11 ; mild symptoms only, among symptomatics). The quality of the two modelling studies was considered to be low with respect to our parameter of interest. The primary reason for this was that these models were generally developed for a purpose other than estimating relative infectiousness. Therefore, the compartments used sometimes indirectly represented asymptomatics (eg, by assuming that asymptomatic cases were always undocumented). Furthermore, since relative infectiousness was not the primary parameter of interest, the value was often estimated within a relatively small range of possible values. The five contact tracing studies were assessed to be of generally good quality against the five quality criteria that were used, based on the reported information. However, some indication of a longitudinal study component was reported in Luo et al 17 and Pluckinski et al 3 ; however, it is unclear whether preasymptomatic and asymptomatic individuals were successfully separated. The study population considered by Plucinski et al 3 is primarily older Americans, which will limit generalisability.",
+            "cite_spans": [
+                {
+                    "start": 65,
+                    "end": 67,
+                    "text": "14",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 91,
+                    "end": 93,
+                    "text": "16",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 720,
+                    "end": 722,
+                    "text": "17",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1198,
+                    "end": 1200,
+                    "text": "13",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1321,
+                    "end": 1323,
+                    "text": "11",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 2177,
+                    "end": 2179,
+                    "text": "17",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "RESULTS"
+        },
+        {
+            "text": "Determining the relative infectiousness of asymptomatics is important in informing public health decision making in the midst of a pandemic. Even if asymptomatic individuals are a smaller proportion of the overall cohort of infected individuals, their potential to transmit could be significant since they are unlikely to undertake the same controls (eg, self-isolation) to limit the spread of infection to others as they are unlikely to be aware that they are infected. It is also an important parameter that is used as a prior value in mathematical models that measure the dynamics of COVID-19. Relative infectiousness can be estimated using three methods as outlined previously, namely PCR studies, mathematical modelling and contact tracing.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "A number of studies have used PCR results to estimate viral load, which offers one means to estimate the relative infectiousness of symptomatic and asymptomatic individuals. In four of the five PCR studies reviewed here (Uhm et al, 11 Lavezzo et al, 1 Danis et al 12 and Long et al 9 ) , no substantial difference between asymptomatic and symptomatic individuals was observed, mainly relating to Ct values at an initial test. In contrast, Letizia et al 13 report viral load at diagnosis approximately four times higher in symptomatic compared with asymptomatic individuals. Furthermore, Long et al 9 found that the duration of shedding among asymptomatic was longer than for mild symptomatic individuals. We note, however, that these conclusions need to be interpreted with care because PCR is a proxy for viral load; it measures genetic material and does not distinguish infectious and non-infectious virus. As noted by Atkinson and Petersen, 18 measurable virus shedding does not equate with viral infectivity, and further evaluation is needed to determine the respiratory SARS-CoV-2 viral load that is correlated with culturable virus. 18 Nonetheless, this method could still be valid in a comparative sense, as long as testing was conducted at equivalent time points during the infectious profile of symptomatic and asymptomatic individuals. It is unclear whether this was achieved in the reviewed studies, based on testing frequencies described as either on consecutive days for a period (Danis et al 12 Most of the studies are based on a small number of cases, which may limit the ability to detect differences if present. A further challenge with these studies, and indeed with all studies in this scoping review, relates to the concern that presymptomatics (ie, those individuals that do not yet have clinical signs but will go on to develop symptoms) could be included in the definition of asymptomatics. This will occur in the absence of sufficient follow-up. In each of the reviewed studies, we sought evidence of Open access follow-up at the very least and ideally the gold standard methodology proposed by Buitrago-Garcia et al. 8 With the five PCR studies, it was generally the former rather than the latter that is described. Finally, the external validity of the PCR studies was variable. For three of the studies, generalisability was limited due to the individuals under investigation: Uhm et al 11 Estimates from modelling studies provide the second method of estimating relative infectiousness for this virus. Li et al 10 reported the infectiousness of 'undocumented' rather than asymptomatic individuals. Three separate estimates of the infectiousness of undocumented infections were reported for the Li et al study. The proportion of undocumented cases (compared with documented) consecutively decreased with time points corresponding to greater restrictions. The authors argue that this was likely to have occurred since, with greater restrictions, it was more likely that symptomatic individuals would be tested and therefore become documented. Furthermore, individuals were more likely to be tested as time progressed given the growing awareness of COVID-19. Consequently, we recommend that the most recent value, 0.43 (95% CI 0.31 to 0.61), should be used for the measure of relative infectiousness from this study. 10 Relative infectiousness is estimated to be 0.57 (the average of five values (see table 1)) in the Nabi study. 2 CM carried out a quality appraisal of the two studies. The authors subsequently agreed that the Li et al 10 study appeared to have a high level of quality in terms of its consideration of the range of values within which the model estimate was confined and its model validation; it used synthetic data initially, and the model was applied separately to different time points in the outbreak. However, both studies do not appear to have properly represented the asymptomatic cohort appropriately; in both Nabi and Li et al 10 , asymptomatics are referred to 'undocumented' rather than 'asymptomatic' per se. 2 Estimates from these studies must therefore be treated with significant caution.",
+            "cite_spans": [
+                {
+                    "start": 232,
+                    "end": 234,
+                    "text": "11",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 250,
+                    "end": 251,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 264,
+                    "end": 266,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 282,
+                    "end": 285,
+                    "text": "9 )",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1139,
+                    "end": 1141,
+                    "text": "18",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1506,
+                    "end": 1508,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 2142,
+                    "end": 2143,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 2414,
+                    "end": 2416,
+                    "text": "11",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 3342,
+                    "end": 3344,
+                    "text": "10",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 4064,
+                    "end": 4065,
+                    "text": "2",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Contract tracing studies have formed the basis for a third method to estimate relative infectiousness. In these studies, investigations are conducted to calculate the secondary attack rate among different cohorts of primary cases (either symptomatic or asymptomatic), based on the number of secondary contacts who become infected. In three out of five reviewed studies (Park et al, 14 Cheng et al 15 and Han 16 (when considering all contacts of primary cases)), the point estimate for relative risk (RR) (equivalent to relative infectiousness) is equal to 0, but we do not have sufficient evidence to conclude that it is significantly different to 1. When considering close contacts of primary cases in Han 16 , the point estimate for RR is equal to 0, and we have sufficient evidence to conclude that it is significantly different to 1. In the remaining two studies, the overall estimate of relative infectiousness for asymptomatics was either low (0.37 (95% CI 0.04 to 3.79, in comparison with moderate symptomatics) in Luo et al 17 ) or relatively high (Plucinski et al 3 : 0.78 (95% 0.58 to 1.04)). The latter study needs to be interpreted with care, both in terms of generalisability (the study subjects were primarily over 60 years of age) and the proper identification of asymptomatic individuals (the authors mention that 'longitudinal follow-up of asymptomatic individuals can help to determine the true asymptomatic rate' 3 ). Given the differences between these contact tracing studies, it is not possible to draw any conclusions with respect to relative infectiousness.",
+            "cite_spans": [
+                {
+                    "start": 382,
+                    "end": 384,
+                    "text": "14",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 397,
+                    "end": 399,
+                    "text": "15",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 408,
+                    "end": 410,
+                    "text": "16",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 707,
+                    "end": 709,
+                    "text": "16",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1032,
+                    "end": 1036,
+                    "text": "17 )",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Collectively, there is considerable heterogeneity in estimates of relative infectiousness, as reflected in the study results presented in table 1, which highlights the need for further investigation of this important parameter. The current review has identified a range of quality criteria, relevant to different study types, for consideration in future studies. For example, there is a need for careful identification of asymptomatic individuals (which are clearly differentiated from presymptomatics) for study subjects to facilitate generalisability, the use of accurate testing methods and the validation of COVID-19 models using different data sources.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "It is not possible to provide any conclusive estimate of relative infectiousness, as the estimates from the reviewed studies varied between 0 and 1, including within the same study type. Previously, Ferguson et al 19 assumed that symptomatics were 50% more infectious than asymptomatics. When converted to a ratio (ie, 1/1.5), this corresponds to a relative infectiousness of 0.67. Tuite et al 20 did not model asymptomatics as a distinct cohort to symptomatics.",
+            "cite_spans": [
+                {
+                    "start": 214,
+                    "end": 216,
+                    "text": "19",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Modelling studies requiring informative estimates of the relative infectiousness of asymptomatic individuals should seek to ensure that the precise definition of the estimate used equates to the same definition used in the model. Some definitions may be more population specific than others. In particular, it is important to note whether the definition of infectiousness incorporates contact rates (which might be different for symptomatic or asymptomatic individuals) (or is independent of it) or whether it incorporates the proportion of asymptomatic individuals in the population (or is independent of it).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Overall, there is currently only a limited number of published studies from which it is possible to derive a quantitative estimate of the relative infectiousness of asymptomatics. Three approaches to estimating relative infectiousness were identified, based on differing study types, which may help to indicate the value for this parameter. However, there are issues with each of these approaches with respect to informing the parameter of interest. There is considerable heterogeneity in estimates of relative infectiousness highlighting the need for further investigation of this important parameter. It is",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONCLUSION"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Suppression of a SARS-CoV-2 outbreak in the Italian municipality of VO'",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Lavezzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Franchin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ciavarella",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "584",
+            "issn": "",
+            "pages": "425--434",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2488-1"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Forecasting COVID-19 pandemic: a data-driven analysis",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Nabi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chaos Solitons Fractals",
+            "volume": "139",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.chaos.2020.110046"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "COVID-19 in Americans aboard the diamond Princess cruise SHIP",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Plucinski",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wallace",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Uehara",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/cid/ciaa1180"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Estimating the effects of asymptomatic and imported patients on COVID-19 epidemic using mathematical modeling",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Weng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "92",
+            "issn": "",
+            "pages": "1995--2003",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jmv.25939"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "PRISMA extension for scoping reviews (PRISMA-ScR): checklist and explanation",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Tricco",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lillie",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Zarin",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Ann Intern Med",
+            "volume": "169",
+            "issn": "",
+            "pages": "467--73",
+            "other_ids": {
+                "DOI": [
+                    "10.7326/M18-0850"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Understanding cycle threshold (CT) in SARS-CoV-2 RT-PCR: a guide for health protection teams",
+            "authors": [
+                {
+                    "first": "Public",
+                    "middle": [],
+                    "last": "Health England",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Occurrence and transmission potential of asymptomatic and presymptomatic SARS-CoV-2 infections: a living systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Buitrago-Garcia",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Egli-Gany",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Counotte",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "PLoS Med",
+            "volume": "17",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pmed.1003346"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Clinical and immunological assessment of asymptomatic SARS-CoV-2 infections",
+            "authors": [
+                {
+                    "first": "Q-X",
+                    "middle": [],
+                    "last": "Long",
+                    "suffix": ""
+                },
+                {
+                    "first": "X-J",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q-L",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Med",
+            "volume": "26",
+            "issn": "",
+            "pages": "1200--1204",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41591-020-0965-6"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Substantial undocumented infection facilitates the rapid dissemination of novel coronavirus (SARS-CoV-2)",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Pei",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "368",
+            "issn": "",
+            "pages": "489--93",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.abb3221"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Patterns of viral clearance in the natural course of asymptomatic COVID-19: comparison with symptomatic non-severe COVID-19",
+            "authors": [
+                {
+                    "first": "J-S",
+                    "middle": [],
+                    "last": "Uhm",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ahn",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hyun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Infect Dis",
+            "volume": "99",
+            "issn": "",
+            "pages": "279--85",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ijid.2020.07.070"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Cluster of coronavirus disease 2019 (COVID-19) in the French Alps",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Danis",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Epaulard",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "B\u00e9net",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Infect Dis",
+            "volume": "71",
+            "issn": "",
+            "pages": "825--857",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/cid/ciaa424"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "SARS-CoV-2 transmission among marine recruits during quarantine",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Letizia",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Ramos",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Obla",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "383",
+            "issn": "",
+            "pages": "2407--2423",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2029717"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Coronavirus disease outbreak in call center",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y-M",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "South Korea. Emerg Infect Dis",
+            "volume": "26",
+            "issn": "",
+            "pages": "1666--70",
+            "other_ids": {
+                "DOI": [
+                    "10.3201/eid2608.201274"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Contact tracing assessment of COVID-19 transmission dynamics in Taiwan and risk at different exposure periods before and after symptom onset",
+            "authors": [
+                {
+                    "first": "H-Y",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "S-W",
+                    "middle": [],
+                    "last": "Jian",
+                    "suffix": ""
+                },
+                {
+                    "first": "D-P",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA Intern Med",
+            "volume": "180",
+            "issn": "",
+            "pages": "1156--63",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jamainternmed.2020.2020"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Outbreak investigation: transmission of COVID-19 started from a spa facility in a local community in Korea",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Epidemiol Health",
+            "volume": "42",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Contact settings and risk for transmission in 3410 close contacts of patients with COVID-19 in Guangzhou, China: a prospective cohort study",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Ann Intern Med",
+            "volume": "173",
+            "issn": "",
+            "pages": "879--87",
+            "other_ids": {
+                "DOI": [
+                    "10.7326/M20-2671"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "SARS-CoV-2 shedding and infectivity",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Atkinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Petersen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "1339--1379",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30868-0"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Impact of nonpharmaceutical interventions (NPIs) to reduce COVID-19 mortality and healthcare demand",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ferguson",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Laydon",
+                    "suffix": ""
+                },
+                {
+                    "first": "Nig",
+                    "middle": [],
+                    "last": "Nedjati-Gilani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Mathematical modelling of COVID-19 transmission and mitigation strategies in the population of Ontario, Canada",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Tuite",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Fisman",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Greer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "CMAJ",
+            "volume": "192",
+            "issn": "",
+            "pages": "497--505",
+            "other_ids": {
+                "DOI": [
+                    "10.1503/cmaj.200476"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Screening process of the articles.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": ") or weekly (Letizia et al 13 and Lavezzo et al 1 ). The testing frequency in Long et al 9 was not specified, whereas Uhm et al 11 focused on the duration of infectiousness, rather than its magnitude.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "and Long et al 9 limited their studies to symptomatics with mild symptoms, and Letizia et al 13 was undertaken with Marine Corp recruits. In contrast, Lavezzo et al 1 investigated all residents in the village of Vo', Italy, accounting for all age groups, thus ensuring greater external validity in this study.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "\u25ba Representativeness of the studied compartment. Determining whether the model compartment is reflective of the true asymptomatic cohort. \u25ba Consideration of the range of values within which the model estimate is confined. How wide and what range is the parameter estimate confined within, and does the final parameter estimate indicate that this range may not be appropriate. \u25ba Model validation. Whether the model was validated on different sources of data, data from different countries or data from different points in time.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Estimates of the infectiousness of asymptomatic compared with symptomatic individuals, by study type (PCR studies, modelling studies and contact tracing studies) AuthorThe number of relevant study subjects refers to the number of individuals with available PCR results (PCR studies) or the number of close contacts (contact tracing studies). *Population studied at national level. \u2020The average of the following set of values for relative infectiousness: {0.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Acknowledgements We wish to thank Dr Gerald Barry and Emma O' Donohue for their feedback and input. Funding The authors have not declared a specific grant for this research from any funding agency in the public, commercial or not-for-profit sectors.Competing interests None declared.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "acknowledgement"
+        },
+        {
+            "text": "Provenance and peer review Not commissioned; externally peer reviewed.Data availability statement Data sharing not applicable to this article as no datasets were generated or analysed during the current study.Supplemental material This content has been supplied by the author(s). It has not been vetted by BMJ Publishing Group Limited (BMJ) and may not have been peer-reviewed. Any opinions or recommendations discussed are solely those of the author(s) and are not endorsed by BMJ. BMJ disclaims all liability and responsibility arising from any reliance placed on the content. Where the content includes any translated material, BMJ does not warrant the accuracy and reliability of the translations (including but not limited to local regulations, clinical guidelines, terminology, drug names and drug dosages), and is not responsible for any error and/or omissions arising from translation and adaptation or otherwise.Open access This is an open access article distributed in accordance with the Creative Commons Attribution Non Commercial (CC BY-NC 4.0) license, which permits others to distribute, remix, adapt, build upon this work non-commercially, and license their derivative works on different terms, provided the original work is properly cited, appropriate credit is given, any changes made indicated, and the use is non-commercial. See: http:// creativecommons. org/ licenses/ by-nc/ 4. 0/. Ann Barber http:// orcid. org/ 0000-0001-8468-9949 John Griffin http:// orcid. org/ 0000-0001-7509-6770 Elizabeth Ann Lane http:// orcid. org/ 0000-0002-6311-8335 Simon John More http:// orcid. org/ 0000-0002-4270-0385",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patient consent for publication Not required."
+        }
+    ]
+}

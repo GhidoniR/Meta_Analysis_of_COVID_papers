@@ -1,0 +1,331 @@
+{
+    "paper_id": "0a20840561dc56c8ecb67d043f8318c3745b88ad",
+    "metadata": {
+        "title": "",
+        "authors": [
+            {
+                "first": "Gregory",
+                "middle": [],
+                "last": "Cavanagh",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Centro Universit ario Sa ude ABC",
+                    "location": {
+                        "addrLine": "Santo Andr e",
+                        "country": "Brazil"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Paulo",
+                "middle": [
+                    "Ricardo"
+                ],
+                "last": "Criado",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Carla",
+                "middle": [],
+                "last": "Pagliari",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Brazil; Health and Biologic Sciences Center",
+                    "location": {
+                        "settlement": "S\u00e3o Paulo, Sao Paulo"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Francisca",
+                "middle": [],
+                "last": "Regina",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Oliveira",
+                "middle": [],
+                "last": "Carneiro",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Juarez",
+                "middle": [],
+                "last": "Antonio",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Sim\u00f5es",
+                "middle": [],
+                "last": "Quaresma",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Mark",
+                "middle": [
+                    "A"
+                ],
+                "last": "Cappel",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Carlos",
+                "middle": [],
+                "last": "Wambier",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Centro Universit ario Sa ude ABC",
+                    "location": {
+                        "addrLine": "Santo Andr e",
+                        "country": "Brazil"
+                    }
+                },
+                "email": "carlos_wambier@brown.edu"
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Pernio during the COVID-19 pandemic and review of inflammation patterns and mechanisms of hypercoagulability To the Editor: We read the informative case report by Kolivras et al 1 describing a case of respiratory coronavirus in association with a common nonspecific winter-early spring dermatosis: pernio. Although we agree that cytotoxic response, especially in the airways, is likely to protect young patients from viral spread, we question whether a clinical and/or histopathologic diagnosis of pernio should lead to COVID-19 testing in the absence of respiratory symptoms. To prove that COVID-19 is the cause of this case of pernio, one would ideally histologically demonstrate viral inclusions or positive immunohistochemistry for SARS-CoV-2 within the skin biopsy. However, given the severity of the pandemic, patients without a previous history of Raynaud syndrome, pernio, or cold exposure should be advised to self-isolate in the event they develop pernio-like lesions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "LETTER NOTES & COMMENTS"
+        },
+        {
+            "text": "The incidence of pernio in COVID-19 versus noneCOVID-19 is unknown. Pernio has been reported in Italy, Spain, and France at the same time of the pandemic. 2 These reports started weeks after the initial confirmed COVID-19 cases. A recent study in Spain found that pernio was present in 72% of 132 patients with acro-ischemic lesions in a period of pandemic. Among those, only 19 patients (14.4%) had COVID-19. Among 11 patients who were tested because of respiratory symptoms after the onset of skin lesions, only 2 (18.1%) tested positive. 2 If these same patients were in a warmer climate, it would be more informative as to whether pernio was triggered by coronavirus or the typical exposure: cold temperatures.",
+            "cite_spans": [
+                {
+                    "start": 155,
+                    "end": 156,
+                    "text": "2",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 541,
+                    "end": 542,
+                    "text": "2",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "LETTER NOTES & COMMENTS"
+        },
+        {
+            "text": "A recommendation to ask about preceding respiratory symptoms and to only test patients who have fever, cough, shortness of breath, myalgias, chills, sore throat, headache, diarrhea or new-onset loss of smell or taste would be more appropriate. The respiratory symptoms should be used as a screen for swab testing. Pernio-like lesions may correspond to a late manifestation of COVID-19, in which case polymerase chain reaction assays from nasopharyngeal swabs can be negative after the onset of skin lesions. Mean latency time between COVID-19 and the appearance of skin lesions was found to be 9.2 days, 2 and so serologic tests based on SARS-CoV-2, like enzyme-linked immunosorbent assay, would be needed to elucidate a causal relationship between the virus and skin manifestations. In the northern hemisphere, diseases such as pernio are too common to draw any suspicion of being COVID induced. The article failed to report the exposure to cold that triggered that event. During springtime, patients are more prone to leave the house with feet unprotected from the cold, whereas in the winter they would more commonly wear boots. We should expect an inversion of these common dermatoses in the future if they are seasonal, when pernio will be diagnosed in the southern hemisphere. Additionally, the lesions currently being seen primarily affect the distal aspects of the digits, but they can also affect the palms, soles, heels, and wrists, unlike pernio.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "LETTER NOTES & COMMENTS"
+        },
+        {
+            "text": "We agree with Kolivras et al 1 that a cytokine response would result in cutaneous manifestations similar to lupus erythematous. This should be seen as a sentinel of the virus's impact on endothelial cells and the vascular system. There are several potential mechanisms behind the hypercoagulability accompanying the disease. One of these is upregulation of protein disulfide isomerase, which is involved in the coagulation cascade and is required for thrombus formation. 3 Furthermore, increased platelet expression of P-selectin is linked to abnormal platelet function 4 ; therefore, the Pselectin transporter system could be a potential therapeutic target. In addition to these mechanisms, the proprotein convertase subtilisn kexin 9 plays a role in low-density lipoprotein receptor metabolism and may be involved in the COVID-19 coagulation process. 5 During possible hypercoagulability and macrophage activation syndromeelike hyperinflammation with lung involvement, dermatologic symptoms such as urticaria, exanthema, and purpura should be viewed not as indolent disease course but rather further signs that can be used as tools when making differential diagnosis ",
+            "cite_spans": [
+                {
+                    "start": 471,
+                    "end": 472,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 853,
+                    "end": 854,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "LETTER NOTES & COMMENTS"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "COVID-19) infection-induced chilblains: a case report with histopathologic findings",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kolivras",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Dehavay",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Delplace",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAAD Case Rep",
+            "volume": "6",
+            "issn": "6",
+            "pages": "489--492",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Characterization of acute acro-ischemic lesions in non-hospitalized patients: a case series of 132 patients during the COVID-19 outbreak",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Fernandez-Nieto",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Jimenez-Cauhe",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Suarez-Valle",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Am Acad Dermatol",
+            "volume": "83",
+            "issn": "1",
+            "pages": "61--63",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Targeting protein disulfide isomerase with the flavonoid isoquercetin to improve hypercoagulability in advanced cancer",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Zwicker",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Schlechter",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Stopa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "JCI insight",
+            "volume": "4",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Livedoid vasculopathy: an in-depth analysis using a modified Delphi approach",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Alavi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hafner",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Dutz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Am Acad Dermatol",
+            "volume": "69",
+            "issn": "6",
+            "pages": "1033--1042",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Grze sk G. PCSK9 signaling pathways and their potential importance in clinical practice",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wici Nski",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zak",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Malinowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Popek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "EPMA J",
+            "volume": "8",
+            "issn": "4",
+            "pages": "391--402",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "\u00aa 2020 by the American Academy of Dermatology, Inc. Published by Elsevier Inc. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/ 4.0/).",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

@@ -1,0 +1,3422 @@
+{
+    "paper_id": "0aac61340d22de5cef5acaf4dcd725fec2fbae0d",
+    "metadata": {
+        "title": "Humanized COVID-19 decoy antibody effectively blocks viral entry and prevents SARS-CoV-2 infection",
+        "authors": [
+            {
+                "first": "Kuo-Yen",
+                "middle": [],
+                "last": "Huang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ming-Shiu",
+                "middle": [],
+                "last": "Lin",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ting-Chun",
+                "middle": [],
+                "last": "Kuo",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ci-Ling",
+                "middle": [],
+                "last": "Chen",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Chung-Chih",
+                "middle": [],
+                "last": "Lin",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yu-Chi",
+                "middle": [],
+                "last": "Chou",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Tai-Ling",
+                "middle": [],
+                "last": "Chao",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yu-Hao",
+                "middle": [],
+                "last": "Pang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Han-Chieh",
+                "middle": [],
+                "last": "Kao",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Rih-Sheng",
+                "middle": [],
+                "last": "Huang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Steven",
+                "middle": [],
+                "last": "Lin",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Sui-Yuan",
+                "middle": [],
+                "last": "Chang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Pan-Chyr",
+                "middle": [],
+                "last": "Yang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "To circumvent the devastating pandemic caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection, a humanized decoy antibody (ACE2-Fc fusion protein) was designed to target the interaction between viral spike protein and its cellular receptor, angiotensin-converting enzyme 2 (ACE2). First, we demonstrated that ACE2-Fc could specifically abrogate virus replication by blocking the entry of SARS-CoV-2 spike-expressing pseudotyped virus into both ACE2-expressing lung cells and lung organoids. The impairment of viral entry was not affected by virus variants, since efficient inhibition was also observed in six SARS-CoV-2 clinical strains, including the D614G variants which have been shown to exhibit increased infectivity. The preservation of peptidase activity also enables ACE2-Fc to reduce the angiotensin II-mediated cytokine cascade. Furthermore, this Fc domain of ACE2-Fc was shown to activate NK cell degranulation after coincubation with Spike-expressing H1975 cells. These promising characteristics potentiate the therapeutic prospects of ACE2-Fc as an effective treatment for COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "In December 2019, a new coronavirus, reported in Wuhan City, Hubei Province, China, and later named SARS-CoV-2, was classified as a new member of the beta-coronavirus family (Guan et al, 2020; Huang et al, 2020) . SARS-CoV-2 causes atypical pneumonia and apparently spreads more efficiently than SARS-CoV did in 2003 and MERS-CoV did in 2015 (de Wit et al, 2016) . Currently, there were more than 47 million confirmed cases, with 1.2 million deaths till November 2020 globally (https://www.who.int/). SARS-CoV infection is mediated by the transmembrane glycoprotein Spike, which recognizes and targets angiotensin-converting enzyme 2 (ACE2) for viral entry (Zhou et al, 2020) . The viral Spike protein can be divided into two functionally distinct subunits, a receptor-binding subunit S1 and a membrane-fusion subunit S2. The S1 subunit recognizes and binds to ACE2 on host cells, while the fusogenic peptide on the S2 subunit facilitates fusion between the viral and host membrane to facilitate the release of the viral genome into the host cells (Tortorici & Veesler, 2019) . Based on the viral sequence alignment (Lu et al, 2020) as well as the Cryo-EM structure of SARS-CoV-2 Spike protein , high similarities between the Spike protein of SARS-CoV and SARS-CoV-2 have been described (Monteil et al, 2020) . Recently, it was reported that the receptor-binding domain (RBD) of SARS-CoV-2 S1, similar to that of SARS-CoV, interacts with the peptidase domain (PD) of ACE2 (Li et al, 2005; Wrapp et al, 2020) .",
+            "cite_spans": [
+                {
+                    "start": 174,
+                    "end": 192,
+                    "text": "(Guan et al, 2020;",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 193,
+                    "end": 211,
+                    "text": "Huang et al, 2020)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 342,
+                    "end": 362,
+                    "text": "(de Wit et al, 2016)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 657,
+                    "end": 675,
+                    "text": "(Zhou et al, 2020)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1048,
+                    "end": 1075,
+                    "text": "(Tortorici & Veesler, 2019)",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 1116,
+                    "end": 1132,
+                    "text": "(Lu et al, 2020)",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 1287,
+                    "end": 1308,
+                    "text": "(Monteil et al, 2020)",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 1472,
+                    "end": 1488,
+                    "text": "(Li et al, 2005;",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1489,
+                    "end": 1507,
+                    "text": "Wrapp et al, 2020)",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "ACE2 is expressed on the cell membrane of most organs and tissues, including the lungs, heart, kidney, brain, intestine, and endothelial cells (Kabbani & Olds, 2020) . As a component involved in the signaling pathway of the renin-angiotensin system (RAS), which functions as a homeostatic regulator of vascular function, ACE2 plays an important role in the maturation of angiotensin (Ang), which controls vasoconstriction, blood pressure (Patel et al, 2016) , and the inflammatory cytokine cascade mediated by TNF-a and IL-6 (Hirano & Murakami, 2020) . ACE first metabolizes Ang I to Ang II, whose C-terminal domain is further cleaved by ACE2 to generate angiotensin 1-7 (Ang 1-7). Ang 1-7, having opposing functions to Ang II, has been shown to exert antioxidant and anti-inflammatory effects upon lung and heart injury (Patel et al, 2016) . The concentration of Ang II is delicately regulated. Increased levels of Ang II are believed to upregulate ACE2 activity, which subsequently leads to decreased Ang II and increased Ang 1-7 levels. Treatment with recombinant human ACE2 (rhACE2) and B38-CAP, a bacteria-derived ACE2-like enzyme, has been reported to suppress Ang II-induced hypertension, cardiac hypertrophy, and fibrosis in the mouse model (Liu et al, 2018; Minato et al, 2020) . In addition, ACE2 was shown to improve sepsis-induced acute lung injury using cecal ligation and perforation (CLP) and endotoxin challenge . In addition, impaired ACE2 expression was observed in mice receiving an intraperitoneal injection of SARS-CoV Spike protein, suggesting that the Spike proteins might worsen lung injury by hijacking ACE2 function and reducing its expression levels . Thus, ACE2 plays a key role in protecting organs from injury other than serving as the entry receptor for SARS-CoV-2 (Hirano & Murakami, 2020) .",
+            "cite_spans": [
+                {
+                    "start": 143,
+                    "end": 165,
+                    "text": "(Kabbani & Olds, 2020)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 438,
+                    "end": 457,
+                    "text": "(Patel et al, 2016)",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 525,
+                    "end": 550,
+                    "text": "(Hirano & Murakami, 2020)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 821,
+                    "end": 840,
+                    "text": "(Patel et al, 2016)",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 1249,
+                    "end": 1266,
+                    "text": "(Liu et al, 2018;",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1267,
+                    "end": 1286,
+                    "text": "Minato et al, 2020)",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1796,
+                    "end": 1821,
+                    "text": "(Hirano & Murakami, 2020)",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Four potential strategies have been developed to combat SARS-CoV-2 entry, including Spike protein-based vaccine, inhibition of transmembrane protease serine 2 (TMPRSS2) activity, therapeutic antibodies blocking the interactions between ACE2 and the Spike protein, and soluble ACE2 (Kruse, 2020; Zhang et al, 2020) . While it will take time to evaluate the safety and efficacy of the vaccine candidates, it was recently demonstrated that human recombinant soluble ACE2 can significantly block SARS-CoV-2 entry into host cells (Monteil et al, 2020) . The antibody Fc domain, in addition to its ability to trigger antibody-dependent cellular cytotoxicity (ADCC) and complement-dependent cytotoxicity (CDC), endows the fusion protein with a longer half-life (Czajkowsky et al, 2012) . Whether the ACE2-Fc fusion protein can retain the peptidase activity of ACE2 and endow the fusion proteins with ADCC and CDC activity while blocking SARS-CoV-2 entry remains to be investigated. Here, we aim to examine the protective role of this shorter ACE2-Fc (18-615 A.A.) fragment on SARS-CoV-2 infection.",
+            "cite_spans": [
+                {
+                    "start": 281,
+                    "end": 294,
+                    "text": "(Kruse, 2020;",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 295,
+                    "end": 313,
+                    "text": "Zhang et al, 2020)",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 525,
+                    "end": 546,
+                    "text": "(Monteil et al, 2020)",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 754,
+                    "end": 778,
+                    "text": "(Czajkowsky et al, 2012)",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Production and functional assay of the ACE2-Fc decoy antibody",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Here, we designed three SARS-CoV-2 Spike protein constructs, including ectodomain residues 1-1,273 (full length), 1-674 (S1), and 319-591 (receptor-binding domain, RBD), all fused with the Fc region of human IgG1 or a flag tag at the C-terminus for further Western blot analysis or enzyme-linked immunosorbent assay (ELISA) (Fig 1A and B) . The ectodomain of human ACE2, residues 18-615, was also constructed with a fused Fc region of human IgG1 at the C-terminus and IL-2 secretion signaling peptide at the N-terminus to facilitate secretion of ACE2-Fc out of the cells (Fig EV1A) . This soluble ACE2-Fc chimeric region could be specifically recognized by the anti-ACE2 antibody (Fig EV1B) . The ACE2-Fc and Spike 1-674-Fc can individually form a stable homodimer (Fig 1C and D) . The ACE2-Fc and Spike 1-674-Fc protein are likely to be heavily N-glycosylated since size reduction was observed in SDS-PAGE after PNGase F (Peptide: N-glycosidase F) treatment (Fig 1E and F) . ELISA was subsequently performed to examine whether this purified ACE2-Fc antibody could bind to the SARS-CoV-2 Spike. ACE2-Fc was further modified with monomer D-biotin at its C-terminus by an Avi-tag affinity process ( Fig EV1C) . As shown in Fig EV2A and B , ACE2-Fc-Biotin, as the functional receptor, could interact with the Spike 1-674 and the Spike 319-591 truncated proteins. The ACE2-Fc-Biotin/Spike S1 interaction could be disrupted by a 20-fold excess of unlabeled ACE2-Fc or the Spike S1 subunit in a dose-dependent manner (Figs 2A and EV2C) . In addition, ACE2-Fc could bind to the cell surface of human lung adenocarcinoma H1975 cells expressing fulllength Spike protein in a dose-dependent manner ( Fig 2B) . The colocalization of the FITC-conjugated ACE2-Fc and anti-Spike antibody by confocal microscopy further confirm the specific recognition of the Spike proteins by the ACE2-Fc (Fig 2C) . Using a fluorescent peptide substrate (Mca-Tyr-Val-Ala-Asp-Ala-Pro-Lys(Dnp)-OH) (Enari et al, 1996) , we demonstrated that the purified ACE2-Fc retained peptidase activity as compared with the human normal IgG and buffer controls ( Fig 2D) . The effects of ACE2-Fc on Ang II-mediated inflammatory cascade were subsequently investigated. After the co-incubation of Ang II with ACE2-Fc, we observed that ACE2-Fc could significantly suppress Ang II-induced TNF-a production ( Fig 2E) and phosphorylation of ADAM17 (a disintegrin and metalloprotease 17) ( Fig 2F) . Taken together, we demonstrated that the ACE2-Fc decoy antibody preserves the peptidase activity of ACE2-Fc to reduce the Ang II-mediated cytokine cascade while exhibiting specific interaction with the SARS-CoV-2 Spike proteins.",
+            "cite_spans": [
+                {
+                    "start": 1511,
+                    "end": 1529,
+                    "text": "(Figs 2A and EV2C)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1966,
+                    "end": 1985,
+                    "text": "(Enari et al, 1996)",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 324,
+                    "end": 338,
+                    "text": "(Fig 1A and B)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 571,
+                    "end": 581,
+                    "text": "(Fig EV1A)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 680,
+                    "end": 690,
+                    "text": "(Fig EV1B)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 765,
+                    "end": 779,
+                    "text": "(Fig 1C and D)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 959,
+                    "end": 973,
+                    "text": "(Fig 1E and F)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1197,
+                    "end": 1206,
+                    "text": "Fig EV1C)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1221,
+                    "end": 1235,
+                    "text": "Fig EV2A and B",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1690,
+                    "end": 1697,
+                    "text": "Fig 2B)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1875,
+                    "end": 1883,
+                    "text": "(Fig 2C)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 2118,
+                    "end": 2125,
+                    "text": "Fig 2D)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 2359,
+                    "end": 2366,
+                    "text": "Fig 2E)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 2438,
+                    "end": 2445,
+                    "text": "Fig 2F)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "To determine whether the decoy antibody is able to inhibit SARS-CoV-2 fusion with the target cells, we cotransfected SARS-CoV-2 Spike protein and EGFP into the HEK293T cells as the effector cells (293T-S) and used the ACE2-stable-expressing HEK293T and H1975 \u25b8 Figure 1 . Production of the decoy antibody (chimeric ACE2-Fc).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 261,
+                    "end": 269,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "ACE2-Fc inhibits SARS-CoV-2 Spike-mediated cell-cell fusion and syncytia formation"
+        },
+        {
+            "text": "Schematic diagram of SARS-CoV-2 Spike protein and the Spike constructs, Spike 1-1,273 (full length), 1-674 (S1), and 319-591 (RBD-SD1) used in this study. The arrows indicate the cleavage sites of furin and TMPRSS2. B",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A"
+        },
+        {
+            "text": "Western blot analysis of SARS-CoV-2 Spike 1-1,273, 1-674, and 319-591 expression in HEK293T cells. The black arrows indicate the location of the induced target proteins. C Detection of decoy antibody ACE2-Fc and Spike S1-Fc chimeric homodimer formation in nonreducing Coomassie Brilliant Blue staining. D Recognition of the ACE2-Fc and Spike S1-Fc by anti-human IgG Fc antibody in nonreducing sodium dodecyl sulfate-polyacrylamide gel electrophoresis (SDS-PAGE). E, F Deglycosylation of ACE2-Fc and Spike 1-674-Fc by PNGase F. PNGase F digested ACE2-Fc (500 ng) and Spike 1-674-Fc (500 ng) were subjected to Coomassie Brilliant Blue staining (E) and Western blot analysis by anti-human IgG Fc antibody (F). cells as the target cells (293T-ACE2 and H1975-ACE2) ( Fig 3B) . The target cells without ACE2 overexpression were used as controls. The effector cells (293T-S) were preincubated with ACE2-Fc or IgG at 37\u00b0C for 1 h before mixing with the target cells or control cells for another 4 h (cell-cell fusion assay) or 24 h (syncytia formation assay) (Fig 3A) . The area of EGFP was counted, and the inhibitory effect of ACE2-Fc on SARS-CoV-2 Spike-mediated cell-cell fusion and syncytia formation was quantified (n = 6). As shown in Fig 3C and D, ACE2-Fc significantly impaired SARS-CoV-2 Spike-mediated cellcell fusion and syncytia formation compared to the normal human IgG control in both the HEK293T and the H1975 cell systems. In addition, a dose-dependent inhibition of cell-cell fusion or syncytia was observed at increasing doses of ACE2-Fc in H1975 cell system (Pvalues between each dose of ACE2-Fc were shown in Appendix Table S1 ). These results demonstrated that ACE2-Fc could block SARS-CoV-2 infection via abrogating virus-mediated cell-cell fusion and syncytium formation.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 762,
+                    "end": 769,
+                    "text": "Fig 3B)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1051,
+                    "end": 1059,
+                    "text": "(Fig 3A)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1234,
+                    "end": 1240,
+                    "text": "Fig 3C",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1632,
+                    "end": 1640,
+                    "text": "Table S1",
+                    "ref_id": null
+                }
+            ],
+            "section": "A"
+        },
+        {
+            "text": "To examine the potential cytotoxicity of ACE2-Fc on normal cells, two different normal human bronchial epithelial (NBE) cells were treated with various concentrations of ACE2-Fc or IgG for 3 days before the cell viability assay. As shown in Fig EV3A and B, no cell toxicity was observed in these two normal cells at the concentration up to 400 lg/ml of ACE2-Fc. The stability of ACE2-Fc in serum was subsequently determined. We incubated 2 \u00b5g/ml ACE2-Fc in 50% normal human serum at 37\u00b0C for 0, 1, 2, and up to 10 days. The stability of ACE2-Fc was determined by assaying its binding ability to the Spike proteins in the ELISA assay. As shown in Fig EV3C, not a significant reduction of ACE2-Fc/Spike binding was observed up to 10 days. These results suggest that ACE2-Fc has no toxicity to epithelial cells and may be stable in serum for 10 days, which may facilitate its future clinical application.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 241,
+                    "end": 249,
+                    "text": "Fig EV3A",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 646,
+                    "end": 655,
+                    "text": "Fig EV3C,",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Cytotoxicity and stability of ACE2-Fc"
+        },
+        {
+            "text": "The ability of ACE2-Fc to block SARS-CoV-2 entry was first examined by using the Spike-expressing pseudotyped lentivirus whose backbone G protein of vesicular stomatitis virus (VSV-G) was replaced with the SARS-CoV-2 Spike protein. The pseudotyped virus was preincubated with either ACE2-Fc or human IgG1 for 1 h at 37\u00b0C before adding to the ACE2-expressing HEK293T cells (293T-ACE2) or parental HEK293T cells for another hour. The entry of Spike-expressing pseudotyped virus into host cells was specifically mediated by ACE2 expression (Fig 4A) . The dose-dependent blockage of viral entry by ACE2-Fc was not only observed in HEK293T cells but also in another ACE2-expressing H1975 cell (H1975-ACE2) ( Fig 4A) (P-values between each dose of ACE2-Fc were shown in Appendix Table S1 ). Similar neutralization effects were also observed at a 10-fold higher virus input ( Fig EV4) . Since the lung is the primary site for SARS-CoV-2 infection, we established an airway organoid model following the methods described in a recent article (Sachs et al, 2019) to investigate the neutralization ability of ACE2-Fc against SARS-CoV-2 entry. The derived airway differentiation organoids were successfully established and composed of several airway epithelial cells with specific markers, including basal (P63), secretory (club cell marker secretoglobin family 1A member 1 (SCGB1A1) and secretory cell marker mucin 5AC (MUC5AC)), and multiciliated cells (cilia marker acetylated a-tubulin) ( Fig 4B) . Of note, unlike the A549 or the parental human normal bronchial epithelial cells (HBEpc), these airway organoids expressed a high-level of ACE2 in addition to TMPRSS2 (Fig 4B and C) . We then examined the neutralization ability of ACE2-Fc for Spike-expressing pseudotyped virus in the airway organoid model. As shown in Fig 4D, the airway organoids are susceptible to virus entry and the ACE2-Fc could significantly block virus entry at the concentration of 100 lg/ml. Our findings indicated that ACE2-Fc can inhibit entry of SARS-CoV-2 Spike-expressing pseudotyped virus entry into ACE2-expressing cells, including the airway organoids.",
+            "cite_spans": [
+                {
+                    "start": 1033,
+                    "end": 1052,
+                    "text": "(Sachs et al, 2019)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 537,
+                    "end": 545,
+                    "text": "(Fig 4A)",
+                    "ref_id": null
+                },
+                {
+                    "start": 703,
+                    "end": 710,
+                    "text": "Fig 4A)",
+                    "ref_id": null
+                },
+                {
+                    "start": 773,
+                    "end": 781,
+                    "text": "Table S1",
+                    "ref_id": null
+                },
+                {
+                    "start": 869,
+                    "end": 877,
+                    "text": "Fig EV4)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1481,
+                    "end": 1488,
+                    "text": "Fig 4B)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1658,
+                    "end": 1672,
+                    "text": "(Fig 4B and C)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1811,
+                    "end": 1818,
+                    "text": "Fig 4D,",
+                    "ref_id": null
+                }
+            ],
+            "section": "ACE2-Fc blocks entry of pseudotyped lentivirus into ACE2expressing cells and lung organoids"
+        },
+        {
+            "text": "The inhibitory effects of ACE2-Fc on viral entry were further confirmed using real SARS-CoV-2 isolates from patients suffering from COVID-19 infection at National Taiwan University Hospital. As expected, the preincubation of SARS-CoV-2 with ACE2-Fc blocked plaque formation in Vero E6 cells in a dose-dependent manner (Figs 5A and EV5) (P-values between each dose of ACE2-Fc were shown in Appendix Table S1 ). The half-maximal effective \u25b8 Figure 2 . Functional characterization of the decoy antibody.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 398,
+                    "end": 406,
+                    "text": "Table S1",
+                    "ref_id": null
+                },
+                {
+                    "start": 439,
+                    "end": 447,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "ACE2-Fc blocks SARS-CoV-2 entry and replication"
+        },
+        {
+            "text": "A Competitive ELISA. ACE2-Fc can compete with ACE2-Fc-Biotin for Spike 1-674 binding in a dose-dependent manner. The competition effects of ACE2-Fc on ACE2-Spike protein binding were normalized to PBS control. Error bars represent the standard deviation (SD), n = 2. Statistical analysis was performed by unpaired two-tail ttest. **P < 0.01, ***P < 0.001. B Recognition of full-length Spike on H1975 (left panel as negative control) or H1975-Spike (right panel) cells by ACE2-Fc using flow cytometry analysis. Isotype control:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ACE2-Fc blocks SARS-CoV-2 entry and replication"
+        },
+        {
+            "text": "40 lg/ml mouse IgG-FITC. C Confocal microscopy of H1975-Spike-overexpressing cells. Spikes on H1975 cells were stained with anti-Spike antibody and Alexa Fluor \u00ae 594-conjugated secondary antibody on ice for 1 h. After that, ACE2-Fc-FITC was incubated for another 1 h. Scale bars equal to 20 \u00b5m. DAPI was used as a nuclear counterstain. D Preservation of ACE2-Fc peptidase activity. The peptidase activity of ACE2-Fc was measured by cleavage of the fluorescent peptide substrates. E Inhibition of angiotensin II (Ang II)-induced TNF-a production by ACE2-Fc. Ang II was preincubated with indicated amounts of ACE2-Fc or IgG for 30 min. After that, the mixtures were added to RAW264.7 cells for 12 h. The concentration of TNF-a in the culture medium was determined by ELISA. Error bars represent the standard deviation (SD), n = 3. Statistical analysis was performed by unpaired two-tail t-test. *P < 0.05. The dotted line represents the mean value of TNF-a in control group. F Inhibition of Ang II-induced ADAM17 (a disintegrin and metalloprotease 17) phosphorylation by ACE2-Fc. The protein extracts from (E) were immunoblotted with the indicated antibodies (left panel). b-actin served as the loading control. The signal intensity was normalized to cells only (right panel). Data are representative of three independent experiments, and the values are expressed as the mean AE SD (right panel). Error bars represent the standard deviation (SD), n = 2. Statistical analysis was performed by unpaired two-tail t-test. *P < 0.05. IgG represents the human normal IgG control. concentrations (EC50) value for ACE2-Fc were 23.8 AE 5.94 lg/ml. The inhibitory effect was subsequently verified by the yield reduction assay. Pretreatment of SARS-CoV-2 with ACE2-Fc dose-dependently reduced the SARS-CoV-2 RNA copies in the culture supernatant ( Fig 5B) and the SARS-CoV-2 nucleoprotein expression in the infected cells ( Fig 5C) . In addition, we extended the incubation period of virus-ACE2-Fc from 1 to 48 h to examine whether resistant viruses would emerge ( Fig 5D) . Notably, comparable inhibitory effects on viral protein expression and supernatant viral RNA were observed when the ACE2-Fc was present in the culture medium for 48 h as compared to the pretreatment group ( Fig 5E  and F ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1835,
+                    "end": 1842,
+                    "text": "Fig 5B)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1911,
+                    "end": 1918,
+                    "text": "Fig 5C)",
+                    "ref_id": null
+                },
+                {
+                    "start": 2052,
+                    "end": 2059,
+                    "text": "Fig 5D)",
+                    "ref_id": null
+                },
+                {
+                    "start": 2269,
+                    "end": 2282,
+                    "text": "Fig 5E  and F",
+                    "ref_id": null
+                }
+            ],
+            "section": "ACE2-Fc blocks SARS-CoV-2 entry and replication"
+        },
+        {
+            "text": "To determine whether ACE2-Fc also exhibit inhibitory effects on other circulating SARS-CoV-2 strains, five other clinical SARS-CoV-2 strains, NTU3, NTU13, NTU14, NTU25, and NTU27, were included for analysis, and their genetic characteristics were summarized in Table EV1 . Notably, NTU3, NTU14, and NTU25 strains harbor the D614G mutation, which has been reported to increase the viral infectivity (Korber et al, 2020; Yurkovetskiy et al, 2020) . As shown in Fig 6, ACE2-Fc exhibited a potent ability to block SARS-CoV-2 protein expression ( Fig 6A) and viral RNA in the supernatants and infected cells (Fig 6B and C) . In this study, we further showed that our decoy antibody could block entry of various SARS-CoV-2 strains and no resistant virus could be selected after prolonged co-incubation of ACE2-Fc and SARS-CoV-2.",
+            "cite_spans": [
+                {
+                    "start": 398,
+                    "end": 418,
+                    "text": "(Korber et al, 2020;",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 419,
+                    "end": 444,
+                    "text": "Yurkovetskiy et al, 2020)",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 603,
+                    "end": 617,
+                    "text": "(Fig 6B and C)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 261,
+                    "end": 270,
+                    "text": "Table EV1",
+                    "ref_id": null
+                },
+                {
+                    "start": 459,
+                    "end": 465,
+                    "text": "Fig 6,",
+                    "ref_id": null
+                },
+                {
+                    "start": 542,
+                    "end": 549,
+                    "text": "Fig 6A)",
+                    "ref_id": null
+                }
+            ],
+            "section": "ACE2-Fc blocks SARS-CoV-2 entry and replication"
+        },
+        {
+            "text": "Proteins fused to the Fc domain enable these molecules to interact with Fc receptors, which are critical for the induction of immune responses (Czajkowsky et al, 2012) . Amon these, antibody-dependent cellular cytotoxicity (ADCC) is an adaptive immune response, mainly mediated by the natural killer (NK) cells. After the specific interactions between antibodies or Fc fusion proteins with specific antigens on the cell surface of infected cells, cross-linking of the Fc domain will activate the CD16 (FccRIII) receptor to trigger degranulation (CD107a on the cell membrane) and cytokine production (IFN-c and TNF-a) of NK cells (McDonald et al, 2015; Sun et al, 2019) . A recent report showed that the RBD-specific antibodies from an individual infected with SARS-CoV in 2003 could induce nearly 10% ADCC against SARS-CoV-2 (Pinto et al, 2020) . Therefore, experiments were conducted to examine whether ACE2-Fc could induce primary human NK cell activation. H1975 cells, transduced with fulllength Spike by the lentiviral vector (H1975-Spike), were used as target cells (Fig 7A) . The NK cell degranulation assay was performed to determine the CD107a, IFN-c, and TNF-a expression levels after the co-incubation of the NK cells with H1975-Spike cells in the presence of ACE2-Fc or recombinant ACE2 (1-740 A.A. without an Fc tag). Induction of the expression levels of these three degranulation markers was observed when serially diluted ACE2-Fc was added to the coculture of NK and H1975-Spike cells (Fig 7B-D) . In contrast, the degranulation of NK cells was not observed in the presence of recombinant ACE2. Taken together, our results suggest that ACE2-Fc could not only block SARS-CoV-2 infection but also induce NK cell activation, which may help to remove the infected cells in vivo.",
+            "cite_spans": [
+                {
+                    "start": 143,
+                    "end": 167,
+                    "text": "(Czajkowsky et al, 2012)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 629,
+                    "end": 651,
+                    "text": "(McDonald et al, 2015;",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 652,
+                    "end": 668,
+                    "text": "Sun et al, 2019)",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 825,
+                    "end": 844,
+                    "text": "(Pinto et al, 2020)",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1071,
+                    "end": 1079,
+                    "text": "(Fig 7A)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 1500,
+                    "end": 1510,
+                    "text": "(Fig 7B-D)",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "ACE2-Fc induced degranulation of natural killer (NK) cells"
+        },
+        {
+            "text": "Here, we provided evidence that a decoy antibody (ACE2-Fc) significantly reduced SARS-CoV-2 infection, while retained the peptidase activity and the ability to suppress the inflammatory responses induced by angiotensin II (Fig 8) . Chimeric ACE2-Fc antibody has been shown to have a longer elimination phase half-life of 174.2 h as compared to the 1.8 h for the recombinant ACE2 (rACE2) by the pharmacokinetic study in mice (Liu et al, 2018) . In this study, we further confirmed that ACE2-Fc retained nearly 100% of its Spikebinding ability after 10 days of incubation at 37\u00b0C (Fig EV3C) .",
+            "cite_spans": [
+                {
+                    "start": 424,
+                    "end": 441,
+                    "text": "(Liu et al, 2018)",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 222,
+                    "end": 229,
+                    "text": "(Fig 8)",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 578,
+                    "end": 588,
+                    "text": "(Fig EV3C)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "The serum concentration of Ang II is increased and acts as the key component of pro-inflammatory cytokines when SARS-CoV hijacks cellular ACE2 . After Ang II binds to its receptor AT1R, it can activate ADAM17 and NF-jB (Esteban et al, 2004) . ADAM17 phosphorylation can further facilitate the maturation of IL-6 and TNF-a from their precursor forms (Hirano & Murakami, 2020) . Therefore, SARS-CoV-2 infection might cause cytokine storms in COVID-19 patients, which is likely to be prevented by the restoration of ACE2 peptidase activity. In our study, we demonstrated that expression of a shorter ACE2 fragment (18-615 A.A.) can specifically and efficiently block SARS-CoV-1 infection, while still preserving its peptidase activity (Fig 2D-F) . Based on the previous findings in mouse ACE2 (Wysocki et al, 2019) , two shorten mouse ACE2 variants (1-605 and 1-619 A.A.) were shown to exhibit higher ACE2 enzyme activity than that of the full-length ACE2 (1-740 A.A.). In addition, ACE2 enzyme activity could be detected in urine from ACE2 knockout mice after intravenous infusion of the mouse variant (1-619 A.A.), but not ACE2 (1-740 A.A.). Infusion of this short variant (ACE2 1-619 A.A.) also recovered the ACE2 activity of the kidney in the Ace2-deficient mice. These evidences supported that the shortened version of the mouse ACE2-Fc (1-619 A.A.) is more stable in plasma and retains higher enzyme activity to convert Ang II to Ang 1-7. The decoy antibody ACE2-Fc designed in this study is a shorten version of ACE2 (18-615), similar to that in the mouse ACE2 study (Wysocki et al, 2019) . Our study results clearly demonstrated that in addition to block the entry and subsequent infection of host cells by the SARS-CoV-2 pseudoviruses as well as the SARS-CoV-2 clinical isolates, the ACE2-Fc (18-615 A.A.) fusion protein is very stable in plasma up to 10 days and also preserve its peptidase activity to exert its regulator effects on immune responses (Figs 6 and 7) . The renin-angiotensin system (RAS) is a hormone system that regulates vascular function, including the regulation of blood pressure, natriuresis, and blood volume control (Tikellis & Thomas, 2012) . As a key regulator in the RAS, ACE2 acts by converting Ang II into Ang 1-7 (Gheblawi et al, 2020) . Ang II can also downregulate ACE2 expression through AT1R when the RAS is overactivated in cardiovascular disease through the ERK1/2 and p38 MAPK signaling pathways (Koka et al, 2008) . Three strategies have been evolved to reduce Ang II levels upon RAS overactivation, including ACE inhibitors (ACEis), angiotensin receptor blockers (ARBs), and mineralocorticoid receptor blockers (Gheblawi et al, 2020) . Most of these compounds increase the protein and mRNA levels of ACE2 or peptidase activity in animal models (Kai & Kai, 2020) . Being known as the receptor for SARS-CoV-2, we speculate that ARBs-or ACEis-induced ACE2 upregulation may facilitate SARS-CoV-2 infection. In addition, the administration of recombinant ACE2 or ACE2-Fc could augment ACE2 enzymatic activity and reduce systemic inflammation. A lower plasma Ang II level after taking recombinant ACE2 may be safe in healthy volunteers and patients with acute respiratory distress syndrome or pulmonary arterial hypertension as demonstrated in the previous pilot studies (Haschke et al, 2013; Khan et al, 2017; Hemnes et al, 2018) . Therefore, for RAS disorder patients with COVID-19 treatment, administration of ACE2-Fc in circulation may block SARS-CoV-2 infection even in those subjects with induced ACE2 after receipt of ARBs or ACEis treatment. Nevertheless, it should be noted that similar to ARBs and ACEis, administration of ACE2-Fc may be harmful to the developing fetus during pregnancy since it could lower blood pressure by converting Ang II to Ang 1-7.",
+            "cite_spans": [
+                {
+                    "start": 219,
+                    "end": 240,
+                    "text": "(Esteban et al, 2004)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 349,
+                    "end": 374,
+                    "text": "(Hirano & Murakami, 2020)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 790,
+                    "end": 811,
+                    "text": "(Wysocki et al, 2019)",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 1571,
+                    "end": 1592,
+                    "text": "(Wysocki et al, 2019)",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 2146,
+                    "end": 2171,
+                    "text": "(Tikellis & Thomas, 2012)",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 2249,
+                    "end": 2271,
+                    "text": "(Gheblawi et al, 2020)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 2439,
+                    "end": 2457,
+                    "text": "(Koka et al, 2008)",
+                    "ref_id": null
+                },
+                {
+                    "start": 2656,
+                    "end": 2678,
+                    "text": "(Gheblawi et al, 2020)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 2789,
+                    "end": 2806,
+                    "text": "(Kai & Kai, 2020)",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 3310,
+                    "end": 3331,
+                    "text": "(Haschke et al, 2013;",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 3332,
+                    "end": 3349,
+                    "text": "Khan et al, 2017;",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 3350,
+                    "end": 3369,
+                    "text": "Hemnes et al, 2018)",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 732,
+                    "end": 742,
+                    "text": "(Fig 2D-F)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1958,
+                    "end": 1972,
+                    "text": "(Figs 6 and 7)",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "The ADCC process is initiated by the interaction of the antibody with the virus antigen of infected cells, which subsequently leads to the cross-linking of the CD16 receptors on NK cells. The degranulation and cytokine production is triggered upon NK cell activation, which then results in the elimination of infected cells (Sun et al, 2019) . Both ADCC and virus neutralization are important in controlling disease progression in patients with HIV or influenza virus H1N1 infection (Jegaskanda et al, 2013; Wren et al, 2013) . When the neutralizing antibody is not sufficient to completely block viral infection, a secondary infection may eventually occur and lead to severe clinical consequences. In our study, we demonstrated that ACE2-Fc could significantly neutralize SARS-CoV-2 infection and replication by either pretreatment or full-time treatment in vitro (Fig 5) . In addition, we showed that the decoy antibody (ACE2-Fc), but not ACE2 (1-740 A.A. without a fused Fc domain), could significantly activate degranulation of NK cells from three independent donors (Fig 7) . These results implicate that the ACE2-Fc can not only neutralize viral entry but also activate NK cells to remove the SARS-CoV-2 infected cells.",
+            "cite_spans": [
+                {
+                    "start": 324,
+                    "end": 341,
+                    "text": "(Sun et al, 2019)",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 483,
+                    "end": 507,
+                    "text": "(Jegaskanda et al, 2013;",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 508,
+                    "end": 525,
+                    "text": "Wren et al, 2013)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 865,
+                    "end": 872,
+                    "text": "(Fig 5)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1071,
+                    "end": 1078,
+                    "text": "(Fig 7)",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "The SARS-CoV-2 Spike protein encodes 22 potential N-linked oligosaccharides per protomer, which might play a role in epitope masking and possibly immune evasion (Watanabe et al, 2020) . Notably, the presence of the A475V, L452R, V483A, and F490L mutations in the RBD domain of SARS-CoV-2 was shown to decrease the neutralizing activity of antibody and might impede the development of therapeutic antibodies . In a recent report (Korber et al, 2020) , the SARS-CoV-2 bearing the D614G \u25b8 Figure 5 . Blockage of SARS-CoV-2 entry into host cells by ACE2-Fc.",
+            "cite_spans": [
+                {
+                    "start": 161,
+                    "end": 183,
+                    "text": "(Watanabe et al, 2020)",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 428,
+                    "end": 448,
+                    "text": "(Korber et al, 2020)",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 486,
+                    "end": 494,
+                    "text": "Figure 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "Inhibition of SARS-CoV-2 infection by ACE2-Fc in the plaque assay. Mixtures of ACE2-Fc and SARS-CoV-2 were incubated for 1 h before adding to Vero E6 cells for another 1 h at 37\u00b0C. The ACE2-Fc and SARS-CoV-2 premixtures were removed, and the cells were washed once with PBS and overlaid with methylcellulose with 2% FBS for 5-7 days before being stained with crystal violet. Those results showed increase of plaque formation was regarded as no inhibition of plaque formation. TPCK-treated trypsin: N-tosyl-L-phenylalanine chloromethyl ketone-treated trypsin. B, C Yield reduction assay was performed to determine the inhibitory effects of ACE2-Fc on virus titers and protein expression. The culture medium and cell extracts were harvested 24 h postinfection for real-time PCR (B) and Western blot (C). The NP/PCNA represents the relative NP expression as compared to that of PCNA, which served as a loading control. The NP/PCNA numbers below the panel are the ratios of NP/PCNA normalized to that of the human IgG control group. PCNA: Proliferating cell nuclear antigen. D Schematic illustration of the ACE2-Fc pretreatment and full-time experiment procedure, delineating the stages where the ACE2-Fc was present during the experiment. E",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A"
+        },
+        {
+            "text": "The cell lysates from the pretreatment and full-time experiments were harvested and immunoblotted with the indicated antibodies. F",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A"
+        },
+        {
+            "text": "The SARS-CoV-2 titer in the pretreatment and full-time experiments was analyzed by real-time PCR.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A"
+        },
+        {
+            "text": "Data information: Error bars represent the standard deviation (SD), n = 3. Statistical analysis was performed by unpaired two-tail t-test. *P < 0.05, **P < 0.01. mutation in Spike was adapted during the human-to-human transmission and has become the pandemic strain. The SARS-CoV-2 Spike with D614G pseudotyped virus was shown to exhibit enhanced infectivity compared to their counter strain with D614 at Spike (Korber et al, 2020) . Three of six of our isolated SARS-CoV-2 strains harbored D614G mutation (Table EV1 ). Although infection A B C Figure 6 . Neutralization activity of ACE2-Fc on different SARS-CoV-2 strains.",
+            "cite_spans": [
+                {
+                    "start": 411,
+                    "end": 431,
+                    "text": "(Korber et al, 2020)",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 506,
+                    "end": 516,
+                    "text": "(Table EV1",
+                    "ref_id": null
+                },
+                {
+                    "start": 545,
+                    "end": 553,
+                    "text": "Figure 6",
+                    "ref_id": null
+                }
+            ],
+            "section": "A"
+        },
+        {
+            "text": "Yield reduction assay was performed to determine the inhibitory effects of ACE2-Fc on the entry of 5 different SARS-CoV-2 strains into Vero E6 cells. A The (A) NP proteins in the cell lysates were determined by Western blot analysis. B, C The virus RNA in the (B) culture medium and (C) cell lysates was quantified by real-time RT-PCR. The genetic information and sequence reference numbers for the 5 SARS-CoV-2 strains were summarized in Table EV1 . Error bars represent the standard deviation (SD), n = 3. Statistical analysis was performed by unpaired twotail t-test. **P < 0.01, ***P < 0.001. Experiments were performed at least three times with similar results. of SARS-CoV-2 with D614G was shown to correlate with higher infectivity and viral load in study patients, our results demonstrated that ACE2-Fc could significantly reduce the entry of SARS-CoV-2 with D614G mutation (Fig 6) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 439,
+                    "end": 448,
+                    "text": "Table EV1",
+                    "ref_id": null
+                },
+                {
+                    "start": 882,
+                    "end": 889,
+                    "text": "(Fig 6)",
+                    "ref_id": null
+                }
+            ],
+            "section": "A"
+        },
+        {
+            "text": "Taken together, we demonstrated that ACE2-Fc (18-615 A.A.) has three important characteristics: neutralization of SARS-CoV-2 infection, conversion of Ang II to Ang 1-7, and activation of NK cells. Based on the efficient blocking of SARS-CoV-2 entry, including IL-2-activated NK cells were incubated with H1975-Spike cells at a 1:1 cell ratio in the presence of ACE2-Fc or ACE2. The activation of NK cell was determined by the CD107a, IFN-c, and TNF-a expression levels. A H1975 cells were transduced with full-length Spike by Lentiviral vector. Protein extracts were immunoblotted with the indicated antibodies. O/E represents overexpress. B The effect of ACE2-Fc activation on degranulative capacity of NK cells. The experiments were performed with the primary human NK cells derived from three independent donors. Error bars represent the standard deviation (SD), n = 3. Statistical analysis was performed by unpaired two-tail t-test. *P < 0.05 (each concentration of ACE2-Fc vs. control). C The CD107a, IFN-c, and TNF-a expression levels were determined by flow cytometry after the NK cells and H1975-Spike cells co-incubation in the presence or absence of ACE2-Fc or ACE2 control. Error bars represent the standard deviation (SD), n = 3. Statistical analysis was performed by unpaired two-tail t-test. *P < 0.05. The percentage of positive cells in both groups was normalized to the NK/H1975-Spike only group. D The differential expression of degranulation markers after the treatment of ACE2-Fc or ACE2 by the flow cytometry. The numbers in each plot indicate the percentages of positive cells.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A"
+        },
+        {
+            "text": "\u00aa 2020 The Authors EMBO Molecular Medicine 13: e12828 | 2021 the D614G variant strains, in the human epithelial cells and the airway organoids, we believe that the prophylactic use of ACE2-Fc could prevent healthcare workers or people at high risk from SARS-CoV-2 infection. Nevertheless, the potential benefits of Ang II conversion and NK cell activation activities of ACE2-Fc in the COVID-19 disease process require further evaluation in the animal model. Our in vitro results suggest that ACE2-Fc has the potential to develop as an effective therapeutic against SARS-CoV-2 infection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A"
+        },
+        {
+            "text": "The 18-615 A.A. of ACE2 or 1-1,273, 1-674, and 319-591 A.A. of the SARS-CoV-2 Spike with humanized codons were PCR-amplified and cloned into pCDNA 3.1(-) plasmids with the Fc region of human IgG1 using Nhe I and Sal I restriction enzymes. The Expi293F system (Thermo Fisher Scientific) was applied to generate recombinant proteins in the culture medium. These soluble recombinant proteins were purified by Protein G Sepharose (Merck). The concentration of recombinant protein was measured at 280 nm by NanoDrop, and the purity was determined by polyacrylamide gel electrophoresis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Generation of the fusion protein"
+        },
+        {
+            "text": "HEK293T and Vero E6 cells were purchased from American Type Culture Collection (ATCC) (Manassas, VA, USA) and cultured in Dulbecco's modified Eagle medium (DMEM) containing 10% fetal bovine serum (FBS) (Life Technologies). The human lung adenocarcinoma cell line H1975 was kindly provided by Dr. James Chih-Hsin Yang (Graduate Institute of Oncology, Cancer Research Center, National Taiwan University) and cultured in RPMI1640 containing 10% FBS. All adherent cells were cultured at 37\u00b0C in a humidified atmosphere containing 5% CO 2 and 20% O 2 . According to the manufacturer's recommendation, Expi293F cells were maintained in Expi293 expression medium with a shaking speed of 120 rpm at 37\u00b0C.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Cell lines"
+        },
+        {
+            "text": "Western blotting was performed as previously described (Huang et al, 2016) . In brief, total cell lysates were prepared in IP lysis buffer (20 mM Tris, pH 7.5, 100 mM sodium chloride, 1% IGEPAL CA-630, 100 \u00b5M Na 3 VO 4 , 50 mM NaF, and 30 mM sodium pyrophosphate) containing complete protease inhibitor cocktail without EDTA (Roche Diagnostics, Basel, Switzerland). Protein concentrations were measured by the Bio-Rad Protein Assay (Bio-Rad, Richmond, CA). The primary antibodies used at a 1:1,000 to 1:10,000 dilutions were as follows: anti-flag (M2, Sigma, 1:10,000); anti-ACE2 (ab108209, Abcam, 1:1,000); anti-TPMRSS2 (sc-515727, Santa Cruz, 1:1,000); anti-Spike (GTX632604, GeneTex, 1:1,000); anti-ADAM17 (T735, ab182630, Abcam, 1:1,000); anti-angiotensin II Type 1 Receptor antibody (ab124734, Abcam, 1:1,000); anti-GAPDH (10494-1-AP, Proteintech, 1:5,000); human FC (l2136, Sigma, 1:10,000); NP: anti-nucleoprotein of SARS-CoV-2 (40143-R019, Sino biological, 1:5,000); and anti-PCNA (Millipore Corporation, 1:5,000). Horseradish peroxidase-conjugated anti-mouse (ab97023, Abcam, 1:5,000) and anti-rabbit (626520, Invitrogen, 1:5,000) secondary antibodies at the 1:5,000 dilution were used in the analysis. Alexa Fluor \u00e2 594 goat anti-mouse IgG (A11032, Thermo Fisher Scientific, 1:500) was used as the secondary antibody for the immunofluorescence experiment. Protein signals were detected by chemiluminescent reagent (NEL105001EA, PerkinElmer).",
+            "cite_spans": [
+                {
+                    "start": 55,
+                    "end": 74,
+                    "text": "(Huang et al, 2016)",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Antibodies, immunoprecipitation, and immunoblot"
+        },
+        {
+            "text": "The enzyme activity of purified ACE2-Fc was measured using the fluorescent peptide substrate Mca-Tyr-Val-Ala-Asp-Ala-Pro-Lys (Dnp)-OH (Mca: (7-Methoxycoumarin-4-yl) acetyl, Dnp: 2,4-Dinitrophenyl) (ES007, R&D). In brief, ACE2-Fc was twofold serially diluted starting at 50 nM using the reaction buffer (50 mM MES, 300 mM NaCl, 10 lM ZnCl 2 , 0.01% Brij-35, and pH 6.5). Five microliters of 1 mM peptide substrate was premixed with 45 \u00b5l of reaction buffer and co-incubated with variant concentrations of ACE2-Fc. The fluorescence (Ex/Em = 320/420 nm) was measured in kinetic mode for 30 min to 2 h at room temperature by a fluorescence reader (Molecular Devices).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ACE2 peptidase activity assay"
+        },
+        {
+            "text": "Fifty microliters of 50 ng/ml purified 1-674 or 319-591 Spike proteins was precoated onto a 96-well ELISA plate at 4\u00b0C overnight. The plate was first washed three times with PBST (phosphatebuffered saline (PBS) containing 0.05% Tween-20) and blocked with blocking buffer (1% BSA, 0.05% NaN 3, and 5% sucrose in PBS) at room temperature for 30 min. After that, the plate was washed three times with PBST. Serially diluted ACE2-Fc-Biotin with or without soluble unlabeled ACE2-Fc or Spike 1-674 was preincubated at 37\u00b0C for 1 h. After that, the mixtures were added to the 96well plate and incubated at 37\u00b0C for 1 h. After that, the plate was washed three times with PBST and incubated with horseradish peroxidase (HRP)-conjugated streptavidin (1:500) at 37\u00b0C for 30 min. After three washes with PBST, tetramethylbenzidine substrate (TMB) (T8665, Sigma) was added for 30 min before stopping the reaction with 50 \u00b5l of 1 N H 2 SO 4 . HRP activity was measured at 450 nm using an ELISA plate reader (VERSAMAX).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ACE2-Fc and Spike binding by ELISA assay"
+        },
+        {
+            "text": "HEK293T cells were cotransfected with plasmid 5 \u00b5g of pCR3.1-Spike and 0.5 \u00b5g of pLKO AS2-GFP by lipofectamine 3000 (L3000015, Thermo Fisher Scientific) for 3 days before being used as effector cells (293T-S). H1975 lung adenocarcinoma cells and HEK293T cells were transduced with lentivirus encoding full-length ACE2 before being used as target cells (H1975-ACE2). H1975, H1975-ACE2, HEK293, and HEK293T (7.5 \u00d7 10 5 cells/well) cells were seeded in the 24-well plate at 37\u00b0C overnight. The 293T-S cells were detached with 0.48 mM EDTA for 5 min. The 293T-S (1 \u00d7 10 5 /reaction) cells were preincubated with normal human IgG or ACE2-Fc at 37\u00b0C for 1 h. After that, the antibody and effector cell mixtures were added to target cells and incubated at 37\u00b0C for 4 h or 24 h. Cells were fixed with 4% paraformaldehyde at room temperature for 30 min. The 293T/Spike/EGFP cells fused or unfused with HEK293T-ACE2 or H1975-ACE2 cells were counted under an inverted fluorescence microscope (Leica DMI 6000B fluorescence microscope). The percent inhibition of syncytia formation was calculated using the following formula: (100 \u00c0 (H-L)/(E-L) \u00d7 100). H represents the total green fluorescent score in the individual picture. L represents the green fluorescent score in the negative control group in which target cells were replaced by HEK293 or H1975). E represents the green fluorescent score in each picture in the IgG or ACE2-Fc groups. Each image of the green fluorescent score was determined by the MetaMorph's extensive analysis tools.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Cell fusion and syncytia formation"
+        },
+        {
+            "text": "ACE2-Fc was conjugated with green fluorescence using a FITC Labeling Kit (ab102884, Abcam). H1975-Spike-overexpressing cells (2 \u00d7 10 5 /reaction) were detached by 0.48 mM EDTA and then incubated with FITC-conjugated ACE2-FC or isotype control (Thermo Fisher Scientific) on ice for 1 h. After that, the cells were washed twice and resuspended in cold PBS. The fluorescence levels were quantified by the FACSCanto flow cytometer (Becton Dickinson) and analyzed using the FlowJo software.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Flow cytometry"
+        },
+        {
+            "text": "The H1975-Spike-expressing cells were fixed with 4% paraformaldehyde and blocked with 10% FBS. The cells were then stained with anti-Spike antibody (1:1,000) at 4\u00b0C overnight and incubated with Alexa Fluor \u00e2 594 conjugated secondary antibody (1:500) at 37\u00b0C for 1 h. Next, the cells were stained with FITCconjugated ACE2-Fc at 4\u00b0C overnight and mounted with ProLong TM Diamond Antifade Mountant with DAPI (Thermo Fisher Scientific). Then, images were taken with an LSM 700 laser scanning confocal microscope (Carl Zeiss).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immunofluorescence staining"
+        },
+        {
+            "text": "RAW264.7 macrophage cells (1 \u00d7 10 5 cells/well) were seeded in the 12-well plate overnight. Angiotensin II (A9525, Sigma-Aldrich) was preincubated with or without ACE2-Fc at 37\u00b0C for 30 min. Then, the mixtures were added to RAW264.7 cells for another 12 h. The TNF-a concentrations in the culture supernatants were measured using the ELISA kit (DY410, R&D Systems) according to the manufacturer's protocols. The absorbance at 450 nm in each well was determined using a VersaMax microplate reader (Molecular Devices).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Measurement of TNF-a levels in culture media"
+        },
+        {
+            "text": "ACE2-Fc (2 \u00b5g/ml) was prepared in 50% normal human serum (Sigma, H4522) and incubated for 0, 1, 2, and up to 10 days at 37\u00b0C and then stored at \u00c020\u00b0C. The ACE2-Fc binding activity was determined by the ELISA assay as described above.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Plasma stability"
+        },
+        {
+            "text": "The cell viability assay was determined according to the manufacturer's instructions (CellTiter 96 \u00e2 AQueous MTS, G1111, Promega). Briefly, 5 \u00d7 10 3 cells per well were seeded into 96-well plates in complete culture media. After 24 h, cells were treated with various concentrations of ACE2-Fc or IgG for another 72 h in complete culture media at 37\u00b0C. Twenty microliters of the MTS stock solution was added to each well of the treated cells. After another 1 h of incubation, absorption was measured at 490 nm by the spectrophotometer (Molecular Devices).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Cell viability assay"
+        },
+        {
+            "text": "The pseudotyped lentivirus carrying SARS-CoV-2 Spike protein was generated according to a published method with minor modifications (Glowacka et al, 2011) . In brief, HEK293T cells were transiently transfected with pLAS2w.Fluc.puro, pcDNA3.1-2019-nCoV-S, and pCMV-DR8.91 by using TransITR-LT1 transfection reagent (Mirus). The culture medium was refreshed at 16 h and harvested at 48 and 72 h post-transfection. Cell debris was removed by centrifugation at 4,000 g for 10 min, and the supernatant was filtered through a 0.45-\u00b5m syringe filter (Pall Corporation). For pseudovirus purification and concentration, the supernatant was mixed with 0.2 \u00d7 volume of 50% PEG 8,000 (Sigma) and incubated at 4\u00b0C for 2 h. The pseudotyped lentivirus was then recovered by centrifugation at 5,000 g for 2 h, resolved in sterilized phosphate-buffered saline, aliquoted, and stored at \u00c080\u00b0C.",
+            "cite_spans": [
+                {
+                    "start": 132,
+                    "end": 154,
+                    "text": "(Glowacka et al, 2011)",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Production and purification of pseudotyped SARS-CoV-2 lentivirus"
+        },
+        {
+            "text": "The standard VSV-G pseudotyped lentivirus was generated by transient transfection of HEK293T cells with pLAS2w.Fluc. puro, pMD-G, and pCMV-DR8.91 as described above. The transduction unit of VSV-G-pseudotyped lentivirus was estimated using the cell viability assay according to the National RNAi Core Facility, Academia Sinica, Taipei Human airway organoid culture",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 328,
+                    "end": 334,
+                    "text": "Taipei",
+                    "ref_id": null
+                }
+            ],
+            "section": "Estimation of lentiviral titer by using the luciferase assay"
+        },
+        {
+            "text": "The human airway organoid culture method was slightly modified from a previous report (Sachs et al, 2019) . In brief, human bronchial/tracheal epithelial cells (502-05a, Cell APPLICATIONS) were suspended in 10 mg/ml cold Corning Matrigel Growth Factor Reduced (GFR) Basement Membrane Matrix (356230, CORNING), and 50 ll drops of the cell suspension were solidified on prewarmed 24-well culture plates at 37\u00b0C with 5% CO 2 for 10-20 min. Five hundred microliters of airway organoid medium (composition is shown in Reagent Table) was added to each well, and the medium was changed every 2-3 days. Airway organoids were passaged every 2 weeks. For passaging, airway organoids were first mechanically sheared through a flamed glass Pasteur pipette and further dissociated by incubation with TrypLE select enzyme (12563011, Thermo Fisher Scientific). The dissociated organoid fragments were collected by centrifugation at 400 g for 5 min and reseeded as above at the ratios of 1:2 to 1:4.",
+            "cite_spans": [
+                {
+                    "start": 86,
+                    "end": 105,
+                    "text": "(Sachs et al, 2019)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 521,
+                    "end": 527,
+                    "text": "Table)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Estimation of lentiviral titer by using the luciferase assay"
+        },
+        {
+            "text": "The airway organoids (organoid size approximately 100 \u00b5m) were extracted from the Matrigel by mechanical shearing through a flamed glass Pasteur pipette, and approximately 100 organoids were infected with 1.0 \u00d7 10 5 PFU of pseudotype SARS-CoV-2 in a 24-well plate containing 500 \u00b5l airway organoid medium. The virus and organoid-containing plates were first centrifuged at 1,100 g for 30 min and placed at 37\u00b0C with 5% CO 2 for an additional 30 min. After incubation, airway organoids were collected by centrifugation at 400 g for 5 min and re-embedded in Matrigel with the same airway organoid medium containing pseudotype SARS-CoV-2. At 72 h, organoids were harvested, and the luciferase activities were measured according to the manufacturer's instructions (E1501, Promega).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Pseudotype SARS-CoV-2 infection of human airway organoids"
+        },
+        {
+            "text": "Different concentrations of ACE2-Fc were mixed with 1.0 \u00d7 10 5 PFU of pseudotype SARS-CoV-2 for 60 min at 37\u00b0C in a final volume of 500 ll of airway organoid medium. The ACE2-Fc and virus mixtures were added to the Airway organoids following the procedures described in the Section on pseudotype SARS-CoV-2 infection. At 72 h, organoids were harvested, and the luciferase activities were measured according to the manufacturer's instructions (E1501, Promega).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Treatment of human airway organoids with ACE2-Fc"
+        },
+        {
+            "text": "Airway organoids were first washed with PBS and fixed with 4% paraformaldehyde for 20 min at room temperature. Next, the fixed airway organoids were processed and embedded in paraffin. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Histological analysis of human airway organoids"
+        },
+        {
+            "text": "Vero E6 cells were seeded into 24-well culture plates in DMEM with 10% FBS and antibiotics 1 day before infection. SARS-CoV-2 was incubated with antibodies for 1 h at 37\u00b0C before adding to the cell monolayer for another hour. Subsequently, virus-antibody mixtures were removed, and the cell monolayer was washed once with PBS before covering with media containing 1% methylcellulose for 5-7 days. The cells were fixed with 10% formaldehyde overnight. After removal of the overlay media, the cells were stained with 0.7% crystal violet, and the plaques were counted. The percentage of inhibition was calculated as [1 \u00c0 (VD/VC)] \u00d7 100%, where VD and VC refer to the virus titers in the presence and absence of the compound, respectively.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Plaque reduction assay"
+        },
+        {
+            "text": "Vero E6 cells were seeded into 24-well culture plates in DMEM with 10% FBS and antibiotics 1 day before infection. SARS-CoV-2 (multiplicity of infection, MOI = 1) was incubated with antibodies for 1 h at 37\u00b0C before adding to the cell monolayer for another hour. After removal of the virus inoculum, the cells were washed once with PBS and overlaid with 0.5 ml medium for 24 h at 37\u00b0C. The next day, the culture supernatants were harvested for RNA extraction, and the cells were retrieved for protein, RNA extraction, and immunofluorescence assays. The number of viruses in the supernatants and infected cells was determined by qPCR using the protocol provided by the WHO (https://virologie-ccm.charite.de/en). Quantitative PCR of the E gene was performed using the iTaq TM Universal Probes One-Step RT-PCR Kit (172-5140, Bio-Rad, USA) and Applied Biosystems 7500 Real-Time PCR software (version 7500SDS v1.5.1). A plasmid containing a partial E fragment was used as the standard to calculate the amount of viral load in the specimens. The percentage inhibition of virus yield was calculated as [1 \u00c0 (Vd/Vc)] \u00d7 100%, where Vd and Vc refer to the virus copies in the presence and absence of the test compound, respectively.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Yield reduction assay"
+        },
+        {
+            "text": "Human primary NK cells were thawed from cryogenic tubes and cultured in the NK MACS medium (Miltenyi Biotec) as described by the manufacturer's protocol. Forty-eight hours before the assay, NK cells were activated by 1,000 U/ml recombinant human IL-2 (Peprotech). To initiate cytotoxicity, 50,000 NK cells were incubated with H1975-Spike cells at a 1:1 cell ratio in a U-bottom 96-well plate in the presence of ACE2-Fc, ACE2, or control (Dulbecco's Phosphate-Buffered Saline (DPBS, Corning \u00e2 )). Two microliters of the antihuman CD107a antibody (BioLegend, H4A3) was mixed into each well. The plate was then centrifuged at 200 g for 5 min to facilitate the contact of NK cells and H1975-Spike cells. After 1 h of incubation at 37\u00b0C, Brefeldin A and Monensin mixtures (BioLegend) were added into each well, and the plate was incubated at 37\u00b0C for another 3 h. The cells were then fixed and permeabilized with Cyto-Fast Fix-Perm Buffer (BioLegend) and stained with anti-human IFNc (BioLegend, B27) and anti-human TNF-a (BioLegend, MAb11) according to the manufacturer's protocol. The stained cells were resuspended in flow cytometry buffer and analyzed by the Cyto-FLEX flow cytometer (Beckman Coulter).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ACE2-Fc mediated degranulation assay"
+        },
+        {
+            "text": "Sputum or throat swab specimens obtained from SARS-CoV-2infected patients were maintained in the viral-transport medium. The specimens were propagated in VeroE6 cells in DMEM supplemented with 2 lg/ml tosylsulfonyl phenylalantyl chloromethyl ketone (TPCK)-trypsin (Sigma-Aldrich). Culture supernatants were harvested when more than 70% of cells showed cytopathic effects. The full-length genomic sequences of the derived clinical isolates were determined and submitted, along with the patients' travel history and basic information, to the GISAID database. The virus strains used in this study include SARS-CoV-2/NTU03/TWN/human/2020 (Accession ID EPI_ISL_413592), SARS-CoV-2/NTU13/ TWN/human/2020 (Accession ID EPI_ISL_422415), SARS-CoV-2/ NTU14/TWN/human/2020 (Accession ID EPI_ISL_422416), SARS-CoV-2/NTU18/TWN/human/2020 (Accession ID EPI_ISL_447615), SARS-CoV-2/NTU25/TWN/human/2020 (Accession ID EPI_ISL_ 447619) and SARS-CoV-2/NTU27/TWN/human/2020 (Accession ID EPI_ISL_447621). The virus titers were determined by plaque assay (Su et al, 2008) for subsequent analysis. The study was approved by the NTUH Research Ethics Committee (202002002RIND), and the participants gave written informed consent.",
+            "cite_spans": [
+                {
+                    "start": 1035,
+                    "end": 1051,
+                    "text": "(Su et al, 2008)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "SARS-CoV-2 isolation"
+        },
+        {
+            "text": "Every figure legend contains information on the sample size, the statistical test used, and the P value. Data are expressed as the mean AE standard deviation (SD). An unpaired two-tailed Student's t-test was used for the comparison of continuous variables, with correction of unequal variances when appropriate. A P < 0.05 was considered statistically significant. *P < 0.05, **P < 0.01, ***P < 0.001. Exact P-values are indicated for main and EV figures in Appendix Table S1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 467,
+                    "end": 475,
+                    "text": "Table S1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "This study includes no data deposited in external repositories.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data availability"
+        },
+        {
+            "text": "Expanded View for this article is available online.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data availability"
+        },
+        {
+            "text": "ICE-like and CPP32-like proteases during Fas-mediated apoptosis. Nature 380: 723 -726",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data availability"
+        },
+        {
+            "text": "The paper explained",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data availability"
+        },
+        {
+            "text": "The COVID-19 pandemic has been causing devastating damage worldwide. To date, there are no effective strategies to combat SARS-CoV-2 infection. Here, we report the development of a humanized decoy antibody that can block viral entry and prevent SARS-CoV-2 infection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Problem"
+        },
+        {
+            "text": "We design a humanized decoy antibody (ACE2-FC fusion protein) that specifically binds to the SARS-CoV-2 Spike protein and blocks entry of six clinical isolates including the D614G variant strains with high infectivity, thus inhibiting SARS-CoV-2 infection of host cells. The preservation of the peptidase activity in the ACE2-Fc fusion protein was shown to reduce the angiotensin II-mediated cytokine cascade. This decoy antibody could also activate the degranulation of NK cells.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "The humanized decoy antibody may have great potential to develop as an effective therapeutic agent to prevent SARS-CoV-2 infection and suppress the subsequent inflammatory cascade.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Impact"
+        },
+        {
+            "text": "\u00aa 2020 The Authors EMBO Molecular Medicine 13: e12828 | 2021",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Impact"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Fc-fusion proteins: new developments and future perspectives",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Czajkowsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Shao",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Pleass",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "EMBO Mol Med",
+            "volume": "4",
+            "issn": "",
+            "pages": "1015--1028",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "SARS and MERS: recent insights into emerging coronaviruses",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "De Wit",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Van Doremalen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Falzarano",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Munster",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Nat Rev Microbiol",
+            "volume": "14",
+            "issn": "",
+            "pages": "523--534",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Sequential activation of",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Enari",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Talanian",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Nagata",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Angiotensin II, via AT1 and AT2 receptors and NF-kappaB pathway, regulates the inflammatory response in unilateral ureteral obstruction",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Esteban",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Lorenzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ruperez",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Suzuki",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mezzano",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Blanco",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kretzler",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Sugaya",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Egido",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ruiz-Ortega",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J Am Soc Nephrol",
+            "volume": "15",
+            "issn": "",
+            "pages": "1514--1529",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "SARS-CoV-2 receptor and regulator of the renin-angiotensin system: celebrating the 20th anniversary of the discovery of ACE2",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gheblawi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Viveiros",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Nguyen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Zhong",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Turner",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Raizada",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Grant",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Oudit",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "2",
+            "issn": "",
+            "pages": "1456--1474",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Evidence that TMPRSS2 activates the severe acute respiratory syndrome coronavirus spike protein for membrane fusion and reduces viral control by the humoral immune response",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Glowacka",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bertram",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Muller",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Allen",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Soilleux",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pfefferle",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Steffen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Tsegaye",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Gnirss",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Virol",
+            "volume": "85",
+            "issn": "",
+            "pages": "4122--4134",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Clinical characteristics of coronavirus disease 2019 in China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Ou",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Shan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Lei",
+                    "suffix": ""
+                },
+                {
+                    "first": "Dsc",
+                    "middle": [],
+                    "last": "Hui",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "",
+            "pages": "1708--1720",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Pharmacokinetics and pharmacodynamics of recombinant human angiotensin-converting enzyme 2 in healthy human subjects",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Haschke",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Schuster",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Poglitsch",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Loibner",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Salzberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bruggisser",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Penninger",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Krahenbuhl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Clin Pharmacokinet",
+            "volume": "52",
+            "issn": "",
+            "pages": "783--792",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "A potential therapeutic role for angiotensin-converting enzyme 2 in human pulmonary arterial hypertension",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Hemnes",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rathinasabapathy",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Austin",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Brittain",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Carrier",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Fessel",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Fike",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Fong",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Fortune",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Eur Respir J",
+            "volume": "51",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "COVID-19: a new virus, but a familiar receptor and cytokine release syndrome",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hirano",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Murakami",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Immunity",
+            "volume": "52",
+            "issn": "",
+            "pages": "731--733",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Small molecule T315 promotes casitas Blineage lymphoma-dependent degradation of epidermal growth factor receptor via Y1045 autophosphorylation",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kao",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Hsiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Salunke",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Su",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Am J Respir Crit Care Med",
+            "volume": "193",
+            "issn": "",
+            "pages": "753--766",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Gu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "497--506",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Angiotensin-converting enzyme 2 protects from severe acute lung failure",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Imai",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kuba",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Rao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Huan",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sarao",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Wada",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Leong-Poi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Nature",
+            "volume": "436",
+            "issn": "",
+            "pages": "112--116",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Antibody-dependent cellular cytotoxicity is associated with control of pandemic H1N1 influenza virus infection of macaques",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jegaskanda",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Weinfurter",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Friedrich",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kent",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Virol",
+            "volume": "87",
+            "issn": "",
+            "pages": "5512--5522",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Does COVID19 infect the brain? If so, smokers might be at a higher risk",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kabbani",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Olds",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Mol Pharmacol",
+            "volume": "97",
+            "issn": "",
+            "pages": "351--353",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Interactions of coronaviruses with ACE2, angiotensin II, and RAS inhibitors-lessons from available evidence and insights into COVID-19",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kai",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Hypertens Res",
+            "volume": "43",
+            "issn": "",
+            "pages": "648--654",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "A pilot clinical trial of recombinant human angiotensin-converting enzyme 2 in acute respiratory distress syndrome",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Benthin",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Zeno",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Albertson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Boyd",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Christie",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Hall",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Poirier",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ronco",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tidswell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Crit Care",
+            "volume": "21",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Angiotensin II up-regulates angiotensin I-converting enzyme (ACE), but down-regulates ACE2 via the AT1-ERK/p38 MAP kinase pathway",
+            "authors": [],
+            "year": null,
+            "venue": "Am J Pathol",
+            "volume": "172",
+            "issn": "",
+            "pages": "1174--1183",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Tracking changes in SARS-CoV-2 spike: evidence that D614G increases infectivity of the COVID-19 virus",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Korber",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Fischer",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gnanakaran",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yoon",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Theiler",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Abfalterer",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Hengartner",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Giorgi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bhattacharya",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Foley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell",
+            "volume": "182",
+            "issn": "",
+            "pages": "812--827",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Therapeutic strategies in an outbreak scenario to treat the novel coronavirus originating in Wuhan, China",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Kruse",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "A crucial role of angiotensin converting enzyme 2 (ACE2) in SARS coronavirus-induced lung injury",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kuba",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Imai",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Rao",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Huan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Nat Med",
+            "volume": "11",
+            "issn": "",
+            "pages": "875--879",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Structure of SARS coronavirus spike receptor-binding domain complexed with receptor",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Farzan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Harrison",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Science",
+            "volume": "309",
+            "issn": "",
+            "pages": "1864--1868",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "The impact of mutations in SARS-CoV-2 spike on viral infectivity and antigenicity",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Nie",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hao",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Nie",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell",
+            "volume": "182",
+            "issn": "",
+            "pages": "1284--1294",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Novel ACE2-Fc chimeric fusion provides longlasting hypertension control and organ protection in mouse models of systemic renin angiotensin system activation",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wysocki",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Souma",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Ramirez",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Wilsbacher",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Quaggin",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Batlle",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jin",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Kidney Int",
+            "volume": "94",
+            "issn": "",
+            "pages": "114--125",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Niu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "565--574",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "A qualitative and quantitative evaluation of the advancing quality pay-for-performance programme in the NHS North West",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Mcdonald",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Boaden",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Roland",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Kristensen",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Meacock",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Mason",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Turner",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sutton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Health Serv Deliv Res",
+            "volume": "3",
+            "issn": "",
+            "pages": "1--104",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "B38-CAP is a bacteriaderived ACE2-like enzyme that suppresses hypertension and cardiac dysfunction",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Minato",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Nirasawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Sato",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yamaguchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hoshizaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Inagaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Nakahara",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yoshihashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ozawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yokota",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Commun",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Inhibition of SARS-CoV-2 infections in engineered human tissues using clinical-grade soluble human ACE2",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Monteil",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kwon",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Prado",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hagelkruys",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Wimmer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Stahl",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Leopoldi",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Garreta",
+                    "suffix": ""
+                },
+                {
+                    "first": "Hurtado",
+                    "middle": [],
+                    "last": "Del Pozo",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Prosper",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell",
+            "volume": "181",
+            "issn": "",
+            "pages": "905--913",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Role of the ACE2/angiotensin 1-7 axis of the renin-angiotensin system in heart failure",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Patel",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Zhong",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Grant",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Oudit",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Circ Res",
+            "volume": "118",
+            "issn": "",
+            "pages": "1313--1326",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Cross-neutralization of SARS-CoV-2 by a human monoclonal SARS-CoV antibody",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Pinto",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Beltramello",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Walls",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Tortorici",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bianchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jaconi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Culap",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zatta",
+                    "suffix": ""
+                },
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Marco",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "583",
+            "issn": "",
+            "pages": "290--295",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Long-term expanding human airway organoids for disease modeling",
+            "authors": [],
+            "year": null,
+            "venue": "EMBO J",
+            "volume": "38",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Anti-HSV activity of digitoxin and its possible mechanisms",
+            "authors": [],
+            "year": null,
+            "venue": "Antiviral Res",
+            "volume": "79",
+            "issn": "",
+            "pages": "62--70",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "NK cells activated through antibody-dependent cell cytotoxicity and armed with degranulation/IFN-gamma production suppress antibody-dependent enhancement of dengue viral infection",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Williams",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Nagabhushana",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jani",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Defang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Morrison",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Sci Rep",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Angiotensin-Converting Enzyme 2 (ACE2) is a key modulator of the renin angiotensin system in health and disease",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Tikellis",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Thomas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Int J Pept",
+            "volume": "2012",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Structural insights into coronavirus entry",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Tortorici",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Veesler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Complementary strategies to understand virus structure and function, Jackman AM",
+            "volume": "105",
+            "issn": "",
+            "pages": "93--116",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Site-specific glycan analysis of the SARS-CoV-2 spike",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Watanabe",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Allen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wrapp",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mclellan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Crispin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "369",
+            "issn": "",
+            "pages": "330--333",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wrapp",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Corbett",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Goldsmith",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Hsieh",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Abiona",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Graham",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mclellan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "367",
+            "issn": "",
+            "pages": "1260--1263",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "ADCC study collaboration investigators, Stratov I et al (2013) Specific antibody-dependent cellular cytotoxicity responses associated with slow progression of HIV infection",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Wren",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Chung",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Isitman",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Kelleher",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Parsons",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Amin",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Cooper",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Immunology",
+            "volume": "138",
+            "issn": "",
+            "pages": "116--123",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Novel variants of angiotensin converting enzyme-2 of shorter molecular size to target the kidney renin angiotensin system",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wysocki",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Schulze",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Batlle",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Biomolecules",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Structural and Functional Analysis of the D614G SARS-CoV-2 Spike Protein Variant",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yurkovetskiy",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Pascal",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Tompkins-Tinch",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Nyalile",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Baum",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Diehl",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dauphin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Carbone",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell",
+            "volume": "183",
+            "issn": "",
+            "pages": "739--751",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Angiotensinconverting enzyme 2 (ACE2) as a SARS-CoV-2 receptor: molecular mechanisms and potential therapeutic target",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Penninger",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhong",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Slutsky",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Intensive Care Med",
+            "volume": "46",
+            "issn": "",
+            "pages": "586--590",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "\u00aa 2020 The Authors EMBO Molecular Medicine 13: e12828 | 2021",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "\u00aa 2020 The Authors EMBO Molecular Medicine 13: e12828 | 2021",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Inhibition of Spike-induced cell-cell fusion and syncytia formation by ACE2-Fc.A The schematic diagram for cell-cell fusion and syncytia formation. B HEK293 and H1975 cells were transduced with full-length ACE2 by lentivirus. Protein extracts were immunoblotted with the indicated antibodies. O/E represents overexpression. C GFP and full-length Spike cotransfected HEK293T cells were used as effector cells (293-S). HEK293/ACE2 (HEK293T-overexpressing ACE2) (left panel) or H1975/ACE2 (H1975-overexpressing ACE2) (right panel) cells were used as target cells. The 293-S cells were preincubated with normal human IgG or ACE2-Fc at 37\u00b0C for 1 h. After that, the mixtures were added to target cells for 4 h (cell-cell fusion) or 24 h (syncytia formation). The fluorescent areas were measured by inverted fluorescence microscopy and Metamorph software (Metamorphosis). Scale bars equal to 50 \u00b5m. The white arrows indicate the cell-cell fusion or syncytia formation. D The inhibition of cell-cell fusion and syncytia formation by ACE2-Fc in HEK293/ACE2 and H1975/ACE2 was determined with the formula described in the Materials and Methods section. Error bars represent the standard deviation (SD), n = 6. Statistical analysis was performed by unpaired two-tail t-test. **P < 0.01, ***P < 0.001. Molecular Medicine 13: e12828 | 2021 \u00aa 2020 The Authors",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Blockage of Spike-expressing pseudovirus entry into ACE2-expressing cells by ACE2-Fc.A ACE2-Fc blocked the entry of Spike-expressing pseudotyped lentivirus into HEK293T-ACE2 and H1975-ACE2 cells. The relative luciferase activities, normalized to the only virus group, represent the efficiency of virus entry. MOI: Multiplicity of infection. B-D Airway organoid model system. (B) Confocal microscopy images of the airway organoids. The green fluorescence represents the specific staining of indicated monoclonal antibodies and Alexa Fluor 488-conjugated secondary antibodies. DAPI was used as a nuclear counterstain. Hematoxylin and eosin (H&E) stain: hematoxylin stained the nuclei in blue color; eosin stained the cytoplasm in pink color. Scale bars equal to 20 \u00b5m. (C) Lung cancer A549 cells, human normal bronchial epithelial cells (HBEpc), and HBEpc-differentiated cells (airway organoids) were harvested for immunoblotting with the indicated antibodies. (D) Blockage of pseudovirus entry into airway organoids by ACE2-Fc. Mixtures of pseudotyped lentivirus with or without ACE2-Fc were cocultured with airway organoids for 72 h. The virus entry was determined by quantifying the luciferase activity in the cell lysates.Data information: Error bars represent the standard deviation (SD), n = 3. Statistical analysis was performed by unpaired two-tail t-test. *P < 0.05, **P < 0.01, ***P < 0.001. Experiments were performed at least three times with similar results.\u00aa 2020 The Authors EMBO Molecular Medicine 13:10 of 19 EMBO Molecular Medicine 13: e12828 | 2021 \u00aa 2020 The Authors",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "12 of 19 EMBO Molecular Medicine 13: e12828 | 2021 \u00aa 2020 The Authors",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Proposed model for the role of the decoy antibody ACE2-Fc in SARS-CoV-2 entry and infection.The decoy antibody (ACE2-Fc) not only reduces SARS-CoV-2 infection but also decreases TNF-a secretion and ADAM-17 phosphorylation mediated by angiotensin II. Ang II: angiotensin II; ARDS: acute respiratory distress syndrome; CatB/L: cathepsin B and L; PPRs: pattern recognition receptors; AMP: amplifier; STAT3: Signal transducer and activator of transcription 3; ATIR: angiotensin II type I receptor; ADAM17: a disintegrin and metalloprotease 17; TMPRSS2: transmembrane Serine Protease 2.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Effects of ACE2-Fc on NK cell degranulation.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Data information: NTD: N-terminal domain; RBD: receptor-binding domain; SD: connector domain; TM: transmembrane domain; CT: cytoplasmic tail; FP: fusion peptide. IB, immunoblotted with the indicated antibodies. GAPDH served as a loading control. Experiments were performed at least three times with similar results.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Then, the blocks were cut into 3-lm thick sections. For hematoxylin and eosin (H&E) staining, the sections were deparaffinized, rehydrated, stained with H&E, and examined using an Olympus BX51 Microscope with a DP73 Olympus Color camera. For immunofluorescence staining, the sections were deparaffinized, rehydrated, and subjected to antigen retrieval by treatment with 0.1% trypsin in PBS at 37\u00b0C for 30 min. Then, the sections were blocked with 5% bovine serum albumin in PBS at room temperature for 30 min. The sections were incubated with primary antibodies overnight at 4\u00b0C (anti-p63, ab124762, Abcam, 1:50; anti-SCGB1A1, sc-365992, Santa Cruz, 1:50; anti-acetylated a-tubulin, sc-23950, Santa Cruz, 1:50; anti-mucin 5AC, MS-145, Thermo Fisher Scientific, 1:50; anti-ACE2, ab108209, Abcam, 1:100; anti-TMPRSS2, sc-515727, Santa Cruz, 1:50), washed three times with PBS, incubated with secondary antibodies (Alexa Fluor 488 goat anti-rabbit, A11034, Thermo Fisher Scientific, 1:500; Alexa Fluor 488 goat anti-mouse, A11001, Thermo Fisher Scientific, 1:500) for 1 h at room temperature, washed three times with PBS, incubated with fluorophore-conjugated Phalloidin (Phalloidin-TRITC, P1951, Sigma-Aldrich, 1:200), washed three times with PBS, and mounted with prolonged Diamond antifade mountant with DAPI (P36962, Thermo Fisher Scientific). The sections were imaged on a Zeiss LSM 510 Meta Inverted confocal microscope and processed using Zeiss LSM Image Browser software.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors declare that they have no conflict of interest.For more information www.ibms.sinica.edu.tw/pan-chyr-yang/",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of interest"
+        }
+    ]
+}

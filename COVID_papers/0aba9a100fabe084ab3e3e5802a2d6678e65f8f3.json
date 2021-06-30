@@ -1,0 +1,3228 @@
+{
+    "paper_id": "0aba9a100fabe084ab3e3e5802a2d6678e65f8f3",
+    "metadata": {
+        "title": "Cell culture-based production of defective interfering influenza A virus particles in perfusion mode using an alternating tangential flow filtration system",
+        "authors": [
+            {
+                "first": "Marc",
+                "middle": [
+                    "D"
+                ],
+                "last": "Hein",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Otto-von-Guericke-University Magdeburg",
+                    "location": {
+                        "settlement": "Magdeburg",
+                        "country": "Germany"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Anshika",
+                "middle": [],
+                "last": "Chawla",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Maurizio",
+                "middle": [],
+                "last": "Cattaneo",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Sascha",
+                "middle": [
+                    "Y"
+                ],
+                "last": "Kupke",
+                "suffix": "",
+                "affiliation": {},
+                "email": "kupke@mpi-magdeburg.mpg.de"
+            },
+            {
+                "first": "Yvonne",
+                "middle": [],
+                "last": "Genzel",
+                "suffix": "",
+                "affiliation": {},
+                "email": "genzel@mpi-magdeburg.mpg.de"
+            },
+            {
+                "first": "Udo",
+                "middle": [],
+                "last": "Reichl",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Otto-von-Guericke-University Magdeburg",
+                    "location": {
+                        "settlement": "Magdeburg",
+                        "country": "Germany"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Respiratory diseases including influenza A virus (IAV) infections represent a major threat to human health. While the development of a vaccine requires a lot of time, a fast countermeasure could be the use of defective interfering particles (DIPs) for antiviral therapy. IAV DIPs are usually characterized by a large internal deletion in one viral RNA segment. Consequentially, DIPs can only propagate in presence of infectious standard viruses (STVs), compensating the missing gene function. Here, they interfere with and suppress the STV replication and might act \"universally\" against many IAV subtypes. We recently reported a production system for purely clonal DIPs utilizing genetically modified cells. In the present study, we established an automated perfusion process for production of a DIP, called DI244, using an alternating tangential flow filtration (ATF) system for cell retention. Viable cell concentrations and DIP titers more than 10-times higher than for a previously reported batch cultivation were observed. Further, we investigated a novel tubular cell retention device for its potential for continuous virus harvesting into the permeate. Very comparable performances to typically used hollow fiber membranes were found during the cell growth phase. During the virus replication phase the tubular membrane, in contrast to the hollow fiber membrane, allowed 100% of the produced virus particles to pass through. To our knowledge, this is the first time a continuous virus harvest was shown for a membrane-based perfusion process. Overall, the process established offers interesting possibilities for advanced process integration strategies for next-generation virus particle and virus vector manufacturing.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "2 Key points \uf0b7 An automated perfusion process for production of IAV DIPs was established \uf0b7 DIP titers of 7.40E+9 plaque forming units per mL were reached \uf0b7 A novel tubular cell retention device enabled continuous virus harvesting",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Infections with influenza A virus (IAV; list of abbreviations, Tab. 1) result worldwide in up to 650,000 deaths annually (Iuliano et al. 2018) . The potential of a pandemic is a constant threat, as IAV pandemics have led to millions of deaths in the past and highly infectious variants of this RNA virus can emerge at any time (Johnson and Mueller 2002; Taubenberger et al. 2000) . In case of such a pandemic situation, the use of antivirals could be crucial as a first line of defense to avoid a high number of deaths until a vaccine is available. Additionally, antivirals could be used to supplement vaccination during annual epidemics. Currently used antivirals against IAV include oseltamivir and zanamivir (Colman 2009; Oxford 2007; Smith et al. 2006) . However, resistances of some IAV strains against mentioned antivirals have already been reported (Han et al. 2018; Lackenby et al. 2018) clearly demonstrating the need for development of novel antiviral drugs, preferably with a broad efficacy spectrum.",
+            "cite_spans": [
+                {
+                    "start": 121,
+                    "end": 142,
+                    "text": "(Iuliano et al. 2018)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 327,
+                    "end": 353,
+                    "text": "(Johnson and Mueller 2002;",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 354,
+                    "end": 379,
+                    "text": "Taubenberger et al. 2000)",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 711,
+                    "end": 724,
+                    "text": "(Colman 2009;",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 725,
+                    "end": 737,
+                    "text": "Oxford 2007;",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 738,
+                    "end": 756,
+                    "text": "Smith et al. 2006)",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 856,
+                    "end": 873,
+                    "text": "(Han et al. 2018;",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 874,
+                    "end": 895,
+                    "text": "Lackenby et al. 2018)",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Discussion on such possible alternative antivirals was started when defective interfering particles (DIPs) were proposed for the use in antiviral therapy (Dimmock et al. 1986; Dimmock et al. 2008 ). DIPs are virus mutants occurring naturally during the error-prone replication of the viral genome (Lazzarini et al. 1981; Perrault 1981) . The majority of IAV DIPs is characterized by a large deletion in the open reading frame of one of their eight viral RNA (vRNA) segments (Nayak et al. 1985) . Thus, DIPs lack the genetic information necessary for the synthesis of the corresponding full-length protein (Huang and Baltimore 1970) . Consequentially, DIPs are unable to replicate, unless the missing protein is provided, for example by a co-infection with the standard virus (STV). In such a co-infection, DI vRNAs seem to replicate faster than the full-length equivalent and therefore outcompete the STV vRNA for limited cellular resources (Dimmock and Easton 2014; Laske et al. 2016; Nayak et al. 1985) . In addition, other mechanisms might also play a role in suppressing STV replication and spreading Scott et al. 2011) . Overall, this results in a drastic decrease in released infectious virus particles, as mainly non-infectious DIPs are produced (Frensing 2015; Tapia et al. 2019; Von Magnus 1951) . The DIP-induced inhibition of STV replication is causative for their antiviral potential, previously demonstrated in mice (Dimmock et al. 2008) . Additionally, the antiviral effect of IAV DIPs against influenza B, pneumovirus and SARS-CoV2 was shown, likely mediated by an unspecific stimulation of the innate immune response Rand et al. 2021; Scott et al. 2011) .",
+            "cite_spans": [
+                {
+                    "start": 154,
+                    "end": 175,
+                    "text": "(Dimmock et al. 1986;",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 176,
+                    "end": 195,
+                    "text": "Dimmock et al. 2008",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 297,
+                    "end": 320,
+                    "text": "(Lazzarini et al. 1981;",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 321,
+                    "end": 335,
+                    "text": "Perrault 1981)",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 474,
+                    "end": 493,
+                    "text": "(Nayak et al. 1985)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 605,
+                    "end": 631,
+                    "text": "(Huang and Baltimore 1970)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 941,
+                    "end": 966,
+                    "text": "(Dimmock and Easton 2014;",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 967,
+                    "end": 985,
+                    "text": "Laske et al. 2016;",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 986,
+                    "end": 1004,
+                    "text": "Nayak et al. 1985)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1105,
+                    "end": 1123,
+                    "text": "Scott et al. 2011)",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 1253,
+                    "end": 1268,
+                    "text": "(Frensing 2015;",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1269,
+                    "end": 1287,
+                    "text": "Tapia et al. 2019;",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 1288,
+                    "end": 1304,
+                    "text": "Von Magnus 1951)",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 1429,
+                    "end": 1450,
+                    "text": "(Dimmock et al. 2008)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1633,
+                    "end": 1650,
+                    "text": "Rand et al. 2021;",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 1651,
+                    "end": 1669,
+                    "text": "Scott et al. 2011)",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Early methods to produce IAV DIPs focused on egg-based manufacturing with STV co-infection (Dimmock et al. 2008) . Unfortunately, this resulted in a relatively high variability of the produced material (contamination with multiple other DIPs). Furthermore, it required the inactivation of the infectious STV after harvesting, for example by UV irradiation. This UV irradiation also inactivated parts of the produced DIPs and therefore decreased the antiviral potency of final preparations used in animal trials (Hein et al. 2021b ). To overcome this limitation, a method for production of purely clonal DIP populations, devoid of STV and other DIPs, was developed (Bdeir et al. 2019) . Here, adherent Madin-Darby canine kidney (MDCK) cells were genetically modified to express the polymerase basic protein 2 (PB2) encoded by IAV segment 1 (Seg1) vRNA. This allowed propagation of IAV DIPs with a deletion in Seg1. We recently reported the production of a prototypic Seg1 DIP, called DI244, utilizing a suspension MDCK cell line expressing PB2 (MDCK-PB2(sus)) and the evaluation of the produced DI244 in animal experiments (Hein et al. 2021a) . Here, all mice infected with an otherwise lethal dose of IAV survived the infection when treated with DI244. These experiments already clearly demonstrated the antiviral potential of these purely clonal DIPs. However, the DI244 material evaluated in this study was produced in shake flasks only and large DIP quantities were required. Consequentially, it was yet to be demonstrated that a scalable high-yield process could be implemented in a stirred tank bioreactor (STR).",
+            "cite_spans": [
+                {
+                    "start": 91,
+                    "end": 112,
+                    "text": "(Dimmock et al. 2008)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 511,
+                    "end": 529,
+                    "text": "(Hein et al. 2021b",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 664,
+                    "end": 683,
+                    "text": "(Bdeir et al. 2019)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 1122,
+                    "end": 1141,
+                    "text": "(Hein et al. 2021a)",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In the present study, we therefore propose process intensification strategies to further improve the cell culture-based production of IAV DIPs. First, a perfusion process to grow MDCK-PB2(sus) cells to high cell concentrations was established that utilized an alternating tangential flow filtration system (ATF) with a standard hollow fiber membrane (HFM, pore size of 0.2 \u00b5m). The perfusion rate was adjusted manually every 12 hours. In a next step, the perfusion rate was controlled based on cell concentration measurements using a capacitance probe. Sufficient substrate and low waste product levels were maintained and a cell concentration of 28.4E+06 cells/mL was reached, resulting in a DI244 titer of 7.40E+9 plaque forming units per mL (PFU/mL). Lastly, a tubular membrane called virus harvest unit (VHU) was used for continuous virus particle harvesting into the permeate during the perfusion process.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "MDCK-PB2(sus) cells were used for production of propagation incompetent DI244 as described previously (Hein et al. 2021a) . Briefly, MDCK cells adapted to growth in chemically defined Xeno\u2122 medium (Bissinger et al. 2019) were genetically modified by retroviral transduction to express the viral PB2, encoded by IAV Seg1 vRNA. The PB2 expression allowed propagation of pure DI244 particles, harboring a deletion in Seg1. Additionally, an adherent MDCK cell line expressing PB2 (Bdeir et al. 2019) , hereafter MDCK-PB2(adh), was used for DI244 quantification (see \"virus quantification assays\").",
+            "cite_spans": [
+                {
+                    "start": 102,
+                    "end": 121,
+                    "text": "(Hein et al. 2021a)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 197,
+                    "end": 220,
+                    "text": "(Bissinger et al. 2019)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 476,
+                    "end": 495,
+                    "text": "(Bdeir et al. 2019)",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Cells and viruses"
+        },
+        {
+            "text": "MDCK-PB2(sus) cells were maintained in a shake flask with 40 mL working volume (125 mL baffled polycarbonate Erlenmeyer flask, Thermo Fisher Scientific, 4116-0125) at 37\u00b0C, 5% CO2 and 185 rpm (Multitron Pro, Infors HT; 50 mm shaking orbit). Cells were passaged every 2-3 days. For DI244 production, MDCK-PB2(sus) cells were grown in a STR in perfusion mode (see \"perfusion cultivation of MDCK-PB2(sus) cells\"). The parental adherent MDCK cells (ECACC, No. 84121903) and the genetically modified MDCK-PB2(adh) were cultivated in Glasgow minimum essential medium (GMEM) containing 1% peptone and 10% fetal bovine serum at 37\u00b0C and 5% CO2. Viable cell concentration (VCC), cell viability, and cell diameter of suspension and adherent cells were determined using an automated cell counter (Vi-CELL XR, Beckman Coulter, 731050).",
+            "cite_spans": [
+                {
+                    "start": 444,
+                    "end": 465,
+                    "text": "(ECACC, No. 84121903)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Cells and viruses"
+        },
+        {
+            "text": "A pure DI244 seed virus was generated using an eight-plasmid DNA transfection system, as described previously (Bdeir et al. 2019) . For infection of MDCK-PB2(sus) cells, the amount of DIPs added per cell (multiplicity of DIP (MODIP)) was calculated based on the DI244 titer of the used seed virus (8.40E+07 PFU/mL). For STV infections of adherent MDCK cells (see \"interference assay\") the influenza virus A/Puerto Rico/8/34 (provided by the Robert Koch Institute, Germany; Amp. 3138) was used. The multiplicity of infection (MOI) was calculated based on the tissue culture infectious dose (TCID50) titer (Genzel and Reichl 2007) of the MDCK adapted seed virus (1.1E+9 TCID50/mL).",
+            "cite_spans": [
+                {
+                    "start": 110,
+                    "end": 129,
+                    "text": "(Bdeir et al. 2019)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 604,
+                    "end": 628,
+                    "text": "(Genzel and Reichl 2007)",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Cells and viruses"
+        },
+        {
+            "text": "The implementation of a perfusion process utilizing the Xeno\u2122 medium but a different MDCK cell line was reported previously (Wu et al. 2021 ). In the present study, the STR (DASGIP\u00ae Parallel Bioreactor System, Eppendorf AG, 76DG04CCBB, working volume 700 mL) used for DIP production was equipped with one inclined blade impeller (three blades, 30\u00b0 angle, 50 mm diameter) and two spargers (one macro-and one micro-sparger). The micro-sparger was only used for additional gassing, when the VCC increased to concentrations where gassing with the macro-sparger alone was not sufficient anymore to maintain a pO2 above 40%. Before inoculation, cells grown in shake flasks (as described before) were centrifuged (300\u00d7g, 5 min, room temperature) and the medium exchanged. The STR was inoculated with a VCC of 1.0E+6 cells/mL and operated at 37\u00b0C, pO2\u226540%, pH 7.5 and 150 rpm. Before perfusion was started, the bioreactor was operated for 24 h in batch mode.",
+            "cite_spans": [
+                {
+                    "start": 124,
+                    "end": 139,
+                    "text": "(Wu et al. 2021",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Perfusion cultivation of MDCK-PB2(sus) cells"
+        },
+        {
+            "text": "An alternating tangential flow filtration system (ATF 2, Repligen) was used for cell retention. The flow rate of the diaphragm pump was set to 0.9 L/min, other parameters of the ATF 2 controller were kept as given by the supplier. In this study, two different membranes were investigated. One was the commonly used polyethersulfone HFM (0.2 \u00b5m pore size, 470 cm 2 surface area, Spectrum Labs), the other one was the tubular VHU (~10 \u00b5m pore size, 60 cm 2 surface area, Artemis Biosystems). For the removal of cell free supernatant, a cross flow through the membrane (hereafter called permeate flow) was applied by the peristaltic pump.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Cell retention using an alternating tangential flow filtration system"
+        },
+        {
+            "text": "The feed of cultivation medium (Xeno\u2122 medium) was controlled by a scale under the STR to maintain a constant working volume. Therefore, the feed flow rate always equaled the permeate flow rate. The permeate flow rate was increased over the process time either manually or automatically to maintain a cell specific perfusion rate (CSPR) of approximately 200 pL/cell/day. For the manually adjusted perfusion rate, a perfusion profile was calculated based on the growth rate and metabolite consumption rates determined during the exponential phase of a previous batch cultivation (Hein et al. 2021a ). Here, the perfusion rate was increased stepwise every 12 hours. For the automated perfusion, a previously reported approach was used (Nikolay et al. 2018 ). Here, a multi-frequency capacitance probe connected to a controller (ArcView Controller 265, Hamilton) was utilized. The controller converted the measured capacity to a permittivity signal, which was correlated to the VCC in the STR (in the present study the permittivity signal was correlated to the viable cell volume (VCV) instead). The permittivity signal was forwarded to an analog 4 -20 mA output box (Hamilton), which then again was connected to the peristaltic pump (120 U, Watson-Marlow). The desired cell volume specific perfusion rate (CVSPR) was realized by adjusting the specific cell factor stored in the ArcView controller. In this study, a cell factor of 1.18 was used to achieve a CVSPR of 0.12 pL/\u00b5m 3 /d. This would equal a CSPR of 200 pL/cell/d, when a cell is assumed to be a perfect sphere with a diameter of 15 \u00b5m. This control regime could only be used prior to virus addition as the permittivity signal was drastically disturbed during the infection phase. Therefore, the perfusion rate was kept constant after infection. The overall set up including the devices for perfusion control is shown in Fig. 1 .",
+            "cite_spans": [
+                {
+                    "start": 577,
+                    "end": 595,
+                    "text": "(Hein et al. 2021a",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 732,
+                    "end": 752,
+                    "text": "(Nikolay et al. 2018",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1878,
+                    "end": 1884,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Control of the perfusion rate"
+        },
+        {
+            "text": "When the desired cell concentration of 20.0 -25.0E+6 cells/mL was reached, the seed virus was added. To improve virus replication, a complete medium exchange was performed prior to infection. This was realized by drastically increasing the perfusion rate manually. When a HFM was used, the perfusion rate was increased to 100 reactor volumes per day (RV/d) for the medium exchange. In contrast, for the VHU the perfusion rate was only increased to 15 RV/d. For higher perfusion rates, damage of the VHU was observed in previous perfusion cultivations (data not shown). After the medium exchange, the cultivation temperature was set to 32\u00b0C, as this was shown to have a positive impact on virus replication (Wu et al. 2021) . For infection, a pure DI244 seed virus at MODIP 1E-3 and 20 U/mL trypsin (5000 U/mL in PBS; 27250018, Gibco) were added. The perfusion rate was set to 0 RV/d for 1 h to allow for efficient virus entry into the cells. After this incubation time, perfusion was started again and the perfusion rate was kept constant at 2 -3 RV/d. The perfusion medium used after infection was Xeno\u2122 medium containing trypsin (20 U/mL) to maintain a constant trypsin activity in the STR to ensure cleavage of the IAV hemagglutinin protein to facilitate virus entry.",
+            "cite_spans": [
+                {
+                    "start": 706,
+                    "end": 722,
+                    "text": "(Wu et al. 2021)",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Infection of cells grown in a STR"
+        },
+        {
+            "text": "Samples were taken with a syringe via a sample port. Sampling was possible either from the cultivation vessel or from the tubing behind the cell retention membrane (permeate line). This allowed to measure and calculate the percentage of PFU and DI244 vRNA that passed through the cell retention membrane (Eq. 4) for each individual sampling time point. Part of the sample was used for VCC measurements (Vi-CELL XR, Beckman Coulter, 731050), the rest was centrifuged (3000g, 10 min, 4\u00b0C) and the supernatant was aliquoted and stored at -80\u00b0C for subsequent analysis in the interference assay, virus quantification assays or metabolite analysis (Bioprofile 100 plus analyzer, Nova Biomedical).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sampling of the STR"
+        },
+        {
+            "text": "The interfering efficacy of the produced DI224 was evaluated by a previously established assay (Hein et al. 2021a; Hein et al. 2021b ). Briefly, MDCK cells were co-infected with STV at MOI 10 or 0.01 and 125 \u00b5L of the produced DI244. As control, infections with \"STV only\" were carried out. Comparison of co-infections and the control infection allowed an assessment of the DI244-induced reduction of released virus particles. DI244 preparations resulting in a more pronounced titer reduction were considered to have a higher interfering efficacy. Addition of DI244 material with a fixed volume allowed evaluation of the interfering efficacy per product volume and therefore the identification of optimal production conditions.",
+            "cite_spans": [
+                {
+                    "start": 95,
+                    "end": 114,
+                    "text": "(Hein et al. 2021a;",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 115,
+                    "end": 132,
+                    "text": "Hein et al. 2021b",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Interference assay"
+        },
+        {
+            "text": "The total amount of IAV particles was quantified using a hemagglutination assay and was expressed as log10 hemagglutinin units/100 \u00b5L (log10 HA units/100 \u00b5L) (Kalbfuss et al. 2008 ). PFU were determined by a plaque assay, conducted as described previously (Hein et al. 2021a; Hein et al. 2021b; Kupke et al. 2020) . Here, for the quantification of released infectious virus particles in the interference assay, parental adherent MDCK cells were used, only allowing propagation of STVs. For quantification of DI244 in pure DIP preparations, MDCK-PB2(adh) cells were used. The virus titer or DI244 titer was expressed as PFU/mL. The relative standard deviation (RSD) of technical duplicates was \u2264 43.8%.",
+            "cite_spans": [
+                {
+                    "start": 158,
+                    "end": 179,
+                    "text": "(Kalbfuss et al. 2008",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 256,
+                    "end": 275,
+                    "text": "(Hein et al. 2021a;",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 276,
+                    "end": 294,
+                    "text": "Hein et al. 2021b;",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 295,
+                    "end": 313,
+                    "text": "Kupke et al. 2020)",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Virus quantification assays"
+        },
+        {
+            "text": "For quantification of genomic vRNA, a real-time reverse transcription qPCR (real-time RT-qPCR) was used. The vRNA in the cell culture supernatant was purified using a NucleoSpin\u00ae RNA virus kit (Macherey-Nagel, 740956) according to manufacturer\u00b4s instructions. The real-time RT-qPCR was conducted according to a previously reported method (Kawakami et al. 2011 ). This method allows for a gene-specific quantification of individual IAV vRNA segments. The adaptations made to the protocol as well as the procedure for standard generation, RT, real-time PCR and absolute quantification of vRNA levels have been reported previously Kupke et al. 2019) . For quantification of the shortened DI244 vRNA, an assay using specific primers binding across the junction region of the deletion was used (Wasik et al. 2018) . The RSD of technical quadruplicates was \u2264 52.5%.",
+            "cite_spans": [
+                {
+                    "start": 338,
+                    "end": 359,
+                    "text": "(Kawakami et al. 2011",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 628,
+                    "end": 646,
+                    "text": "Kupke et al. 2019)",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 789,
+                    "end": 808,
+                    "text": "(Wasik et al. 2018)",
+                    "ref_id": "BIBREF43"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Real-time reverse transcription qPCR"
+        },
+        {
+            "text": "Before the analysis of protein and DNA content in the produced material, samples were centrifuged (3000g, 10 min, 4\u00b0C) and stepwise micro-filtered (0.45 \u00b5m filtration followed by a 0.2 \u00b5m filtration). Protein content in produced DI244 material was determined by a Bradford assay (BioRad Laboratories, 500-0006). For the standard calibration curve bovine serum albumin (Sigma-Aldrich Chemie GmbH, A3912) was used. Double-stranded host cell DNA (dsDNA) was quantified by a Quant-iT PicoGreen assay (Life Technologies GmbH, P7581) as described previously (Opitz et al. 2007 ). The standard calibration curve was made using lambda DNA (Promega, D1501).",
+            "cite_spans": [
+                {
+                    "start": 552,
+                    "end": 570,
+                    "text": "(Opitz et al. 2007",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Protein and DNA analysis"
+        },
+        {
+            "text": "The total amount of produced DI244 particles for each cultivation was calculated using the plaque titers in the cultivation vessel and in the permeate bottle at time of harvest. Please note that Eq. 1 -4 can be easily modified to calculate the total RNA copies (Eq. 1), the vRNA copies per cell (Eq. 2), the overall vRNA level (Eq. 3), and the percentage of DI244 vRNA copies passing through the membrane (Eq. 4). Here, the measured vRNA level must be used instead of the plaque titer.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Calculations"
+        },
+        {
+            "text": "\u00d7 + \u00d7(1)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "="
+        },
+        {
+            "text": "We previously reported the batch production of pure DI244 particles in shake flasks for the use as an antiviral (Hein et al. 2021a ). To evaluate if process intensification strategies that are already used for non-modified MDCK suspension cells and IAV STV production (Wu et al. 2021 ) would be applicable, a manually adjusted perfusion process in a STR was implemented. For this cultivation, the perfusion rate was adjusted every 12 h, according to a pre-calculated profile. The profile was based on the cell growth rate and metabolite uptake rates observed in a previous batch cultivation (Fig. S1 ) (Hein et al. 2021a ).",
+            "cite_spans": [
+                {
+                    "start": 112,
+                    "end": 130,
+                    "text": "(Hein et al. 2021a",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 268,
+                    "end": 283,
+                    "text": "(Wu et al. 2021",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 602,
+                    "end": 620,
+                    "text": "(Hein et al. 2021a",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 591,
+                    "end": 599,
+                    "text": "(Fig. S1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Manually adjusted and automated perfusion cultivations resulted in high cell concentrations and IAV DIP titers"
+        },
+        {
+            "text": "In a next step, the perfusion rate was controlled using a capacitance probe. Here, the signal was correlated to the VCV in the STR. For the manually adjusted perfusion cultivation, an average CSPR of 200 pL/cell/d was realized, for the controlled perfusion cultivations a CVSPR of 0.12 pL/\u00b5m 3 /d was chosen. This would equal a CSPR of 200 pL/cell/d for cells with a diameter of 15 \u00b5m. One manually adjusted and three automated perfusion cultivations were performed in the STR. The manually adjusted and one automated perfusion cultivation were conducted with a commonly used HFM to compare against results obtained with non-modified MDCK suspension cells and IAV STR production (Wu et al. 2021) . For the following two automated perfusion cultivations, the VHU was evaluated as a new cell retention membrane to test options for direct harvesting of virus particles through the membrane.",
+            "cite_spans": [
+                {
+                    "start": 679,
+                    "end": 695,
+                    "text": "(Wu et al. 2021)",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Manually adjusted and automated perfusion cultivations resulted in high cell concentrations and IAV DIP titers"
+        },
+        {
+            "text": "Similar cell growth was observed for both perfusion strategies and both cell retention membranes reaching cell concentrations higher than 20E+6 cells/mL with viabilities above 95% (Fig. 2a) . Further, no membrane fouling or blocking of either membrane was observed, indicating that both membranes are equally suited for high cell density cultivations.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 180,
+                    "end": 189,
+                    "text": "(Fig. 2a)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Manually adjusted and automated perfusion cultivations resulted in high cell concentrations and IAV DIP titers"
+        },
+        {
+            "text": "The automated perfusion control was successfully implemented. The permittivity signal showed a linear correlation with the VCV in the STR (Fig. S2 ) and the perfusion rate automatically increased with increasing VCV (Fig. 2a-b) . For all four perfusion cultivations, the metabolite levels were very comparable and no substrate limitation or inhibition by waste products was observed until 72 h post inoculation ( Fig. 2c-f ). For the manually adjusted perfusion cultivation (HFM1), oxygen limitations were observed 84 h post inoculation (data not shown). To circumvent this in the subsequent automated perfusion cultivations, gassing with an additional micro-sparger was initiated 72 h post inoculation. This did not seem to have an impact on the cell metabolism when the HFM was used (Fig. 2cf ). Nevertheless, this cultivation showed a slightly lower overall growth rate perfectly reflected by the perfusion rates of the automated control. When the VHU was used, the additional sparging seemed to result in increased glucose uptake and lactate production together with a slight ammonia uptake instead of a release (Fig. 2c , e, f). Nevertheless, at this point, differences in cell growth compared to the manually adjusted cultivation seem to be negligible. Overall, for all four cultivations, up to 20E+6 cells/mL were achieved for subsequent DI244 production.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 138,
+                    "end": 146,
+                    "text": "(Fig. S2",
+                    "ref_id": null
+                },
+                {
+                    "start": 216,
+                    "end": 227,
+                    "text": "(Fig. 2a-b)",
+                    "ref_id": null
+                },
+                {
+                    "start": 413,
+                    "end": 422,
+                    "text": "Fig. 2c-f",
+                    "ref_id": null
+                },
+                {
+                    "start": 785,
+                    "end": 794,
+                    "text": "(Fig. 2cf",
+                    "ref_id": null
+                },
+                {
+                    "start": 1116,
+                    "end": 1124,
+                    "text": "(Fig. 2c",
+                    "ref_id": null
+                }
+            ],
+            "section": "Manually adjusted and automated perfusion cultivations resulted in high cell concentrations and IAV DIP titers"
+        },
+        {
+            "text": "Next, the cell retention membranes were compared for their ability to allow for harvesting virus particles into the permeate. Here, cells were infected when the VCC reached concentrations above 20.0E+06 cells/mL (or 25.0E+06 cells/mL for HFM2). Maintaining a constant pH value for cultivation HFM2 at cell concentrations up to 26.8E+6 cells/mL required addition of large amounts of base (7.5% NaHCO3 solution). Therefore, it was decided to infect subsequent cultivations (VHU1 and VHU2) before the VCC surpassed 25.0E+6 cells/mL. Before infection of cells with a pure DI244 seed virus at MODIP 1E-3, the medium was fully exchanged, the temperature reduced from 37\u00b0C to 32\u00b0C and trypsin added to 20 U/mL. The permeate flow was paused for one hour post infection to avoid loss of trypsin and virus particles into the permeate and to allow for an efficient cell entry of the DIPs. During the virus replication phase, cultivation medium containing 20 U/mL trypsin was used and the perfusion rate was kept constant at 2-3 RV/d.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Perfusion cultivations with the VHU allowed continuous harvesting of influenza A virus DIPs"
+        },
+        {
+            "text": "For all four perfusions, cells continued to grow for the first 6-12 hours post infection (hpi) and reached VCC up to 28.4E+6 cells/mL (Fig. 3a) . Afterwards, viability and VCC started to decline. HA titers (Fig. 3b) , vRNA levels (Fig. 3c) , and PFU titers (Fig. 3d) all reached their respective maximum at about 36 hpi. The maximum plaque titer was 7.4E+9 PFU/mL and the maximum DI244 vRNA level was 5.9E+11 copies/mL, both being more than 10-times higher than for a batch production process infected at a VCC of 2.0E+06 cells/mL described before (Hein et al. 2021a) . In contrast to previous findings (Genzel et al. 2010; Hein et al. 2021a) , no decrease in the plaque titer was observed after the respective maximum was reached. The increased virus stability could be explained by the reduced cultivation temperature of 32\u00b0C during the virus replication phase and was confirmed by small scale experiments (Fig. S3 ).",
+            "cite_spans": [
+                {
+                    "start": 548,
+                    "end": 567,
+                    "text": "(Hein et al. 2021a)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 603,
+                    "end": 623,
+                    "text": "(Genzel et al. 2010;",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 624,
+                    "end": 642,
+                    "text": "Hein et al. 2021a)",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 134,
+                    "end": 143,
+                    "text": "(Fig. 3a)",
+                    "ref_id": null
+                },
+                {
+                    "start": 206,
+                    "end": 215,
+                    "text": "(Fig. 3b)",
+                    "ref_id": null
+                },
+                {
+                    "start": 230,
+                    "end": 239,
+                    "text": "(Fig. 3c)",
+                    "ref_id": null
+                },
+                {
+                    "start": 257,
+                    "end": 266,
+                    "text": "(Fig. 3d)",
+                    "ref_id": null
+                },
+                {
+                    "start": 908,
+                    "end": 916,
+                    "text": "(Fig. S3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Perfusion cultivations with the VHU allowed continuous harvesting of influenza A virus DIPs"
+        },
+        {
+            "text": "Additionally to the virus titers of the cultivation vessel, titers in the permeate line were determined ( Fig. 3b-d) . For the used HFM it is well established that virus particles of about 40-100 nm in diameter cannot pass through the membrane (Nikolay et al. 2020) . Samples taken shortly before harvesting confirmed this, since only residual virus amounts could be detected in the permeate line (Fig. 3e) . However when the VHU was used, the virus titer in the cultivation vessel always equaled the virus titer in the permeate line (Fig. 3b-e) . Here, the percentage of PFU and DI244 vRNA passing through the membrane was calculated as about 100% for each sampling time point (Eq. 4; Tab. 2). Both values were more or less stable over the cultivation time, which indicates that no filter fouling or blocking occurred even at later process times where high amounts of cell debris were present in the culture broth. This clearly shows the potential of the VHU for continuous virus harvesting during a perfusion cultivation.",
+            "cite_spans": [
+                {
+                    "start": 244,
+                    "end": 265,
+                    "text": "(Nikolay et al. 2020)",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 106,
+                    "end": 116,
+                    "text": "Fig. 3b-d)",
+                    "ref_id": null
+                },
+                {
+                    "start": 397,
+                    "end": 406,
+                    "text": "(Fig. 3e)",
+                    "ref_id": null
+                },
+                {
+                    "start": 534,
+                    "end": 545,
+                    "text": "(Fig. 3b-e)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Perfusion cultivations with the VHU allowed continuous harvesting of influenza A virus DIPs"
+        },
+        {
+            "text": "For perfusion cultivations with the VHU, virus particles were diluted as they also passed on to the permeate. Therefore, the achieved virus titers were lower ( Fig. 3b-d) . For a more detailed comparison of the tested cell retention membranes, the overall process yield, the total amount of virus particles, and the virus yields were calculated (Tab. 2). The total amount of DI244 particles, the total amount of DI244 vRNA, PFU per cell, and the vRNA per cell were similar using either membrane. Although the average values of perfusion cultivations using the VHU were a bit higher, the differences were not significant, given the relatively high standard deviation of the virus quantification assays.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 160,
+                    "end": 170,
+                    "text": "Fig. 3b-d)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Perfusion cultivations with the VHU allowed continuous harvesting of influenza A virus DIPs"
+        },
+        {
+            "text": "Finally, DI244 material produced in a perfusion process (HFM1) and harvested at 48 hpi was tested in an interference assay to verify its antiviral potential compared to material produced previously in a batch cultivation (Hein et al. 2021a) (Fig. 3f ). In the interference assay, co-infections of STV (MOI 10 or 0.01) and produced DIP material (fixed volume) were carried out. DIP material resulting in a more pronounced titer reduction is considered to have a higher interfering potency. As the DI244 titer was more than 10-times higher for material produced in the perfusion cultivation, a higher interfering potency was expected. Indeed, the DI244 material produced in a perfusion cultivation reduced the plaque titer by almost one order of magnitude more than material produced in a batch cultivation. For the HA titer a similar trend could be observed when STV was added at a MOI of 10, but not for STV MOI 0.01. Here, it should be considered that DI244 particles themselves express HA and contribute to the HA titer. Overall, the results of the interference assay clearly demonstrate that DI244 produced in a perfusion cultivation has a high interfering efficacy and should be suited for antiviral therapy.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 241,
+                    "end": 249,
+                    "text": "(Fig. 3f",
+                    "ref_id": null
+                }
+            ],
+            "section": "Perfusion cultivations with the VHU allowed continuous harvesting of influenza A virus DIPs"
+        },
+        {
+            "text": "Continuous harvesting of virus particles during a perfusion process theoretically allows the implementation of process integration strategies, where the harvested material can be directly transferred into subsequent downstream processing units without hold times. However, besides virus particles, the cultivation broth contains intact cells, cell debris, and host cell proteins as well as host cell DNA released with cell lysis. The amount of these contaminations that are able to pass through the membrane could have severe implications regarding the performance of downstream processing. Therefore, the protein and dsDNA contamination level in the produced virus material was determined.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Retention of proteins and dsDNA depends on the cell retention device"
+        },
+        {
+            "text": "For the perfusion with the HFM2, only the cultivation vessel contained virus particles and was harvested (700 mL). For the perfusion with the VHU, the permeate also contained virus particles and was harvested additionally. Consequentially, the harvest volume was much higher (3644 mL). First, the protein and dsDNA concentration in the virus containing harvest was measured. The VHU appeared to not retain any contaminations, as the protein and dsDNA concentration in the cultivation vessel and in the permeate were more or less the same (Fig. 4a) . Since proteins and dsDNA were heavily diluted over the time of the cultivation when the VHU was used, their contamination level was very low. In strong contrast, the HFM withhold most proteins and dsDNA and much higher levels were observed. The drastically reduced host cell protein retention of the VHU might also indicate advantages over the HFM for continuous harvesting of recombinant proteins.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 538,
+                    "end": 547,
+                    "text": "(Fig. 4a)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Retention of proteins and dsDNA depends on the cell retention device"
+        },
+        {
+            "text": "Considering the respective harvest volumes, the total amount of proteins and dsDNA were calculated (Fig. 4b) . The HFM appeared to retain the entire dsDNA, since the total amount of dsDNA found in the cultivation vessel equaled the amount determined for the VHU in the total virus harvest volume (cultivation vessel and collected permeate). In contrast, the HFM appeared to only partly withhold proteins and the total amount of proteins contaminating the virus harvest was much lower.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 99,
+                    "end": 108,
+                    "text": "(Fig. 4b)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Retention of proteins and dsDNA depends on the cell retention device"
+        },
+        {
+            "text": "The metabolite uptake rates of MDCK-PB2(sus) cells grown in perfusion cultivations were very comparable to those reported previously for batch cultivations and to data obtained for the parental suspension cell line (descendent from a MDCK cell line originally obtained from ECACC) (Hein et al. 2021a) . Therefore, expression of PB2 itself did not seem to significantly influence cell metabolism or cell growth. However, uptake rates are relatively high and consequentially a high CSPR of 200 pL/cell/day was needed for perfusion cultivations. For comparison, when a perfusion process with the same medium but a different MDCK cell line (descendent from a MDCK cell line originally obtained from ATCC) was established, a lower CSPR from 60 pL/cell/day was sufficient (Wu et al. 2021) . Furthermore, no oxygen limitations were observed in cultivations with the latter and the optimal pH value for cell growth was much lower (pH 7.5 for MDCK-PB2(sus) and its parental cell line (ECACC); pH 7.0 for MDCK cells obtained from ATCC). Previous studies compared the cell growth and virus yield of MDCK cells obtained either from ECACC or ATCC grown in Xeno\u2122 medium (Bissinger 2020) . Here, faster cell growth, higher maximum VCC and a higher PFU per cell were observed for MDCK cells obtained from ATCC. Therefore, for further improving process performance, it would be an option to genetically modify MDCK cells from ATCC to express the viral PB2 and evaluate growth and productivity at high cell concentrations.",
+            "cite_spans": [
+                {
+                    "start": 281,
+                    "end": 300,
+                    "text": "(Hein et al. 2021a)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 766,
+                    "end": 782,
+                    "text": "(Wu et al. 2021)",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 1156,
+                    "end": 1172,
+                    "text": "(Bissinger 2020)",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "MDCK-PB2(sus) cells can be used for high cell density cultivations"
+        },
+        {
+            "text": "Nevertheless, perfusion control using a capacitance probe for cell growth monitoring was sufficient to maintain high substrate and low waste product levels over the cultivation time. The automation could allow for a robust process control for even higher cell concentrations, as already shown for other cell lines (Nikolay et al. 2018 ). In the present study, a maximum concentration of 28.4E+06 cells/mL was reached. Here, it should be possible to achieve even higher VCC with further optimization of the pH and DO control. With the current control regime both parameters were hard to maintain at high cell concentrations and it was decided for subsequent cultivations to infect the cells, before the VCC exceeded 25.0E+6 cells/mL. To overcome oxygen limitations observed for the manual perfusion cultivation, aeration with an additional micro-sparger was started 72 hours post inoculation for the automated perfusion cultivations. Here, increased glucose uptake and lactate production was observed, when the VHU was used. The increased lactate formation might indicate increased cell stress. For example, it was reported that cells exposed to shear stress show an increased lactate dehydrogenase activity (Shiragami and Unno 1994) . One possible explanation for the observed change in metabolism could be that the tubular VHU membrane caused higher shear stress than the HFM, in particular, when combined with a micro-sparger. This could have implications on the maximum achievable VCC and will be further investigated in future studies in our lab.",
+            "cite_spans": [
+                {
+                    "start": 314,
+                    "end": 334,
+                    "text": "(Nikolay et al. 2018",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 1207,
+                    "end": 1232,
+                    "text": "(Shiragami and Unno 1994)",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "ref_spans": [],
+            "section": "MDCK-PB2(sus) cells can be used for high cell density cultivations"
+        },
+        {
+            "text": "In summary, MDCK-PB2(sus) cells showed great potential for the design of high cell density processes to achieve very high DI244 titers. Further improvements of the cell line and process control could allow for even higher cell concentrations and virus titers.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MDCK-PB2(sus) cells can be used for high cell density cultivations"
+        },
+        {
+            "text": "Previous studies investigated different HFMs for their potential to allow continuous virus harvesting (Genzel et al. 2014; Nikolay et al. 2020) . However, almost all tested membranes completely retained the produced virus particles, despite the nominal pore size reported was much larger than the virus diameter. It was concluded that the membrane material and with this, its inner surface and structure, porosity, and hollow fiber wall thickness largely influence the retention of virus particles. In the present study, these findings were confirmed for a commonly used HFM (nominal pore size 0.2 \u00b5m) that retained most IAV DIPs (approximate diameter 80-120 nm). In strong contrast, the use of the VHU allowed approximately 100% of the produced IAV DIPs to pass through the membrane into the permeate. To our knowledge, this is the first time that continuous virus harvesting through a membrane with a high yield was demonstrated for perfusion cultivations. This is especially remarkable since IAV is a lytic virus and, therefore, large amounts of cell debris accumulate towards the end of cultivations. In particular, no filter fouling or blocking was observed as the percentage of PFU and DI244 vRNA passing through the membrane remained unchanged over the entire virus production phase. Furthermore, the VHU did not retain host cell proteins in contrast to the used HFM. This might also indicate an advantage over conventional HFM for production and harvest of recombinant proteins (e.g. monoclonal antibodies).",
+            "cite_spans": [
+                {
+                    "start": 102,
+                    "end": 122,
+                    "text": "(Genzel et al. 2014;",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 123,
+                    "end": 143,
+                    "text": "Nikolay et al. 2020)",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Virus harvest units allow for continuous virus harvesting"
+        },
+        {
+            "text": "Besides membrane-based cell retention devices there also exist other systems. The potential of two of these systems (acoustic settler and inclined settler) for continuous virus harvesting was described recently for IAV and MVA production Granicher et al. 2020; Granicher et al. 2021) . Choosing one of these systems will depend on many parameters and a detailed comparison of pros and cons can be found elsewhere (Chotteau 2015) . In our case, the operation of an ATF system seems to have advantages as system cooling or complex pumping strategies are not required. Further, it was described that the mentioned alternative cell retention systems do not allow for complete cell retention and some cells are lost over the course of cultivations. Additionally, their separation principles rely on cell settling and therefore longer recirculation times were observed (Chotteau 2015; Coronel et al. 2020; Granicher et al. 2020 ). In the present study, no cells could be detected in the permeate line of the VHU (data not shown) and the cells only spent a few seconds outside the STR during each pumping cycle of the ATF system. Finally, both the acoustic and the inclined settler do not offer the possibility to retain virus particles. With the ATF system it is now possible to retain or continuously harvest the produced virus particles depending on the membrane chosen for cultivation. In summary, the VHU allows the set-up of a continuous virus harvesting strategy in already established ATF perfusion cultivations only by substituting the used cell retention membrane.",
+            "cite_spans": [
+                {
+                    "start": 238,
+                    "end": 260,
+                    "text": "Granicher et al. 2020;",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 261,
+                    "end": 283,
+                    "text": "Granicher et al. 2021)",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 413,
+                    "end": 428,
+                    "text": "(Chotteau 2015)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 863,
+                    "end": 878,
+                    "text": "(Chotteau 2015;",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 879,
+                    "end": 899,
+                    "text": "Coronel et al. 2020;",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 900,
+                    "end": 921,
+                    "text": "Granicher et al. 2020",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Continuous virus harvesting with non-membrane-based perfusion systems compared to the membrane-based perfusion cultivation using the VHU"
+        },
+        {
+            "text": "The potential of IAV DIPs, and DI244 in particular, as an antiviral was already shown in vivo (Dimmock et al. 2008 ). Yet, the material investigated in those studies was produced in eggs. We recently also demonstrated the antiviral potential of purely clonal cell culture-based produced DI244 in vivo (Hein et al. 2021a) . Here, 100% of mice infected with an otherwise lethal IAV infection survived when treated with the produced DI244. However, relatively large amounts of DI244 (1.5E+6 PFU per mouse) were administered. Therefore, it was important to establish a production process that could supply the needed quantities. The average amount of produced DI244 for the four perfusion cultivations with a working volume of 700 mL was 1.25E+12 PFU. This would be enough to treat millions of mice. While the dose for humans is currently unknown, it seems very likely that even a small scale perfusion process could be used to generate a high number of DI244 doses for human use. Overall, this provides further support for the feasibility of cell culture-based production of DIPs for antiviral treatment.",
+            "cite_spans": [
+                {
+                    "start": 94,
+                    "end": 114,
+                    "text": "(Dimmock et al. 2008",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 301,
+                    "end": 320,
+                    "text": "(Hein et al. 2021a)",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Influenza A virus DIPs harvested from a perfusion process show potential for future production of antivirals"
+        },
+        {
+            "text": "In this study, we established an automated perfusion process for the production of purely clonal IAV DIPs using a cell culture-based production platform. To our knowledge, this is the first time pure DIP preparations have been produced in perfusion mode. The very high DIP titers obtained clearly demonstrate the feasibility of cell culture-based DIP production for antiviral therapy. Using a VHU as a membrane-based cell retention device allowed continuous virus harvesting during the perfusion cultivation. As far as we are aware, this is the first time that this process option was described. It opens up new possibilities for process integration not only for virus production but equally for recombinant protein production in perfusion mode. Table 2 Overview of process parameters, virus titers and calculated yields for influenza A virus DIPs produced in a 1 L stirred tank bioreactor coupled to an alternating tangential flow filtration system (ATF 2). Perfusion rates for cultivations with MDCK-PB2(sus) cells were either adjusted manually or controlled using a capacitance probe for cell growth monitoring. As cell retention device a commonly used hollow fiber membrane (pore size of 0.2 \u00b5m; HFM1 and HFM2) or a virus harvest unit (pore size of ~10 \u00b5m; VHU1 and VHU2) was used. All cultures were harvested at 48 hpi. For the ratio PFU/vRNA per cell, the error based on the relative standard deviation of the assay is given. For the percentage of PFU/vRNA passing through the membrane the average of the whole virus replication phase is given with the corresponding standard deviation. Percentages of PFU/vRNA passing through the membrane higher than 100% were calculated when the measured titer in the permeate line was higher than in the STR at the same sample point. This should theoretically not be possible and can be attributed to the high standard deviation of virus quantification assays. For cell retention, an alternating tangential flow filtration system (ATF 2, Repligen) was utilized. A capacitance probe was used for online monitoring of the viable cell volume. The signal was converted by the ArcView and analog box to control a peristaltic pump and thus the perfusion rate. Here, a cell volume specific perfusion rate of 0.12 pL/\u00b5m 3 /d, corresponding to a cell specific perfusion rate of 200 pL/cell/d, was realized. Depending on the membrane used for cell retention, virus particles accumulate either exclusively in the cultivation vessel or additionally in the permeate. Black lines indicate tubes, red dashed lines indicate different types of signal transmission.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 746,
+                    "end": 753,
+                    "text": "Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Conclusion"
+        },
+        {
+            "text": "L stirred tank bioreactor coupled to an alternating tangential flow filtration system (ATF 2). The first perfusion cultivation was adjusted manually (HFM1), the remaining cultivations were controlled based on cell volume monitoring using a capacitance probe (Fig. S2 ). For the automated perfusion cultivations, gassing with an additional micro-sparger was initiated 72 hours post inoculation (indicated by vertical dashed line). As cell retention device a commonly used hollow fiber membrane (pore size of 0.2 \u00b5m; HFM1 and HFM2) or the virus harvest unit (pore size of ~10 \u00b5m; VHU1 and VHU2) was used. (a) Viable cell concentration and viability, (b) perfusion rate (determined by the permeate weight), (c) glucose concentration, (d) glutamine concentration, (e) lactate concentration, (f) ammonia concentration.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 258,
+                    "end": 266,
+                    "text": "(Fig. S2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Fig. 2 Cell growth and metabolite concentrations of MDCK-PB2(sus) cells cultivated in a 1"
+        },
+        {
+            "text": "tank bioreactor coupled to an alternating tangential flow filtration system (ATF 2). The perfusion rate of one cultivation was adjusted manually (HFM1), the remaining cultivations were controlled using a capacitance probe for cell growth monitoring. As cell retention devices a commonly used hollow fiber membrane (pore size of 0.2 \u00b5m; HFM1 and HFM2) or a virus harvest unit (pore size of ~10 \u00b5m; VHU1 and VHU2) was used. MDCK-PB2(sus) cells were infected at a (Hein et al. 2021a) or medium as negative control (NC) was tested.",
+            "cite_spans": [
+                {
+                    "start": 461,
+                    "end": 480,
+                    "text": "(Hein et al. 2021a)",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Fig. 3 Influenza A virus DIP production with MDCK-PB2(sus) cells cultivated in a 1 L stirred"
+        },
+        {
+            "text": "DIPs produced in 1 L stirred tank bioreactors coupled to an alternating tangential flow filtration system (ATF 2). The harvest (48 hpi) of two perfusion cultivations using either a commonly used hollow fiber membrane (pore size of 0.2 \u00b5m; HFM2) or a virus harvest unit (pore size of ~10 \u00b5m; VHU1) were analyzed for their (a) protein and dsDNA concentration. For HFM2, only the cultivation vessel (700 mL) was harvested; for VHU1, the cultivation vessel (STR; 700 mL) and the permeate (Perm; 2944 mL) were harvested. (b) total amount of protein and dsDNA based on the respective harvest volume.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Fig. 4 Protein and dsDNA contamination in the virus containing harvest of influenza A virus"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A system for production of defective interfering particles in the absence of infectious influenza A virus",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Bdeir",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Arora",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gartner",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hoffmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Reichl",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pohlmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Winkler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "PLoS One",
+            "volume": "14",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0212757"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Evaluation of MDCK suspension cell lines for influenza A virus production : media, metabolism",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bissinger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Semi-perfusion cultures of suspension MDCK cells enable high cell concentrations and efficient influenza A virus production",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bissinger",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Fritsch",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mihut",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Genzel",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Reichl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Vaccine",
+            "volume": "37",
+            "issn": "47",
+            "pages": "7003--7010",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.vaccine.2019.04.054"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Perfusion Processes",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Chotteau",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Animal Cell Culture",
+            "volume": "9",
+            "issn": "",
+            "pages": "407--443",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "New antivirals and drug resistance",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Colman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Annu Rev Biochem",
+            "volume": "78",
+            "issn": "",
+            "pages": "95--118",
+            "other_ids": {
+                "DOI": [
+                    "10.1146/annurev.biochem.78.082207.084029"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Application of an Inclined Settler for Cell Culture-Based Influenza A Virus Production in Perfusion Mode",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Coronel",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Granicher",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Sandig",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Noll",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Genzel",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Reichl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Front Bioeng Biotechnol",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fbioe.2020.00672"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Protection of mice from lethal influenza: evidence that defective interfering virus modulates the immune response and not virus multiplication",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Dimmock",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Beck",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Mclain",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "J Gen Virol",
+            "volume": "67",
+            "issn": "",
+            "pages": "839--50",
+            "other_ids": {
+                "DOI": [
+                    "10.1099/0022-1317-67-5-839"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Defective interfering influenza virus RNAs: time to reevaluate their clinical potential as broad-spectrum antivirals?",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Dimmock",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Easton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J Virol",
+            "volume": "88",
+            "issn": "10",
+            "pages": "5217--5244",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.03193-13"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Influenza virus protecting RNA: an effective prophylactic and therapeutic antiviral",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Dimmock",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Rainsford",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Scott",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Marriott",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "J Virol",
+            "volume": "82",
+            "issn": "17",
+            "pages": "8570--8578",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.00743-08"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "A novel broadspectrum treatment for respiratory virus infections: influenza-based defective interfering virus provides protection against pneumovirus infection in vivo",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Easton",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Scott",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Edworthy",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Meng",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Marriott",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Dimmock",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Vaccine",
+            "volume": "29",
+            "issn": "15",
+            "pages": "2777--84",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.vaccine.2011.01.102"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Defective interfering viruses and their impact on vaccines and viral vectors",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Frensing",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Biotechnol J",
+            "volume": "10",
+            "issn": "5",
+            "pages": "681--690",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/biot.201400429"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Influenza virus intracellular replication dynamics, release kinetics, and particle morphology during propagation in MDCK cells",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Frensing",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Kupke",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bachmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Fritzsche",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Gallo-Ramirez",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Reichl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Appl Microbiol Biotechnol",
+            "volume": "100",
+            "issn": "16",
+            "pages": "7181--92",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00253-016-7542-4"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "MDCK and Vero cells for influenza virus vaccine production: a one-to-one comparison up to lab-scale bioreactor cultivation",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Genzel",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Dietzsch",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Rapp",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Schwarzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Reichl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Appl Microbiol Biotechnol",
+            "volume": "88",
+            "issn": "2",
+            "pages": "461--75",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00253-010-2742-9"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Vaccine Production. In: P\u00f6rtner R (ed) Animal Cell Biotechnology: Methods and Protocols",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Genzel",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Reichl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "457--473",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "High cell density cultivations by alternating tangential flow (ATF) perfusion for influenza A virus production using suspension cells",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Genzel",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Vogel",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Buck",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Behrendt",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Ramirez",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Schiedner",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Jordan",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Reichl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Vaccine",
+            "volume": "32",
+            "issn": "24",
+            "pages": "2770--81",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.vaccine.2014.02.016"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Performance of an acoustic settler versus a hollow fiber-based ATF technology for influenza virus production in perfusion",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Granicher",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Coronel",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Trampler",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Jordan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Genzel",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Reichl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Appl Microbiol Biotechnol",
+            "volume": "104",
+            "issn": "11",
+            "pages": "4877--4888",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00253-020-10596-x"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Production of Modified Vaccinia Ankara Virus by Intensified Cell Cultures: A Comparison of Platform Technologies for Viral Vector Production",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Granicher",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Tapia",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Behrendt",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Jordan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Genzel",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Reichl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Biotechnol J",
+            "volume": "16",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/biot.202000024"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Influenza Virus: Small Molecule Therapeutics and Mechanisms of Antiviral Resistance",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Perez",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Schafer",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Peet",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Rong",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Manicassamy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Curr Med Chem",
+            "volume": "25",
+            "issn": "38",
+            "pages": "5115--5127",
+            "other_ids": {
+                "DOI": [
+                    "10.2174/0929867324666170920165926"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Cell culture-based production and in vivo characterization of purely clonal defective interfering influenza virus particles",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Hein",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Arora",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Marichal-Gallardo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Winkler",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Genzel",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pohlmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Schughart",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Kupke",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Reichl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "BMC Biol",
+            "volume": "19",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12915-021-01020-5"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "OP7, a novel influenza A virus defective interfering particle: production, purification, and animal experiments demonstrating antiviral potential",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Hein",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kollmus",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Marichal-Gallardo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Puttker",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Benndorf",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Genzel",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Schughart",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Kupke",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Reichl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Appl Microbiol Biotechnol",
+            "volume": "105",
+            "issn": "1",
+            "pages": "129--146",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00253-020-11029-5"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Defective viral particles and viral disease processes",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Baltimore",
+                    "suffix": ""
+                }
+            ],
+            "year": 1970,
+            "venue": "Nature",
+            "volume": "226",
+            "issn": "5243",
+            "pages": "325--332",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/226325a0"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Estimates of global seasonal influenza-associated respiratory mortality: a modelling study",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Iuliano",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Roguski",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Muscatello",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Palekar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tempia",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Cohen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Gran",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Schanzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cowling",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kyncl",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Ang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Redlberger-Fritz",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Espenhain",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Krishnan",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Emukule",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Van Asten",
+                    "suffix": ""
+                },
+                {
+                    "first": "Pereira",
+                    "middle": [],
+                    "last": "Da Silva",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Aungkulanon",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Buchholz",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Widdowson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Bresee",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Global Seasonal Influenza-associated Mortality Collaborator N",
+            "volume": "391",
+            "issn": "17",
+            "pages": "33293--33295",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Updating the accounts: global mortality of the 1918-1920 \"Spanish\" influenza pandemic",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mueller",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Bull Hist Med",
+            "volume": "76",
+            "issn": "1",
+            "pages": "105--120",
+            "other_ids": {
+                "DOI": [
+                    "10.1353/bhm.2002.0022"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Monitoring influenza virus content in vaccine production: precise assays for the quantitation of hemagglutination and neuraminidase activity",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Kalbfuss",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Knochlein",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Krober",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Reichl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Biologicals",
+            "volume": "36",
+            "issn": "3",
+            "pages": "145--61",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Strand-specific real-time RT-PCR for distinguishing influenza vRNA, cRNA, and mRNA",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Kawakami",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Watanabe",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Fujii",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Goto",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Watanabe",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Noda",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kawaoka",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Virol Methods",
+            "volume": "173",
+            "issn": "1",
+            "pages": "1--6",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jviromet.2010.12.014"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Single-Cell Analysis Uncovers a Vast Diversity in Intracellular Viral Defective Interfering RNA Content Affecting the Large Cell-to-Cell Heterogeneity in Influenza A Virus Replication",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Kupke",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Ly",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Borno",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ruff",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Timmermann",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Vingron",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Haas",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Reichl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Viruses",
+            "volume": "12",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/v12010071"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "A Novel Type of Influenza A Virus-Derived Defective Interfering Particle with Nucleotide Substitutions in Its Genome",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Kupke",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Riedel",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Frensing",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zmora",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Reichl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Virol",
+            "volume": "93",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.01786-18"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Global update on the susceptibility of human influenza viruses to neuraminidase inhibitors and status of novel antivirals",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lackenby",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Besselaar",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Daniels",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Fry",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Gregory",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Gubareva",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Hurt",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Leang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rtc",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lo",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Lollis",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Maurer-Stroh",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Odagiri",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Pereyaslov",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Takashita",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Meijer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Antiviral Res",
+            "volume": "157",
+            "issn": "",
+            "pages": "38--46",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.antiviral.2018.07.001"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Modeling the intracellular replication of influenza A virus in the presence of defective interfering RNAs",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Laske",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Heldt",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hoffmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Frensing",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Reichl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Virus Res",
+            "volume": "213",
+            "issn": "",
+            "pages": "90--99",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.virusres.2015.11.016"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "The origins of defective interfering particles of the negative-strand RNA viruses",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lazzarini",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Keene",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Schubert",
+                    "suffix": ""
+                }
+            ],
+            "year": 1981,
+            "venue": "Cell",
+            "volume": "26",
+            "issn": "2",
+            "pages": "145--54",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/0092-8674(81)90298-1"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Defective-interfering (DI) RNAs of influenza viruses: origin, structure, expression, and interference",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Nayak",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Chambers",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Akkina",
+                    "suffix": ""
+                }
+            ],
+            "year": 1985,
+            "venue": "Curr Top Microbiol Immunol",
+            "volume": "114",
+            "issn": "",
+            "pages": "103--51",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/978-3-642-70227-3_3"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Virus harvesting in perfusion culture: Choosing the right type of hollow fiber membrane",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nikolay",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "De Grooth",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Genzel",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Wood",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Reichl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Biotechnol Bioeng",
+            "volume": "117",
+            "issn": "10",
+            "pages": "3040--3052",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/bit.27470"
+                ]
+            }
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Process intensification of EB66(R) cell cultivations leads to high-yield yellow fever and Zika virus production",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nikolay",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Leon",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Schwamborn",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Genzel",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Reichl",
+                    "suffix": ""
+                }
+            ],
+            "year": 1920,
+            "venue": "Appl Microbiol Biotechnol",
+            "volume": "102",
+            "issn": "",
+            "pages": "8725--8737",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00253-018-9275-z"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Lectin-affinity chromatography for downstream processing of MDCK cell culture derived human influenza A viruses",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Opitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Salaklang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Buttner",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Reichl",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Wolff",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Vaccine",
+            "volume": "25",
+            "issn": "5",
+            "pages": "939--986",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.vaccine.2006.08.043"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Antivirals for the treatment and prevention of epidemic and pandemic influenza",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Oxford",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Influenza Other Respir Viruses",
+            "volume": "1",
+            "issn": "1",
+            "pages": "27--34",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1750-2659.2006.00006.x"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Origin and replication of defective interfering particles",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Perrault",
+                    "suffix": ""
+                }
+            ],
+            "year": 1981,
+            "venue": "Curr Top Microbiol Immunol",
+            "volume": "93",
+            "issn": "",
+            "pages": "151--207",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/978-3-642-68123-3_7"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Antiviral activity of influenza A virus defective interfering particles against SARS-CoV-2 replication in vitro through stimulation of innate immunity",
+            "authors": [
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Rand",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Kupke",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Shkarlet",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Hein",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hirsch",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Marichal-Gallardo",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Cicin-Sain",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Reichl",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Bruder",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2021.02.19.431972"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Defective interfering influenza A virus protects in vivo against disease caused by a heterologous influenza B virus",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Scott",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Meng",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Marriott",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Easton",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Dimmock",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Gen Virol",
+            "volume": "92",
+            "issn": "",
+            "pages": "2122--2154",
+            "other_ids": {
+                "DOI": [
+                    "10.1099/vir.0.034132-0"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Effect of shear stress on activity of cellular enzyme in animal cell",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Shiragami",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Unno",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "Bioprocess Engineering",
+            "volume": "10",
+            "issn": "1",
+            "pages": "43--45",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/BF00373534"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Antivirals for influenza in healthy adults",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Dutkowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ward",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Lancet",
+            "volume": "367",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(06)68683-2"
+                ]
+            }
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Production of Defective Interfering Particles of Influenza A Virus in Parallel Continuous Cultures at Two Residence Times-Insights From qPCR Measurements and Viral Dynamics Modeling",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Tapia",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Laske",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Wasik",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rammhold",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Genzel",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Reichl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Front Bioeng Biotechnol",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fbioe.2019.00275"
+                ]
+            }
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "The 1918 influenza virus: A killer comes into view",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Taubenberger",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Reid",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Fanning",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Virology",
+            "volume": "274",
+            "issn": "2",
+            "pages": "241--246",
+            "other_ids": {
+                "DOI": [
+                    "10.1006/viro.2000.0495"
+                ]
+            }
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Propagation of the PR8 strain of influenza A virus in chick embryos. III. Properties of the incomplete virus produced in serial passages of undiluted virus",
+            "authors": [
+                {
+                    "first": "Von",
+                    "middle": [],
+                    "last": "Magnus",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 1951,
+            "venue": "Acta Pathol Microbiol Scand",
+            "volume": "29",
+            "issn": "2",
+            "pages": "157--81",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1699-0463.1951.tb00114.x"
+                ]
+            }
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Cell culture-based production of defective interfering particles for influenza antiviral therapy",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Wasik",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Eichwald",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Genzel",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Reichl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Appl Microbiol Biotechnol",
+            "volume": "102",
+            "issn": "3",
+            "pages": "1167--1177",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00253-017-8660-3"
+                ]
+            }
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "High cell density perfusion process for high yield of influenza A virus production using MDCK suspension cells",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bissinger",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Genzel",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Reichl",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Tan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Appl Microbiol Biotechnol",
+            "volume": "105",
+            "issn": "4",
+            "pages": "1421--1434",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00253-020-11050-8"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Scheme of the bioreactor setup for perfusion cultivations (according to (Nikolay et al. 2018)).",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "DI244tot: total DI244 particles [PFU] CCV: DI244 concentration in the cultivation vessel at time of harvest [PFU/mL] CCPerm: DI244 concentration in the collected permeate at time of harvest [PFU/mL] VWV: working volume in the cultivation vessel [mL] VCPerm: volume of the collected permeate after infection [mL]Based on the total amount of produced DI244 particles the PFU per cell were calculated as followed.Perfusion with the VHU allows for harvesting of DI244 particles through the membrane. Here, virus titer in the cultivation vessel and in the collected permeate differed at time of harvest. To simplify the reporting of virus titers, the theoretical overall virus titer of the entire virus containing harvest was calculated.The DI244 titer in the cultivation vessel and in the permeate line were determined for every sample time point. This allowed the calculation of the percentage of PFU passing through the membrane. The overall percentage of passed PFU was calculated as the average of all sampling time points.\u0394Perm: percentage of PFU passing through the membrane [%] CCV,t: virus concentration in the cultivation vessel at sample time point t [PFU/mL] CFPerm,t: virus concentration in the permeate line at sample time point t [PFU/mL] n: total number of sample time points",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "List of Abbreviations",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Maximum VCC [cells/mL]23.96E+06 28.43E+06 23.59E+06 23.97E+06",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "concentration of 25.0E+6 cells/mL (HFM2) or 20.0E+6 cells/mL (HFM1, VHU1, VHU2) with a pure DI244 seed virus at MODIP 1E-3. (a) Viable cell concentration and viability (grey area indicates cell growth phase), (b) HA titer, (c) DI244 vRNA level, (d) DI244 titer. (b, c, and d) solid lines indicate virus titer in the cultivation vessel, dashed lines with star symbols indicates the virus titer in the permeate line. Vertical dashes line indicates time when maximum titers were reached (36 hpi). (e) DI244 titer in cultivation vessel (STR) and permeate line (Perm) at time of harvest (48 hpi). (f) Interference assay for DI244 produced in HFM1. For comparison, previously reported DI244 material (Batch; produced in shake flask with infection at 2.0E+6 cells/mL and MODIP 1E-2)",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors would like to thank Nancy Wynserski and Claudia Best for excellent technical assistance and Pavel Marichal-Gallardo for support with protein and DNA analysis. The authors greatly appreciate the contribution of Shanghai BioEngine Sci-Tech and Prof. Tan from the East China University of Science and Technology for providing the Xeno\u2122 medium. The authors would like to thank the German Primate Center-Leibniz Institute for Primate Research and Prof. P\u00f6hlmann for generating and providing the MDCK-PB2(sus) cell line.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        }
+    ]
+}

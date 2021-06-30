@@ -1,0 +1,209 @@
+{
+    "paper_id": "0aeded98b4ef86c7aacf83455aecd6bd10e46218",
+    "metadata": {
+        "title": "New SARS-CoV-2 variant of concern imported from the",
+        "authors": [
+            {
+                "first": "Pasteur",
+                "middle": [],
+                "last": "Institute",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ho",
+                "middle": [],
+                "last": "Chi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Minh",
+                "middle": [],
+                "last": "City",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Vietnam",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Directorial",
+                "middle": [],
+                "last": "Board",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Vietnam for 14 days as required by the current quarantine protocols for all incoming international arrivals to Vietnam. After 2 days, she was tested positive for SARS-CoV-2 using real-time reverse-transcription polymerase chain reaction (a cycle threshold of 24). She reported that she wore a personal protection equipment (PPE) kit, including a facemask, gloves, goggles, shoe covers, and disposable coveralls bodysuit during her return to Vietnam. She additionally reported that she had not been exposed to any known COVID-19 cases in the United Kingdom before departure. F I G U R E 1 Phylogenetic tree of the complete genomes of SARS-CoV-2 isolated from two patients returning to Vietnam from the United Kingdom in December 2020. Dots indicate the SARS-CoV-2 strains isolated in this study (EPI_ISL_760247 and EPI_ISL_812922). Complete genome sequences were aligned with other related coronavirus sequences archived from GenBank/GISAID using Mafft software and constructed a phylogenetic tree using the maximum likelihood method with 1000 bootstrap replicates in MEGA-X using the general timereversible model. The bootstrap values were indicated on branches",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "We acknowledge the authors, the originating and submitting laboratories of the GISAID sequences.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ACKNOWLEDGMENTS"
+        },
+        {
+            "text": "The authors declare that there is no conflict of interests. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONFLICT OF INTERESTS"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "World Health Organization. SARS-CoV-2 variants",
+            "authors": [],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Genetic variants of SARS-CoV-2-What do they mean?",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lauring",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Hodcroft",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "JAMA",
+            "volume": "325",
+            "issn": "6",
+            "pages": "529--531",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Estimated transmissibility and severity of novel SARS-CoV-2 Variant of Concern 202012/01 in England",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Davies",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Barnard",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Jarvis",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.12.24.20248822"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Communicable disease threats report",
+            "authors": [],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "3--9",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "SARS-CoV-2 infection of the liver directly contributes to hepatic impairment in patients with COVID-19",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Hepatol",
+            "volume": "73",
+            "issn": "4",
+            "pages": "807--816",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "carries several mutations, including the spike protein N501Y substitution and 69-70del, resulting in substantially increased transmission rates of 50-74% greater than other variants 3 ; the variant rapidly circulates worldwide. 4 In such a context, a full characterization of this variant is essential for a further development of response strategies to COVID-19. Here, we describe clinical, epidemiological characteristics, and sequencing of the B.1.1.7 variant from a patient with pneumonia imported from the United Kingdom to Vietnam. We additionally identified and reported another passenger infected with the B.1.177 strain. A 44-year-old Vietnamese woman with a history of hypertension, living in London (Patient 1), had flown to Vietnam on December 22, 2020. She and other 304 passengers were immediately taken into a government quarantine center in southern",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Patient 1 disclosed that she had experienced an increased sore throat with a low-grade fever on December 23. On December 25, she was referred to a designated hospital for proper isolation and care. Physical examination on admission revealed a body temperature of 37.5\u00b0C, blood pressure of 150/90 mmHg, moist crackles auscultated in both lower lung fields, and oxygen saturation of 95% while she was breathing ambient air. Chest radiographs and other laboratory tests on admission showed no abnormalities. On Day 7th of hospitalization, a dry cough developed, and chest radiographs showed heterogeneous infiltrates in the inferior lobes of the bilateral lungs, indicating the development of pneumonia in this patient (Figure S1). The patient's symptoms were resolved on January 6, 2021 (Day 13th of hospitalization). None of the 10 close contacts of the patient who reported wearing PPE kits during their return to Vietnam tested positive for SARS-CoV-2. Her husband who was living in the United Kingdom tested positive for SARS-CoV-2 one day after her diagnosis. Given the patient's travel history, we did cell culture and successfully isolated SARS-CoV-2 from the throat and nasopharyngeal swabs of Patient 1 on Vero E6 cell line. The viral cytopathic effect was observed on the second day after inoculation, and was similar to that of the strain with D614G mutation that was observed previously (Figure S2). We then studied the full genome of the isolate using next-generation sequencing (29,823 base pairs; GISAID ID: EPI_ISL_760247), and compared the sequences with the GISAID reference strain hCoV-19/Wuhan/WIV04/2019. Sequence analysis showed that the isolate belonged to the GR clade and B.1.1.7 lineage (Figure 1), and it carried 10 mutations in the spike region: three deletions (69-70del and 144del) and seven amino acid substitutions (N501Y, A570D, D614G, P681H, T716I, S982A, and D1118H). Three other mutations were located in the ORF8-specific region (Q27stop, R52I, and Y73C) and four mutations in the nucleocapsid protein region (D3L, R203K, G204R, and S235F). Apart from Patient 1, we detected additional infections among passengers (Patient 2). The isolate from Patient 2, a 28year-old man, was the GV clade, B.1.177 lineage, and it harbored two A222V and D614G mutations in the spike protein region, A220V in N protein, M125I on NS3 and P323L in NSP12 region (GISAID ID: EPI_ISL_812922). Under legal protections for a public health response to the widening epidemic of COVID-19, the present case investigation did not require human subject reviews. Blood obtained from Patient 1 on admission tested negative for viral hepatitis B and C. On Day 10th of hospitalization, the serum levels of alanine aminotransferases and aspartate aminotransferases were 60 and 39 U/L, respectively, approximately twoto threefold higher than levels detected on Day 1 (20 and 17 U/L, respectively) (Table S1). It is possible that there was liver impairment directly caused by the infection of this variant in this case. 5 The importation of a highly transmissible B.1.1.7 variant of SARS-CoV-2 was first detected in Vietnam. Continuing strategies for strict border control, quarantine, and testing policies of all incoming international passengers are essential for detecting and preventing the spread of new variants of SARS-CoV-2 in the general population in Vietnam.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": ". Dao, Quang D. Pham, Hieu T. Nguyen, Thuong V. Nguyen interpreted the data and wrote the first draft of the manuscript. Dung H. Thach, Lo V. Nguyen, and Luan V. Bui obtained clinical specimens, data, and contributed to the interpretation of clinical findings. Quang C. Luong and Thinh V. Nguyen collected and interpreted epidemiological data. Manh H. Dao, Hieu T. Nguyen, Anh H. Nguyen, Quang C. Luong, Nhung H. P. Vu, Hang T. T. Pham, Loan K. T. Huynh, Long T. Nguyen, and Thang M. Cao performed cell culture, sequencing, and contributed to the interpretation of virological findings. Hang M. Nguyen, Thuong V. Nguyen, and Lan T. Phan assisted in the interpretation of findings and overviewed the study. All authors have reviewed the manuscript, contributed to critical revision of the manuscript, and approved the final version.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

@@ -1,0 +1,1232 @@
+{
+    "paper_id": "0a5584efdffce0f9d1aee8fb31aacabbe7eeba98",
+    "metadata": {
+        "title": "Supplementary information Targeting structural features of Viral genomes with a nano-sized supramolecular drug",
+        "authors": [
+            {
+                "first": "Larry",
+                "middle": [],
+                "last": "Melidis",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Birmingham",
+                    "location": {
+                        "addrLine": "Edgbaston",
+                        "postCode": "B15 2TT",
+                        "settlement": "Birmingham",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Iain",
+                "middle": [
+                    "B"
+                ],
+                "last": "Styles",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Birmingham",
+                    "location": {
+                        "addrLine": "Edgbaston",
+                        "postCode": "B15 2TT",
+                        "settlement": "Birmingham",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Michael",
+                "middle": [
+                    "J"
+                ],
+                "last": "Hannon",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Birmingham",
+                    "location": {
+                        "addrLine": "Edgbaston",
+                        "postCode": "B15 2TT",
+                        "settlement": "Birmingham",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Part A: Additional Results and Discussion",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The first task was to create a computational model of the metallo-supramolecular cylinders, with suitable charge distributions, that could then be used in the MD simulations. We considered two different metal cylinders, one containing iron(II) and the other ruthenium(II), but otherwise identical (Main text Figure 1 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 308,
+                    "end": 316,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Abstract"
+        },
+        {
+            "text": "Both metal centres have a d 6 electronic configuration and exhibit a preference for octahedral coordination; although ruthenium(II) is slightly larger than iron(II) (metal ligand bonds of ~2.1\u00c5 instead of~2.0\u00c5 in Fe) this has only small effects on the overall dimensions of the cylinder, which are of the order of 2nm in length by 1nm in diameter -similar in size to the alpha helix of zinc finger units in proteins. The cylinders are helical and exist in two enantiomeric forms, exhibiting a right handed (P) or left handed (M) twist 17 , and the binding of both enantiomers will be discussed. Although the binding of enantiomers to chiral RNA will be different, biophysical studies show both to bind in the same location with similar affinities. (Both enantiomers of both cylinders bind strongly and displace the TAT peptide from the TAR RNA). 9 X-ray crystal structures are available for both cylinders (Fe and Ru) and these were used as starting point for DFT calculations. 1,7 The parameterisation are explained in methods. The calculated DFT and experimental X-ray crystal structures are almost identical, and as expected RuCyl and FeCyl have very similar distribution of charges at the surface of the molecule (Fig. S1 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1217,
+                    "end": 1225,
+                    "text": "(Fig. S1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Surface charge distribution in Fe cylinder (left) and Ru cylinder (right)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Fig. S1"
+        },
+        {
+            "text": "Disney has recently used docking to screen libraries of small molecules binding to RNAs including TAR 18 . We initially undertook simple docking calculations as described in methods using all 20 structures from pdb;1anr TAR RNA NMR study. The results are dominated by different forms of bulge region binding. While the two enantiomers do show slightly different binding energies, the Autodock Vina as other docking software (used as it is one of few that allow incorporation of first row d-block metal centres) tend to underestimate the electrostatic contribution when a charged molecule is involved. Nevertheless the docking scores are high compared to other small molecule drugs assessed by this method reflecting the larger available surface of the cylinder.",
+            "cite_spans": [
+                {
+                    "start": 102,
+                    "end": 104,
+                    "text": "18",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Docking of cylinders to TAR RNA"
+        },
+        {
+            "text": "It is interesting to compare the results of docking with overall results of subsequent MD simulations. In particular in the MD simulations, capping of the open terminal bases is seen with both enantiomers and is relatively stable binding mode (more than 2\u03bcs). Alt s). Although this binding mode is a local minimum in the interaction of cylinders with TAR it highlights the limitations of docking in targeting Nucleic Acids because, across all 20 NMR solutions of TAR RNA, the terminal bases are coplanar only in one (the 9 th ). Consequently only in this structure solution does the docking reveal the end capping binding mode as a potential binding site. So docking outcomes are constrained by the rigid RNA structure(s) used in the docking, whereas in reality -as we shall see -RNAs are highly fluxional and dynamic molecules that access much structural space. Thus while such simple docking studies are valuable for high throughput screening they might be more suited to small molecules where the molecule is less likely to have a major effect on RNA conformation. For the larger cylinders the size of the binding surface means that induced conformational change is more likely and so more sophisticated MD can offer greater insight into the interaction. Crucially, while the docking showed bulge region binding, bulge insertion by the cylinder was not observed. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Docking of cylinders to TAR RNA"
+        },
+        {
+            "text": "To initiate our MD simulations, we needed first to establish whether the new (Rochester-Matthews) force-field recently tested for small RNAs (<10 residues) 19 would reproduce the experimental observations for longer and more complex RNA structures. As there is a growing interest in RNA-targeting more broadly, and to have confidence in the approach, we wished to verify on more than one RNA structure, and not solely on the target TAR RNA structure that is the focus herein. Aside from TAR RNA, we undertook simulations (2 microseconds each) of coxsackievirus stem loop and polio virus stem loop. These were selected as they have mismatched pairing on a single stem, allowing us to probe the approach against a dynamically complex yet potentially drug-able site, and because they have established NMR structures to which we could compare our results. ) Overall we have performed over 70 simulations of at least 1\u03bcs). Alt s and up to 10\u03bcs). Alt s overall 200\u03bcs). Alt s including several shorter runs with varying initial conditions.",
+            "cite_spans": [
+                {
+                    "start": 156,
+                    "end": 158,
+                    "text": "19",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Molecular dynamics simulations of unbound RNAs"
+        },
+        {
+            "text": "The first simulation was of the Coxsackievirus D stem (pdb: 1RFR). This structure forms part of a three stem array (a frequent RNA motif), and the D-stem is the most conserved of the component parts. The sequence contains both Watson-Crick and non-Watson-Crick parings and a loop and is thus an interesting first challenge. Two simulation runs of 2\u03bcs). Alt s each were performed with 50mM ionic strength (NaCl). This is, to the best of our knowledge the first example of this force-field being applied to model Coxsackievirus stem.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "3a. Coxsackievirus stem-loop"
+        },
+        {
+            "text": "The overall structure dynamics are consistent with the NMR observations, showing a well defined structure in the mismatch region (U6,U8,U23-U25). U24 is the only of these residues that has a stable WC bonding with the opposite C7, and not a transient pairing with the -1 and +1 of the opposite strand. The bases of the tetraloop comprise the relatively stable wobble base pair of U13 and G18, but also G17 which shows transient trans bonding with C14 either as trans Sugar/WC or trans WC. This has also been identified by NMR. In this loop region the stacking between A15 and C14 is largely preserved as is the overall stacking between the U residues and the G; these are likewise as described in NMR. The formation of an electronegative region , identified by NMR, is also seen in the MD simulation with a large number of Na cations constantly clustered in that location. An aspect not observed in the NMR analysis is a transient non-traditional pairing of A12-A20, which leaves U11 as temporary bulge. This changes the overall structure of that region to a ladder-like (less helical) stacking and changes the overall distance between the loop and the base of the stem. Principle components analysis was not able to resolve states by projection of the first two components although slight differentiation can be seen in projections that include the third. TiCA using lag time of 200steps (2ns), as expected proved more revealing and describes a more diverse landscape with at least 4 distinct points in the first two projections and many more in projections including the 3 rd and 4 th components. Based on projection between the first two components and a lag time for Markov model of 800 steps four clean (distinct) states have been identified, the 4 th being the most stable. These four states, and the microstates that underpin them, are all consistent with the reported NMR and give confidence in our approach.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "3a. Coxsackievirus stem-loop"
+        },
+        {
+            "text": "We next turned to the Polio Y-stem CU variant (pdb: 2GRW). This structure is shorter than the Coxsackie D-stem, and contains a single mismatch flanked by Watson-Crick paired bases, giving the opportunity to explore the approach with a structure where a single nucleotide bulge might arise. An analogous 5 \u03bcs). Alt s simulation was run again at 50mM ionic strength, with the NMR ground state as the starting structure. The Y-stem of the poliovirus shows similar dynamics of the loop structure CGAAAG to that in the coxsackievirus (UCACGG) despite the UG wobble now being a Watson crick CG. The simulation is sufficiently long to identify problematic pairing between C5 and U18, explaining the observed absence of imino and amino proton NMR signals for these resonances (despite that pairing being proposed in the NMR structure). Strong stacking of the A2-U20 to C4-G19 and C5,U18 to U6:A17 is also stable throughout the simulation and consistent with the NMR data. The C4 G19 residues do not have typical A-RNA torsion angles because the stacking with the adjacent (problematic) pair is less extensive. G19 can transiently base pair with A3 and stack with C5 and in a similar way U18 can base pair to U6. Finally, in the loop region A13 is transiently both trans or cis Sugar/WC paired with G10. Strong stacking patterns all the way to the very stable C9:G14 base pair help the stability of the loop.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "3b. Polio stem-loop"
+        },
+        {
+            "text": "PCA showed a dominant and a very minor cluster although the TiCA analysis, with a lag time of 2ns, resolved those peaks to four. Based on projection between the first two components and a lag time for Markov model of 400steps, four clean states have been identified, the 4 th being the most stable. It is striking that the MD simulations reveal and explain features that are observed in the NMR structural data, but have not previously been satisfactorily captured. This gives further confidence in this approach. 3c. HIV2-TAR As a final step before addressing the HIV-1 TAR target, we next checked the applicability of the simulations to the closely related HIV-2 TAR (pdb: 1AJU) which differs solely in the size of the bulge (2 bases rather than 3 bases). A 3\u03bcs). Alt s simulation was undertaken starting from pdb:1aju after removing the bound ligand argininamide. The results are useful as an initial understanding of the behaviour of bulges. The bulge region is rich in different transient pairings, and more specifically between residues A22,U23,U25,U40 and U40 C41, including Hoogsteen sugar bonding. At the loop, A35 is transiently involved in cis Hoogsteen -Sugar Edge with G34 C30 or G32. C29 has strong binding with G34, as it has been observed with HIV1 TAR. Stacking on both stems is strong and only breaks at A22<<U23. U24 is less involved in pairing than other residues and often bulges out of helix/stacking. The simulation was not able to sample the G26 U23 interaction that is described at the NMR, which is likely a result of the ligand binding between A22 and U23.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "3b. Polio stem-loop"
+        },
+        {
+            "text": "3d. HIV1-TAR The pdb: 1anr structure is the only drug-free HIV-1 TAR structure. There are 20 NMR solutions proposed that lie at different local minima on the landscape. We started with five such minima (first, third, fourth, seventh and twelfth). In each case the 2\u03bcs). Alt s simulation retained the characteristics consistent with the NMR structure and did not deviate into unnatural conformations. From each starting point similar features can be observed which indicates that the forcefield can reproduce transitions within the landscape within a few \u03bcs). Alt s.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "3b. Polio stem-loop"
+        },
+        {
+            "text": "The helical regions remain relatively stable with strong WC base pairing. The only stem base pair not retaining the WC pairing is A22:U40, which often drifts apart as the U40 retains strong stacking with C39. It is often the case that U40 seems to be in the 2 nd rather than the first stem.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "3b. Polio stem-loop"
+        },
+        {
+            "text": "While a variety of transient base-pairings of all types were observed in the bulge region, as expected from the experimental NMR observations, no new stable base pairings were observed apart from that between C30 and G33/4 which is not observed by NMR but is observed in gel electrophoresis. On the un-bulged strand stacking is strong and continuous, but this is a lot less evident on the bulge strand. Of the three bulged nucleotides, U23 and C24 are more likely to stack whereas U25 is the most likely to be fully outside the helix and can even create long range interactions with the loop nucleotides (G33 and A35) creating a transient folding up of the second stem. Such a folding was not observed in the HIV-2 TAR simulation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "3b. Polio stem-loop"
+        },
+        {
+            "text": "The loop region is characterised by limited stacking between bases and common WC pairing between C30 and G34. Transient non-WC pairing can include C30 cis or trans WC/Hoogsteen to A35.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "3b. Polio stem-loop"
+        },
+        {
+            "text": "Examining the runs individually; The first simulation starting from 1anr1 identified 3 distinct states, that can be recognised even by the PCA analysis. All are energetically and conformationally close together as seen by the RMSD and ERMSD. PCCA analysis shows one to be in much higher occupancy, clearly the ground state. A second simulation also starting from 1anr1 sampled a wider conformational space. Base pairing of stems was retained although stacking between C19:G43 and A20:U21 was not, although it is observed in the NMR. After that stacking does continue all the way to the loop. At the loop a few different conformations were sampled that mostly gave rise to the different MSM states identified. C30 base pairs with either G33 or G34. In the bulge region U40 is stacked strongly with C39 but not always to C41 and transient, short lived pairing takes place between all bulge residues and either of C39 and U40, with pairing types including both sugar and Hoogsteen edges as well as in the trans position. MSM analysis gave 6 different states.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "3b. Polio stem-loop"
+        },
+        {
+            "text": "The simulation starting from 1anr3 yielded 5 local minima in the TiCA projections and CK test allowed for 5 states in MSM analysis. Overall, stacking and pairing throughout the stems is conserved and transient pairing within the bulge region is similar to that of the previous run. Most importantly the 2 nd state is very reminiscent of the ground state.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "3b. Polio stem-loop"
+        },
+        {
+            "text": "Going up the energy ladder from the starting conformation one might expect to encounter more structures that deviate significantly from the ground state. Nevertheless starting from the 4 th solution 1anr4, most of the important structural features were retained. Pairing and stacking remains consistent with the exception of the U23 to C24 stacking. PCA revealed 3 stationary points which become 5 with TiCA. Also notable is that from this state up, examining the first 4 TiCA vectors instead of just two showed much higher diversity. In the loop, pairing C30:G34 is seen again, as well as the usual transient non traditional pairing, but now interactions between U23 and U38 and trans Hoogsteen to sugar between U23 and C39 are observed. Stacking of U40 to C39 remains strong but stacking of U23 to C24 was less prevalent.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "3b. Polio stem-loop"
+        },
+        {
+            "text": "The 1anr7 and 1anr12 structures are quite different from the ground state and this brings challenges for the simulation: Specifically the loss of A helix structures which is characterised by the overall elongation of G17 to G33 distance can be testing to any forcefield. Nevertheless, starting from 1anr7, the stacking and pairing remains consistent. PCA identified 2 states whereas TiCA suggested 6 states and the CK test is also passed with 6 states. The first 4 states are reminiscent of the ground state with different loop configurations, namely sugar to Hoogsteen between C30 and A35, or less often trans WC to Hoogsteen. In the other two states, U25, which generally points outside the bulge can create temporary long range interactions with loop residue G33.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "3b. Polio stem-loop"
+        },
+        {
+            "text": "Starting from 1anr12, which is also very elongated with a sharp backbone kink in the bulge area, also retrieved most of the properties of the ground state. Pairing and stacking remain consistent for the stems. In the loop the common C30 to G34 pairing is stable along with a transient Hoogsteen to sugar between A35 and C30. In the bulge region stacking between C39 and U40 is strong and most of the transient non traditional base pairings are also seen. PCA revealed 2 states whereas TiCA revealed 5.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "3b. Polio stem-loop"
+        },
+        {
+            "text": "In addition to the unbound 1anr structure, there are some TAR RNA structures with various different bound drugs, so for comparison we also explored as a starting point one such structure (the only solution of pdb;1UUI) from which we had removed the drug. The structure of, after removing the ligand, has some differences with the 1anr structure: Pairing on the stems is the same, but stacking is disturbed before the bulge, probably since U23 is WC paired with A27.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "3b. Polio stem-loop"
+        },
+        {
+            "text": "When using this as the starting point for a 2\u03bcs). Alt s simulation, the loop folded back onto the bulge (from which the ligand had been removed) forming interactions from U23 and C24 to A35, and the stem remained folded for much of the simulation. The bulge stacking did not return to the transient pairings seen in the earlier simulations. PCA analysis of the simulation revealed 3 states and TiCA 6, which was also passed the CK test on with MSM with the 6 th state being ground state of this run.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "3b. Polio stem-loop"
+        },
+        {
+            "text": "The simulation demonstrates how ligand binding can modify the structure and dynamics of the TAR RNA and again highlights that docking, while a useful guide, may miss key features and opportunities.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "3b. Polio stem-loop"
+        },
+        {
+            "text": "3e. Consideration of the forcefields The Rochester forcefield 19 seems to behave well for every case of RNA molecular dynamics, even in cases outside the ground state of the structure in question. That can give more trust for ligand binding molecular dynamics which by definition can transition the conformation to a non ground one. The tendency to drive the conformation towards the ground state even in a couple of microseconds might be a bias of the forcefield, or a true frequency sampling of the ground state.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "3b. Polio stem-loop"
+        },
+        {
+            "text": "We also explored the alternative (older) forcefield, AMBER99SB 10 to see whether our selected forcefield was indeed more effective. An issue with this alternate forcefield is that starting from structures other than the ground state generally resulted in drifting towards unnatural solutions even within 1 s. As has been previously reported \uf06ds. As 20 , the older forcefield behaves admirably when starting structure is the first solution 1anr1. Pairing and stacking of stems are consistent, up to C24, U40 is stacked more often to C39 than C41, U25 is transiently WC paired with U40 and C30 to G34. However PCA analysis showed 6 peaks which is significantly higher than expected for a ground state. Where things break down is when the simulation starts from the seventh state 1anr7: Stacking is completely lost as well as the base pairing of the first stem.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "3b. Polio stem-loop"
+        },
+        {
+            "text": "With the RNA simulations, showing the different conformational space that the RNA could access and the results validated by the observed NMR data, we now turned to explore the binding of the enantiomers of the two metallo-supramolecular cylinders, using the iron(II) cylinders.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Simulations of Cylinder binding to the coxsackievirus and polio RNA stem-loops"
+        },
+        {
+            "text": "To get an initial view of where cylinder might potentially bind to a stem-loop, and to test/establish analysis methods, we performed initial simulations of the M and P enantiomers of the cylinder with the coxsackievirus and poliovirus stem-loops.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Simulations of Cylinder binding to the coxsackievirus and polio RNA stem-loops"
+        },
+        {
+            "text": "Two P enantiomer cylinders were added, placed away from the RNA, and each quickly settled to a binding mode that they retained till the end of 2 \u03bcs). Alt s simulation. One was located on the groove and loop region assisted by stacking of the loop nucleotides, and the second lower on the groove but moving through the simulation up and down the groove (Fig. S3) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 352,
+                    "end": 361,
+                    "text": "(Fig. S3)",
+                    "ref_id": null
+                }
+            ],
+            "section": "4a. Coxsackievirus stem-loop"
+        },
+        {
+            "text": "For the M enantiomers, one settled at the groove also interacting with the loop nucleotides and the other capped the open base pair at the base of the stem (Fig. S3 ). cox with cylinders P Figure S24 stable binding modes for 2 P Fe cylinders on Coxsackie stem loop. (Fig. S4.1 ). This means that across the two test RNA simulations (coxsackievirus and polio) this binding mode was seen for both enantiomers; the binding mode has also been experimentally observed (both enantiomers) in X-ray crystal structures, for both RNA and DNA 21 , which gives confidence that the simulation is reproducing experimentally feasible bindings. This binding mode is also observed in some of the subsequent simulations with TAR RNA (see B5a).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 156,
+                    "end": 164,
+                    "text": "(Fig. S3",
+                    "ref_id": null
+                },
+                {
+                    "start": 189,
+                    "end": 199,
+                    "text": "Figure S24",
+                    "ref_id": "FIGREF14"
+                },
+                {
+                    "start": 266,
+                    "end": 276,
+                    "text": "(Fig. S4.1",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "4a. Coxsackievirus stem-loop"
+        },
+        {
+            "text": "In the M enantiomer simulation, the cylinder initially binds on the top of the groove near the loop but later cascades down towards the base of the stem (Fig. S4.2) . ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 153,
+                    "end": 164,
+                    "text": "(Fig. S4.2)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "4a. Coxsackievirus stem-loop"
+        },
+        {
+            "text": "Understanding that capturing an event of insertion to the bulge can be challenging in computationally available timescales we conducted over 50 simulations starting from 1anr1/3/7/12 and 1UUI again with both M and P enantiomers of Fe. Across these simulations a variety of binding modes are observed: 5a. cylinder capping the terminal base pairs; In numerous cases the cylinder (both enantiomers) found an easily kinetically accessible local minimum, occupied for at least 1\u03bcs). Alt s at a time on capping the G17:C45 bases. This binding mode (Fig. S5.1) , that has been observed in X-ray crystal structures, gives confidence that the simulation is replicating an experimentally validated binding mode. To assess how well the forcefield and the parametarisation (including now the cylinder) reproduces the mode as captured by the crystal structure we extracted the G17:C45 bases and the cylinder from a frame of the longest lived position and we then optimised that structure at the ssb-d-D3/LANL2DZ (DFT and semi-empirical (PM7)) and superimposed to the crystal structure of either the DNA or the RNA (pdb: 4JIY). The overlap (Fig. S5 .2) is extremely good, not only implying that the forcefield is working as desired, but that the crystallographically observed binding is not being affected by packing forces. Two phenyl rings, one each from two organic ligand strands, of the cylinder form the pi-surface onto which the G17:C45 bases are stacked. These phenyl rings at the centre of the cylinder can rotate about the 1,4-phenylene axis when the cylinder is free in solution; in the optimisation they are slightly more coplanar (and therefore better stacked) than in the crystal though the difference in dihedral twisting that gives rise to this is very small. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 543,
+                    "end": 554,
+                    "text": "(Fig. S5.1)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1127,
+                    "end": 1135,
+                    "text": "(Fig. S5",
+                    "ref_id": null
+                }
+            ],
+            "section": "Simulations of Cylinder binding to the HIV-1 TAR RNA."
+        },
+        {
+            "text": "Loop binding of a cylinder (P enantiomer) observed in an MD simulation 5c. Groove binding A more commonly observed binding mode is the grooves, primarily the groove of the first stem. The residence time for the M enantiomer on average is longer than for the P implying that the M enantiomer may have a higher binding affinity for this mode although the kinetics were not adequately sampled to quantify difference.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Fig. S8"
+        },
+        {
+            "text": "All the other binding modes are found in, around or on the bulge and this is where the cylinder is most frequently found, with M and P being very similar in their preference for this location. Conformations that involve the loop bridging to the bulge (U25) can be stabilised for longer, with the cylinder sitting on top of the bridge or mediating stacking. In the absence of the bridge, the cylinder can also sit between the bulge and the opposite RNA strand, in a mode in which it opens up the base pairing protecting the TAT binding site. The cylinder is also observed in a stable mode which splits two of the bulge nucleotides (C24 and U25) creating a pocket for the cylinder to bind in. The stacking in this pocket, with the bulge strand tracking an organic ligand strand of the cylinder and stacking the two bases above the two phenyl ring of the strand) is reminiscent of the crystallographically observed stacking in the heart of the 3WJ. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "5d. Bulge area"
+        },
+        {
+            "text": "5f Binding of the ruthenium cylinder. We also repeated simulations for the ruthenium cylinder (total 17.3 ms) in place of the iron cylinder. The ruthenium cylinder behaved analogously in its binding, though its movement was slower due to the increased molecular mass.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "5e. Insertion into bulge This is discussed in detail in the main text and can be observed in the accompanying SI videos."
+        },
+        {
+            "text": "To analyse the vast volume of data, over 200,000,000 coordinate frames we employ the PyEmma workflow) 13 and Markov State Modelling (MSM) ) (details in methods). This involves reducing the dimensionality by choosing appropriate feature of the simulation and identify macrostates of each simulations using MSM and extract those metastable structures with Perron-cluster cluster analysis (PCCA). Those extracted structures and the whole simulation are also presented in the Leontis-Westholf (LW) nomenclature using barnaba) In detail;",
+            "cite_spans": [
+                {
+                    "start": 102,
+                    "end": 104,
+                    "text": "13",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Part B: Approach used to analyse the simulation results"
+        },
+        {
+            "text": "The whole compressed trajectory is loaded into PyEMMA with 10ps time steps, without concatenating the independent simulations of the same system.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Part B: Approach used to analyse the simulation results"
+        },
+        {
+            "text": "1. The dimensionality of the simulation is reduced by feature selection and using Principal Component Analysis (PCA) (Figure S12 and similar) . This step aims to capture as much of the kinetic variance of the simulation as possible in fewer dimensions. PCA gives a broad picture of the overall kinetics of the simulations, highlighting minima in a throughout-thesimulation manner. The distribution of the principal component eigen values reveals that significant variance in the data is described by higher order features beyond the traditional first two components(example of Figure S36 ) and we therefore choose to plot the projections onto the pairwise combinations of the first four components.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 117,
+                    "end": 128,
+                    "text": "(Figure S12",
+                    "ref_id": null
+                },
+                {
+                    "start": 577,
+                    "end": 587,
+                    "text": "Figure S36",
+                    "ref_id": null
+                }
+            ],
+            "section": "Part B: Approach used to analyse the simulation results"
+        },
+        {
+            "text": "Component Analysis to examine the similarity between time points with a specified offset (lag time)(Figure example S18 S19). This was used to select a lag time that produced the fewest number of independent components that incorporated 95% of the overall kinetic variance. For visualisation purposes, we plot the projections onto the pairwise combinations of the first four components ( Figure S13 ). 3. The data are projected onto the first 2 ICs for the selected lag time (number of steps usually between 200 and 500), and are then clustered using k-means ( Figure S16 ). The number of clusters is chosen as the starting point of the plateau in the VAMP2 graph( Figure S17 ). This allows the problem to be mapped onto a set of discrete states (clusters) which then allows Markov State Models (MSMs) to be constructed that describe transitions between pairs of clusters. MSM calculates every pairwise transition at a given lag-time for the MSM (which independent of the TICA lag time). It is essential that the selected lag time is long enough to ensure Markovian dynamics (ie. to have a stable transition matrix), but short enough to resolve the transition dynamics. To achieve this the smallest possible lag-time (in the range 1 to 1200 steps) that shows convergence of the underlying processes is chosen ( Figure S16) . We validate the model with the Chapman-Kolmogorov test (Figure 15 ), ensuring that the model also describes longer time-scales. If the resulted model includes all states, the original space can then be split into the longest living meta-stable states with care taken to ensure sure that those states are well defined on the discretised surface( Figure S14 ).For each state a sample of 10 pdb structures is extracted and represented in Leontis-Westholf notation using barnaba ( Figure S14 ). Finally spectral clustering using PCCA++ algorithm coarse-grains the space of the metastable distributions and approximates the stationary probabilities and relative free energies for that particular set of data (Table 1) and not for the overall system. S63-S125 HIV-1 TAR bulge free S126-S155 HIV-1 TAR bulge M cylinder S156-S182 HIV-1 TAR bulge P cylinder Tables   Tables 3-8 Relative energy estimate of each state for given simulation 1ANR 12 S99 S100 S101 S102 S103 S104",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 387,
+                    "end": 397,
+                    "text": "Figure S13",
+                    "ref_id": null
+                },
+                {
+                    "start": 560,
+                    "end": 570,
+                    "text": "Figure S16",
+                    "ref_id": null
+                },
+                {
+                    "start": 664,
+                    "end": 674,
+                    "text": "Figure S17",
+                    "ref_id": null
+                },
+                {
+                    "start": 1310,
+                    "end": 1321,
+                    "text": "Figure S16)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1379,
+                    "end": 1389,
+                    "text": "(Figure 15",
+                    "ref_id": null
+                },
+                {
+                    "start": 1669,
+                    "end": 1679,
+                    "text": "Figure S14",
+                    "ref_id": "FIGREF14"
+                },
+                {
+                    "start": 1801,
+                    "end": 1811,
+                    "text": "Figure S14",
+                    "ref_id": "FIGREF14"
+                },
+                {
+                    "start": 2027,
+                    "end": 2036,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 2173,
+                    "end": 2192,
+                    "text": "Tables   Tables 3-8",
+                    "ref_id": null
+                }
+            ],
+            "section": "To extent the representation into the time domain we use Time-lagged Independent"
+        },
+        {
+            "text": "1ANR 16 S105 S106 S107 S108 S109 S110",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "To extent the representation into the time domain we use Time-lagged Independent"
+        },
+        {
+            "text": "1UUI S111 S112 S113 S114 S115 S116 Summary 1ANR S117 S118 S119 S120 S121-122 S123-S125 Table 2 Coxsackievirus stem-loop Table 5 Relative energy estimate of each state of run 2 Figure S31 TICA dimensions, density and corrected heat map for steps 10 to 500 of run 2 Table 5 Relative energy estimate of each state and transition efficiency Table 7 Relative energy estimate of each state Figure S127 TICA dimensions, density and corrected heat map for steps 10 to 500 ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 87,
+                    "end": 94,
+                    "text": "Table 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 120,
+                    "end": 127,
+                    "text": "Table 5",
+                    "ref_id": null
+                },
+                {
+                    "start": 176,
+                    "end": 186,
+                    "text": "Figure S31",
+                    "ref_id": null
+                },
+                {
+                    "start": 264,
+                    "end": 271,
+                    "text": "Table 5",
+                    "ref_id": null
+                },
+                {
+                    "start": 337,
+                    "end": 344,
+                    "text": "Table 7",
+                    "ref_id": null
+                },
+                {
+                    "start": 384,
+                    "end": 395,
+                    "text": "Figure S127",
+                    "ref_id": null
+                }
+            ],
+            "section": "To extent the representation into the time domain we use Time-lagged Independent"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "NWChem Computational Chemistry to Science NWChem software",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "High-Performance",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "A new all-round density functional based on spin states and SN2 barriers",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Swart",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sol\u00e0",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Bickelhaupt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J. Chem. Phys",
+            "volume": "131",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Density functional theory with dispersion corrections for supramolecular structures, aggregates, and complexes of (bio)organic molecules",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Grimme",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Antony",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Schwabe",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "M\u00fcck-Lichtenfeld",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Org. Biomol. Chem",
+            "volume": "5",
+            "issn": "",
+            "pages": "741--758",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Comparative assessment of a new nonempirical density functional: Molecules and hydrogen-bonded complexes",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Staroverov",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Scuseria",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Perdew",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "J. Chem. Phys",
+            "volume": "119",
+            "issn": "",
+            "pages": "12129--12137",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "A consistent and accurate ab initio parametrization of density functional dispersion correction (DFT-D) for the 94 elements H-Pu",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Grimme",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Antony",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ehrlich",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Krieg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J. Chem. Phys",
+            "volume": "132",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Sartorius products",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Humphrey",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dalke",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Schulten",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "J. Mol. Graph",
+            "volume": "14",
+            "issn": "",
+            "pages": "33--38",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Autodock vina: improving the speed and accuracy of docking",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Trott",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Olson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J. Comput. Chem",
+            "volume": "31",
+            "issn": "",
+            "pages": "455--461",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "py: A Python Based Metal Center Parameter Builder",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Merz",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Mcpb",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J. Chem. Inf. Model",
+            "volume": "56",
+            "issn": "",
+            "pages": "599--604",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "The accuracy of DFT-optimized geometries of functional transition metal compounds: A validation study of catalysts for olefin metathesis and other reactions in the homogeneous phase",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Minenkov",
+                    "suffix": ""
+                },
+                {
+                    "first": "\u00c5",
+                    "middle": [],
+                    "last": "Singstad",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Occhipinti",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Jensen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Dalt. Trans",
+            "volume": "41",
+            "issn": "",
+            "pages": "5526--5541",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "An overview of the Amber biomolecular simulation package",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Salomon-Ferrer",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Case",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Walker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Wiley Interdiscip. Rev. Comput. Mol. Sci",
+            "volume": "3",
+            "issn": "",
+            "pages": "198--210",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Gromacs: High performance molecular simulations through multi-level parallelism from laptops to supercomputers",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Abraham",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "19--25",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Revised RNA Dihedral Parameters for the Amber Force Field Improve RNA Molecular Dynamics",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Aytenfisu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Spasic",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Grossfield",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Stern",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Mathews",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J. Chem. Theory Comput",
+            "volume": "13",
+            "issn": "",
+            "pages": "900--915",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "PyEMMA 2: A Software Package for Estimation, Validation, and Analysis of Markov Models",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Scherer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J. Chem. Theory Comput",
+            "volume": "11",
+            "issn": "",
+            "pages": "5525--5542",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Barnaba: software for analysis of nucleic acid structures and trajectories",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Rei\u00dfer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Rna",
+            "volume": "25",
+            "issn": "",
+            "pages": "219--231",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "g_mmpbsa -A GROMACS Tool for High-Throughput MM-PBSA Calculations",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kumari",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lynn",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lynn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J. Chem. Inf. Model",
+            "volume": "54",
+            "issn": "",
+            "pages": "1951--1962",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "The non-Watson-Crick base pairs and their associated isostericity matrices",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Leontis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Nucleic Acids Res",
+            "volume": "30",
+            "issn": "",
+            "pages": "3497--3531",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Intramolecular DNA coiling mediated by metallo-supramolecular cylinders: differential binding of P and M helical enantiomers",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Meistermann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Proc. Natl. Acad. Sci. U. S. A",
+            "volume": "99",
+            "issn": "",
+            "pages": "5069--5074",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Drugging the RNA world",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Disney",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Dwyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Childs-Disney",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Cold Spring Harb. Perspect. Biol",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Revised RNA Dihedral Parameters for the Amber Force Field Improve RNA Molecular Dynamics",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Aytenfisu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Spasic",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Grossfield",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Stern",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Mathews",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J. Chem. Theory Comput",
+            "volume": "13",
+            "issn": "",
+            "pages": "900--915",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Molecular dynamics simulations identify time scale of conformational changes responsible for conformational selection in molecular recognition of HIV-1 transactivation responsive RNA",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Musiani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J. Am. Chem. Soc",
+            "volume": "136",
+            "issn": "",
+            "pages": "15631--15637",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Binding of a designed anti-cancer drug to the central cavity of an RNA three-way junction",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Phongtongpasuk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Angew. Chemie -Int. Ed",
+            "volume": "52",
+            "issn": "",
+            "pages": "11513--11516",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Fig. S2 (a) Docking of M cylinder on the 8 th solution (left) with binding score of -15.4 kcal/mol and docking of P cylinder on the 9 th solution (right) with binding score of -14.8 kcal/mol. (b) M cylinder in capping binding mode after docking on 9 th solution (top) binding score of -9.6 kcal/mol . P cylinder in capping binding mode on the 9 th solution ( -7.8kcal/mol ) Fig. S3 Capping of the cylinder: end-stacking observed in docking results of the 9 th NMR solution with the P (blue) and M(cyan) cylinders.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "S25 stable binding modes for 2 M Fe cylinders on Coxsackie stem loop.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Stable binding positions of the two P enantiomers (left) and M enantiomers (right) on the Coxsackievirus stem-loop in the simulations. 4b. Polio stem-loop Just one P enantiomer cylinder was added to the smaller polio Y-stem. The cylinder quickly docked to the open base pair at the end of the stem, and stayed there throughout the 2\u03bcs). Alt s simulation",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "S39 Simulation of polio stem-loop with the P cylinder that resulted in capping mode binding of the cylinder to the terminal bases. S46 Simulation of polio stem-loop with the M cylinder that resulted in the cylinder briefly binding to the loop and later moved along the groove.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": ". S5 (a) Stable binding position of the P enantiomer end-stacking on the Polio stem-loop in the simulations. (b) Simulation of polio stem-loop with the M cylinder showing the cylinder briefly binding to the loop and later moving along the groove.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "End-capping of the cylinder observed in an MD simulation.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Capping of the cylinder: the end-stacking experimentally observed in crystal structure 4JIY (red), overlain with that observed in an MD simulation followed by DFT optimisation (blue) .",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "S5.1 5b. Loop binding The cylinder can take advantage of unpaired open bases of the loop and bind transiently there (as also seen in coxsackievirus stem). This binding mode is less commonly observed in the simulation compared to other binding modes and is not as stable. The fact the binding is only transient in the simulation is an important observation as loops are a common feature in RNA structures (and indeed in non-cannonical DNA structures such as G-quadruplexes and i-motifs).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Exemplar bulge-binding modes observed in the simulations, including bridging from bulge to loop. The right hand figure has the cylinder in the position where the a cyclic peptide has been observed to bind to TAR.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "LW representation of the 20 NMR solutions of pdb ; 1RFR Figure S11 LW representation of first (left) and second (right) run of stem loop.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "PCA projections between 1-4 of combined simulation of Coxsackievirus stem-loop Figure S13 TICA projections between 1-4 of combined simulation of Coxsackievirus stem-loop Figure S14 Regions of the TICA landscape and corresponding structure for combined simulation of Coxsackievirus stem-loop Table 3 Relative energy estimate of each state of combined simulation of Coxsackievirus stem-loop Figure S15 CK-test for 12 states Figure S16 PCA TICA and model quality for 1 to 1200 steps of 10ps VAMP-2 score with respect to number of cluster centres on the TICA surface # Figure S18 TICA dimensions, density and corrected heat map for steps 1 to 50 of combined simulation of Coxsackievirus stem-loop Figure S19 TICA dimensions, density and corrected heat map for steps 100 to 5000 of combined simulation of Coxsackievirus stem-S21 TICA projections between 1-4 of run 1 Figure S22 PCA TICA and model quality for 1 to 1200 steps of 10ps of run S23 First 10 IC values over the simulation time of run 1 S24 Regions of the TICA landscape and corresponding structure for S25 TICA dimensions, density and corrected heat map for steps 10 to 500 of run S27 TICA projections between 1-4 of run 2 Figure S28 PCA TICA and model quality for 1 to 1200 steps of 10ps of run S30 Regions of the TICA landscape and corresponding structure of run 2 state \u03c0",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "TICA dimensions, density and corrected heat map for steps 100 to 5000 of run 2 Coxsackievirus with cylinders with P enantiomer-analysis of RNA only Figure S33 PCA projections between 1-4 of RNA conformations of coxsaackievirus stem loop in the presence of cylinder Figure S34 TICA dimensions, density and corrected heat map for 200 steps Coxackievirus High 500mM Figuire S35 LW representation of the coxsackievirus Stem-loop in 500mM NaCl concentration Figuire S36 PCA projections between 1-4 Stem-loop in 500mM NaCl concentration Figure S37 TICA projections between 1-4 for stem-loop in 500mM NaCl concentration Figure S38 PCA TICA and model quality for 1 to 600 steps of 10ps Figure S39 First 10 IC values over the simulation time Figure S40 Regions of the TICA landscape and corresponding structure for 500\u03bcs). Alt \u039c NaCl Poliovirus stem-loop Figure S41 LW representation of deposited structures (left) and after 5\u03bcs). Alt s simulation.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "S44 PCA TICA and model quality for 1 to 1200 steps of 10ps Figure S45 First 10 IC values over the simulation time Figure S46 Regions of the TICA landscape and corresponding S48 TICA projections between 1-S49 PCA TICA and model quality for 1 to 1200 steps of 10ps Figure S50 First 10 IC values over the simulation time Figure S51 Regions of the TICA landscape and corresponding structure Figure S52 3D representation of the corresponding micro-states. S55 PCA TICA and model quality for 1 to 1200 steps of 10ps HIV2 Figure S56 LW representation of deposited structures (left) and after 3\u03bcs). Alt s simulation of HIV2-TAR element Figure S57 PCA projections between 1-S59 PCA TICA and model quality for 1 to 1200 steps of 10ps Figure S60 First 10 IC values over the simulation time Figure S61 Regions of the TICA landscape and corresponding structure Figure S62 TICA dimensions, density and corrected heat map for steps 10 to 500 S63 LW representation of 1ANR solutions (left) and after 10\u03bcs). Alt s simulation (right) S66 First 10 IC values over the simulation time Figure S67 Regions of the TICA landscape and corresponding structure Figure S68 TICA dimensions, density and corrected heat map for steps 10 S72 First 10 IC values over the simulation time Figure S73 Regions of the TICA landscape and corresponding structure Figure S74 TICA dimensions, density and corrected heat map for steps 10 S78 First 10 IC values over the simulation time Figure S80 TICA dimensions, density and corrected heat map for steps 10 S84 First 10 IC values over the simulation time Figure S85 Regions of the TICA landscape and corresponding structure Figure S86 TICA dimensions, density and corrected heat map for steps 10 S90 First 10 IC values over the simulation time Figure S91 Regions of the TICA landscape and corresponding structure Figure S92 TICA dimensions, density and corrected heat map for steps 10 to 500 1ANR S93 Simulation starting from 10 solution of 1ANR Figure S94 PCA projections between 1-S96 First 10 IC values over the simulation time Figure S97 Regions of the TICA landscape and corresponding structure Figure S98 TICA dimensions, density and corrected heat map for steps 10 to 500 1ANR S99 Simulation starting from 12 solution of 1ANR Figure S100 PCA projections between 1-S101 TICA projections between 1S102 First 10 IC values over the simulation time Figure S103 Regions of the TICA landscape and corresponding structure Figure S104 TICA dimensions, density and corrected heat map for steps 10 to 500 1ANR S105 Simulation starting from 16 solution of 1ANR Figure S106 PCA projections between 1-S107 TICA projections between 1S108 First 10 IC values over the simulation time Figure S109 Regions of the TICA landscape and corresponding structure Figure S110 TICA dimensions, density and corrected heat map for steps 10 to 500 1uui Figure S111 LW representation of the 2\u03bcs). Alt s simulation starting from pdb 1UUI after removing the ligand.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF13": {
+            "text": "S113 TICA projections between 1S114 First 10 IC values over the simulation time FigureS115 Regionsof the TICA landscape and corresponding structure Figure S116 TICA dimensions, density and corrected heat map for steps 10 S117 LW representation of concatenated independent trajectories Figure S118 PCA projections between 1-S119 TICA projections between 1S120 First 10 IC values over the simulation timeFigure S121 Secondary structures of metastable points in the simulation (i) Figure S122 Secondary structures of metastable points in the simulation (ii) Figure S123 TICA dimensions, density and corrected heat map for steps 1 to 50 Figure S124 TICA dimensions, density and corrected heat map for steps 10 to 500Figure S125 TICA dimensions, density and corrected heat map for steps 100 to 5000 S119 TICA projections between 1-S120 First 10 IC values over the simulation timeFigure S121Regions of the TICA landscape and corresponding structure and corresponding escores and 3d structure state \u03c0",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF14": {
+            "text": "S122 TICA dimensions, density and corrected heat map for steps 10 S124 TICA projections between 1-S125 First 10 IC values over the simulation timeFigure S126Regions of the TICA landscape and corresponding structure and the corresponding 3D structure state \u03c0",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF15": {
+            "text": "S134 Stages of entering of the M cylinder in this run Figure S135 Intermediate splitting of the stacking of bases reminiscent of 3 way junction splitting Figure S136 Extent of the overlapping surface between cylinder an opening of the bulge.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF16": {
+            "text": "S138 TICA projections between 1-S139 First 10 IC values over the simulation timeFigure S140 LW representation of the changes in base pairing and stacking in the presence of the cylinder in the bulge.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF17": {
+            "text": "Regions of the TICA landscape and corresponding structure Figure S142 snapshots of the entering process Figure S143 Surface of the created bulge pocket stabilised by the cylinder S146 Regions of the TICA landscape and corresponding structure and 3D Figure S147 Representing network of transition probability between the above states. S149 TICA projections between 1-S150 First 10 IC values over the simulation time Figure S151 Regions of the TICA landscape and corresponding structure PC4 Figure S152 PCA projections between 1S153 First 10 IC values over the simulation time Figure S154 Regions of the TICA landscape and corresponding structure Figure S155 summary of base interaction with the P cylinder in the bulge pocket.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF18": {
+            "text": "S157 TICA projections between 1-S158 First 10 IC values over the simulation timeFigure S159Regions of the TICA landscape and corresponding structure Figure S160 summary of base interaction with the P cylinder in the bulge pocketFigure S161entering process for the P cylinder Figure S162 Surface and stacking of the bulge bases around the P cylinder. S164 TICA projections between 1-S165 Stacking and base-pairings with the cylinder capping the terminal bases.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF19": {
+            "text": "S168 Stable binding of the P cylinder to the terminal bases. S171 Local minima at the TICA landscape in LW and corresponding structures Figure S172 Snapshots of the entering process for the P cylinder.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF20": {
+            "text": "S173 surface of the bulge pocket with the P cylinder bound",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF1": {
+            "text": "LW",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

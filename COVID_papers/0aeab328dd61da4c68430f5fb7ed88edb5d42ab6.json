@@ -1,0 +1,1543 @@
+{
+    "paper_id": "0aeab328dd61da4c68430f5fb7ed88edb5d42ab6",
+    "metadata": {
+        "title": "Group IIA Secreted Phospholipase A2 Plays a Central Role in the Pathobiology of COVID-19",
+        "authors": [
+            {
+                "first": "Justin",
+                "middle": [
+                    "M"
+                ],
+                "last": "Snider",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jeehyun",
+                "middle": [
+                    "Karen"
+                ],
+                "last": "You",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Stony Brook University",
+                    "location": {
+                        "settlement": "Stony Brook",
+                        "region": "NY",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Xia",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Anhui Medical University",
+                    "location": {
+                        "settlement": "Hefei",
+                        "country": "PR China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ashley",
+                "middle": [
+                    "J"
+                ],
+                "last": "Snider",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Brian",
+                "middle": [],
+                "last": "Hallmark",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Arizona",
+                    "location": {
+                        "settlement": "Tucson",
+                        "region": "AZ",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Michael",
+                "middle": [
+                    "C"
+                ],
+                "last": "Seeds",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Wake Forest School of Medicine Winston-Salem",
+                    "location": {
+                        "region": "NC",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Susan",
+                "middle": [],
+                "last": "Sergeant",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Laurel",
+                "middle": [],
+                "last": "Johnstone",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Research Innovation and Impact -core facilities",
+                    "institution": "University of Arizona",
+                    "location": {
+                        "settlement": "Tucson",
+                        "region": "AZ",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Qiuming",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ryan",
+                "middle": [],
+                "last": "Sprissler",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Arizona",
+                    "location": {
+                        "settlement": "Tucson",
+                        "region": "AZ"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Helen",
+                "middle": [],
+                "last": "Hao",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Arizona",
+                    "location": {
+                        "settlement": "Tucson",
+                        "region": "AZ",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Chiara",
+                "middle": [],
+                "last": "Luberto",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Stony Brook University",
+                    "location": {
+                        "settlement": "Stony Brook",
+                        "region": "NY",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Richard",
+                "middle": [
+                    "R"
+                ],
+                "last": "Kew",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Stony Brook Cancer Center",
+                    "location": {
+                        "settlement": "Stony Brook",
+                        "region": "NY",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yusuf",
+                "middle": [
+                    "A"
+                ],
+                "last": "Hannun",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Stony Brook Cancer Center",
+                    "location": {
+                        "settlement": "Stony Brook",
+                        "region": "NY",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Charles",
+                "middle": [
+                    "E"
+                ],
+                "last": "Mccall",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Guang",
+                "middle": [],
+                "last": "Yao",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Arizona",
+                    "location": {
+                        "settlement": "Tucson",
+                        "region": "AZ",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Maurizio",
+                "middle": [],
+                "last": "Del Poeta",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Stony Brook University",
+                    "location": {
+                        "settlement": "Stony Brook",
+                        "region": "NY",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Floyd",
+                "middle": [
+                    "H"
+                ],
+                "last": "Chilton",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Arizona",
+                    "location": {
+                        "settlement": "Tucson",
+                        "region": "AZ",
+                        "country": "USA"
+                    }
+                },
+                "email": "fchilton@arizona.edu"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "There is an urgent need to identify cellular and molecular mechanisms responsible for severe COVID-19 disease accompanied by multiple organ failure and high mortality rates. Here, we performed untargeted/targeted lipidomics and focused biochemistry on 127 patient plasma samples, and showed high levels of circulating, enzymatically active secreted phospholipase A2 Group IIA (sPLA2-IIA) in severe and fatal COVID-19 disease compared with uninfected patients or mild illness. Machine learning demonstrated that sPLA2-IIA effectively stratifies severe from fatal COVID-19 disease. We further introduce a PLA-BUN index that combines sPLA2-IIA and blood urea nitrogen (BUN) threshold levels as a critical risk factor for mitochondrial dysfunction, sustained inflammatory injury and lethal COVID-19. With the availability of clinically tested inhibitors of sPLA2-IIA, our study opens the door to a precision intervention using indices discovered here to reduce COVID-19 mortality.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "site 16 . sPLA2-IIA elevations occur under various clinical conditions, including sepsis and systemic bacterial infections, adult respiratory disease syndrome (ARDS), atherosclerosis, cancer, and multiple organ trauma. 16 Basal levels of circulating sPLA2-IIA in healthy humans are ~3 ng/ml; however, sPLA2-IIA plasma concentrations can reach 250-500 ng/ml during acute sepsis 17 .",
+            "cite_spans": [
+                {
+                    "start": 5,
+                    "end": 7,
+                    "text": "16",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 219,
+                    "end": 221,
+                    "text": "16",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 377,
+                    "end": 379,
+                    "text": "17",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Here, we identify lipidomic signatures of PLA2 hydrolysis and mitochondrial dysfunction that correspond with COVID-19 severity in 127 patient plasma samples. Extremely high levels of circulating sPLA2-IIA mirrored disease severity, particularly in deceased COVID-19 patients.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Circulating sPLA2-IIA remained catalytically active and was associated with indices of disease severity, hyperglycemia, kidney dysfunction, hypoxia, anemia, and multiple organ dysfunction.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Importantly, unbiased machine learning identified sPLA2-IIA as a central node in predicting survivors from non-survivors in severe COVID-19 cases. Our findings demonstrate that the plasma sPLA2-IIA level, together with BUN, may serve as a potent clinical indicator for COVID-19 related mortality and suggest that the use of sPLA2-IIA inhibitors may provide a novel, targeted therapeutic approach to treat severe COVID-19 disease.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "A total of 127 patient plasma samples collected between May and July 2020 were analyzed. The demographics and baseline clinical characteristics of the patients are shown in Table 1 . Age differed across groups, with deceased COVID-19 patients being older on average ( Figure S1 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 173,
+                    "end": 180,
+                    "text": "Table 1",
+                    "ref_id": "TABREF6"
+                },
+                {
+                    "start": 268,
+                    "end": 277,
+                    "text": "Figure S1",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Patients"
+        },
+        {
+            "text": "There were no significant trends in BMI or obesity. Prevalence of various co-morbidities was comparable across groups, except for rheumatologic disease in mild COVID-19 patients ( Figure   S1 ). Severe and deceased COVID-19 patients experienced more complications, with higher incidences of cardiac arrest, acute kidney injury/renal failure, bacterial pneumonia, ARDS, and sepsis ( Figure S1 ). All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 180,
+                    "end": 191,
+                    "text": "Figure   S1",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 382,
+                    "end": 391,
+                    "text": "Figure S1",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Patients"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patients"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted February 23, 2021. ; https://doi.org/10.1101/2021.02.22.21252237 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patients"
+        },
+        {
+            "text": "Untargeted lipidomic analysis of the plasma samples revealed that the most significant changes in the lipid profile occurred in deceased COVID-19 patients ( Figure 1A) , with 181 unique molecules identified. Further analysis of the 20 most significant molecules demonstrated an enrichment in metabolites associated with acylcarnitine and phospholipid metabolism ( Figure 1B) . Initial analysis showed that several lyso-phosphatidylethanolamine (lyso-PE) molecular species typified by C16eLysoPE and unsaturated fatty acids such as linoleic (18:2) and oleic acids (18:1) were elevated in severe/deceased COVID-19 patients ( Figure 1C ). Targeted lipidomics confirmed the compositional untargeted lipidomic analysis, showing significant increases in major molecular species of lyso-PE and lyso-phosphatidylserine (lyso-PS) while demonstrating no changes in lyso-phosphatidylcholine (lyso-PC) ( Figure S2 ). Together, this suggested hydrolysis by a PLA2 activity ( Figure 1D ).",
+            "cite_spans": [
+                {
+                    "start": 563,
+                    "end": 569,
+                    "text": "(18:1)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 157,
+                    "end": 167,
+                    "text": "Figure 1A)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 364,
+                    "end": 374,
+                    "text": "Figure 1B)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 623,
+                    "end": 632,
+                    "text": "Figure 1C",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 892,
+                    "end": 901,
+                    "text": "Figure S2",
+                    "ref_id": "FIGREF9"
+                },
+                {
+                    "start": 962,
+                    "end": 971,
+                    "text": "Figure 1D",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Plasma Lipidomic Profiles and Covid Disease Status"
+        },
+        {
+            "text": "Plasma short chain acyl carnitine and particularly acetylcarnitine has recently been shown to serve as an independent prognostic biomarker for mortality in sepsis and heart failure 18, 19 .",
+            "cite_spans": [
+                {
+                    "start": 181,
+                    "end": 184,
+                    "text": "18,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 185,
+                    "end": 187,
+                    "text": "19",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Plasma Lipidomic Profiles and Covid Disease Status"
+        },
+        {
+            "text": "Interestingly, short-and medium-chain acylcarnitines (acetyl and hexanoyl carnitines) were also elevated in severe and deceased COVID-19 patients ( Figure 1C ). Furthermore, acetylcarnitine showed high areas under ROC curves: 0.810 (95% CI, 0.694-0.925) for mild vs. severe and 0.849 (95% CI, 0.752-0.945) for mild vs. deceased ( Figure S3A ). Additionally, plasma concentrations of mitochondrially encoded cytochrome B (MT-CYB) and cytochrome c oxidase subunit III (MT-COX3) were significantly elevated in deceased COVID-19 patients compared to non-COVID-19 and mild COVID-19 patients, suggesting elevated mtDNA ( Figure S3B ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 148,
+                    "end": 157,
+                    "text": "Figure 1C",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 330,
+                    "end": 340,
+                    "text": "Figure S3A",
+                    "ref_id": "FIGREF10"
+                },
+                {
+                    "start": 615,
+                    "end": 625,
+                    "text": "Figure S3B",
+                    "ref_id": "FIGREF10"
+                }
+            ],
+            "section": "Plasma Lipidomic Profiles and Covid Disease Status"
+        },
+        {
+            "text": "Given the critical role of sPLA2-IIA in several related diseases 16 , its levels were quantified in all 127 patients. Figure 2A shows the distribution of sPLA2-IIA in all patients and the marked increase of sPLA2-IIA in severe (66.6 \u00b1 25.2 ng/ml) and deceased COVID-19 patients (187.3 \u00b1 46.6 ng/ml) All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 65,
+                    "end": 67,
+                    "text": "16",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 118,
+                    "end": 127,
+                    "text": "Figure 2A",
+                    "ref_id": "FIGREF9"
+                }
+            ],
+            "section": "Circulating Secreted PLA2-IIA Associated with Covid-19 Disease Status"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Circulating Secreted PLA2-IIA Associated with Covid-19 Disease Status"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted February 23, 2021. ; https://doi.org/10.1101/2021.02.22.21252237 doi: medRxiv preprint compared to non-COVID-19 (24.1 \u00b1 7.4 ng/ml) and mild COVID-19 patients (31.5 \u00b1 9.4 ng/ml).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Circulating Secreted PLA2-IIA Associated with Covid-19 Disease Status"
+        },
+        {
+            "text": "There was heterogeneity among the severe COVID-19 patients with 48% of severe patients having relatively normal (< 10 ng/ml) levels of circulating sPLA2-IIA levels (inset, Figure 2A ). In contrast, sPLA2-IIA in all deceased COVID-19 patients exceeded 10 ng/ml, with 46% of these patients having at least 10-fold higher levels (ranging from 102 ng/ml to 1020 ng/ml). Enzymatic assays showed sPLA2-IIA was catalytically active ( Figure 2B) , with a strong correlation (r 2 = 0.84, p = 1.2 x 10 -13 ) between sPLA2-IIA levels and enzymatic activity ( Figure 2C ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 172,
+                    "end": 181,
+                    "text": "Figure 2A",
+                    "ref_id": "FIGREF9"
+                },
+                {
+                    "start": 427,
+                    "end": 437,
+                    "text": "Figure 2B)",
+                    "ref_id": "FIGREF9"
+                },
+                {
+                    "start": 548,
+                    "end": 557,
+                    "text": "Figure 2C",
+                    "ref_id": "FIGREF9"
+                }
+            ],
+            "section": "Circulating Secreted PLA2-IIA Associated with Covid-19 Disease Status"
+        },
+        {
+            "text": "Elevated levels of plasma sPLA2-IIA were significantly associated with several critical clinical indices ( Figure 2D ). Its positive correlation with higher baseline NEWS2 and 7-category ordinal scale scores suggests a role of sPLA2-IIA in disease severity. The positive correlation of sPLA2-IIA with glucose levels highlights its link to inflammation. Consistently, hyperglycemia has been reported to be an important prognostic factor for COVID-19, associated with a prooxidative/proinflammatory state 20 . The positive correlations with creatinine and BUN levels demonstrate how sPLA2-IIA levels may also reflect kidney dysfunction. Finally, the negative correlations with hematocrit, hemoglobin levels, and baseline oxygen saturation suggest elevated sPLA2-IIA levels may be associated with hypoxia, anemia, and multiple organ dysfunction 21 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 107,
+                    "end": 116,
+                    "text": "Figure 2D",
+                    "ref_id": "FIGREF9"
+                }
+            ],
+            "section": "Circulating Secreted PLA2-IIA Associated with Covid-19 Disease Status"
+        },
+        {
+            "text": "The eighty clinical indices measured in our cohort of 127 patients were analyzed by machine learning models. First, a decision tree was generated by recursive partitioning to identify critical indices that separate the four patient groups with high accuracy (area under ROC curve = 0.93-1.0, Figure 3A inset). Specifically, patients positive for COVID-19 were stratified using the predictor \"7-category ordinal scale\" into \"mild\" and \"severe or deceased\", with 91% and 100% accuracy, respectively. Of patients in \"severe or deceased\", sPLA2-IIA levels were found to effectively separate the survivors from non-survivors. Those with sPLA2-IIA <10 ng/mL were classified as \"severe\" but not \"deceased\" with a 100% accuracy; in contrast, those with sPLA2-IIA All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 292,
+                    "end": 301,
+                    "text": "Figure 3A",
+                    "ref_id": "FIGREF10"
+                }
+            ],
+            "section": "Levels of Secreted PLA2-IIA as a Central Predictor of Covid-19 Mortality"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Levels of Secreted PLA2-IIA as a Central Predictor of Covid-19 Mortality"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted February 23, 2021. ; https://doi.org/10.1101/2021.02.22.21252237 doi: medRxiv preprint \u2265 10 ng/mL were placed as \"deceased\" with a 63% accuracy. Of these sPLA2-high (\u2265 10 ng/mL) patients, BUN levels further helped improve the prediction of survival: those with BUN <16 mg/dL were classified as \"severe\" but not \"deceased\" (100% accuracy); conversely, those with BUN \u2265 16 mg/dL were markedly enriched (76%) with \"deceased\" patients. In short, the decision tree identified sPLA2 and BUN as two critical risk factors for COVID-19 mortality. Correspondingly, the effective separation of mild, severe, and deceased COVID-19 patients can be visualized in the sPLA2-BUN boundary graphs ( Figure 3B ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 740,
+                    "end": 749,
+                    "text": "Figure 3B",
+                    "ref_id": "FIGREF10"
+                }
+            ],
+            "section": "Levels of Secreted PLA2-IIA as a Central Predictor of Covid-19 Mortality"
+        },
+        {
+            "text": "The decision tree provides a clinical blueprint to identify COVID-19 patients that progress to mortality. To validate sPLA2 and BUN as two critical predictors of COVID-19 mortality, an additional random forest analysis was performed to evaluate the relative importance of all 80 clinical indices. We randomly selected subsets of patients and features (clinical indices) and built decision trees (1,000 trees each in 10 repeats) to provide a robust assessment of feature importance in separating severe vs. deceased COVID-19 patients. Consistently, sPLA2 and BUN were identified as the top 2 features ranking significantly higher (p < 0.0001) above all other clinical indices to accurately predict COVID-19 related mortality ( Figure 4) . Importantly, combining both decision boundary conditions of sPLA2 and BUN (the PLA-BUN index) performed more accurately than using either index alone ( Figure 3C ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 726,
+                    "end": 735,
+                    "text": "Figure 4)",
+                    "ref_id": "FIGREF11"
+                },
+                {
+                    "start": 890,
+                    "end": 899,
+                    "text": "Figure 3C",
+                    "ref_id": "FIGREF10"
+                }
+            ],
+            "section": "Levels of Secreted PLA2-IIA as a Central Predictor of Covid-19 Mortality"
+        },
+        {
+            "text": "Given growing evidence suggesting that lipid metabolism plays a critical role in determining COVID-19 outcomes, we sought to identify molecular mechanisms that reconcile key lipidomic changes. Untargeted lipidomic analysis in this study, consistent with other reports, suggest that PLA2 activation and mitochondrial dysfunction are central determinants of COVID-19 severity and mortality 14, 15, 22, 23 . Specifically, significant elevations in lyso-PLs (PE, PS, but not PC) and",
+            "cite_spans": [
+                {
+                    "start": 388,
+                    "end": 391,
+                    "text": "14,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 392,
+                    "end": 395,
+                    "text": "15,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 396,
+                    "end": 399,
+                    "text": "22,",
+                    "ref_id": null
+                },
+                {
+                    "start": 400,
+                    "end": 402,
+                    "text": "23",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "increased linoleic and oleic acid levels are hallmarks of catalysis by a sPLA2 isoform. Further PLA2 analysis revealed that high concentrations of catalytically active sPLA2 circulate in the All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted February 23, 2021. ; https://doi.org/10.1101/2021.02.22.21252237 doi: medRxiv preprint plasma of severe and deceased COVID-19 patients. Elevated PLA2 activity in plasma of severe sepsis patients was initially described in the 1980s [24] [25] [26] [27] . These studies showed that high levels of plasma PLA2 activity (~20-fold increase) were not only sustained, but also further elevated in patients who succumbed to sepsis, suggesting distinct cellular and molecular mechanisms associated with mortality. In the present study, PLA2 activity was identified as sPLA2-IIA 28 , and deceased COVID-19 patients averaged 18.7-fold higher than normal (<10 ng/ml) with concentrations as high as 1,020 ng/ml. Forty-six percent of deceased COVID-19 patients had concentrations 10-fold or greater, and elevated sPLA2-IIA levels in patients were associated with several indices of COVID-19 disease severity (e.g., hyperglycemia, kidney dysfunction, hypoxia, anemia, and multiple organ dysfunction). These findings support that sPLA2-IIA is a central mediator in determining poor COVID-19 outcomes. Together, our data indicate that defective fatty acid oxidation and mitochondrial dysfunction within vital organs may not only induce inflammatory damage 32,33 , but could underly sPLA2-IIA-related COVID-19 severity and mortality.",
+            "cite_spans": [
+                {
+                    "start": 291,
+                    "end": 295,
+                    "text": "[24]",
+                    "ref_id": null
+                },
+                {
+                    "start": 296,
+                    "end": 300,
+                    "text": "[25]",
+                    "ref_id": null
+                },
+                {
+                    "start": 301,
+                    "end": 305,
+                    "text": "[26]",
+                    "ref_id": null
+                },
+                {
+                    "start": 306,
+                    "end": 310,
+                    "text": "[27]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "The clinical decision tree developed in this study offers a framework to identify COVID-19 patients at high risk for progressing to mortality ( Figure 3A ). Circulating sPLA2-IIA \u2265 10 ng/ml was identified as a critical marker to stratify deceased from severe (yet survived) COVID-19 patients, pinpointing All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 144,
+                    "end": 153,
+                    "text": "Figure 3A",
+                    "ref_id": "FIGREF10"
+                }
+            ],
+            "section": "Conclusion"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted February 23, 2021. ; https://doi.org/10.1101/2021.02.22.21252237 doi: medRxiv preprint sPLA2-IIA as a risk factor for COVID-19 related mortality. Our decision tree further corroborates BUN as an important risk factor associated with COVID-19 mortality 34 . Strikingly, sPLA2-IIA and BUN also stood out as the two unique and essential predictors of the mortality in severe COVID-19 patients, with their feature importance rankings significantly higher (p < 0.0001) than other clinical indices in our random forest analysis. When we combined sPLA2-IIA and BUN into a PLA-BUN index, severe and deceased patients separated more accurately than using either one alone.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "Thus, we introduce the PLA-BUN index as a novel and potentially powerful clinical tool to predict COVID-19 related mortality and stratify severe patients to receive treatment of sPLA2-IIA inhibitors.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "sPLA2-IIA has direct and organism-wide pathogenic characteristics ( Figure 5 Damaged mitochondria can then be internalized by bystander leukocytes ( Figure 5C ) to increase inflammatory mediators including lyso-PLs, unsaturated fatty acids, eicosanoids, and cytokines. sPLA2-IIA also hydrolyzes platelet-derived extracellular vesicles (EV) to release cyclooxygenase, thromboxane synthase, and 12-lipoygenase inflammatory eicosanoids 16 . Collectively, this study suggests that cell injury and destructive events spreading across organs amplify inflammation with the potential to further damage tissues and organs in severe and fatal COVID-19 disease.",
+            "cite_spans": [
+                {
+                    "start": 433,
+                    "end": 435,
+                    "text": "16",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 68,
+                    "end": 76,
+                    "text": "Figure 5",
+                    "ref_id": "FIGREF12"
+                },
+                {
+                    "start": 149,
+                    "end": 158,
+                    "text": "Figure 5C",
+                    "ref_id": "FIGREF12"
+                }
+            ],
+            "section": "Conclusion"
+        },
+        {
+            "text": "As a retrospective observational study, there are limitations. Since study patients were selected on plasma sample availability, the study is subject to potential confounders and may not represent All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted February 23, 2021. ; https://doi.org/10.1101/2021.02.22.21252237 doi: medRxiv preprint the general population. Additionally, clinical data availability was restricted to existing medical records, and there were missing values in the dataset. Furthermore, temporal relationships are difficult to assess as plasma sampling was not standardized. Finally, given the chaotic nature of COVID-19 management in early 2020, current standards of care may differ. In spite of these limitations, the study provides key mechanistic insights into COVID-19 mortality. It identifies sPLA2-IIA as a previously unrecognized and plausible life-threatening mechanism underlying COVID-19 severity and mortality. It also provides a clinical blueprint to identify those COVID-19 patients at risk of death and supports sPLA2-IIA as a therapeutic target.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "sPLA2-IIA secretion increases during other forms of critical illness, often complicated by multiple organ failure and high mortality rates [41] [42] [43] . Consequently, structurally diverse classes of sPLA2-IIA inhibitors were developed that selectively inhibit sPLA2-IIA. Although deemed safe for clinical use, clinical trials using a sPLA2-IIA inhibitor only improved survival in sepsis patients when treatment was initiated within 18 hours of organ failure 44, 45 . Further examination of these studies' design revealed limitations: 1) patient selection criteria did not incorporate patient sPLA2-IIA levels and 2) circulating sPLA2-IIA levels were not reported in the studies. Therefore, inappropriate patient selection likely contributed to patient heterogeneity, resulting in negative findings. Indeed, a recent study reported that, using a cutoff value of 25 ng/ml, sPLA2-IIA is highly sensitive and specific in detecting sepsis 46 . Given that all deceased COVID-19 patients in our study had elevated sPLA2-IIA levels (>10 ng/ml), we propose incorporating sPLA2-IIA levels and specifically the newly identified PLA-BUN index into patient selection criteria to assess the efficacy of sPLA2-IIA inhibitors in increasing survival of severe COVID-19 patients.",
+            "cite_spans": [
+                {
+                    "start": 139,
+                    "end": 143,
+                    "text": "[41]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 144,
+                    "end": 148,
+                    "text": "[42]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 149,
+                    "end": 153,
+                    "text": "[43]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 461,
+                    "end": 464,
+                    "text": "44,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 465,
+                    "end": 467,
+                    "text": "45",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 937,
+                    "end": 939,
+                    "text": "46",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "In conclusion, we show for what we believe is the first time that sPLA2-IIA is a novel clinical indicator of COVID-19 disease severity and mortality and likely a central mechanistic driver of immune and multiorgan failure. Given the new stratification tools discovered here, sPLA2-IIA inhibitors merit testing in clinical trials against severe COVID-19 to reduce mortality. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "This retrospective study analyzed 127 plasma samples from patients hospitalized at Stony Brook University Medical Center (Stony Brook, NY, United States) from January to July 2020. This study followed Good Clinical Practice guidelines and was approved by the central institutional review board at Stony Brook University (IRB2020-00423). COVID-19 was diagnosed using the viral nucleic acid test (RT-PCR) per guidelines from Centers for Disease Control and Prevention (CDC). COVID-19 patients were classified into 3 groups: 1) mild = mild symptoms without pneumonia on imaging and discharged from inpatient care, 2) severe = respiratory tract or nonspecific symptoms, pneumonia confirmed by chest imaging, oxygenation index below 94% on room air, and discharged from inpatient care, 3) deceased = expired during inpatient care. MS data for all samples were collected using dynamic exclusion and then aligned with pooled All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study Design"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sample Processing and Lipidomic Analyses"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted February 23, 2021. Each diluted serum sample was compared to a control reaction of a gBlock standard, and the delta-Ct was used to correct the calculated concentrations from triplicate reactions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sample Processing and Lipidomic Analyses"
+        },
+        {
+            "text": "Untargeted lipidomic data were transformed, normalized, and analyzed using MetaboAnalyst 4.0.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Analyses"
+        },
+        {
+            "text": "The Benjamini-Hochberg procedure was used to control the false discovery rate (FDR), and the All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Analyses"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Analyses"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted February 23, 2021. ; https://doi.org/10.1101/2021.02.22.21252237 doi: medRxiv preprint molecules with FDR \u2264 0.1 and absolute log2 fold change (FC) \u2265 1.5 were considered as significant and biologically relevant. Individual metabolites, sPLA2 levels, sPLA2 activity, and mtDNA levels were compared between groups with non-parametric Mann-Whitney Wilcoxon tests at an \u03b1-level of 0.05. Spearman correlations between sPLA2 levels and clinical indices were computed in R.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Analyses"
+        },
+        {
+            "text": "Receiver operating characteristic (ROC) curves, area under the curves (AUC), and confidence intervals were generated using the R packages ROCR and pROC.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Analyses"
+        },
+        {
+            "text": "Eighty initial clinical indices were used as input variables to build a predictive model (i.e., decision tree) by recursive partitioning, using the Classification and Regression Trees (CART) algorithm 50 implemented in the R package RPART. The tree model identified a set of predictive features (branch conditions) that best classified the 127 patients into the 4 groups: non-COVID-19, mild, severe, and deceased COVID-19 patients. The tree split points were determined by the Gini index with the minimum leaf size = 10. A tenfold cross-validation method was used to tune the tree model and evaluate its prediction accuracy. To avoid overfitting, the tree was pruned back to the smallest size while minimizing the cross-validated error. The classification accuracy of the tree to determine each group membership (e.g., deceased vs. non-deceased) was assessed using the area under the ROC curve. To further evaluate the relative feature importance in accurately separating severe and deceased COVID-19 patients, a random forest analysis was performed using the R package randomForest 51. An assembly of 1,000 random decision trees was constructed in each forest, and 10 forests were constructed in replicate. The importance of a given feature (i.e., one of the 80 clinical indices) was assessed by the decrease of prediction accuracy when such a feature was omitted in the model, based on two measurement metrics: Gini importance or Mean Decrease Impurity (MDI), and permutation importance or Mean Decrease Accuracy (MDA). All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Decision Tree and Random Forest Construction"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Decision Tree and Random Forest Construction"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Decision Tree and Random Forest Construction"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Decision Tree and Random Forest Construction"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted February 23, 2021. ; https://doi.org/10.1101/2021.02.22.21252237 doi: medRxiv preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Decision Tree and Random Forest Construction"
+        },
+        {
+            "text": "Median NEWS2 score (IQR) 0 (0-1) 0 (0-1) 7 (5-9) 7 (5.75-9) <0.0001 All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Presenting signs and symptoms"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. Figure S1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 272,
+                    "end": 281,
+                    "text": "Figure S1",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Presenting signs and symptoms"
+        },
+        {
+            "text": "All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Presenting signs and symptoms"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. intensity representing the magnitude of value (mean-centered, scaled by the standard deviation, and log-transformed with non-Gaussian distribution).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Presenting signs and symptoms"
+        },
+        {
+            "text": "All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Presenting signs and symptoms"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Presenting signs and symptoms"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted February 23, 2021. ; https://doi.org/10.1101/2021.02.22.21252237 doi: medRxiv preprint (x-axis) and deceased (y-axis) COVID-19 patients are indicated with a red star, which are higher than such classification accuracies of using the single index of sPLA2 (light blue curve) or BUN (dark blue curve) with varying cutoff values in the corresponding data range (sPLA2, 3.4-1101.2 ng/mL; BUN, 5-242 mg/dL).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Presenting signs and symptoms"
+        },
+        {
+            "text": "All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Presenting signs and symptoms"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. shown (color scheme is proportional to the importance score).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Presenting signs and symptoms"
+        },
+        {
+            "text": "All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Presenting signs and symptoms"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. containing eicosanoid-producing enzymes (cyclooxygenase (COX-1), thromboxane synthase (Tx synthase) and 12-lipoxygenase). Collectively, these events amplify late inflammatory responses, further damaging tissues and organs. Progressive tissue/organ damage plays a critical role in progressing COVID-19 disease to mortality. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Presenting signs and symptoms"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Presenting signs and symptoms"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted February 23, 2021. ; https://doi.org/10.1101/2021.02.22.21252237 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Presenting signs and symptoms"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Disease Tolerance as an Inherent Component of Immunity",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Martins",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Annu Rev Immunol",
+            "volume": "37",
+            "issn": "",
+            "pages": "405--437",
+            "other_ids": {
+                "DOI": [
+                    "10.1146/annurev-immunol-042718-041739"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Two distinct immunopathological profiles in autopsy lungs of COVID-19",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Nienhold",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Commun",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41467-020-18854-2"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Reduction and Functional Exhaustion of T Cells in Patients With Coronavirus Disease 2019 (COVID-19). Front Immunol 11",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Diao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "827",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fimmu.2020.00827"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Proteomic and Metabolomic Characterization of COVID-19",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Patient Sera. Cell",
+            "volume": "182",
+            "issn": "",
+            "pages": "59--72",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cell.2020.05.032"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Plasma metabolomic and lipidomic alterations associated with COVID-19",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "National Science Review",
+            "volume": "7",
+            "issn": "",
+            "pages": "1157--1168",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nsr/nwaa086"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Roles of secreted phospholipase A(2) group IIA in inflammation and host defense",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Dore",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Boilard",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Biochim Biophys Acta Mol Cell Biol Lipids",
+            "volume": "1864",
+            "issn": "",
+            "pages": "789--802",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.bbalip.2018.08.017"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Type IIA Secreted Phospholipase A2 in Host Defense against Bacterial Infections",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Van Hensbergen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Van Sorge",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Touqui",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Trends Immunol",
+            "volume": "41",
+            "issn": "",
+            "pages": "313--326",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.it.2020.02.003"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Increased Plasma Acetylcarnitine in Sepsis Is Associated With Multiple Organ Dysfunction and Mortality: A Multicenter Cohort Study",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Chung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Crit Care Med",
+            "volume": "47",
+            "issn": "",
+            "pages": "210--218",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/ccm.0000000000003517"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Circulating acylcarnitine profile in human heart failure: a surrogate of fatty acid metabolic dysregulation in mitochondria and beyond",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ruiz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Am J Physiol Heart Circ Physiol",
+            "volume": "313",
+            "issn": "",
+            "pages": "768--781",
+            "other_ids": {
+                "DOI": [
+                    "10.1152/ajpheart.00820.2016"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Hyperglycemia and the worse prognosis of COVID-19",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ceriello",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Damage-Associated Molecular Patterns in Inflammatory Diseases",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Roh",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Sohn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Immune Netw",
+            "volume": "18",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.4110/in.2018.18.e27"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "The role of group IIA secretory phospholipase A2 (sPLA2-IIA) as a biomarker for the diagnosis of sepsis and bacterial infection in adults-A systematic review",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Goh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "PLoS One",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0180554"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Phospholipase A2 regulates critical inflammatory mediators of multiple organ failure",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Moore",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Banerjee",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "J Surg Res",
+            "volume": "56",
+            "issn": "",
+            "pages": "199--205",
+            "other_ids": {
+                "DOI": [
+                    "10.1006/jsre.1994.1032"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Circulating secretory phospholipase A2 in critical illness--the importance of the intestine",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Corke",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Glenister",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Watson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Crit Care Resusc",
+            "volume": "3",
+            "issn": "",
+            "pages": "244--249",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "LY315920NA/S-5920, a selective inhibitor of group IIA secretory phospholipase A2, fails to improve clinical outcome for patients with severe sepsis",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Zeiher",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Crit Care Med",
+            "volume": "33",
+            "issn": "",
+            "pages": "1741--1748",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/01.ccm.0000171540.54520.69"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Efficacy and safety of LY315920Na/S-5920, a selective inhibitor of 14-kDa group IIA secretory phospholipase A2, in patients with suspected sepsis and organ failure",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Abraham",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Crit Care Med",
+            "volume": "31",
+            "issn": "",
+            "pages": "718--728",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/01.Ccm.0000053648.42884.89"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Measurement of a Novel Biomarker, Secretory Phospholipase A2 Group IIA as a Marker of Sepsis: A Pilot Study",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Berg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Journal of Emergencies, Trauma, and Shock",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.4103/JETS.JETS_29_17"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Collection of Untargeted Metabolomic Data for",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Najdekr",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Blanco",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Dunn",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Further evidence of lipid dysregulaton during systemic inflammatory disease were the elevations in circulating short-chain acylcarnitines (particularly acetylcarnitine) and mtDNA in severe and deceased COVID-19 patients indicating systemic mitochondrial energy derangement and defective fatty acid oxidation 29,30 . Elevated plasma acetylcarnitine is not only associated with multiple organ failure, inflammation, and infection in sepsis patients, but is an important predictor of mortality 18 . Our data not only corroborates emerging evidence of elevated acetylcarnitine in COVID-19 patients, but also show that acetylcarnitine is an indicator of COVID-19 related mortality. Increases in mtDNA levels further support severe disease and mortality in COVID-19 31 .",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": ") 16,35-38 with the capacity to impact COVID-19 severity and patient outcomes. During cell activation and initiation of multiple cell death mechanisms, anionic phospholipids PS and PE are externalized, exposing them to phospholipid hydrolysis by sPLA2-IIA (Figure 5A) 39 . Hydrolysis of cellular membranes would broadly invoke tissue damage and organ cell dysfunction. Additionally, activated cells and damaged tissues/organs secrete extracellular mitochondria 35 . As mitochondrial phospholipids are the preferred substrates for sPLA2-IIA, our data supports that catalysis releases mtDNA, acetylcarnitine and several danger-associated molecular patterns (DAMPs) (Figure 5B) 40 .",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "EDTA plasma samples were processed utilizing Biosafety Level 2 conditions as per CDC Guidelines for the handling and processing of specimens associated with Corona Virus Disease 2019. Metabolites were isolated from plasma via methanol-based containing 10 \u00b5l Splash Lipidomix (#330707, Avanti Polar Lipids, Alabaster, AL) and separated utilizing a reverse phase chromatography as previously described by Najdekr et al. 47 Samples were analyzed utilizing an UHPLC-ESI-MS/MS system (UHPLC, Thermo Horizon Vanquish Duo System, MS, Thermo Exploris 480) and separation was achieved utilizing an Hypersil GOLD aQ UPLC column (100 x 2.1 mm, 1.9 \u03bcm, Thermo Fisher Scientific, Part No. 25302-102130) with mobile phases composed of water containing 0.1% formic acid and methanol containing 0.1% formic acid. Metabolites were eluted over a 15 min gradient with the Exploris 480 operating in positive ion mode, utilizing an ion transfer tube temperature of 350 \u00b0C, sheath gas of 45, aux gas of 5, and spray voltage of 4000.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "analysis was performed using an Agilent 1200 HPLC tandem Thermo Quantum Ultra triple quadrupole mass spectrometer (Thermo Fisher Scientific, San Jose, USA) to quantify levels of major molecular species of lyso-phospholipids (lyso-PLs). C16, C18:lyso-PE), and lyso-phosphatidylserine (lyso-PS) (Cayman Chemical, Ann Arbor, MI) were used as standards and deuterated Splash Lipidomix as internal standards.Lyso-PLs were separated using an Agilent Poroshell 120 EC-C18 1.9 \u00b5m (2.1x50 mm) with mobile phases composed of water containing 2 mM ammonium formate/0.1% formic acid (A) and methanol containing 1 mM ammonium formate/0.1% formic acid. Chromatographic gradient elution began at 40% A and remained there for the first minute, proceeding to 1% A at 6 minutes, staying there for 10.5 min before returning to 40% MPA over 1.5 min and remaining till the end of the 20 min run.sPLA 2-IIA Concentrations sPLA2-IIA levels in plasma were determined by ELISA (Cayman Chemical Company). Plasma samples were diluted (1:20-1:800) and assayed in duplicate. Concentrations of sPLA2-IIA in plasma were calculated using standard curves.Enzymatic Assay for sPLA2-IIA ActivityA subset of 34 patient samples (9 non-COVID-19, 8 mild, 7 severe, and 10 deceased COVID-19) were selected for PLA2 activity analysis. sPLA2 activity was assayed by modifying techniques from Kramer and Pepinsky 48 . Hydrolytic activity was determined in plasma samples from 34 patients (9 non-COVID-19, 8 mild, 7 severe, and 10 deceased COVID-19 patients) representing a wide range of sPLA2-IIA levels. Assays contained 5 \u00b5l of plasma in a final volume of 400 \u00b5l All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "49 , and hydrolyzed fatty acids were separated from phospholipids using thin layer chromatography (Silica Gel G) and a mobile phase of hexane:ether:formic acid (90:60:6, v:v:v), and visualized by iodine vapor relative to cold standards.Mitochonrial DNA QuantificationMitochondrial DNA (mtDNA) was quantified in the same 34 patient samples as the enzymaticassay. Mitochondrial DNA (mtDNA) was quantified by adapting methods from Scozzi et. al. 31 Using genes for human cytochrome C (MT-CYB) and cytochrome C oxidase subunit III (MT-COX3), mtDNA was quantified in plasma samples from the same 34 patients (9 non-COVID-19, 8 mild, 7 severe, and 10 deceased COVID-19 patients) as in the sPLA2 activity assay utilizing an ABI 7900HT real-time PCR instrument in 384-well format. Synthetic oligonucleotide copies of the MT-CYB and MT-COX3 genomic sequences (gBlock Gene Fragments from Integrated DNA Technologies) were included to generate a standard curve at 10 5 , 10 4 , 10 3 , and 10 2 copies per \u00b5L. Primer sequences were as follows: forward MT-CYB: 5'-ATGACCCCAATACGCAAAA-3' reverse MT-CYB: 5'-CGAAGTTTCATCATGCGGAG-3' forward MT-COX3: 5'-ATGACCCACCAATCACATGC-3' reverse MT-COX3: 5'-ATCACATGGCTAGGCCGGAG-3'.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Liao, D. et al. Haematological characteristics and risk factors in the classification and prognosis evaluation of COVID-19: a retrospective cohort study. Lancet Haematol 7, D. C. & June, C. H. Cytokine Storm. N Engl J Med 383, , D. E. et al. Cytokine elevation in severe and critical COVID-19: a rapid systematic review, meta-analysis, and comparison with other inflammatory syndromes. Lancet Respir Med 8, 1233-1244, doi:10.1016/s2213-2600(20)30404-5 (2020). 5 Del Valle, D. M. et al. An inflammatory cytokine signature predicts COVID-19 severity and survival. Nat Med 26, 1636-1643, doi:10.1038/s41591-020-1051-9 (2020). 6 Sinha, P., Matthay, M. A. & Calfee, C. S. Is a \"Cytokine Storm\" Relevant to COVID-19? JAMA Intern Med 180, 1152-1154, doi:10.1001/jamainternmed.2020.3313 (2020).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Untargeted Lipidomic Analysis and COVID-19 Status. Plasma samples from non-COVID-19, mild, severe and deceased COVID-19 patients were subjected to untargeted metabolomics analyses. Lipidome data were extracted from the metabolomics data set and analyzed. A) Volcano plots show significant alterations in the lipidome of the deceased COVID-19 patients compared with non-COVID19, mild and severe COVID-19 patients. B) Heatmap of the top 20 metabolites whose abundances varied significantly across non-COVID-19, mild, severe, and deceased COVID-19 patients. C) Abundances of two lyso-PL, two free fatty acids (FFA) and two short chain acyl carnitines extracted from the untargeted lipid data were calculated and analyzed using a one-sided Wilcoxon test. Significance indicated as: * p<0.05; ** p<0.01; *** p<0.001; **** p<0.0001. D) Model of PLA2 reaction showing how PLA2 hydrolyzes the sn-2 position of the glycerol backbone of phospholipids to form lyso-PL and FFA products.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Association of sPLA2-IIA and COVID-19 Status. A) sPLA2-IIA levels were determined in 127 plasma samples. The inset boxplot demonstrates the medians, bottom and top quantiles, and statistical significance across all four groups. B) sPLA2 enzymatic activity was assayed within the plasma of selected samples (see Supplementary Methods). C) The scatter plot depicts a linear relationship between plasma sPLA2-IIA levels and sPLA2 activity. D) The heatmap shows the significant associations between sPLA2-IIA levels and clinical indices of disease severity (FDR < 0.05 in Spearman correlation, samples with > 15 missing values were filtered out). Color scheme:",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "A Clinical Decision Tree Predicting COVID-19 Severity and Mortality. A) The tree model. Patients are classified based on the indicated clinical indices (shown in orange diamonds) and boundary conditions (above split arrows). The number of patients following each split is shown in parentheses beneath the split arrow (patients with missing index values were not split). In each node, percentages of patients in corresponding categories are shown. (Inset) The area under the ROC curve, AUC, of the tree in determining each group membership (e.g., deceased vs. non-deceased). B) Decision surface based on the sPLA2 and BUN boundary conditions in A. Left (L) and right (R) graphs show the results of applying the sPLA2 and BUN boundary conditions to the L and R subsets of patients (split following the 7-category ordinal scale), as indicated in A. C) The PLA-BUN index. (Top) The accuracies of combining both decision boundary conditions of sPLA2 and BUN as in B (i.e., the PLA-BUN index) in classifying severe and deceased COVID-19 patients were compared to such classification accuracies using the single decision boundary (as in B) of either sPLA2 or BUN. (Bottom) The accuracies of the PLA-BUN index in classifying severe All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "Feature importance ranking of clinical indices. The relative importance of the 80 clinical indices in separating the deceased from severe COVID-19 patients (n = 30 each) was evaluated in a random forest analysis (tree number = 1,000 each in 10 repeats). The importance of a feature (i.e., clinical index) was assessed by the decrease of prediction accuracy when such a feature was excluded from the model, based on the Gini impurity following a node split (A; MDI, Mean Decrease Impurity) and the permuted values of the feature (B; MDA, Mean Decrease Accuracy). The top 30 features in each importance measurement are",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "Potential Central Roles of sPLA2-Group II in Mediating COVID-19 Severity and Outcomes. A) sPLA2-IIA hydrolyzes phospholipids in activated and dying cells within tissues and organs. B) sPLA2-IIA hydrolyzes mitochondrial membranes. C) Damaged mitochondria are internalized by bystander leukocytes. D) sPLA2-IIA hydrolyzes extracellular vesicles (EV)",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF2": {
+            "text": "glucose control should be mandatory. Diabetes Res Clin Pract 163, 108186, doi:10.1016/j.diabres.2020.108186 (2020). rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "Demographics and Clinical Characteristics at BaselineCOVID-19",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF10": {
+            "text": "*Major cardiac disease: coronary artery disease, congestive heart failure, history of myocardial infarction \u00a2 Obesity defined as BMI \u2265 30 kg/m 2 \u00a5 Lipid disorder: hyperlipidemia, dyslipidemia, antiphospholipid syndrome \u00a7 Some oxygenation indices measured while on oxygen therapy (no baseline measurement on room air).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF11": {
+            "text": "Demographics and Clinical Characteristics at Baseline. All categorical variables are represented as proportions (%) whereas continuous variables are reported as median (interquartile range). D'Agostino-Pearson normality test was used to assess continuous variables and determined all that had non-Gaussian distributions; Kruskal-Wallis test were then used to assess for equality of group variance. Categorical variables were compared using the chi-square test. P-values reflect comparisons of group variance; significant trends are reported in",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF13": {
+            "text": "The copyright holder for this preprint this version posted February 23, 2021. ; https://doi.org/10.1101/2021.02.22.21252237 doi: medRxiv preprint",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF14": {
+            "text": "The copyright holder for this preprint this version posted February 23, 2021. ; https://doi.org/10.1101/2021.02.22.21252237 doi: medRxiv preprint",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF15": {
+            "text": "The copyright holder for this preprint this version posted February 23, 2021. ; https://doi.org/10.1101/2021.02.22.21252237 doi: medRxiv preprint",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF16": {
+            "text": "The copyright holder for this preprint this version posted February 23, 2021. ; https://doi.org/10.1101/2021.02.22.21252237 doi: medRxiv preprint",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors wish to thank the Stony Brook Medicine Biobank for procuring and facilitating the distribution of plasma samples from COVID-19 and non-COVID hospitalized patients. We acknowledge the University of Arizona Data Science Institute for their help in applying machine learning and Dr. Manja Zec and Kirsten Lake for their constructive input to the manuscript.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        }
+    ]
+}

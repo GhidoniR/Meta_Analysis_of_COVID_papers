@@ -1,0 +1,1112 @@
+{
+    "paper_id": "0aca91dc78c08a10ed1a54093ef686c2de42016d",
+    "metadata": {
+        "title": "Der Hautarzt Impfempfehlungen der St\u00e4ndigen Impfkommission (STIKO) Impfungen bei Immundefizienz und Impfung gegen COVID-19",
+        "authors": [
+            {
+                "first": "Leitthema",
+                "middle": [],
+                "last": "Hautarzt",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universit\u00e4tsklinikum Erlangen und Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg",
+                    "location": {
+                        "settlement": "Erlangen",
+                        "country": "Deutschland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Christian",
+                "middle": [],
+                "last": "Bogdan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universit\u00e4tsklinikum Erlangen und Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg",
+                    "location": {
+                        "settlement": "Erlangen",
+                        "country": "Deutschland"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Unter einer Impfung oder Vakzination versteht man eine aktive Immunisierung. Im Gegensatz zur passiven Immunisierung, bei der polyklonale oder monoklonale Antik\u00f6rper verabreicht werden (\"Serumprophylaxe\"), werden bei einer Impfung Erreger oder Erregerkomponenten injiziert, die dann zu einer eigenen, aktiven Immunantwort beim Geimpften f\u00fchren. W\u00e4hrend die passive Immunisierung einen Sofortschutz bewirkt, der aber nur von kurzer Dauer ist, tritt die Wirkung einer Impfung verz\u00f6gert ein, h\u00e4lt dann aber -je nach Impfstoff -\u00fcber Monate, Jahre oder gar lebenslang an und kann ggf. durch Wiederholungsimpfungen (engl. \"booster\") immer wieder \"aufgefrischt\" werden. Dem langfristigen Schutz liegen Ged\u00e4chtnis-T-Lymphozyten, Ged\u00e4chtnis-B-Lymphozyten und langlebige Plasmazellen zugrunde [21, 23] .",
+            "cite_spans": [
+                {
+                    "start": 783,
+                    "end": 787,
+                    "text": "[21,",
+                    "ref_id": null
+                },
+                {
+                    "start": 788,
+                    "end": 791,
+                    "text": "23]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Impfungen stellen bei vielen Infektionskrankheiten die wirksamste Methode der Prophylaxe dar. Durch den Aufbau einer protektiven Immunantwort beim geimpften Individuum dienen sie zum einen dem Eigenschutz. Bei Infektionskrankheiten, die von Mensch zu Mensch \u00fcbertragen werden, f\u00fchren sie bei ausreichend hohen Impfquoten innerhalb der Population (mindestens 70-80 %) und der daraus resultierenden Verdr\u00e4ngung des Erregers auch zum indirekten Schutz solcher Menschen, die nicht geimpft werden k\u00f6nnen oder aufgrund einer Immunsuppression keine sch\u00fctzende Immunantwort entwickeln k\u00f6nnen (sog. \"Herdenprotektion\"). Schlie\u00dflich k\u00f6nnen Impfungen auch zur Ausrottung von Infektionskrankheiten beitragen, die ausschlie\u00dflich beim Menschen vorkommen und kein tierisches Reservoir aufweisen. Eine Erregereradikation durch Impfprogramme gelang bisher bei den Menschenpocken und der Poliomyelitis (Typ-2-und Typ-3-Polioviren) [2, 9] .",
+            "cite_spans": [
+                {
+                    "start": 913,
+                    "end": 916,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 917,
+                    "end": 919,
+                    "text": "9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Bei den heute zur Verf\u00fcgung stehenden Impfstoffarten handelt es sich entweder um lebende Erreger, die in ihrer krank machenden Wirkung und Vermehrungsf\u00e4higkeit abgeschw\u00e4cht (\"attenuiert\") sind (sog. Lebendimpfstoffe), oder um abget\u00f6tete Erreger oder Erregerkomponenten (sog. Totimpfstoffe) (. Abb. 1 und . Tab. 1). Zur letztgenannten Gruppe geh\u00f6ren auch die mRNA-Impfstoffe [12, 14] gegen COVID-19, die soeben zugelassen wurden bzw. vor der Zulassung stehen.",
+            "cite_spans": [
+                {
+                    "start": 374,
+                    "end": 378,
+                    "text": "[12,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 379,
+                    "end": 382,
+                    "text": "14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Die STIKO ist eine seit 1972 bestehende unabh\u00e4ngige wissenschaftliche Expertenkommission, die organisatorisch dem Robert Koch-Institut (RKI) mit einer eigenen Gesch\u00e4ftsstelle zugeordnet ist. Ihre 18 Mitglieder werden durch das Bundesministerium f\u00fcr Gesundheit f\u00fcr 3-j\u00e4hrige Perioden berufen und \u00fcben die T\u00e4tigkeit als Ehrenamt aus. Alle STIKO-Mitglieder m\u00fcssen fortw\u00e4hrend \u00fcber m\u00f6gliche Interessenkonflikte Rechenschaft ablegen und sind im Falle von Befangenheiten von den jeweiligen STIKO-Entscheidungen ausgeschlossen. Die STIKO-Mitglieder, ihre Selbstausk\u00fcnfte und ihre Zugeh\u00f6rigkeit zu den derzeit 16 STIKO-Arbeitsgruppen sind im Internet \u00f6ffentlich einsehbar [7] .",
+            "cite_spans": [
+                {
+                    "start": 664,
+                    "end": 667,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "St\u00e4ndige Impfkommission (STIKO)"
+        },
+        {
+            "text": "In Deutschland gibt es seit der Einstellung der gesetzlichen Pockenschutzimpfung im Jahr1982 keine Impfpflichtmehr. Gem\u00e4\u00df \u00a7 20, Absatz 2 Infektionsschutzgesetz (IfSG) besteht der Kernauftrag der",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "St\u00e4ndige Impfkommission (STIKO)"
+        },
+        {
+            "text": "Abb. 1 9 Arten von Impfstoffen. mRNA Messenger-Ribonukleins\u00e4ure STIKO in der Ausarbeitung von Empfehlungen zur Durchf\u00fchrung von Schutzimpfungen sowie zu anderen Ma\u00dfnahmen der spezifischen Prophylaxe. Nach einem Bundesgerichtshof-Urteil aus dem Jahr 2000 [5] gelten STIKO-Empfehlungen als \"medizinischer Standard\" und stellen somit die Grundlage von sachgerechtem \u00e4rztlichem Handeln dar, ohne dass sich aus ihnen eine unmittelbare rechtliche Verbindlichkeit f\u00fcr die \u00c4rzteschaft ergibt. Die STIKO-Empfehlungen stellen die Basis f\u00fcr die \u00f6ffentlichen Impfempfehlungen der Bundesl\u00e4nder dar (abweichende L\u00e4nderempfehlungen sind m\u00f6glich) und bilden die Diskussionsgrundlage f\u00fcr die Schutzimpfungsrichtlinie des Gemeinsamen Bundesausschusses (G-BA) der Krankenkassen und damit f\u00fcr den Umfang der Pflichtleistungen der gesetzlichen Krankenversicherung.",
+            "cite_spans": [
+                {
+                    "start": 254,
+                    "end": 257,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Der Hautarzt"
+        },
+        {
+            "text": "\u00bb STIKO-Empfehlungen gelten als \"medizinischer Standard\" Seit Einf\u00fchrung ihrer neuen Standardarbeitsweise im November 2011 ist die STIKO streng den Regeln der evidenzbasierten Medizin, d. h. dem aktuellen Stand derwissenschaftlichenErkenntnisse, verpflichtet. Bei jeder zu bewertenden Impfung werden zun\u00e4chst die Impfziele, die zu impfende Population und die patientenrelevanten Endpunkte bez\u00fcglich Impfstoffwirksamkeit und -sicherheit festgelegt. F\u00fcr jeden einzelnen Endpunkt werden dann systematische Literaturreviews unter Ber\u00fccksichtigung aller relevanten publizierten Studien durch-gef\u00fchrt [7] . Die Bewertung der Evidenzqualit\u00e4t der eingeschlossenen Studien und die Informationssynthese erfolgen nach den Regeln der GRADE(\"Grades of Recommendation Assessment, Development and Evaluation\")-Arbeitsgruppe [3] . In die Entscheidung der STIKO, die durch die jeweilige STIKO-Arbeitsgruppe vorbereitet wird, flie\u00dfen auch die Epidemiologie der betreffenden Infektionskrankheit (Krankheitslast; notwendige Zahl der zu Impfenden, um einen Krankheitsfall zu verhindern), die Nutzen-Risiko-Abw\u00e4gung auf Ebene des Individuums und der Population sowie Belange der praktischen Umsetzung der Impfung ein. \u00dcber die Beschlussvorlage zur Impfempfehlung, die von einer ausf\u00fchrlichen wissenschaftlichen Begr\u00fcndung begleitet ist, wird nach ausf\u00fchrlicher Diskussion durch die gesamte STIKO (ausgenommen sind befangene Mitglieder) abgestimmt. Danach wird die STIKO-Impfempfehlung dem G-BA, den Bundesl\u00e4ndern sowie den Fachgesellschaften zur Stellungnahme vorgelegt. Abschlie\u00dfend werden die eingegangenen R\u00fcckmeldungen wiederum von der STIKO diskutiert, ggf. Ver\u00e4nderungen und Erg\u00e4nzungen im Empfehlungstext vorgenommen und die Impfempfehlung im Epidemiologischen Bulletin, der w\u00f6chentlich online und gedruckt erscheinenden Fachzeitschrift des RKI, publiziert. Die Umsetzung der Impfempfehlung setzt in jedem Fall die vorherige Zulassung des betreffenden Impfstoffs durch die Europ\u00e4ische Arzneimittel-Agentur (European Medicines Agency, EMA) und das Paul-Ehrlich-Institut (PEI) voraus.",
+            "cite_spans": [
+                {
+                    "start": 595,
+                    "end": 598,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 809,
+                    "end": 812,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Der Hautarzt"
+        },
+        {
+            "text": "Aus den skizzierten Abl\u00e4ufen ergibt sich, dass es seitens der STIKO kein schnelles \"Durchwinken\" von neuen Impfstoffen gibt und dass die aus der wissenschaftlichen Evidenzaufarbeitung resultierenden Impfempfehlungen einen hohen Grad an Differenziertheit aufweisen und im Allgemeinen keine universell f\u00fcr alle Menschen und Altersgruppen unterschiedslos g\u00fcltigen Empfehlungen darstellen.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Der Hautarzt"
+        },
+        {
+            "text": "Jedes Jahr publiziert die STIKO im August (Heft 34 des Epidemiologischen Bulletins) ihre aktualisierten Impfempfehlungen. Darin werden alle aktuell g\u00fcltigen Empfehlungen der STIKO zu den verschiedenen Impfungen und deren Indikationen (. Tab. 2) zusammengefasst [10] . Unabh\u00e4ngig von den 1-mal pro Jahr erscheinenden STIKO-Empfehlungen bezieht die STIKO immer wieder zu einzelnen Impfungen Stellung, sofern sich hier neue Erkenntnisse und Umst\u00e4nde ergeben haben. Bei Dringlichkeit werden neue Impfempfehlungen einschlie\u00dflich der entsprechenden wissenschaftlichen Begr\u00fcndung auch unterj\u00e4hrig kurzfristig publiziert. Im Falle der COVID-19-mRNA-Impfungen wurde die entsprechende STIKO-Impfempfehlung noch vor der Zulassung des Impfstoffs durch die EMA publiziert.",
+            "cite_spans": [
+                {
+                    "start": 261,
+                    "end": 265,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "STIKO-Impfempfehlungen"
+        },
+        {
+            "text": "Neben den Impfempfehlungen formuliert die STIKO auch Kriterien zur Abgrenzung einer \u00fcblichen Impfreaktion von Impfkomplikationen und Impfsch\u00e4den (. Tab. 3; [10] ). Die normale Impfreaktion ist Ausdruck der mechanischen Gewebsirritation infolge der intramuskul\u00e4ren oder subkutanen Impfstoffinjektion sowie der durch die Impfung ausgel\u00f6sten Aktivierung des angeborenen Abwehrsystems. Die lokalen und systemischen Symptome und Zeichen der normalen Impfreaktion sind nur von kurzer Dauer und vollst\u00e4ndig reversibel; entsprechend sind sie auch nicht an die Aufsichtsbeh\u00f6rden zu mel-den. Impfkomplikationen hingegen sind Impfreaktionen, die das \u00fcbliche Ausma\u00df \u00fcberschreiten. Unter einem Impfschaden im Sinne des \u00a7 60 IfSG versteht man die gesundheitliche und wirtschaftliche Folge einer \u00fcber das \u00fcbliche Ausma\u00df einer Impfreaktion hinausgehenden gesundheitlichen Sch\u00e4digung infolge einer Schutzimpfung. Liegt dem Impfschaden eine von der STIKO bzw. den Landesbeh\u00f6rden empfohlene, per Gesetz angeordnete oder infolge internationaler Gesundheitsvorschriften durchgef\u00fchrte Impfung zugrunde, so besteht Anspruch auf Versorgung nach dem Bundesversorgungsgesetz. F\u00fcr Impfkomplikationen und Impfsch\u00e4den besteht eine \u00e4rztliche Meldepflicht entsprechend der \u00e4rztlichen Berufsordnung ( \u00a7 6) und des IfSG ( \u00a7 6 und \u00a7 8).",
+            "cite_spans": [
+                {
+                    "start": 156,
+                    "end": 160,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Normale Impfreaktion versus Impfkomplikationen und Impfsch\u00e4den"
+        },
+        {
+            "text": "Im Jahr 2018 gingen beim PEI insgesamt 3570 Meldungen zu Verdachtsf\u00e4llen von Impfnebenwirkungen (einschlie\u00dflich Impfkomplikationen und Impfsch\u00e4den) ein. In keinem der gemeldeten 22 Todesf\u00e4lle konnte ein kausaler Zusammenhang zu einer applizierten Impfung hergestellt werden. In 82 der 3570 F\u00e4lle lag ein bleibender Schaden vor. Die genaue Analyse dieser Meldungen ergab, dass in 19 der 82 F\u00e4lle ein Zusammenhang mit einer vorher durchgef\u00fchrten Impfung als wahrscheinlich anzunehmen ist [15] . Da in Deutschland jedes Jahr ca. 30 bis 38 Mio. Impfungen durchgef\u00fchrt werden, ist die Sicherheit der Impfstoffe insgesamt als sehr hoch zu bezeichnen.",
+            "cite_spans": [
+                {
+                    "start": 486,
+                    "end": 490,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "\u00bb F\u00fcr Impfkomplikationen und Impfsch\u00e4den besteht eine \u00e4rztliche Meldepflicht"
+        },
+        {
+            "text": "Innerhalb der STIKO hat sich eine Arbeitsgruppe in den vergangenen 4 Jahren intensiv mit Fragen der Impfung bei einer bestehenden angeborenen oder erworbe-nenImmundefizienzauseinandergesetzt, nachdem die letzten Hinweise zum Impfen bei Immundefizienz aus dem Jahr 2005 stammten. In den nunmehr vorliegenden 4 Publikationen fasst die STIKO zum einen wichtige Grundlagen des Imp-",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Impfen bei Immundefizienz"
+        },
+        {
+            "text": "Hautarzt https://doi.org/10.1007/s00105-021-04761-0 \u00a9 Springer Medizin Verlag GmbH, ein Teil von Springer Nature 2021",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Zusammenfassung \u00b7 Abstract"
+        },
+        {
+            "text": "Zusammenfassung Hintergrund. Die Arbeitsweise der St\u00e4ndigen Impfkommission (STIKO) und ihre Empfehlungen sind innerhalb der \u00c4rzteschaft und in der \u00d6ffentlichkeit nur teilweise bekannt. Fragestellung. Betrachtet werden Methodik der Standardarbeitsweise der STIKO, j\u00e4hrliche Impfempfehlungen, normale Impfreaktion vs. Impfnebenwirkungen, Handlungshinweise zum Impfen bei Immundefizienz, Empfehlung zur COVID-19-Impfung. Material und Methode. Dargestellt werden die Wege zu einer Impfempfehlung, die Unterschiede zwischen Empfehlungen und Handlungshinweisen, die Kernaussagen zum Impfen bei Immundefizienz sowie die Zusammenfassung der Datenlage zur COVID-19-m(\"messenger\")RNA(Ribonukleins\u00e4ure)-Impfung. Ergebnisse. Die STIKO arbeitet rein evidenzbasiert durch systematische Auswertung der jeweils f\u00fcr einen Impfstoff existierenden pr\u00e4klinischen und klinischen Studien unter Anwendung der GRADE(\"Grades of Recom-mendation Assessment, Development and Evaluation\")-Methodik. Nur Impfkomplikationen und Impfsch\u00e4den sind meldepflichtig. Immundefiziente Patienten k\u00f6nnen jederzeit Totimpfstoffe, aber im Allgemeinen keine Lebendimpfstoffe erhalten. Die COVID-19-mRNA-Impfung ist nach bisherigem Kenntnisstand als sicher und wirksam zu bezeichnen. Schlussfolgerung. Die Impfempfehlungen der STIKO gelten als medizinischer Standard. Die publizierten aktuellen Handlungshinweise zum Impfen bei Immundefizienz und die soeben erschienene Empfehlung zur COVID-19-Impfung stellen zusammen mit ihren wissenschaftlichen Begr\u00fcndungen wertvolle Grundlagen f\u00fcr das \u00e4rztliche Handeln auf dem Gebiet von Schutzimpfungen dar.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Impfempfehlungen der St\u00e4ndigen Impfkommission (STIKO). Impfungen bei Immundefizienz und Impfung gegen COVID-19"
+        },
+        {
+            "text": "Impfnebenwirkungen \u00b7 Normale Impfreaktion \u00b7 Impfkomplikation \u00b7 Impfschaden \u00b7 mRNA-Impfstoff",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Schl\u00fcsselw\u00f6rter"
+        },
+        {
+            "text": "Abstract Background. The working methods of the Standing Committee on Vaccination (STIKO) and its recommendations are only partially known by medical professionals and the public. Objectives. Methodology of the standard operating procedure of the STIKO, annual vaccination recommendations, normal vaccination reaction versus vaccination side effects, instructions for vaccination in case of immunodeficiency, and recommendation for COVID-19 vaccination are presented. Materials and methods. Presentation of the path to a vaccination recommendation, differences between recommendations and instructions for action, key statements on vaccination in immunodeficiency, and summary of the data situation on COVID-19 mRNA vaccination. Results. The STIKO works purely on an evidence-based basis by systematically evaluating the existing preclinical and clinical studies results for a vaccine using the GRADE method. Only vaccination complications and vaccination injuries are notifiable. Immunodeficient patients can receive inactivated vaccines at any time, but generally not live vaccines. Based on current knowledge, the COVID-19 mRNA vaccination can be described as safe and effective. Conclusions. The STIKO vaccination recommendations are considered as the medical standard. The published current instructions for vaccination of immunodeficient patients and the recently published recommendation for COVID-19 vaccination, together with their scientific backgrounds and reasons, represent a valuable basis for medical action in the field of vaccination against infectious diseases.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "STIKO vaccination recommendations. Vaccination of immunodeficient patients and vaccination against COVID-19"
+        },
+        {
+            "text": "Adverse effects of vaccines \u00b7 Normal vaccine response \u00b7 Vaccine complication \u00b7 Vaccine injury \u00b7 mRNA vaccine [17, 25] .",
+            "cite_spans": [
+                {
+                    "start": 109,
+                    "end": 113,
+                    "text": "[17,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 114,
+                    "end": 117,
+                    "text": "25]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Keywords"
+        },
+        {
+            "text": "Totimpfstoffe d\u00fcrfen bei Immundefizienz grunds\u00e4tzlich ohne Einschr\u00e4nkung angewandtwerden. Zu bedenkenistallerdings, dass in Abh\u00e4ngigkeit vom Schweregrad und der Art der Immundefizienz evtl. kein ausreichender Immunschutz induziert wird. Wenn immer m\u00f6glich, sollten Impfungen mit Totimpfstoffen deshalb sp\u00e4testens 2, besser 4 Wochen vor Einleitung einer iatrogenen Immunsuppression (z. B. Chemotherapie von soliden Tumoren und Leuk\u00e4mien, Konditionierung vor Stammzelltransplantationen, Anti-CD20-Therapie bei B-Zell-Lymphom, Hochdosisglukokor- tikoidtherapie bei Autoimmunerkrankungen) abgeschlossen sein. Ebenso gilt die Grundregel, dass Totimpfstoffe fr\u00fchestens 3 Monate nach Beendigung einer immunsuppressiven Chemo-/ Immuntherapie eingesetzt werden sollen [6, 13, 25] .",
+            "cite_spans": [
+                {
+                    "start": 759,
+                    "end": 762,
+                    "text": "[6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 763,
+                    "end": 766,
+                    "text": "13,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 767,
+                    "end": 770,
+                    "text": "25]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Der Hautarzt"
+        },
+        {
+            "text": "Immundefizienz grunds\u00e4tzlich ohne Einschr\u00e4nkung angewandt werden Der Einsatz von Lebendimpfstoffen bei Immunsuppression (z. B. Hochdosistherapie mit Glukokortikoiden oder Azathioprin, Therapie mit immunsuppressiven Tyrosinkinaseinhibitoren oder mTOR-Inhibitoren, Anti-CD20-Therapie) ist hingegen im Allgemeinen kontraindiziert, da replikationsf\u00e4hige Erreger bei immundefizienten Patien-ten schwere Komplikationen ausl\u00f6sen k\u00f6nnen. Impfungen mit Lebendimpfstoffen m\u00fcssen mindestens 2, besser 4 Wochen vor immunsuppressiven Therapien und Stammzelltransplantationen abgeschlossen sein und d\u00fcrfen erst ab 6 Monaten nach Abschluss einer Chemotherapie bzw. ab 24 Monaten nach einer Stammzelltransplantation durchgef\u00fchrt werden. Nach erfolgter B-Zell-Depletion mit Anti-CD20-Antik\u00f6rpern sind Lebendimpfstoffe erst dann sicher applizierbar, wenn eine Normalisierung der Anzahl der B-Lymphozyten eingetreten ist [6, 13, 25] .",
+            "cite_spans": [
+                {
+                    "start": 902,
+                    "end": 905,
+                    "text": "[6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 906,
+                    "end": 909,
+                    "text": "13,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 910,
+                    "end": 913,
+                    "text": "25]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "\u00bb Totimpfstoffe d\u00fcrfen bei"
+        },
+        {
+            "text": "Das \"Severe acute respiratory syndrome\"-Corona-Virus 2 (SARS-CoV-2) hat seit seiner Erstbeschreibung im Januar 2020 weltweit zu \u00fcber 94 Mio. Infektionen und zu \u00fcber 2 Mio. Todesf\u00e4llen gef\u00fchrt (Stand 16.01.2021, Johns Hopkins University COVID-19 data resource). Trotz der grunds\u00e4tzlichen Wirksamkeit von verschiedenen Ma\u00dfnahmen der Expositionsprophylaxe ist klar, dass eine Eind\u00e4mmung der SARS-CoV-2-Infektionen und COVID-19-Erkrankungen (engl. \"corona virus disease 2019\") und eine Beendigung der Pandemie letztlich nur durch Schutzimpfungen m\u00f6glich sind. [14, 16] . Die klinischen Studien der Phase 1, 2 und 3 mit den beiden mRNA-Impfstoffen haben ergeben, dass diese stark immunogen sind (auch bei Menschen der Altersgruppe 55 bis 85 Jahre) und zur Induktion von SARS-CoV-2-neutralisierenden Antik\u00f6rpern und von Typ-1-T-Helferzellen f\u00fchren, w\u00e4hrend die Aktivierung von CD8 + -T-Zellen nur in begrenztem Umfang stattfindet [1, 11, 22, 26] . Beide Impfstoffe haben ein sehr vielversprechendes Sicherheitsprofil (bisher keine schweren und irreversiblen, impfstoffbedingten Nebenwirkungen) und weisen \u00fcber alle Altersgruppen hinweg eine Wirksamkeit von 85-95 % gegen\u00fcber laborbest\u00e4tigten COVID-19-Erkrankungen nach 2 Impfungen im Abstand von 3 bzw. 4 Wochen auf [4, 19] . Einschr\u00e4nkend muss allerdings festgehalten werden, dass aufgrund der Studienarmgr\u00f6\u00dfen und der begrenzten Nachbeobachtungszeit bisher keine Aussagen zu sehr seltenen oder verz\u00f6gert auftretenden Nebenwirkungen und auch nicht zur Schutzdauer gemacht werden k\u00f6nnen. Ebenso ist bisher nicht bekannt, ob die beiden mRNA-Impfstoffe auch die Erregertransmission durch asymptomatisch Infizierte reduzieren bzw. verhindern.",
+            "cite_spans": [
+                {
+                    "start": 556,
+                    "end": 560,
+                    "text": "[14,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 561,
+                    "end": 564,
+                    "text": "16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 924,
+                    "end": 927,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 928,
+                    "end": 931,
+                    "text": "11,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 932,
+                    "end": 935,
+                    "text": "22,",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 936,
+                    "end": 939,
+                    "text": "26]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1260,
+                    "end": 1263,
+                    "text": "[4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1264,
+                    "end": 1267,
+                    "text": "19]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "COVID-19-Impfung"
+        },
+        {
+            "text": "Aufgrund der Dringlichkeit der Thematik hat die STIKO parallel zu den Zulassungsbeh\u00f6rden die Studienunterlagen und die Publikationen zu den beiden COVID-19-mRNA-Impfstoffen im Detail evaluiert und erstmals am 17.12.2020 und in aktualisierter Form am 07.01.2021 ihre COVID-19-Impfempfehlung zusammen mit einer ausf\u00fchrlichen wissenschaftlichen Begr\u00fcndung publiziert [24] . Unter Ber\u00fccksichtigung der derzeit bestehenden Impfstoffknappheit und des COVID-19-Infektions-, -Erkrankungs-, -Hospi-talisierungs-und -Mortalit\u00e4tsrisikos hat die STIKO eine Impfung der Bev\u00f6lkerung in 6 Stufen empfohlen. Diese Priorisierungsempfehlung spezifiziert eine fr\u00fchere gemeinsame Stellungnahme mit dem Nationalen Ethikrat und der Nationalen Akademie der Wissenschaften Leopoldina [20] . In der Stufe 1 sind danach BewohnerInnen von Senioren-und Altenpflegeheimen, Personen im Alter von \u2265 80 Jahren, das Personal mit besonders hohem Expositionsrisiko in medizinischen Einrichtungen (z. B. COVID-19-Behandlungsstationen), das Personal in medizinischen Einrichtungen mit engem Kontakt zu vulnerablen Patientengruppen sowie das Pflegepersonal in der ambulanten und station\u00e4ren Altenpflege zu impfen. ",
+            "cite_spans": [
+                {
+                    "start": 364,
+                    "end": 368,
+                    "text": "[24]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 760,
+                    "end": 764,
+                    "text": "[20]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "\u00bb Eine"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Safety and immunogenicity of SARS-coV-2 mRNA-1273 vaccine in older adults",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Rouphael",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Widge",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "383",
+            "issn": "",
+            "pages": "2427--2438",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Vaccination greatly reduces disease, disability, death and inequity worldwide",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Andre",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Booy",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Bock",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Bull World Health Organ",
+            "volume": "86",
+            "issn": "",
+            "pages": "140--146",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Gradingquality of evidence and strength of recommendations",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Atkinsd",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Bestd",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "BMJ",
+            "volume": "328",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Efficacy and safety of the mRNA-1273 SARS-coV-2 vaccine",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Baden",
+                    "suffix": ""
+                },
+                {
+                    "first": "El",
+                    "middle": [],
+                    "last": "Sahly",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Essink",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Vi Zr 48/99 K) (2000) Aufkl\u00e4rung bei Routineimpfung",
+            "authors": [],
+            "year": null,
+            "venue": "Neue Juristische Wochenschrift",
+            "volume": "",
+            "issn": "",
+            "pages": "1784--1787",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Impfen bei Immundefizienz -Anwendungshinweise zu den von der St\u00e4ndigen Impfkommission empfohlenen Impfungen. (II) Impfen bei 1. Prim\u00e4ren Immundefekterkrankungen und 2. HIV-Infektion",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ehl",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Bogdan",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Niehues",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Bundesgesundheitsblatt",
+            "volume": "61",
+            "issn": "",
+            "pages": "1034--1051",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The German Standing Committee on Vaccination: organization and mode of functioning",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Harder",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Z Rheumatol",
+            "volume": "79",
+            "issn": "",
+            "pages": "839--847",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "In vivo application of RNA leads to induction of specific cytotoxic T lymphocytes and antibodies",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Hoerr",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Obst",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Rammensee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Eur J Immunol",
+            "volume": "30",
+            "issn": "",
+            "pages": "1--7",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Progress toward poliomyelitis eradication-Pakistan",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Hsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Rehman",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Bullard",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "MMWR Morb Mortal Wkly Rep",
+            "volume": "69",
+            "issn": "",
+            "pages": "1748--1752",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Empfehlungen der St\u00e4ndigen Impfkommission (STIKO) am Robert Koch-Institut",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Impfkommission",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Epidemiol Bull",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.25646/7083"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "An mRNA vaccine against SARS-coV-2-preliminary report",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Jackson",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Rouphael",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "383",
+            "issn": "",
+            "pages": "1920--1931",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "The promiseofmRNA vaccines: abiotechandindustrial perspective",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Nac",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Kester",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Casimiro",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Npj Vaccines",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Impfen bei Immundefizienz. Anwendungshinweise zu den von der STIKO empfohlenen Impfungen. (III) Impfen bei h\u00e4matologischen und onkologischen Erkrankungen (antineoplastische Therapie, Stammzelltransplantation)",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Laws",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Baumann",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Bogdan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "63",
+            "issn": "",
+            "pages": "588--644",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "A comparison of plasmid DNA and mRNA as vaccine technologies",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/vaccines7020037"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Daten zur Pharmakovigilanz von Impfstoffen aus dem Jahr",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Mentzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Keller-Stanislawski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Bulletin zur Arzneimittelsicherheit -Informationen aus BfArm und PEI",
+            "volume": "",
+            "issn": "",
+            "pages": "15--22",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Regulatory considerations on the development of mRNA vaccines",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Naik",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Peden",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Curr Top Microbiol Immunol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/82_2020_220"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Impfen bei Immundefizienz: Anwendungshinweise zu den von der St\u00e4ndigen Impfkommission empfohlenen Impfungen. (I) Grundlagenpapier",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Niehues",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Bogdan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hecht",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Bundesgesundheitsblatt Gesundheitsforschung Gesundheitsschutz",
+            "volume": "60",
+            "issn": "",
+            "pages": "674--684",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Nucleoside-modified mRNA vaccines induce potent T follicular helper and germinal center B cell responses",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Pardi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hogan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Naradikian",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Exp Med",
+            "volume": "215",
+            "issn": "",
+            "pages": "1571--1588",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Safety and efficacy of the BNT162b2 mRNA Covid-19",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Polack",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Thomas",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kitchin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Positionspapier der Gemeinsamen Arbeitsgruppe aus Mitgliedern der St\u00e4ndigen Impfkommission und der Nationalen Akademie der Wissenschaften Leopoldina (2020) Wie soll der Zugang zu einem COVID-19-Impfstoff geregelt werden? 21. Pulendran B, Ahmed R (2011) Immunological mechanisms of vaccination",
+            "authors": [],
+            "year": null,
+            "venue": "Nat Immunol",
+            "volume": "12",
+            "issn": "",
+            "pages": "509--517",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "COVID-19 vaccine BNT162b1 elicits human antibody and TH1 T cell responses",
+            "authors": [
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Sahin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Muik",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Derhovanessian",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "586",
+            "issn": "",
+            "pages": "594--599",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Vaccine immunology",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Siegrist",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "-A ; Plotkin",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Orenstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Offit",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Hrsg) Vaccines. Elsevier-Saunders",
+            "volume": "",
+            "issn": "",
+            "pages": "14--32",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Beschluss und Wissenschaftliche Begr\u00fcndung der St\u00e4ndigen Impfkommission (STIKO) f\u00fcr die COVID-19-Impfempfehlung",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Vygen-Bonnet",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Koch",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Bogdan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Epid Bull",
+            "volume": "2",
+            "issn": "",
+            "pages": "64--132",
+            "other_ids": {
+                "DOI": [
+                    "10.25646/7820"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Impfen bei Immundefizienz. Anwendungshinweise zu den von der STIKO empfohlenen Impfungen. (IV) Impfen bei Autoimmunerkrankungen, bei anderen chronisch-entz\u00fcndlichen Erkrankungen und unter immunmodulatorischer Therapie",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Wagner",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Assmus",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Arendt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "62",
+            "issn": "",
+            "pages": "494--515",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "FalseyARetal(2020)Safety and immunogenicity of two RNA-based Covid-19 vaccine candidates",
+            "authors": [
+                {
+                    "first": "Frenckrwjr",
+                    "middle": [],
+                    "last": "Walshee",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "N Engl J Med",
+            "volume": "383",
+            "issn": "",
+            "pages": "2439--2450",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "\"Impfkrankheit\" (1 bis 3 Wochen nach Impfung mit Lebendimpfstoff): z. B. Parotisschwellung, fl\u00fcchtiges Exanthem, und/oder Arthralgien nach MMRV-Impfung, gastrointestinale Symptome nach oraler Rotavirus-oder Typhusimpfung Nein Impfreaktion, die das \u00fcbliche Ausma\u00df \u00fcberschreitet, z. B. Lokal: z. B. Abszess an der Injektionsstelle, Darminvagination nach Rotavirusimpfung Impfkomplikation Systemisch: z. B. Fieberkrampf, Infektion, hypoton-hyporesponsive Episode, Immunthrombozytopenie nach Masernimpfung Ja Dauerhafte gesundheitliche Sch\u00e4digung infolge einer Schutzimpfung, z. B. Lokal: z. B. Schulterverletzung nach Impfung (Verletzungen der Bursa subdeltoidea/subacromialis, des Ramus anterior des N. axillaris und des N. radialis), makrophagische Myofasziitis Impfschaden Systemisch: z. B. Narkolepsie, Guillain-Barr\u00e9-Syndrom, akute demyelinisierende Enzephalomyelitis (ADEM), Gelbfieberimpfstoff-assoziierte neutro-oder viszerotrope Erkrankung Ja MMRV Masern, Mumps, R\u00f6teln, Windpocken",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Tab. 1 \u00dcbersicht \u00fcber die in Deutschland zugelassenen Impfstoffe (Stand 16. Januar 2021) Fragen der Impfung eine besondere \u00e4rztliche Aufmerksamkeit. Infolge der Grunderkrankung besteht oftmals ein erh\u00f6htes Infektionsrisiko. Des Weiteren k\u00f6nnen impfpr\u00e4ventable Infektionen bei diesen Patienten die Morbidit\u00e4t und Mortalit\u00e4t erh\u00f6hen. Da h\u00e4ufig noch eine immunologische Restfunktion besteht, k\u00f6nnen Impfungen zumindest einen teilweisen Infektionsschutz vermitteln. Bei Patienten mit chronisch entz\u00fcndlichen oder Autoimmunerkrankungen verringern Impfungen auch das Risiko f\u00fcr infektionsgetriggerte Sch\u00fcbe der Grunderkrankung, ohne selbst jedoch Krankheitssch\u00fcbe auszul\u00f6sen",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "COVID-19-Impfstoffe, die in Deutschland derzeit bzw. in naher Zukunft verf\u00fcgbar sind",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Die STIKO(St\u00e4ndige Impfkommission)-Impfempfehlungen gelten als medizinischer Standard. 4 Die STIKO arbeitet streng evidenzbasiert. Alle Impfempfehlungen beruhen auf der systematischen Evaluation der zur Verf\u00fcgung stehenden wissenschaftlichen Literatur. 4 Impfkomplikationen und Impfsch\u00e4den, nicht aber die normalen Impfreaktionen sind meldepflichtig. 4 Das Nutzen-Risiko-Verh\u00e4ltnis f\u00fcr die in Deutschland von der STIKO empfohlenen Impfungen ist sehr hoch. 4 Bei angeborener oder erworbener Immundefizienz sind Totimpfstoffe unbedenklich, aber in Abh\u00e4ngigkeit von Art und Ausma\u00df der Immunsuppression m\u00f6glicherweise nur eingeschr\u00e4nkt wirksam. Lebendimpfstoffe sind hingegen im Allgemeinen kontraindiziert. 4 Die COVID-19-mRNA-Impfstoffe haben sich in den Phase-3-klinischen Studien als sehr wirksam und sicher erwiesen, was zur COVID-19-Impfempfehlung durch die STIKO gef\u00fchrt hat. Einhaltung ethischer Richtlinien Interessenkonflikt. C. Bogdan ist Mitglied der St\u00e4ndigen Impfkommission am Robert Koch-Institut. Es bestehen keine Interessenkonflikte. F\u00fcr diesen Beitrag wurden vom Autor keine Studien an Menschen oder Tieren durchgef\u00fchrt. F\u00fcr die aufgef\u00fchrten Studien gelten die jeweils dort angegebenen ethischen Richtlinien.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

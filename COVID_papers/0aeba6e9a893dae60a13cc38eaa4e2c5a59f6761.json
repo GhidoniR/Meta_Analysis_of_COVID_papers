@@ -1,0 +1,1014 @@
+{
+    "paper_id": "0aeba6e9a893dae60a13cc38eaa4e2c5a59f6761",
+    "metadata": {
+        "title": "Advancing research in pregnancy during COVID-19: Missed opportunities and momentum in the US",
+        "authors": [
+            {
+                "first": "Elana",
+                "middle": [
+                    "F"
+                ],
+                "last": "Jaffe",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of North Carolina at Chapel Hill",
+                    "location": {
+                        "addrLine": "Chapel Hill",
+                        "postCode": "27599",
+                        "region": "NC",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Anne",
+                "middle": [
+                    "Drapkin"
+                ],
+                "last": "Lyerly",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of North Carolina at Chapel Hill",
+                    "location": {
+                        "addrLine": "Chapel Hill",
+                        "postCode": "27599",
+                        "region": "NC",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ilona",
+                "middle": [
+                    "T"
+                ],
+                "last": "Goldfarb",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Harvard Medical School",
+                    "location": {
+                        "postCode": "02114",
+                        "settlement": "Boston",
+                        "region": "MA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Advancing research in pregnancy during COVID-19: Missed opportunities and momentum in the US Elana F. Jaffe, 1 Anne Drapkin Lyerly, 1 and Ilona T. Goldfarb 2, * Pregnant people's exclusion from COVID-19 vaccine research highlights both the harms of excluding pregnant people from clinical trials and the growing public support for their equitable inclusion. Protectionary tendencies must be challenged for the sake of progress. The COVID-19 pandemic presents an opportunity to translate recognition of an unjust paradigm into action.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Recent discussions around whether pregnant people should be offeredand if offered, should accept-COVID-19 vaccination make vivid one of the many inequities related to who benefits from clinical research. The central dilemma is this: pregnant people face more severe disease and a higher risk of death when infected with COVID-19, 1 but their exclusion from vaccine development guarantees inadequate evidence to guide clinical or public health recommendations about the use of this highly effective protection in pregnancy. Already tens of thousands of pregnant people have been faced with the deeply personal decision of whether to be vaccinated during pregnancy, and their providers tasked with the weighty responsibility of counseling about risks and benefits in the absence of evidence. For pregnant people at high risk of infection, such as frontline workers or those with underlying health conditions, the benefits of vaccination are likely to outweigh any potential risks. But as vaccine eligibility expands to the general population, exponentially more pregnant people, including those with low exposure and no underlying risk factors, will face the dilemma of whether to accept COVID-19 vaccination during pregnancy.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "While both avoidable and regrettable, evidence gaps around COVID-19 vaccines in pregnancy are not surprising. The aversion in clinical research to account for the complexities of gender differences and the female reproductive system dates back decades. The result has been lags in understanding around sex-specific disease processes (e.g., gynecological manifestations of HIV remained absent from diagnostic criteria for more than 10 years after the virus was first reported) as well as delays in understanding sex differences in drugs and disease treatment (e.g., multiple approved medications were withdrawn from the market between 1997 and 2000 due to serious and sometimes fatal health risks that disproportionately impacted women). Although the 1993 National Institutes of Health (NIH) National Revitalization Act mandated inclusion of women and minorities in clinical research, many preclinical trials continued to rely on exclusively male animal models for years after; not until 2016 did the NIH begin requiring analysis of sex as a biological variable, with uneven results. 2 Even with progress toward fair inclusion of women broadly, one population still faces significant outstanding evidence gaps: pregnant people.",
+            "cite_spans": [
+                {
+                    "start": 1083,
+                    "end": 1084,
+                    "text": "2",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Pregnancy continues to be an exclusion criterion for most clinical research and as such, critical evidence gaps remain around prevention and treatment of illness during pregnancy. The pregnant body is physiologically distinct, not only due to the presence of the developing fetus, but because of immense physiologic and immunologic changes that impact how the body interacts with pathogens, medications, and vaccines. The current COVID-19 pandemic emphasizes the urgency of better addressing the needs of pregnant people in clinical research. In what follows, we discuss the harms of excluding pregnant individuals from clinical research and examine several patterns that must be challenged in moving toward their ethical inclusion. We then discuss how the COVID-19 pandemic has highlighted missed opportunities and momentum alike in efforts to advance ethical inclusion of pregnant people in clinical research.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Patterns of exclusion stem from a range of factors, including ethical concerns, regulatory and legal disincentives, scientific motivations, financial barriers, and historical precedent. 3 But broad exclusion also leads to significant harms. When pregnant people are left out of clinical research, they not only miss out on the prospective benefit offered by research participation, but they are left behind from medical advances and associated health benefits. 4 While 97.1% of pregnant people in the US use at least one medication, the average time for gathering information about drug safety in pregnancy is 27 years. 5, 6 Without evidence, pregnant people and their providers are left without information key to decisionmaking around the appropriate use of preventive or therapeutic interventions.",
+            "cite_spans": [
+                {
+                    "start": 186,
+                    "end": 187,
+                    "text": "3",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 461,
+                    "end": 462,
+                    "text": "4",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 620,
+                    "end": 622,
+                    "text": "5,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 623,
+                    "end": 624,
+                    "text": "6",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Harms of exclusion"
+        },
+        {
+            "text": "Decisions made in the absence of evidence may be more biased by common risk distortions documented in the context of pregnancy; 7 providers may be more reticent to offer under-evidenced interventions, and pregnant people may be less likely to accept them. 4 Exclusion also leads to repercussions on policy and public health levels. When efforts to collect evidence are lacking or lagging, reticence to use vaccines absent pregnancy-specific human data has costs. For example, in the context of the COVID-19 pandemic, pregnant people's exclusion from vaccine trials has led to inconsistent policies about vaccine use in pregnancy. While the Centers for Disease Control (CDC), ACOG (American College of Obstetricians and Gynecologists), and the Society for Maternal Fetal Medicine (SMFM) all support use of COVID-19 vaccines in pregnancy and endorse pregnancy as a high-risk condition (see Table 1 ), in guidance from some states in the US, pregnancy is notably absent among conditions listed for priority eligibility criteria. 8 Of equal concern, anecdotal evidence suggests some eligible pregnant people in the US are being denied COVID-19 vaccines at pharmacies and other locations despite professional recommendations and even endorsement from physicians. In some global settings including Chile, Costa Rica, and Singapore, the same vaccines authorized for use in the US are prohibited in pregnancy, based on the same limited evidence and differential assessments of risk and benefit. And historical cases demonstrate that the costs of contradictory public health messaging when it comes to vaccine safety in pregnancy are multiple -lack of evidence can lead to delay or denial of access to life-saving interventions, delays in epidemic control, and potentially increased terminations of otherwise desired pregnancies. 9 When vaccine research ignores pregnancy, pregnant people do not have equitable access to evidence-based effective protection against illness, and the consequences may be deadly.",
+            "cite_spans": [
+                {
+                    "start": 256,
+                    "end": 257,
+                    "text": "4",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1026,
+                    "end": 1027,
+                    "text": "8",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1821,
+                    "end": 1822,
+                    "text": "9",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 888,
+                    "end": 895,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Harms of exclusion"
+        },
+        {
+            "text": "The need to protect pregnant people through research as opposed to from research has become a central rallying cry toward achieving ethical inclusion.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Toward Ethical Inclusion"
+        },
+        {
+            "text": "Of course, decisions about how to responsibly include pregnant people in research are complex. Risks and benefits accrue to physiologically enmeshed entities whose interests are intertwined and often, but not always, aligned. In rare cases of disjunct, the prospect of benefit to the pregnant person from research can ethically justify some fetal risk (and vice versa), but there is no consensus about how much benefit can justify how much risk in either case. 10 Additionally, background rates and causes of common adverse pregnancy outcomes are poorly defined, complicating analysis of safety data. Despite such complexities, there is ample room for improvement.",
+            "cite_spans": [
+                {
+                    "start": 461,
+                    "end": 463,
+                    "text": "10",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Toward Ethical Inclusion"
+        },
+        {
+            "text": "There are several problematic, even if well-intentioned, protectionary tendencies in clinical research that contribute to the exclusion of pregnant people from studies. 7 First is the tendency to focus narrowly on fetal risk, rather than considering the health of the dyad. Yet maternal disease and death also present fetal risk and longer-term risk for the child. Second is the tendency to focus on intervention-specific risks without acknowledging harms of inaction. Many infections present a high risk of harm to the pregnant person, fetus, or both. Third is a tendency to overlook potential benefit. Vaccines and medications can offer at least the same level of benefit-prevention or treatment of illness-to pregnant as to non-pregnant people, if not a greater prospect of protection, either because some conditions present greater risk in pregnancy or because interventions may benefit two entities. Fourth is the tendency to notice immediate researchspecific risks rather than the risks that will accrue in clinical contexts if the research is not done. Without pregnancy-specific data generated in the highly controlled and delimited context of research, the risk shifts to the clinical settings where oversight of safety outcomes is not formalized and the potential for harm is more widespread. In contrast, containing intervention risk within the controlled setting of a trial minimizes health risks for pregnant research participants and their offspring, and helps to ensure that risk on a population level is minimized. Finally, there is a historical tendency to label pregnant populations as ''vulnerable,'' a legal category otherwise reserved for those without the capacity to provide free and informed consent. While they are more scientifically complex, pregnant people are not vulnerable, but intellectually and morally competent as other adults to make their own decisions for themselves and their offspring. Providing pregnant people with equitable access to research and interventions respects their intellectual and moral status as equal to other adults. Further, evidence demonstrates that pregnant people want to participate in clinical research, often for similar reasons as non-pregnant people. 11 Nevertheless, these tendencies have shaped, and often unfairly constrained, the ways that pregnant people can interact with and benefit from clinical research, and they must be challenged.",
+            "cite_spans": [
+                {
+                    "start": 169,
+                    "end": 170,
+                    "text": "7",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 2219,
+                    "end": 2221,
+                    "text": "11",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Toward Ethical Inclusion"
+        },
+        {
+            "text": "The past decade has seen important milestones in efforts to advance the evidence base around medications and vaccines in pregnancy. For example, through the 21 st Century Cures Act, the US Congress mandated the creation of a Task Force on Research Specific to Pregnant Women and Lactating Women (PRGLAC), which provided recommendations to the US Department of Health and Human Services to identify and address evidence gaps related to pregnancy and lactation. The US Food and Drug Administration (FDA) released draft guidance for industry to guide research in pregnancy. They have also updated the requirements for labeling of drugs, requiring that information such as background rates of adverse pregnancy outcomes and descriptions of any available evidence be included. The 21 st Century Cures Act also helped to clarify legal liability around immunization in pregnancy, detailing that the Vaccine Injury Compensation Plan covers both alleged injuries to the individual who received a vaccine during pregnancy and alleged injury to any live-born children who were in utero at the time of vaccination. To address complex ethical questions and barriers, interdisciplinary and international groups of experts have produced roadmaps for progress through formal, actionable guidance. 3, 12 The COVID-19 pandemic offers a window to gauge progress attained by these efforts. Certainly, there have been advances. In particular, important advocacy from ACOG and SMFM was critical to ensuring pregnant people's early access to lifesaving COVID-19 vaccines and treatments. However, there have also been important missed opportunities for generating evidence around COVID-19 disease, prevention, and treatment in pregnancy. First, evidence confirming elevated risk from COVID-19 infection in pregnancy emerged slowly, in part given that pregnancy status was unknown for 72% of confirmed COVID-19 cases among women of reproductive age reported to the CDC in the first few months of the pandemic. 13 Second, pregnant people were excluded from most studies of COVID-19 treatments, even when the interventions being tested had a long history of use in pregnancy. 14 Pregnant people were also excluded from COVID-19 vaccine trials evaluated by the FDA for authorization and the CDC for guidance. An estimated 330,000 pregnant health workers were among those first eligible for vaccination in the US, and since authorization, tens of thousands of pregnant people have received COVID vaccines in the clinical context.",
+            "cite_spans": [
+                {
+                    "start": 1281,
+                    "end": 1283,
+                    "text": "3,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1284,
+                    "end": 1286,
+                    "text": "12",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1985,
+                    "end": 1987,
+                    "text": "13",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Milestones, Missed Opportunities, and Momentum"
+        },
+        {
+            "text": "While efforts are underway to collect data, challenges remain. Efforts to centralize data collection around COVID-19 vaccination in pregnancy have been limited. As of as of April 12, 2021, 86,956 vaccinations in pregnancy have been reported through the CDC's surveillance system (V-SAFE), but of these, only 4,478 are enrolled in the associated pregnancy registry. Fortunately, the rates of adverse outcomes following COVID-19 vaccination reported thus far are no different than in the general population. 15 A vaccine trial in pregnancy is finally underway for one of the vaccines authorized in the US, although issues around the use of placebo have required consideration. Even so, the delay in gathering this evidence means that many more pregnant people have made and will make decisions about whether to receive a vaccine that protects against severe pandemic illness without pregnancy-specific evidence, and attendant reassurance, to support its use.",
+            "cite_spans": [
+                {
+                    "start": 506,
+                    "end": 508,
+                    "text": "15",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Milestones, Missed Opportunities, and Momentum"
+        },
+        {
+            "text": "Missed opportunities to gather evidence have also impacted regulatory and public health guidance. From a regulatory perspective in the US, vaccines do not require pregnancy-specific indi-cations, as pregnant people are considered healthy adults. As such, FDA authorization for adults is an important step toward access, as is CDC guidance allowing pregnant people to choose whether or not to be vaccinated. But there is more nuance to the expert recommendations: the most supportive guidance at this point in the pandemic is to not withhold or to ensure access to pregnant people who request it; but guidelines defer to consultation with healthcare providers and could offer stronger endorsement, as they do for other high-risk populations (see Table  1 ). Encouraging shared decision-making between patients and providers is always welcome, though when providers also face limited evidence to evaluate risks and benefits, there may be important variations in providerlevel recommendations (and reticence) by geographic region or provider type that raise equity-related concerns. Ensuring equitable access to COVID-19 vaccines in pregnancy in the near term can be aided by broad dissemination and translation of decision-making tools, as well as timely publication of data from the pregnancies of individuals who have received COVID-19 vaccines.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 745,
+                    "end": 753,
+                    "text": "Table  1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Milestones, Missed Opportunities, and Momentum"
+        },
+        {
+            "text": "Despite the short-comings of the COVID-19 response with regards to equitable protection of pregnant people, there is reason for optimism. COVID-19 has brought the conversation about the need to advance pregnancy-specific evidence to new platforms. Almost all mainstream media outlets have featured articles about evidence gaps in pregnancy in the context of COVID-19 vaccines. Never has there been so much public and widespread support around the importance of including pregnant people in research, and there is increasing recognition that responsible research in pregnancy is possible. To capture the momentum of this moment, it is imperative to learn from the COVID-19 pandemic and build on the momentum of recognition and public discourse toward respon-sible, proactive inclusion of pregnant people and their interests in the biomedical research agenda. ACKNOWLEDGMENTS E.F.J. is supported by the Wellcome Trust (Wellcome # 221556/Z/20/Z) and A.D.L. is supported by the US National Institutes of Health (R01AI108368, PI: Lyerly). The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health. The funders had no role in the preparation, review, or approval of the manuscript, or the decision to submit the manuscript for publication.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Milestones, Missed Opportunities, and Momentum"
+        },
+        {
+            "text": "The authors have no conflicts of interests to declare.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DECLARATION OF INTERESTS"
+        },
+        {
+            "text": "Malaria continues to be a major public health scourge across several nations. Despite the impressive decline in overall malaria burden in India (from 20 million cases in 2000 to 5.6 million instances in 2019), the absolute number of cases remains high in the country (~6 million as per WHO). 1 Infectious diseases like malaria impact women and children disproportionately in a developing country like India due to socio-demographical and cultural milieu of the country. Pregnancy, biologically and socially (particularly in developing countries), makes women more vulnerable to malaria and its adverse effects due to a variety of reasons ranging from immunological to healthcare inequity issues.",
+            "cite_spans": [
+                {
+                    "start": 292,
+                    "end": 293,
+                    "text": "1",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Even though MiP and neonatal malaria act as a disease burden in the endemic malarious zones of Africa and also in the region of Indian sub-continent, it remains relatively unexplored in India. Since MiP can result in significant maternal and child morbidity/mortality, health awareness and appropriate public health measures are necessary for its prevention. The clinical picture of malaria in pregnancy (MiP) varies from no or minimal symptoms to severe cases of anemia and possibly death. Accord-ing to National Family Health Survey 5 (NFHS-5),~57% of women belonging to the age group of 15 to 49 years are anemic. The pathology of MiP can be presented in two ways: placental wherein parasites accumulate in the intervillous space, or peripheral malaria in which parasites are concentrated in the maternal peripheral blood. It is known that MiP increases the chances of fetal and maternal anemia. This in turn occurs due to multiple reasons such as poor nutrition, nutritional disorders, infections, malabsorption, or other ailments which further exaggerate the anemic status thereby causing an additional burden on national health maintenance. A high percentage of babies born to malaria-infected pregnant women in India likely suffer from severe health disadvantages because there are the high chances of prematurity, intrauterine growth",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Update: characteristics of symptomatic women of reproductive age with laboratory-confirmed SARS-CoV-2 infection by pregnancy status -United States",
+            "authors": [],
+            "year": 2020,
+            "venue": "Response Pregnancy and Infant Linked Outcomes Team",
+            "volume": "69",
+            "issn": "",
+            "pages": "1641--1647",
+            "other_ids": {
+                "DOI": [
+                    "10.15585/mmwr.mm6944e3"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Evaluating the National Institutes of Health's Sex as a Biological Variable policy: conflicting accounts from the front lines of animal research",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Waltz",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Fisher",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Lyerly",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Walker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "J. Womens Health (Larchmt.)",
+            "volume": "30",
+            "issn": "",
+            "pages": "348--354",
+            "other_ids": {
+                "DOI": [
+                    "10.1089/jwh.2020.8674"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Ending the Evidence Gap for Pregnant Women around HIV & Co-Infections: A Call to Action",
+            "authors": [],
+            "year": 2020,
+            "venue": "The PHASES Working Group",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "The second wave: Toward responsible inclusion of pregnant women in research",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Lyerly",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Little",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Faden",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Int. J. Fem. Approaches Bioeth",
+            "volume": "1",
+            "issn": "",
+            "pages": "5--22",
+            "other_ids": {
+                "DOI": [
+                    "10.1353/ijf.0.0047"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Evolving knowledge of the teratogenicity of medications in human pregnancy",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Adam",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Polifka",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Friedman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Am. J. Med. Genet. C. Semin. Med. Genet",
+            "volume": "157",
+            "issn": "",
+            "pages": "175--182",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/ajmg.c.30313"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Prescription and other medication use in pregnancy",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Haas",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Marsh",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Dang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Parker",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Wing",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Simhan",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Grobman",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mercer",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Silver",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Hoffman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Risk and the pregnant body",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Lyerly",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mitchell",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Armstrong",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Harris",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kukla",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kuppermann",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Little",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Hastings Cent. Rep",
+            "volume": "39",
+            "issn": "",
+            "pages": "34--42",
+            "other_ids": {
+                "DOI": [
+                    "10.1353/hcr.0.0211"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Prioritization of pregnant individuals in state plans for coronavirus disease 2019 vaccination",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Crane",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Jaffe",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Beigi",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Karron",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Krubiner",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Wonodi",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Faden",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Am. J. Obstet. Gynecol",
+            "volume": "",
+            "issn": "21",
+            "pages": "167--175",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ajog.2021.03.015"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "The costs of contradictory messages about live vaccines in pregnancy",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Jaffe",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Goldfarb",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Lyerly",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Am. J. Public Health",
+            "volume": "111",
+            "issn": "",
+            "pages": "498--503",
+            "other_ids": {
+                "DOI": [
+                    "10.2105/AJPH.2020.306045"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Research with pregnant women: a feminist challenge",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Little",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Wickremsinhe",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Jaffe",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Lyerly",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Ethical Issues in Women's Healthcare: Practice and Policy",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Women's views about participating in research while pregnant",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Lyerly",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Namey",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Gray",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Swamy",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Faden",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "IRB",
+            "volume": "34",
+            "issn": "",
+            "pages": "1--8",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Pregnant women & vaccines against emerging epidemic threats: Ethics guidance for preparedness, research, and response",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Krubiner",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Faden",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Karron",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Little",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Lyerly",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Abramson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "PREVENT Working Group",
+            "volume": "39",
+            "issn": "",
+            "pages": "85--120",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Characteristics of women of reproductive age with laboratoryconfirmed SARS-CoV-2 infection by pregnancy status -United States",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ellington",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Strid",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Tong",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Woodworth",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Galang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Zambrano",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Nahabedian",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Gilboa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "MMWR Morb. Mortal. Wkly. Rep",
+            "volume": "69",
+            "issn": "",
+            "pages": "769--775",
+            "other_ids": {
+                "DOI": [
+                    "10.15585/mmwr.mm6925a1"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Inclusion of pregnant women in COVID-19 treatment trials: a review and global call to action",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Taylor",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Kobeissi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Amin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Thorson",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Bellare",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Glob. Health",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Vaccine Pregnancy Registry | CDC",
+            "authors": [],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "* Malaria specifically threatens health of pregnant mothers and infants and it remains unexplored in India. MiP (malaria in pregnancy) has serious short-term and long-term consequences on the mother and infant. Thus, urgent improvements in surveillance systems and management are needed to mitigate MiP as a public health problem",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "3",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": "Public health agency and obstetric society recommendations on COVID-19 vaccine use in pregnancy as of April 2021 In the interim, WHO recommends not to use BNT162b2 in pregnancy, unless the benefit of vaccinating a pregnant woman outweighs the potential vaccine risks, such as in health workers at high risk of exposure and pregnant women with comorbidities placing them in a high-risk group for severe COVID-19. Information and, if possible, counselling on the lack of safety and efficacy data for pregnant women should be provided.'' Moderna: ''In the interim, WHO recommends not to use mRNA-1273 in pregnancy, unless the benefit of vaccinating a pregnant woman outweighs the potential vaccine risks, such as in health workers at high risk of exposure and pregnant women with comorbidities placing them in a high-risk group for severe COVID-19. Information and, if possible, counselling on the lack of safety and efficacy data for pregnant women should be provided.'' Johnson & Johnson: ''In the interim, pregnant women should receive Ad26.COV2.S only if the benefit of vaccination to the pregnant woman outweighs the potential vaccine risks, such as if the woman is a health worker at high risk of exposure or has comorbidities that place them in a high-risk group for severe COVID-19. Information and, if possible, counselling on the lack of safety data on Ad26.COV2.S vaccine for pregnant women and the potential benefit of vaccination should be provided.'' Pfizer: https://www.who.int/publications/i/ item/WHO-2019-nCoV-vaccines-SAGE_recommendation-BNT162b2-2021.1 Moderna: https://www.who.int/publications/i/ item/interim-recommendations-for-use-of-",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

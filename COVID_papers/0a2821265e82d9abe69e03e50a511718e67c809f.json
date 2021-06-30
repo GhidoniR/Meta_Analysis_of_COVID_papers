@@ -1,0 +1,2604 @@
+{
+    "paper_id": "0a2821265e82d9abe69e03e50a511718e67c809f",
+    "metadata": {
+        "title": "",
+        "authors": []
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "In Wuhan China, 27 cases of pneumonia of unknown etiology were confirmed and the most common complaints of the patients were dry cough, fever, and respiratory distress Hui et al., 2020; Lu et al., 2020; World Health Organization [WHO] , 2020a; Zhu et al., 2020) . The Chinese Center for Disease Control and Prevention identified the novel coronavirus (Severe Acute Respiratory Syndrome Coronavirus 2-SARS-CoV-2) as the causative agent on January 7, 2020, based upon throat swabs and development of genomic characterization and test methods. The World Health Organization (WHO) named this disease COVID-19 WHO, 2020b) .",
+            "cite_spans": [
+                {
+                    "start": 168,
+                    "end": 185,
+                    "text": "Hui et al., 2020;",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 186,
+                    "end": 202,
+                    "text": "Lu et al., 2020;",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 203,
+                    "end": 234,
+                    "text": "World Health Organization [WHO]",
+                    "ref_id": null
+                },
+                {
+                    "start": 244,
+                    "end": 261,
+                    "text": "Zhu et al., 2020)",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 605,
+                    "end": 616,
+                    "text": "WHO, 2020b)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The first imported case of coronavirus after the number of cases in Turkey quickly increased after the coronavirus was officially detected on March 11, 2020. The total number of COVID-19 patients in the world and the total number of deaths due to coronavirus were announced as 1,279,010 and 72,603 respectively as of April 7, 2020 (Chow et al., 2020) . COVID-19 is a highly contagious disease and infects individuals through droplets when healthy individuals touch their mouth, nasal or ocular mucosa with their hands after coming into contact with the droplets spread from infected patients. The infectivity period of COVID-19 is not fully known but it starts 1 or 2 days before the onset of symptoms and ends when the symptoms disappear. When the cases in China were examined, it was observed that the incubation period for COVID-19 was on average 5 to 6 days (2-14 days) but could be up to 14 days in some cases (Lauer et al., 2020) . Therefore, necessary personal protective measures should be taken especially during the incubation period to prevent infection Lauer et al., 2020) . Various organizations including the WHO and the International Center for Disease Control and Prevention have made recommendations to prevent the continued spread of COVID-19 (Sohrabi et al.,2020; WHO, 2020c) . These recommendations include avoiding traveling to high-risk areas and not contacting people with coronavirus symptoms. They also recommend taking basic hygiene measures including personal protective measures such as washing hands frequently and wearing a mask (Sohrabi et al., 2020; WHO, 2020b) . In recent study found that gender significantly affects the level of health anxiety and the perception related to controlling the COVID-19 pandemic in that females had a higher level of health anxiety and perception related to controlling the pandemic (Ekiz et al., 2020) . A review of the literature, found females' levels of anxiety and risk perceptions to be consistently higher (Bandelow & Michaelis, 2015; \u00c7\u0131rako\u011flu, 2011; Leung et al., 2005; Wang et al., 2020b) . A separate study examined that the perceptions of the H1N1 influenza pandemic in Turkey and found that females considered the pandemic more communicable than males and females had a higher level of anxiety compared to males (\u00c7\u0131rako\u011flu, 2011) . The perception of the females in a study group on becoming infected was higher during the H1N1 influenza pandemic in Turkey (Akan et al., 2010) . A study highlights the gender affects the perception of risk and that females fear more than males (Raude & ve Setbon, 2009) . In another study that females have a higher level of fear of death in terms of becoming infected or the pandemic (Leung et al., 2005) . During swine flu at the relationship between gender and personal protective measures a study that males had a lower score in personal protective measures such as wearing a mask, washing their hands, and using a disinfectant (Jones & ve Salath\u00e9, 2009 ). This study found that the behaviors that the participants performed most were related to personal hygiene, social distancing, and hand washing. A study highlights individuals are highly sensitive to personal protective measures and participate in measures such as hand hygiene (Bostan et al., 2020) . During the swine flu 35% of individuals in countries such as England, Scotland, and Wales isolated themselves from crowded places, 28% washed their hands with water and soap more frequently, and 17% increased the frequency of disinfecting door handles (Rubin et al., 2009 ). In another recent study the most effective method to protect ourselves from the COVID-19 pandemic is to apply personal hygiene rules (Kwok et al., 2020) .",
+            "cite_spans": [
+                {
+                    "start": 331,
+                    "end": 350,
+                    "text": "(Chow et al., 2020)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 915,
+                    "end": 935,
+                    "text": "(Lauer et al., 2020)",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 1065,
+                    "end": 1084,
+                    "text": "Lauer et al., 2020)",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 1261,
+                    "end": 1282,
+                    "text": "(Sohrabi et al.,2020;",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 1283,
+                    "end": 1294,
+                    "text": "WHO, 2020c)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1559,
+                    "end": 1581,
+                    "text": "(Sohrabi et al., 2020;",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 1582,
+                    "end": 1593,
+                    "text": "WHO, 2020b)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1848,
+                    "end": 1867,
+                    "text": "(Ekiz et al., 2020)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1978,
+                    "end": 2006,
+                    "text": "(Bandelow & Michaelis, 2015;",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 2007,
+                    "end": 2023,
+                    "text": "\u00c7\u0131rako\u011flu, 2011;",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 2024,
+                    "end": 2043,
+                    "text": "Leung et al., 2005;",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 2044,
+                    "end": 2063,
+                    "text": "Wang et al., 2020b)",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 2290,
+                    "end": 2307,
+                    "text": "(\u00c7\u0131rako\u011flu, 2011)",
+                    "ref_id": null
+                },
+                {
+                    "start": 2434,
+                    "end": 2453,
+                    "text": "(Akan et al., 2010)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 2555,
+                    "end": 2580,
+                    "text": "(Raude & ve Setbon, 2009)",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 2696,
+                    "end": 2716,
+                    "text": "(Leung et al., 2005)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 2943,
+                    "end": 2968,
+                    "text": "(Jones & ve Salath\u00e9, 2009",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 3249,
+                    "end": 3270,
+                    "text": "(Bostan et al., 2020)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 3525,
+                    "end": 3544,
+                    "text": "(Rubin et al., 2009",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 3681,
+                    "end": 3700,
+                    "text": "(Kwok et al., 2020)",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Studies on COVID-19 revealed that mortality and morbidity rates increase especially in patients \u226565 years of age (Desai, et al., 2020; Kebudi, 2020; Liang et al., 2020) . The weak immune system of older adult patients causes their hospital stay to increase and recovery process to extend (Kebudi, 2020) . A study conducted in China showed that 18 (1%) of 1590 COVID-19 patients were diagnosed with cancer (Liang et al., 2020) . The COVID-19 risk of patients who receive chemotherapy for cancer or surgical therapy is five times higher (Liang et al., 2020) . Patients who receive cancer treatment need intensive care more than other patients and their general condition worsens in a short time (13 days on avg.) (Liang et al., 2020) . A meta-analysis in China showed that 2% of all patients with COVID-19 were also diagnosed with cancer (Desai, et al., 2020) . In the United States of 5,688 patients diagnosed with COVID-19 at the Mount Sinai Hospital 334 (6%) were receiving chemotherapy. When the patients diagnosed with cancer were examined, those 66 to 80 years of age required intubation more frequently and their mortality rate increased at the same rate as well (Vickers, 2017) . A literature review revealed that individuals \u226565 years of age receiving chemotherapy or having a cancer history are considered a high-risk group for COVID-19 (Sohrabi et al., 2020) . On March 11, 2020, WHO declared COVID-19 as an epidemic, and the Turkish government began to take strict measures. On March 21, 2020, a lockdown was declared for individuals 65 years and older adult without permission and except for obligatory cases. In literature reviews it show that there is insufficient information regarding COVID-19 pandemic awareness of the vulnerable group of geriatric patients with cancer and their access to the opportunities surrounding medical treatment and care. The study topic is an important and timely sociological and public health concern regarding the necessity and impact of restrictions for older adult oncology patients during the COVID-19 pandemic and related policy development purposes. This study would present an important baseline for knowledge among older adults for current and future researchers. The research will contribute to the literature concerning geriatric patients receiving chemotherapy for cancer who should be especially careful about infection control and treatment methods during the hospital arrival process and will shed light on their awareness regarding COVID-19 and appropriate procedures.",
+            "cite_spans": [
+                {
+                    "start": 113,
+                    "end": 134,
+                    "text": "(Desai, et al., 2020;",
+                    "ref_id": null
+                },
+                {
+                    "start": 135,
+                    "end": 148,
+                    "text": "Kebudi, 2020;",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 149,
+                    "end": 168,
+                    "text": "Liang et al., 2020)",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 288,
+                    "end": 302,
+                    "text": "(Kebudi, 2020)",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 405,
+                    "end": 425,
+                    "text": "(Liang et al., 2020)",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 535,
+                    "end": 555,
+                    "text": "(Liang et al., 2020)",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 711,
+                    "end": 731,
+                    "text": "(Liang et al., 2020)",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 836,
+                    "end": 857,
+                    "text": "(Desai, et al., 2020)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1168,
+                    "end": 1183,
+                    "text": "(Vickers, 2017)",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 1345,
+                    "end": 1367,
+                    "text": "(Sohrabi et al., 2020)",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Is there a significant difference between the sociodemographic characteristics of patients older adult the age of 65 who received cancer treatment regarding COVID-19 awareness? Is there a significant difference between patients older adult the age of 65 who received cancer treatment during the COVID-19 pandemic in terms of transportation to the hospital? Is there a significant difference between applying preventive measures related to COVID-19 pandemic in patients older adult the age of 65 who received cancer treatment?",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Research Questions"
+        },
+        {
+            "text": "This study employed a cross-sectional descriptive correlational design. The aim of this study was to evaluate participants' COVID-19 pandemic awareness and their hospital arrival process for follow-up and treatment in the Oncology Hospital. This study was executed and reported in accordance with STROBE Statement: guidelines for reporting observational studies (Supplementary File 1). The study was performed between April 29, 2020, and May 20, 2020 in an Oncology Hospital located in Ankara. After written consent was received from the patients who agreed to participate in the study between April 29, 2020, and May 20, 2020, a written questionnaire which included questions about sociodemographic data and COVID-19 awareness was administered to them.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Design and Sample"
+        },
+        {
+            "text": "Participants were recruited through convenience sampling. The study population included the patients with cancer, aged 65 years and older adult, receiving chemotherapy in the Oncology Hospital located in Ankara between April 29, 2020 and May 20, 2020. Patients \u226565 years of age, were included if they (i) receiving chemotherapy (ii) with no communication problems (iii) aware of their diagnosis (iv) open to communication and cooperation (v) with no vision and hearing impairments (vi) were willing and volunteered to participate in the study. Patients were excluded if (i) had vision and hearing impairments (ii) were using antipsychotic drugs (iii) were not willing and volunteered to participate in the study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Design and Sample"
+        },
+        {
+            "text": "Before answering the questionnaire, the researchers informed the patients of the study's purpose, their rights, and the fact that they could withdraw from the research at any time. All eligible participants provided informed consent before they completed the questionnaire. This study was approved by the University of Health Sciences Clinical Research Ethics Committee (KA-2020-04/590) before data collection began. All interventions were carried out in accordance with institutional ethical standards and the national research committee, including the 1964 Declaration of Helsinki and subsequent amendments. The PIT was administered to the patients who gave written and oral consent on the first day of the study. A written interview was performed with every patient individually.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ethical Approval"
+        },
+        {
+            "text": "The data were collected with questionnaire form due to lack of COVID-19 related scale in cancer patients. The questionnaire form, which was created by the researchers through literature review, was sent to five professors who are experts in their fields, their opinions were received and applied after the necessary corrections were made. The data were collected using a patient information form (PIT) which is a questionnaire used to record the patients' sociodemographic information and COVID-19 awareness. The PIT consisted of three parts. The first two parts were the sociodemographic parts and the third part contained questions regarding COVID-19 awareness. The sociodemographic form included questions about the patients' age, gender, number of children, educational status, marital status, occupation, diagnosis, disease stage, protocol, and cure. The questionnaire also included 13 questions concerning how many people live in the house with the patient, has companions when they go to and return from the hospital, uses public transportation, receives permission to go to the hospital, knowledge about the COVID-19 pandemic, from whom they have obtained information if they know about the pandemic, the patient knows what to do in emergencies (fever, cough, shortness of breath, etc.), protective measures they take when they go to and return from the hospital, and how they maintain their hygiene when they return home from the hospital. The PIT was administered to the patients who gave written and oral consent on the first day of the study. Before answering the questionnaire, the researchers informed the patients of the study's purpose, their rights, and the fact that they could withdraw from the research at any time. A written interview was performed with every patient individually and social distancing rules were followed in the environment.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Sources and Measures"
+        },
+        {
+            "text": "Statistical analyses were performed with SPSS 25.0 software (Chicago, IL, USA). Descriptive data were presented as means and standard deviations, while categorical variables were described using frequency and percentage. Categorical variables were presented as number (n) and percentage (%) values. Continuous variables were presented as median (IQR) (Interquartile Range) accordingly. Chi-square test or Fisher's exact test was used to compare categorical data. A value of p < .05 was considered statistically significant.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Analysis"
+        },
+        {
+            "text": "This study included 77 patients between April 29, 2020, and May 20, 2020. The mean age of the participants was 70 years (65-80). Of the participants, 59.7% were female, 24.7% had five or more children, 45.5% had three or four children and four had no children. Of the participants, 61% had completed primary school (primary school graduate), 20.8% were literate (know how to read and write), and 2.6% were illiterate (analphabetic). Of those who were receiving treatment, 27% were diagnosed with breast cancer and 22% were diagnosed with colorectal cancers. When the stages of the diseases were examined, it was found that 53.2% had early-stage and locally advanced disease while 36 patients 46.7% had metastatic disease. Comorbid chronic disease was found in 53.8% and Hypertension (HP) 36.4% and Diabetes Mellitus (DM) 9.1% were the most common accompanying diseases. Of those undergoing treatment, 62.2% were receiving the first six cures. While none of the participants were living alone, 48% were living with two people and 18.2% were living with five or more people (Table 1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1072,
+                    "end": 1081,
+                    "text": "(Table 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Ankara residents accounted for 79.2% patients while 20.8% came from outside of Ankara. Of the participants, 98.7% came to the hospital in their car while only one patient used public transportation to arrive at the hospital. Most participants (94.8%) had at least one companion while four patients went to the hospital alone. Of the participants, 20% had obtained a travel warrant from the administrative chiefs before going to the hospital (Table 2) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 441,
+                    "end": 450,
+                    "text": "(Table 2)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "A total of 89.6% with knowledge of the COVID-19 pandemic received their information through the television while eight patients knew nothing about the pandemic. Of the participants, 72.7% had knowledge of emergency telephone numbers and the most known number was \"112.\" Fifty-five patients 71.4% stated that they would apply to the emergency service when their body temperature rises to 38\u00b0C while 24.7% stated that they did not know when they should apply to the emergency service (Table 3) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 482,
+                    "end": 491,
+                    "text": "(Table 3)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "All patients wore a mask outside and 14.3% wore gloves as well. Of the participants, 81.8% stated that they were trying to follow social distancing rules. All patients washed their hands and changed their clothes when they returned home and 75.3% took a shower as well. All patients did not allow any guests during the pandemic and 18% stated that they followed social distancing rules at home (Table 3) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 394,
+                    "end": 403,
+                    "text": "(Table 3)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Looking at the gender and the protective measures taken at home, female participants were found to follow a statistically significant higher level of protective measures, such as washing hands, taking showers, and changing clothes, compared to male participants (p = .012). Females also took a higher level of precautions at home, such as social distancing, use of personal belongings, and not allowing guests, compared to males *Of the participants their information through the television (89.6%). **The most known number was \"112.\" ***Of the participants their body temperature rises to 38\u00b0C.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "(p = .007). No statistical differences were found between education levels, protective measures taken outside (wearing a mask, following social distancing, and using gloves), and protective measures taken at home (p > .05). No statistical differences were found between the protective measures taken outside, the protective measures taken at home, and the social life rules at the home of patients who had local, locally advanced, and metastatic disease (stage 4) (p>0.05). No statistical differences were found between the number of people that the patients live with, the protective measures taken at home, and the social life rules at home (p > .05).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "This study aimed to evaluate the COVID-19 pandemic awareness of cancer patients \u226565 years of age and their hospital arrival process for follow-up and treatment during the worldwide pandemic detected in Turkey in March 2020. The findings showed that follow-up and COVID-19 awareness of patients with cancer \u226565 years of age were influenced by several demographic variables.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The mean age of the 77 participants was 70 years. The literature shows that the older adult population of the world may reach two billion in 2050 (Foster & Walker, 2013) . The data of the Turkish Statistical Institute in 2014 show that the older adult population in Turkey comprised 7.7% of the total population of the country and life expectancy was 75 years for males and 79 years for females (Tekin et al., 2018; TU\u0130K, 2014) . The rate of incidence of all cancer cases in individuals \u226565 years is 80% (Extermann et al., 2005) . The prevalence of chronic diseases such as cancer increases as life expectancy increases with modern technological developments and treatment methods. As life expectancy increases with increasing age, this, in turn, leads to an increase in cancer-related mortality rates.",
+            "cite_spans": [
+                {
+                    "start": 146,
+                    "end": 169,
+                    "text": "(Foster & Walker, 2013)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 395,
+                    "end": 415,
+                    "text": "(Tekin et al., 2018;",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 416,
+                    "end": 427,
+                    "text": "TU\u0130K, 2014)",
+                    "ref_id": null
+                },
+                {
+                    "start": 504,
+                    "end": 528,
+                    "text": "(Extermann et al., 2005)",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Of the participants in this study, 61% had completed primary school. A multicenter study in 2011 on the arrival of patients with breast cancer to diagnosis and treatment centers and found that 41% of 535 patients who applied to the 14 different oncology clinics had completed primary school and 15% had completed college (Saip et al., 2011) . When the educational status of individuals \u226565 years of age in Turkey were examined, it was found that 43% had completed primary school and 5.4% had completed college (TU\u0130K, 2017) . These rates parallel the findings of this study because primary school and middle school are considered primary school in Turkey. Therefore, the absence of patients who completed high school and college in this study suggests difficulties in working with a group of a lower sociocultural level.",
+            "cite_spans": [
+                {
+                    "start": 321,
+                    "end": 340,
+                    "text": "(Saip et al., 2011)",
+                    "ref_id": null
+                },
+                {
+                    "start": 510,
+                    "end": 522,
+                    "text": "(TU\u0130K, 2017)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The literature shows that the type, the incidence, and the prevalence of cancer increase with age and is higher in males. The most common types of cancers are trachea and lung cancer in males and breast cancer in females.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The data of GLOBOCAN 2018 for Turkey show that trachea, bronchial carcinoma, and lung cancer cases in males of all ages were 1,368,524 (14.5%) and breast cancer in females of all ages were 2,088,849 (24.2%) (Bray et al., 2018) . The data of the Turkish Statistical Institute in 2015 show that 44.5% of females diagnosed with breast cancer are between the ages of 50 and 69. The same data show that the most common types of cancer in males in the 50 to 69-year age group are trachea, bronchial carcinoma, lung cancer (25.6%). And \u226570 years of age are trachea, bronchial carcinoma and lung cancer (19.1%). Colorectal cancer is considered the third most common type of cancer in males and females (T\u00dc\u0130K, 2013 (T\u00dc\u0130K, , 2014 (T\u00dc\u0130K, , 2017 (T\u00dc\u0130K, , 2018 . The incidence of colorectal cancer in geriatric individuals who are in the 65 to 84 age group is six times higher compared to younger individuals (Alan et al., 2013) . Breast and gastrointestinal cancers were the most common diseases in the oncology hospital; therefore, patient density occurred in these subgroups.",
+            "cite_spans": [
+                {
+                    "start": 207,
+                    "end": 226,
+                    "text": "(Bray et al., 2018)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 694,
+                    "end": 705,
+                    "text": "(T\u00dc\u0130K, 2013",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 706,
+                    "end": 719,
+                    "text": "(T\u00dc\u0130K, , 2014",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 720,
+                    "end": 733,
+                    "text": "(T\u00dc\u0130K, , 2017",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 734,
+                    "end": 747,
+                    "text": "(T\u00dc\u0130K, , 2018",
+                    "ref_id": null
+                },
+                {
+                    "start": 896,
+                    "end": 915,
+                    "text": "(Alan et al., 2013)",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Studies in Turkey show that 70% to 90% of geriatric patients have at least one chronic disease (Arslan et al., 2005; Kutsal 2006; \u00dcner et al., 2017; \u00dcnsal et al., 2011) . HP is one of the most important prevalent diseases which increases with age. The HP prevalence in Turkey is 26.1% according to the data of the \"National Household Health Survey-Prevalence of Non-Communicable Diseases in Turkey\" conducted in 2017. The Turkey Hypertension Prevalence Study conducted in 2012 found that HP was most common in the 60 to 69 age group (85.2%). The same study reported that 40% of geriatric patients \u226565 years of age had HP (Altun et al., 2012) . Another very common non-communicable disease is DM. The prevalence of DM increases with age and reaches its highest value (17.6%) between the ages of 60 to 74 (Atmaca et al., 2015; Canlar & Cinel, 2018; Saeedi et al., 2020) . According to the literature, the International Diabetes Federation (IDF) declared that there were 425 million adults with DM in the world in 2017 (Cho et al., 2018) . The rate of DM in geriatric patients \u226565 years of age was 32.0% in Turkey in 2012 (T.C. Sa\u011fl\u0131k Bakanl\u0131\u011f\u0131 Halk Sa\u011fl\u0131\u011f\u0131 Kurumu, 2014). The second Turkish Diabetes Epidemiology Study found that the prevalence rate of DM in the adult population was 13.7% (Satman & Grubu, 2011) . The WHO and the IDF indicate that patients \u226565 years of age comprise 16% of all patients with DM in the world (T\u00fcrkiye Cumhuriyeti Sa\u011fl\u0131k Bakanl\u0131\u011f\u0131 Himayelerinde, 2009 ). More than half of the patients in this study had comorbid chronic diseases and one in three patients had HP (36.4%), which is similar to rates reported in the literature.",
+            "cite_spans": [
+                {
+                    "start": 95,
+                    "end": 116,
+                    "text": "(Arslan et al., 2005;",
+                    "ref_id": null
+                },
+                {
+                    "start": 117,
+                    "end": 129,
+                    "text": "Kutsal 2006;",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 130,
+                    "end": 148,
+                    "text": "\u00dcner et al., 2017;",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 149,
+                    "end": 168,
+                    "text": "\u00dcnsal et al., 2011)",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 621,
+                    "end": 641,
+                    "text": "(Altun et al., 2012)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 803,
+                    "end": 824,
+                    "text": "(Atmaca et al., 2015;",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 825,
+                    "end": 846,
+                    "text": "Canlar & Cinel, 2018;",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 847,
+                    "end": 867,
+                    "text": "Saeedi et al., 2020)",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 1016,
+                    "end": 1034,
+                    "text": "(Cho et al., 2018)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1288,
+                    "end": 1310,
+                    "text": "(Satman & Grubu, 2011)",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 1423,
+                    "end": 1480,
+                    "text": "(T\u00fcrkiye Cumhuriyeti Sa\u011fl\u0131k Bakanl\u0131\u011f\u0131 Himayelerinde, 2009",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "No statistical differences were found between individuals 65 years and older adult with regard to protective measures taken outside or at home in this study (wearing a mask and following social distancing). A review of the literature found that older adult individuals are less likely to show health-protective behaviors (Leung et al., 2005) . A study that compared individuals' levels of health anxiety and their perception of controlling the COVID-19 pandemic and found that age significantly affected the perception of controlling the COVID-19 pandemic (Ekiz et al., 2020) . When the participants were grouped by their educational status no statistical differences were found between the educational levels and protective measures taken outside or at home in this study (wearing a mask, social distancing, wearing gloves, etc.) . Looking at the other studies, inconsistencies are observed between the literature data. A study that compared individuals' level of health anxiety and their perception on controlling the COVID-19 pandemic and found that individuals' perception on controlling the COVID-19 pandemic decreased as their educational level increased (Ekiz et al., 2020) . A separate study that participants with a lower educational level were at risk in terms of anxiety levels (Leung et al., 2005) . Education was expected to increase the level of awareness, control, and consciousness; however, reasons for inconsistencies between this study and the literature might be due to the different life experiences.",
+            "cite_spans": [
+                {
+                    "start": 321,
+                    "end": 341,
+                    "text": "(Leung et al., 2005)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 556,
+                    "end": 575,
+                    "text": "(Ekiz et al., 2020)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 773,
+                    "end": 830,
+                    "text": "(wearing a mask, social distancing, wearing gloves, etc.)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1161,
+                    "end": 1180,
+                    "text": "(Ekiz et al., 2020)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1289,
+                    "end": 1309,
+                    "text": "(Leung et al., 2005)",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "All patients wore a mask outside and 14.3% wore gloves as well in this study. Of the participants, 81.8% followed social distancing rules. All patients washed their hands and changed their clothes when they came back to their home and 75.3% took a shower. All patients did not allow any guests to come during the pandemic and 18% stated that they followed social distancing rules at home. Looking at gender and the protective measures taken at home, female participants were found to partake in a higher statistically significant level of protective measures compared to male participants. Females also took a statistically significant higher level of precautions at home compared to males. The data from the literature review and the findings of this study are similar in that females have higher disease perceptions and controls than males during the pandemic. The fact that all patients wore a mask during this study is thought to be associated with their treatment and chemotherapy processes. In addition, the participants performed behaviors complying with hygiene rules during the pandemic because they were informed of personal hygiene rules and infection control methods during their chemotherapy education. The fact that gender-related protective measures are more common and internalized in females may be related to the fact that females are thought to perform touching behaviors more commonly and frequently than males.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "None of this study participants were living alone while almost half were living with two people and almost one in five were living with five or more people. No statistically significant differences were found between the number of people that the patients live with, the protective measures taken at home, and the social life rules at home. The literature reviews suggest that public education, home isolation, and travel restrictions are also effective in controlling the pandemic and preventing its infectiousness (Eastwood et al., 2009) . A comparative study that protective measures such as using public transportation less and canceling flights were taken at the onset of the pandemic (Goodwin et al., 2009) . A separate study found that non-medical preventive behaviors are effective methods to protect ourselves from pandemics and disease infection (Raude & ve Setbon, 2009) . During the flu epidemic in Norway found that washing hands, wearing a mask, and social distancing by staying at home were the most common precautions taken (Kristiansen et al., 2007) . In a multi-center study including five countries of European and three regions of Asian was stated that the participants' most preferred behavior to protect themselves from the flu was to avoid using public transportation.",
+            "cite_spans": [
+                {
+                    "start": 516,
+                    "end": 539,
+                    "text": "(Eastwood et al., 2009)",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 690,
+                    "end": 712,
+                    "text": "(Goodwin et al., 2009)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 856,
+                    "end": 881,
+                    "text": "(Raude & ve Setbon, 2009)",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 1040,
+                    "end": 1066,
+                    "text": "(Kristiansen et al., 2007)",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In this study, since about 80% of the participants resided in Ankara nearly all went to the hospital in their car with companions. Only one in five participants obtained a travel warrant from the administrative chiefs before going to the hospital. This finding suggests that the restrictions did not negatively affect the delivery of health care. Of our study participants, 89.6% confirmed knowledge of the COVID-19 pandemic, and all were informed of the pandemic through the television. Only eight patients reportedly knew nothing about the pandemic. Of the participants, 72.7% had knowledge of emergency telephone numbers and the most known number was \"112.\" Fifty-five patients stated that they would apply to the emergency service when their body temperature rises to 38\u00b0C while 24.7% stated that they did not know when they should apply to the emergency service. In the literature reviews, none of the studies have examined the COVID-19 outbreak and the most used sources of information. The television is thought to be the most common source of information for participants because they stayed at home paying attention to social isolation. They had a low level of education and may not have been able to use social networks such as the Internet.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The results of this study are particularly relevant for cancer patients aged 65 years and older adult, health professionals and clinical nurses. This study emphasizes not only the awareness of COVID-19 has been evaluated, but it also provides literature related to the personal care practices of geriatric cancer patients. This is important in order to undertake long-term nursing care plans to raise the quality of life for geriatric cancer patients by raising awareness about physical care. In addition, the result reveal the restrictions did not negatively affect the delivery of health care, confirmed knowledge and informed of the COVID-19 pandemic through the television. This is particularly important to consider when designing COVID-19 pandemic about nursing care studies.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Relevance to Clinical Practice"
+        },
+        {
+            "text": "Vulnerable geriatric groups who receive chemotherapy and are susceptible to infection should be prioritized when studies and treatments related to pandemics such as COVID-19 are developed. Studies on the difficulties that patients with cancer experience during the pandemic should be prioritized because there is a lack of information regarding the treatment and care received and hospital arrival processes of these high-risk patients in such situations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "This scientific research study was granted ethical approval (KA-2020-04/590) by the University of Health Sciences Dr. Abdurrahman Yurtaslan Ankara Oncology Training and Research Hospital Clinical Research Ethics Committee.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Authors' Note"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Knowledge and attitudes of university students toward pandemic infl uenza: A cross-sectional study from Turkey",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Akan",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Gurol",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ozdatl\u0131",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Yilmaz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vitrinel",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Ve Hayran",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "BMC Public Health",
+            "volume": "10",
+            "issn": "",
+            "pages": "413--420",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Geriatrik Hastalarda Onkolojik Yakla\u015f\u0131m",
+            "authors": [
+                {
+                    "first": "\u00d6",
+                    "middle": [],
+                    "last": "Alan",
+                    "suffix": ""
+                },
+                {
+                    "first": "\u00d6",
+                    "middle": [],
+                    "last": "G\u00fcrsel",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "\u00dcnsal",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Alt\u0131n",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "K\u0131l\u00e7\u0131ks\u0131z",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Okmeydan\u0131 T\u0131p Dergisi",
+            "volume": "29",
+            "issn": "2",
+            "pages": "94--98",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "T\u00fcrk Hipertansiyon Prevalans Cal\u0131smas\u0131 (PatenT2)",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Altun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Erdem",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Derici",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "T\u00fcrk Hipertansiyon ve B\u00f6brek Hastal\u0131klar\u0131 Dernegi",
+            "volume": "",
+            "issn": "",
+            "pages": "1--27",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Diyabetik Hastalarda Hastal\u0131k Bilin\u00e7 D\u00fczeyi ve Fark\u0131ndal\u0131k",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Atmaca",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Akba\u015f",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "\u015e D"
+                    ],
+                    "last": "\u015eak",
+                    "suffix": ""
+                },
+                {
+                    "first": "\u015e",
+                    "middle": [],
+                    "last": "Acar",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Niyazo\u011flu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "\u0130stanbul Medical Journal",
+            "volume": "16",
+            "issn": "",
+            "pages": "101--104",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Epidemiology of anxiety disorders in the 21st century",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Bandelow",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Michaelis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Dialogues in Clinical Neuroscience",
+            "volume": "17",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The Effect of COVID-19 Pandemic on the Turkish Society",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bostan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Erdem",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "\u00d6zt\u00fcrk",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "K\u0131l\u0131\u00e7",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Y\u0131lmaz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Electron Journal General Medicine",
+            "volume": "17",
+            "issn": "6",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Global cancer statistics 2018: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Bray",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ferlay",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Soerjomataram",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Siegel",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Torre",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Jemal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "CA: A Cancer Journal for Clinicians",
+            "volume": "68",
+            "issn": "6",
+            "pages": "394--424",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Ya\u015fl\u0131da Endokrinolojik Sistem: Ankara, Hedef CS Bas\u0131n Yay\u0131n",
+            "authors": [
+                {
+                    "first": "\u015e",
+                    "middle": [],
+                    "last": "Canlar",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cinel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Genomic characterization of the 2019 novel human-pathogenic coronavirus isolated from a patient with atypical pneumonia after visiting Wuhan",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "F W"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kok",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Chu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "K W"
+                    ],
+                    "last": "To",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Yuen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emerging Microbes & Infections",
+            "volume": "9",
+            "issn": "1",
+            "pages": "221--236",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Qu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Gong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Qiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Jia&apos;an",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Lancet",
+            "volume": "395",
+            "issn": "10223",
+            "pages": "507--513",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "IDF Diabetes Atlas: Global estimates of diabetes prevalence for 2017 and projections for 2045",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Cho",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Shaw",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Karuranga",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Da Rocha Fernandes",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Ohlrogge",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Malanda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Diabetes Research and Clinical Practice",
+            "volume": "138",
+            "issn": "",
+            "pages": "271--281",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Preliminary estimates of the prevalence of selected underlying health conditions among patients with coronavirus disease 2019-United States",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Chow",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Fleming-Dutra",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gierke",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gierke",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hall",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hughes",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Pilishvili",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ritchey",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Roguski",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Skoff",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Ussery",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Morbidity and Mortality Weekly Report",
+            "volume": "69",
+            "issn": "13",
+            "pages": "382--386",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Domuz Gribi (H1N1) Salg\u0131n\u0131yla \u0130li\u015fkili Alg\u0131lar\u0131n, Kayg\u0131 ve Ka\u00e7\u0131nma D\u00fczeyi De\u011fi\u015fkenleri Ba\u011flam\u0131nda \u0130ncelenmesi",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "\u00c7\u0131rako\u011flu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Turk Psikoloji Dergisi",
+            "volume": "26",
+            "issn": "67",
+            "pages": "49--64",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "COVID-19 and cancer: lessons from a pooled meta-analysis",
+            "authors": [],
+            "year": null,
+            "venue": "JCO Global Oncology",
+            "volume": "6",
+            "issn": "1",
+            "pages": "557--559",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Knowledge about pandemic infl uenza and compliance with containment measures among Australians",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Eastwood",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Durrheim",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Francis",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Espaignet",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Duncan",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Islam",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Speare",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Bulletin of the World Health Organization",
+            "volume": "87",
+            "issn": "",
+            "pages": "588--594",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Bireylerin Sa\u011flik Anksiyetesi D\u00fczeyleri \u0130le Covid-19 Salgini Kontrol Algisinin Kar\u015fila\u015ftirilmasi. Uluslararas\u0131 Sa\u011fl\u0131k Y\u00f6netimi ve Stratejileri Ara\u015ft\u0131rma Dergisi",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ekiz",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Il\u0131man",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "D\u00f6nmez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "6",
+            "issn": "",
+            "pages": "139--154",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Use of comprehensive geriatric assessment in older cancer patients: Recommendations from the task force on",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Extermann",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Aapro",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Bernabei",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cohen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Droz",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lichtman",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Topinkova",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "CGA of the International Society of Geriatric Oncology (SIOG)",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Gender and active ageing in Europe",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Foster",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Walker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "European Journal of Ageing",
+            "volume": "10",
+            "issn": "1",
+            "pages": "3--10",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Initial psychological responses to Infl uenza A, H1N1",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Goodwin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Haque",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Neto",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Myers",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "BMC Infectious Diseases",
+            "volume": "9",
+            "issn": "1",
+            "pages": "1--6",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "The continuing 2019-nCoV epidemic threat of novel coronaviruses to global health-The latest 2019 novel coronavirus outbreak in Wuhan",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hui",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Azhar",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Madani",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ntoumi",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kock",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Dar",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zumla",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. International Journal of Infectious Diseases",
+            "volume": "91",
+            "issn": "",
+            "pages": "264--266",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Early assessment of anxiety and behavioral response to novel swine-origin infl uenze A(H1N1)",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Salath\u00e9",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Plos One",
+            "volume": "4",
+            "issn": "",
+            "pages": "1--8",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "2014 y\u0131l\u0131 T\u00fcrkiye Kanser \u0130statistikleri",
+            "authors": [
+                {
+                    "first": "Ba\u015fkanl\u0131\u011f\u0131",
+                    "middle": [],
+                    "last": "Kanser Dairesi",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "COVID-19 Pandemisi ve D\u00fcnyada Onkolojide Etkileri",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kebudi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Sa\u011fl\u0131k Bilimlerinde \u0130leri Ara\u015ft\u0131rmalar Dergisi",
+            "volume": "3",
+            "issn": "S1",
+            "pages": "99--105",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Influenza pandemic: perception of risk and individual precautions in a general population. Cross sectional study",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kristiansen",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Halvorsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Gyrd-Hansen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "BMC Public Health",
+            "volume": "7",
+            "issn": "1",
+            "pages": "1--7",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Ya\u015fl\u0131larda \u00e7oklu ila\u00e7 kullan\u0131m\u0131",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Kutsal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "T\u00fcrk J Geriatr",
+            "volume": "9",
+            "issn": "",
+            "pages": "37--44",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Community responses during the early phase of the COVID-19 Epidemic in Hong Kong: Risk Perception, Information Exposure and Preventive Measures",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Kwok",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Yi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Wei",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "26",
+            "issn": "",
+            "pages": "1575--1579",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "The incubation period of coronavirus disease 2019 (COVID-19) from publicly reported confirmed cases: estimation and application",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lauer",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Grantz",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Bi",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Meredith",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Azman",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Reich",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lessler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Annals of Internal Medicine",
+            "volume": "172",
+            "issn": "9",
+            "pages": "577--582",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Longitudinal assessment of community psychobehavioral responses during and after the 2003 outbreak of severe acute respiratory syndrome in Hong Kong",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ho",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ho",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bacon-Shone",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Choy",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hedley",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.-H",
+                    "middle": [],
+                    "last": "Lam",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Fielding",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Clinical Infectious Diseases",
+            "volume": "40",
+            "issn": "12",
+            "pages": "1713--1720",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Cancer patients in SARS-CoV-2 infection: a nationwide analysis in China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Ai",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Lancet Oncology",
+            "volume": "21",
+            "issn": "3",
+            "pages": "335--337",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Outbreak of pneumonia of unknown etiology in Wuhan, China: The mystery and the miracle",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Stratton",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Tang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Medical Virology",
+            "volume": "92",
+            "issn": "4",
+            "pages": "401--402",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Lay perception of the infl uenza threat",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Raude",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Setbon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Euopean Journal of Epidemiology",
+            "volume": "7",
+            "issn": "",
+            "pages": "339--342",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Public perceptions, anxiety, and behaviour change in relation to the swine flu outbreak: cross sectional telephone survey",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Rubin",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Aml\u00f4t",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Page",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wessely",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Clinical Research",
+            "volume": "339",
+            "issn": "",
+            "pages": "2651--2651",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Mortality attributable to diabetes in 20-79 years old adults, 2019 estimates: Results from the International Diabetes Federation Diabetes Atlas",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Saeedi",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Salpea",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Karuranga",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Petersohn",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Malanda",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Gregg",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Williams",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Diabetes Research and Clinical Practice",
+            "volume": "162",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "T\u00fcrkiye Diyabet Prevalans \u00c7al\u0131\u015fmalar\u0131: TURDEP-I ve TURDEP-II. 47. Ulusal Diyabet Kongresi",
+            "authors": [
+                {
+                    "first": "\u0130",
+                    "middle": [],
+                    "last": "Satman",
+                    "suffix": ""
+                },
+                {
+                    "first": "\u00c7",
+                    "middle": [],
+                    "last": "Grubu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "11--15",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "World Health Organization declares global emergency: A review of the 2019 novel coronavirus (COVID-19)",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sohrabi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Alsafi",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "O&apos;neill",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kerwan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Al-Jabir",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Agha",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "International Journal of Surgery",
+            "volume": "76",
+            "issn": "",
+            "pages": "71--76",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Sa\u011fl\u0131k Bakanl\u0131\u011f\u0131 Halk Sa\u011fl\u0131\u011f\u0131 Kurumu",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "T\u00fcrkiye diyabet program\u0131 2015-2020",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "D\u00fcnyada ve T\u00fcrkiye'de Ya\u015fl\u0131l\u0131k. Uluslararas\u0131 Bilimsel Ara\u015ft\u0131rmalar Dergisi (IBAD)",
+            "authors": [
+                {
+                    "first": "\u00c7",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Tekin",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Kara",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Fatih",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "3",
+            "issn": "",
+            "pages": "219--229",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Y\u0131llara, ya\u015f grubu ve cinsiyete g\u00f6re n\u00fcfus",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "T\u00fcik",
+                    "suffix": ""
+                }
+            ],
+            "year": 1935,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Ya\u015f grubu ve cinsiyete g\u00f6re n\u00fcfus",
+            "authors": [],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "\u0130statistiklerle Ya\u015fl\u0131lar",
+            "authors": [
+                {
+                    "first": "Aile",
+                    "middle": [
+                        "Yap\u0131s\u0131"
+                    ],
+                    "last": "T\u00fcik",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Ara\u015ft\u0131rmas\u0131",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Adrese Dayal\u0131 N\u00fcfus Kay\u0131t Sistemi Sonu\u00e7lar\u0131",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "T\u00fcik (t\u00fcrkiye \u0130statistik",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Kurumu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "World Health Organization Europe, International Diabetes Federation Europe, T\u00fcrkiye Diyabet Vakf\u0131, T\u00fcrkiye'de diyabet profili, Diyabet bak\u0131m, izlem ve tedavisinde mevcut durum de\u011ferlendirilmesi",
+            "authors": [],
+            "year": 2009,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "D\u00fcnya Sa\u011fl\u0131k \u00d6rg\u00fct\u00fc T\u00fcrkiye Ofisi. T\u00fcrkiye Hanehalk\u0131 Sa\u011fl\u0131k Ara\u015ft\u0131rmas\u0131: Bula\u015f\u0131c\u0131 Olmayan Hastal\u0131klar\u0131n Risk Fakt\u00f6rleri Prevalans\u0131 2017 (STEPS). Ankara: World HealthOrganization",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "\u00dcner",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Balc\u0131lar",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Erg\u00fcder",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Huzurevindeki ya\u015fl\u0131larda kronik hastal\u0131k s\u0131kl\u0131\u011f\u0131 ve ila\u00e7 kullan\u0131mlar\u0131",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "\u00dcnsal",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Demir",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "\u00c7"
+                    ],
+                    "last": "\u00d6zkan",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Arslan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "AD\u00dc T\u0131p Fak\u00fcltesi Dergisi",
+            "volume": "12",
+            "issn": "3",
+            "pages": "5--10",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Animal communication: when i'm calling you, will you answer too?",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Vickers",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Current Biology",
+            "volume": "27",
+            "issn": "14",
+            "pages": "713--715",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "A novel coronavirus outbreak of global health concern",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Horby",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Hayden",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Gao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Lancet",
+            "volume": "395",
+            "issn": "10223",
+            "pages": "470--473",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Immediate psychological responses and associated factors during the initial stage of the 2019 coronavirus disease (COVID-19) epidemic among the general population in China",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Ho",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "International Journal of Environmental Research and Public Health",
+            "volume": "17",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "WHO Director-General's Remarks at the Media Briefing on",
+            "authors": [],
+            "year": 2019,
+            "venue": "World Health Organization",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Novel coronavirus-China. World Health Organization",
+            "authors": [],
+            "year": 2020,
+            "venue": "World Health Organization",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "A novel coronavirus from patients with pneumonia in China",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Niu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "New England Journal of Medicine",
+            "volume": "382",
+            "issn": "",
+            "pages": "727--733",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": ". Demographic and Baseline Characteristics of the Study Population.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": ". Transport Process of the Study Population.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We thank all patients who participant our study in the Day Treatment Unit of the Dr. Abdurrahman Yurtaslan Ankara Oncology Training and Research Hospital.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        },
+        {
+            "text": "The author(s) declared no potential conflicts of interest with respect to the research, authorship, and/or publication of this article.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of Conflicting Interests"
+        },
+        {
+            "text": "The author(s) received no financial support for the research, authorship, and/or publication of this article.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding"
+        },
+        {
+            "text": "Berna Kurt https://orcid.org/0000-0002-3299-7146",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ORCID iD"
+        },
+        {
+            "text": "From the author on request.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Availability"
+        }
+    ]
+}

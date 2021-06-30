@@ -1,0 +1,1112 @@
+{
+    "paper_id": "0aa05513f9ecdc041fe2d81f81efaf572af3bd54",
+    "metadata": {
+        "title": "Implementation of a COVID-19 cohort area resulted in no surface or air contamination in surrounding areas in one academic emergency department \u2606",
+        "authors": [
+            {
+                "first": "Aaron",
+                "middle": [],
+                "last": "Nathan Barksdale",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Nebraska Medical Center",
+                    "location": {
+                        "settlement": "Omaha",
+                        "region": "NE",
+                        "country": "United States of America"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Wesley",
+                "middle": [
+                    "G"
+                ],
+                "last": "Zeger",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Nebraska Medical Center",
+                    "location": {
+                        "settlement": "Omaha",
+                        "region": "NE",
+                        "country": "United States of America"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Joshua",
+                "middle": [
+                    "L"
+                ],
+                "last": "Santarpia",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Nebraska Medical Center",
+                    "location": {
+                        "settlement": "Omaha",
+                        "region": "NE",
+                        "country": "United States of America"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Vicki",
+                "middle": [
+                    "L"
+                ],
+                "last": "Herrera",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Nebraska Medical Center",
+                    "location": {
+                        "settlement": "Omaha",
+                        "region": "NE",
+                        "country": "United States of America"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Daniel",
+                "middle": [
+                    "N"
+                ],
+                "last": "Ackerman",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "National Strategic Research Institute",
+                    "location": {
+                        "settlement": "Omaha",
+                        "region": "NE",
+                        "country": "United States of America"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "John",
+                "middle": [
+                    "J"
+                ],
+                "last": "Lowe",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Nebraska Medicine Center",
+                    "location": {
+                        "settlement": "Omaha",
+                        "region": "NE",
+                        "country": "United States of America"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Michael",
+                "middle": [
+                    "C"
+                ],
+                "last": "Wadman",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Nebraska Medical Center",
+                    "location": {
+                        "settlement": "Omaha",
+                        "region": "NE",
+                        "country": "United States of America"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "In December of 2019, the novel severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) was identified in Wuhan, China. Within three months, the World Health Organization (WHO) had declared the COVID-19 pandemic [1, 2] . Published literature on the two prior novel corona viruses, middle-east respiratory syndrome (MERS) and severe acute respiratory syndrome corona virus 1 (SARS-CoV-1), suggested that respiratory transmission contributed to dissemination of the disease, resulting in clustered outbreaks in healthcare settings and concern for potential airborne component [3] [4] [5] [6] [7] . Previous studies demonstrated that viral particles less than 5 \u03bcm are most likely to possess airborne capacity, permitting the virus to remain suspended in the air for more than an hour [8, 9] . These findings, and the rapid spread of SARS-CoV-2 observed by infection control experts, helped guide the current disease prevention recommendations by organizations such as ",
+            "cite_spans": [
+                {
+                    "start": 216,
+                    "end": 219,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 220,
+                    "end": 222,
+                    "text": "2]",
+                    "ref_id": null
+                },
+                {
+                    "start": 578,
+                    "end": 581,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 582,
+                    "end": 585,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 586,
+                    "end": 589,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 590,
+                    "end": 593,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 594,
+                    "end": 597,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 786,
+                    "end": 789,
+                    "text": "[8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 790,
+                    "end": 792,
+                    "text": "9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "American Journal of Emergency Medicine j o u r n a l h o m e p a g e : w w w . e l s e v i e r . c o m / l o c a t e / a j e m the Centers for Disease Control and Prevention (CDC) and WHO, including masks, hand hygiene, social distancing, isolation, face shields, and even negative pressure rooms in the hospital setting [8, 10, 11] .",
+            "cite_spans": [
+                {
+                    "start": 321,
+                    "end": 324,
+                    "text": "[8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 325,
+                    "end": 328,
+                    "text": "10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 329,
+                    "end": 332,
+                    "text": "11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Contents lists available at ScienceDirect"
+        },
+        {
+            "text": "Several recent studies have utilized air and surface viral sampling to determine the contamination and spread of SARS-CoV-2 from isolated, infected individuals [2, 12, 13] . Chia et al. detected frequent contamination on surfaces surrounding the patient's bed. In addition, they acquired positive air samples, with particles >4 \u03bcm and 1-4 \u03bcm, contributing to the concern for airborne transmission [12] . Our institution is home to the Nebraska Biocontainment Unit (NBU) and a National Quarantine Unit (NQU). Our health care workers (HCW) provided care to 13 confirmed SARS-CoV-2 infected individuals, who were evacuated off the Diamond Princess cruise ship in March of 2020. In a recent publication, investigators from our institution reported results of surface and air samples from these isolation units, revealing an overall RT-PCR SARS-CoV-2 positivity rate of 72.4%. Specifically, they reported 63.2% positive RT-PCR air sample rate within patients' rooms and 58.3% in the adjacent hallways [2] . These combined findings suggest the need to develop and implement detailed protocols to prevent the local spread of this disease, specifically within emergency departments (ED) and inpatient units. To our knowledge, there has been very little published literature on the implementation of SARS-CoV-2 ED preventive protocols and their effect in preventing environmental contamination and suppressing dissemination of this disease.",
+            "cite_spans": [
+                {
+                    "start": 160,
+                    "end": 163,
+                    "text": "[2,",
+                    "ref_id": null
+                },
+                {
+                    "start": 164,
+                    "end": 167,
+                    "text": "12,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 168,
+                    "end": 171,
+                    "text": "13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 397,
+                    "end": 401,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 996,
+                    "end": 999,
+                    "text": "[2]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Contents lists available at ScienceDirect"
+        },
+        {
+            "text": "In an effort to mitigate the spread of the disease within our ED, we implemented a designated COVID-19 cohort area, or \"hot zone\" and a detailed HCW decontamination process. The primary objective of this study was to determine if the implementation of a designated COVID-19 cohort area (hot zone) within a busy ED mitigated the dissemination of SARS-CoV-2 throughout the rest of the department. A secondary objective involved testing for viral particles on surfaces and in the air within the \"hot zone\".",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Contents lists available at ScienceDirect"
+        },
+        {
+            "text": "This study was conducted at an academic level I trauma center with an emergency medicine residency and approximately 64,000 annual patient visits. Our main ED consists of 48 rooms with an additional 4 closed rooms and 4 open patient care areas in a separate low acuity area. The designated COVID-19 cohort area (hot zone) is a pod containing 8 rooms, with an entry and exit point on opposite ends (See Fig. 1 ). Each end had closeable doors, allowing the capability to seal this area off from the rest of ED. The pod itself consisted of an open hallway splitting the 8 rooms to 4 on each side, and a three computer work station near the designated entry point. Each of the rooms had closable doors and none of the rooms had negative airflow capabilities. We designated a single entry (PPE donning area) and exit (PPE doffing area). Prior to entering the hot zone, the HCW would perform proper hand hygiene, then apply an N-95 respiratory mask and a face shield. Once within the pod, HCW would perform additional donning and doffing measures upon entering and leaving a patient room. Specifically, during the doffing process, the outside of the face shield was cleaned with a germicidal wipe, allowing the mask and shield to remain on at all times (See Fig. 2 ). HCW could remain in the hot zone for 4 h continuing this practice with the same mask and face shield. The final doffing area after leaving the hot zone, was another separated and enclosed space (Fig. 1) . The face shield was again cleaned and at that time the N-95 mask was disposed into a designated \"dirty\" bag. The HCW would then apply a surgical mask and re-enter the main ED. All ED HCW were trained on this process, which included nurses, technicians, physicians, pharmacists, and respiratory therapists. Of note, only known COVID positive or highly suspicious individuals were placed in this area, and all of our patients were required to wear a surgical mask. In addition, each room was thoroughly cleaned with germicidal wipes in between patients, as well as the hallway and workstation within the hot zone.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 402,
+                    "end": 408,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1252,
+                    "end": 1258,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1456,
+                    "end": 1464,
+                    "text": "(Fig. 1)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Methods"
+        },
+        {
+            "text": "On the afternoon of May 14, 2020 we acquired 15 surface and 4 air samples were collected over several hours, to evaluate for SARS-CoV-2 contamination and the effectiveness of our infection control practices. This time period was at the peak of our initial COVID-19 surge and on the day of sample collection, the ED was operating at full capacity. Total ED monthly volumes were lower during our peak COVID time, and rooms/areas were staffed based on anticipated patient volumes. The hot zone was open for approximately 16 h each day. During offhours, patients presenting with symptoms highly suspicious for COVID-19 were placed in one of the 4 individual negative airflow rooms (which were located in different areas of the ED limiting our ability to create a negative airflow unit). If those were occupied then a nonnegative airflow room was utilized. Sampling was conducted over the course of our peak ED capacity for the day. During the 4-h collection timeframe, we placed eight patients in the hot zone, six of them tested positive for COVID-19. From midnight to midnight on the 14th of May, 7 out of 31 patients tested positive for COVID-19 outside of the hot zone. Prior to opening the cohort area, there had not been any patients present for at least 8 h and the entire zone had been cleaned. In addition, there was no patient flow traffic near the hot zone doors except for those patients entering and exiting. Nursing and tech staff in the hot zone were designated for 4 h shifts. During the hot zone sampling timeframe, 10 HCW would have entered and left the hot zone sampling area. Of note, no individuals outside of the investigators were aware that a sampling process was being conducted that day.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "The 15 surface samples were collected outside of patient rooms, the reception area, the primary nurses station, the hot zone PPE donning and doffing areas, and inside the cohort area (Fig. 1) . Samples were acquired using 3 \u00d7 3 sterile gauze pads pre-wetted with 3 mL of phosphate buffered saline (PBS), by wiping over an approximately 100 cm 2 area in an \"S\" pattern in two different directions. Four stationary air samples were collected, one within the hot zone and the others in the main ED (Fig. 1) . We utilized a Sartorius Airport MD8 air sampler operating at 30 l per minutes for 30 min onto an 80 mm gelatin filter. RNA was then extracted and analyzed for the presence of the E gene of SARS-CoV-2 using RT-PCR, following the methods described in Santarpia et al. [2] ",
+            "cite_spans": [
+                {
+                    "start": 772,
+                    "end": 775,
+                    "text": "[2]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 183,
+                    "end": 191,
+                    "text": "(Fig. 1)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 495,
+                    "end": 503,
+                    "text": "(Fig. 1)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Methods"
+        },
+        {
+            "text": "We did not detect any evidence of SARS-CoV-2 on the surface samples collected in the ED, which included samples taken within the cohort area and immediately outside. All air samples collected outside of the hot zone were also negative for SARS-CoV-2. The only contamination identified, was a very low viral level extracted from the air sample collected within the open hallway of the cohort area.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "The primary purpose of this study was to determine if implementation of a designated COVID-19 hot zone cohort area and utilizing detailed PPE donning/doffing measures, prevented the dissemination of SARS-CoV-2 to other areas of a busy ED. Environmental assessment was conducted on a day during the peak of our COVID-19 surge, when our ED was functioning at full capacity. The results of our sampling process demonstrated no presence of SARS-CoV-2 viral particles on surfaces or in the air within the main ED, and only a small degree of air contamination inside the hot zone.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Previous studies, including one at our institution, reported extensive contamination of the surrounding environments of COVID-19 infected individuals [2, 12, 13] . One of these studies, demonstrated no remaining surface contamination after routine cleaning two days later, but there are no reports of negative sampling results acquired on a day where known COVID-19 infected patients were continually moving in and out of a busy ED. [13] This adds unique value to our study, and reinforces the effectiveness of the infection control processes we implemented.",
+            "cite_spans": [
+                {
+                    "start": 150,
+                    "end": 153,
+                    "text": "[2,",
+                    "ref_id": null
+                },
+                {
+                    "start": 154,
+                    "end": 157,
+                    "text": "12,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 158,
+                    "end": 161,
+                    "text": "13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 433,
+                    "end": 437,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "There is extensive discussion in the current literature suggesting that SARS-CoV-2 is capable of airborne transmission, and the recommendation for high functioning ventilation systems and the placement of COVID-19 patients in negative air flow environments [3, 8, 11] . We are not negating these reports or suggestions, but rather suggesting that other strictly followed protocols adequately prevented the spread of this virus within confined spaces in our ED. The measures implemented to mitigate viral contamination of the hot zone area included patient masking, HCW PPE and donning and doffing protocols with hand hygiene, but lacked sophisticated engineering measures such as negative airflow or pressure differences between the cohort area and the main ED, and relied only on private patient rooms with closed doors. These measures to mitigate contamination of the hot zone proved effective. A recent publication demonstrated the efficacy of preventing respiratory virus shedding with forced exhalation, in patients infected with human (seasonal) coronavirus [14] . The detection of virus in the air of the hot zone demonstrates that patient masking is insufficient to prevent environmental contamination, but the low viral ppm in our sampling suggests that this practice may reduce the amount of virus that may then contaminate surfaces or infect HCWs. Any presence of viral particles in the air reaffirms the use of N-95 respirators and eye protection in the care of known COVID-19 patients or highly suspicious individuals. The total lack of hard surface contamination proves the effectiveness of surface disinfection following COVID-19 patient care without dwell time following disinfection of the room.",
+            "cite_spans": [
+                {
+                    "start": 257,
+                    "end": 260,
+                    "text": "[3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 261,
+                    "end": 263,
+                    "text": "8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 264,
+                    "end": 267,
+                    "text": "11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1064,
+                    "end": 1068,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "At our institution, we were fortunate for the experience and education acquired through the care of Ebola infected patients that were housed in our NBU in 2014. Those investigators and clinicians developed specific PPE donning and doffing measures that prevented dissemination of a highly infectious and lethal disease, which were ultimately adopted by numerous health care facilities around the world [15] . We adopted a similar process for the protocol described in our methods, and our sampling results suggest that it is very effective. Although, not the emphasis of this study, we feel it is important to note that our designated COVID-19 cohort area significantly decreased the use of PPE, specifically N-95 masks.",
+            "cite_spans": [
+                {
+                    "start": 402,
+                    "end": 406,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "This study does have some limitations. First, we did not collect samples from our PPE surfaces or from inside the rooms of COVID-19 infected individuals. That being said, we have not experienced a notable outbreak among our ED HCW, suggesting that if there was contamination, it was minimal and did not result in spread of the virus. We attempted to cohort 100% of patients in the hot zone areas. Invariably, we had COVID positive patients located in several other rooms in the emergency department. Similar PPE protocols and room cleaning procedures were followed in those scenarios. The lack of surface contamination outside the hot zone would support those measures. Second, we conducted our environmental sampling over a single 4-h period on one day during the peak of our initial COVID surge. Similar results acquired from sampling over different periods and across multiple days, would strengthen our findings. Finally, this protocol was implemented and tested at a single academic ED. We cannot ascertain that it can be extrapolated to community EDs or other academic institutions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In conclusion, a designated COVID-19 cohort area resulted in no detection of viral particles in air or surface samples collected outside of the hot zone, and only minimal air contamination, but no surface contamination within the hot zone outside of patient care rooms.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "ANB, WGZ, MCW, JLS, and JJL contributed to study concept and design. JLS VLH, DNA performed the sampling and data collection. All authors contributed to the analysis and interpretation of the data and provided critical revisions of the article. ANB drafted the manuscript and takes responsibility for the paper as a whole. The authors declare no conflicts of interest and there was no funding for this study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Author contribution"
+        },
+        {
+            "text": "None.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflicts of interest and funding"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A novel coronavirus from patient with pneumonia in China",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "",
+            "pages": "727--760",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Airborne transmission of SARS-CoV-2: the world should face the reality",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Morawska",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Environ Int",
+            "volume": "139",
+            "issn": "",
+            "pages": "1--3",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Transmission characteristics of MERS and SARS in the healthcare setting: a comparative study",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Chowell",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Abdirizak",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jung",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Nishiura",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "BMC Med",
+            "volume": "13",
+            "issn": "210",
+            "pages": "1--12",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Recognition of aerosol transmission of infectious agents: a commentary",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Tellier",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cowling",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Tang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "BMC Infect Dis",
+            "volume": "19",
+            "issn": "101",
+            "pages": "1--9",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Detection of airborne severe acute respiratory syndrome (SARS) coronavirus and environmental contamination in SARS outbreak units",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Booth",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Kournikakis",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ho",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kobasa",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Stadnyk",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J Infect Dis",
+            "volume": "191",
+            "issn": "",
+            "pages": "1472--1479",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Environmental contamination and viral shedding in MERS patients during MERS-CoV outbreak in South Korea",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Bin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Heo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Clin Infect Dis",
+            "volume": "62",
+            "issn": "",
+            "pages": "755--60",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Consideration of the aerosol transmission for COVID-19 and public health",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Turnham",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Griffin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Clarke",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Risk Anal",
+            "volume": "40",
+            "issn": "5",
+            "pages": "902--909",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Quantitiy, size distribution, and characteristics of cough-generated aerosol produced by patients with an upper respiratory tract infection",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Yoo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ryu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ham",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Yeo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Aerosol Air Qual Res",
+            "volume": "19",
+            "issn": "",
+            "pages": "840--53",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Epidemiological study of COVDI-19 modes of disease transmission: with molecular basis for SARS-CoV-2 virulence. Faculty Articles Res",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Galbadage",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Peterson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Gunasekera",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "How can airborne transmission of COVID-19 indoors be minimized?",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Morawska",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Bahnfleth",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Bluyssen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Boerstra",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Buonanno",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Environ Int",
+            "volume": "142",
+            "issn": "",
+            "pages": "1--7",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Detection of air and surface contamination by SARS-CoV-2 in hospital rooms of infected patients",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Chia",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Coleman",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Swx",
+                    "middle": [],
+                    "last": "Ong",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gurn",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Lau",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Commun",
+            "volume": "11",
+            "issn": "1",
+            "pages": "1--7",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Air, surface environmental, and person protective equipment contamination by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) from a symptomatic patient",
+            "authors": [
+                {
+                    "first": "Swx",
+                    "middle": [],
+                    "last": "Ong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Tna",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Chia",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Ng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Msy",
+                    "middle": [],
+                    "last": "Wong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "323",
+            "issn": "16",
+            "pages": "1610--1612",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Respiratory virus shedding in exhaled breath and efficacy of face masks",
+            "authors": [
+                {
+                    "first": "Nhl",
+                    "middle": [],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "Dkw",
+                    "middle": [],
+                    "last": "Chu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Eyc",
+                    "middle": [],
+                    "last": "Shiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Mcdevitt",
+                    "suffix": ""
+                },
+                {
+                    "first": "Bjp",
+                    "middle": [],
+                    "last": "Hau",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Med",
+            "volume": "26",
+            "issn": "5",
+            "pages": "676--80",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Personal protective equipment processes and rationale for the Nebraska biocontainment unit during the 2014 activations for Ebola virus disease",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Beam",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Schwedhelm",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Boulter",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Kratochvil",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lowe",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hewlett",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Am J Infect Control",
+            "volume": "44",
+            "issn": "",
+            "pages": "340--342",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Diagram of ED representing patient pathways to hot zone and specified air and surface sampling sites.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "COVID-19 PPE Sequence donning and doffing procedures.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "\u2606 Abstract Virtual Presentation: American College of Emergency Physicians (ACEP) Annual Meeting, October 26-29, 2020. \u204e Corresponding author at: 981150 Nebraska Medical Center, Omaha, NE 68198-1150, United States of America. E-mail addresses: aaron.barksdale@unmc.edu (A.N. Barksdale), wzeger@unmc.edu (W.G. Zeger), josh.santarpia@unmc.edu (J.L. Santarpia), vlherrera@unmc.edu (V.L. Herrera), dackerman@nsri.nebraskaresearch.gov (D.N. Ackerman), jjlowe@unmc.edu (J.J. Lowe), mwadman@unmc.edu (M.C. Wadman). https://doi.org/10.1016/j.ajem.2021.04.082 0735-6757/\u00a9 2021 Elsevier Inc. All rights reserved.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

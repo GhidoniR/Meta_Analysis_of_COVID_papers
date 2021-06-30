@@ -1,0 +1,1272 @@
+{
+    "paper_id": "0aabf6b66a590f15fba37f61c53808b0f440161d",
+    "metadata": {
+        "title": "",
+        "authors": []
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "In December of 2019, a contagious disease linked with Huanan Seafood Market, causing pneumonia and mostly presenting with fever, cough, fatigue, and occasionally gastroenteritis was reported in Wuhan, China [1] . A novel coronavirus was isolated and it was seen that the virus had 79.5% nucleotide sequence homology to the severe acute respiratory syndrome coronavirus (SARS-CoV), the 2003 SARS outbreak agent [2] . Moreover, as the disease swept across 213 countries, the World Health Organisation (WHO) announced the situation as a pandemic on March 11, 2020 , and right after identified the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)-induced diseases as coronavirus disease 2019 (COVID-19) [3] . Despite restrictions in most countries, the confirmed number of cases has been rising worldwide. As of today (December 8, 2020), according to WHO data, 66.7 million confirmed cases and 1.54 million deaths from COVID-19 have been reported worldwide [4] .",
+            "cite_spans": [
+                {
+                    "start": 207,
+                    "end": 210,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 410,
+                    "end": 413,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 546,
+                    "end": 560,
+                    "text": "March 11, 2020",
+                    "ref_id": null
+                },
+                {
+                    "start": 711,
+                    "end": 714,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 965,
+                    "end": 968,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The clinical spectrum of COVID-19 appears to be wide, including mild type without pneumonia, common type with pneumonia, severe type with respiratory deterioration, and critical type with respiratory failure. In addition to acute respiratory failure, the heart, liver, and kidneys may also be involved in the course once the illness has progressed [2, 5] .",
+            "cite_spans": [
+                {
+                    "start": 348,
+                    "end": 351,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 352,
+                    "end": 354,
+                    "text": "5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The standard test for detecting COVID-19 is real-time reverse transcription polymerase chain reaction (RT-PCR). A confirmed case of COVID-19 is defined as a positive result on an RT-PCR assay of sputum and throat swab specimens. However, a non-negligible ratio of patients is known to have negative RT-PCR results 1 2 2 1 1 obtained from pharyngeal swab specimens, although they clinically and radiologically fit the diagnosis. This might be due to not shedding the virus from the upper respiratory tract in the setting of lower respiratory tract involvement, insufficient sensitivity of the testing kits, or improper sampling [2] .",
+            "cite_spans": [
+                {
+                    "start": 314,
+                    "end": 315,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 627,
+                    "end": 630,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "As a result of incompatibility between RT-PCR and patient clinical course mentioned above, radiological investigation emerged as an easier and faster method to detect patients. Chest computed tomography (CT) scan plays an important role in disease diagnosis, monitoring, severity stratification, and evaluation of treatment response in patients with COVID-19, surpassing the utility of RT-PCR [6] . CT demonstrations of COVID-19 are initially subpleural ground-glass opacity (GGO), and as the disease progresses enlarged GGO with a crazy-paving pattern, followed by extensive bilateral consolidation [7] .",
+            "cite_spans": [
+                {
+                    "start": 393,
+                    "end": 396,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 600,
+                    "end": 603,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "On this basis, we aimed to explore the variables for severity of illness in patients with COVID-19 and appeal to clinicians to attach importance to these factors.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "This retrospective chart and database review study was conducted at a tertiary referral center, as one of the largest among university hospitals with 250,000 adult emergency department (ED) admissions annually. Marmara University School of Medicine -Institutional Ethics Committee approval was obtained (12.06.2020 / 07.2020.678) before initiation of data collection. We retrospectively screened all of the consultation requests from emergency department respiratory red zone to infectious diseases via the Hospital Information System (HIS) to include all consecutive patients admitted to the ED due to SARI symptoms and documented the cases diagnosed with COVID-19 according to the symptoms, clinical manifestations, RT-PCR assay and/or chest CT scans between March 15, 2020 and April 30, 2020. Multiple mottling and GGO with peripheral or subpleural origin and relevant consolidation were reported as \"COVID-19 coherent\" unless other lung disease findings were prominent in the chest scan. Data regarding the demographics (age and gender), documented symptoms (cough, fever, dyspnea), radiographic findings, laboratory values on admission (white blood cells, neutrophil, leukocyte, platelets, lactate, creatinine, liver function tests, C-reactive protein, procalcitonin, coagulation tests) and obtained at ward or ICU stay (fibrinogen, d-dimer, ferritin) were collected on standard data retrieval forms, if available.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials And Methods"
+        },
+        {
+            "text": "With the retrospective nature of the study and after the chart reviews, missing data could not be utilized. We determined the presence of outcomes of the patients (length of stay upon discharge or death, in-hospital death, death in the ED, invasive mechanical ventilation (IMV) requirement, transfer to ICU, admission to a hospital ward, and discharge) and RT-PCR from the HIS and the public health management system (PHMS). Definitions of suspected and confirmed cases, diagnosis, and treatment of COVID-19 was in accordance with interim guidance of the Ministry of Health as well. Data regarding the co-morbid conditions couldn't be obtained due to the lack of each patient's consent on the electronic information system.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials And Methods"
+        },
+        {
+            "text": "Continuous variables were reported as means and standard deviations with their corresponding 95% confidence intervals (CIs, with lower and upper limits), or as medians and interquartile ranges (IQR) according to the distribution pattern of the variables. Comparison of the continuous variables among groups was conducted using a t-test, analysis of variance (ANOVA), Mann-Whitney U or Kruskal-Wallis, according to normality and number of groups. Categorical variables were reported with counts and frequencies and compared with a chi-squared test using contingency tables. The Type 1 error in this study was 5%. We used MedCalc v15.8 (MedCalc Software, Ostend, Belgium) for all statistical analyses.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "We identified 177 patients (54.8% male) who presented to the ED respiratory red zone with SARI symptoms and diagnosed and admitted with possible COVID-19. All patients were treated according to the Ministry of Health Guidelines recommendations as per indicated. Data for invasive mechanical ventilation requirement was missing for five cases. Seventy-eight percent of the cases were admitted into wards whereas 22% of the cases admitted into ICU. Twenty-five percent of the cases needed invasive mechanical ventilation during their hospital stay and median length of hospital stay until death or discharge was eight days (IQR 5.0 -16.0). Among 177 patients, overall in-hospital mortality rate was 19.8% (n=35; male:female=18:17; p=0.6553). Fifteen patients had neither positive PCR results nor positive CT scan findings. Treatment decision was made depending on their exposure history and symptoms.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Summary of the demographics, symptoms, work-up and laboratory parameters obtained on admission is presented in Table 1 and ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 111,
+                    "end": 118,
+                    "text": "Table 1",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "The outbreak of COVID-19 has not lost ground since the disease was first identified. As of today, the pandemic is still the leading health concern worldwide. In the presence of this rapidly emerging and remaining situation, identification of variables that could predict disease severity and prognosis on admission is essential to lead clinicians in management.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In this retrospective study, we further researched the characteristics of hospitalized COVID-19 patients with respiratory symptoms. There were differences in the number in terms of the location, the population, and the season of the epidemic. Among 177 patients, the overall mortality rate was 19.8%, and the median age was 67.0 (IQR: 51.0-78.0 [9] . In a meta-analysis by Nasiri et al., the mortality rate was reported as 6.6% [10] . As we included the patients with SARI symptoms and indication for hospitalization, our results might not be not comparable with previous reports. In their study, Li et al. included hospitalized patients in Wuhan in a single-center study and reported 27% mortality [7] . As this study has been conducted between January 10, 2020 and February 22, 2020, at the time the disease had newly emerged, this might explain the higher mortality rate than our results. In a study from [5] . In our study, we haven't further stratified the disease stages. Patients with SARI symptoms subtended to the \"severe type\" and \"critical type\" cases in Zhang's study. Wu [11] . In their study conducted in Wuhan, Pan et al. reported that the median age for non-survivors was significantly higher than the survivors (69.0 vs. 43.0, p<0.001) [12] . Consistent with the previous studies, the median age of the deceased was higher than the survivors in our study (p=0.0091). It is known that as low immunity and comorbidities are seen more commonly with age, these factors may contribute to further physiological deterioration in the setting of illness.",
+            "cite_spans": [
+                {
+                    "start": 345,
+                    "end": 348,
+                    "text": "[9]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 428,
+                    "end": 432,
+                    "text": "[10]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 699,
+                    "end": 702,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 908,
+                    "end": 911,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1081,
+                    "end": 1083,
+                    "text": "Wu",
+                    "ref_id": null
+                },
+                {
+                    "start": 1084,
+                    "end": 1088,
+                    "text": "[11]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1253,
+                    "end": 1257,
+                    "text": "[12]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Male patients consisted of 54.8% of entire patients. There was not a significant difference among the genders regarding mortality (p=0.6553). The male patient ratio is consistent with the US data [13] . In a study conducted in Iran, Raoufi et al. reported no difference between genders in terms of mortality among 380 COVID-19 patients [14] . On the other hand, male gender was reported as a risk factor for COVID-19 severity from previous studies from Asia [2, 5, 6, 12] . This finding is thought to be due to more significant angiotensinconverting enzyme-2 (ACE2) expression reported in Asian men [5] . Other suggestions are that there may be alleles located in ACE2 on the X-chromosome that render resistance to COVID-19 and testosterone has an immunosuppressive effect and moreover, estrogen enhances the immunity [10, 15] .",
+            "cite_spans": [
+                {
+                    "start": 196,
+                    "end": 200,
+                    "text": "[13]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 233,
+                    "end": 246,
+                    "text": "Raoufi et al.",
+                    "ref_id": null
+                },
+                {
+                    "start": 336,
+                    "end": 340,
+                    "text": "[14]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 458,
+                    "end": 461,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 462,
+                    "end": 464,
+                    "text": "5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 465,
+                    "end": 467,
+                    "text": "6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 468,
+                    "end": 471,
+                    "text": "12]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 599,
+                    "end": 602,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 818,
+                    "end": 822,
+                    "text": "[10,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 823,
+                    "end": 826,
+                    "text": "15]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Considering initial vital parameters, the median values for SBP, DBP, sO2, body temperature, HR, and RR were 126.0 (108. 5 In another study conducted in our instutituon, body temperature \u226538\u00b0C, RR \u226522/min, and sO2 \u226493% were revealed to be related with progression to critical illness among COVID-19 patients [16] . In our study, we recorded the variables as continuous variables instead of categoric, contrary to the study mentioned above.",
+            "cite_spans": [
+                {
+                    "start": 121,
+                    "end": 122,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 308,
+                    "end": 312,
+                    "text": "[16]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In their studies, both Raoufi [14] . In our study, due to including relatively severe patients with SARI symptoms, dyspnea was the leading symptom at presentation (72.2%); yet, similar to the Raoufi et al. study, none of the symptoms of dyspnea, cough, and fever were found to be significantly different between deceased and survivors (p=0.0578, 0.6823, 0.8212, respectively). A finding noticeable in our study is that, among the 33 patients who died in hospital, 13 were admitted with fever complaint whereas 20 denied the symptom on admission.",
+            "cite_spans": [
+                {
+                    "start": 23,
+                    "end": 29,
+                    "text": "Raoufi",
+                    "ref_id": null
+                },
+                {
+                    "start": 30,
+                    "end": 34,
+                    "text": "[14]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Chest CT findings have been an indicator of lung involvement in the disease course. 86.5% of the patients had abnormal CT scan findings, yet, there was no difference between survivors and deceased in terms of abnormal chest CT findings (p=0.1462). Li et al. reported a 98% ratio of abnormal CT scans on admission, but no significant difference between survivors and deceased (p>0.05). Considering the higher mortality rate in their study (27%), higher abnormal CT scan results are consistent with their mortality rate [7] .",
+            "cite_spans": [
+                {
+                    "start": 518,
+                    "end": 521,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Considering the laboratory values, there was no significant difference between deceased and surviving patients regarding WBC counts, neutrophil counts, and platelet counts in our study. Lower lymphocyte levels were found to be significant for mortality, consistent with Huang's study [1] . Raoufi et al. reported significantly increased WBC and neutrophil counts amongst the deceased COVID-19 patients in Iran, and so did Xie et al. in China [14, 17] . Platelet count is known to be independently associated with risk of mortality in ICU, and lower platelet count is involved in various disease severity scores as a risk factor. Also, thrombocytopenia was shown to be associated with three times increased risk of severe COVID-19. This might be either the result of a direct effect on platelets or a systemic inflammation process [18] . Zhao et al. compared the platelet counts on the fifth to sixth day and on the 14th to 15th day between survivors and non-survivors of both genders and found that the mean value of platelet count of survivors was significantly higher than that of non-survivors on the fifth to sixth day (p=0.003) and the 14 to 15th day (p<0.001) of male patients and on the 14 to 15th day (p=0.001) of female patients [19] . In our study, only complete blood counts obtained at time of admission were included.",
+            "cite_spans": [
+                {
+                    "start": 284,
+                    "end": 287,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 442,
+                    "end": 446,
+                    "text": "[14,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 447,
+                    "end": 450,
+                    "text": "17]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 830,
+                    "end": 834,
+                    "text": "[18]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1238,
+                    "end": 1242,
+                    "text": "[19]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Blood lymphocyte levels were significantly lower in the patients who eventually died in hospital (p=0.0136). This finding is consistent with previous reports [5, 10, 11, 14, 17, 19] . As SARS-CoV is known to mainly act on lymphocytes, for SARS-CoV-2, as a beta-coronavirus, to do the same is not surprising.",
+            "cite_spans": [
+                {
+                    "start": 158,
+                    "end": 161,
+                    "text": "[5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 162,
+                    "end": 165,
+                    "text": "10,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 166,
+                    "end": 169,
+                    "text": "11,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 170,
+                    "end": 173,
+                    "text": "14,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 174,
+                    "end": 177,
+                    "text": "17,",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 178,
+                    "end": 181,
+                    "text": "19]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Amongst the acute phase proteins (APP), such as CRP, procalcitonin, ferritin, and fibrinogen, only median CRP values were higher compared to the normal range; yet, as two outcome groups were compared, APPs were significantly higher among deceased than survivors (p<0.0001, <0.0001, <0.0001, =0.0349; respectively). Raoufi patients in China, and, consistent with our study, higher levels of D-dimer, serum ferritin, and creatinine in deceased patients [17] . These findings suggest that increased levels of APPs could be indicators for acute respiratory distress syndrome (ARDS) development.",
+            "cite_spans": [
+                {
+                    "start": 315,
+                    "end": 321,
+                    "text": "Raoufi",
+                    "ref_id": null
+                },
+                {
+                    "start": 451,
+                    "end": 455,
+                    "text": "[17]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Although lungs are the primary target for the SARS-CoV-2, data suggest that as the disease progresses, with the contributions of the systemic immune inflammation, multiple organ systems are involved in the course of the disease [20] . ACE2 expression has been shown in 2.6% of hepatocytes and 59.7% of cholangiocytes, suggesting that the virus may directly bind cholangiocytes as a target [21, 22] . Richardson et al. reported elevated levels of AST and ALT among 5,700 hospitalized COVID-19 patients [23] . In our study, none of the median values for the renal and liver functionality were abnormal on admission, but median serum creatinine level and INR were significantly higher in deceased patients than in survivors (1.0 vs. 0.9; p=0.0084, 1.3 vs. 1.1; p=0.0001). The blood samples for liver and renal damage biomarkers were drawn upon admission. These parameters probably deteriorated as the disease progressed during the hospital stay. Since the blood samples were obtained prior to medication, hepatotoxic effects of the medications administered during the hospital stay were neglected.",
+            "cite_spans": [
+                {
+                    "start": 228,
+                    "end": 232,
+                    "text": "[20]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 389,
+                    "end": 393,
+                    "text": "[21,",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 394,
+                    "end": 397,
+                    "text": "22]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 501,
+                    "end": 505,
+                    "text": "[23]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Median LOS was significantly longer in non-survivors than in survivors (13.0 vs. 8.0, p=0.0251). US data revealed median LOS of 7.0 [13] . Pan et al. reported longer median LOS in survivors than in non-survivors, with no significant difference (14.0 vs. 18.0, p=0.068) [12] . Our results might be due to early patient discharge in case of signs of improvement in the disease course to maintain the patient circulation and provide healthcare for the mass with limited resources, whereas mandatory extended hospital stay was needed for critical and deteriorating patients.",
+            "cite_spans": [
+                {
+                    "start": 132,
+                    "end": 136,
+                    "text": "[13]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 269,
+                    "end": 273,
+                    "text": "[12]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "There are several limitations to our study. First, the retrospective design of our study might affect the integrity of data and diminish its credibility, and more prospective cohort studies should be on the agenda in the future. Second, due to the retrospective design and communication challenges with the patients and the next of kin, data regarding the comorbid conditions, pre-existing organ failures, medication, exposure history, time from the exposure to initial symptom onset, and time from initial symptom onset to admission might be quite unreliable. Third, patients enrolled in our study mostly come from Istanbul, and large-scale studies at the national level are needed to provide more reliable and comprehensive data. Fourth, changes in the illness in different subtypes need to be further investigated. A model for predicting the changes of disease is necessary for clinicians to better guide treatments. Fifth, as more than half of the patients were RT-PCR negative, more sensitive testing kits may reveal different results. Last, the treatment protocol is not and has not been standard since the beginning of the pandemic, and there are slight modifications in the therapeutic regimen.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Limitations"
+        },
+        {
+            "text": "In conclusion, the retrospective analysis of 177 patients hospitalized with COVID-19 revealed overall mortality of 19.8%. Patients with older age, higher RR, lower sO2 and DBP, higher creatinine, d-dimer, INR, CRP, procalcitonin, ferritin, and fibrinogen on initial admission were found to be less likely to survive COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Human subjects: Consent was obtained by all participants in this study. Marmara University School of Medicine -Institutional Ethics Committee issued approval 12.06.2020 / 07.2020.678. Marmara University School of Medicine -Institutional Ethics Committee approval was obtained (12.06.2020 / 07.2020.678) before initiation of data collection. Animal subjects: All authors have confirmed that this study did not involve animal subjects or tissue. Conflicts of interest: In compliance with the ICMJE uniform disclosure form, all authors declare the following: Payment/services info: All authors have declared that no financial support was received from any organization for the submitted work. Financial relationships: All authors have declared that they have no financial relationships at present or within the previous three years with any organizations that might have an interest in the submitted work. Other relationships: All authors have declared that there are no other relationships or activities that could appear to have influenced the submitted work.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Additional Information Disclosures"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Clinical characteristics and predictors of disease progression in severe patients with COVID-19 infection in Jiangsu province, China: a descriptive study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Shang",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Am J Med Sci",
+            "volume": "2020",
+            "issn": "",
+            "pages": "120--128",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.amjms.2020.05.038"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Clinical outcomes of 402 patients with COVID-2019 from a single center in Wuhan",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. J Med Virol",
+            "volume": "92",
+            "issn": "",
+            "pages": "2751--2757",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jmv.26168"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Accessed",
+            "authors": [],
+            "year": 2019,
+            "venue": "Novel Coronavirus",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "WHO Coronavirus Disease (COVID-19) Dashboard",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Clinical characteristics of different subtypes and risk factors for the severity of illness in patients with COVID-19 in Zhejiang, China",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lian",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Infect Dis Poverty",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s40249-020-00710-6"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Association of \"initial CT\" findings with mortality in older patients with coronavirus disease 2019 (COVID-19)",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ai",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Eur Radiol",
+            "volume": "2020",
+            "issn": "",
+            "pages": "6186--6193",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00330-020-06969-5"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Association of clinical and radiographic findings with the outcomes of 93 patients with COVID-19 in Wuhan",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gui",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. Theranostics",
+            "volume": "10",
+            "issn": "",
+            "pages": "6113--6121",
+            "other_ids": {
+                "DOI": [
+                    "10.7150/thno.46569"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "COVID-19 and excess all-cause mortality in the US and 18 comparison countries",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bilinski",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Emanuel",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "JAMA",
+            "volume": "2020",
+            "issn": "",
+            "pages": "2100--2102",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.20717"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "COVID-19 clinical characteristics, and sex-specific risk of mortality: systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Nasiri",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Haddadi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tahvildari",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Front Med (Lausanne)",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fmed.2020.00459"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Risk factors for mortality in 244 older adults with COVID-19 in Wuhan, China: a retrospective study",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ning",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Tao",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J Am Geriatr Soc",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/jgs.16533"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Different computed tomography patterns of Coronavirus Disease 2019 (COVID-19) between survivors and non-survivors",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41598-020-68057-4"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Patient characteristics and outcomes of 11,721 patients with COVID19 hospitalized across the United States",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Fried",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Crawford",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mospan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/cid/ciaa1268"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Correlation between chest computed tomography scan findings and mortality of COVID-19 cases; a cross sectional study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Raoufi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Safavi",
+                    "middle": [],
+                    "last": "Naini",
+                    "suffix": ""
+                },
+                {
+                    "first": "Saa",
+                    "middle": [],
+                    "last": "Azizan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Arch Acad Emerg Med",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.22037/aaem.v8i1.719"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "COVID-19 kills more men than women: an overview of possible reasons . Front Cardiovasc Med",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Capuano",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Rossi",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Paolisso",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fcvm.2020.00131"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Factors associated with progression to critical illness in 28 days among COVID-19 patients: results from a tertiary care hospital in Istanbul",
+            "authors": [
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Sili",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ay",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Topuzoglu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.10.09.20209775"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Epidemiologic, clinical, and laboratory findings of the COVID-19 in the current pandemic",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Liao",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Marley",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMC Infect Dis",
+            "volume": "20",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12879-020-05371-2"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Thrombocytopenia is associated with severe coronavirus disease 2019 (COVID-19) infections: a meta-analysis",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Lippi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Plebani",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Henry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Chim Acta",
+            "volume": "506",
+            "issn": "",
+            "pages": "145--148",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cca.2020.03.022"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Early decrease in blood platelet count is associated with poor prognosis in COVID-19 patients-indications for predictive, preventive, and personalized medical approach",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zuo",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "EPMA J",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s13167-020-00208-z"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Liver injury in severe COVID-19 infection: current insights and challenges",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ali",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hossain",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Expert Rev Gastroenterol Hepatol",
+            "volume": "2020",
+            "issn": "",
+            "pages": "879--884",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/17474124.2020.1794812"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Specific ACE2 expression in cholangiocytes may cause liver damage after 2019-nCoV infection. bioRxiv. 2020",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Chai",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.02.03.931766"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Longitudinal association between markers of liver injury and mortality in COVID-19 in China",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Lei",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Hepatology",
+            "volume": "72",
+            "issn": "",
+            "pages": "389--398",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/hep.31301"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Presenting characteristics, comorbidities, and outcomes among 5700 patients hospitalized with COVID-19 in the New York City Area",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Richardson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hirsch",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Narasimhan",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "JAMA",
+            "volume": "2020",
+            "issn": "",
+            "pages": "2052--2059",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.6775"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF1": {
+            "text": "China, Zhang et al. reported median ages in common, severe, and critical types of disease as 45.0 years (IQR: 35.0 -55.0), 55.0 years (IQR: 44.0 -62.0), and 70.0 years (IQR: 55.0 -73.0), respectively",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "36.0), respectively. Compared with survivors, non-survivors had lower DBP (78.0 vs. 70.0; p=0.0039), lower sO2 (93.0 vs. 87.5; p<0.0001), and higher RR (28.0 vs. 36.0; p=0.0002).",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "As the first COVID-19 cases emerged and were declared on March 10, 2020, health care centers regulated their patient care systems in accordance with the guidelines provided by the Ministry of Health [8]. Accordingly, in our center, patients with suspected COVID-19 were admitted in designated areas. Patients with mild symptoms or symptomless exposure history were examined at an individual zone, whereas patients above 18 years of age with severe acute respiratory infection (SARI) symptoms were admitted into the respiratory red zone designated for possible COVID-19 cases. SARI symptoms are defined as hospitalization necessity due to either dyspnea, tachypnea, hypoxemia, hypotension, or altered mental status in COVID-19-likely patients. If patients were thought to have COVID-19, based on their signs, symptoms, and CT scan, they were referred to infectious diseases for the decision of ward or intensive care unit (ICU) admission. RT-PCR swabs for those patients were obtained immediately after admission, unless obtained and readily available before admission. In the case of negative RT-PCR results, repetitive tests were performed. Patients were included as RT-PCR positive if any of the test results revealed positive.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "In-hospital mortality rates were statistically significantly higher in patients",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Baseline characteristics of patientsPercentage refers to the column total. Proportions were compared with Chi-squared test. Medians were compared with Mann-Whitney U test,",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Comparison of symptoms and work-up regarding in-hospital mortality. -squared test. P-values <.05 are significant. PCR: polymerase chain reaction",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

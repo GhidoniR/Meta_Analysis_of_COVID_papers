@@ -1,0 +1,1976 @@
+{
+    "paper_id": "0aac18865d675d3e19ba36b579f8b593f66ed54a",
+    "metadata": {
+        "title": "Root Estimation in Galton-Watson Trees",
+        "authors": [
+            {
+                "first": "Anna",
+                "middle": [
+                    "M"
+                ],
+                "last": "Brandenberger",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "McGill University",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Luc",
+                "middle": [],
+                "last": "Devroye",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "McGill University",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Marcel",
+                "middle": [
+                    "K"
+                ],
+                "last": "Goh",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "McGill University",
+                    "location": {}
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Given only the free-tree structure of a tree, the root estimation problem asks if one can guess which of the free tree's nodes is the root of the original tree. We determine the maximum-likelihood estimator for the root of a free tree when the underlying tree is a size-conditioned Galton-Watson tree and calculate its probability of being correct.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Trees are the most ubiquitous nonlinear structures in computer science. There are two different, equally important, notions of a tree. The first is the unrooted or free tree, which is a connected acyclic graph, and the second is the rooted tree, in which a single node is distinguished as the root and each edge has a direction from a child to its parent (so all edges point towards the root). Any free tree can be converted into a rooted tree by choosing a root node and setting all of the edge directions accordingly. Likewise, any rooted tree can be seen as a free tree by \"forgetting\" the directions of the edges. The root estimation problem asks for a method that will recover the root of the underlying rooted tree from the free-tree structure.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Given a free tree of size n, uniformly chosen from among all n-node free trees of a certain family, an easy strategy would be to pick a node uniformly at random; this estimator has a success probability of 1/n. There are some trees for which this is the optimal estimator, but we will see that in most cases, we will be able to do much better. Of course, it is easy to cook up a family of trees whose structure ensures that the root can be guessed with certainty every time (an obvious example is the the complete binary tree on 2 n \u2212 1 nodes). In many cases we will not be so fortunate, but often there is an estimator that guesses the root with probability asymptotically equal to c/n, where c > 1. We solve the root estimation problem on conditional Galton-Watson trees and exploit the connection between these trees and various families in the uniform tree model to give a general approach to root estimation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Background. Root-finding algorithms have been investigated in the literature, mostly for specific classes of trees. The problem was introduced by Haigh [13] in the context of uniform attachment trees, and this work obtains a maximum-likelihood estimate of the root along with the probability of correctness of this estimate as a function of the size of the tree. More recently, Bubeck et. al. [4] show that on uniform attachment and preferential attachment trees, one can construct a confidence set of nodes containing the root, where this set has size independent of the number of nodes in the graph. The earlier work by Shah and Zaman [23] in network analysis estimates the source of a rumour in a social network under the susceptible-infectedrecovered (SIR) model for viral epidemics, which can be viewed as uniform attachment on a background graph. Their estimation is based on the rumour centrality metric, a notion which is explored in further work reviewed in [25] . For instance, Shah et. al. [24] extend their previous result to more generic classes of trees including d-regular trees and geometric trees, and further show that their rumour centrality estimator correctly detects the source in Galton-Watson trees with a strictly positive probability.",
+            "cite_spans": [
+                {
+                    "start": 152,
+                    "end": 156,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 393,
+                    "end": 396,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 637,
+                    "end": 641,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 967,
+                    "end": 971,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1001,
+                    "end": 1005,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In a similar line of work to [4] , including some follow up work, authors investigate uniform attachment and preferential attachment trees initialized with an original seed tree [5, 6, 8, 10, 17, 19] . The authors here seek to determine the original seed of a given graph, and study the influence of this seed and its properties on the structure of the graph as it grows. Recent work by Crane et. al. [7] considers shape-exchangable trees, which encompass the aforementioned models such as uniform attachment, linear preferential attachment, and uniform attachment on a d-regular tree, and expand on the ideas of [4] and [17] to provide algorithms for explicitly constructing a confidence set containing the root.",
+            "cite_spans": [
+                {
+                    "start": 29,
+                    "end": 32,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 178,
+                    "end": 181,
+                    "text": "[5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 182,
+                    "end": 184,
+                    "text": "6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 185,
+                    "end": 187,
+                    "text": "8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 188,
+                    "end": 191,
+                    "text": "10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 192,
+                    "end": 195,
+                    "text": "17,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 196,
+                    "end": 199,
+                    "text": "19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 401,
+                    "end": 404,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 613,
+                    "end": 616,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 621,
+                    "end": 625,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The Galton-Watson model. A Galton-Watson tree [2] with offspring distribution \u03be is a rooted ordered tree in which every node has i children with probability p i = P{\u03be = i}. It is a well-known result that when E{\u03be} \u2264 1, the tree is finite almost surely, except when p 1 = 1 and all other p i are zero. The Galton-Watson branching process was first studied in 1845 by I. J. Bienaym\u00e9 [3] , who was interested in the disappearance of family names, and it derives its name from F. Galton and H. W. Watson [12] , who studied the same phenomenon in England in 1874. In their model, nodes correspond to individuals in a population and p i is the probability that an individual passes the family name down to i children. If the process results in a finite Galton-Watson tree, this means the family name goes extinct after some number of generations. We will consider finite, \"critical\" Galton-Watson trees. These are trees for which E{\u03be} = 1 and V{\u03be} \u2208 (0, \u221e); ensuring a nonzero variance rules out the degenerate case p 1 = 1.",
+            "cite_spans": [
+                {
+                    "start": 46,
+                    "end": 49,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 381,
+                    "end": 384,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 500,
+                    "end": 504,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The Galton-Watson trees that we shall study are conditioned on |T | = n, where |T | is the number of nodes in the tree. Conditional Galton-Watson trees were first studied by D. P. Kennedy [15] and a key correspondence was found between offspring distributions of conditional Galton-Watson trees and certain families of \"simply-generated trees\" [20] : i) When \u03be \u223c Binomial(k, 1/k), the conditional Galton-Watson tree is a k-ary tree. ii) When \u03be \u223c Poisson(1), we have a Cayley tree.",
+            "cite_spans": [
+                {
+                    "start": 188,
+                    "end": 192,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 344,
+                    "end": 348,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "iii) The distribution p 0 = p 1 = p 2 = 1/3 generates a random Motzkin tree, in which every node has \u2264 2 children whose order is significant. iv) A Geometric(1/2) offspring distribution gives rise to a planted plane tree.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "This gives us a way to pick uniformly at random from any such family of trees; we simply generate a conditional Galton-Watson tree, which can be done in linear expected time [9] . We will derive a rootestimation strategy for each of the aforementioned families of trees as special cases of our main result.",
+            "cite_spans": [
+                {
+                    "start": 174,
+                    "end": 177,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Our mission can be formalized as follows. Let a conditional Galton-Watson tree with n nodes be given and suppose the directions of the edges are erased, i.e., we are shown only the free-tree structure F n . The goal is to develop a strategy that determines the node with the highest likelihood to have been the root of the original Galton-Watson tree. We would also like to know the probability that we are correct.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "A concrete example. It is instructive to work through a small toy example using a na\u00efve counting method. Suppose the offspring distribution is",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "and all other p i = 0. Conditioning on the number of nodes n generates a binary tree uniformly at random. There are only two possible free trees with four nodes and one is much more likely to arise by this process than the other. If are shown a path graph, we are best off choosing one of the endpoints, since an endpoint is the root in 8 of the 12 cases and we will guess the correct endpoint with probability 1/2 (there are two identical endpoints). In this case, the probability of our guessing correctly is 1/3. When the free tree is the star graph, we should also choose one of the endpoints, since the central node is never the root. Of course, we can still only be correct with probability 1/3 because there are three identical endpoints.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The probabilistic approach. This family of trees illustrated in Fig. 1 was small enough to obtain a maximum-likelihood estimator (MLE) by simply counting, but for larger trees and more complex offspring distributions, this will not be feasible. The method we develop will be general and powerful enough to give an MLE for the root on conditional Galton-Watson trees with any offspring distribution p i and any size n. We will find that the optimal strategy for picking a root is as follows:",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 64,
+                    "end": 70,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Introduction"
+        },
+        {
+            "text": "i) If p i > 0 and p i\u22121 = 0 for some i \u2265 1 and there exists a node in the free tree with graph-degree i, then only one such node can exist and we select it as our guess. The probability that this node is the root, conditional on its existence, is 1.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "ii) Otherwise, we choose a node uniformly from the nodes of graph-degree i that maximize ip i /p i\u22121 (note that there could be multiple integers i for which this ratio is maximal).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The probability of correctness in case (ii) can be explicitly given. We will also analyze the correctness of the MLE as the number of nodes in the tree tends to infinity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "We start off by establishing some terminology and notation. The setup is as follows. We will denote by F n a free tree on n nodes. If a node u is selected and the rest of the tree is allowed to hang from it as if by gravity, then we have the u-rooted tree, where the parent of a node is its immediate neighbour in the path towards u.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Automorphisms and Probabilities"
+        },
+        {
+            "text": "In the u-rooted tree, we define the tree-degree of a node v to be the number of children of a given node; this is denoted deg u (v). The graph-degree of v, written deg * (v), is the original degree of v in the free tree F n . For every node v different from u in the u-rooted tree, we have deg u (v) = deg * (v) \u2212 1 and u is the only node for which the two degrees are equal. The number of nodes of a given degree i in the u-rooted tree is denoted N u i ; the analogous value for the free tree is denoted N * i . An automorphism of a free tree F n is a graph-isomorphism from F n to itself, i.e., a bijection from V (F ) to V (F ) that preserves the adjacency structure. We define the multiplicity M (v) of a node v to be the number of nodes that are isomorphic to v, that is, nodes to which v can possibly be sent by an automorphism (M (v) \u2265 1 because a node can always be sent to itself). Nodes that are isomorphic will affectionately be called clones.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Automorphisms and Probabilities"
+        },
+        {
+            "text": "The notion of free-tree automorphisms is used to define the multiplicity, but in fact the number of automorphisms of a rooted tree is more pertinent to our problem. Assuming some node u as the root, this is the number of ways that subtrees with the same parent can be permuted amongst themselves while leaving u firmly planted at the top of the tree. Unless otherwise stated, this is the sense in which the term 'automorphism' will be used from here onwards, and Aut(u) will be used to indicate the number of automorphisms of the u-rooted tree.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Automorphisms and Probabilities"
+        },
+        {
+            "text": "Every automorphism is obtained by combining permutations of subtrees of the nodes, so as a starting point, we have",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Automorphisms and Probabilities"
+        },
+        {
+            "text": "But some permutations leave the tree unchanged (if two subtrees of a given node happened to be indistinguishable, then transposing them does not produce a new tree). This leads to our definition of a correction factor at a node v in the u-rooted tree (denoted corr u (v)) that is the product of the factorials of the cardinalities of the equivalence classes of the subtrees rooted at each child of v. For example, consider the following tree, rooted at a node u: We have corr u (u) = 3! \u00b7 2! and corr u (w) = 2!; all other nodes have a corr u value of 1. These correction factors completely describe the overcounting that occurred in the right-hand side of (\uf731), and they allow us to give an exact formula for the number of automorphisms of a u-rooted tree:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Automorphisms and Probabilities"
+        },
+        {
+            "text": "Last but not least, we denote by Prob(u) the Galton-Watson probability of the u-rooted tree. Since each node has a probability p i of having i children, this is given by",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Automorphisms and Probabilities"
+        },
+        {
+            "text": "Now let F n be a free tree obtained by removing the parent-child information from a conditional Galton-Watson tree. The probability of a node u being the root is the Galton-Watson probability of the u-rooted tree times the number of automorphisms it has. But any one of u's clones could have been the root of an identical tree, so we must divide by M (u). So the probability that a node u is the root is given by",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Automorphisms and Probabilities"
+        },
+        {
+            "text": "ignoring a normalizing factor that one must introduce to ensure that this is indeed a valid probability distribution. Our maximum-likelihood estimator will thus need to choose a node u that maximizes this probability. Given a Galton-Watson offspring distribution, we will denote by C the event that the MLE is correct for any corresponding free tree of size n, and we seek to determine both P{C}, the probability of success of the MLE, and P{C | F n }, the probability of success given a specific free tree F n . Note that",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Automorphisms and Probabilities"
+        },
+        {
+            "text": "where the expected value is taken over all free trees of size n that could arise by the distribution.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Automorphisms and Probabilities"
+        },
+        {
+            "text": "The primary result of this section is that the denominator of (\uf734) does not depend on our choice of the root. Instead, it is some constant inherent to the free-tree structure. Although this seems like a somewhat global property, we will find that to prove it, it suffices to zoom in on individual edges and study the relationship between multiplicities of neighbours in the free tree. It is in the nature of the corr function that nodes possibly contribute to the corr values of their neighbours. The following lemma shows that if a node u contributes some factor > 1 to corr(v) to its neighbour v, then v contributes a factor > 1 to corr(u) if and only if u and v are clones. Proof. The forward direction is obvious. If u and v are clones, this holds since any node is in the subtree rooted at itself. Conversely, suppose that (i) and (ii) hold and the free tree is as in Fig. 4 . When u is selected to be the root, we see that some number of copies of T u must be subtrees inside T v . So |T u | \u2264 |T v |. But by a symmetric argument, we find that |T v | \u2264 |T u | and thus |T u | = |T v |. In fact, we can say something stronger. We actually have, up to automorphism, T u \u2286 T v and T v \u2286 T u . Thus the trees T u and T v are automorphic and u and v are clones.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 872,
+                    "end": 878,
+                    "text": "Fig. 4",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "Multiplicities and Correction Factors"
+        },
+        {
+            "text": "Lemma 2. Let F n be a free tree. Then for any node u picked to be the root, the value",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Multiplicities and Correction Factors"
+        },
+        {
+            "text": "is the same.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Multiplicities and Correction Factors"
+        },
+        {
+            "text": "Proof. Fix a node u as the root and let v be one of its children. We show that, moving v up to become the new root, the product above does not change, i.e., c(v) = c(u). This will prove the lemma, since any node can be shifted to the root in such a manner. If u and v are clones, T u is automorphic to T v and, interchanging u and v, we have the the exact same tree, up to automorphism. In this case, clearly c(v) = c(u).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Multiplicities and Correction Factors"
+        },
+        {
+            "text": "If u and v are not clones, by Lemma 1 there are three cases:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Multiplicities and Correction Factors"
+        },
+        {
+            "text": "i) There are no clones of v in T u and no clones of u in T v : both M (u) and M (v) are equal to 1.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Multiplicities and Correction Factors"
+        },
+        {
+            "text": "ii) There are clones of v in T u but no clones of u in T v .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Multiplicities and Correction Factors"
+        },
+        {
+            "text": "iii) There are clones of u in T v but no clones of v in T u .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Multiplicities and Correction Factors"
+        },
+        {
+            "text": "In case (i), M (u) = M (v) and both nodes contribute 1! to each other's correction factors. So interchanging them will change neither the multiplicity of the root nor the correction factor. ...",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Multiplicities and Correction Factors"
+        },
+        {
+            "text": "... In case (ii), suppose that r copies of v are among the children of u. Then there is a factor of (r + 1)! in corr(u). Additionally, suppose there exists a v-clone v \u2032 in T u that is not a child of u, i.e., it must be in (and not the root of) one of the grey subtrees in Fig. 6 . Since v \u2032 is isomorphic to v, it must have r siblings that are also v-clones and a parent that is a u-clone. Thus to each clone of u there correspond r + 1 copies of v, giving us M (v) = (r + 1)M (u). Moving v up to the root, the multiplicity of the root is increased by a factor of r + 1 but now u's correction factor has been divided by r + 1. Thus c(v) = c(u).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 273,
+                    "end": 279,
+                    "text": "Fig. 6",
+                    "ref_id": "FIGREF8"
+                }
+            ],
+            "section": "Multiplicities and Correction Factors"
+        },
+        {
+            "text": "In case (iii), say that there are r clones of u among the children of v. Then, there is a factor of r! in corr(v). Additionally, suppose there exists a u-clone u \u2032 in T v that is not a child of v. Since this u \u2032 is a clone of u, it must also have r siblings that are u-clones and a parent that is a v-clone. Thus we have M (u) = (r + 1)M (v). When v is anointed as the new root, the multiplicity of the root decreases by a factor of r + 1 but corr(v) increases by a factor of r + 1. The product remains the same.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Multiplicities and Correction Factors"
+        },
+        {
+            "text": "*Landscape of the free tree. Using the notion of multiplicity of nodes, we can establish a picture of the general structure of any free tree. This subsection is completely optional; the reader may skip to the theorem in Section 4 without any detriment to comprehension.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Multiplicities and Correction Factors"
+        },
+        {
+            "text": "Then v cannot have strict maximal multiplicity among the three nodes; that is,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Multiplicities and Correction Factors"
+        },
+        {
+            "text": ". Then, considering pairs u \u2212 \u2212 v and v \u2212 \u2212 w, we have situations similar to the proof of Lemma 2, and we note that for neighbours, the multiplicity of one of the nodes must be an integer multiple of the multiplicity of the other. So here there must be integers \u03b1, \u03b2 > 1 such that",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Multiplicities and Correction Factors"
+        },
+        {
+            "text": "The situation is illustrated in Fig. 7 . Since M (v) = \u03b2M (u), u must have \u03b2 \u2212 1 children that are clones of v and thus have subtree rooted at each of these children be isomorphic to B. Similarly, since M (v) = \u03b1M (w), w must have \u03b1 \u2212 1 child subtrees isomorphic to A. We note that in order to satisfy the \u03b1, \u03b2 > 1 requirements, we must have",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 32,
+                    "end": 38,
+                    "text": "Fig. 7",
+                    "ref_id": "FIGREF9"
+                }
+            ],
+            "section": "Multiplicities and Correction Factors"
+        },
+        {
+            "text": "where the additional +2 terms come respectively from nodes u and v (for |A|) or v and w (for |B|). This implies that",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Multiplicities and Correction Factors"
+        },
+        {
+            "text": "which is impossible if |A| \u2265 1 and \u03b1, \u03b2 > 1. The contradiction tells us that v cannot have strict maximal multiplicity among the three nodes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Multiplicities and Correction Factors"
+        },
+        {
+            "text": "We have established that if we embed a free tree into the (x, y)-plane and then lift the nodes up by setting each node's z-coordinate to its multiplicity, then the result is a convex, spidery bowl or valley. This is illustrated in Fig. 8 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 231,
+                    "end": 237,
+                    "text": "Fig. 8",
+                    "ref_id": "FIGREF10"
+                }
+            ],
+            "section": "Multiplicities and Correction Factors"
+        },
+        {
+            "text": "On a path between any two endpoints, the multiplicities decrease monotonically towards the centre of the tree before increasing monotonically towards the endpoint. There is a central connected core of nodes of minimal multiplicity and we can prove that this minimal multiplicity cannot be greater than 2. Proof. The proof is by contraposition. Let u \u2208 V (F ) be a node of minimal multiplicity and suppose M (u) > 2. Let C u be the set (of cardinality M (u)) of clones of u. There is a subtree F \u2032 whose endpoints are the members of C u ; since m > 2 and the graph is connected, there is necessarily at least one node",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Multiplicities and Correction Factors"
+        },
+        {
+            "text": "So we can repeat the argument with C v to find that the tree is infinite (at each step we are removing M (u) nodes from the free tree, but the process never terminates).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Multiplicities and Correction Factors"
+        },
+        {
+            "text": "Note that this argument does not work when M (u) = 2 because F \u2032 may simply consist of two nodes connected by one edge.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Multiplicities and Correction Factors"
+        },
+        {
+            "text": "We are now ready to prove the first significant result. Lemma 2 has rendered the denominator in (\uf734) irrelevant in determining which node of the free tree is most likely to be the root. We are now left with the task of maximizing the numerator, and the following theorem shows that this can be done knowing only the offspring distribution and the given free-tree structure F n . To simplify notation, for i \u2265 1 we define",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimating the Root"
+        },
+        {
+            "text": "Note that throughout the paper, we will assume that 0/0 = 0, capturing the cases where both p i and p i\u22121 are equal to zero.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimating the Root"
+        },
+        {
+            "text": "Theorem 5. Given a free tree F n corresponding to some Galton-Watson tree with offspring distribution p i , the strategy to maximize the probability of picking the original root is to select uniformly from the nodes of graph-degree i that maximize R i , more specifically, defining",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimating the Root"
+        },
+        {
+            "text": "the maximum-likelihood estimate for picking the root is to choose a node uniformly from the candidate set",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimating the Root"
+        },
+        {
+            "text": "The probability of success of this maximum-likelihood estimator is",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimating the Root"
+        },
+        {
+            "text": "Proof. As noted earlier, up to a normalizing factor, the probability of a node u being the root of the original Galton-Watson tree is",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimating the Root"
+        },
+        {
+            "text": "We proved in Lemma 2 that the denominator M (u) v corr u (v) is constant for any choice of root node u. Thus we would like to pick a node u that maximizes Prob",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimating the Root"
+        },
+        {
+            "text": "Note that all the nodes have graph degree one greater than their tree degree, except for the root u, where the two degrees are the same. So for all",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimating the Root"
+        },
+        {
+            "text": "The infinite product in the last line is the same for all u, so we need only maximize the ratio R i . Considering the constraint that there must be a node of degree i in F n , and the fact that there could be multiple degrees that maximize the required ratio (see the limit of k-ary trees as k \u2192 \u221e in the following section), there are two cases for the probability of success of this MLE.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimating the Root"
+        },
+        {
+            "text": "i) M = \u221e. This case is deceptively simple. If M = \u221e, then there exists i \u2265 1 such that p i\u22121 = 0, p i = 0, and there is some u \u2208 F n with deg * (u) = i. Suppose, towards a contradiction, that this u were not the root. Then there must be some other node v = u that is the root, and the v-tree degree of u would be deg v (u) = deg * (u) \u2212 1 = i \u2212 1. But this is impossible since p i\u22121 = 0. So u must be the root. It the only node in the candidate set \u2126 and our strategy determines the root correctly with probability P {C | F n } = 1.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimating the Root"
+        },
+        {
+            "text": "ii) M < \u221e. In this case, since the probability of any node of degree i being the root is proportional to R i , normalizing over all nodes in the free tree F n , we obtain",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimating the Root"
+        },
+        {
+            "text": "This is exactly the strategy specified in the theorem statement.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimating the Root"
+        },
+        {
+            "text": "Theorem 5 can be applied to any family of trees that arises as a special case of conditional Galton-Watson trees. Without any further machinery, we are now able to give an MLE for conditional Galton-Watson trees of certain offspring distributions. Recall the computation that we performed on 4-node binary trees in the introduction. We were able to show that the best strategy to guess the root was to choose a random endpoint, which would be successful with probability 1/3. It may come as a surprise that this MLE generalises to k-ary trees of any size.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Applications to k-ary and Cayley Trees"
+        },
+        {
+            "text": "Rooted k-ary trees. In a rooted k-ary tree, every node can have up to k children and the placement of the children is important; a node has k \"slots\" in which its children may be placed. As a result, a node can have i children in k i ways. When k = 2 these trees are often called Catalan trees because there are 2n n /(n + 1) such trees on n nodes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Applications to k-ary and Cayley Trees"
+        },
+        {
+            "text": "We can generate an n-node k-ary tree uniformly at random by generating a conditional Galton-Watson tree with a Binomial(k, 1/k) offspring distribution. Here we have",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Applications to k-ary and Cayley Trees"
+        },
+        {
+            "text": "So, for any free tree F n , the probability of a given node u of degree deg * (u) = i being the root is",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Applications to k-ary and Cayley Trees"
+        },
+        {
+            "text": "Following the MLE strategy, we pick uniformly at random out of the nodes in the free tree with degree i = 1 (of which at least one is guaranteed to exist). Note that this expression is independent of the shape of the free tree F n , so the probability of success of the MLE is",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Applications to k-ary and Cayley Trees"
+        },
+        {
+            "text": "Cayley trees. From the formula (\uf731\uf732), one can see that for random k-ary trees, our advantage decreases as k gets large. Indeed, taking the limit as k \u2192 \u221e, the Binomial(k, 1/k) distributions approach a Poisson(1) distribution, with p i = (e \u00b7 i!) \u22121 . This generates the family of Cayley trees, and in this case,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Applications to k-ary and Cayley Trees"
+        },
+        {
+            "text": "so every node is equally likely to be the root. Here there is no better strategy than picking uniformly from all nodes in the tree and the success probability is 1/n.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Applications to k-ary and Cayley Trees"
+        },
+        {
+            "text": "In both of these cases, the probability of a node being the root is not a random variable that depends on the free-tree structure. In other words, for any free tree F n arising from the one of the above distributions, P{C | F n } only depends on n, and we thus have P{C} = P{C | F n }, lending to easy analysis of the MLE. This will not be true in all cases, so in the remainder of this paper, we will upgrade the probabilistic technology in our arsenal before reframing the maximum-likelihood estimator and its probability of correctness P{C} for more complex offspring distributions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Applications to k-ary and Cayley Trees"
+        },
+        {
+            "text": "We would like to be able to analyze the unconditional correctness of the MLE P{C} on a Galton-Watson tree with offspring probability p i . In both of the cases above, P{C} was not a random variable and we had P{C} = {C | F n }. We will not always be so lucky, and for the general case we will need certain results from the theory of branching processes. This section contains a potpourri of lemmas and small results that will be useful in the upcoming sections and examples. The casual reader may choose to skim through them in anticipation of the main theorems of the next section, returning to enjoy the proofs after seeing the lemmas used in action.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Tools for Computation on the Conditional Galton-Watson Tree"
+        },
+        {
+            "text": "Events on the conditional tree. Let B be some event concerning an unconditional Galton-Watson tree T with offspring distribution \u03be. We would like to establish useful tools for working with P{B | |T | = n}, using the random walk representation of conditional Galton-Watson trees. First, suppose that we number the nodes in T (in preorder, say). Each node i has degree \u03be i and if \u03be 1 , \u03be 2 , . . . are independent and all distributed as \u03be, then we have |T | = min{t > 0 : 1 + (\u03be 1 \u2212 1) + \u00b7 \u00b7 \u00b7 + (\u03be t \u2212 1) = 0} = min t > 0 :",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Tools for Computation on the Conditional Galton-Watson Tree"
+        },
+        {
+            "text": "Defining two events",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Tools for Computation on the Conditional Galton-Watson Tree"
+        },
+        {
+            "text": "we have, by the cycle lemma [11] ,",
+            "cite_spans": [
+                {
+                    "start": 28,
+                    "end": 32,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Tools for Computation on the Conditional Galton-Watson Tree"
+        },
+        {
+            "text": "Now, B is an event on T , and is thus determined by \u03be 1 , . . . , \u03be n . If we assume rotation invariance (B remains true if applied to \u03be i , \u03be i+1 , . . . , \u03be n , \u03be n+1 , . . . , \u03be i\u22121 for all i), then we obtain, by another use of the cycle lemma,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Tools for Computation on the Conditional Galton-Watson Tree"
+        },
+        {
+            "text": "This matters because one can study B by simply looking at sequences of i.i.d. random variables and without having to worry about trees.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Tools for Computation on the Conditional Galton-Watson Tree"
+        },
+        {
+            "text": "Sums of independent random variables. We will need two lemmas regarding the sums of random variables; these are well-known and will be given without proof. Let the period of a random variable \u03be be the greatest common divisor of all the i's for which P{\u03be = i} > 0. The first of these lemmas is due to B. A. Rogozin [22] and the statement as well as its proof can be found in [21] .",
+            "cite_spans": [
+                {
+                    "start": 314,
+                    "end": 318,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 374,
+                    "end": 378,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Tools for Computation on the Conditional Galton-Watson Tree"
+        },
+        {
+            "text": "Lemma A (Rogozin, 1961) . If X 1 , . . . , X n are i.i.d. random variables and p = sup",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 8,
+                    "end": 23,
+                    "text": "(Rogozin, 1961)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Tools for Computation on the Conditional Galton-Watson Tree"
+        },
+        {
+            "text": "for a universal constant \u03b1.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Tools for Computation on the Conditional Galton-Watson Tree"
+        },
+        {
+            "text": "The following lemma regards sums of i.i.d. random variables (e.g., as present in our event A) and is due to V. F. Kolchin [18] . and let X be the set of all integers x such that (n + x) mod h = 0. Then",
+            "cite_spans": [
+                {
+                    "start": 122,
+                    "end": 126,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Tools for Computation on the Conditional Galton-Watson Tree"
+        },
+        {
+            "text": "as n \u2192 \u221e. If (n + x) mod h = 0, then P{\u03be 1 + \u00b7 \u00b7 \u00b7 + \u03be n } = 0.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Tools for Computation on the Conditional Galton-Watson Tree"
+        },
+        {
+            "text": "The number of nodes of degree i. Recall that we write N i to indicate the number of nodes of tree-degree i in a Galton-Watson tree. We will show a that as n gets large, the proportion of nodes in the tree of degree ia approaches p i . The following lemma is due to Aldous [1] and Janson [14] .",
+            "cite_spans": [
+                {
+                    "start": 272,
+                    "end": 275,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 287,
+                    "end": 291,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Tools for Computation on the Conditional Galton-Watson Tree"
+        },
+        {
+            "text": "Lemma C (Aldous, 1991; Janson, 2016). Let T n be a conditional Galton-Watson tree with offspring distribution \u03be satisfying \u03c3 2 < \u221e, and let",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Tools for Computation on the Conditional Galton-Watson Tree"
+        },
+        {
+            "text": "be the number of nodes of degree i in T n . For any i, N i /n \u2192 p i in probability as n \u2192 \u221e.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Tools for Computation on the Conditional Galton-Watson Tree"
+        },
+        {
+            "text": "Proof. Let \u01eb > 0 be given. Let A be the event that n i=1 \u03be i = n\u22121 and let B be the event that |N 1 /n = p i | > \u01eb. Note that B is rotation invariant. So we have, by (\uf731\uf737),",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Tools for Computation on the Conditional Galton-Watson Tree"
+        },
+        {
+            "text": "Now, by Lemma B,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Tools for Computation on the Conditional Galton-Watson Tree"
+        },
+        {
+            "text": "where h is the period of \u03be 1 . Also, since E{N i } = np i and",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Tools for Computation on the Conditional Galton-Watson Tree"
+        },
+        {
+            "text": "we have, by Chebyshev's inequality,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Tools for Computation on the Conditional Galton-Watson Tree"
+        },
+        {
+            "text": "and the right hand side goes to 0 as n \u2192 \u221e.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Tools for Computation on the Conditional Galton-Watson Tree"
+        },
+        {
+            "text": "The maximal degree. Another important random variable is the maximal degree M of T n . Because this is rotation-invariant, one can study M just as one studies the maximum of independent random variables.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Tools for Computation on the Conditional Galton-Watson Tree"
+        },
+        {
+            "text": "Lemma 6. Let T be a conditional Galton-Watson tree of size n with offspring distribution \u03be satisfying 0 < \u03c3 2 < \u221e and let M = max 1\u2264i\u2264n \u03be i be the maximal degree among all the nodes in T . Let A be the event that",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Tools for Computation on the Conditional Galton-Watson Tree"
+        },
+        {
+            "text": "and",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Tools for Computation on the Conditional Galton-Watson Tree"
+        },
+        {
+            "text": "for a universal constant \u03b2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Tools for Computation on the Conditional Galton-Watson Tree"
+        },
+        {
+            "text": "Note that if we have a sequence of n i.i.d. random variables \u03be i , the same bounds can be derived, without the 1 + o(1) and \u03b2 + o(1) factors. This lemma shows that asymptotically, nothing is lost by conditioning on the size of a Galton-Watson tree.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Tools for Computation on the Conditional Galton-Watson Tree"
+        },
+        {
+            "text": "Proof. We begin by expanding and applying the union bound, with A being the event as in (\uf731\uf735), obtaining",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Tools for Computation on the Conditional Galton-Watson Tree"
+        },
+        {
+            "text": "Let h be the period of \u03be 1 . By Lemma B, we can proceed as follows:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(\uf732\uf735)"
+        },
+        {
+            "text": "(\uf732\uf736)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(\uf732\uf735)"
+        },
+        {
+            "text": "Next we tackle the lower bound, by an independence argument. First, denoting by A the event that",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(\uf732\uf735)"
+        },
+        {
+            "text": "By Lemma A, if p = max i\u2264x p i /(p 0 + \u00b7 \u00b7 \u00b7 + p x ), assuming that x \u2264 h, we have p < 1 and thus",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(\uf732\uf735)"
+        },
+        {
+            "text": "for a general constant \u03b1. Putting",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(\uf732\uf735)"
+        },
+        {
+            "text": "and this is the standard way of dealing with the lower tail of M .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(\uf732\uf735)"
+        },
+        {
+            "text": "Weighted sums. In the derivation of P{C}, one encounters the sum",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(\uf732\uf735)"
+        },
+        {
+            "text": "for a given free tree in the denominator. When the nodes of a conditional Galton-Watson tree are numbered from 1 to n in preorder and each node i produces a number of offspring distributed as \u03be i , this sum is within O(1) of the random variable",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(\uf732\uf735)"
+        },
+        {
+            "text": "We give two lemmas that allow us to work with these weighted sums.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(\uf732\uf735)"
+        },
+        {
+            "text": "Lemma 7. Consider the random variable W . Supposing that each node has a number of offspring distributed as \u03be satisfying sup j\u22650 p j+1 /p j < \u221e and 0 < \u03c3 2 < \u221e, we have W/n \u2192 1 in probability as n \u2192 \u221e.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(\uf732\uf735)"
+        },
+        {
+            "text": "Proof. Note that",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(\uf732\uf735)"
+        },
+        {
+            "text": "By Chebyshev's inequality, for any arbitrary \u01eb > 0",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(\uf732\uf735)"
+        },
+        {
+            "text": "Therefore, arguing as before and letting A be the event as in (\uf731\uf735),",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(\uf732\uf735)"
+        },
+        {
+            "text": "We would now like to show that E{n/W | |T | = n} \u2192 1. This does not follow directly from Lemma 7, but we shall squeeze it out by means of some well-known inequalities and a little elbow grease. Lemma 8. Under the assumptions that 0 < \u03c3 2 < \u221e, and sup j\u22650 p j+1 /p j < \u221e, we have",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(\uf732\uf735)"
+        },
+        {
+            "text": "as n \u2192 \u221e.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(\uf732\uf735)"
+        },
+        {
+            "text": "Proof. Let \u01eb > 0, and as before let A be the event as in (\uf731\uf735). First, we observe that",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(\uf732\uf735)"
+        },
+        {
+            "text": "since W/n \u2192 1 in probability and P W \u2265 n(1 + \u01eb) = O(1/n), by the previous lemma. It remains to show that E n/W |T | = n \u2264 1 + o(1). To that end, note that",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(\uf732\uf735)"
+        },
+        {
+            "text": ", we remark that N 0 \u223c Binomial(n, p 0 ) and apply Hoeffding's bound to obtain, for \u03b4 < min{p 0 , 1 \u2212 p 0 },",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(\uf732\uf735)"
+        },
+        {
+            "text": "Thus, choosing \u03b4 = \u01eb/n 1/\u01eb , we find that",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(\uf732\uf735)"
+        },
+        {
+            "text": "by rotation-invariance of W . We have P{A} = \u0398(1/ \u221a n). Also,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(\uf732\uf735)"
+        },
+        {
+            "text": "Letting E 1 and E 2 denote the two expectation terms on the right-hand side, we note that since A implies that N 0 \u2265 1,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(\uf732\uf735)"
+        },
+        {
+            "text": "Furthermore,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(\uf732\uf735)"
+        },
+        {
+            "text": "follows from Chebyshev's inequality, just as in the proof of Lemma 7. This implies that",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(\uf732\uf735)"
+        },
+        {
+            "text": "and we are done since \u01eb was chosen arbitrarily.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(\uf732\uf735)"
+        },
+        {
+            "text": "Note that the same argument can be applied to n 2 /W 2 to show that",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(\uf732\uf735)"
+        },
+        {
+            "text": "We begin by setting up a few definitions to better deal with the two cases mentioned in Theorem 5 in the large n limit. Using this notation, we reformulate our maximum-likelihood estimator for the root, and compute its expected probability of correctness P{C}.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "Let an offspring distribution be fixed. If p i > 0 and p i\u22121 = 0 for some positive integer i, we say that i is a special integer and we call a node in the free tree with graph degree i a special node. Remember that finding a special node is akin to hitting the jackpot for the MLE. If i is a special integer and some node v in a free tree has graph-degree i, then v is the root with probability 1. We denote the set of all special integers by S. Note that i = 1 is never special, since p 0 > 0. We group all non-special integers i into equivalence classes {J k } k\u22651 according to the equivalence",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "As before, we let R i = ip i /p i\u22121 but for convenience, we will allow the notation R J k , which equals R i for any i \u2208 J k . Lastly, we let N J k denote the number of nodes in the tree whose graph-degree belongs in the equivalence class J k :",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "The maximum-likelihood estimator. With these new definitions, we can formally redescribe the MLE and the probability of correctness. Given a free tree F n of size n corresponding to a Galton-Watson tree with offspring distribution p i satisfying sup i\u22651 p i /p i\u22121 < \u221e, we guess the root as follows:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "i) Let S n denote the event that there exists a special node in a given free tree F n . If S n occurs, then select this special node. In this case,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "ii) Otherwise, if there are either no special integers in the distribution or no nodes with the corresponding degrees in the free tree, select a node uniformly at random from the class J \u03bb , where",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "where we note that this maximum can be taken since there are at most n non-empty equivalence classes. In this case,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "Distributions without special integers. We first consider the well-behaved (and more common) case in which there exist no special integers in the Galton-Watson distribution p i . The following theorem will require the notion of Kesten's limit tree [16] , which we will briefly describe. Recall that we are working with an offspring distribution \u03be for which E{\u03be} = i\u22651 ip i = 1. So if \u03b6 is the random variable with P{\u03b6 = i} = ip i for all i \u2265 1, then \u03b6 is a valid offspring distribution as well. Kesten's limit tree T \u221e is an infinite tree consisting of a central spine of nodes, one on each level, that each produce \u03b6 children. Nodes that are not on the spine are the root of an unconditional Galton-Watson tree with distribution \u03be (each of these is finite with probability 1). Let \u03c4 (T, h) denote the tree T , limited to levels 0, . . . , h. Kesten's limit tree is important to us because for all h and all infinite trees t,",
+            "cite_spans": [
+                {
+                    "start": 248,
+                    "end": 252,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "Theorem 9. Given a random free tree of size n corresponding to a Galton-Watson tree with offspring distribution p i with 0 < \u03c3 2 < \u221e and sup i\u22650 p i /p i\u22121 < \u221e. Suppose furthermore that the distribution contains no special integer. Then the probability of the MLE being correct satisfies",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "Note that this could be infinity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "Proof. Let \u03bb indicate the equivalence class chosen by the MLE, as described above. First, we prove the upper bound: ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "Before moving to the lower bound, let us first show that for any degree i \u2265 1 such that p i > 0, as n \u2192 \u221e,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "Note that by Lemma C, for any conditional Galton-Watson tree corresponding to the free tree of size n rooted at a node u, for all i, N u i /np i \u2192 1 in probability. Furthermore, since we assumed that our distribution has no special integers, for any degree i such that p i > 0, we also have p i\u22121 > 0. This yields, for any i \u2265 1,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "which goes to 0. This follows from the fact that, as n gets large and the conditional Galton-Watson tree converges to Kesten's limit tree, P{deg * (u) = i} = ip i + o(1). Now for the lower bound, we must consider two cases:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "i) The supremum is finite:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "ii) The supremum is infinite:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "We start with the case where it is finite: s = sup i\u22651 R i < \u221e. Let \u01eb > 0. Since s = sup i\u22651 R i , there exists some j \u2265 1 with p j > 0 such that R j \u2265 s(1 \u2212 \u01eb), and this j belongs to some equivalence class J m . Now define the set of equivalence class indices such that for these classes, the ratio is greater than R j :",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "where we note that clearly m \u2208 T . The probability that the MLE chooses an equivalence class that is not a part of this set is the probability that T is empty,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "which approaches 0 as n \u2192 \u221e. We can thus bound the probability of success from below by",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "As n \u2192 \u221e, we have that P{\u03bb \u2208 T } \u2192 0 and, again noting that",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "and we have equality in the limit, completing case (i). Now for case (ii), suppose sup i\u22651 R i = \u221e. Then for any choice of R, there must exist some j with p j > 0 such that R j \u2265 R. Let us consider some large R, and define the set of equivalence classes with a larger ratio",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "The probability that the MLE does not pick an equivalence class from this set can once again be found to approach zero:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "Thus, we can bound the probability of success of the MLE by",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "where we once again have the sum of the terms in the parentheses approaching 1 as n \u2192 \u221e. Hence, since \u01eb is arbitrary, we obtain lim inf",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "which holds for any arbitrarily large choice of R. We thus have",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "completing our proof for case (ii).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "This theorem applies to any distribution for which if there is a positive integer i without any probability mass, then all integers j \u2265 i have p i = 0 as well. Most of the important examples we consider satisfy this condition. We claimed earlier that in many cases, the probability of correctness is c/n in the limit for some constant c \u2265 1; indeed, Theorem 9 has shown that if there are no special nodes, then c = sup i\u22651 R i (when this is finite). In fact, since the only valid offspring distribution with mean 1 and p i /p i\u22121 = 1/i for all i \u2265 1 is the Poisson(1) distribution, the only case where c = 1 is the family of Cayley trees, which we treated in Section 5. In most other cases, the MLE does better, asymptotically speaking, than choosing uniformly at random.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "Although the limit of n P{C} may be infinite, the following lemma shows that it is always o(n). It will also apply to distributions containing special integers. We once again let S n denote the event that there exists a special node in a given free tree F n , and let S \u2032 n denote the complement of this event. Lemma 10. Let T be a random free tree of size n corresponding to a Galton-Watson tree with offspring distribution p i . Let S be the set of special integers of this distribution. If 0 < \u03c3 2 < \u221e, sup i\u22651,i \u2208S p i /p i\u22121 < \u221e, then the probability of correctness of the MLE given S \u2032 n satisfies lim n\u2192\u221e P{C 1S \u2032 n } = 0.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "Note that if there are no special integers in the distribution, this is exactly P{C}.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "Proof. For a conditional Galton-Watson tree of size n, recall the random variable M = max 1\u2264i\u2264n \u03be i that we defined in Lemma 6 to describe the maximum degree. Next, we define \u03ba = sup i\u22651,i \u2208S p i /p i\u22121 < \u221e. Letting \u03bb \u2208 S be the class chosen by the MLE, we note that the best ratio can be bounded by",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "As for the sum of ratios over all nodes in the free tree, we can define a random variable analogous to the one we had in the case with no special integers,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "and note that this is within O(1) of k N J k R k given the event S \u2032 n . Furthermore, defining \u03b3 := j \u2208S jp j \u2264 1, we have that",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "This tells us that our results regarding the random variable W (see Lemmas 7 and 8, as well as (\uf733\uf737)) still apply to W \u2032 , with n replaced by \u03b3n in the original expressions: W \u2032 /\u03b3n \u2192 1 in probability given |T | = n, and E \u03b3n/W \u2032 | |T | = n \u2192 1 as n tends to infinity. We will use the fact that",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "The probability of correctness of the MLE can thus be bounded by",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "To bound E M 2 | |T | = n , let A once again denote the event defined in (\uf731\uf735); we have",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "We proceed by applying the union bound to obtain E M 2 | |T | = n \u2264 n\u0398 n 5/2",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "where the last equality follows from the fact that \u03c3 2 < \u221e. Substituting everything into (\uf734\uf739), we have",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "Distributions with special integers. We can now deal with the situation in which the distribution contains one or more special integers. It is clear that the MLE should do no worse here than in the nonspecial case, since there is now the possibility of stumbling upon a node that must be the root.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "Theorem 11. Fix a random free tree of size n corresponding to a Galton-Watson tree with offspring distribution p i . Let S denote the set of special integers and suppose that S = \u2205, 0 < \u03c3 2 < \u221e, and",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "The probability of the MLE being correct satisfies",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "Proof. The special integers i \u2208 S satisfy p i = 0 and p i\u22121 = 0. Recall from case (i) of Theorem 9 that if there exists a node in the free tree with some special degree i \u2208 S, then there can only be one such node: i\u2208S N * i \u2264 1. Thus we can split P{C} into two cases: Let S n and S \u2032 n be defined as in the previous lemma.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "The first term here is simply P{S n }, since the MLE satisfies P{C | F n } 1S n = 1S n . As stated in the proof of Theorem 9, a conditional Galton-Watson tree converges to Kesten's limit tree as n \u2192 \u221e. Thus, the existence of a u \u2208 F n with deg * (u) \u2208 S is the event that a random conditional Galton-Watson tree has root of degree i \u2208 S, which occurs with probability i\u2208S ip i + o(1). This gives us",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "with the o(1) term given by Lemma 10.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "Comparing this result with Theorem 9, we see that the MLE fares a lot better when there are special integers in the distribution. When there are no special integers, the product n P{C} approaches sup i\u22650 R i (and in many cases this supremum is a constant), but we have now shown that the presence of special integers causes P{C} itself to approach a nonzero constant.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Probability of Correctness of the Maximum-Likelihood Estimator"
+        },
+        {
+            "text": "We are now able to calculate the correctness of the MLE for Galton-Watson trees with much more general offspring distributions. We hope that the examples below will demonstrate the simplicity of our general approach to deriving and analyzing the MLE.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Further Examples"
+        },
+        {
+            "text": "Full binary trees. This is an example of a distribution with a special integer. In a full binary tree, a node either has two children or none, so we have p 0 = p 2 = 1/2 and 2 is a special integer. If there is only one node, then it is certainly the root. Otherwise, the root has graph-degree 2. As asserted in the previous section, there can only be one node in the free tree with graph-degree 2. In other words, for n \u2265 2, we are guaranteed to be in case (i) of the MLE and we can choose the root with probability 1.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Further Examples"
+        },
+        {
+            "text": "Motzkin trees. These are also known as unary-binary trees, because every node can have either one or two children. Unlike a Catalan tree, a node can have one child in only one way, so these trees arise by the probability distribution p 0 = p 1 = p 2 = 1/3. When the tree has n \u2265 2 nodes, the root has either degree 1 or 2, and we have",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Further Examples"
+        },
+        {
+            "text": "for i = 1, 2. The best strategy is to choose uniformly among all nodes with graph-degree 2, unless there are none, in which case we choose a leaf. By Theorem 9, we conclude that n P{C} approaches 2 as n gets large, so P{C} \u223c 2/n.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Further Examples"
+        },
+        {
+            "text": "Planted plane trees. Also called rooted ordered trees, this is the family of trees that can be embedded in the plane in a unique way; reordering the subtrees of a given node produces a different tree even if these subtrees are visually indistinguishable. Random planted plane trees correspond to conditional Galton-Watson trees with a Geometric(1/2) offspring distribution. Thus p i = 1/2 i+1 for every i and we have",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Further Examples"
+        },
+        {
+            "text": ".",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Further Examples"
+        },
+        {
+            "text": "This is the probability that a node with degree i is the root. The optimal strategy here is therefore to pick uniformly at random among the nodes of highest degree. The maximal degree M is a random variable, but we were able to give upper and lower bounds in Lemma 6. For an upper bound, we have P{M \u2265 x} \u2264 1 + o(1) n P{\u03be \u2265 x} \u223c n/2 x (\uf735\uf737)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Further Examples"
+        },
+        {
+            "text": "and this tends to 0 if x = log 2 n + \u03c9(1). (The small-omega notation \u03c9(1) denotes a term that goes to infinity in absolute value as n gets large.) Likewise, we can derive the lower bound i.e., M/ log 2 n \u2192 1 in probability. This means that for a planted plane tree,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Further Examples"
+        },
+        {
+            "text": "The examples we have seen are summarised in the following *Large-tailed distributions. Assume that R i is strictly increasing and p i /p i\u22121 \u2192 1 as i \u2192 \u221e. For example, we may consider distributions with a polynomial tail p i = \u03b8 (i + 1) \u03b1 , for i \u2265 1 and \u03b1 > 3. The bound on \u03b1 ensures that \u03c3 2 < \u221e. Noting that N * i /n \u2192 p i\u22121 , we obtain",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Further Examples"
+        },
+        {
+            "text": "in probability, and thus",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Further Examples"
+        },
+        {
+            "text": "where f (M, n)/(M/n) \u2192 0 in probability as n \u2192 \u221e. Thus we have, in general,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Further Examples"
+        },
+        {
+            "text": "For p i = \u03b8/(i + 1) \u03b1 , we that E{M } = \u0398(n 1/(\u03b1\u22121) ) and so our probability of correctness is \u0398(n \u2212(\u03b1\u22122)/(\u03b1\u22121) ); varying \u03b1 produces distributions with a whole range of correctness probabilities.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Further Examples"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Asymptotic fringe distributions for general families of random trees",
+            "authors": [
+                {
+                    "first": "David",
+                    "middle": [],
+                    "last": "Aldous",
+                    "suffix": ""
+                }
+            ],
+            "year": 1991,
+            "venue": "The Annals of Applied Probability",
+            "volume": "1",
+            "issn": "",
+            "pages": "228--266",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Branching Processes",
+            "authors": [
+                {
+                    "first": "Krishna",
+                    "middle": [],
+                    "last": "Athreya",
+                    "suffix": ""
+                },
+                {
+                    "first": "Peter",
+                    "middle": [],
+                    "last": "Ney",
+                    "suffix": ""
+                }
+            ],
+            "year": 1972,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "De la loi de multiplication et de la dur\u00e9e des familles",
+            "authors": [
+                {
+                    "first": "Ir\u00e9n\u00e9e-Jules",
+                    "middle": [],
+                    "last": "Bienaym\u00e9",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Soc. Philomath. Paris Extraits",
+            "volume": "5",
+            "issn": "",
+            "pages": "37--39",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Finding Adam in random growing trees",
+            "authors": [
+                {
+                    "first": "S\u00e9bastien",
+                    "middle": [],
+                    "last": "Bubeck",
+                    "suffix": ""
+                },
+                {
+                    "first": "Luc",
+                    "middle": [],
+                    "last": "Devroye",
+                    "suffix": ""
+                },
+                {
+                    "first": "G\u00e1bor",
+                    "middle": [],
+                    "last": "Lugosi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Random Structures and Algorithms",
+            "volume": "50",
+            "issn": "2",
+            "pages": "158--172",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "From trees to seeds: on the inference of the seed from large trees in the uniform attachment model",
+            "authors": [
+                {
+                    "first": "S\u00e9bastien",
+                    "middle": [],
+                    "last": "Bubeck",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ronen",
+                    "middle": [],
+                    "last": "Eldan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Elchanan",
+                    "middle": [],
+                    "last": "Mossel",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Mikl\u00f3s",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "R\u00e1cz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Bernoulli",
+            "volume": "23",
+            "issn": "4A",
+            "pages": "2887--2916",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "On the influence of the seed graph in the preferential attachment model",
+            "authors": [
+                {
+                    "first": "S\u00e9bastien",
+                    "middle": [],
+                    "last": "Bubeck",
+                    "suffix": ""
+                },
+                {
+                    "first": "Elchanan",
+                    "middle": [],
+                    "last": "Mossel",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mikl\u00f3s",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "R\u00e1cz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "IEEE Transactions on Network Science and Engineering",
+            "volume": "2",
+            "issn": "1",
+            "pages": "30--39",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Inference on the history of a randomly growing tree",
+            "authors": [
+                {
+                    "first": "Harry",
+                    "middle": [],
+                    "last": "Crane",
+                    "suffix": ""
+                },
+                {
+                    "first": "Min",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:2005.08794"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Scaling limits and influence of the seed graph in preferential attachment trees",
+            "authors": [
+                {
+                    "first": "Nicolas",
+                    "middle": [],
+                    "last": "Curien",
+                    "suffix": ""
+                },
+                {
+                    "first": "Thomas",
+                    "middle": [],
+                    "last": "Duquesne",
+                    "suffix": ""
+                },
+                {
+                    "first": "Igor",
+                    "middle": [],
+                    "last": "Kortchemski",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ioan",
+                    "middle": [],
+                    "last": "Manolescu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Journal de l'\u00c9cole polytechnique-Math\u00e9matiques",
+            "volume": "2",
+            "issn": "",
+            "pages": "1--34",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Simulating size-constrained Galton-Watson trees",
+            "authors": [
+                {
+                    "first": "Luc",
+                    "middle": [],
+                    "last": "Devroye",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "SIAM Journal on Computing",
+            "volume": "41",
+            "issn": "1",
+            "pages": "1--11",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "On the discovery of the seed in uniform attachment trees",
+            "authors": [
+                {
+                    "first": "Luc",
+                    "middle": [],
+                    "last": "Devroye",
+                    "suffix": ""
+                },
+                {
+                    "first": "Tommy",
+                    "middle": [],
+                    "last": "Reddad",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Internet Mathematics",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "The total progeny in a branching process",
+            "authors": [
+                {
+                    "first": "Meyer",
+                    "middle": [],
+                    "last": "Dwass",
+                    "suffix": ""
+                }
+            ],
+            "year": 1969,
+            "venue": "Journal of Applied Probability",
+            "volume": "6",
+            "issn": "",
+            "pages": "682--686",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "On the probability of extinction of families",
+            "authors": [
+                {
+                    "first": "Francis",
+                    "middle": [],
+                    "last": "Galton",
+                    "suffix": ""
+                },
+                {
+                    "first": "Henry",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Watson",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J. Anthropol. Inst",
+            "volume": "4",
+            "issn": "",
+            "pages": "138--144",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "The recovery of the root of a tree",
+            "authors": [
+                {
+                    "first": "John",
+                    "middle": [],
+                    "last": "Haigh",
+                    "suffix": ""
+                }
+            ],
+            "year": 1970,
+            "venue": "Journal of Applied Probability",
+            "volume": "7",
+            "issn": "1",
+            "pages": "79--88",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Asymptotic normality of fringe subtrees and additive functionals in conditioned Galton-Watson trees. Random Structures and Algorithms",
+            "authors": [
+                {
+                    "first": "Svante",
+                    "middle": [],
+                    "last": "Janson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "48",
+            "issn": "",
+            "pages": "57--101",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "The Galton-Watson process conditioned on the total progeny",
+            "authors": [
+                {
+                    "first": "Douglas",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Kennedy",
+                    "suffix": ""
+                }
+            ],
+            "year": 1975,
+            "venue": "Journal of Applied Probability",
+            "volume": "12",
+            "issn": "4",
+            "pages": "800--806",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Subdiffusive behavior of a random walk on a random cluster",
+            "authors": [
+                {
+                    "first": "Harry",
+                    "middle": [],
+                    "last": "Kesten",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "Annales de l'Institut Henri Poincar\u00e9 Probability and Statistics",
+            "volume": "22",
+            "issn": "",
+            "pages": "425--487",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Confidence sets for the source of a diffusion in regular trees",
+            "authors": [
+                {
+                    "first": "Justin",
+                    "middle": [],
+                    "last": "Khim",
+                    "suffix": ""
+                },
+                {
+                    "first": "Po-Ling",
+                    "middle": [],
+                    "last": "Loh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "IEEE Transactions on Network Science and Engineering",
+            "volume": "4",
+            "issn": "1",
+            "pages": "27--40",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Random Mappings",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Valentin Fedorovich Kolchin",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Finding the seed of uniform attachment trees",
+            "authors": [
+                {
+                    "first": "G\u00e1bor",
+                    "middle": [],
+                    "last": "Lugosi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Alan",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Pereira",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Electronic Journal of Probability",
+            "volume": "24",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "On the altitude of nodes in random trees",
+            "authors": [
+                {
+                    "first": "Amram",
+                    "middle": [],
+                    "last": "Meir",
+                    "suffix": ""
+                },
+                {
+                    "first": "John",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Moon",
+                    "suffix": ""
+                }
+            ],
+            "year": 1978,
+            "venue": "Canadian Journal of Mathematics",
+            "volume": "30",
+            "issn": "5",
+            "pages": "997--1015",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Sums of Independent Random Variables",
+            "authors": [
+                {
+                    "first": "Petrov",
+                    "middle": [],
+                    "last": "Valentin Vladimirovich",
+                    "suffix": ""
+                }
+            ],
+            "year": 1975,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "On an estimate of the concentration function",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Boris Alexeyevich Rogozin",
+                    "suffix": ""
+                }
+            ],
+            "year": 1961,
+            "venue": "Theory of Probability and its Applications",
+            "volume": "6",
+            "issn": "",
+            "pages": "94--97",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Rumors in a network: Who's the culprit?",
+            "authors": [
+                {
+                    "first": "Devavrat",
+                    "middle": [],
+                    "last": "Shah",
+                    "suffix": ""
+                },
+                {
+                    "first": "Tauhid",
+                    "middle": [],
+                    "last": "Zaman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "IEEE Transactions on Information Theory",
+            "volume": "57",
+            "issn": "8",
+            "pages": "5163--5181",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Finding rumor sources on random trees",
+            "authors": [
+                {
+                    "first": "Devavrat",
+                    "middle": [],
+                    "last": "Shah",
+                    "suffix": ""
+                },
+                {
+                    "first": "Tauhid",
+                    "middle": [],
+                    "last": "Zaman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Operations Research",
+            "volume": "64",
+            "issn": "3",
+            "pages": "736--755",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Source detection of rumor in social network-A review",
+            "authors": [
+                {
+                    "first": "Sushila",
+                    "middle": [],
+                    "last": "Shelke",
+                    "suffix": ""
+                },
+                {
+                    "first": "Vahida",
+                    "middle": [],
+                    "last": "Attar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Online Social Networks and Media",
+            "volume": "9",
+            "issn": "",
+            "pages": "30--42",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "illustrates the 14 possibilities when n = 4.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "The free-tree structure of binary trees with four nodes.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "An example tree illustrating the definition of correction factors.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Two different rootings of a free tree; in both cases, the denominator of (\uf734) is 24.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Let u and v be neighbouring nodes in a free tree T . They are clones if and only both of the following hold:i) When u is the root, there exist clones of u in the subtree T v rooted at v. ii) When v is the root, there exist clones of v in the subtree T u rooted at u.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Two neighbours in the free tree.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "The root u and one of its children v.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "A visualization of cases (ii) and (iii); subtrees of the same shade are equivalent.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Three adjacent nodes and their subtrees.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "Multiplicities of nodes in a free tree; darker shades of grey indicate higher multiplicities.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "If F = (V, E)is a finite free tree, then the node of minimal multiplicity in F has multiplicity 1 or 2.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "Lemma B (Kolchin, 1986). Let \u03be 1 , . . . , \u03be n be i.i.d. random variables on [0 . . \u221e) of mean 1 and variance \u03c3 2 > 0. Let the period of \u03be 1 be h = gcd{i \u2265 1 : p i > 0}",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF13": {
+            "text": "P{M \u2264 x} \u2264 \u03b2 + o(1) exp \u2212n P{\u03be \u2265 x} \u223c \u03b2 exp(\u2212n/2 x+1 )(\uf735\uf738)for the constant \u03b2 given by Lemma 6 and this goes to 0 provided that x = log 2 n \u2212 \u03c9(1). In other words,lim n\u2192\u221e P{M \u2265 log 2 n + \u03c9(1) | |T | = n} = 0 and lim n\u2192\u221e P{M \u2264 log 2 n \u2212 \u03c9(1) | |T | = n} = 0,",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF1": {
+            "text": "THE PROBABILITY OF CORRECTNESS OF THE MLE FOR SOME FAMILIES OF TREES",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "This paper was created entirely in social isolation during the 2020 coronavirus pandemic. We would like to thank the people who made Zoom, the people who invented the iPad, and our McGill homies Konrad Anand, Jad Hamdan, Tyler Kastner, Gavin McCracken, Ndiam\u00e9 Ndiaye, and Rosie Zhao for their support and valuable technical feedback.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        }
+    ]
+}

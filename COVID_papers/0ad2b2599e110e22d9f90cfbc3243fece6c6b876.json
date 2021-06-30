@@ -1,0 +1,3651 @@
+{
+    "paper_id": "0ad2b2599e110e22d9f90cfbc3243fece6c6b876",
+    "metadata": {
+        "title": "Human single-chain antibodies neutralize SARS-CoV-2 variants by engaging an essential epitope of the spike: a new weapon against COVID-19",
+        "authors": [
+            {
+                "first": "Olga",
+                "middle": [],
+                "last": "Minenkova",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Alfasigma SpA",
+                    "location": {
+                        "addrLine": "Biotechnology R&D",
+                        "settlement": "Pomezia, Rome",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Daniela",
+                "middle": [],
+                "last": "Santapaola",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Alfasigma SpA",
+                    "location": {
+                        "addrLine": "Biotechnology R&D",
+                        "settlement": "Pomezia, Rome",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Maria",
+                "middle": [],
+                "last": "Ferdinando",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Milazzo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Alfasigma SpA",
+                    "location": {
+                        "addrLine": "Biotechnology R&D",
+                        "settlement": "Pomezia, Rome",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Anna",
+                "middle": [
+                    "Maria"
+                ],
+                "last": "Anastasi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Alfasigma SpA",
+                    "location": {
+                        "addrLine": "Biotechnology R&D",
+                        "settlement": "Pomezia, Rome",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Gianfranco",
+                "middle": [],
+                "last": "Battistuzzi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Alfasigma SpA",
+                    "location": {
+                        "addrLine": "Biotechnology R&D",
+                        "settlement": "Pomezia, Rome",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Caterina",
+                "middle": [],
+                "last": "Chiapparino",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Alfasigma SpA",
+                    "location": {
+                        "addrLine": "Biotechnology R&D",
+                        "settlement": "Pomezia, Rome",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Antonio",
+                "middle": [],
+                "last": "Rosi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Alfasigma SpA",
+                    "location": {
+                        "addrLine": "Biotechnology R&D",
+                        "settlement": "Pomezia, Rome",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Giuseppe",
+                "middle": [],
+                "last": "Gritti",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Papa Giovanni XXIII Hospital",
+                    "location": {
+                        "settlement": "Bergamo",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Gianmaria",
+                "middle": [],
+                "last": "Borleri",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Papa Giovanni XXIII Hospital",
+                    "location": {
+                        "settlement": "Bergamo",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Alessandro",
+                "middle": [],
+                "last": "Rambaldi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Papa Giovanni XXIII Hospital",
+                    "location": {
+                        "settlement": "Bergamo",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Cl\u00e9lia",
+                "middle": [],
+                "last": "Dental",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Texcell EVRY Cedex",
+                    "location": {
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "C\u00e9cile",
+                "middle": [],
+                "last": "Viollet",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Texcell EVRY Cedex",
+                    "location": {
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Bruno",
+                "middle": [],
+                "last": "Pagano",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Naples Federico II",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Laura",
+                "middle": [],
+                "last": "Salvini",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Toscana Life Sciences",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Emanuele",
+                "middle": [],
+                "last": "Marra",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Takis Biotech",
+                    "location": {
+                        "settlement": "Rome",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Laura",
+                "middle": [],
+                "last": "Luberto",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Takis Biotech",
+                    "location": {
+                        "settlement": "Rome",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Antonio",
+                "middle": [],
+                "last": "Rossi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "CNR",
+                    "location": {
+                        "settlement": "Rome",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Anna",
+                "middle": [],
+                "last": "Riccio",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Rome Tor Vergata",
+                    "location": {
+                        "settlement": "Rome",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Emilio",
+                "middle": [
+                    "Merlo"
+                ],
+                "last": "Pich",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Alfasigma SpA",
+                    "location": {
+                        "addrLine": "Biotechnology R&D",
+                        "settlement": "Pomezia, Rome",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Maria",
+                "middle": [
+                    "Gabriella"
+                ],
+                "last": "Santoro",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "CNR",
+                    "location": {
+                        "settlement": "Rome",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Rita",
+                "middle": [],
+                "last": "De Santis",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Alfasigma SpA",
+                    "location": {
+                        "addrLine": "Biotechnology R&D",
+                        "settlement": "Pomezia, Rome",
+                        "country": "Italy"
+                    }
+                },
+                "email": "rita.desantis@alfasigma.com"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "As of June 2021, severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) remains a global emergency and effective therapeutic interventions for the treatment and prevention of coronavirus disease 2019 (COVID-19) are urgently needed. SARS-CoV-2-neutralizing monoclonal antibodies (mAbs) represent a promising approach to COVID-19 therapy. However, the recently described accumulating mutations in the SARS-CoV-2 spike protein are challenging the efficacy of approved and investigational mAbs, whose widespread use is also hampered by their significant costs and possible side effects, including Antibody-Dependent Enhancement (ADE). Here we describe a cluster of SARS-CoV-2 neutralizing human single chain variable fragment antibodies, identified by phage display, sharing a common VH CDR3 sequence. Phage libraries were built by amplifying variable domains of immunoglobulin genes from cDNA derived from lymphocytes of COVID-19 convalescent subjects living in Bergamo, Italy. The scFv76-cluster antibodies (scFv76-cl Abs) exhibit high affinity for the spike receptor binding domain (RBD) of Wuhan strain and emerging variants, leading to inhibition of RBD/human ACE2 interaction. The antigenic epitope recognized by scFv76 was mapped in the receptor binding motif (RBM) of RBD at residues L455, F456, Y473, N487 and Y489. None of these residues has been to date listed among the RBD mutations of SARS-CoV-2 variants of concern (VOCs), suggesting an important role of such epitope in viral infectivity. Treatment with scFv76-cl Abs is effective against SARS-CoV-2, as determined by in vitro experiments of viral infection, replication, cytopathogenicity and spike-mediated syncytia formation. Moreover, their intranasal administration is shown to counteract infection in two independent animal models. Overall, the biochemical and biological characteristics of scFv76-cl Abs are compatible with their clinical use for COVID-19 therapy by intranasal or aerosol administration. To our knowledge, this is the first example of promising human anti-SARS-CoV-2 scFv antibodies as drug candidates for COVID-19 therapy.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "After more than one-year since the SARS-CoV-2 pandemic began, just a few lifesaving drugs have been approved for COVID-19 treatment and the medical community is urgently calling for both massive vaccination and novel therapies. Specific monoclonal antibodies (mAbs) able to bind to the 'spike' protein and neutralize SARS-CoV-2 in infected patients represent a potential strategy for antiviral intervention. To date, several neutralizing mAbs have been developed, some of which are now approved or under the evaluation of regulatory authorities (1) . Nevertheless, traditional mAbs are not devoid of hurdles. First, they are at risk of inducing Antibody Dependent Enhancement (ADE) of infectious diseases as described with mAbs employed in several viral infections, including SARS-CoV-2 (2) . Second, they are very expensive, being produced in mammalian expression systems and requiring high dose administered by parenteral infusion performed in hospital settings. Third, the recommended use has been restricted to subjects at the very early stage of COVID-19, in practice to those at risk of progressing into life-threatening severe COVID-19, since they proved to be ineffective when dosed at later stages (3) .",
+            "cite_spans": [
+                {
+                    "start": 545,
+                    "end": 548,
+                    "text": "(1)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 787,
+                    "end": 790,
+                    "text": "(2)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1207,
+                    "end": 1210,
+                    "text": "(3)",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "An interesting alternative is offered by antibodies in the format of single-chain variable fragments (scFv) generated by engineering in a single polypeptide both variable heavy and light chain sequences of immunoglobulins, joined via a flexible peptide linker that allows reconstitution of functional antigen binding domains (Figure 1a top panel) (4) . The first human scFv antibody approved by the U.S. Food and Drug Administration (FDA) on October 2019 for topical use is Brolucizumab, a vascular endothelial growth factor (VEGF) blocker, for the treatment of exudative age-related macular degeneration (5) .",
+            "cite_spans": [
+                {
+                    "start": 347,
+                    "end": 350,
+                    "text": "(4)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 605,
+                    "end": 608,
+                    "text": "(5)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 325,
+                    "end": 335,
+                    "text": "(Figure 1a",
+                    "ref_id": "FIGREF8"
+                }
+            ],
+            "section": "Introduction"
+        },
+        {
+            "text": "ScFv molecules offer several theoretical advantages over traditional mAbs. In fact, they are devoid of the immunoglobulin Fc exerting immune effector function, and therefore are not at risk of inducing ADE. In addition, they are less costly than mAbs due to their rapid production at large scale in non-mammalian expression systems. Because of the small size (27 kDa versus 150 kDa of mAbs) and low complexity (no glycosylation, simpler structure), scFv antibodies are expected to be particularly stable and suitable for topical use, i.e. by intranasal drops/spray or aerosol nebulization, therefore allowing dosing in non-hospital settings. Because of such advantages, the possible use of scFv antibodies in the SARS-CoV-2 pandemic is gaining interest and consequently we decided to pursue the human scFv antibody format for prevention and treatment of SARS-CoV-2 infection by topical use.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "We isolated human scFv antibodies from phage display libraries built by amplifying immunoglobulin genes from cDNA derived from lymphocytes of COVID-19 convalescent donors from Bergamo, Italy. This approach aimed at maximizing the possibility to select affinity-matured antibody species against the 'spike', a trimeric class I fusion protein anchored into the viral envelope and essential for SARS-CoV-2 entry into the cells (6, 7) .",
+            "cite_spans": [
+                {
+                    "start": 424,
+                    "end": 427,
+                    "text": "(6,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 428,
+                    "end": 430,
+                    "text": "7)",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "As most viral fusion proteins, each monomer of the spike is synthesized as a fusogenicallyinactive precursor, which assembles into an inactive homotrimer and is endoproteolytically cleaved by cellular proteases, giving rise to a metastable complex of two functional subunits: the N-terminal subunit (S1) which contains the receptor binding domain (RBD) and a C-terminal subunit (S2) which contains the fusion peptide. The RBD domain spans from residue 333-527 and binds to the extracellular domain of human angiotensin-converting enzyme 2 (ACE2).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Within the spike RBD a receptor binding motif (RBM) was identified, spanning from residue 438 to 506, that resulted essential for ACE2 binding (8) . Via the RBD the spike of SARS-CoV-2 binds more tightly to ACE2 than the homologous SARS-CoV-1 accounting for higher transmissibility of SARS-CoV-2.",
+            "cite_spans": [
+                {
+                    "start": 143,
+                    "end": 146,
+                    "text": "(8)",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Selection of scFv candidates was performed applying highly stressing conditions during panning of scFv phage display libraries over the RBD of SARS-CoV-2 spike protein. This procedure allowed the selection of six highly homologous antibodies, overall named scFv76-cluster, sharing a novel VH CD3 sequence and exhibiting high affinity for an epitope of the RBM of the spike RBD. Herein we present findings from in vitro and in vivo experiments that support further development of scFv76-cl Abs as a new therapeutic tool for topical use in SARS-CoV-2 infections.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "A schematic representation of mAbs compared to scFv format and the flow chart of the project steps are given in Figure 1a . With the aim to select the source of most matured anti-SARS-CoV-2 antibody sequences, we investigated the antibody response of ten convalescent COVID-19 subjects.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 112,
+                    "end": 121,
+                    "text": "Figure 1a",
+                    "ref_id": "FIGREF8"
+                }
+            ],
+            "section": "Selection of human scFv antibodies against SARS-CoV-2 spike RBD"
+        },
+        {
+            "text": "Serum samples, collected after double negative swab, were analyzed for binding to the spike protein, inhibition of spike/ACE2 interaction and viral neutralization. As shown in Figure 1b (top panel), six out of ten COVID-19 sera (CS) were found to strongly bind to the viral spike (Wuhan strain), while four exhibited lower reactivity, not very different from the reactivity of negative sera (NS) from a bank of samples collected before 2019. The six best spike binders also proved to be the most potent at inhibiting the interaction of spike with ACE2 (Figure 1b, bottom panel) and the best to neutralize viral infectivity in Vero E6 cells ( Table 1) . Based on sera screening, total RNA was extracted from lymphocytes of the six best donors, converted in cDNA and immunoglobulin genes were amplified and cloned in scFv antibody format for phage display, as depicted in Supplementary Figure 1a. After selection cycles by panning, RBD best binders were subjected to affinity maturation followed by repeated panning on RBD under stressing conditions (low antigen concentration, washing at low pH, high temperature). Selected scFv5, scFv86 and scFv76 antibodies, as well as affinity matured derivatives from scFv76 (scFv76-46, scFv76-55, scFv76-57, scFv76-58 and scFv76-77) coded as scFv76-cluster were produced in a soluble form and purified according to the procedure schematized in Supplementary Figure 1b . All soluble scFv antibodies were found able to bind to the spike protein of the original Wuhan strain at concentrations in the low nanomolar range (data not shown). Amino acid sequences of CDR3 and immunoglobulin germline usage of the selected scFv antibodies are shown in Table 2 . The scFv76-cl Abs share VH CD3 ARDLSVAGAFDI which is derived from the IGVH3-53 germline with minor differences in the remaining VH sequence. Diversity is contributed by VL sequences which are derived from IGVK3-20 germline except for scFv76-55 and scFv76-57 antibodies that use VL CDR3 derived from IGVK3-15 and IGVK1-9 germline, respectively. On the other hand, scFv5 and scFv86 antibodies share identical IGVH1-46-derived VH CDR3 and IGVL2-14 and IGVK3-11 derived VL CD3, respectively.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 176,
+                    "end": 185,
+                    "text": "Figure 1b",
+                    "ref_id": "FIGREF8"
+                },
+                {
+                    "start": 552,
+                    "end": 577,
+                    "text": "(Figure 1b, bottom panel)",
+                    "ref_id": "FIGREF8"
+                },
+                {
+                    "start": 642,
+                    "end": 650,
+                    "text": "Table 1)",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 1382,
+                    "end": 1405,
+                    "text": "Supplementary Figure 1b",
+                    "ref_id": "FIGREF8"
+                },
+                {
+                    "start": 1681,
+                    "end": 1688,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Selection of human scFv antibodies against SARS-CoV-2 spike RBD"
+        },
+        {
+            "text": "Recombinant spike proteins representative of the current SARS-CoV-2 VOCs were further used to test antibody reactivity. In particular, we included: (1) spike containing mutation D614G, here indicated as S1(D614G) now present in most viral isolates; (2) spike bearing HV69-70del, Y144del, N501Y, A570D, D614G, P681H indicated as S1(UK), described as the UK VOC; (3) spike with mutations at K417, E484, N501 and D614, here indicated as S1(SA-BR), representing the South Africa and Brazil VOCs. These variants were used to assess binding, affinity and inhibition of spike/ACE2 interaction. Results in Figure 1c show that all scFv antibodies, except for scFv76-55 which loses reactivity against S1(SA-BR), are resilient in their binding to the spike variants. Binding analysis of scFv antibodies was extended to single RBD mutations. Results shown in Supplementary Figure 2 indicate that single mutations differently affect the binding capacity of antibodies with scFv76-55, scFv5 and scFv86 being the most sensitive to RBD mutations. The nM concentration to yield 1.0 OD was calculated to compare the binding of scFv antibodies on all mutated SARS-CoV-2 spike and RBD proteins and data, reported in Table 3 , confirm that the scFv76-cl Abs strongly bind spike variants and mutated RBD, with the exception of scFv76-55 antibody that showed reduced binding to spike proteins carrying mutations N439K, A475V and E484K, the latter position being mutated in both SA and BR variant spikes. Again, the scFv5 and scFv86 antibodies recognized less efficiently all mutated spikes when compared with the scFv76-cl",
+            "cite_spans": [
+                {
+                    "start": 361,
+                    "end": 364,
+                    "text": "(3)",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 598,
+                    "end": 607,
+                    "text": "Figure 1c",
+                    "ref_id": "FIGREF8"
+                },
+                {
+                    "start": 847,
+                    "end": 869,
+                    "text": "Supplementary Figure 2",
+                    "ref_id": "FIGREF9"
+                },
+                {
+                    "start": 1196,
+                    "end": 1203,
+                    "text": "Table 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Selection of human scFv antibodies against SARS-CoV-2 spike RBD"
+        },
+        {
+            "text": "Abs. In addition, scFv5 and scFv86 loss of binding to spike carrying mutations V483A and I472V suggests recognition of a different RBD epitope.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Selection of human scFv antibodies against SARS-CoV-2 spike RBD"
+        },
+        {
+            "text": "In a set of independent experiments, affinity of scFv antibodies for SARS-CoV-2 spike was measured by Surface Plasmon Resonance (SPR). Representative results of the scFv76 in Figure 1d indicate identical subnanomolar affinity for S1(D614G) and S1(UK) and lower affinity for the S1(SA-BR) that, however, is still in the low nanomolar range. Sensorgrams of all scFv antibodies on the three spike variants are shown in Supplementary Figure 3 . Faster dissociation from S1(SA-BR) was observed for the scFv76-55 antibody. Kinetic data of all antibodies are reported in Table 4 showing KD values ranging between subnanomolar and 1-digit nanomolar concentrations, except for scFv76-55 that exhibits a KD of 14.9 nM for S1(SA-BR). Kinetic data of all antibodies on RBD single mutations are reported in Supplementary Table 1. In additional SPR experiments we found that the six scFv76-cl Abs, sharing the same VH CDR3, do not show additive binding properties, suggesting that they might recognize the same or a very close antigenic epitope, while scFv5 binds to an independent epitope (Figure 1e) . Similar results were obtained with scFv86 (not shown).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 175,
+                    "end": 184,
+                    "text": "Figure 1d",
+                    "ref_id": "FIGREF8"
+                },
+                {
+                    "start": 416,
+                    "end": 438,
+                    "text": "Supplementary Figure 3",
+                    "ref_id": "FIGREF10"
+                },
+                {
+                    "start": 564,
+                    "end": 571,
+                    "text": "Table 4",
+                    "ref_id": "TABREF4"
+                },
+                {
+                    "start": 1076,
+                    "end": 1087,
+                    "text": "(Figure 1e)",
+                    "ref_id": "FIGREF8"
+                }
+            ],
+            "section": "Selection of human scFv antibodies against SARS-CoV-2 spike RBD"
+        },
+        {
+            "text": "In order to test the ability of the scFv76-cl Abs to recognize a SARS-CoV-2 native spike, HEK293T cells were transfected with a spike-encoding plasmid (Wuhan strain). High content screening (HCS) fluorescent imaging was used to visualize the specific scFv76 antibody binding to HEK293T spike+ cells (Figure 1f ). Similar data (not shown) were obtained with the other scFv76cl Abs. These results were confirmed by cytofluorimetry indicating the ability of such antibodies to recognize the spike when expressed on the cell surface (data not shown).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 299,
+                    "end": 309,
+                    "text": "(Figure 1f",
+                    "ref_id": "FIGREF8"
+                }
+            ],
+            "section": "Selection of human scFv antibodies against SARS-CoV-2 spike RBD"
+        },
+        {
+            "text": "In a prospective development of scFv76-cl Abs as antiviral drug candidates, they were evaluated for their ability to inhibit the binding of the viral spike to the human ACE2 receptor and for their capacity to neutralize viral infectivity. Results in Figure 2a show that scFv76-cl Abs, but not antibodies scFv5 and scFv86, inhibit the interaction of S1(D614G), S1(UK) or S1(SA-BR) with ACE2, except for scFv76-55. Consistently with binding data, inhibition activity of scFv76-55 is the most affected by the SA-BR mutations. Data on the effect of single RBD mutations on inhibition by scFv antibodies of the binding to ACE2 are shown in Supplementary Figure 4 . These data identify A475V and K417N as the most critical mutations affecting scFv76-55 binding. The IC50",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 250,
+                    "end": 259,
+                    "text": "Figure 2a",
+                    "ref_id": "FIGREF9"
+                },
+                {
+                    "start": 635,
+                    "end": 657,
+                    "text": "Supplementary Figure 4",
+                    "ref_id": "FIGREF11"
+                }
+            ],
+            "section": "In vitro studies of the inhibitory effects of SARS-CoV-2 spike binding to ACE2"
+        },
+        {
+            "text": "(expressed in nM) to ACE2 as assessed using an ELISA assay of all spike variants and of single RBD mutations is reported in Table 5 . Interestingly and consistently with binding and SPR affinity data, these results indicate that the scFv76-cl Abs, except for scFv76-55, maintain the capacity to strongly inhibit the binding of spike variants and mutated RBD to ACE2.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 124,
+                    "end": 131,
+                    "text": "Table 5",
+                    "ref_id": "TABREF5"
+                }
+            ],
+            "section": "In vitro studies of the inhibitory effects of SARS-CoV-2 spike binding to ACE2"
+        },
+        {
+            "text": "Neutralization of SARS-CoV-2 infectivity by scFv76-cl Abs was then tested by microneutralization assay of cytopathic effect (CPE) in Vero E6 cells. All scFv76-cl Abs proved to be effective with MN50 (50% microneutralization titer) <15 nM (Figure 2b ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 238,
+                    "end": 248,
+                    "text": "(Figure 2b",
+                    "ref_id": "FIGREF9"
+                }
+            ],
+            "section": "In vitro studies of the inhibitory effects of SARS-CoV-2 spike binding to ACE2"
+        },
+        {
+            "text": "Viral neutralization potency of scFv76, scFv76-46 and scFv76-58 antibodies was then evaluated in human pulmonary Calu-3 cells infected with SARS-CoV-2 WT (Wuhan strain), D614G or UK variants and analyzed by RT-qPCR. Results in Table 6 show that scFv antibodies, To extend the investigation of potential viral escape of variants to the neutralization capacity of scFv76-cl Abs, human colon Caco-2 cells stably expressing the human ACE2 (hACE2) receptor (Caco-2 hACE2) were infected with luciferase-expressing SARS-CoV-2 S-pseudoviruses bearing single (D614G or N501Y) or triple (K417N, E484K, N501Y) mutations. Results in Figure 2c -e confirm that all scFv76-cl Abs, but not scFv5, inhibit all pseudovirus variants infection and that, consistently with previous data, scFv76-55 antibody was less effective and the most sensitive to mutations.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 227,
+                    "end": 234,
+                    "text": "Table 6",
+                    "ref_id": "TABREF6"
+                },
+                {
+                    "start": 621,
+                    "end": 630,
+                    "text": "Figure 2c",
+                    "ref_id": "FIGREF9"
+                }
+            ],
+            "section": "In vitro studies of the inhibitory effects of SARS-CoV-2 spike binding to ACE2"
+        },
+        {
+            "text": "In further experiments designed to investigate the ability of scFv76-cl Abs to prevent SARS-CoV-2 spike-induced syncytia formation, a pathognomonic feature of pulmonary COVID-19 (9), the scFv76 antibody proved to be strongly effective at inhibiting cell-cell fusion between Wuhan (WT) spike-or D614G spike-expressing human HEK293T cells and human lung A549 cells stably expressing the human ACE2 receptor (A549 hACE2), or monkey Vero E6 cells (Figure 3a Because of high affinity of the scFv76 antibody for its target, high stringency (HS) conditions were applied in the screening including combinations of increased pH, salinity, temperature, and/or increased washing time. Figure 4a indicate reactivity loss of scFv76 antibody, but not of mAb CoV16 (a control antibody directed against an independent RBD epitope), towards 5 mutated SARS-CoV-2 spike proteins with alanine substituted to residues L455, F456, Y473, N487 and Y489. Percent of the respective binding reactivity is shown in Figure 4b . These residues are within the spike RBM with F456 being the most critical mutation for the scFv76 antibody spike recognition. Figure 4c and d visualize the critical residues (red spheres) on a crystal of the SARS-CoV-2 spike protein trimer (10) (PDB ID # 6XCN) and the SARS-CoV-2 spike protein receptor binding domain (11) (PDB ID# 6Z2M), respectively.",
+            "cite_spans": [
+                {
+                    "start": 1317,
+                    "end": 1321,
+                    "text": "(11)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 443,
+                    "end": 453,
+                    "text": "(Figure 3a",
+                    "ref_id": "FIGREF10"
+                },
+                {
+                    "start": 674,
+                    "end": 683,
+                    "text": "Figure 4a",
+                    "ref_id": "FIGREF11"
+                },
+                {
+                    "start": 987,
+                    "end": 996,
+                    "text": "Figure 4b",
+                    "ref_id": "FIGREF11"
+                },
+                {
+                    "start": 1125,
+                    "end": 1134,
+                    "text": "Figure 4c",
+                    "ref_id": "FIGREF11"
+                }
+            ],
+            "section": "In vitro studies of the inhibitory effects of SARS-CoV-2 spike binding to ACE2"
+        },
+        {
+            "text": "The molecular size of scFv76-cl Abs was analyzed by SDS-PAGE and results are reported in Supplementary Figure 6a . All antibodies showed an apparent molecular weight of about 28 kDa, as expected based on deduced amino acid sequence. Molecular integrity was then analyzed by size exclusion chromatography (SEC-HPLC). Representative chromatogram of the scFv76 antibody is shown in Figure 5a . Chromatograms of all remaining scFv76-cl Abs are given in Supplementary   Figure 6b . In most cases, the SEC-HPLC analysis shows chromatographic profiles with a major peak compatible with the antibody monomeric form and minor additional peaks of variable area compatible with dimeric/multimeric species. Such species were found more represented when chromatography was run without 10% acetonitrile (not shown). Coexistence of both monomeric and dimeric species in scFv antibody preparations has been known for decades as a peculiarity of this type of proteins (12, 13) .",
+            "cite_spans": [
+                {
+                    "start": 951,
+                    "end": 955,
+                    "text": "(12,",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 956,
+                    "end": 959,
+                    "text": "13)",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 89,
+                    "end": 112,
+                    "text": "Supplementary Figure 6a",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 379,
+                    "end": 388,
+                    "text": "Figure 5a",
+                    "ref_id": "FIGREF12"
+                },
+                {
+                    "start": 449,
+                    "end": 474,
+                    "text": "Supplementary   Figure 6b",
+                    "ref_id": "FIGREF13"
+                }
+            ],
+            "section": "Biochemical and structural characterization of scFv76-cluster antibodies"
+        },
+        {
+            "text": "Molecular weight of scFv antibodies was further confirmed by SEC-HPLC-mass spectrometry (MS) using 20mM ammonium formate as native elution buffer. The average spectrum obtained from all MS spectra of the scFv76 antibody, between 5 and 7 minutes, is reported in Thermal resistance, selected as a surrogate marker of protein stability, was then investigated.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Biochemical and structural characterization of scFv76-cluster antibodies"
+        },
+        {
+            "text": "The scFv76-cl Abs were subjected to high temperature stress by heating solutions for 1 h at increasing temperatures and testing for antigen binding by ELISA. Results in Figure 5d indicate scFv76-57 as the most sensitive to high temperature loosing completely antigen binding properties upon incubation at 59 \u00b0C while all other antibodies appear to be more stable to heating with scFv76, scFv76-46 and scFv76-58 being the most resistant proteins of the scFv76-cluster.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 169,
+                    "end": 178,
+                    "text": "Figure 5d",
+                    "ref_id": "FIGREF12"
+                }
+            ],
+            "section": "Biochemical and structural characterization of scFv76-cluster antibodies"
+        },
+        {
+            "text": "To assess protein folding and secondary structure content, far-UV circular dichroism (CD) spectra of scFv76-cl Abs were recorded at 20 and 90 \u00b0C (Figure 5e and Supplementary Figure 7) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 145,
+                    "end": 183,
+                    "text": "(Figure 5e and Supplementary Figure 7)",
+                    "ref_id": "FIGREF12"
+                }
+            ],
+            "section": "Biochemical and structural characterization of scFv76-cluster antibodies"
+        },
+        {
+            "text": "CD spectra of antibodies at 20 \u00b0C resemble those of folded proteins with significant \u03b2-sheet content, while the spectra at 90 \u00b0C show that the antibodies have undergone unfolding. Quantitative analysis of CD spectra at 20 \u00b0C, by means of BeStSel (14) , indicates that the scFv76-cl Abs have a folded structure with about 40% of antiparallel \uf062-sheet content (Supplementary Table 2 ).",
+            "cite_spans": [
+                {
+                    "start": 246,
+                    "end": 250,
+                    "text": "(14)",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 372,
+                    "end": 379,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Biochemical and structural characterization of scFv76-cluster antibodies"
+        },
+        {
+            "text": "From thermal stability experiments scFv76, scFv76-46 and scFv76-58 appear to be the most resistant while scFv76-57 appears to be the most sensitive. Considering the prospective clinical use of scFv76-cl Abs by intranasal drops/spray or aerosol, we also addressed their stability to nebulization. Antibodies nebulized by using Aeroneb Lab Nebulizer system (EMKA, Aerogen) were analyzed by SEC-HPLC and ELISA. Results indicate that nebulization affects neither protein structure nor the capacity to inhibit RBD interaction with ACE2 of scFv76-cl Abs and similar results were obtained with antibody preparations reconstituted after lyophilization (data not shown).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Biochemical and structural characterization of scFv76-cluster antibodies"
+        },
+        {
+            "text": "To test the efficacy of scFv76 antibodies against SARS-CoV-2 infection, a model of human ACE2expressing transgenic (tg) mice was used. Tg mice were infected with a luciferase-expressing D614G S-pseudotyped virus and infection was measured by bioluminescence imaging (BLI). Figure 6b . In a confirmatory study also scFv76-58 as well as an unrelated scFv antibody were tested. Results in Figure 6c confirm the efficacy of scFv76 and show efficacy of scFv76-58 and no activity of the unrelated antibody, thus proving the treatment specificity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 273,
+                    "end": 282,
+                    "text": "Figure 6b",
+                    "ref_id": "FIGREF13"
+                },
+                {
+                    "start": 386,
+                    "end": 395,
+                    "text": "Figure 6c",
+                    "ref_id": "FIGREF13"
+                }
+            ],
+            "section": "Intranasal administration of scFv76 antibody counteracts viral infection in animal models"
+        },
+        {
+            "text": "In a further study, hamsters infected with SARS-CoV-2 virus (D614G strain) and",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Intranasal administration of scFv76 antibody counteracts viral infection in animal models"
+        },
+        {
+            "text": "intranasally treated with 70 \u00b5g of scFv76, 2 h before and once daily for the two consecutive days post infection, were protected from body weight loss compared to the animals treated with vehicle ( Figure 6d) . This result correlated with reduction of nasal discharge (Figure 6e ) and with reduction of gross pathology marks in the lung (i.e. red and brown spots) at necropsy (not shown).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 198,
+                    "end": 208,
+                    "text": "Figure 6d)",
+                    "ref_id": "FIGREF13"
+                },
+                {
+                    "start": 268,
+                    "end": 278,
+                    "text": "(Figure 6e",
+                    "ref_id": "FIGREF13"
+                }
+            ],
+            "section": "Intranasal administration of scFv76 antibody counteracts viral infection in animal models"
+        },
+        {
+            "text": "Herein we describe a cluster of six human scFv antibodies sharing a unique VH CDR3 sequence and recognizing a conserved epitope of the SARS-CoV-2 spike protein.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Human scFv antibodies, compared to small size single-domain VHH antibodies (12) (13) (14) (15) kDa), may be more advantageous for the development of therapeutics because of the need for VHH of sophisticated humanization procedures (15) or cumbersome immunogenicity testing (16) However, not all scFv antibodies of the scFv cluster showed the same features. In particular, the scFv76-55 antibody stands out for lower binding affinity against all mutated spike proteins and lower potency at inhibiting the interaction of SARS-CoV-2 spike with ACE2. Further structural analysis of the scFv76 cluster may help in understanding this different behavior.",
+            "cite_spans": [
+                {
+                    "start": 75,
+                    "end": 79,
+                    "text": "(12)",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 80,
+                    "end": 84,
+                    "text": "(13)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 85,
+                    "end": 89,
+                    "text": "(14)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 90,
+                    "end": 94,
+                    "text": "(15)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 231,
+                    "end": 235,
+                    "text": "(15)",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The scFv76-cl Abs share an identical VH CDR3 sequence, which is derived from the IGVH3-53 germline. The scFv76, scFv76-46, scFv76-58 and scFv76-77 antibodies also share similar VK CDR3 from IGVK3-20 germline, while scFv76-55 and scFv76-57 have different VK sequences. The scFv76-cl Abs pairing VH3-53-derived heavy chain with VK3-20-derived light chain exhibit the highest affinity for RBD and the highest potency at inhibiting RBD interaction with ACE2 and viral infectivity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "A recently described mAb, C102, also using VH3-53-derived VH sequences paired with VK3-20-derived VK sequences, was found to recognize the spike RBD in the up conformation with a KD=27 nm (19) . Affinity of the C102 antibody was reduced approximately 15-and 2-folds in the presence of RBD mutation at positions A475V and E484K, respectively. Interestingly, scFv76-cl Abs, exhibiting affinity for WT RBD proteins in the range of subnanomolar-1digit nanomolar KD, substantially maintain their affinity towards mutated RBD. Moreover, loss of affinity of scFv76-cl Abs towards mutated RBD at position A475V is significantly lower than that of C102 antibody despite identical germline origin.",
+            "cite_spans": [
+                {
+                    "start": 188,
+                    "end": 192,
+                    "text": "(19)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Binding and affinity data identify scFv76-cl Abs as suitable neutralizing candidates of WT and mutated SARS-CoV-2 spike proteins, as also confirmed by viral neutralization experiments of pseudotyped and natural viruses. We also show that the efficient neutralization of RBD interaction with ACE2 by scFv76-cl Abs translates into striking inhibition of SARS-CoV-2 S-mediated cellcell fusion in human lung cells in vitro. This result is particularly interesting as the syncytia formation in pneumocytes is a hallmark of COVID-19, driving life-threatening localized thromboembolism and inflammation (9, 20) . In summary, all properties of the scFv antibodies herein described, and particularly their ability to recognize an essential and apparently unalterable spike antigenic epitope, are compatible with the development of pharmaceutical preparations to prevent and counteract SARS-CoV-2 infection by intranasal and/or aerosol delivery. To our knowledge, this is the first example of drug candidates in the human scFv antibody format for COVID-19 treatment.",
+            "cite_spans": [
+                {
+                    "start": 596,
+                    "end": 599,
+                    "text": "(9,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 600,
+                    "end": 603,
+                    "text": "20)",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "We are grateful to Integral Molecular, Philadelphia, USA for expedite identification of the antibody epitope; Dr. Silvia Santopolo for help with pseudovirus RNA titration; Dr Nestor Santiago Gonzalvo (Cytiva) for excellent technical assistance on Biacore analyses; Mr Claudio Albertoni and Mrs Evelyn Vaccaro for expert technical assistance in animal models. table) . Competition of scFv antibodies in spike or RBD binding to human ACE2 measured by ELISA. IC50 values (expressed as nM concentration) are the average (\u00b1SE) from 2-4 independent experiments. Boxed number indicates concentration >40 nM. Spike with mutations HV69-70d, Y144d, N501Y, A570D, D614G, P681H (UK) or spike with mutations K417N, E484K, N501Y, D614G (SA-BR). ScFv5 and scFv86 antibodies did not interfere with spike or RBD binding to ACE2 at concentrations \u226540 nM. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 359,
+                    "end": 365,
+                    "text": "table)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Acknowledgments"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Fruitful Neutralizing Antibody Pipeline Brings Hope To Defeat SARS-Cov-2",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Renn",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Fu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Hall",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Simeonov",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Trends Pharmacol. Sci",
+            "volume": "41",
+            "issn": "",
+            "pages": "815--829",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Antibody-dependent enhancement and SARS-CoV-2 vaccines and therapies",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Wheatley",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kent",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Dekosky",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat. Microbiol",
+            "volume": "5",
+            "issn": "",
+            "pages": "1185--1191",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Coronavirus (COVID-19) update: FDA authorizes monoclonal antibodies for treatment of COVID-19",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Protein engineering of antibody binding sites: recovery of specific activity in an anti-digoxin single-chain Fv analogue produced in Escherichia coli",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Huston",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Levinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mudgett-Hunter",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Tai",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Novotny",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Margolies",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ridge",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Bruccoleri",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Haber",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Crea",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "Proc. Natl. Acad. Sci. U.S.A",
+            "volume": "85",
+            "issn": "",
+            "pages": "5879--5883",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Structure, Function, and Antigenicity of the SARS-CoV-2 Spike Glycoprotein",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Walls",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Tortorici",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wall",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Mcguire",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Veesler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "181",
+            "issn": "",
+            "pages": "281--292",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cell.2020.02.058"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "The biogenesis of SARS-CoV-2 spike glycoprotein: multiple targets for host-directed antiviral therapy",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Santopolo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Riccio",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Santoro",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Biochem. Biophys. Res. Commun",
+            "volume": "538",
+            "issn": "",
+            "pages": "80--87",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.bbrc.2020.10.080"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "The SARS-CoV-2 Spike Glycoprotein as a Drug and Vaccine Target: Structural Insights into Its Complexes with ACE2 and Antibodies",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Papageorgiou",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Mohsin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cells",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/cells9112343"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Persistence of viral RNA, pneumocyte syncytia and thrombosis are hallmarks of advanced COVID-19 pathology",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Bussani",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Schneider",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zentilin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Collesi",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ali",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Braga",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Volpe",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Colliva",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zanconati",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Berlot",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Silvestri",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zacchigna",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Giacca",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "EBioMedicine",
+            "volume": "61",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ebiom.2020.103104"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Structures of Human Antibodies Bound to SARS-CoV-2 Spike Reveal Common Epitopes and Recurrent Features of Antibodies",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Barnes",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "West",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Huey-Tubman",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A G"
+                    ],
+                    "last": "Hoffmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Sharaf",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Hoffmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Koranda",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Gristick",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gaebler",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Muecksch",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Cetrulo Lorenzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Finkin",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "H\u00e4ggl\u00f6f",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hurley",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Millard",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Weisblum",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Schmidt",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hatziioannou",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Bieniasz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Caskey",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Robbiani",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Nussenzweig",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Bjorkman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell",
+            "volume": "182",
+            "issn": "",
+            "pages": "828--842",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cell.2020.06.025"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Neutralizing nanobodies bind SARS-CoV-2 spike RBD and block interaction with ACE2",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Clare",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Vogirala",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Radecke",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Moyni\u00e9",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Gilbert-Jaramillo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Knight",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Tree",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Buttigieg",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Coombes",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Elmore",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Carroll",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "N M"
+                    ],
+                    "last": "Carrique",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Shah",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "James",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Townsend",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Stuart",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Owens",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Naismith",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat. Struct. Mol. Biol",
+            "volume": "27",
+            "issn": "",
+            "pages": "846--854",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41594-020-0469-6"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Human anti-self antibodies with high specificity from phage display libraries",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Griffiths",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Malmqvist",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Marks",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Bye",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Embleton",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mccafferty",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Baier",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Holliger",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Gorick",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Hughes-Jones",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "EMBO J",
+            "volume": "12",
+            "issn": "",
+            "pages": "725--734",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Recombinant anti-sialidase single-chain variable fragment antibody. Characterization, formation of dimer and higher-molecular-mass multimers and the solution of the crystal structure of the single-chain variable fragment/sialidase complex",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Kortt",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Malby",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Caldwell",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Gruen",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ivancic",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lawrence",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Howlett",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Webster",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hudson",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Colman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "Eur. J. Biochem",
+            "volume": "221",
+            "issn": "",
+            "pages": "151--157",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Accurate secondary structure prediction and fold recognition for circular dichroism spectroscopy",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Micsonai",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wien",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Kernya",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Goto",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "R\u00e9fr\u00e9giers",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kardos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Proc. Natl. Acad. Sci. U. S. A",
+            "volume": "112",
+            "issn": "",
+            "pages": "3095--3103",
+            "other_ids": {
+                "DOI": [
+                    "10.1073/pnas.1500851112"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Identification of Human Single-Domain Antibodies against SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Tian",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Tu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ying",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell Host Microbe",
+            "volume": "27",
+            "issn": "",
+            "pages": "891--898",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.chom.2020.04.023"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "A capillary electrophoresis based approach for the identification of antidrug antibodies against camelid VHH biologics (Nanobodies\u00ae)",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wiswell",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Neupane",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Bowman",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Linn",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sawant",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Chackerian",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Escand\u00f3n",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Pharmacol. Toxicol. Methods",
+            "volume": "103",
+            "issn": "",
+            "pages": "106872--106880",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.vascn.2020.106872"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Antibody resistance of SARS-CoV-2 variants B.1.351 and B.1.1.7",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Nair",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Iketani",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Kwong",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Graham",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mascola",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Yin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sobieszczyk",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Kyratsous",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Shapiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Sheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Ho",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Nature",
+            "volume": "593",
+            "issn": "",
+            "pages": "130--135",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-021-03398-2"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Travel-driven emergence and spread of SARS-CoV-2 lineage B.1.620 with multiple VOC-like mutations and deletions in Europe",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Dudas",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Hong",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Potter",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Calvignac-Spencer",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Niatou-Singa",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Tombolomako",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Fuh-Neba",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Vickos",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ulrich",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Leendertz",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Watts",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Olendrait\u0117",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Snijder",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Wijnant",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M J J"
+                    ],
+                    "last": "Bonvin",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Martres",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Behillil",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ayouba",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Maidadi",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "Meta"
+                    ],
+                    "last": "Djomsi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Godwe",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Butel",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "\u0160imaitis",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gabrielait\u0117",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kat\u0117nait\u0117",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Norvilas",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Raugait\u0117",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Jonikas",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Nasvytien\u0117",
+                    "suffix": ""
+                },
+                {
+                    "first": "\u017d",
+                    "middle": [],
+                    "last": "\u017demeckien\u0117",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ge\u010dys",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Tamu\u0161auskait\u0117",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Norkien\u0117",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Vasili\u016bnait\u0117",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "\u017diogien\u0117",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Timinskas",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "\u0160ukys",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "\u0160arauskas",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Alzbutas",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Juozapait\u0117",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Naumovas",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Pautienius",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vitkauskien\u0117",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ugenskien\u0117",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gedvilait\u0117",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "\u010cere\u0161kevi\u010dius",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Lesauskait\u0117",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "\u017demaitis",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gri\u0161kevi\u010dius",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Baele",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2021.05.04.21256637"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Structural classification of neutralizing antibodies against the SARS-CoV-2 spike receptor-binding domain suggests vaccine and therapeutic strategies",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Nussenzweig",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "West",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Bjorkman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Inhibition of SARS-CoV-2 (previously 2019-nCoV) infection by a highly potent pan-coronavirus fusion inhibitor targeting its spike protein that harbors a high capacity to mediate membrane fusion",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Lan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Qi",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Bao",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Qin",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell Res",
+            "volume": "30",
+            "issn": "",
+            "pages": "343--355",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41422-020-0305-x"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Robust SARS-CoV-2 infection in nasal turbinates after treatment with systemic neutralizing antibodies",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Kwan",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "T K"
+                    ],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "K W"
+                    ],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "To",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ho",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Yuen",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Cell Host Microbe",
+            "volume": "4",
+            "issn": "",
+            "pages": "551--563",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Tumor-infiltrating B lymphocytes as an efficient source of highly specific immunoglobulins recognizing tumor cells",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Pavoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Monteri\u00f9",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Santapaola",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Petronzelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Anastasi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Pelliccia",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "D&apos;alessio",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "De",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Santis",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Minenkova",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "BMC Biotechnol",
+            "volume": "7",
+            "issn": "",
+            "pages": "70--86",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/1472-6750-7-70"
+                ]
+            }
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Vector for efficient selection and/or maturation of an antibody and uses thereof",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Pavoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Minenkova",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "New display vector reduces biological bias for expression of antibodies in E. coli",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Pavoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Monteri\u00f9",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cianfriglia",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Minenkova",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Gene",
+            "volume": "391",
+            "issn": "",
+            "pages": "120--129",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Determination of 50% endpoint titer using a simple formula",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ramakrishnan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "World J. Virol",
+            "volume": "5",
+            "issn": "",
+            "pages": "85--86",
+            "other_ids": {
+                "DOI": [
+                    "10.5501/wjv.v5.i2.85"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Impairment of SARS-CoV-2 spike glycoprotein maturation and fusion activity by the broad-spectrum anti-infective drug nitazoxanide",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Riccio",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Santopolo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rossi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Piacentini",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Rossignol",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Santoro",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2021.04.12.439201"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "SARS-CoV-2 spike-protein D614G mutation increases virion spike density and infectivity",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Jackson",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mou",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ojha",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Quinlan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rangarajan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Vanderheiden",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Suthar",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Izard",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rader",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Farzan",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Choe",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat. Commun",
+            "volume": "11",
+            "issn": "",
+            "pages": "6013--6021",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41467-020-19808-4"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Characterization of spike glycoprotein of SARSCoV-2 on virus entry and its immune cross-reactivity with SARS-CoV",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Ou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Lei",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Mi",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Xiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Mu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Jin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Qian",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat. Commun",
+            "volume": "11",
+            "issn": "",
+            "pages": "1620--1631",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41467-020-15562-9"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Syncytia formation by SARS-CoV-2-infected cells",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Buchrieser",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dufloo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hubert",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Monel",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Planas",
+                    "suffix": ""
+                },
+                {
+                    "first": "Maaran",
+                    "middle": [],
+                    "last": "Michael Rajah",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Planchais",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Porrot",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Benhassine",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Van Der Werf",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Casartelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Mouquet",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bruel",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Schwartz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "EMBO J",
+            "volume": "39",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.15252/embj.2020106267"
+                ]
+            }
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "A versatile viral system for expression and depletion of proteins in mammalian cells",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Campeau",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Ruhl",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Rodier",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Rahmberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Fuss",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Campisi",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Yaswen",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Cooper",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Kaufman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "PLoS One",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "A high-throughput shotgun mutagenesis approach to mapping B-cell antibody epitope",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Davidson",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Doranz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Immunology",
+            "volume": "143",
+            "issn": "",
+            "pages": "13--20",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Molecular Cloning: A Laboratory Manual",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Maniatis",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Fritsch",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sambrook",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ed",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 1982,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "added to the cell culture 1 h after the infection, are effective at inhibiting all virus strains with IC50 concentrations <22 nM. When antibodies were added 1 h before infection the concentration to obtain 50% viral inhibition was below 2.2 nM. Under the same experimental conditions, IC50 dilutions of positive sera (pool of the six best responder sera from COVID-19 convalescent subjects of Figure 1b and Table 1), were >1/200 and >1/10.000 when added 1 h after or before infection, respectively.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "epitope of scFv76 antibody Identification of the epitope recognized by the anti-SARS-CoV-2 scFv76 antibody was performed by shotgun mutagenesis (alanine scanning) and binding analysis by high-throughput flow cytometry of each mutated protein expressed in human cells in comparison with the Wuhan (WT) spike clone.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "where two gaussian dispersions, centered on m/z 2800 and m/z 4000, are present. Their deconvolution indicates the presence of two species with molecular weight 28008 and 56016 that correlate with scFv76 monomeric and dimeric forms, respectively. The result of peptide mapping performed by trypsin digestion of scFv76 followed by Reverse Phase-Ultra-HPLC-MS/MS analysis is shown inFigure 5cthat confirms 100% matching of scFv76 peptides with the expected amino acidic sequence. Similar results were obtained with scFv76-46, scFv76-58 and scFv76-77 (not shown).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "shows representative BLI images of two animals out of 5/group at different time points indicating that the intranasal administration of 74 \u00b5g/mouse of scFv76, 2 h before and 4 h after infection, completely blocks the virus as deduced by loss of luminescent signal. Quantitative BLI data in nasal turbinates are shown in",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "related to their camelid origin. The scFv76 antibodies here described recognize an invariant epitope within the human ACE2 RBM. Such epitope consists of residues L455, F456, Y473, N487, Y489, which are, to date, not listed among SARS-CoV-2 VOCs, VOIs or VUIs (SARS-CoV-2 Variant Classifications and Definitions (cdc.gov) and Supplementary Figure 8), thus suggesting that this epitope may be essential for maintaining the docking efficiency of RBD to ACE2. Additionally, it is to note that the scFv76-cluster antibody reactivity is not significantly affected by mutations at residues K417, L452, E484, N501 and D614, which are found singularly or combined in the most threatening spike VOCs and lineages of SARS-CoV-2 variants including B.1.427 and B.1.429 found in California (USA) and B1.1.7, P1, B1.351 found in South Africa, Brazil and UK (CDC, 2021). Intriguingly, mAbs Bamlanivimab (LY-CoV555) and casirivimab (REGN10933) were recently found to be unable to block viral variants bearing the E484K mutation in RBD (17), thus making these products unsuitable for the treatment of South Africa (B.1.351 lineage) or Brazil (B.1.128.1 lineage) emerging infections. More recently, mutation L452R was found combined with E484Q in VUI B.1.617 in India. Based on present data, we expect the neutralizing activity of scFv76-cl Abs to be maintained since both mutations were found to be independently recognized. Similarly, the recently described SARS-CoV-2 VUI B.1.620, found in several European states and in central Africa(18), is expected not to escape scFv76-cluster antibody recognition. In fact, this variant carries two spike mutations that are either already shown to be recognized (E484K) or are not among the residues composing the spike antigenic epitope (S477N).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": ", we obtained evidence of in vivo neutralizing potential of intranasal topical administration of scFv76-cl Abs in both transgenic mice expressing human ACE2 and hamsters.The intranasal administration is clinically attractive and possibly complementary to the intravenous dosing route. A recent work in fact reported persistent high SARS-CoV-2 presence in nasal turbinates after treatment with systemic neutralizing antibodies(21).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "DS generated libraries, selected and purified scFv antibodies; FM coordinated in vitro and in vivo activity studies; AMA characterized patient sera and scFv antibodies for antigen binding and inhibition of RBD/ACE2 interaction; GB 1 coordinated biochemical analyses; CC, AR 1 contributed to characterization of scFv antibodies; EMP contributed to the discussion; GG, GB 2 , AR 2,3 identified convalescent patients and purified RNA from lymphocytes; CD, CV studied neutralization of SARS-CoV-2 by TCID; BP contributed with CD analyses; LS performed peptide mapping; AR 8 performed experiments with pseudovirus; EM, LL performed in vivo studies with pseudovirus; GS, AR 9 studied scFv inhibition of syncytia formation; RDS designed the study, supervised experiments and wrote the manuscript. Competing Interests OM, EMP and RDS are employees of Alfasigma SpA and are named as inventors on a patent application on the name of the same Company. Patent application is related to scFv76-cluster antibody sequences and to the use of scFv antibodies encoded by such sequences as drugs for prevention and treatment of COVID-19.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Figure legends",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Selection of anti-SARS-CoV-2 spike RBD-specific human scFv antibodies a, Flow chart of experimental steps; b, Representative analysis of 10 COVID-19 convalescent sera (CS) and negative sera collected from donors before 2019 (NS), for binding to spike and inhibition of spike/ACE2 interaction by ELISA. Data are expressed as the dilution giving 0.5 OD (\uf06c = 450 nm) and IC50 dilution, respectively; c, Binding of scFv antibodies to spike S1(D614G) or spike S1(UK) bearing HV69-70d, Y144d, N501Y, A570D, D614G, P681H mutations or spike S1(SA-BR) with mutations K417N, E484K, N501Y, D614G, assessed by ELISA. Data are the average (\u00b1 SD) of three technical replicates from one representative experiment; d, SPR sensorgrams of scFv76 antibody on spikes as in c; e, SPR epitope binning by injection of scFv76 antibody followed by indicated scFv antibodies; f, High content screening immunofluorescence imaging (Operetta) of spike-transfected HEK293T cells incubated with scFv76 antibody. Binding detected by FITCconjugated anti-tag antibody. Inset, mock transfected cells.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "In vitro functional characterization of anti-SARS-CoV-2 human scFv antibodies a, Inhibition of spike/ACE2 interaction by scFv antibodies measured by ELISA. Data are expressed as % inhibition and are the average (\u00b1 SE) of 2-3 independent experiments; b, Neutralizing activity of scFv antibodies assessed by viral titration (Wuhan strain) in Vero E6 cells by TCID50 assay; c-e, Neutralization of SARS-CoV-2-S pseudoviruses bearing the spike D614G mutation (c), a single mutation at position N501Y (d), or multiple mutations at position K417N, E484K, N501Y (e) by scFv antibodies, assessed by luciferase assay in hACE2-expressing Caco-2 cells, 72 h after infection. Data, expressed as percentage of infection relative to control, represent the average (\u00b1SD) of two independent replicates from one representative experiment.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "scFv76 antibody inhibits SARS-CoV-2 spike-mediated cell-cell fusion a,b, HEK293T cells (donor cells) co-transfected with plasmids encoding the SARS-CoV-2 spike Wuhan (wild type, WT) (a) or carrying the D614G mutation (b) and GFP, or empty vector and GFP (Mock) were detached at 40 h post transfection, incubated for 1 h with scFv76 or scFv5 antibodies (10 \u00b5g/mL) in culture medium, and then overlaid on monolayers of human lung A549 cells stably expressing the hACE2 receptor (A549-hACE2 cells) (target cells). After 4 h, transmission and fluorescence images were taken using a ZEISS Axio Observer inverted microscope. Merge and zoom images are shown. Scale bar, 200 \uf06dm (zoom, 50 \uf06dm). Cell-cell fusion was determined and expressed as percentage relative to control (bottom panels). Data represent average (\u00b1SD) of 5 fields from two biological replicates. *P<0.0001; ANOVA test.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "Epitope mapping of anti-SARS-CoV-2 scFv76 antibody a, Identification of critical clones for scFv76 binding. Binding to each mutant clone in the alanine scanning library was determined, in duplicate, by high-throughput flow cytometry. For each point, background fluorescence was subtracted from the raw data, which were then normalized to scFv76 reactivity with WT target protein. For each mutant clone, the mean binding value was plotted as a function of expression (represented by control reactivity). To identify preliminary primary critical clones (red circles), a threshold (dashed lines) of >65% WT binding to control Ab and <25% WT binding to test Abs was applied. b, Mean binding reactivities (and ranges) are listed for all identified critical residues. Critical residues for Ab binding (outlined in red) were residues whose mutations were negative for binding to scFv76 but positive for binding to control antibody. c, Visualization of critical residues for scFv76 binding on crystal structure of the SARS-CoV-2 spike protein trimer (PDB ID # 6XCN) and d, on SARS-CoV-2 spike protein receptor binding domain (PDB ID # 6Z2M).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "Biochemical and structural characterization of scFv76-cluster antibodies a, UV chromatogram at 280 nm from SEC-HPLC analysis of scFv76 in 50 mM phosphate buffer, 150 mM NaCl, 10% acetonitrile, pH 7.2 on BioSep SEC-s2000 (Phenomenex) column; b, Total ionic current (TIC) chromatogram from SEC-HPLC analysis of scFv76 in 20 mM ammonium formate, pH 6.8 on Mab Pac SEC-1 column (Thermo). Inset, mass spectrum as average of spectra recorded between 5 and 7 min; c, scFv76 sequence coverage by peptide mapping after trypsin digestion; d, Binding of thermally stressed scFv76-cluster antibodies to spike by ELISA; e, Far-UV CD spectra of scFv76 in PBS buffer recorded at 20 (solid line) and 90 \u00b0C (dashed line).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF13": {
+            "text": "ScFv76 antibody inhibits viral infectivity in animal models by intranasal administration a, Representative bioluminescence (BLI) images of 2 out of 5 human ACE2-expressing transgenic (K18-hACE2) mice infected with luciferase-expressing SARS-CoV-2 spike (D614G) pseudotyped virus and intranasally treated with 74 \u00b5g/mouse scFv76 antibody, 2 h before and 4 h after infection. BLI imaging was recorded at indicated time points by the Xenogen IVIS 200 Imaging System; b, Average of light photons/sec measured in mice nasal turbinates of study in a. Data are the average (\u00b1 SE) of 5 animals. Student's t-test versus vehicle-treated mice; **p< 0.01; c, Experimental setting as in a, also including scFv76-58 and an unrelated scFv antibody. Total body BLI data are the average (\u00b1 SE) of 5 animals at indicated time points. Student's t-test versus vehicle-treated mice; ***p< 0.001. d, Female hamsters were intranasally infected with SARS-CoV-2 strain \"Slovakia/SK-BMC5/2020\" with D614G mutation (10 5 pfu/animal) on day 0. Two h before infection and then once daily for 2 subsequent days post-infection animals (n=5) were administered intranasally with 70 \uf06dg in 70 \u00b5L (35 \u00b5L/nostril) scFv76 antibody or with equivalent volumes of vehicle. Control animals were only infected but not treated. Body weight was daily recorded, and results expressed as % versus day 0 body weight. Data are the average (\u00b1 SD) of 5 animals. e, Assessment of nasal discharge from animals of study in d. Results are expressed as score (inset",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF14": {
+            "text": "Binding of anti-SARS-CoV-2 scFv antibodies to spike and RBD",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF15": {
+            "text": "Binding of scFv antibodies to SARS-CoV-2 spike and RBD variants measured by ELISA. Data are expressed as nM concentration to have 1.0 OD (\uf06c 450 nm) and are the average (\u00b1SD) of 2-3 independent experiments. WT (Wuhan strain). Spike with mutations HV69-70d, Y144d, N501Y, A570D, D614G, P681H (UK) or spike with mutations K417N, E484K, N501Y, D614G (SA-BR). Boxed numbers indicate fold increase >10x versus WT.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF16": {
+            "text": "(3-fold) antibodies were put in contact for 1 h with SARS-CoV-2 WT (Wuhan strain), SARS-CoV-2 variant with D614G mutation or SARS-CoV-2 UK variant, and then added to Calu-3 cell culture, or directly added to the cells 1 h after viral infection. Quantification of viral load was done by RT-qPCR 72 h after infection. IC50 values (expressed as nM concentration) were calculated by plotting the inhibition rate against the antibody concentration in GraphPad Prism V8.0 software. UR, scFv unrelated; CS, Covid Serum pool; *Data expressed as dilution giving 50% inhibition.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF17": {
+            "text": "Figure 1",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF18": {
+            "text": "Figure 2",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF19": {
+            "text": "Figure 4",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF20": {
+            "text": "Figure 5",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF21": {
+            "text": "Figure 6",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Viral neutralization by COVID-19 convalescent sera \u00b0C and then added to cells after 2-fold dilutions ranging from 1/50-1/800 (8 replicates). Cytopathogenic effect (CPE) was measured after 4 days cultivation. Data are expressed as the titer (dilution) at which no CPE was observed in at least half of wells (50% micro-neutralization titer, MN50) calculated according to the Spearman-K\u00e4rber formula.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Sequence alignment CDR3 of heavy and light chain and germline usage of anti-SARS-CoV-2 human scFv antibodiesSequence alignment was performed by IGBLAST tool https://www.ncbi.nlm.nih.gov/igblast/",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Affinity of anti-SARS-CoV-2 scFv antibodies for spike protein variants by Surface Plasmon Resonance",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "Inhibitory activity (IC50) of anti-SARS-CoV-2 scFv antibodies on spike or RBD binding to human ACE2 76-58 0.77(0.12) 1.44(0.21) 1.73(0.09) 2.74(0.21) 1.45(0.21) 1.74(0.12) 1.48(0.24) 1.54(0.12) 2.31(0.15) 3.91(1.00) 2.06(0.11) 1.42(0.27) 1.50(0.17) 1.74(0.15) 1.76(0.59) 76-77 0.36(0.08) 0.72(0.15) 0.90(0.13) 1.62(0.16) 0.58(0.04) 0.78(0.16) 0.77(0.21) 1.19(0.07) 1.36(0.07) 1.69(0.19) 0.97(0.16) 1.14(0.32) 0.79(0.08) 0.88(0.08) 1.67(0.75)",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "Virus neutralization (IC50) of anti-SARS-CoV-2 scFv antibodies in Calu-3 cells",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Supplementary Tables 1, 2 Supplementary Figures 1-8 ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 14,
+                    "end": 25,
+                    "text": "Tables 1, 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 40,
+                    "end": 51,
+                    "text": "Figures 1-8",
+                    "ref_id": null
+                }
+            ],
+            "section": "Materials and Methods"
+        }
+    ]
+}

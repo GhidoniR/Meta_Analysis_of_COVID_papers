@@ -1,0 +1,3009 @@
+{
+    "paper_id": "0aeb1496877970abde474deea497a9a7fcb4ba6d",
+    "metadata": {
+        "title": "Baseline Characteristics and Outcomes of Cancer Patients Infected with SARS-CoV-2 in the Lombardy Region, Italy (AIOM-L CORONA): A Multicenter, Observational, Ambispective, Cohort Study",
+        "authors": [
+            {
+                "first": "Serena",
+                "middle": [],
+                "last": "Di Cosimo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fondazione IRCCS Istituto Nazionale dei Tumori",
+                    "location": {
+                        "postCode": "20133",
+                        "settlement": "Milano",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Barbara",
+                "middle": [],
+                "last": "Tagliaferri",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "ICS Maugeri-IRCCS",
+                    "location": {
+                        "postCode": "27100",
+                        "settlement": "Pavia",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Daniele",
+                "middle": [],
+                "last": "Generali",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Trieste",
+                    "location": {
+                        "postCode": "34123",
+                        "settlement": "Trieste",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Fabiola",
+                "middle": [],
+                "last": "Giudici",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Trieste",
+                    "location": {
+                        "postCode": "34123",
+                        "settlement": "Trieste",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Francesco",
+                "middle": [],
+                "last": "Agustoni",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fondazione IRCCS Policlinico \"San Matteo\"",
+                    "location": {
+                        "postCode": "27100",
+                        "settlement": "Pavia",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Antonio",
+                "middle": [],
+                "last": "Bernardo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "ICS Maugeri-IRCCS",
+                    "location": {
+                        "postCode": "27100",
+                        "settlement": "Pavia",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Karen",
+                "middle": [],
+                "last": "Borgonovo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Medical Oncology Unit, ASST Bergamo Ovest",
+                    "institution": "",
+                    "location": {
+                        "postCode": "24047",
+                        "settlement": "Treviglio, Bergamo",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Gabriella",
+                "middle": [],
+                "last": "Farina",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "ASST Fatebenefratelli-Sacco",
+                    "location": {
+                        "postCode": "20146",
+                        "settlement": "Milano",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Giovanna",
+                "middle": [],
+                "last": "Luchena",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Medical Oncology Unit, ASST-Lariana",
+                    "institution": "",
+                    "location": {
+                        "postCode": "22100",
+                        "settlement": "Como",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Andrea",
+                "middle": [],
+                "last": "Luciani",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Medical Oncology Unit, ASST Bergamo Ovest",
+                    "institution": "",
+                    "location": {
+                        "postCode": "24047",
+                        "settlement": "Treviglio, Bergamo",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Franco",
+                "middle": [],
+                "last": "Nol\u00e8",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Division of Urogenital and Head & Neck Tumors, European Institute of Oncology (IEO) IRCCS",
+                    "institution": "",
+                    "location": {
+                        "postCode": "20122",
+                        "settlement": "Milano",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Laura",
+                "middle": [],
+                "last": "Palmeri",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Niguarda Cancer Center, Grande Ospedale Metropolitano Niguarda",
+                    "institution": "",
+                    "location": {
+                        "postCode": "20121",
+                        "settlement": "Milano",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Filippo",
+                "middle": [],
+                "last": "Pietrantonio",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Guido",
+                "middle": [],
+                "last": "Poggi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Paolo",
+                "middle": [
+                    "Andrea"
+                ],
+                "last": "Zucali",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "15 Medical Oncology Unit, Azienda Ospedaliera Carlo Poma",
+                    "institution": "",
+                    "location": {
+                        "postCode": "20089, 46100",
+                        "settlement": "Rozzano, Mantova",
+                        "country": "Italy;, Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Emanuela",
+                "middle": [],
+                "last": "Balletti",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "ICS Maugeri-IRCCS",
+                    "location": {
+                        "postCode": "27100",
+                        "settlement": "Pavia",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Giovanna",
+                "middle": [],
+                "last": "Catania",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ottavia",
+                "middle": [],
+                "last": "Bernocchi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Trieste",
+                    "location": {
+                        "postCode": "34123",
+                        "settlement": "Trieste",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Federica",
+                "middle": [
+                    "D&apos;"
+                ],
+                "last": "Antonio",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "15 Medical Oncology Unit, Azienda Ospedaliera Carlo Poma",
+                    "institution": "",
+                    "location": {
+                        "postCode": "20089, 46100",
+                        "settlement": "Rozzano, Mantova",
+                        "country": "Italy;, Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Monica",
+                "middle": [],
+                "last": "Giordano",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Medical Oncology Unit, ASST-Lariana",
+                    "institution": "",
+                    "location": {
+                        "postCode": "22100",
+                        "settlement": "Como",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Francesco",
+                "middle": [],
+                "last": "Grossi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Fondazione IRCCS Ca'Grande Ospedale Maggiore Policlinico",
+                    "institution": "",
+                    "location": {
+                        "postCode": "20162",
+                        "settlement": "Milano",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Angioletta",
+                "middle": [],
+                "last": "Lasagna",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fondazione IRCCS Policlinico \"San Matteo\"",
+                    "location": {
+                        "postCode": "27100",
+                        "settlement": "Pavia",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Nicla",
+                "middle": [
+                    "La"
+                ],
+                "last": "Verde",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Luigi Sacco Hospital-ASST Fatebenefratelli Sacco, Via G.B. Grassi 74",
+                    "institution": "",
+                    "location": {
+                        "postCode": "20157",
+                        "settlement": "Milan",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Mariangela",
+                "middle": [],
+                "last": "Manzoni",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Azienda Ospedaliera \"Ospedale Maggiore\"",
+                    "location": {
+                        "postCode": "26013",
+                        "settlement": "Crema",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Benedetta",
+                "middle": [],
+                "last": "Montagna",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Angelo",
+                "middle": [],
+                "last": "Olgiati",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Alessandra",
+                "middle": [],
+                "last": "Raimondi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Irene",
+                "middle": [],
+                "last": "Rampinelli",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Elena",
+                "middle": [],
+                "last": "Verri",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Division of Urogenital and Head & Neck Tumors, European Institute of Oncology (IEO) IRCCS",
+                    "institution": "",
+                    "location": {
+                        "postCode": "20122",
+                        "settlement": "Milano",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Alberto",
+                "middle": [],
+                "last": "Zaniboni",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Massimo",
+                "middle": [
+                    "Di"
+                ],
+                "last": "Maio",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Ordine Mauriziano Hospital",
+                    "location": {
+                        "postCode": "10128",
+                        "settlement": "Torino",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Giordano",
+                "middle": [],
+                "last": "Beretta",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Marco",
+                "middle": [],
+                "last": "Danova",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Gabriella",
+                "middle": [
+                    "D &apos;"
+                ],
+                "last": "Orazi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Mara",
+                "middle": [],
+                "last": "Cirone",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Citation: Di Cosimo, S.; Tagliaferri, B.; Generali, D.; Giudici, F.; Agustoni, F.; Bernardo, A.; Borgonovo, K.; Farina, G.; Luchena, G.; Luciani, A.; et al. Baseline Characteristics and Outcomes of Cancer Patients Infected with SARS-CoV-2 in the Lombardy Region, Italy (AIOM-L CORONA): A Multicenter, Observational, Ambispective, Cohort Study. Cancers 2021, 13, 1324. https://doi.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Coronavirus disease 2019 (COVID- 19) is an ongoing pandemic caused by the positivesense RNA virus named severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) [1] . The clinical spectrum of COVID-19 is broad, ranging from asymptomatic infection, mild upper respiratory-tract illness, severe viral pneumonia with respiratory failure, to death [2] . Although most people infected with SARS-CoV-2 have mild disease, mortality ranges between 5% and 15% worldwide [3] . On 20 February 2020, Italy was the first European nation to be massively affected by COVID-19, and the biggest cluster of cases occurred in Lombardy, the most populous country region.",
+            "cite_spans": [
+                {
+                    "start": 33,
+                    "end": 36,
+                    "text": "19)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 165,
+                    "end": 168,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 348,
+                    "end": 351,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 465,
+                    "end": 468,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Most COVID-19 patients who become severely ill have evidence of underlying conditions such as cardiovascular, liver, and kidney diseases, or malignancies [2, 4, 5] . Cancerdirected care has been impacted since the early stages of this pandemic, with professional societies advocating for limited access of cancer patients to hospitals, delays in therapy, or the increased usage of targeted and hormonal therapies at the expense of cytotoxic chemotherapy [6] [7] [8] . These recommendations, based on expert consensus, were issued out of caution given the concern that cancer patients might be at increased risk of SARS-CoV-2 infection, and subsequent increased COVID-19 mortality.",
+            "cite_spans": [
+                {
+                    "start": 154,
+                    "end": 157,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 158,
+                    "end": 160,
+                    "text": "4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 161,
+                    "end": 163,
+                    "text": "5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 454,
+                    "end": 457,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 458,
+                    "end": 461,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 462,
+                    "end": 465,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "It is now clear that cancer patients infected by SARS-CoV-2 have a poor outcome, with a probability of death as high as 25.6% (95%CI 22.0-29.5%) according to a recent pooled analysis of 52 studies [9] . Whether it is cancer per se that increases the risk of COVID-19 and its complications or rather cancer-associated comorbidities and treatment, remains an issue [10, 11] . Therefore, before restrictions to cancer-directed care are implemented in the longer term, it is important to understand which patients are at risk of developing COVID-19 and its complications, with the aim of ensuring protective measures against the pandemic without compromising cancer management. The AIOM-L CORONA study was designed to investigate the main characteristics of cancer patients infected by SARS-CoV-2, to further understand the features of COVID-19 in this patient group, and to elucidate the factors that may affect their clinical outcomes.",
+            "cite_spans": [
+                {
+                    "start": 197,
+                    "end": 200,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 363,
+                    "end": 367,
+                    "text": "[10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 368,
+                    "end": 371,
+                    "text": "11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "A total of 231 cancer patients were recorded as being infected by SARS-CoV-2 during the reporting period. The mean age at diagnosis was 68 years (range, 32-90 years) (Table 1) , and 113 (48.9%) patients were male. The main cancer diagnoses were 65 breast (28.3%), 42 lung (18.3%), and 38 gastrointestinal (16.5%). Metastatic disease was present in 151 of the 216 (67.1%) patients with solid tumors; bone, lung and liver being the most common sites of spread. Additionally, 144 patients (64.4%) had one or more relevant comorbidities, i.e., disease or medical condition defined a priori, and for which the patient was being treated or followed clinical instrumental controls, the most common being hypertension, diabetes, and coronary heart disease (CHD) ( Table 1) ; 73 patients (33.7%) had a present habit or history of smoking. One hundred and fifty-one patients (66.2%) were receiving SACT, mostly chemotherapy, and 22 (15.2%) had progressive disease at the time of COVID-19 diagnosis ( Table 2 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 166,
+                    "end": 175,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 756,
+                    "end": 764,
+                    "text": "Table 1)",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 990,
+                    "end": 997,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Patient Characteristics and SACT"
+        },
+        {
+            "text": "In almost three quarters of all patients, (n = 110, 74.5%), the last SACT was with noncurative intent, i.e., first-(n = 52, 5.1%), second-(n = 35, 23.6%), and third-line treatment or beyond (n = 23, 15.5%). The median time from last SACT and COVID-19 diagnosis was 18 days (range, 0-110 days). Among seventy-seven (33.3%) cancer patients not receiving SACT, 29 were in follow-up (5 received last treatment <6 months; 2 received last treatment <9 months; 14 received last treatment for over a year and more; and 8 had still locoregional disease), 43 were metastatic cases on observation, and 5 were missing. The characteristics of cancer patients not receiving treatment at the time of infection are reported in Tables S1 and S2. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patient Characteristics and SACT"
+        },
+        {
+            "text": "A total of 202 (88.2%) patients in this series had clinical symptoms (see Table 3 ). Chest imaging was performed (computed tomography or X-ray) in 194 patients, of whom 83.5% had radiographic evidence of interstitial pneumonia.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 74,
+                    "end": 81,
+                    "text": "Table 3",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "COVID-19 Symptoms and Management"
+        },
+        {
+            "text": "Hospital admission occurred in 165 (72%) patients; of which 12 (8%) patients received Intensive Care Unit (ICU)-level care. In univariable analyses, age \u226560 years, male gender, \u22652 comorbidities, ECOG = 1, dyspnea, desaturation, and interstitial pneumonia were all associated with hospital admission (Table 4 ). Male gender, desaturation, and interstitial pneumonia remained independent risk factors for hospital admission at multivariable analyses. COVID-19-directed therapies included hydroxychloroquine in 10 patients (6.1%), antivirals in 71 (43.6%), antibiotics in 16 (9.8%), supplemental oxygen in 147 (90.2%), and non-invasive respiratory support in 19 (Continuous Positive Airway Pressure [CPAP], 11.7%). Sixty-one (26.9%) patients did not receive any of these therapies; most being female (41, 67.2%) and 28 with breast cancer (45.9%), 49 on SACT (81.7%), 12 presenting with dyspnea (21%), and only 3 desaturation (5.3%) (Table S3 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 299,
+                    "end": 307,
+                    "text": "(Table 4",
+                    "ref_id": "TABREF4"
+                },
+                {
+                    "start": 929,
+                    "end": 938,
+                    "text": "(Table S3",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "COVID-19 Symptoms and Management"
+        },
+        {
+            "text": "Of the 93 (41.8%) deaths recorded during a median follow-up of 138 days (range 12-218), 81 (36.5%) occurred within 30 days from the initial diagnosis of COVID-19. Case fatality rates are likely to be underestimated as live status was unknown for 9 cases at the time of this analysis. Notably, 16 (12.2%) patients presented with progressive disease at the first follow-up visit after recovery from COVID-19. Table 5 describes the univariable analysis of baseline characteristics as predictors of 30-day mortality. Age \u226560 years, metastatic disease, dyspnea, desaturation, interstitial pneumonia, \u22652 comorbidities, ECOG \u2265 1, and a current diagnosis of lung cancer were all associated with increased risk of mortality. The first five variables remained significantly associated with worse outcome also at multivariable analysis. Notably, metastatic cancer patients receiving SACT had a decreased risk of death as compared with untreated counterparts. Even when adjusted for age and gender, having received anti-cancer directed therapy impacted 30-day mortality (odds ratio [OR] = 0.23; 95%CI, 0.11-0.51; p \u2264 0.001). Treatment with antivirals was an independent favorable prognostic factor (OR = 0.48; 95%CI, 0.24-0.94; p = 0.03). ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 407,
+                    "end": 414,
+                    "text": "Table 5",
+                    "ref_id": "TABREF5"
+                }
+            ],
+            "section": "Survival Outcome"
+        },
+        {
+            "text": "Different international registries have been published to identify the clinical characteristics of cancer patients with severe COVID-19 [12] [13] [14] [15] [16] [17] [18] [19] [20] . Overall, the data suggest that cancer patients are susceptible to SARS-CoV-2 infection, with prevalence rates varying across different studies between 0.1% and 2.5%, and vulnerable to COVID-19 complications, with case fatality rates between 5% and 61%. This ill-defined figure reflects the heterogeneity of case series analyzed, with most reports referring to retrospective case series, including exclusively hematologic malignancies, and/or missing important solid tumor information, such as disease stage, and prior or current SACT. It has been reported that the susceptibility to the infection and the characteristics of the COVID-19 are variable depending on the tumor type, stage and active treatment, but it remains unclear as to whether the risk factors previously described as associated with adverse COVID-19 outcome in the general population are still important within the cancer patient population. The AIOM-L CORONA aimed to evaluate the relationship between individual, disease, and treatment characteristics with outcome by taking into account various confounding factors. Several key findings with direct clinical relevance were found.",
+            "cite_spans": [
+                {
+                    "start": 136,
+                    "end": 140,
+                    "text": "[12]",
+                    "ref_id": null
+                },
+                {
+                    "start": 141,
+                    "end": 145,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 146,
+                    "end": 150,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 151,
+                    "end": 155,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 156,
+                    "end": 160,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 161,
+                    "end": 165,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 166,
+                    "end": 170,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 171,
+                    "end": 175,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 176,
+                    "end": 180,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Henceforth, pre-existing diagnoses of hypertension, diabetes, CHD, atrial fibrillation as well as chronic obstructive pulmonary disease (COPD) have been associated with an increased risk of hospitalization and death in the general population [4, 5] . The distribution of these conditions in our cancer cohort reflected that of the whole Italian population, i.e., prevalence of hypertension, diabetes, and CHD of 31%, 13%, and 2.5-20%, respectively [21] . Of note, patients with at least two comorbidities were approximately three-fold more likely to require hospitalization, and to die within 30 days from infection. However, this excess of risk disappeared after adjusting for age and gender, suggesting that it was due to patients being men and old, rather than to an inherent comorbidity independent effect. Interestingly, in our cancer cohort, two third of patients succumbing to COVID-19 were male with a median age of 74 years. This is 10 years older than the entire cohort, which is consistent with rapidly accumulating evidence that gender and age play a major role in COVID-19 severity [22, 23] .",
+            "cite_spans": [
+                {
+                    "start": 242,
+                    "end": 245,
+                    "text": "[4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 246,
+                    "end": 248,
+                    "text": "5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 448,
+                    "end": 452,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1095,
+                    "end": 1099,
+                    "text": "[22,",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1100,
+                    "end": 1103,
+                    "text": "23]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In contrast with data from a European [24] , and a Chinese study [12] , we found that patients with lung cancer were relatively under-represented being less than a quarter of the study population. The reasons for this are unclear due to the number of patients involved and stochastic effects. However, this finding is in line with the United Kingdom (UK) Coronavirus Cancer Monitoring Project (UKCCMP) [19, 20] , which recently reported that the diagnosis of lung cancer did not impact the risk of COVID-19 infection. Regardless of their a priori susceptibility to COVID-19 infection, in our study patients with lung cancer had a significantly worse risk of mortality if infected, at least at univariable analysis. This is reflected in work elsewhere [14] .",
+            "cite_spans": [
+                {
+                    "start": 38,
+                    "end": 42,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 65,
+                    "end": 69,
+                    "text": "[12]",
+                    "ref_id": null
+                },
+                {
+                    "start": 402,
+                    "end": 406,
+                    "text": "[19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 407,
+                    "end": 410,
+                    "text": "20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 751,
+                    "end": 755,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "There has been much discussion on whether being on SACT, specifically chemotherapy, has an adverse effect on outcomes of COVID-19 positive patients. A study from China with 105 COVID-19 positive patients suggested that chemotherapy is associated with increased mortality [12] . However, this has been disputed by the UKCCMP suggesting that recent SACT regardless of treatment modality is not associated with worse outcomes in COVID-19 positive patients [20] . Our study showed that SACT is not a risk factor for 30-day mortality in cancer patients with COVID-19. Therefore, withholding or discontinuing SACT out of fear of COVID-19 might not be warranted. Furthermore, SACT appeared to reduce the risk of mortality in patients with metastatic disease, and this remained true even after adjusting for age and gender. It can be hypothesized that SACT, especially chemotherapy, may affect humoral and cellular immune function of treated cases, exerting some type of anti-inflammatory effect (reviewed in [25] ). However, patients receiving SACT did not suffer a less aggressive COVID-19 trajectory in our cohort, as they experienced similar rates of hospital and ICU admissions as patients not receiving any SACT (Table S2) . Additionally, metastatic patients not receiving SACT were more likely to have lung cancer and hematologic malignancies, and to present with worse performance status (Table S2) , which speak to their general frailty and possibly increased vulnerability to COVID-19. Although disease site and ECOG were not prognostic factors in the analyses we reported, we recognize that our patient cohort was small, and therefore these findings are only preliminary and should not be over interpreted.",
+            "cite_spans": [
+                {
+                    "start": 271,
+                    "end": 275,
+                    "text": "[12]",
+                    "ref_id": null
+                },
+                {
+                    "start": 453,
+                    "end": 457,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1001,
+                    "end": 1005,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1210,
+                    "end": 1220,
+                    "text": "(Table S2)",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 1388,
+                    "end": 1398,
+                    "text": "(Table S2)",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "While we did not aim to specifically examine efficacy of treatment options for cancer patients with symptomatic COVID-19, we acknowledge two valuable findings. First, we found a significant reduction of mortality in patients receiving antiviral-based therapy. These findings are consistent with the national and international recommendations for the treatment of hospitalized patients requiring oxygen supplementation [26, 27] . Second, just 8% of hospitalized patients were admitted to ICU. In Italy, patients with COVID-19 are almost solely admitted to the ICU when mechanical ventilation is required, yet the rate of ICU admissions in our study was one third that reported in publicly available databases of COVID-19 positive cases [28] . Discussing treatment restrictions with cancer patients was a well-established practice even before COVID-19, especially for cases with incurable cancers. However, SACT has changed the life expectancy of patients with metastatic disease, and therefore the decision to use intensive care should be made in a multidisciplinary setting. Biases that limit access to treatment of patients with metastatic disease should be avoided because although most are treated with non-curative intent, treatment still aims to control the disease long term [29] .",
+            "cite_spans": [
+                {
+                    "start": 418,
+                    "end": 422,
+                    "text": "[26,",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 423,
+                    "end": 426,
+                    "text": "27]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 735,
+                    "end": 739,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1281,
+                    "end": 1285,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "We recognize several limitations in our study. First, the study was only conducted by medical oncologists, resulting in a potential selection bias with under-estimation of specific groups of patients, for instance, those who did not attend the hospital, or died in an out-of-hospital setting. Second, the study could not estimate the prevalence and incidence of COVID-19 among cancer patients in the Lombardy region because it failed to capture most asymptomatic and/or mildly symptomatic cases not subject to testing. The optimal situation would have been to have a representative sample of the most common cancer types tested for SARS-CoV-2 infection to better understand COVID-19 epidemiology, but this was not possible at the height of the pandemic due to limited testing resources. Furthermore, the scientific community advised asymptomatic patients, including those with cancer, to seek medical care only if strictly necessary. We note, however, that no such data sets are yet available for any specific malignancy, as acknowledged also by a recently published Italian study addressing the incidence of COVID-19 among cancer patients [30] . Finally, this study intentionally did not comment on the optimal management of COVID-19, nor analyzed data in this regard, other than confirming the efficacy of antivirals, because it took place at a time when anti-COVID-19 practices were heterogeneous and evolving as rapidly as the pandemic.",
+            "cite_spans": [
+                {
+                    "start": 1140,
+                    "end": 1144,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "This was a multicenter, observational, ambispective, cohort study supported by AIOM (Associazione Italiana di Oncologia Medica). The study started on 15 May 2020 with the intended participation of 26 centres in the Lombardy region. Investigators at each center used a standardized case report form to collect data on cancer patients (i.e., males or females of any age, with any active malignancy of any histology/stage, including those on systemic anti-cancer treatment [SACT], i.e., any therapy given within 4 weeks before the diagnosis of infection, or in clinical follow-up after neo-/adjuvant treatment), diagnosed with COVID-19 based on the presence of SARS-CoV-2 RNA confirmed by reverse transcriptase quantitative polymerase chain reaction during the first 6 months of the pandemic. Therefore, the prospective portion of AIOM-L CORONA included longitudinal cases of cancer patients with COVID-19 starting from the date of study initiation at each participating center until study end, set as September 30, 2020 for all participants. The retrospective portion of AIOM-L CORONA included cases retrieved at each participating center from 1 March 2020 and monitored until study end. Data collected included demographics, baseline characteristics, predefined comorbidities, SACT, COVID-19 signs, symptoms, and management, including antiviral therapy (i.e., remdesevir 200 mg i.v., day 1; 100 mg i.v., daily from day 2 during a minimum of 5 to a maximum of 10 days), and clinical outcomes, i.e., hospital admission, and vital status. AIOM-L CORONA was Institutional Review Board approved and conducted in accordance with the Declaration of Helsinki.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "Descriptive statistics of patient demographics (i.e., age, gender) and clinical characteristics (i.e., comorbidities, SACT type) were reported as frequencies (proportions) for categorical variables, and median (range max-min) continuous variables. Utilizing Cox regression, univariable analyses were performed to evaluate the relation between baseline characteristics, and clinical outcome (i.e., hospital admission, and death from any cause, in or out of hospital within 30 days from the initial diagnosis of infection (30-day mortality). Significant predictors from univariable analyses (p < 0.05) were included in a multivariable model. All the analyses were exploratory with no predefined statistical hypothesis to test. To ensure sufficient precision in descriptive outcomes, considering 26 participating centers, a study drop out of 50% given the challenge of engaging clinicians during a pandemic emergency, and a prevalence of SARS-CoV-2-infection among cancer patients of approximately 1% [11] , a sample size of 212 patients was expected to produce a Confidence Interval (CI) of \u00b13.5% for estimates of proportion. Statistical analyses were performed using statistical software R (version 4.0.2, Free Software Foundation's GNU General Public License, www.gnu.org (accessed on 16 October 2020)). The database was locked on 16/10/2020 for analyses.",
+            "cite_spans": [
+                {
+                    "start": 998,
+                    "end": 1002,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Statistical Analysis"
+        },
+        {
+            "text": "The AIOM-L CORONA is the first large report of COVID-19 among patients with cancer in the first and most affected Italian region of Lombardy. In the study population, we found a similar, if not numerically superior, mortality rate compared with other population-based datasets studying similar patient metrics. Known risk factors for mortality in COVID-19, including age and male gender, remain significant in this cancer patient population. Patients who received SACT do not have a worse prognosis regardless of disease stage. These findings suggest that postponing treatment for fear ofinfection between treatment cycles, appears unwarranted given SACT does not compromise prognosis once infection occurs. In contrast, metastatic patients receiving SACT had a reduced risk of mortality as compared with untreated counterparts. Large data sets are needed to validate our initial findings on the protective role of chemotherapy, and especially for patient management after the diagnosis of COVID-19, which remains yet to be defined. For now, during the COVID-19 pandemic, these vulnerable patients should avoid exposure or increase their protection to SARS-CoV-2 while treatment adjustments should be considered on valuebased prioritization and clinical cogency of interventions as recently recommended by international expert consensus [7] ; finally, in line with the WHO principles and objectives aiming to reduce deaths and disease burden, cancer patients deserve an additional priority for vaccination unless limitations exist [31, 32] .",
+            "cite_spans": [
+                {
+                    "start": 1337,
+                    "end": 1340,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1531,
+                    "end": 1535,
+                    "text": "[31,",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1536,
+                    "end": 1539,
+                    "text": "32]",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusions"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Clinical characteristics of coro-navirus disease 2019 in China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Ou",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Shan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lei",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S C"
+                    ],
+                    "last": "Hui",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N. Engl. J. Med",
+            "volume": "382",
+            "issn": "",
+            "pages": "1708--1720",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2002032"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Gu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "395",
+            "issn": "",
+            "pages": "497--506",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30183-5"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Coronavirus Update (Live): 77,774,231 Cases and 1,710,348 Deaths from COVID-19 Virus Pandemic-Worldometer. Available online: worldometers.info",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Hospitalization rates and characteristics of patients hospitalized with laboratory-confirmed coronavirus disease 2019-COVID-NET, 14 states",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Garg",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Whitaker",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "O&apos;halloran",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Cummings",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Holstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Prill",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Chai",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Kirley",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Alden",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "MMWR Morb. Mortal. Wkly. Rep",
+            "volume": "69",
+            "issn": "",
+            "pages": "458--464",
+            "other_ids": {
+                "DOI": [
+                    "10.15585/mmwr.mm6915e3"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Cardiovascular Therapies, and COVID-19 Mortality: A Nationwide",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Polverino",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Stern",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Ruocco",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Balestro",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bassetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Candelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Cirillo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Contoli",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Corsico",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "D&apos;amico",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fcvm.2020.585866"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Caring for patients with cancer in the COVID-19 era",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Van De Haar",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Hoes",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Coles",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Seamon",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Fr\u00f6hling",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "J\u00e4ger",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Valenza",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "De Braud",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "De Petris",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bergh",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Nat. Med",
+            "volume": "2020",
+            "issn": "",
+            "pages": "665--671",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41591-020-0874-8"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Managing cancer patients during the COVID-19 pandemic: An ESMO multidisciplinary expert consensus",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Curigliano",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Banerjee",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cervantes",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Garassino",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Garrido",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Girard",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Haanen",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Jordan",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Lordick",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Machiels",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Ann. Oncol",
+            "volume": "2020",
+            "issn": "",
+            "pages": "1320--1335",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.annonc.2020.07.010"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Delivering Cancer Care During the COVID-19 Pandemic: Recommendations and Lessons Learned From ASCO Global Webinars",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Jazieh",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Curigliano",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Dickson",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Eaton",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Garcia-Foncillas",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Gilmore",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Horn",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kerr",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JCO Glob. Oncol",
+            "volume": "6",
+            "issn": "",
+            "pages": "1461--1471",
+            "other_ids": {
+                "DOI": [
+                    "10.1200/GO.20.00423"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Mortality in patients with cancer and coronavirus disease 2019: A systematic review and pooled analysis of 52 studies",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Saini",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tagliamento",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lambertini",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Mcnally",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Romano",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Leone",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Curigliano",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "De Azambuja",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eur. J. Cancer",
+            "volume": "139",
+            "issn": "",
+            "pages": "43--50",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ejca.2020.08.011"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Cancer and COVID-19: Unmasking their ties",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Addeo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Friedlaender",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cancer Treat. Rev",
+            "volume": "88",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ctrv.2020.102041"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Cancer patients in SARS-CoV-2 infection: A nationwide analysis in China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Ai",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Oncol",
+            "volume": "21",
+            "issn": "",
+            "pages": "335--337",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S1470-2045(20)30096-6"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Clinical characteristics of COVID-19-infected cancer patients: A retrospective case study in three hospitals within Wuhan",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Jia",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "China. Ann. Oncol",
+            "volume": "2020",
+            "issn": "",
+            "pages": "894--901",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.annonc.2020.03.296"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "COVID-19 in patients with thoracic malignancies (TERAVOLT): First results of an international, registry-based, cohort study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Garassino",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Whisenant",
+                    "suffix": ""
+                },
+                {
+                    "first": "L.-C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Trama",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Torri",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Agustoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Baena",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Banna",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Berardi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Bettini",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Oncol",
+            "volume": "21",
+            "issn": "",
+            "pages": "914--922",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S1470-2045(20)30314-4"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Clinical impact of COVID-19 on patients with cancer (CCC19): A cohort study",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kuderer",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Choueiri",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Shah",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shyr",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Rubinstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Rivera",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Shete",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Hsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Desai",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "De Lima Lopes",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Jr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "1907--1918",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)31187-9"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Determinants of COVID-19 disease severity in patients with cancer",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Robilotti",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Babady",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mead",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Rolling",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Perez-Johnston",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bernardes",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Bogler",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Caldararo",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Figueroa",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Glickman",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Nat. Med",
+            "volume": "2020",
+            "issn": "",
+            "pages": "1218--1223",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41591-020-0979-0"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Factors associated with COVID-19-related death using OpenSAFELY",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Williamson",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Walker",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Bhaskaran",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bacon",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Bates",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Morton",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Curtis",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mehrkar",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Evans",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Inglesby",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "584",
+            "issn": "",
+            "pages": "430--436",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2521-4"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Presenting features and early mortality from SARS-CoV-2 infection in cancer patients during the initial stage of the COVID-19 pan-demic in Europe",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Pinato",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J X"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Biello",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Segui",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Aguilar-Company",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Carbo",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Bruna",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bower",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Rizzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Benafif",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Cancers",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/cancers12071841"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "COVID-19 mortality in patients with cancer on chemotherapy or other anticancer treatments: A prospective cohort study",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "Y W"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.-B",
+                    "middle": [],
+                    "last": "Cazier",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Angelis",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Arnold",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Bisht",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Campton",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chackathayil",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Curley",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Fittall",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "1919--1926",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)31173-9"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "COVID-19 prevalence and mortality in patients with cancer and the effect of primary tumour subtype and patient de-mographics: A prospective cohort study",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "Y W"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.-B",
+                    "middle": [],
+                    "last": "Cazier",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Starkey",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E W"
+                    ],
+                    "last": "Briggs",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Arnold",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Bisht",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Booth",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Campton",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "W T"
+                    ],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Collins",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Oncol",
+            "volume": "395",
+            "issn": "",
+            "pages": "1919--1926",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)31173-9"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Ipertensione: I Dati Dell'osservatorio Epidemiologico Cardiovascolare/Health Examination Survey",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Male sex identified by global COVID-19 meta-analysis as a risk factor for death and ITU admission",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Peckham",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "De Gruijter",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Raine",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Radziszewska",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ciurtin",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Wedderburn",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Rosser",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Webb",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Deakin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat. Commun",
+            "volume": "11",
+            "issn": "",
+            "pages": "1--10",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41467-020-19741-6"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Age-specific mortality and immunity patterns of SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "O&apos;driscoll",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Santos",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A T"
+                    ],
+                    "last": "Cummings",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Azman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Paireau",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Fontanet",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cauchemez",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Salje",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Nat. Cell Biol",
+            "volume": "590",
+            "issn": "",
+            "pages": "140--145",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2918-0"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "COVID-19 in cancer patients on systemic anti-cancer therapies: Outcomes from the CAPITOL (COVID-19 Cancer PatIenT Outcomes in North London) cohort study",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Crolley",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Hanna",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Joharatnam-Hogan",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Chopra",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Bamac",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Desai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y.-C",
+                    "middle": [],
+                    "last": "Lam",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Dipro",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kanani",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Benson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Ther. Adv. Med. Oncol",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/1758835920971147"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "The immune contexture in cancer prognosis and treatment",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Fridman",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zitvogel",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Saut\u00e8s-Fridman",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Kroemer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Nat. Rev. Clin. Oncol",
+            "volume": "14",
+            "issn": "",
+            "pages": "717--734",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nrclinonc.2017.101"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "COVID-19) Treatment Guidelines",
+            "authors": [],
+            "year": 2019,
+            "venue": "Coronavirus Disease",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Treatments and Vaccines for COVID-19",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "COVID-19 mortality and ICU admission: The Italian experience",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Immovilli",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Morelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Antonucci",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Radaelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Barbera",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Guidetti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Crit. Care",
+            "volume": "24",
+            "issn": "",
+            "pages": "1--2",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s13054-020-02957-9"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "The Intensive Care Medicine research agenda on critically ill oncology and hematology patients. Intensiv",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Azoulay",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Schellongowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Darmon",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Bauer",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Benoit",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Depuydt",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Divatia",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Lemiale",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Van Vliet",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.-P",
+                    "middle": [],
+                    "last": "Meert",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "43",
+            "issn": "",
+            "pages": "1366--1382",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00134-017-4884-z"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Incidence of SARS-CoV-2 Infection Among Patients Undergoing Active Antitumor Treatment in Italy",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Aschele",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Negru",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Pastorino",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Cavanna",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Zagonel",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Barone-Adesi",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Blasi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "JAMA Oncol",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jamaoncol.2020.6778"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Hurrying up but not rushing, acting and not reacting, good sense and not common sense: Open thoughts and reasonable doubts on COVID-19 vaccination strategies in cancer patients",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Loupakis",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Giusti",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Di Maio",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Crit. Rev. Oncol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.critrevonc.2021.103271"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "The ESMO Call to Action on COVID-19 vaccinations and patients with cancer: Vaccinate. Monitor. Educate",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Garassino",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Vyas",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "De Vries",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kanesvaran",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Giuliani",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Peters",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Ann. Oncol",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.annonc.2021.01.068"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": "Demographic and baseline clinical characteristics of SARS-CoV-2-infected cancer patients.Table 1. Cont.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Anti-cancer treatment in SARS-CoV-2-infected cancer patients.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Symptoms, treatments, and clinical outcomes of SARS-CoV-2-infected cancer patients.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Cont.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Logistic regression analysis of potential factors associated with hospital admission (n = 165) for SARS-CoV-2-infected cancer patients.Table 4. Cont.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "Logistic regression analysis of potential prognostic factors associated with 30-day mortality (n = 81) for SARS-CoV-2-infected cancer patients.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The following are available online at https://www.mdpi.com/2072-669 4/13/6/1324/s1, Table S1 : Characteristics of 29 non metastatic patients not receiving SACT, Table S2 : Characteristics of 43 metastatic cancer patients not receiving SACT, Table S3 : Characteristics of 61 patients receiving no anti-COVID-19 therapy. Informed Consent Statement: Informed consent was obtained from all subjects involved in the study.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 84,
+                    "end": 92,
+                    "text": "Table S1",
+                    "ref_id": null
+                },
+                {
+                    "start": 161,
+                    "end": 169,
+                    "text": "Table S2",
+                    "ref_id": null
+                },
+                {
+                    "start": 241,
+                    "end": 249,
+                    "text": "Table S3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Supplementary Materials:"
+        },
+        {
+            "text": "The data presented in this study are available on request from the corresponding authors. The data are not publicly available due to due to privacy restrictions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Availability Statement:"
+        },
+        {
+            "text": "The authors declare no conflict of interest.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflicts of Interest:"
+        }
+    ]
+}

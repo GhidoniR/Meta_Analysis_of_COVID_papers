@@ -1,0 +1,2589 @@
+{
+    "paper_id": "0acae2b640668c0ffc4a2f6b71cdba84c52962e6",
+    "metadata": {
+        "title": "Physicians' and pharmacists' use of My Health Record in the emergency department: results from a mixed-methods study",
+        "authors": [
+            {
+                "first": "Alexandra",
+                "middle": [
+                    "K"
+                ],
+                "last": "Mullins",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Heather",
+                "middle": [],
+                "last": "Morris",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Cate",
+                "middle": [],
+                "last": "Bailey",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Michael",
+                "middle": [],
+                "last": "Ben-Meir",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "David",
+                "middle": [],
+                "last": "Rankin",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Mariam",
+                "middle": [],
+                "last": "Mousa",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Helen",
+                "middle": [],
+                "last": "Skouteris",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Purpose: This study aimed to explore pharmacists' and physicians' perceptions of use, barriers to use and the healthcare outcomes associated with use of Australia's national personally controlled electronic health record-known as My Health Record-in the emergency department.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "A mixed methods approach was deployed, including surveys and individual semi-structured interviews. All physicians and pharmacists who work in the emergency department at Cabrini Health (a non-for-profit healthcare provider in Victoria, Australia) were invited to participate. Due to the timing of elective blocks, physician trainees were excluded from interviews.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "A total of 40 emergency medicine clinicians responded to the survey. Over 50% (n = 22) of all respondents had used My Health Record in the emergency department at least once. A total of 18 clinicians participated in the semi-structured interviews, which led to the identification of three themes with multiple sub-themes regarding My Health Record: (1) benefits; (2) effectiveness; and; (3) barriers.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Participants reported My Health Record use in the emergency department delivers efficiencies for clinicians and has a heightened utility for complex patients, consistent with previous research conducted outside of the Australian setting. Barriers to use were revealed: outdated content, a lack of trust, a low perception of value, no patient record and multiple medical record systems. The participants in this study highlighted that training and awareness raising is needed in order to improve My Health Record use in the emergency department, a need stressed by physician's. Further observational research is required to explores meaningful MHR use at scale.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Electronic health records (EHRs)-consumer controlled, cross-institutional or national repositories that support the electronic exchange of health information-are identified as pivotal in the transformation of healthcare, particularly in the emergency setting where clinicians make decisions without prior information [1, 2] . Consequently, there has been steady growth in the adoption of national EHRs, and EHRs are now implemented in more than 50% of upper-middle to high-income countries around the world [3, 4] . In 2012 the Department of Health in Australia invested close to AUD $2 billion to establish and implement the personally controlled EHR system, known as My Health Record (MHR) [5] whereby the emergency department (ED) was identified as an important setting for MHR use [6] .",
+            "cite_spans": [
+                {
+                    "start": 317,
+                    "end": 320,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 321,
+                    "end": 323,
+                    "text": "2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 507,
+                    "end": 510,
+                    "text": "[3,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 511,
+                    "end": 513,
+                    "text": "4]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 692,
+                    "end": 695,
+                    "text": "[5]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 785,
+                    "end": 788,
+                    "text": "[6]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Globally, EHR use in the ED setting is not well reported in the literature and, of the results that have been published, there remains substantial variation [3, 7] . Rates of use in EDs have been reported as 23.7% in Israel [8] , between 6.8-50% across the United States of America [9, 10] and between 3.2-56 accesses per primary care physician per month in the United Kingdom [11, 12] . To the authors' knowledge, no peer reviewed literature on usage in the Australian ED context is available [5] .",
+            "cite_spans": [
+                {
+                    "start": 157,
+                    "end": 160,
+                    "text": "[3,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 161,
+                    "end": 163,
+                    "text": "7]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 224,
+                    "end": 227,
+                    "text": "[8]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 282,
+                    "end": 285,
+                    "text": "[9,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 286,
+                    "end": 289,
+                    "text": "10]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 377,
+                    "end": 381,
+                    "text": "[11,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 382,
+                    "end": 385,
+                    "text": "12]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 494,
+                    "end": 497,
+                    "text": "[5]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Evidence from a small number of studies conducted in the United States and Israel suggests that EHR use in EDs may reduce unnecessary treatment, reduce costs and improve adherence to evidence-based guidelines [7, 13] . However, the extent to which a clinician's role may impact upon the associated benefits has not been well documented. A paper by Bailey et al. [13] is one of the few studies to explore the potential effects of the type of EHR user. The authors report that administrative/nursing staff accessed the Health Information Exchange in 15.6% of patient encounters, compared to physicians or nurse practitioners who accessed the EHR in only 6.3% of patient encounters. Authors Bailey et al. [13] also reported EHR use by administrative/nursing staff was associated with decreased costly neuroimaging when compared to EHR use by physicians/ nursing staff. Given the tension between system-level goals for EHR use in the ED and individual-level differences in the decisionmaking processes, further attention is required to explore use associated with the type of user [14] . Given both pharmacists and physicians play a major role during the transition of care, when medication errors are most common [20] , EHR use by these two groups of clinicians is of interest.",
+            "cite_spans": [
+                {
+                    "start": 209,
+                    "end": 212,
+                    "text": "[7,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 213,
+                    "end": 216,
+                    "text": "13]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 362,
+                    "end": 366,
+                    "text": "[13]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 702,
+                    "end": 706,
+                    "text": "[13]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1077,
+                    "end": 1081,
+                    "text": "[14]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1210,
+                    "end": 1214,
+                    "text": "[20]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "A total of nine in ten Australian's have a MHR and over 86% of all records now have data in them, including detail describing the consumers allergies, current conditions, treatments, medicine details, pathology reports, diagnostic imaging scan reports and discharge summaries [15] . However, as of 30 June 2020 only 53% of private hospitals were actively using the MHR system [15] , and the awareness and use of this capability by ED clinicians is expected to be even lower [16] . Given this expectation requires validation, the authors of this study see a strong case for the exploration of clinicians use of MHR in the ED [17] . A mixed-methods research design, which combines qualitative and quantitative methods, is well placed to provide a more \"elaborated understanding of the phenomenon of interest\" [17] .",
+            "cite_spans": [
+                {
+                    "start": 276,
+                    "end": 280,
+                    "text": "[15]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 376,
+                    "end": 380,
+                    "text": "[15]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 474,
+                    "end": 478,
+                    "text": "[16]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 624,
+                    "end": 628,
+                    "text": "[17]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 807,
+                    "end": 811,
+                    "text": "[17]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The objective of this study was to apply a mixed-methods design to explore pharmacists and physicians perceptions of: MHR use in the ED; barriers associated with MHR use in the ED; and, the effects of MHR use in the ED on patient outcomes and health care efficiencies.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Objective"
+        },
+        {
+            "text": "The study was conducted between April and August of 2020 and used a mixed-methods design, involving both quantitative and qualitative methods, to enhance rigor and impact [21] , provide an enriched understanding and lead to superior interpretations [22, 23] . In this research quantitative data (collected through a 31-item survey) provides a foundation for the research problem, while qualitative data (collected through semi-structured interviews) facilitates a richer insight into participants experiences and attitudes [18, 19] .",
+            "cite_spans": [
+                {
+                    "start": 171,
+                    "end": 175,
+                    "text": "[21]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 249,
+                    "end": 253,
+                    "text": "[22,",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 254,
+                    "end": 257,
+                    "text": "23]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 523,
+                    "end": 527,
+                    "text": "[18,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 528,
+                    "end": 531,
+                    "text": "19]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Study design"
+        },
+        {
+            "text": "The study took place in the ED at Cabrini Health, in the city of Melbourne, Victoria. Cabrini Health is an 832bed not-for-profit health service that provides more than 88,000 episodes of inpatient care each year. Over 23,000 patients typically present to the ED each year and 11,500 patients are admitted.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study setting"
+        },
+        {
+            "text": "MHR was integrated in April 2018 in the ED at Cabrini Health and is accessible through a password protected icon when a patient record is available. Each clinician's password is automatically recorded and utilised via a single sign on, supporting one click access into a patient's web-based MHR, direct from the hospital-based patient file. The roll-out of the MHR involved email communication and optional training for clinical staff.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study setting"
+        },
+        {
+            "text": "The study goals, methods and an invitation to participate in the surveys and semi-structured interviews were shared via meetings and emails with a convenience sample of physicians and pharmacists. Two reminder letters were sent to all eligible participants one and two weeks after the initial invitations were shared. No participation incentives were used.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Recruitment"
+        },
+        {
+            "text": "Given emergency medicine is highly complex and requires input from and collaboration between a variety of clinicians, particularly pharmacists and physicians, [24] , the survey was distributed to all physicians and pharmacists who work in the ED at the study site (n = 88, a total of n = 50 pharmacists and n = 38 physicians). The same group of participants were invited to participate in the interviews (n = 50, a total of n = 25 pharmacists and n = 25 physicians), except for trainees who were excluded due to the timing of elective block rotations. While previous studies [25, 26] included nurse practitioners, in this study the nurse unit manager was unresponsive, despite multiple attempts to engage them by phone and email, therefore the survey was not distributed to ED nurses.",
+            "cite_spans": [
+                {
+                    "start": 159,
+                    "end": 163,
+                    "text": "[24]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 575,
+                    "end": 579,
+                    "text": "[25,",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 580,
+                    "end": 583,
+                    "text": "26]",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Participants"
+        },
+        {
+            "text": "Development of the survey was guided by relevant published studies and survey instruments in the literature [27] [28] [29] . The 31-item survey, developed on the Qualtrics online survey platform [30] , commenced with five demographic questions (including participant role and participant age), followed by both closed and open-ended items regarding MHR. A total of nine items were answered on a 5-point Likert scale (anchored at 1 = strongly disagree, 3 = undecided, 5 = strongly agree), designed on the basis of previous studies [31, 32] , seven items were multiple choice, six items required a yes or no response and four items required free text responses. The survey was designed to stop after question 14 if the clinician responded 'no' to having used MHR. The content and face validity of the survey was verified by medical informatics and emergency medicine experts [31] . Data were analysed using the Statistical Package for the Social Sciences (SPSS TM version 19.0; Chicago, IL, USA). The sample was stratified into two groups, based on job role (physician/pharmacist) and frequency counts and percentages were used to compare the two groups. Data from one participant were deleted as the job role was omitted.",
+            "cite_spans": [
+                {
+                    "start": 108,
+                    "end": 112,
+                    "text": "[27]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 113,
+                    "end": 117,
+                    "text": "[28]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 118,
+                    "end": 122,
+                    "text": "[29]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 195,
+                    "end": 199,
+                    "text": "[30]",
+                    "ref_id": null
+                },
+                {
+                    "start": 530,
+                    "end": 534,
+                    "text": "[31,",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 535,
+                    "end": 538,
+                    "text": "32]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 873,
+                    "end": 877,
+                    "text": "[31]",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Survey data collection and data analysis"
+        },
+        {
+            "text": "The semi-structured interview questions were designed to give meaning and add depth to key results uncovered in the surveys [33] . A 14-question interview guide was developed (informed by medical informatics literature [28, 34] ) that aligned with the study objectives: to explore (1) MHR use; (2) barriers to use; and, (3) patient outcomes and healthcare efficiencies. Two pilot interviews were held with a pharmacist and a physician to ensure the questions could be understood and that the structure and flow of the questions was practical. An iterative approach to data collection was used which allowed the interview guide to be adapted by the lead researcher (AM) and enabled the exploration of unexpected themes in subsequent interviews [35] . Interviews were conducted until saturation was achieved, the point where no new information was disclosed [36, 37] .",
+            "cite_spans": [
+                {
+                    "start": 124,
+                    "end": 128,
+                    "text": "[33]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 219,
+                    "end": 223,
+                    "text": "[28,",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 224,
+                    "end": 227,
+                    "text": "34]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 743,
+                    "end": 747,
+                    "text": "[35]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 856,
+                    "end": 860,
+                    "text": "[36,",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 861,
+                    "end": 864,
+                    "text": "37]",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Semi-structured interview data collection and data analysis"
+        },
+        {
+            "text": "All interviews were conducted via video conference by the lead researcher and were limited in duration to 30 min to avoid fatigue or inattention, which may have impacted the quality of the data [38] . At the beginning of each interview a general introduction was read to the participant and informed consent was obtained before the interview commenced. The interviews were recorded and, shortly after, transcribed verbatim by the lead researcher. Transcripts were uploaded into the qualitative research software N-Vivo (Version 12, QSR), which provided a structure for analysis. Researchers used a hybrid approach of deductive and inductive reasoning, allowing the interview questions to be strongly oriented to discover certain themes and linked to the data themselves [39, 40] . In order to ensure a flexible and rich analysis, thematic analysis was performed, incorporating the six steps outlined by Braun, Clarke [41] . To ensure interrater reliability a second researcher (MM) coded 10% of the transcripts and reviewed all the emerging themes. Differences were resolved through discussion until there was 100% consensus between the two researchers.",
+            "cite_spans": [
+                {
+                    "start": 194,
+                    "end": 198,
+                    "text": "[38]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 770,
+                    "end": 774,
+                    "text": "[39,",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 775,
+                    "end": 778,
+                    "text": "40]",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 917,
+                    "end": 921,
+                    "text": "[41]",
+                    "ref_id": "BIBREF42"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Semi-structured interview data collection and data analysis"
+        },
+        {
+            "text": "Physicians and pharmacists were categorised in terms of their MHR use patterns, using the previously published criteria by Lanham et al. [14] , adapted for individual physicians and pharmacists using MHR. The categories for MHR use were high, medium, and low, and the criteria for inclusion in these categories was based on the claimed degree of MHR feature use (see Table 1 for summary).",
+            "cite_spans": [
+                {
+                    "start": 137,
+                    "end": 141,
+                    "text": "[14]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 367,
+                    "end": 374,
+                    "text": "Table 1",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "Semi-structured interview data collection and data analysis"
+        },
+        {
+            "text": "The protocol for the study was reviewed and approved by the ethics committee at the study site in March 2020. Participation in the study was on the basis of informed consent and the study was carried out in compliance with the Helsinki Declaration.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ethics"
+        },
+        {
+            "text": "The results from the survey and semi-structured interviews are presented independently. We first discuss the survey results and then summarise the semi-structured interview results, using valuable qualitative and anecdotal evidence to give meaning and add depth to the survey results.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "A total of 40 emergency medicine clinicians responded to the survey: 22 pharmacists (response rate = 44%); and 18 physicians (response rate = 47%). Physician respondents were generally older and more likely to work at least once a week in the ED (see Table 2 for further detail).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 251,
+                    "end": 258,
+                    "text": "Table 2",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "Participant characteristics"
+        },
+        {
+            "text": "Over 50% (n = 22) of all respondents have used MHR in the ED at least once and 9.09% (n = 4) more pharmacists have used MHR compared to physicians (see Table 3 ). A total of 40.04% (n = 9) more pharmacists reported feeling well trained in relation to using MHR than physicians. All pharmacists and physicians who use MHR, do so to find the patient's medication history.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 152,
+                    "end": 159,
+                    "text": "Table 3",
+                    "ref_id": "TABREF5"
+                }
+            ],
+            "section": "MHR use and barriers to use"
+        },
+        {
+            "text": "Half of all physician respondents (n = 9) report that not knowing how to use MHR is a barrier to use, while only 19.05% (n =4) of pharmacists report the same barrier. No physicians report that trust is a barrier to use, while 23.91% (n =5) of pharmacist's report trust is barrier to use (barriers and enablers associated with MHR use are presented in Table 3 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 351,
+                    "end": 358,
+                    "text": "Table 3",
+                    "ref_id": "TABREF5"
+                }
+            ],
+            "section": "MHR use and barriers to use"
+        },
+        {
+            "text": "A total of 62% (n = 13) responded 'maybe' when asked if the use of MHR in the ED improves patient outcomes. A total of 48% (n = 10) of respondents who have used MHR agree that MHR use has impacted a decision made about a patient. Of these participants, 50% (n = 3) of pharmacists and 75% (n = 3) of physicians agree or strongly agree that the use of MHR was critical in the decision made. A total of 50% (n = 6) of pharmacists and 43% (n = 3) of physicians who have used MHR agree or strongly agree that 'MHR is a very valuable addition to practice and improves my efficiency' . ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patient outcomes and healthcare efficiencies"
+        },
+        {
+            "text": "In total, 50 ED clinicians (n = 25 pharmacists and n = 25 physicians) were invited to partake in the semi-structured interviews over video conference. A total of 18 clinicians agreed to participate, including 8 pharmacists and 10 physicians (see Table 2 for demographic data). Data saturation was reached by the sixteenth interview; however, two further interviews were conducted to confirm results. Participants were categorised based on their reported use of MHR (see Fig. 1 for MHR use categorisation of participants).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 246,
+                    "end": 253,
+                    "text": "Table 2",
+                    "ref_id": "TABREF4"
+                },
+                {
+                    "start": 470,
+                    "end": 476,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Semi-structured interview results"
+        },
+        {
+            "text": "Initial coding led to the identification of 58 codes, which were then developed into three key overarching themes with multiple sub-themes within each: (1) benefits; (2) effectiveness, and; (3) barriers. Each theme and corresponding example quotes are presented below, additional quotes are available in Online Resource 1.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Semi-structured interview results"
+        },
+        {
+            "text": "Pharmacists and physicians who exhibit medium and high use of MHR reported more efficient patient care, particularly after hours when a patient's general practitioner or pharmacy may be closed and where a communication breakdown occurs with a patient. However, physicians raised the efficiency related benefits more frequently and more confidently than pharmacists: ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "There are efficiency benefits for clinicians associated with MHR use in the ED"
+        },
+        {
+            "text": "A number of pharmacist and physician respondents shared the view that MHR use improves patient medication management, reduces exposure to nephrotoxic agents and improves diagnostic accuracy, particularly where a patient's condition is considered complex: One pharmacist also raised that use of MHR indirectly improves patient care by drawing attention to what medications a patient is taking, which they are sometimes \"too embarrassed to talk about\" and could be the reason why they're admitted or not.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MHR use improves patient care and patient outcomes"
+        },
+        {
+            "text": "The use of MHR impacts the behaviour of pharmacists and physicians differently. The majority of pharmacists who report high use of MHR, tend to use MHR systematically and as an additional source of information to their current work:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Participant role linked to impact on workflow"
+        },
+        {
+            "text": "In contrast, physicians tend to use MHR to replace other sources of information, and consider MHR as a valid and trustworthy information source that is best used on an as needed basis:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "I'm always double-checking with the patients because sometimes the way they're taking [their medication] is different [from what is presented in MHR] [Pharmacist 05, high MHR user]."
+        },
+        {
+            "text": "Participants' perceptions of value were strongly associated with their MHR use patterns. Both pharmacists and physicians who claimed high MHR use perceived MHR to be extremely valuable to their practice:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Responsibility, motivation and value"
+        },
+        {
+            "text": "Pharmacists and physicians who reported low MHR use, offered a contrasting perspective and fail to see the benefits of MHR use for the patient or for themselves as clinicians:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Prescribed and dispensed information [in MHR] is usually more correct than what the patient can tell you [Physician 16, high MHR user]."
+        },
+        {
+            "text": "So, you could argue that the more information you have the longer you'll take to write your history -you knowbecause we've got more info. You're weeding through the problem list from 1963 [ Physician 14, low MHR user] .",
+            "cite_spans": [
+                {
+                    "start": 190,
+                    "end": 203,
+                    "text": "Physician 14,",
+                    "ref_id": null
+                },
+                {
+                    "start": 204,
+                    "end": 217,
+                    "text": "low MHR user]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Prescribed and dispensed information [in MHR] is usually more correct than what the patient can tell you [Physician 16, high MHR user]."
+        },
+        {
+            "text": "Low MHR users also expressed they felt that it was the patient's responsibility to ask or encourage them to use MHR: ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Prescribed and dispensed information [in MHR] is usually more correct than what the patient can tell you [Physician 16, high MHR user]."
+        },
+        {
+            "text": "Issues setting up access to MHR and logging in were raised by pharmacists and physicians who reported low and medium levels of MHR use:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Access issues and the need for training"
+        },
+        {
+            "text": "These users emphasised that because they had issues with logging in, they stopped trying and \"gave up\", which they said highlighted the need for training:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "I'm still not clear, at Cabrini anyway, how to easily access the medical record [Physician 10, low MHR user]."
+        },
+        {
+            "text": "In contrast, both pharmacists and physicians who reported high levels of MHR use were satisfied with the current accessibility and said that the system is intuitive. Despite the fact that almost all users who reported high levels of MHR use haven't had training to use MHR, the majority do not see the need: ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "I would probably have to be walked through it at some point [in order to use MHR] [Physician 12, low MHR user]."
+        },
+        {
+            "text": "The most frequently occurring barrier, often raised by users who exhibited medium and high levels of MHR use, was incomplete or irrelevant information: ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Incomplete information"
+        },
+        {
+            "text": "Many participants reported trust related concerns associated with the timeliness of information within MHR:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Trust issues associated with outdated or irrelevant information"
+        },
+        {
+            "text": "Two pharmacists in this study also acknowledged and provided examples where the ongoing impact of outdated information within MHR is likely to become an issue for this patient again or other healthcare providers in the future, suggesting a free-text section could provide a solution: ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The problem is a lot of these [patient records] end up being old information only and they're not necessarily excluding things that they've initiated and then tried and discarded [Pharmacist 01, high MHR user]."
+        },
+        {
+            "text": "Both pharmacists and physicians in this study express that there are multiple electronic medical record systems in place (such as the internal hospital medical record, MHR and SafeScript), which is a barrier to MHR becoming embedded: ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Multiple medical record systems"
+        },
+        {
+            "text": "This study is the first to leverage a mixed method design to explore MHR use by ED clinicians. Our research highlights differences between pharmacists and physicians in their decision to use MHR. The majority of physician's claim to use MHR as a replacement of other information sources (on an as needed basis), while pharmacists claim to regularly use MHR and as an additional source of information. Overall, participants in this study suggest MHR use is associated with efficiencies for staff and patients, and that use delivers improved patient care and patient outcomes. Despite the benefits raised, clinicians report numerous barriers that prevent optimal use and uptake of MHR and highlight the need for training to overcome these barriers.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The results of this study suggest there are critical differences between pharmacists and physicians with regards to the decision to use MHR. Consistent with behaviours exemplified by administrative and nursing staff in prior research [13] , pharmacists in our study adopted a systematic pattern of engagement with MHR. In contrast, physicians in our study accessed MHR for problematic cases and on an as-needed basis only, as demonstrated by physicians/nursing practitioners in the study by Bailey et al. [13] . Outside of Australia, systematic use of EHRs in EDs has been associated with larger cost savings, through reductions in costly imaging [13] . The findings presented in this study highlight an opportunity for further research to explore the cost benefits associated with systematic use of MHR in the Australian ED setting.",
+            "cite_spans": [
+                {
+                    "start": 234,
+                    "end": 238,
+                    "text": "[13]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 505,
+                    "end": 509,
+                    "text": "[13]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 647,
+                    "end": 651,
+                    "text": "[13]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "This study is among the first to demonstrate that clinicians associate MHR use with diagnostic accuracy benefits and efficiency gains (through the reduced utilisation of tests and time savings, particularly where a patient's condition is considered complex). This finding is consistent with research conducted outside of Australia involving regional centralised [13] and decentralised [42] EHR networks in the United States. The potential benefits demonstrated in this study, and in previous research, strengthen the need for MHR uptake and use in the ED setting. However, a number of barriers need to be overcome for this to occur.",
+            "cite_spans": [
+                {
+                    "start": 362,
+                    "end": 366,
+                    "text": "[13]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 385,
+                    "end": 389,
+                    "text": "[42]",
+                    "ref_id": "BIBREF43"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Clinicians in our study reported that a lack of training, poor accessibility and incomplete/insufficient content were barriers to MHR use, consistent with barriers commonly reported in previous research [2] . However, clinicians in our study also indicated that outdated content, no MHR and multiple electronic medical record systems are also barriers to MHR use. Given the perception of relative advantage is considered to be influential in a clinician's decision to engage with a new clinical activity [43, 44] , policy makers and healthcare management could consider training and awareness raising campaigns as an important step in the implementation process of EHRs.",
+            "cite_spans": [
+                {
+                    "start": 203,
+                    "end": 206,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 504,
+                    "end": 508,
+                    "text": "[43,",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 509,
+                    "end": 512,
+                    "text": "44]",
+                    "ref_id": "BIBREF45"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "There are important limitations to this research. This study included a single hospitals' ED experience and may limit the generalisability of the results to other healthcare organisations. However, the aim of this study was to explore a recent MHR implementation in the ED, so the lack of broad generalisability is unlikley a major concern. In addition, our interviews were restricted to 30 min in duration and held via video conference. Face-to-face interviews may have facilitated a longer format [45] , and thus more in-depth insights. However, our study took place during the novel coronavirus (COVID-19) global pandemic, therefore video conferencing supported a time efficient and viable alternative. In addition, the COVID-19 pandemic had implications on the Australian healthcare workforce, likely impacting staff at Cabrini Health and participants in this research [46] . For example, pressure to rebalance resources, changes in the number of inperson visits (including ED presentations) and changes to staff availability (due to exposure to COVID-19 and mental health challenges) may have reduced the number of available participants [46] . Despite the pandemic, the response rate to surveys and interviews was over 44%, a higher response rate than comparable studies with ED clinicians by Winden et al. [25] and Partridge, Affleck [47] , (response rates of 28.9% and 37%, respectively). Moreover, saturation was reached in the qualitative interviews, therefore the impact of COVID-19 on the study's outcomes was most likely minimal. Future at-scale research that explores the association between MHR use, efficiencies and patient outcomes in the ED is required. A study design that utilises EHR log data and/or an alternative observational component is recommended.",
+            "cite_spans": [
+                {
+                    "start": 499,
+                    "end": 503,
+                    "text": "[45]",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 873,
+                    "end": 877,
+                    "text": "[46]",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 1143,
+                    "end": 1147,
+                    "text": "[46]",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 1313,
+                    "end": 1317,
+                    "text": "[25]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 1341,
+                    "end": 1345,
+                    "text": "[47]",
+                    "ref_id": "BIBREF48"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "This study is among the first to provides insight into the perceived benefits and barriers associated with Australia's national EHR, MHR. Clinicians in this study associate use of MHR with efficiencies for healthcare staff and patients, particularly where a patient's condition is considered complex. Clinicians in this study felt that a lack of knowledge regarding how to access and use MHR are major barriers to use, and highlighted the need for training. Future research that utilises log data may provide an opportunity to scale observational research that explores MHR use.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Benefits and drawbacks of electronic health record systems",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Menachemi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Collum",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Risk Manage Healthcare Policy",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Towards routine use of national electronic health records in Australian emergency departments",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Miles",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hugman",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ryan",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Landgren",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Liong",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "The role and benefits of accessing primary care patient records during unscheduled care: a systematic review",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bowden",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Coiera",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "BMC Med Inform",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12911-017-0523-4"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "WHO: Global Health Observatory data",
+            "authors": [],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "ANAO: Implementation of the My Health Record System",
+            "authors": [],
+            "year": 2019,
+            "venue": "Australian National Audit Office",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Minister for Health press release",
+            "authors": [
+                {
+                    "first": "Australian",
+                    "middle": [],
+                    "last": "Government",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "15",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Usage and effect of health information exchange: a systematic review",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Rudin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Motala",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Goldzweig",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Shekelle",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Ann Intern Med",
+            "volume": "161",
+            "issn": "11",
+            "pages": "803--814",
+            "other_ids": {
+                "DOI": [
+                    "10.7326/M14-0877"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Using electronic medical record systems for admission decisions in emergency departments: examining the crowdedness effect",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Ben-Assuli",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Leshno",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Shabtai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Med Syst",
+            "volume": "36",
+            "issn": "6",
+            "pages": "3795--803",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s10916-012-9852-0"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "The financial impact of health information exchange on emergency department care",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Frisse",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Nian",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Davison",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Gadd",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Unertl",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Turri",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Am Med Inform Assoc",
+            "volume": "19",
+            "issn": "3",
+            "pages": "328--361",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/amiajnl-2011-000394"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Emergency department access to a longitudinal medical record",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Hripcsak",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sengupta",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wilcox",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Green",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J Am Med Inform Assoc",
+            "volume": "14",
+            "issn": "2",
+            "pages": "235--243",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Adoption, nonadoption, and abandonment of a personal electronic health record: case study of HealthSpace",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Greenhalgh",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hinder",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Stramer",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bratan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Russell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "BMJ",
+            "volume": "341",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "The Scottish Emergency Care Summary-an evaluation of a national shared record system aiming to improve patient care: technology report",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Morris",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Williamson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Wyatt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Innovat Health Inform",
+            "volume": "20",
+            "issn": "1",
+            "pages": "41--50",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Does health information exchange reduce unnecessary neuroimaging and improve quality of headache care in the emergency department?",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Bailey",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Wan",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mabry",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Landy",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Pope",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Waters",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Frisse",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Gen Intern Med",
+            "volume": "28",
+            "issn": "2",
+            "pages": "176--83",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11606-012-2092-7"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Same organization, same electronic health records (EHRs) system, different use: exploring the linkage between practice member communication patterns and EHR use patterns in an ambulatory care setting",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lanham",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Leykum",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mcdaniel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Am Med Inform Assoc",
+            "volume": "19",
+            "issn": "3",
+            "pages": "382--91",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "ADHA: My Health Record Statistics",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Towards routine use of national electronic health records in Australian emergency departments",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Miles",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hugman",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ryan",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Landgren",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Liong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Med J Aust",
+            "volume": "210",
+            "issn": "",
+            "pages": "7--9",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Toward a definition of mixed methods research",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Onwuegbuzie",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Turner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J Mixed Methods Res",
+            "volume": "1",
+            "issn": "2",
+            "pages": "112--145",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Using mixed-methods sequential explanatory design: from theory to practice",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Ivankova",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Creswell",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Stick",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Field Methods",
+            "volume": "18",
+            "issn": "1",
+            "pages": "3--20",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Qualitative, quantitative, and mixed methods approaches",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Creswell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "ADHA: Information for: Pharmacists. My Health Record: What's in it for me, and my patients?",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Elaboration, generalization, triangulation, and interpretation: on enhancing the value of mixed method research",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Gibson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Organizat Res Methods",
+            "volume": "20",
+            "issn": "2",
+            "pages": "193--223",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Addressing the challenges faced by early adolescents: a mixed-method evaluation of the benefits of peer support",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ellis",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Marsh",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Craven",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Am J Commun Psychol",
+            "volume": "44",
+            "issn": "1-2",
+            "pages": "54--75",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Toward a conceptual framework for mixed-method evaluation designs",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Greene",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Caracelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Graham",
+                    "suffix": ""
+                }
+            ],
+            "year": 1989,
+            "venue": "Educ Evaluat Policy Anal",
+            "volume": "11",
+            "issn": "3",
+            "pages": "255--74",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Clinical pharmacy services in the emergency department",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Morgan",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Acquisto",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Coralic",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Basalyga",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Campbell",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kelly",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Langkiet",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Pearson",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Sokn",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Phelan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Am J Emergency Med",
+            "volume": "36",
+            "issn": "10",
+            "pages": "1727--1759",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Care everywhere, a point-to-point HIE tool: utilization and impact on patient care in the ED",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Winden",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Boland",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Frey",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Satterlee",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hokanson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Appl Clin Inform",
+            "volume": "5",
+            "issn": "2",
+            "pages": "388--401",
+            "other_ids": {
+                "DOI": [
+                    "10.4338/ACI-2013-12-RA-0100"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Observational study and estimate of cost savings from use of a health information exchange in an academic emergency department",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Carr",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Gilman",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Krywko",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Moore",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Walker",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Saef",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J Emerg Med",
+            "volume": "46",
+            "issn": "2",
+            "pages": "250--256",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jemermed.2013.05.068"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Health information exchange in the ED: what do ED clinicians think",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Melvin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Saef",
+                    "suffix": ""
+                },
+                {
+                    "first": "Pierce",
+                    "middle": [],
+                    "last": "Ho",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Obeid",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Carr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "South Med J",
+            "volume": "109",
+            "issn": "7",
+            "pages": "419--445",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Clinician perceptions of My Health Record in mental health care: medication management and sharing mental health information",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Kariotis",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Harris",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Aust J Primary Health",
+            "volume": "25",
+            "issn": "1",
+            "pages": "66--71",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "The Scottish Emergency Care Summary-an evaluation of a national shared record system aiming to improve patient care: technology report",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Morris",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Williamson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Wyatt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Inform Prim Care",
+            "volume": "20",
+            "issn": "1",
+            "pages": "41--50",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Electronic health records: what are the most important barriers",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ayatollahi",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Mirani",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Haghani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Perspect",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "The use of shared medication record as part of medication reconciliation at hospital admission is feasible",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Munck",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Hansen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Molbak",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Balle",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kongsgren",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Dan Med J",
+            "volume": "61",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "An overview of mixed methods research",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Doyle",
+                    "suffix": ""
+                },
+                {
+                    "first": "A-M",
+                    "middle": [],
+                    "last": "Brady",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Byrne",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J Res Nurs",
+            "volume": "14",
+            "issn": "2",
+            "pages": "175--85",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Perceived burden of EHRs on physicians at different stages of their career",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Khairat",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Burke",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Archambault",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Schwartz",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Larson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ratwani",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Analyzing qualitative data: user-friendly handbook for mixed method evaluations",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Berkowitz",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Am J Geriatr Pharmacother",
+            "volume": "4",
+            "issn": "1",
+            "pages": "62--71",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Strategizing EHR use to achieve patient-centered care in exam rooms: a qualitative study on primary care providers",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ashfaq",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Bell",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Calvitti",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Farber",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Gabuzda",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Gray",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rick",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J Am Med Inform Assoc",
+            "volume": "23",
+            "issn": "1",
+            "pages": "137--180",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "First-year medical students can demonstrate EHR-specific communication skills: a control-group study",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Morrow",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Dobbie",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Jenkins",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Long",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mihalic",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wagner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Fam Med",
+            "volume": "41",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Conducting a research interview",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bolderston",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Med Imaging Radiat Sci",
+            "volume": "43",
+            "issn": "1",
+            "pages": "66--76",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Thematic analysis: striving to meet the trustworthiness criteria",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Nowell",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Norris",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "White",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Moules",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Int J Qualitat Methods",
+            "volume": "16",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Demonstrating rigor using thematic analysis: a hybrid approach of inductive and deductive coding and theme development",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Fereday",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Muir-Cochrane",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Int J Qualitat Methods",
+            "volume": "5",
+            "issn": "1",
+            "pages": "80--92",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Using thematic analysis in psychology",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Braun",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Clarke",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Qualitat Res Psychol",
+            "volume": "3",
+            "issn": "2",
+            "pages": "77--101",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "The impact of a health information exchange on resource use and medicare-allowable charges at eleven emergency departments operated by four major hospital systems in a midsized southeastern city: an observational study using clinician estimates",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Saef",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Bourne",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Bush",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Scott",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Gaafary",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Keenan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Walters",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kriza",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Walker",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Carr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Ann Emerg Med",
+            "volume": "62",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.annemergmed.2013.07.090"
+                ]
+            }
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Diffusion of innovations",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Rogers",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Diffusion of innovation theory for clinical change",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Sanson-Fisher",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Med J Aust",
+            "volume": "180",
+            "issn": "",
+            "pages": "55--61",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Surveys in social research",
+            "authors": [
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Vaus",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "De Vaus",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "PWC: COVID-19: Implications for the Australian healthcare workforce",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Verbal abuse and physical assault in the emergency department: rates of violence, perceptions of safety, and attitudes towards security",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Partridge",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Affleck",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Australas Emerg Nurs J",
+            "volume": "20",
+            "issn": "3",
+            "pages": "139--184",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "My Health Record use by semi-structured interview participants (n = 18)",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF3": {
+            "text": "Summary of My Health Record categories of use adapted from [14] MHR = My Health Record MHR use category Definition High Users in this category claim to display high integration of MHR with work practices. Individuals in this category exhibit: High MHR engagement Access MHR to view information every shift, often systematically Medium Users in this category claim to display moderate or sporadic integration of EHR with work practices. Individuals in this category exhibit: Moderate or sporadic MHR engagement Are unlikely to access MHR to view information every shift May find it challenging to access MHR through the local system Low Users in this category claim to have no integration of MHR with work practices. Individuals in this category exhibit the following items: No MHR use May use paper records or external sources (reached via fax or phone) as their primary informaion source May find it challenging to access MHR through the local system",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Demographic characteristics of survey and semi-structured interview participants, by role (pharmacist, physician)ED, emergency department; -data not collected",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "Perceived use, barriers and enablers associated with MHR use in the ED, by role (pharmacist, physician)",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "am mostly an out of hours worker at Cabrini, so that difference does play on [increase] my use of My Health Record, because [by using MHR] I can be more efficient to get medicine lists [Physician 16, high MHR user]. MHR use delivers efficiencies for patients Many pharmacist and physician respondents perceived MHR use reduced the time patients spent in the ED through the avoidance of unnecessary tests and scans, yet only two respondents could share examples of where this occurred in practice: [Using My Health Record] \u2026 meant he [the patient] was in the department for two hours instead of probably six to seven hours\u2026 he didn't have to have blood tests and big scans which he could potentially have had a reaction to \u2026 so yeah it enabled quicker and better medicine [Physician 11, medium MHR use].",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF8": {
+            "text": "haven't had a single patient actually ever bring it [MHR] up with me [Physician 10, low MHR user].",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF9": {
+            "text": "don't think so [that training would encourage use of MHR], for me it seems pretty intuitive [Physician 09, high MHR user].",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF10": {
+            "text": "If I see10 patients a shift, I might check the My Health Record two out of those ten times-and when I check the My Health Record I will probably find a valuable piece of information about ten percent of the time [Physician 13, high MHR user].",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF11": {
+            "text": "notes section where a pharmacist or someone else could actually make a note that this prescription may not be what the patient is actually taking [could provide a solution] [Pharmacist 02, high MHR user].",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF12": {
+            "text": "could imagine that if [the healthcare provider] was part of a My Health Record that would supersede it [its own internal medical record system] then you wouldn't even look on the Cabrini system [Physician 12, low MHR user].",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "This study is part of a PhD dissertation and was only feasible thanks to the support of a wide team of exceptional researchers at Monash University and Cabrini Health.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": "Author contributions All authors made contributions to all of the following: (1) the conception and design of the study, or acquisition of data, or analysis and interpretation of data, (2) drafting the article or revising it critically for important intellectual content, (3) approval of the version to be submitted.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "annex"
+        },
+        {
+            "text": "Cabrini Health provided a research grant for this project and Monash University a Research Training Program Stipend.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding"
+        },
+        {
+            "text": "The authors declare that there is no conflict of interest regarding the publication of this article.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of interest"
+        },
+        {
+            "text": "Informed consent was obtained from each participant prior to participation in this research.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Consent to participate"
+        },
+        {
+            "text": "The protocol for the study was reviewed and approved by the Cabrini ethics committee at the study site, in March 2020. The study was performed in accordance with the ethical standards as laid down in the 1964 Declaration of Helsinki and its later amendments or comparable ethical standards. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ethics approval"
+        }
+    ]
+}

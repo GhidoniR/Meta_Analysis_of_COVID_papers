@@ -1,0 +1,1444 @@
+{
+    "paper_id": "0ab5fecc43db329068e729a4cdffe2f2e91b1883",
+    "metadata": {
+        "title": "Rapid increase of SARS-CoV-2 variant B.1.1.7 detected in sewage samples",
+        "authors": [
+            {
+                "first": "Thomas",
+                "middle": [],
+                "last": "Wilton",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Erika",
+                "middle": [],
+                "last": "Bujaki",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Dimitra",
+                "middle": [],
+                "last": "Klapsa",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Martin",
+                "middle": [],
+                "last": "Fritzsche",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "National Institute for Biological Standards and Control (NIBSC)",
+                    "location": {
+                        "addrLine": "South Mimms, Potters Bar",
+                        "postCode": "EN6 3QG",
+                        "settlement": "Hertfordshire",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ryan",
+                "middle": [],
+                "last": "Mate",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "National Institute for Biological Standards and Control (NIBSC)",
+                    "location": {
+                        "addrLine": "South Mimms, Potters Bar",
+                        "postCode": "EN6 3QG",
+                        "settlement": "Hertfordshire",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Javier",
+                "middle": [],
+                "last": "Martin",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "SARS-CoV-2 variants with multiple amino acid mutations in the spike protein are emerging in different parts of the world raising concerns on their possible impact on human immune response to the virus and vaccine efficacy against them. Recently, a variant named lineage B.1.1.7 was detected and shown to be rapidly spreading across the UK since November 2020.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "As surveillance for these SARS-CoV-2 variants of concern (VOCs) becomes critical, we have investigated the use of environmental surveillance (ES) for the rapid detection and quantification of B.1.1.7 viruses in sewage as a way of monitoring its expansion that is independent on the investigation of identified clinical cases. B.1.1.7 mutations in viral sequences from sewage were first identified in a sample collected in London on 10 th November 2020 and shown to rapidly increase in frequency to >95% in January 2021, in agreement with clinical data over the same period. We show that ES can provide an early warning of VOCs becoming prevalent in the population and that, as well as B.1.1.7, our method can potentially detect VOCs B.1.351 and P.1, first identified in South Africa and Brazil, respectively, and other viruses also carrying critical spike mutation E484K, known to have an effect on virus antigenicity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "increase of between 0.4 and 0.7 in the reproduction number with respect to previous lineages [2] .",
+            "cite_spans": [
+                {
+                    "start": 93,
+                    "end": 96,
+                    "text": "[2]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Other VOCs have been identified recently, notably lineages B.1.351 and P.1, known to be circulating in South Africa since early October 2020 [11] and in Brazil since early December 2020 [12] , respectively, and also containing complex mutation constellations including N501Y amino acid change (Fig. 1) . B.1.351 and P.1 variants have two more spike mutations of biological significance: E484K and K417N/T, both located in the RBD and both important for ACE-2 binding and antibody recognition. Mutations at spike amino acid 484 have been shown to reduce binding to convalescent serum antibodies with neutralization by some sera reduced >10-fold [13] . Amino acid substitutions at residue 417, K417N in B.1.351 and K417T in P.1 appear to improve evasion from antibodies in combination with N501Y and E484K [14] . More recently, mutation E484K has been identified in a small number of B.1.1.7 viruses in England [15] , raising increased concerns about this variant. The effects of mutations found in the VOCs detailed above suggest that VOCs could be a threat to the protective efficacy of current vaccines by reducing vaccine-induced immunity against them. Recent research has shown that while B.1.1.7 is modestly resistant to sera from vaccinees, B.1.351 is markedly more resistant to neutralization by such sera and some COVID-19 vaccines appear to show reduced efficacy against this variant [16] [17] [18] [19] [20] . Although further research is required to fully understand the effect of spike mutations on vaccine efficacy, updating vaccine strains might be required in the future in a similar manner to what is common practice for flu vaccines.",
+            "cite_spans": [
+                {
+                    "start": 141,
+                    "end": 145,
+                    "text": "[11]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 186,
+                    "end": 190,
+                    "text": "[12]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 644,
+                    "end": 648,
+                    "text": "[13]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 804,
+                    "end": 808,
+                    "text": "[14]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 909,
+                    "end": 913,
+                    "text": "[15]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1392,
+                    "end": 1396,
+                    "text": "[16]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1397,
+                    "end": 1401,
+                    "text": "[17]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1402,
+                    "end": 1406,
+                    "text": "[18]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1407,
+                    "end": 1411,
+                    "text": "[19]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1412,
+                    "end": 1416,
+                    "text": "[20]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 293,
+                    "end": 301,
+                    "text": "(Fig. 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "The appearance and rapid growth of VOCs shows the need for enhanced genomic and epidemiological surveillance worldwide to ensure that any new spike changes that might arise are rapidly detected and their biological effects investigated. Environmental surveillance (ES) has proven to be a sensitive method for the detection and monitoring of SARS-CoV-2 circulation as described in multiple reports from many countries (reviewed in [21] ). As ES can produce a real-time snapshot of virus transmission at a given time point, including that from asymptomatic infections, it might provide precise information on the prevalence of VOCs in the population. We were able to detect SARS-CoV-2 viral RNA in sewage samples collected in London during the first wave of the pandemic with variation in viral RNA levels comparing to that of numbers of confirmed COVID-19 cases [22] . In addition, using next generation sequencing (NGS) analysis of DNA amplicons generated from sewage concentrates, we were able to track changes in variant predominance during the first stages of the pandemic detecting variants that were particularly prevalent in the UK and the rapid expansion of D614G variant reaching nearly complete dominance in May 2020 [22] . This variant, named D614G because it contains a mutation from A to G at nucleotide 23,403 resulting in amino acid change from Aspartic acid to Glycine at residue 614 of the spike protein, appeared to increase viral infectivity and transmissibility and was firstly described in late February 2020 in Italy rapidly expanding and becoming the dominant SARS-CoV-2 variant globally few months later [23] . Similar work by other groups have described the detection of co-circulating SARS-CoV-2 variants in sewage samples from different locations including a recent report describing the identification of B.1.1.7 lineage in sewage samples from Switzerland [24] [25] [26] [27] [28] .",
+            "cite_spans": [
+                {
+                    "start": 264,
+                    "end": 268,
+                    "text": "(ES)",
+                    "ref_id": null
+                },
+                {
+                    "start": 430,
+                    "end": 434,
+                    "text": "[21]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 861,
+                    "end": 865,
+                    "text": "[22]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1226,
+                    "end": 1230,
+                    "text": "[22]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1627,
+                    "end": 1631,
+                    "text": "[23]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1883,
+                    "end": 1887,
+                    "text": "[24]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1888,
+                    "end": 1892,
+                    "text": "[25]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1893,
+                    "end": 1897,
+                    "text": "[26]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1898,
+                    "end": 1902,
+                    "text": "[27]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1903,
+                    "end": 1907,
+                    "text": "[28]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In order to further evaluate the value of ES for SARS-CoV-2 detection, we have analysed sewage samples collected in London between 14 th January 2020 and 26 th January 2021 for the presence of SARS-CoV-2 using a semi-quantitative nested RT-PCR (nPCR) system targeting two different genomic regions as we have found this system to be more sensitive and consistent than quantitative RT-PCR assays [22] . More importantly, we have designed new nPCR reactions to generate DNA amplicons and analyse them by NGS with an . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [
+                {
+                    "start": 395,
+                    "end": 399,
+                    "text": "[22]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 7, 2021. ; https://doi.org/10.1101/2021.03.03.21252867 doi: medRxiv preprint aim to specifically detect and quantify the presence of key mutations that discriminate lineages B.1.1.7, B1.351 and P.1 from ancestral isolates and between themselves.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "One-litre inlet wastewater composite samples were collected during a 24-hour period at a sewage plant in London with a catchment area of approximately 4.0 x 10 6 people. Monthly samples collected every second Tuesday of the month were collected between 14 th January 2020 with an additional sample collected on 26th January 2021. Each sample was processed using a filtration-centrifugation method described before [22] . Briefly, following removal of solids by centrifugation at 3,000g, raw sewage was filtered through a 0.45 \u00b5M filter (Nalgene 500 ml Rapid-flow\u2122) and concentrated down to 200-400 \u03bcl using Merck Millipore Centricon\u2122 Plus-70 Centrifugal Filter Units with a 10 kDa molecular weight cut-off (Merck), following manufacturer's instructions. Samples from January to May 2020 reported before [22] were reanalysed in this study.",
+            "cite_spans": [
+                {
+                    "start": 414,
+                    "end": 418,
+                    "text": "[22]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 803,
+                    "end": 807,
+                    "text": "[22]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Wastewater sample collection and processing"
+        },
+        {
+            "text": "Viral RNA was purified from sewage concentrates using the High Pure viral RNA kit (Roche). RT-PCR fragments were amplified from purified viral RNAs using an nPCR system described before consisting of a one-step RT-PCR reaction followed by a second PCR using the first PCR product as template [22] . Genome location and nucleotide sequences of primer sets used for the PCR reactions are shown in Table S1 . Primer sets A and B targeting RdRP and ORF8b gene regions were used for diagnostic nPCRs. Primer sets C and D targeting spike gene regions were used for the detection of B.1.1.7, B.1.351 and P.1 lineages. As shown in Table 1 , sequence analysis of nPCR C and D products can discriminate between B.1.1.7, B.1.351 and . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [
+                {
+                    "start": 292,
+                    "end": 296,
+                    "text": "[22]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 395,
+                    "end": 403,
+                    "text": "Table S1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 623,
+                    "end": 630,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "nPCR amplifications"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 7, 2021. ; https://doi.org/10.1101/2021.03.03.21252867 doi: medRxiv preprint P.1 lineages and between them and ancestral isolates. Primers were tested using serial dilutions of purified RNA from NIBSC's virus reagent 19/304 containing non-infectious synthetic SARS-CoV-2 RNA packaged within a lentiviral vector (https://www.nibsc.org/products/brm_product_catalogue/detail_page.aspx?catid=19/304). 12 RNA aliquots from each sewage sample were used for nPCR amplifications for each nPCR reaction. Good laboratory practices were observed in all assays to reduce the possibility of cross-contamination; using different laboratory locations for sample processing, preparation of reaction mixtures, template addition and post-processing analysis. RNA extraction and negative template controls were included in every assay. Selected purified DNA amplicon products were sequenced by the Sanger method using an ABI Prism 3130 genetic analyser (Applied Biosystems).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "nPCR amplifications"
+        },
+        {
+            "text": "NGS libraries were constructed as reported before [22] using the DNA Prep kit (formerly known as Nextera DNA Flex) and dual-indexed using Nextera DNA CD Indexes (both Illumina).",
+            "cite_spans": [
+                {
+                    "start": 50,
+                    "end": 54,
+                    "text": "[22]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "NGS analysis of nPCR products"
+        },
+        {
+            "text": "These libraries were pooled in equimolar concentrations and sequenced with 250 bp paired-end reads on MiSeq v2 (500 cycles) kits (Illumina, USA). Initial demultiplexing was performed onboard by the MiSeq Reporter software. FASTQ sequencing data was adapter and quality trimmed by Cutadapt v2.10 [29] for a minimum Phred score of Q30, minimal read length of 75 bp, and 0 ambiguous nucleotides.",
+            "cite_spans": [
+                {
+                    "start": 295,
+                    "end": 299,
+                    "text": "[29]",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "NGS analysis of nPCR products"
+        },
+        {
+            "text": "Further processing and analysis of NGS data was performed using Geneious 10.2.3 software as described before [22] . Filtered reads were imported into Geneious 10.2.3, paired end reads combined and merged and sequence contigs built by reference-guided assembly. Reads . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 109,
+                    "end": 113,
+                    "text": "[22]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Generation of SARS-CoV-2 sequence contigs and identification of SNPs"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 7, 2021. ; https://doi.org/10.1101/2021.03.03.21252867 doi: medRxiv preprint were mapped to references with a minimum 50 base overlap, minimum overlap identity of 90%, maximum 10% mismatches per read, allowing up to 15% gaps, and index word length of 12.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Single nucleotide polymorphisms (SNPs) were identified using Geneious 10.2.3 default settings.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The original SARS-CoV-2 Wuhan-Hu-1 strain (GenBank accession number MN908947) was used as a reference. Variants with coverage <500, average quality <30, variant frequency <5% and variant P-value >10 -6 were excluded. The analysis of several amplicon replicates per sample is critical to reduce sampling effects and increase the accuracy of SNP determinations for viral genomes present in a given sewage sample. If we set up a conservative limit of 5% for any SNP found in any replicate amplicon sequence to be accepted as genuinely present in viral RNAs, and given that we sequenced 12 independent RNA replicates per sample and nPCR reaction, the limit of detection for detecting a sequence variant would be approximately 0.42%, which seems reasonably low for the early detection of the spread of SARS-CoV-2 variants of potential concern. If we consider sequencing 5% of all positive clinical samples as a minimum requirement, which is currently only achieved in a handful of countries, a 0.42% prevalence of a variant would mean finding 21 to 105 viruses among 10,000 to 50,000 new daily positive cases, respectively. However, for clinical surveillance to be representative and have comparable sensitivity to ES, widespread and consistent clinical sampling across the sewage catchment area would be needed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "SARS-CoV-2 sequences obtained in this study were compared to those available in the Global Initiative on Sharing All Influenza Data (GISAID) SARS-CoV-2 sequence database [10] . The COVID-19 Genomics (COG-UK) Consortium / Mutation Explorer with sequencing data generated by 28th February 2021 (http://sars2.cvr.gla.ac.uk/cog-uk/) was also used to . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. ",
+            "cite_spans": [
+                {
+                    "start": 170,
+                    "end": 174,
+                    "text": "[10]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "SARS-CoV-2 nucleotide sequence analysis and estimates of the prevalence of B.1.1.7 lineage among whole-genome sequences from clinical samples"
+        },
+        {
+            "text": "Statistical analysis and graphical representation of sequence frequency data were conducted using GraphPad Prism version 8.1.2 software.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "Twelve different RNA replicates from each sewage concentrate were used to generate nPCR products with primer combinations A and B (Table S1) Fig. S1 . Estimates of B.1.1.7 prevalence based on NGS data were in very good agreement with those from whole-genome sequencing and SGTF data from clinical samples from London and England [1, 2] ; according to the GISAID sequence database [10] , the frequency rates of B.1.1.7 sequences from England during the week before and the week after sewage sample collection were 3.42% and 7.34% for 10 th November, 25.19% and 42.67% for 8 th December, 81.08% and 83.44% for 12 th January, and . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 329,
+                    "end": 332,
+                    "text": "[1,",
+                    "ref_id": null
+                },
+                {
+                    "start": 333,
+                    "end": 335,
+                    "text": "2]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 380,
+                    "end": 384,
+                    "text": "[10]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 130,
+                    "end": 140,
+                    "text": "(Table S1)",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 141,
+                    "end": 148,
+                    "text": "Fig. S1",
+                    "ref_id": null
+                }
+            ],
+            "section": "nPCR amplifications to estimate SARS-CoV-2 RNA levels in sewage samples"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 7, 2021. ; https://doi.org/10.1101/2021.03.03.21252867 doi: medRxiv preprint 89.61% and 94.26% for 26 th January, very much in line to what was observed in sewage ( Table 2 ). As shown in Fig. 4, frequency rates Additional nucleotide sequence variations were found at different sites in amplicons from sewage samples, but none followed the same pattern as that observed with B.1.1.7 mutations, which were repeatedly detected in replicate viral RNA sequences and consistently found in sequential samples in increasing proportions.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 230,
+                    "end": 237,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 253,
+                    "end": 276,
+                    "text": "Fig. 4, frequency rates",
+                    "ref_id": null
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "We were able to detect SARS-CoV-2 RNA in sewage samples from London throughout the COVID-19 pandemic with changes in viral RNA levels shown to be in good agreement with those of confirmed COVID-19 cases reflecting national restrictions (Fig. 2) . showing an unusual constellation of mutations was then found that could explain the persistent high infection rates [3, 15] . Retrospective analysis showed that the two earliest [13, [16] [17] [18] [19] [20] , was not detected in viral genomes from sewage. This mutation has recently been found in a small number of B.1.1.7 isolates in England but mostly in locations away from London [15] . We expect that the methods shown here can help to rapidly identify such mutants as well as B.1.351 and P.1 lineages in the same way that we have identified B.1.1.7 viruses (Table 1) . These methods can also be used to sequence SARS- up enough data representative of current transmission patterns that is comparable to that provided by ES. In addition, as most clinical testing is based on samples from symptomatic infections, a delay of several days is expected between initial infection and viral sequence data availability due to the time required for symptoms to develop, samples to be collected and PCR/sequencing analyses to be completed. Clinical surveillance is highly dependable on rapid and widespread PCR testing as well as an extensive whole-genome sequencing program. This is currently only happening in a handful of countries so, in most locations, ES could be a major asset for monitoring SARS-CoV-2 virus circulation and identifying VOCs.",
+            "cite_spans": [
+                {
+                    "start": 363,
+                    "end": 366,
+                    "text": "[3,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 367,
+                    "end": 370,
+                    "text": "15]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 425,
+                    "end": 429,
+                    "text": "[13,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 430,
+                    "end": 434,
+                    "text": "[16]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 435,
+                    "end": 439,
+                    "text": "[17]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 440,
+                    "end": 444,
+                    "text": "[18]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 445,
+                    "end": 449,
+                    "text": "[19]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 450,
+                    "end": 454,
+                    "text": "[20]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 632,
+                    "end": 636,
+                    "text": "[15]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 236,
+                    "end": 244,
+                    "text": "(Fig. 2)",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 811,
+                    "end": 820,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "On the other hand, identification of locally circulating VOCs could be delayed using ES at sites that cover very large populations and therefore, community-based ES targeting smaller populations would increase the sensitivity for detection of such VOCs, e.g. current efforts to track down transmission of B.1.1.7 viruses harbouring mutation E484K in England could be helped by community-based ES in areas where isolation of such viruses are known to have occurred. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Wuhan-Hu-1 strain (GenBank accession number MN908947); First detected in the UK 2 , South Africa 3 or Brazil 4 ;",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Single-letter amino acid codes are used. Changes from wt sequence are indicated in italic and shaded. Primers for nPCR reactions are shown in Table S1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 142,
+                    "end": 150,
+                    "text": "Table S1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 7, 2021. ; https://doi.org/10.1101/2021.03.03.21252867 doi: medRxiv preprint . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 7, 2021. ; https://doi.org/10.1101/2021.03.03.21252867 doi: medRxiv preprint Table S1 . Primers used for nested RT-PCR (nPCR) reactions.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 142,
+                    "end": 150,
+                    "text": "Table S1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Discussion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Investigation of novel SARS-COV-2 variant: Variant of Concern 202012/01 (PDF) Investigation of novel SARS-COV-2",
+            "authors": [
+                {
+                    "first": "Erik",
+                    "middle": [
+                        ";"
+                    ],
+                    "last": "Volz",
+                    "suffix": ""
+                },
+                {
+                    "first": "Nick",
+                    "middle": [
+                        ";"
+                    ],
+                    "last": "Loman",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Rambaut",
+                    "suffix": ""
+                },
+                {
+                    "first": ";",
+                    "middle": [],
+                    "last": "Andrew",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jeff",
+                    "middle": [],
+                    "last": "Barrett",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Transmission of SARS-CoV-2 Lineage B.1.1.7 in England: Insights from linking epidemiological and genetic data",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Volz",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mishra",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chand",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2021",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Preliminary genomic characterisation of an emergent SARS-CoV-2 lineage in the UK defined by a novel set of spike mutations",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rambaut",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Loman",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Pybus",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "An engineered decoy receptor for SARS-CoV-2 broadly binds protein S sequence variants",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Tjc",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Narayanan",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Procko",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "A Multibasic Cleavage Site in the Spike Protein of SARS-CoV-2 Is Essential for Infection of Human Lung Cells",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hoffmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kleine-Weber",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pohlmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Mol Cell",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Furin Cleavage Site Is Key to SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Kalveram",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Recurrent emergence and transmission of a SARS-CoV-2 Spike deletion H69/V70",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kemp",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Harvey",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lytras",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2021",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "disease and diplomacy: GISAID's innovative contribution to global health",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Elbe",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Buckland-Merrett",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Data",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Glob Chall",
+            "volume": "1",
+            "issn": "",
+            "pages": "33--46",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Emergence and rapid spread of a new severe acute respiratory syndrome-related coronavirus 2 (SARS-CoV-2) lineage with multiple spike mutations in South Africa",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Tegally",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Wilkinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Giovanetti",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Genomic characterisation of an emergent SARS-CoV-2 lineage in Manaus: preliminary findings",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Faria",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Claro",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Candido",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Comprehensive mapping of mutations to the SARS-CoV-2 receptor-binding domain that affect recognition by polyclonal human serum antibodies",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Greaney",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Loes",
+                    "suffix": ""
+                },
+                {
+                    "first": "Khd",
+                    "middle": [],
+                    "last": "Crawford",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2021",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Impact of South African 501.V2 Variant on SARS-CoV-2 Spike Infectivity and Neutralization: A Structure-based Computational Assessment",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Krieger",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Kaynak",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Arditi",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Bahar",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Investigation of novel SARS-CoV-2 Variant of Concern 202012/01",
+            "authors": [
+                {
+                    "first": "Public",
+                    "middle": [],
+                    "last": "Health England",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "mRNA-1273 vaccine induces neutralizing antibodies against spike mutants from global SARS-CoV-2 variants",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Werner",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Moliva",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2021",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "mRNA vaccine-elicited antibodies to SARS-CoV-2 and circulating variants",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Schmidt",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Weisblum",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2021",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Increased Resistance of SARS-CoV-2 Variants B.1.351 and B.1.1.7 to Antibody Neutralization",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Iketani",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2021",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Neutralization of SARS-CoV-2 spike 69/70 deletion, E484K, and N501Y variants by BNT162b2 vaccine-elicited sera",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2021",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Neutralization of SARS-CoV-2 lineage B.1.1.7 pseudovirus by BNT162b2 vaccine-elicited human sera",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Muik",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Wallisch",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Sanger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Science",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "SARS-CoV-2 from faeces to wastewater treatment: What do we know? A review",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Foladori",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Cutrupi",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Segata",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Sci Total Environ",
+            "volume": "743",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Tracking SARS-CoV-2 in Sewage: Evidence of Changes in Virus Variant Predominance during COVID-19 Pandemic",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Martin",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Klapsa",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Wilton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Viruses",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Tracking Changes in SARS-CoV-2 Spike: Evidence that D614G Increases Infectivity of the COVID-19 Virus",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Korber",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Fischer",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gnanakaran",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell",
+            "volume": "182",
+            "issn": "",
+            "pages": "812--839",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Detection of SARS-CoV-2 variants in Switzerland by genomic analysis of wastewater samples",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Jahn",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Dreifuss",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Topolsky",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2021",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Monitoring SARS-CoV-2 circulation and diversity through community wastewater sequencing",
+            "authors": [
+                {
+                    "first": "Izquierdo",
+                    "middle": [],
+                    "last": "Lara",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Elsinga",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Heijnen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Atropos: specific, sensitive, and speedy trimming of sequencing reads",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Didion",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Martin",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Collins",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "PeerJ",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Conformational dynamics of SARS-CoV-2 trimeric spike glycoprotein in complex with receptor ACE2 revealed by cryo-EM",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Sci Adv",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Cc-By-Nc-Nd",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "presence and proportion of selected viral amino acid variations in clinical samples. Geneious version 10.2.3 software (Biomatters) was used for these analyses. Estimates of the proportion of viruses belonging to B.1.1.7 lineage at different time points in England were obtained using the GISAID SARS-CoV-2 sequence database [10] with results available on 1 st March 2021.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "targeting RdRP and ORF8b gene regions, respectively. 14 sewage samples collected between 14 th January 2020 and 26 th January 2021 were analysed. The proportion of positive PCR results for each sample was used as a semi-quantitative comparison of RNA levels present in sewage samples. The results are shown in Fig. 2 in the context of epidemiological data. As we have shown before, a sample from 14 th January 2020 was negative and only low levels of viral RNA were detected in the sample from 11 th February 2020 [22], 3 days before the first COVID-19 cases were confirmed in the area. Viral RNA concentration increased in March and April during the first wave of the pandemic and sharply declined in May as a result of nationwide lockdown measures introduced from 23rd March. Following a period of about 4 months with low level virus transmission, SARS-CoV-2 RNA levels increased again in sewage from early September in agreement with increasing COVID-19 confirmed cases. Selected PCR products NGS analysis of nPCR products for the detection of SARS-CoV-2 B.1.1.7, B1.351 and P.1 lineages Twelve additional RNA replicates from each sewage concentrate were used to generate nPCR products with primer combinations C and D (Table S1), mapping in the spike protein gene. All amplicons from positive nPCR reactions were analysed by NGS with an aim to detect and quantify nucleotide sequence variations specifically found in B.1.1.7, B1.351 and P.1 lineages (Table 1). Nucleotide sequences characteristic of lineage B.1.1.7 were detected in sewage samples from 10 th November 2020 onwards. Mean sequence frequency values at key nucleotide positions, calculated from all sequenced replicates for each monthly sewage sample, are shown in Fig. 3. The results show that mutations discriminating B.1.1.7 lineage from ancestral isolates, which include relevant mutations coding for amino acid changes and amino acid deletions (Table 1), clearly increased in frequency between November 2020 and January 2021 from 6.84-8.88% on 10 th November to 43,99-46.36% on 8 th December 2020, 93.60-94.13% on 12 th January 2021 and 95.25-98.83% on 26 th January 2021. An example of NGS results showing an increasing proportion of nucleotides 21765-21770 deletion (deletion of amino acids HV69-70) in viral RNAs from sequential sewage samples is shown in",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "perfectly when represented together (using clinical data from one week after sewage sample collection dates). In contrast, none of the nucleotide substitutions unique to B.1.351 and P.1 lineages (Table 1) in any of the three nPCR products were detected in relevant amplicons from any of the sewage samples.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "The second lockdown period lasting from 5 th November to 2 nd December appear to only havehad a limited effect in reducing virus transmission which, together with the emergence of the apparently highly transmissible B.1.1.7 variant, may explain the high levels of viral RNA found in sewage and the high number of SARS-CoV-2 infections reported in England in December 2020 and January 2021. One in 50 people in England (1 in 30 in London) were estimated to have had SARS-CoV-2 infection in the week ending 2 January according to an infection survey by the Office for National Statistics [30]. The third nationwide lockdown initiated on 4th January 2021 is having a clear effect at reducing virus transmission as judged by the observed drop in COVID-19 confirmed cases, but as of 26 th January 2021, SARS-levels remained high in sewage (Fig. 2) reflecting the extent of virus transmission occurring during the third wave of the COVID-19 epidemic. Although, detailed quantification of SARS-CoV-2 RNA in sewage and its correlation with COVID-19 infection prevalence was outside the scope of this paper and would require more frequent and widespread sampling, our results suggest that high viral RNA concentration levels could be detected preceding peaks in COVID-19 confirmed cases showing the potential predictive value of ES as it has been shown in other studies [21] . NGS analysis of DNA amplicons directly synthesized from SARS-CoV-2 RNA present in sewage concentrates from London allowed us to readily identify viruses belonging to B.1.1.7 lineage before widespread transmission of this variant was obvious. We were able to detect B.1.1.7 variant at a frequency of 6.84-8.88% in a sample collected on 10 th November 2020, few weeks before it was first noticed through clinical surveillance. B.1.1.7 variant first became apparent in late November 2020 when PHE was investigating why infection rates in Kent remained high despite national restrictions. A concerning cluster of virus isolates",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "genomes belonging to B.1.1.7 lineage were collected on 20 th September and 21 st September 2020 in Kent and London, respectively. B.1.1.7 is believed to have circulated at very low levels in the population until mid-November from when it rapidly spread across the country. The frequency rates of B.1.1.7 sequences observed in sewage between November 2020 and January 2021 were very similar to those of COVID-19 cases associated with infection by B.1.1.7 viruses at around the time of sewage sample collection (Table 2). B.1.1.7 was not detected in the sewage sample from 13 th October 2020 consistent with the fact that the frequency of B.1.1.7 viruses identified in clinical samples collected in the weeks before and after 13 th October 2020 was <0.08% in the whole of England. The proportion of B.1.evidence of the presence of variants B.1.351 and P.1 was found in any of the sewage samples, which was expected as only a small number of B.1.351 isolates had been found in England at that time, not necessarily in London, and no P.1 viruses had been detected in the UK yet. G23012A nucleotide substitution present in both B.1.351 and P.1 lineages and responsible for spike amino acid change E484K and which is thought to play a critical role at changing virus antigenicity and reducing human immune response to the virus and vaccine efficacy",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "in clinical samples using traditional Sanger sequencing for the rapid identification of VOCs in settings were whole-genome sequencing capabilities are limited. New PCRs can be quickly designed to track down new VOCs that might arise anywhere and detect importations. Furthermore, systematic sequencing of the spike gene of viral RNAs present in sewage samples collected regularly would help proactively identifying potential new VOCs based on mutations and trends encountered. Eventually, if vaccine strains need to be regularly updated as it is current practice with flu vaccines, ES could be a useful resource to help vaccine strain selection based on prevalent SARS-CoV-2 variants circulating around the world. As we show here, ES has a potential advantage for the early detection of VOCs versus clinical surveillance as it provides an immediate snapshot of virus transmission events representing thousands/millions of people, including asymptomatic infections. The methods can provide sequencing results within one week of sewage samples arriving in the laboratory. According to the GISAID sequence database [10], only 33 B.1.1.7 sequences had been identified on 16 th November 2020 in England, one week after the collection date of our first positive sewage sample. Even in the context of the phenomenal SARS-CoV-2 sequencing program established in England, clinical surveillance requires some time to build",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Nucleotide and amino acid differences between VOCs and ancestral isolates",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Frequency of SARS-CoV-2 B.1.1.7 lineage in sewage and clinical samples Cells are shaded according to values shown, from the lowest (light grey) to the highest (dark grey). 1 Data from the GISAID sequence database [10] consulted on 13 February 2021.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

@@ -1,0 +1,3666 @@
+{
+    "paper_id": "0aacb004a21c1a7a24c0a512e198418e48259aba",
+    "metadata": {
+        "title": "Synthesis, molecular docking, and in silico ADMET studies of 4-ben- zyl-1-(2,4,6-trimethyl-benzyl)-piperidine: Potential Inhibitor of SARS-CoV2",
+        "authors": [
+            {
+                "first": "R",
+                "middle": [],
+                "last": "Nandini Asha",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Manonmaniam Sundaranar University",
+                    "location": {
+                        "addrLine": "Sawyerpuram-628251",
+                        "postCode": "627012",
+                        "settlement": "Tirunelveli"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "B",
+                "middle": [],
+                "last": "Ravindran",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Durai",
+                "middle": [],
+                "last": "Nayagam",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Manonmaniam Sundaranar University",
+                    "location": {
+                        "addrLine": "Sawyerpuram-628251",
+                        "postCode": "627012",
+                        "settlement": "Tirunelveli"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Nattamai",
+                "middle": [],
+                "last": "Bhuvanesh",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Texas A&M University",
+                    "location": {
+                        "postCode": "77842",
+                        "settlement": "College Station",
+                        "region": "TX",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Nowadays, over 200 countries face a wellbeing emergency because of epidemiological disease COVID-19 caused by the SARS-CoV-2 virus. It will cause a very high effect on the world's economy and the worldwide health sector. The present work is an investigation of the newly synthesized 4-benzyl-1-(2,4,6-trimethyl-benzyl)-piperidine (M1BZP) molecule's inhibitory potential against important protein targets of SARS-CoV-2 using computational approaches. M1BZP crystallizes in monoclinic type with P1211 space group. For the title compound M1BZP, spectroscopic characterization like 1 H NMR, 13 C NMR, FTIR, were carried out. The geometry of the compound had been optimized by the DFT method and its results were compared with the X-ray diffraction data. The calculated energies for the Highest Occupied Molecular Orbital (HOMO) and the Lowest Unoccupied Molecular Orbital (LUMO) showed the stability and reactivity of the title compound. Intermolecular interactions in the crystal network were determined using Hirshfeld surface analyses. The molecular electrostatic potential (MEP) picture was drawn using the same level of theory to visualize the chemical reactivity and charge distribution on the molecule. Molecular docking study performed for the synthesized compound revealed an efficient interaction with the COVID-19 protease and resulted in good activities. We hope the present study would help workers in the field to develop potential vaccines and therapeutics against the novel coronavirus. Virtual ADME studies were carried out as well and a relationship between biological, electronic, and physicochemical qualifications of the target compound was determined. Toxicity prediction by computational technique for the title compound was also carried out.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The recently declared global emergency following the outbreak of COVID-19 has raised awareness of tackling the disease with more effective therapeutic means. Coronavirus Disease-2019 (COVID-19) is a respiratory disease caused by the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) which is a novel single-stranded RNA virus of the Coronaviridae family [1] . Although the SARS-CoV-2 virus primarily affects the respiratory system, other organ systems are also involved. Lower respiratory tract infection related symptoms including fever, dry cough, and dyspnea were reported. It is now widely recognized that respiratory symptoms of COVID-19 are extremely heterogeneous, ranging from minimal symptoms to significant hypoxia with ARDS [2] . Being RNA viruses, CoVs readily evolve by mutation and homologous and non-homologous recombination, which expands their host range and facilitates the crossing of species barriers [3] . Coronaviruses are spherical in shape. Their most prominent feature is club-like projections on the virus surface which are referred to as \"spikes\". Human coronaviruses are positive-sense RNA (30 kb) viruses. Two types of proteins characterize HCoVs, structural protein [spike (S), envelope (E), membrane (M), nucleocapsid (N)], and non-structural proteins (nsp1 up to nsp16) including the RNA dependent RNA polymerase [4, 5] . Among non-structural proteins, nsp12 (RNA-dependent RNA polymerase-RdRp) is important in the replication and transcription of the viral genome [6] . For SARS-CoV and SARS-CoV2, the S protein is the primary determinant for host tropism and pathogenicity. It is the main target for neutralizing antibodies and therefore of great interest in terms of immunological response and vaccine design [7] . When we set our sights on the broad-spectrum antiviral drugs, we found that a drug unlisted, Remdesivir, has demonstrated strength in trials related to MERS-CoV and Ebola virus infection. In the United States, the first patient with COVID-19 has shown significant improvement in clinical symptoms within 24 h of treatment with Remdesivir [8] [9] [10] . This case has convinced the public that Remdesivir could become a new \"specific drug\" for COVID-19. Because of the urgency and current need, scientists are involved in reusing already approved drug candidates to test in COVID-19 patients. This is carried out to reduce cost, time, and also the risks involved in the drug development process. No drug or vaccine has been approved yet. Pei Liu et al identified several N-substituted compounds as potent SARS-CoV-2 3C-like protease inhibitors [11] . Sathiskumar et al tested several coumarin analogues as an inhibitor of SARS-CoV-2 [12] .",
+            "cite_spans": [
+                {
+                    "start": 365,
+                    "end": 368,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 746,
+                    "end": 749,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 932,
+                    "end": 935,
+                    "text": "[3]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1356,
+                    "end": 1359,
+                    "text": "[4,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1360,
+                    "end": 1362,
+                    "text": "5]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1508,
+                    "end": 1511,
+                    "text": "[6]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1755,
+                    "end": 1758,
+                    "text": "[7]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 2099,
+                    "end": 2102,
+                    "text": "[8]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 2103,
+                    "end": 2106,
+                    "text": "[9]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 2107,
+                    "end": 2111,
+                    "text": "[10]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 2604,
+                    "end": 2608,
+                    "text": "[11]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 2693,
+                    "end": 2697,
+                    "text": "[12]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Computer-aided drug design technology minimizes wastage of time and financial burden in the drug discovery process. Research in the pharmaceutical industry has shown a great increase and progress in modern computational medicinal chemistry [13] . Also, pharmacodynamic (potency, affinity, efficacy, and selectivity), pharmacokinetic (ADME: absorption, distribution, metabolism, and excretion), and toxicity data of molecules can be evaluated and analysed using that technology [14] . As a result, all these methods contribute to an efficient and selective drug discovery process [15] . In this study, we report the synthesis of the title compound M1BZP and single crystal XRD structural investigation supported by various spectroscopic characterization techniques ( 1 H NMR, 13 C NMR, FT-IR) which is validated by DFT analysis. HOMO and LUMO, Mulliken charges, and MEP of the title compound were also accounted. Further M1BZP is evaluated for its potential against COVID-19 proteins through molecular docking. Based on the ligand docking technique, inhibition against the SARS-CoV-2 virus proteins is concluded. The drug-likeness and Toxicity screening of M1BZP were screened based on ADMET properties.",
+            "cite_spans": [
+                {
+                    "start": 240,
+                    "end": 244,
+                    "text": "[13]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 477,
+                    "end": 481,
+                    "text": "[14]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 579,
+                    "end": 583,
+                    "text": "[15]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "All the chemicals and solvents were acquired from commercial sources with high purity and analar grade. Melting points were obtained in open capillaries on a Gallen Kemp melting point apparatus (Sanyo). Pre-coated silica gel plates (silica gel 0.25 mm, 60 G F 254; Merck, Germany) were used for thin-layer chromatography and chloroform/ acetone (9.5:0.5 mL) mixture for developing solvent system. The IR spectra were obtained in KBr discs using JASCO 4600 (Japan) spectrometer. 1 H and 13 C NMR spectra (in DMSO-d 6 ) were recorded on Bruker Avance III, 400 MHz, 9.4 Tesla superconducting magnet using DMSO as a solvent. Single crystals obtained were characterized using a BRUKER Quest X-ray (fixed-Chi geometry) diffractometer. The goniometer was controlled using the APEX3 software suite [16] . The absorption correction program SADABS [17] was employed to correct the data for absorption effects. A solution was obtained readily using XT/XS in APEX3. The absence of additional symmetry and voids was confirmed using PLATON (ADDSYM) [18] [19] [20] . The structure was refined (weighted least-squares refinement on F 2 ) to convergence. Olex 2 was employed for the final data presentation and structure plots [21] .",
+            "cite_spans": [
+                {
+                    "start": 478,
+                    "end": 479,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 790,
+                    "end": 794,
+                    "text": "[16]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 838,
+                    "end": 842,
+                    "text": "[17]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1035,
+                    "end": 1039,
+                    "text": "[18]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1040,
+                    "end": 1044,
+                    "text": "[19]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1045,
+                    "end": 1049,
+                    "text": "[20]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1210,
+                    "end": 1214,
+                    "text": "[21]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Materials and methods"
+        },
+        {
+            "text": "Mesitylene (12.0 g, 0.10 mol), paraformaldehyde (3.08 g, 0.10 mol), 50 mL of glacial acetic acid, and 20 mL of 31 wt% HBr/acetic acid solutions were stirred at 80 \u2022 C. After 2 h, the reaction mixture was poured into 100 mL of water. The product 2-bromomethyl mesitylene was filtered and vacuum-dried at room temperature [22] . 4-benzyl-1-(2,4,6-trimethyl-benzyl ",
+            "cite_spans": [
+                {
+                    "start": 320,
+                    "end": 324,
+                    "text": "[22]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 327,
+                    "end": 361,
+                    "text": "4-benzyl-1-(2,4,6-trimethyl-benzyl",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Synthesis of 2-bromomethylmesitylene (M1)"
+        },
+        {
+            "text": "Dissolve 2-bromomethylmesitylene and 4-benzyl piperidine (1:1) was dissolved separately in methanol, and heated at 80 \u2022 C, and stirred continuously for 1 h. The solid was filtered and vacuum-dried (Scheme 1). The dried solid was recrystallized using chloroform. Single crystal of M1BZP formed in the solution has a single spot in TLC (R f 0.60) in silica gel and chloroform: acetone (70:30%v/v) eluent. The qualitative analysis confirmed the absence of bromide and the presence of nitrogen. The yield was 85% with m.pt. 47-49 \u2022 C. FTIR (KBr, cm \u2212 1 ) (Fig.S1) ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 551,
+                    "end": 559,
+                    "text": "(Fig.S1)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Synthesis of"
+        },
+        {
+            "text": "To procure an in-depth knowledge about the physical and chemical properties of the above investigated crystal structure, density functional theory (DFT) calculations were performed using a 6-311 + G(d,p) basis set by GAMESS (US) software [23] . The molecular orbital structures and molecular electrostatic potential diagram are visualized using Jmol 14.30.2 [24] .",
+            "cite_spans": [
+                {
+                    "start": 238,
+                    "end": 242,
+                    "text": "[23]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 358,
+                    "end": 362,
+                    "text": "[24]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DFT studies"
+        },
+        {
+            "text": "The molecular Hirshfeld surfaces analysis was carried out to validate the various types of noncovalent interaction present in the crystal structure and their 2D fingerprint plots (FPs) were generated using CrystalExplorer 17.5 [25] software.",
+            "cite_spans": [
+                {
+                    "start": 227,
+                    "end": 231,
+                    "text": "[25]",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Hirshfeld surface analysis"
+        },
+        {
+            "text": "To verify the binding effect of the title compound (ligand) with COVID-19 proteins, molecular docking technology was performed. MGL tools 1.5.6 with AutoDock Vina were used for the molecular docking analysis to detect the preferred binding sites [26, 27] . From the Protein Data Bank, three-dimensional structure of viral proteins Spike receptor protein (2AJF), Papin-like protease (PL pro ) (PDB ID: 4OVZ), Spike glycoprotein with ACE2 receptor (PDB ID: 6ACD), Main protease (PDB ID:6LU7), RNA dependent RNA polymerase (PDB ID:6M71), spike binding domain with ACE2 receptor (PDB ID:6MOJ), Spike glycol protein (PDB ID:6VSB) and SARS-CoV Main protease (PDB ID:6Y84) were downloaded in PDB format. The docking simulations were performed with AutoDock Vina by the developer command script. The interactions in the ligand-protein complex were visualized and analyzed using Biovia Discovery Studio 2020 client [28] .",
+            "cite_spans": [
+                {
+                    "start": 246,
+                    "end": 250,
+                    "text": "[26,",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 251,
+                    "end": 254,
+                    "text": "27]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 906,
+                    "end": 910,
+                    "text": "[28]",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Molecular docking studies"
+        },
+        {
+            "text": "Physiochemical properties of M1BZP were calculated using Osiris data warrior software. The ADME properties (adsorption, distribution, metabolism, and excretion) of M1BZP were predicted using Swiss ADME online software [29] . The chemical structure of M1BZP is drawn on Marvin to generate SMILES and inserted directly on the webpage to initiate the prediction process. The SMILES of the compound were submitted to the website and toxicity mode was selected [30] .",
+            "cite_spans": [
+                {
+                    "start": 218,
+                    "end": 222,
+                    "text": "[29]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 456,
+                    "end": 460,
+                    "text": "[30]",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [],
+            "section": "ADME and Toxicity prediction"
+        },
+        {
+            "text": "The IR spectrum of M1BZP is given in Fig. S1 . A peak at 3722 cm \u2212 1 is assigned for the polymorphism of M1BZP due to the sp 3 C-N and sp 3 Csp 2 C rotation. Absorption around 3300-2900 cm \u2212 1 is assigned to sp 3 C-H, sp 2 CH stretch, and overtones. A weak abortion around 1735 cm \u2212 1 may be assigned for partial C--N for resonance. Peaks around 1600-1400 cm \u2212 1 are for aromatic C--C stretching, N -H band, and sp 2 CH overtones. A peak at 2745 cm \u2212 1 may be assigned for the hyperconjugation in mesitylene-sp 3 CH-N piperidine by donating the lone pair of electrons in the nitrogen to the sp3 bridging carbon between mesitylene and piperidine as the former is an electron withdrawing group, N is the good electron donor and sp 3 is a medium of electron through induction. Absorption at 1263 cm \u2212 1 is for C -N stretching. Thus M1BZP is a molecular crystal with polymorphism through single bond rotation and resonance through hyperconjugation and induction.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 37,
+                    "end": 44,
+                    "text": "Fig. S1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Spectral characterization"
+        },
+        {
+            "text": "The ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Spectral characterization"
+        },
+        {
+            "text": "Single crystal X-ray structural analysis confirmed that the M1BZP is crystallized in a monoclinic P 1 21 1 space group with two independent molecules in its unit cell (Z = 2). Fig. 1 emphasizes the thermal ellipsoid of the title compound. Structural and bond parameter values are given in Table 1 and supplementary table S1. Fig. 2 displays the cell content in M1BZP. It has a 'U' shape structure with two limbs which are benzyl and mesitylene rings with a difference of 72 \u2022 from the piperidine ring in the base. The crystal structure of M1BZP revealed that the nitrogen atom of Crystal structure analysis of the compound revealed the presence of a large number of non-covalent interactions such as inter and intramolecular hydrogen bond interactions, C-H\u2026\u03c0, \u03c0\u2026 \u03c0 stacking, and inter short interactions [31] (Fig. 3) . Weak intermolecular hydrogen bonding interaction was observed in M1BZP between the hydrogen atom (H10) of the mesityl ring (donor) and the nitrogen atom (N1) of the neighbouring piperidine ring (acceptor). H-bonds are formed between C -H\u0387\u0387\u0387\u0387\u03c0 with an average length of 2.7 \u00c5. The C -H\u0387\u0387\u0387\u0387\u03c0 interactions are observed between the \u03c0-system of the benzene ring with the C16-H16 atoms of the neighbouring piperidine ring. The van der Waals repulsion shows that the nitrogen atom was sandwiched between mesitylene and piperidine rings. M1BZP exhibited \u03c0-\u03c0 stacking supramolecular interactions in the crystal due to their aromatic moieties with a short contact distance of < 3.2 \u01fa. There are three \u03c0-\u03c0 stacking interactions [First \u03c0-\u03c0: 3.1 \u01fa, the centroid of mesityl ring\u2026.centroid of piperidine ring, second \u03c0-\u03c0: 2.95 \u01fa, centroid of piperidine\u2026centroid of benzyl ring and third \u03c0-\u03c0: 2.840 \u01fa, centroid of benzyl ring\u2026centroid of mesityl ring]. C-H\u2026N and C-H\u2026C intermolecular hydrogen bond interactions along with C..H short interactions played a significant role in stabilizing the molecular structure. These \u03c0-\u03c0 stacking interactions created a perpendicular arrangement of piperidine moiety and benzyl rings. One M1BZP molecule is connected to five other molecules through weak C -H\u2026N, C -H\u2026\u03c0 and \u03c0-\u03c0 interactions. The weak intermolecular interactions and slip stacking arrangement [32] lead to the formation of different types of packing structures like sheets, tubes, and layered structures (Fig. 4 ). Nitrogen plays a major role in the formation of different packing structures by acting as a bridge between the layers.",
+            "cite_spans": [
+                {
+                    "start": 804,
+                    "end": 808,
+                    "text": "[31]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 2196,
+                    "end": 2200,
+                    "text": "[32]",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 176,
+                    "end": 182,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 289,
+                    "end": 296,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 325,
+                    "end": 331,
+                    "text": "Fig. 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 809,
+                    "end": 817,
+                    "text": "(Fig. 3)",
+                    "ref_id": null
+                },
+                {
+                    "start": 2307,
+                    "end": 2314,
+                    "text": "(Fig. 4",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "Crystal growth and XRD"
+        },
+        {
+            "text": "The Hirshfeld surface denotes the 3D image of intermolecular interactions that occur in the molecules. This study plays a valuable graphical tool to understand the intermolecular interactions in depth. Hirshfeld surface and fingerprint plots were generated for the title compound. A three-dimensional d norm surface is a useful tool for analyzing and visualizing the intermolecular interactions. White color indicates medium proximity of outside atoms and red and blue colors indicate close or little proximity. Red spots on the Hirshfeld surface are related to the hydrogen bonding interactions. As shown in Fig. 5 (c), the red region on the Hirshfeld surface is prominent above the hydrogen atom in the C -H-N contacts and the H -C..H contacts, respectively. The red spots on the d i (Fig. 5a) and d e (Fig. 5b ) surface indicate the existence of close contacts available inside and outside the surface. The shape-index (Fig. 5d ) of the HS can visualize \u03c0-\u03c0 stacking interactions by the presence of adjacent red and blue triangles. The curvedness (Fig. 5e ) surface indicates the electron density surface around the molecular interactions. Moreover, the flat green region separated by blue edges in the curvedness surface is another characteristic of \u03c0-\u03c0 stacking interactions.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 609,
+                    "end": 615,
+                    "text": "Fig. 5",
+                    "ref_id": null
+                },
+                {
+                    "start": 786,
+                    "end": 795,
+                    "text": "(Fig. 5a)",
+                    "ref_id": null
+                },
+                {
+                    "start": 804,
+                    "end": 812,
+                    "text": "(Fig. 5b",
+                    "ref_id": null
+                },
+                {
+                    "start": 922,
+                    "end": 930,
+                    "text": "(Fig. 5d",
+                    "ref_id": null
+                },
+                {
+                    "start": 1050,
+                    "end": 1058,
+                    "text": "(Fig. 5e",
+                    "ref_id": null
+                }
+            ],
+            "section": "Hirshfeld surface analysis"
+        },
+        {
+            "text": "The percentage contributions of intermolecular hydrogen bond in the molecule are calculated using a 2D fingerprint plot from Hirshfeld surface analysis. The intermolecular interaction pattern outlined as H\u2026. H / C\u2026H is shown in Fig. 6 . The H\u2026.H contribution contact in the Hirshfeld surface of the studied molecule is 80.7%. The presence of C\u2026. H / H\u2026.C contribution in Hirshfeld surface is 19.3%. The most dominant interaction in the title molecule is indicated by the symmetrical narrow point spike with di + de ~ 2.2\u01fa corresponding to H\u2026.H interaction as shown in Fig. 6 , similarly, the shark characteristic wing of di + ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 228,
+                    "end": 234,
+                    "text": "Fig. 6",
+                    "ref_id": null
+                },
+                {
+                    "start": 568,
+                    "end": 574,
+                    "text": "Fig. 6",
+                    "ref_id": null
+                }
+            ],
+            "section": "Hirshfeld surface analysis"
+        },
+        {
+            "text": "The optimized geometry and electronic parameters (bond lengths, bond angles, E HOMO -E LUMO ) of the compound were done using the B3LYP/6-311++G(d,p) level of theory. The optimized geometry of compound M1BZP is given in Fig. 7 . The optimized structure results are consistent with X-ray diffraction data. The geometrical parameters (bond lengths and bond angles) of the structure are compared and exhibited in the supplementary Table S2 . FMO theory explicates the structure, reactivity, electrical and optical properties of compound [33, 34] . The stabilized ground state energy of the system with the minima point is found to be \u2212 910.520 Hartree. The HOMO and LUMO [35] structures are displayed in Fig. 8a . The HOMO-LUMO energy gap (Eg) of the title molecule is \u2212 5.7390 eV, which has a significant effect on the stability and reactivity of the molecule [36] . The large bandgap of the compound indicates high stability, less conjugation, and poor conductivity. The interaction taking place within the molecule is responsible for imparting bioactivity [37] . E HOMO and E LUMO values give details of the certain charge exchange collaboration inside the studied molecule. The HOMO energy determines the electron-donating ability. However, the LUMO energy provides the ability of a molecule to accept an electron [38] . The corresponding E HOMO and E LUMO values were found to be \u2212 5.6190 eV and 0.1200 eV respectively. The global reactive parameters such as ionization energy (I), electron affinity (A), electronegativity(\u03c7), hardness (\u03b7), softness (\u03c3), chemical potential (\u03bc) and electrophilicity index (\u03c9) of the molecule are calculated and recorded in Table 2 .",
+            "cite_spans": [
+                {
+                    "start": 534,
+                    "end": 538,
+                    "text": "[33,",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 539,
+                    "end": 542,
+                    "text": "34]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 668,
+                    "end": 672,
+                    "text": "[35]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 858,
+                    "end": 862,
+                    "text": "[36]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 1056,
+                    "end": 1060,
+                    "text": "[37]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 1315,
+                    "end": 1319,
+                    "text": "[38]",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 220,
+                    "end": 226,
+                    "text": "Fig. 7",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 428,
+                    "end": 436,
+                    "text": "Table S2",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 701,
+                    "end": 708,
+                    "text": "Fig. 8a",
+                    "ref_id": "FIGREF8"
+                },
+                {
+                    "start": 1658,
+                    "end": 1665,
+                    "text": "Table 2",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "DFT Studies:"
+        },
+        {
+            "text": "The molecular electrostatic potential (MEP) was defined in terms of the total charge distribution of a molecule and it is a convenient tool used in drug design [39] [40] [41] . The optimized geometry at the B3LYP/ 6-311++G(d,p) level of theory was used to map the molecular electrostatic potential surface (MEPS) of the compound as shown in Fig. 8b . It helps to investigate the interaction between molecules, predict reaction sites, and molecular properties. Electron density is essential to understand the electrophilic or nucleophilic reactivity as well as nonbonding interactions [42] at the MEP surface. Different colours represent different electrostatic potential values. Red and blue colours indicate electron-rich and electron-poor regions respectively, and green indicates zero electrostatic potential. Mulliken charges were calculated at the B3LYP/6-311++G(d,p) basis set are listed in Table 3 . The nitrogen atom of the piperidine ring is found to possess a high negative charge with a value of \u2212 0.4177e when compared with other atoms. This is mainly due to its participation in C-H\u2026N hydrogen bonding interactions. The carbon atoms C3, C5, C7, C8, C12, C25, C26, C27, C28, C29, C32, C38, C39, C40, C41, C42 acquire a negative charge while other carbon atoms of the molecule acquire a positive charge. Among the carbon atoms, C4 possesses the highest positive value and C8 has the highest negative value. The highest positive charge on C4 is due to the adjacent electronegative carbon atoms. All the hydrogen atoms of the molecule are positively charged out of which H21 (0.1397 e) has the highest charge.",
+            "cite_spans": [
+                {
+                    "start": 160,
+                    "end": 164,
+                    "text": "[39]",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 165,
+                    "end": 169,
+                    "text": "[40]",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 170,
+                    "end": 174,
+                    "text": "[41]",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 584,
+                    "end": 588,
+                    "text": "[42]",
+                    "ref_id": "BIBREF43"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 341,
+                    "end": 348,
+                    "text": "Fig. 8b",
+                    "ref_id": "FIGREF9"
+                },
+                {
+                    "start": 897,
+                    "end": 904,
+                    "text": "Table 3",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "DFT Studies:"
+        },
+        {
+            "text": "According to molecular docking studies, a ligand molecule may ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Molecular docking studies"
+        },
+        {
+            "text": "The molecular docking analysis of M1BZP and Remdesivir with SARS-CoV-2 spike receptor protein [43] (Fig. 9 ) showed \u00a18.2 and \u2212 8.0 KJ/mol free energy respectively, suggesting a high affinity for the binding pocket. It is observed that binding conformations of M1BZP are found in the active binding sites. The title compound binds with Trp349, Asp350, and His401 through hydrophobic interactions such as \u03c0-\u03c0 stacking interactions. It has hydrogen bonding interactions with amino acid residues such as Asp382, Ala348, and Asn394 with an average distance of 2.15\u01fa. In the case of Remdesivir, hydrophobic interaction is observed between His401 and Hydrogen bonding interaction with Trp349. Thus, it is observed that M1BZP best binds with SARS Spike protein than Remdesivir.",
+            "cite_spans": [
+                {
+                    "start": 94,
+                    "end": 98,
+                    "text": "[43]",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 99,
+                    "end": 106,
+                    "text": "(Fig. 9",
+                    "ref_id": null
+                }
+            ],
+            "section": "Interaction of spike receptor protein (2AJF) with M1BZP"
+        },
+        {
+            "text": "The docking studies of M1BZP and Remdesivir with the papin-like protease (4OVZ) [44] were carried out (Fig. 10 ). M1BZP has \u03c0-\u03c0 stacking interactions with the Tyr269, Tyr265, Glu204, Glu162, and Glu165 amino acids with an average bond length of 4.30\u01fa. It also has hydrogen bonding interactions with Tyr269, Arg167, Asn157, and Lys158 and hydrophobic interactions with Pro249 and Try208. The binding energy of papin-like protease with M1BZP is found to be \u2212 9.7 kcal/mole. In the case of standard drug, it has hydrophobic interactions with Tyr265, Tyr269, Leu163, Pro224, Met209, and hydrogen bonding interactions with the Asp165 amino acids. The binding energy of Remdesivir is found to be \u2212 9.4 kcal/mole. The above results revealed that M1BZP favours Papin-like protease over Remdesivir.",
+            "cite_spans": [
+                {
+                    "start": 80,
+                    "end": 84,
+                    "text": "[44]",
+                    "ref_id": "BIBREF45"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 102,
+                    "end": 110,
+                    "text": "(Fig. 10",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Interaction of Papin-like protease (PL pro ) (4OVZ) with M1BZP"
+        },
+        {
+            "text": "For M1BZP, three types of interactions are observed with the spike glycoprotein [45] (Fig. 11 ). It has hydrogen bonding interactions with the amino acids Arg996, Gln939, Gln992, Arg100, and Gln936. It also has hydrophobic interaction with Ala940, Leu944, Ala940 involving the carbon atoms of the piperidine rings. Electrostatic interaction is observed between the nitrogen atom of the piperidine ring and Arg996 with a binding energy of \u2212 7.4 kcal/mole. On the other hand, Remdesivir gives a binding affinity of \u2212 6.0 kcal/mole on binding with spike glycoprotein. It has hydrogen bonding interactions with Leu944, Ala748, Arg747, Ala940, and one hydrophobic interaction with Thr988 amino acid. This result also has revealed that M1BZP showed good binding with the spike glycoprotein than Remdesivir.",
+            "cite_spans": [
+                {
+                    "start": 80,
+                    "end": 84,
+                    "text": "[45]",
+                    "ref_id": "BIBREF46"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 85,
+                    "end": 93,
+                    "text": "(Fig. 11",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Interaction of spike glycoprotein with ACE2 receptor (6ACD) with M1BZP"
+        },
+        {
+            "text": "Molecular docking of M1BZP and Remdesivir with SARS-CoV-2 spike binding domain with Main protease [46] were analyzed and compared. Binding free energy of \u00a16.2 and \u2212 5.4KJ/mol for M1BZP and Remdesivir (Fig. 12) in the grid box were explored. These results suggest the high affinity of M1BZP towards different amino acids Arg4, Lys137 with hydrophobic interactions. It has electrostatic interactions with Glu288, Arg4 amino acids. And hydrogen bonding interactions are observed between M1BZP with Lys5. In Remdesivir, there is a hydrogen bonding interaction with Phe291 and a hydrophobic interaction with Cys128. It is observed that the SARS-CoV-2 spike binding domain with the Main protease complex more favourably binds with M1BZP than Remdesivir. Fig. 9 . Interaction of Spike receptor protein (2AJF) with M1BZP and Remdesivir.",
+            "cite_spans": [
+                {
+                    "start": 98,
+                    "end": 102,
+                    "text": "[46]",
+                    "ref_id": "BIBREF47"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 200,
+                    "end": 209,
+                    "text": "(Fig. 12)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 748,
+                    "end": 754,
+                    "text": "Fig. 9",
+                    "ref_id": null
+                }
+            ],
+            "section": "Interaction of the Main protease (6LU7) with M1BZP"
+        },
+        {
+            "text": "The docking analysis of M1BZP and Remdesivir with SARS-CoV-2 RNA-dependent RNA polymerase [47] were carried out and the results revealed that free energy of M1BZP (-7.4KJ/mol) dominates Remdesivir (-6.0KJ/mol) in the grid box, suggesting a high affinity towards the binding pocket (Fig. 13 ). M1BZP binds with the binding pockets of protein through hydrogen bonding interactions with Arg553, Arg555, Thr556, Lys621, Cys622, Asn691, Thr556 amino acids, and hydrophobic interactions with Cys622, Tyr445, Arg624. In Remdesivir hydrophobic interactions with Arg553, Lys621, Tyr455, Asp760, and hydrogen bonding interaction with Asp623 amino acid were found. In the case of RNA-dependent RNA polymerase, M1BZP binding is more favourable.",
+            "cite_spans": [
+                {
+                    "start": 90,
+                    "end": 94,
+                    "text": "[47]",
+                    "ref_id": "BIBREF48"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 281,
+                    "end": 289,
+                    "text": "(Fig. 13",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Interaction of RNA dependent RNA polymerase (6 M71) with M1BZP"
+        },
+        {
+            "text": "The docking analysis of the M1BZP and Remdesivir with SARS-CoV-2 spike binding domain with ACE2 receptor [48] (Fig. 14) results in \u00a14.5 and \u2212 4.4 KJ/mol free energy respectively in the grid box, suggesting a high affinity for the binding pocket. All the binding modes of the compound are in the active binding pocket. The M1BZP binds with the amino acid residues Val151, Ala154, Leu121, Met158, His159, Ala154, Leu188 through hydrophobic interactions and Remdesivir binds with Val130, His159, Glu125 amino acids through hydrogen bonding interactions. Thus, it is observed that M1BZP favours SARS-CoV-2 spike binding domain with the ACE2 receptor complex over Remdesivir.",
+            "cite_spans": [
+                {
+                    "start": 105,
+                    "end": 109,
+                    "text": "[48]",
+                    "ref_id": "BIBREF49"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 110,
+                    "end": 119,
+                    "text": "(Fig. 14)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Interaction of spike binding domain with ACE2 receptor (6MOJ) with M1BZP"
+        },
+        {
+            "text": "The molecular docking analysis M1BZP and Remdesivir with SARS-CoV-2 spike glycol protein [49] revealed \u00a13.9 and \u2212 3.6KJ/mol free energy respectively (Fig. 15) , suggesting a high affinity for the binding pocket. It is observed that binding conformations of the M1BZP are in the active binding sites. M1BZP compound binds with Val100, Ala766, Leu763, and Leu101 through hydrophobic interactions. It also has hydrogen bonding interaction with Thr100, Gln100, Phe759, Gln762 with an average distance of 2.5\u01fa. Remdesivir has Hydrogen bonding interactions with Gln100, Thr100, Gln101 and hydrophobic interactions with Ala766, Leu763, Val100 amino acids. Thus, it is observed that M1BZP binds best with SARS Spike protein than Remdesivir.",
+            "cite_spans": [
+                {
+                    "start": 89,
+                    "end": 93,
+                    "text": "[49]",
+                    "ref_id": "BIBREF50"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 149,
+                    "end": 158,
+                    "text": "(Fig. 15)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Interaction of spike glycol protein (6VSB) with M1BZP"
+        },
+        {
+            "text": "The molecular docking studies of SARS-CoV Main protease [50] with M1BZP and Remdesivir show binding affinity of \u2212 6.5 kcal/mol and \u2212 5.0 kcal/mol respectively. In M1BZP the binding pockets are Gln110 and Ser158 through hydrogen bonding interactions and Val104, Ile106, Cys160 through hydrophobic interactions. In Remdesivir, there is one hydrophobic interaction with Val104 and one hydrophobic interaction with Gln110. Thus, it is observed that the binding of M1BZP with SARS-CoV Main protease is more favourable than Remdesivir (Fig. 16) .",
+            "cite_spans": [
+                {
+                    "start": 56,
+                    "end": 60,
+                    "text": "[50]",
+                    "ref_id": "BIBREF51"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 529,
+                    "end": 538,
+                    "text": "(Fig. 16)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Interaction of SARS-CoV Main protease (6Y84) with M1BZP"
+        },
+        {
+            "text": "Based on the docking studies, M1BZP shows good orientations with all the proteins of SARS-Cov and also shows good binding affinities. This may be due to the flexible nature of M1BZP having U shaped structure.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Interaction of SARS-CoV Main protease (6Y84) with M1BZP"
+        },
+        {
+            "text": "Many drugs fail in the drug development process due to their poor pharmacokinetics and toxicity problems. Drawbacks arising during drug development could be addressed at the early stage in the pipeline of this process [51] . To analyse this issue of new chemical compounds, in silico ADMET methods are the first step in this pipeline process. These methods avoid wasting time on a lead compound that would be toxic or metabolized by the body into an inactive form and unable to cross membranes. These ADMET parameters disclose the behaviour of the chemical compounds in a living organism. Understanding physicochemical properties are necessary for designing new pharmacological compounds. A drug-likeness profile can be evaluated through the parameters of the molecule such as molecular weight, TPSA, number of heavy atoms, HBA, HBD, rotatable bonds, and molar refractivity. The physicochemical parameters of M1BZP were calculated using Osiris data warrior and depicted in Table 4 . Bioavailability radar shows that all parameters such as XLOGP3 = 4.25 (-0.7 to + 5.0), Molecular weight = 307.47 g/mol (150 to 500 g/mol), Solubility (Log S) = -5.36 (log S not higher than 6), Flexibility (FLEX) = 4 (not more than 9 rotatable bonds) lie within the acceptable range except Saturation (INSATU) = 0. 45 (not<0.25) [29, 52] . The M1BZP shows drug-likeness from all methods such as Lipinski, Ghose, Veber, Egan, and Muegge. The results of these predictions showed that the compound obeyed all the five rules along with the standard without any violation of the bioactivity score of 0.55. Further, the synthetic accessibility of the compound was assessed to quantify the complexity of the molecular structure. The results showed that the compound does not have a complex synthetic route based on their score in the range of 2.52.",
+            "cite_spans": [
+                {
+                    "start": 218,
+                    "end": 222,
+                    "text": "[51]",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 1297,
+                    "end": 1310,
+                    "text": "45 (not<0.25)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1311,
+                    "end": 1315,
+                    "text": "[29,",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1316,
+                    "end": 1319,
+                    "text": "52]",
+                    "ref_id": "BIBREF53"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 973,
+                    "end": 980,
+                    "text": "Table 4",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "ADME and Toxicity Prediction:"
+        },
+        {
+            "text": "The mean predicted lipophilicity values were assessed to decide the non-aqueous solubility of the compound and were calculated by considering the consensus log Po/w. According to this, if a molecule is more soluble, then its consensus log Po/w values will be more negative. Results showed that the compound is not soluble in a non-aqueous medium and to estimate the aqueous solubility log S scale was used: According to the log S scale the compound is moderately soluble (-5.3 ). (if log S < \u2212 10 -poorly soluble, < \u2212 6 -moderately soluble, < \u2212 4soluble, < \u2212 2 -very soluble, and < 0 highly soluble) [53] [54] [55] [56] . The pharmacokinetic parameters like absorption, skin permeation, distribution, and metabolism/biotransformation/excretion were predicted. For gastrointestinal absorption and passive brain permeation Brain Or IntestinaL EstimateD permeation method (BOILED-Egg) is known to predict an accurate result. According to this predictive model (Fig. 17 ) molecule falls in the yellow region which indicates passive brain permeation. It is evident from this predictive result that the compound had high GI absorption and high BBB permeant as tabulated in Table 5 . The compound being blood-brain permeant there may be a possibility of causing harmful toxicants in the brain and bloodstream when metabolized. The skin permeability model can predict and identify potential drugs for oral and transdermal administration. As per the model, if a molecule has more negative log Kp value it is said to be less skin permeant. Based on this the compound was found to be the least skin permeant.",
+            "cite_spans": [
+                {
+                    "start": 471,
+                    "end": 476,
+                    "text": "(-5.3",
+                    "ref_id": null
+                },
+                {
+                    "start": 600,
+                    "end": 604,
+                    "text": "[53]",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 605,
+                    "end": 609,
+                    "text": "[54]",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 610,
+                    "end": 614,
+                    "text": "[55]",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 615,
+                    "end": 619,
+                    "text": "[56]",
+                    "ref_id": "BIBREF57"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 957,
+                    "end": 965,
+                    "text": "(Fig. 17",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1167,
+                    "end": 1174,
+                    "text": "Table 5",
+                    "ref_id": "TABREF5"
+                }
+            ],
+            "section": "ADME and Toxicity Prediction:"
+        },
+        {
+            "text": "The permeability glycoprotein (P-gp) is an important protein that plays a significant role in drug absorption and disposition. Hence, the compound was evaluated to determine whether the compound can act as a substrate or an inhibitor of P-gp and results revealed that the compound is found to be non-substrates of P-gp. Interaction of molecules with cytochrome P450 (CYP) enzymes is essential because these isoenzymes are involved in drug elimination through metabolic transformation. Inhibition of these isoenzymes may result in unwanted adverse side-effects by lowering the solubility and the accumulation of the drug or its metabolites. Prediction reveals that the compound act as a non-inhibitor for CYP2C9 whereas CYP1A2 acts as inhibitors of CYP2D6. Compound M1BZP is predicted to be CYP3A4 non-substrate and for the isoenzyme, CYP2C19 were non-inhibitors.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ADME and Toxicity Prediction:"
+        },
+        {
+            "text": "Toxicity prediction by computational technique is one of the new techniques in the drug development process, the modern era which consumes less time and low cost. Toxicity prediction of chemical entities is important to predict the amount of tolerability of the chemical entities before entering into in-vivo studies. The maximum tolerated dose of M1BZP is 0.383(log mg/kg_bw/day). The compound M1BZP shows chronic toxicity is 1.233(log mg/kg_bw/day). The Predicted LD50 values ranged from 2.77 to 2.783 mol/kg. The liver plays a critical role in energy exchanges and the biotransformation of xenobiotics and drugs. Liver suffering from damage always disrupts normal metabolism and could even lead to liver failure. The hepatotoxicity descriptor predicted that a molecule could present hepatotoxicity. The toxicity was predicted using the pkCSM online tool [57] and its results indicate that the compound M1BZP is less toxic (Table 6 ). Thus, these in silico properties are appreciable. Therefore, further studies of in vitro and clinical studies dealing with SARS-CoV-2 would be carried out.",
+            "cite_spans": [
+                {
+                    "start": 857,
+                    "end": 861,
+                    "text": "[57]",
+                    "ref_id": "BIBREF58"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 925,
+                    "end": 933,
+                    "text": "(Table 6",
+                    "ref_id": "TABREF6"
+                }
+            ],
+            "section": "ADME and Toxicity Prediction:"
+        },
+        {
+            "text": "The structures of potential targets of COVID-19 were chosen based upon the literature of the coronavirus life cycle. In the aim of discovering a new potent drug against COVID-19, M1BZP was applied against eight proteins and found to be higher activity than expected. Molecular docking was performed to predict the binding modes between the targets and M1BZP. The docking results produced by autodock vina models reveal the important sites where steric, electrostatic, and hydrophobic interactions might significantly influencing the activity of the molecules. X-ray structural analysis of M1BZP revealed several intermolecular interactions (hydrogen bond, short interactions, C-H\u2026\u03c0 and \u03c0\u2026 \u03c0) which greatly contributed to the ligand-protein binding process. These interactions are well quantified by Hirshfeld surface analysis. The compound was predicted to display low toxicity levels and showed druglikeness according to the Lipinski and Veber rules. Thus, these in silico properties are appreciable. The compound shows good binding with the papin like protease. Based on the comparison with Remdesivir, the M1BZP molecule showed good interaction with target proteins, which may be a competitive drug alternative for Remdesivir.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of Competing Interest"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "From SARS to MERS, thrusting coronaviruses into the spotlight",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "U"
+                    ],
+                    "last": "Yanfeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Bao",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "U"
+                    ],
+                    "last": "Pin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [
+                        "U"
+                    ],
+                    "last": "Yajin",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Qin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Viruses",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Acute respiratory distress syndrome",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Thompson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Chambers",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "N. Engl. J. Med",
+            "volume": "377",
+            "issn": "",
+            "pages": "562--572",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Global patterns in coronavirus diversity",
+            "authors": [
+                {
+                    "first": "Jonna A K",
+                    "middle": [],
+                    "last": "Mazet",
+                    "suffix": ""
+                },
+                {
+                    "first": "Tracey",
+                    "middle": [],
+                    "last": "Goldstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Virus Evol",
+            "volume": "3",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Coronaviruses: an overview of their replication and pathogenesis",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Fehr",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Perlman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Methods Mol. Biol",
+            "volume": "1282",
+            "issn": "",
+            "pages": "1--23",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Anti-HCV, nucleotide inhibitors, repurposing against COVID-19",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Elfiky",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Life Sciences",
+            "volume": "248",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "A Structural View of SARS-CoV-2 RNA Replication Machinery, RNA Synthesis, Proofreading, and Final Capping",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Romano",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ruggiero",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Squeglia",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Maga",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Berisio",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cells",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Coronavirus Spike Protein and Tropism Changes",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hulswit",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "De Haan",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Bosch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "96",
+            "issn": "",
+            "pages": "29--57",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Fast identification of possible drug treatment of coronavirus disease-19 (COVID-19) through computational drug repurposing study",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Chemical Information and Modeling",
+            "volume": "60",
+            "issn": "",
+            "pages": "3277--3286",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Identification of promising drug candidates against NSP16 of SARS-CoV-2 through computational drug repurposing study",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Vijayan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Pant",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Vikram",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Kaur",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Singh",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sharma",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sharma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Biomolecular Structure and Dynamics",
+            "volume": "",
+            "issn": "",
+            "pages": "1--15",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Potential Inhibitors for Novel Coronavirus Protease Identified by Virtual Screening of 606 Million Compounds",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Fischer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sellner",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Neranjan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Smie\u0161ko",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lill",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "International Journal of Molecular Sciences",
+            "volume": "21",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Potent inhibitors of SARS-CoV-2 3C-like protease derived from Nsubstituted isatin compounds",
+            "authors": [
+                {
+                    "first": "Pei",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Hongbo",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Qi",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Hao",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chunmei",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xiaobing",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ying",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Luhua",
+                    "middle": [],
+                    "last": "Lai",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "European Journal of Medicinal chemistry",
+            "volume": "",
+            "issn": "206",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Synthesis of novel coumarin analogues: Investigation of molecular docking interaction of SARS-CoV-2 proteins with natural and synthetic coumarin analogues and their pharmacokinetics studies",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chidambaram",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "El-Sheikh",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Alfarhan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Radhakrishnan",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Akbar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Saudi Journal of Biological Sciences",
+            "volume": "28",
+            "issn": "",
+            "pages": "1100--1108",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Molecular modeling and computer-aided drug design. Examples of their applications in medicinal chemistry",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ooms",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Curr. Med. Chem",
+            "volume": "7",
+            "issn": "",
+            "pages": "141--158",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "3D-QSAR and docking studies of 1, 2, 3-thiadiazole thioacetanilides analogues as potent HIV-1 non-nucleoside reverse transcriptase inhibitors",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Jain",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ghate",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Bhadoriya",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Bari",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Chaudhari",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Borse",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Organic Med. Chem. Lett",
+            "volume": "2",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Molecular docking, 3D-QSAR Studies, and in silico ADME prediction of p-aminosalicylic acid derivatives as neuraminidase inhibitors",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shan",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Chem. Biol. Drug Des",
+            "volume": "78",
+            "issn": "",
+            "pages": "709--717",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Program For Data Collection On Area Detectors",
+            "authors": [],
+            "year": null,
+            "venue": "BRUKER AXS Inc",
+            "volume": "5465",
+            "issn": "",
+            "pages": "53711--5373",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Program For Absorption Correction of Area Detector Frames",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Sadabs",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Sheldrick",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "5465",
+            "issn": "",
+            "pages": "53711--5373",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Crystal structure refinement with SHELXL",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Sheldrick",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "",
+            "volume": "64",
+            "issn": "",
+            "pages": "112--122",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "SHELXT -Integrated space-group and crystal-structure",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Sheldrick",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Acta Cryst. A71",
+            "volume": "",
+            "issn": "",
+            "pages": "3--8",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Crystal structure refinement with SHELXL",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Sheldrick",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "3--8",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "< /i>; a complete structure solution, refinement, and analysis program",
+            "authors": [],
+            "year": 2009,
+            "venue": "J. Appl. Cryst",
+            "volume": "42",
+            "issn": "",
+            "pages": "339--341",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Van der Made, A convenient procedure for bromomethylation of aromatic compounds: selective mono-, bis-, or trisbromomethylation",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Van Der Made",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "J. Org. Chem",
+            "volume": "58",
+            "issn": "",
+            "pages": "1262--1263",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "General atomic and molecular electronic structure system",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Schmidt",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Baldridge",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Boatz",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Elbert",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Gordon",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Jensen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Koseki",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Matsunaga",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Nguyen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Su",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Windus",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dupuis",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Montgomery",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "Journal of Computational Chemistry",
+            "volume": "14",
+            "issn": "",
+            "pages": "1347--1363",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Jmol SMILES and Jmol SMARTS: specifications and applications",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hanson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Journal of, Cheminformatics",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Towards quantitative analysis of intermolecular interactions with Hirshfeld surfaces",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Mckinnon",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Jayatilaka",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Spackman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Chem. Commun",
+            "volume": "37",
+            "issn": "",
+            "pages": "3814--3816",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "AutoDock4 and AutoDockTools4: automated docking with selective receptor flexibility",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Morris",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Huey",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Lindstrom",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Sanner",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Belew",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Goodsell",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Olson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J. Comput. Chem",
+            "volume": "30",
+            "issn": "",
+            "pages": "2785--2791",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Auto Dock Vina: improving the speed and accuracy of docking with a new scoring function, efficient optimization, and multithreading",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Trott",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Olson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J. Comput. Chem",
+            "volume": "31",
+            "issn": "",
+            "pages": "455--461",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Molecular docking studies of chemical constituents of Tinosporacordifolia on glycogen phosphorylase",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Herowatia",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Widodo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Procedia Chem",
+            "volume": "13",
+            "issn": "",
+            "pages": "63--68",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "SwissADME: a free web tool to evaluate pharmacokinetics, drug-likeness and medicinal chemistry friendliness of small molecules",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Daina",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Michielin",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Zoete",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Scientific reports",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "pkCSM: Predicting Small-Molecule Pharmacokinetic and Toxicity Properties Using Graph-Based Signatures",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Pires",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Blundell",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Ascher",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Journal of medicinal chemistry",
+            "volume": "58",
+            "issn": "",
+            "pages": "4066--4072",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Hydrogen Bonding in Biological Structures",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Jeffrey",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Saenger",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Control of p-p stacking via crystal engineering in organic conjugated small molecule crystals",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Yao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Pei",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Cryst. Growth Des",
+            "volume": "18",
+            "issn": "",
+            "pages": "7--15",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "HOMO-LUMO energies and docking studies of 5-fluorouracil, a substance used to treat cancer",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Almeida",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Barros",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Araujo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Faria",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Maltarollo",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Honorio",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Study on molecular structure, spectroscopic properties (FTIR and UV-Vis), NBO, QTAIM",
+            "volume": "5",
+            "issn": "",
+            "pages": "169--176",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "NBO analysis and keto-enol tautomerism) of new tetradentate N, N \u2032 -bis (4-hydroxysalicylidene)-1, 4-phenylenediamine ligand as a chelating agent for the synthesis of dinuclear Co (II)",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Rajaei",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Mirsattari",
+                    "suffix": ""
+                },
+                {
+                    "first": ";",
+                    "middle": [],
+                    "last": "Mep",
+                    "suffix": ""
+                },
+                {
+                    "first": "Dos",
+                    "middle": [],
+                    "last": "Homo-Lumo",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Pes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Spectroscopic characteristic (FT-IR, 1H, 13C NMR and UV-Vis) and theoretical calculations",
+            "volume": "1163",
+            "issn": "",
+            "pages": "236--251",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Crystal structure, spectroscopic and theoretical studies on two Schiff base compounds of 2,6-dichlorobenzylidene-2,4-dichloroaniline and 2,4-dichlorobenzylidene-2,4-dichloroaniline",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Soltani",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ghari",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Khalaji",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Lemeski",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Fejfarova",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dusek",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Shikhi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Spectrochim. Acta A. Mol. Biomol. Spectrosc",
+            "volume": "139",
+            "issn": "",
+            "pages": "271--278",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Synthesis, biological evaluation and molecular modeling of novel series of pyridine derivatives as anticancer, anti-inflammatory and analgesic agents",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Helal",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "El-Awdan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Salem",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Abd-Elaziz",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Moahamed",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "El-Sherif",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mohamed",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Spectrochim. Acta A. Mol. Biomol. Spectrosc",
+            "volume": "25",
+            "issn": "",
+            "pages": "764--773",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "ADFT approach for theoretical and experimental study of structure, electronic, Hirshfeld surface and spectroscopic properties of 12-(4bromophenyl)-2-(prop-2-ynyloxy)-9,10-dihydro-8H-benzo[a]xanthen11(12H)-on single crystal",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Singh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Chemical Physics",
+            "volume": "524",
+            "issn": "",
+            "pages": "1--13",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Quantum mechanical, spectroscopic study (FT-IR and FT -Raman), NBO analysis, HOMO-LUMO, first order hyperpolarizability, and docking studies of a non-steroidal antiinflammatory compound",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sakthivel",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Alagesan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Muthu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Abraham",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Geetha",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Journal of Molecular Structure",
+            "volume": "1156",
+            "issn": "",
+            "pages": "645--656",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "The Molecular Electrostatic Potential, and Drug Design",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Pepe",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Siri",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.-P",
+                    "middle": [],
+                    "last": "Reboul",
+                    "suffix": ""
+                }
+            ],
+            "year": 1992,
+            "venue": "Journal of Molecular Structure",
+            "volume": "256",
+            "issn": "",
+            "pages": "175--185",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Modeling biophysical and biological properties from the characteristics of the molecular electron density, electron localization and delocalization matrices, and the electrostatic potential",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Matta",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J. Comput. Chem",
+            "volume": "35",
+            "issn": "",
+            "pages": "1165--1198",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "HOMO and LUMO analysis, MEP and NBO analysis of 3-(adamantan-1-yl)-4-(prop-2en-1-yl)-1H-1, 2, 4-triazole-5 (4H)-thione, a potential bioactive agent",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Sebastian",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Attia",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Almutairi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "El-Emam",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Panicker",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Van Alsenoy",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Ft-Ir",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Ft-Raman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "molecular structure, first order hyperpolarizability",
+            "volume": "11",
+            "issn": "",
+            "pages": "295--304",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Quantitative analysis of intermolecular interactions in orthorhombic rubrene",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Hartwar",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sist",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R V"
+                    ],
+                    "last": "Jorgensen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Mamakhel",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hoffmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Sugimoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Overgaard",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Iversen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "IUCrJ",
+            "volume": "2",
+            "issn": "",
+            "pages": "563--574",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Structure of SARS coronavirus spike receptorbinding domain complexed with the receptor",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Farzan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Harrison",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Science",
+            "volume": "309",
+            "issn": "",
+            "pages": "1864--1868",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "X-ray Structural and Biological Evaluation of a Series of Potent and Highly Selective Inhibitors of Human Coronavirus Papain-like Proteases",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Baez-Santos",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Barraza",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Wilson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Agius",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mielech",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Davis",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Baker",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Larsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Mesecar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J Med Chem",
+            "volume": "57",
+            "issn": "",
+            "pages": "2393--2412",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Cryo-EM structure of the SARS coronavirus spike glycoprotein in complex with its host cell receptor ACE2",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gui",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xiang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "PLoS Pathog",
+            "volume": "14",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Structure of Mprofrom SARS-CoV-2 and discovery of its inhibitors",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Jin",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Duan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "You",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Bai",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Guddat",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Qin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Rao",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "582",
+            "issn": "",
+            "pages": "289--293",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Structure of the RNA-dependent RNA polymerase from COVID-19 virus",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Ming",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ge",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hua",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Guddat",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Lou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Rao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "368",
+            "issn": "",
+            "pages": "779--782",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Topological control of cytokine receptor signaling induces differential effects in hematopoiesis",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Mohan",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Ueda",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Jude",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Fallas",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hafer",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Miao",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Saxton",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Piehler",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Sankaran",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Baker",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Garcia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Science",
+            "volume": "364",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wrapp",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Corbett",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Goldsmith",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Hsieh",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Abiona",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Graham",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mclellan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "367",
+            "issn": "",
+            "pages": "1260--1263",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "SARS-CoV-2 main protease with unliganded active site (2019-nCoV",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Owen",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Lukacik",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Strain-Damerell",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Douangamath",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Powell",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Fearon",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Brandao-Neto",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Crawshaw",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Aragao",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Williams",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Flaig",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Hall",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Mcauley",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mazzorana",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Stuart",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Delft",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Walsh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Importance of pharmacokinetic and physicochemical data in the discovery and development of novel antiarrhythmic drugs",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Cook",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mcdonald",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Karim",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "Xenobiotica",
+            "volume": "23",
+            "issn": "",
+            "pages": "1299--1309",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "iLOGP: A Simple, Robust, and Efficient Description of n-Octanol/Water Partition Coefficient for Drug Design Using the GB/SA Approach",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Daina",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Michielin",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Zoete",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J. Chem. Inf. Model",
+            "volume": "54",
+            "issn": "",
+            "pages": "3284--3301",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Synthesis, biological evaluation, in silico docking, and virtual ADME studies of 2-[2-Oxo-3-(arylimino) indolin-1-yl]-N-arylacetamides as potent anti-breast cancer agents",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Debnath",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ganguly",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Monatshefte f\u00fcr Chemie-Chemical Monthly",
+            "volume": "147",
+            "issn": "",
+            "pages": "565--574",
+            "other_ids": {}
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Drug-like properties and the causes of poor solubility and poor permeability",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lipinski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "J. Pharmacol. Toxicol. Methods",
+            "volume": "44",
+            "issn": "",
+            "pages": "235--249",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "Lead-and drug-like compounds: the rule-of-five revolution",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lipinski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Drug Discov. Today: Technol",
+            "volume": "1",
+            "issn": "4",
+            "pages": "337--341",
+            "other_ids": {}
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Experimental and computational approaches to estimate solubility and permeability in drug discovery and development settings",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lipinski",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Lombardo",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Dominy",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Feeney",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Adv. Drug Deliv. Rev",
+            "volume": "23",
+            "issn": "",
+            "pages": "3--25",
+            "other_ids": {}
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "SwissTargetPrediction: updated data and new features for efficient prediction of protein targets of small molecules",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Daina",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Michielin",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Zoete",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nucleic Acids Res",
+            "volume": "47",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "NMR spectrum of M1BZP (fig. S2) has eleven signals. Singlet signals at 2.17 and 2.26 ppm are assigned to the hydrogen atoms in one and two methyl groups in the mesitylene ring. The methylene (-CH 2 -) group attached to the nitrogen atom is deshielded and the signal appears at 3.31 ppm as a singlet. All the hydrogen atoms in the piperidine ring occur between 1.47 and 1.94 ppm. The signals for the aromatic hydrogen atoms present in M1BZP appear between 6.77 and 7.27 ppm in the downfield. The 13 C NMR spectrum of M1BZP (fig. S3) has nearly fifteen signals. The three aliphatic methyl carbon atoms in the mesitylene ring show signals at 20.12 and 20.98 ppm. Eight signals for the aromatic carbon atoms appear between 126.13 and 140.85 ppm in the downfield.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Synthesis of M1BZP.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Thermal Ellipsoid View of M1BZP.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "diff. peak and hole 0.179 and \u2212 0.185 e.\u00c5 \u2212 3 the piperidine ring distorts the planarity of the structure by twisting C10 about 0.148 \u00c5 from the plane of the mesityl ring. The distortion in planarity due to nitrogen atom is reflected from the dihedral angles \u2212 2.1 (4) \u2022 and 176.2(2) \u2022 for C10-C1-C2-C7 and C10-N1-C11-C12 respectively. Bond lengths of N1-C10 and C1-C10 are 1.472(4) and 1.512(4) \u00c5 respectively. In M1BZP, the torsion angles of C14-C13-C16-C17 and C15-N1-C10-C1 are 61.6(3) \u2022 and \u2212 60.2(3) \u2022 respectively. It shows that the benzyl and mesityl rings are in an acute position from the central piperidine ring.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Unit cell packing arrangement viewed through crystallographic axis a* Molecular interactions viewed through crystallographic axis a* de ~ 3.6 \u01fa corresponding to C\u2026..H / H\u2026..C are shown in Fig. 6.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Different Packing arrangement of M1BZP.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "View of the three-dimensional Hirshfeld surface of M1BZP.C-H (19.3 %) H-H (80.7 %)The full two-dimensional fingerprint plots for the compound M1BZP.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Optimized Molecular structure of M1BZP.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Calculated frontier molecular orbital profile.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Graphical view of the molecular electrostatic potential (MEP) map. R. Nandini Asha et al. reduce or eliminate the SARS-CoV-2 by targeting different stages of the virus life cycle in the host cell. When the compound was analyzed by in silico computational docking, it was found to be successfully docked against the inhibitor region of the main protease, RNA dependent RNA polymerase, spike protein, and spike binding domain with ACE2 receptor of SARS-CoV-2 virus.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "Interaction of Papin-like protease (PL pro ) (4OVZ) with M1BZP and Remdesivir. Interaction of Spike glycoprotein with ACE2 receptor (6ACD) with M1BZP and Remdesivir.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "Interaction of Main protease (6LU7) with M1BZP and Remdesivir.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "Interaction of RNA dependent RNA polymerase (6M71) with M1BZP and Remdesivir. Interaction of spike binding domain with ACE2 receptor (6MOJ) with M1BZP and Remdesivir.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF13": {
+            "text": "Interaction of Spike glycol protein (6VSB) with M1BZP and Remdesivir. Interaction of SARS-CoV Main protease (6Y84) with M1BZP and Remdesivir.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF14": {
+            "text": "(a) The BOILED-Egg model and (b) Bioavailability radar of M1BZP.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF1": {
+            "text": "Crystal data and structure refinement for M1BZP.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "The energy and related quantum chemical parameters values of M1BZP.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Mulliken Charge analysis of M1BZP.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Physicochemical parameters generated using Osiris datawarrior.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "Pharmacokinetics of M1BZP evaluated using SwissADME tool.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "Toxicology of M1BZP evaluated using SwissADME tool.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Supplementary data to this article can be found online at https://doi. org/10.1016/j.bioorg.2021.104967.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Appendix A. Supplementary material"
+        }
+    ]
+}

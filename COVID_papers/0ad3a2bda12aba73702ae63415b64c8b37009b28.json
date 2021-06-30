@@ -1,0 +1,3630 @@
+{
+    "paper_id": "0ad3a2bda12aba73702ae63415b64c8b37009b28",
+    "metadata": {
+        "title": "METHODS The 2020 Facial Transplantation Update: A 15-Year Compendium Special Topic PRS Global Open \u2022 2021",
+        "authors": [
+            {
+                "first": "Gustave",
+                "middle": [
+                    "K"
+                ],
+                "last": "Diep",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "NYU Langone Health",
+                    "location": {
+                        "settlement": "New York",
+                        "region": "N.Y"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zoe",
+                "middle": [
+                    "P"
+                ],
+                "last": "Berman",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "NYU Langone Health",
+                    "location": {
+                        "settlement": "New York",
+                        "region": "N.Y"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Allyson",
+                "middle": [
+                    "R"
+                ],
+                "last": "Alfonso",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "NYU Langone Health",
+                    "location": {
+                        "settlement": "New York",
+                        "region": "N.Y"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Elie",
+                "middle": [
+                    "P"
+                ],
+                "last": "Ramly",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "NYU Langone Health",
+                    "location": {
+                        "settlement": "New York",
+                        "region": "N.Y"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Daniel",
+                "middle": [],
+                "last": "Boczar",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "NYU Langone Health",
+                    "location": {
+                        "settlement": "New York",
+                        "region": "N.Y"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jorge",
+                "middle": [],
+                "last": "Trilles",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "NYU Langone Health",
+                    "location": {
+                        "settlement": "New York",
+                        "region": "N.Y"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ricardo",
+                "middle": [
+                    "Rodriguez"
+                ],
+                "last": "Colon",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "NYU Langone Health",
+                    "location": {
+                        "settlement": "New York",
+                        "region": "N.Y"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Bachar",
+                "middle": [
+                    "F"
+                ],
+                "last": "Chaya",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "NYU Langone Health",
+                    "location": {
+                        "settlement": "New York",
+                        "region": "N.Y"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Eduardo",
+                "middle": [
+                    "D"
+                ],
+                "last": "Rodriguez",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "NYU Langone Health",
+                    "location": {
+                        "settlement": "New York",
+                        "region": "N.Y"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Over the past 15 years, landmark achievements have established facial transplantation (FT) as a feasible reconstructive option for otherwise irreparable craniofacial defects. However, as the field matures and long-term outcomes begin to emerge, FT teams around the world are now facing new challenges. Data for this review were identified by searches of the PubMed/MEDLINE database from inception through August 2020. All English-language articles pertaining to FT were included. Significant advances in candidate selection, technology, operative technique, posttransplant care, and immunosuppressive management have contributed to the tremendous expansion of the field, culminating in the execution in the past 3 years of 2 facial re-transplantations, and most recently the world's first successful combined face and double hand transplant in August 2020. Despite these achievements, the allograft donor pool remains limited, with long wait times, requiring surgical experimentation with cross-sex FT. Immunosuppressive management has improved, but significant adverse events continue to be reported. Most recently, the COVID-19 pandemic has placed an unprecedented strain on the healthcare system, with various implications for the practice of reconstructive transplantation. In this article, we provide the most comprehensive and up-to-date FT review, highlighting fundamental lessons learned and recent advancements, while looking toward the challenges ahead. Over the past 15 years, extensive multidisciplinary efforts have been instrumental to the establishment of FT as a feasible reconstructive option. As novel challenges are beginning to emerge, continued collaborative and multispecialty research efforts are needed to further this field.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The field of facial transplantation (FT) has significantly evolved since the first patient was operated on in 2005. 1 Important advancements include improvements in preoperative evaluation, surgical preparation, operative techniques, and postoperative management, allowing for refinement of outcomes. With 48 FTs described to date, the field has expanded tremendously. However, as new milestones are reached, new obstacles are emerging that FT teams must now overcome. Additionally, the COVID-19 pandemic is reshaping the healthcare system as a whole, requiring adaptations for the delivery of care to FT candidates and recipients. We herein aim to provide the most comprehensive and up-to-date FT review as of August 2020, reflecting on the key lessons learned through 15 years of worldwide experience, discussing the field's most recent advances, and examining future directions and challenges.",
+            "cite_spans": [
+                {
+                    "start": 116,
+                    "end": 117,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Compatibility between donor and recipient is paramount for success in FT. Traditional considerations in solid organ transplantation (SOT) involve immunologic cross reactivity and viral serology. With FT, additional factors include matching of skin tone, hair color, and facial structure. Histocompatibility is generally more difficult to attain, as most FT candidates are typically profoundly immunosensitized secondary to initial resuscitation with blood products and skin grafting. 3 Although crossmatching is traditionally performed with peripheral blood using flow cytometry, a disproportionate rate of false negatives may be observed in highly sensitized patients. As a result, many vascularized composite allotransplantation (VCA) centers have now adopted the use of donor lymph nodes for tissue typing. 4 Viral serology mismatch poses additional challenges, as seen with 1 patient who developed monoclonal B-cell lymphoma following FT with Epstein-Barr virus mismatch. 5 Context of the initial injury and baseline functional status must also be considered. To date, 3 patients with acquired bilateral blindness have undergone successful FT. [6] [7] [8] [9] Criticism against FT for blind individuals has focused on the recipients' inability to appreciate the extent of their pre-transplantation injury and aesthetic improvements following FT, as well as inability to fully assess others' perceptions of their pre-and post-FT appearance. Furthermore, blindness can compromise adequate self-monitoring for rejection. Still, as seen with aesthetic surgery, blind patients may benefit from FT, as it allows for significant improvement in motor and sensory function, improved self-image and successful social reintegration. 10, 11 Thus, blindness on its own should not warrant exclusion from consideration for FT, and an extensive caretaker consent process should be implemented to assess FT candidates' support system. 6 Of the 48 documented FTs, 21 have been performed for high-energy ballistic facial trauma, with several index injuries explicitly described as self-inflicted. [12] [13] [14] [15] To date, only 1 of these patients has died by suicide, in the context of longstanding suicidal behavior, lack of social support, and significant financial encumbrance. 16 Nonetheless, numerous reports have demonstrated a decrease in depressive symptoms, improvement in quality of life, sense of self, and social reintegration following FT. Ethical analyses have suggested that self-inflicted injury alone should not be an absolute contraindication for FT. 17, 18 Regardless of documented psychiatric history, comprehensive and longitudinal psychiatric evaluation is an imperative component of FT candidate work-up and ongoing care. Mental health should be reassessed at all visits to support patient compliance, and ultimately reduce the risk of allograft failure.",
+            "cite_spans": [
+                {
+                    "start": 484,
+                    "end": 485,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 810,
+                    "end": 811,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 976,
+                    "end": 977,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1148,
+                    "end": 1151,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1152,
+                    "end": 1155,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1156,
+                    "end": 1159,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1160,
+                    "end": 1163,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1726,
+                    "end": 1729,
+                    "text": "10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1730,
+                    "end": 1732,
+                    "text": "11",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1922,
+                    "end": 1923,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 2082,
+                    "end": 2086,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 2087,
+                    "end": 2091,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 2092,
+                    "end": 2096,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 2097,
+                    "end": 2101,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 2270,
+                    "end": 2272,
+                    "text": "16",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 2558,
+                    "end": 2561,
+                    "text": "17,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 2562,
+                    "end": 2564,
+                    "text": "18",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "PRE-TRANSPLANTATION CONSIDERATIONS Candidate Selection and Work-up"
+        },
+        {
+            "text": "The VCA donor pool is limited. Despite 40% of braindead donors meeting initial screening criteria for VCA donation, wait times for FT may exceed 2 years, reflecting the potential to expand the VCA donor pool. 19 Furthermore, authorization for VCA donation is often difficult to navigate with families, although educational intervention has been proved to significantly increase willingness to donate. 20 Currently available patient-oriented educational material on VCA is well above both the National Institutes of Health and American Medical Association's recommended reading level. 21 Recent efforts to expand the donor pool include optimization of the readability of and access to VCA educational materials, conceptualization of a multimodal VCA donation campaign strategy, research investigating donor-recipient sex-mismatched FT, and nationwide partnership to expand the donor search radius. [22] [23] [24] Additional investigations have also shown that, although organ procurement coordinators play a critical role in discussions surrounding VCA, there are significant disparities in distribution practices of educational materials. Future collaboration with organ procurement organizations (OPO) will be paramount to mitigate these disparities. 25 ",
+            "cite_spans": [
+                {
+                    "start": 209,
+                    "end": 211,
+                    "text": "19",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 401,
+                    "end": 403,
+                    "text": "20",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 584,
+                    "end": 586,
+                    "text": "21",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 897,
+                    "end": 901,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 902,
+                    "end": 906,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 907,
+                    "end": 911,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1252,
+                    "end": 1254,
+                    "text": "25",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Donor Pool Expansion"
+        },
+        {
+            "text": "Since the first partial myocutaneous FT in 2005, efforts to push the boundaries of facial reconstruction have been documented worldwide, including the execution of full FT, immediate FT bypassing autologous reconstruction, re-transplantation for allograft failure and combined face, and double hand transplant (FT-DHT). To date, 48 FTs have been performed on 46 recipients (Table 2) . 12, 14, 15, [26] [27] [28] [29] [30] [31] The most common indications for FT are craniofacial defects from ballistic trauma (43.7%), followed by thermal, chemical, or electrical burn injuries (25.0%). In 1 instance, FT was successfully executed following the acute phase of injury, before any autologous reconstructive procedures, with encouraging outcomes. 27 The first described case in an African American recipient was executed as a full rather than the initially planned partial FT, because achieving an acceptable donor-recipient color match proved difficult. 29 This case underscores the well-established ethnic and racial disparity observed in willingness to donate both solid organ and VCA, and further echoes the limited availability of skin-containing allografts for people of color. 32 Despite the paucity of long-term outcome reports, the data available indicate that most FT recipients remain alive to this day (81.2%), while 8 (16.7%) have died (Table 3) .",
+            "cite_spans": [
+                {
+                    "start": 385,
+                    "end": 388,
+                    "text": "12,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 389,
+                    "end": 392,
+                    "text": "14,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 393,
+                    "end": 396,
+                    "text": "15,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 397,
+                    "end": 401,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 402,
+                    "end": 406,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 407,
+                    "end": 411,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 412,
+                    "end": 416,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 417,
+                    "end": 421,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 422,
+                    "end": 426,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 743,
+                    "end": 745,
+                    "text": "27",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 951,
+                    "end": 953,
+                    "text": "29",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 1180,
+                    "end": 1182,
+                    "text": "32",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 373,
+                    "end": 382,
+                    "text": "(Table 2)",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 1345,
+                    "end": 1354,
+                    "text": "(Table 3)",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "SURGICAL CONSIDERATIONS The Current State of Facial Transplantation"
+        },
+        {
+            "text": "The feasibility of FT is now widely established and the focus of the field has shifted to optimizing safety and outcomes, with the integration of new surgical technologies into cadaveric and clinical procedures. 14, 33 The application of computerized surgical planning (CSP) and computer-aided design and manufacturing (CAD/CAM) of patient-specific devices has been instrumental to allow FT teams to adopt a customized approach to various clinical scenarios and achieve superior functional and aesthetic outcomes, including optimized operative flow and cephalometric and occlusal relationships after transplantation. 34 At least 8 other FT teams have relied on various forms of three-dimensional (3D) imaging and CAD/CAM for preparation and execution of their FTs. 1, 13, 15, 28, 35, 36 Nonetheless, CSP should serve as a guide for FT surgeons, rather than dictate intraoperative decision-making; deviating from the computerized plan may be necessary in real time.",
+            "cite_spans": [
+                {
+                    "start": 212,
+                    "end": 215,
+                    "text": "14,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 216,
+                    "end": 218,
+                    "text": "33",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 617,
+                    "end": 619,
+                    "text": "34",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 765,
+                    "end": 767,
+                    "text": "1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 768,
+                    "end": 771,
+                    "text": "13,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 772,
+                    "end": 775,
+                    "text": "15,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 776,
+                    "end": 779,
+                    "text": "28,",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 780,
+                    "end": 783,
+                    "text": "35,",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 784,
+                    "end": 786,
+                    "text": "36",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Computerized Surgical Planning"
+        },
+        {
+            "text": "Intraoperative surgical navigation (ISN) provides real-time 3D guidance with 1-to 2-mm precision, and its use in craniomaxillofacial surgery has been extensively documented. 37 To date, 2 clinical FTs have utilized ISN as an adjunct to CSP, allowing intraoperative guidance of LeFort III osteotomies in the first patient and imageguided allograft inset and fixation in the second patient. 34 Mixed reality (MR) technology has recently been proposed as a complementary option for use in FT planning and intraoperative visualization. 38 In addition to the perceived benefits of MR, including enhanced visualization and easier maintenance of sterility, costs and surgical planning time have been cited as advantages of the holographic model over CSP and CAD/CAM. Further clinical comparative studies between the 2 modalities should be conducted to evaluate the role of MR in future FTs.",
+            "cite_spans": [
+                {
+                    "start": 174,
+                    "end": 176,
+                    "text": "37",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 389,
+                    "end": 391,
+                    "text": "34",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 532,
+                    "end": 534,
+                    "text": "38",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Computerized Surgical Planning"
+        },
+        {
+            "text": "Lifelong immunosuppression, allograft surveillance, and management of rejection ultimately dictate allograft survival. To date, 6 cases of CR have been reported, and nearly all FT recipients have had at least 1 incidence of acute rejection (AR) ( Table 2 ). Immunosuppression induction regimens generally consist of anti-thymocyte globulin (ATG) or anti-IL-2 receptor antibody in combination with tacrolimus, mycophenolate mofetil (MMF), and steroids. Other reported induction protocols include a combination of steroids with either ATG, ATG with anti-CD20, ATG with MMF, or anti-CD52. 10, 12, 39 Maintenance therapy traditionally consists of triple therapy with corticosteroids, MMF, and tacrolimus, although some groups have used dual therapy with MMF and tacrolimus. 40 Appropriate antimicrobial prophylaxis is necessary because immunosuppression increases susceptibility to opportunistic infections, particularly given the unique craniomaxillofacial flora (Table 4 ). 41 Given the composite nature of tissue transplanted in FT, different methods of allograft surveillance have been proposed, with skin biopsy remaining the gold standard. 42 Although the use of oral mucosal biopsy has been frequently described, its clinical utility remains unclear, as high rates of discordance with skin biopsy have been noted. Additionally, compared with the oral mucosa, skin histology is more likely to confirm clinical suspicion of rejection. 43, 44 Some groups have advocated additional use of sentinel flaps for clinical monitoring, although the benefits of this approach are unclear. 1, 44 Noninvasive methods to detect rejection have also been reported, including ultrasound biomicroscopy, epidermal skin-stripping, and circulating donor-derived cell-free DNA; however, clinical application of these methods remains under investigation. [45] [46] [47] Ultimately, we recommend close clinical followup and visual inspection of the allograft to detect clinical signs of AR followed by histologic confirmation with skin biopsy depending on clinical suspicion, as opposed to routine surveillance biopsy. 44, 48 Management protocols for AR in FT remain nonstandardized and underreported. 40 Most groups have reported successful use of pulse-dose corticosteroids, with or without topical agents and/or increased maintenance doses of immunosuppression. 12 Other therapies described include a combination of plasmapheresis, intravenous immunoglobulins, extracorporeal photopheresis, ATGs, eculizumab, and bortezomib. 36, 40, 49 Successful management of AR has been proposed as a rationale for the relatively low incidence of CR in FT. Although reports are beginning to emerge, the timeframe for CR remains unknown and expert consensus on CR management and allograft failure has not been established. 5, 50 Clinical findings range from early fibrotic changes such as facial skin thinning and/or accelerated wrinkling, telangiectasia, dyschromia and skin sclerosis with allograft dysfunction, to frank necrosis. 5, 51, 52 In the event of allograft loss, surgical salvage strategies are necessary and both autologous reconstruction and retransplantation have been reported. 26, 30, 51, 53 ",
+            "cite_spans": [
+                {
+                    "start": 586,
+                    "end": 589,
+                    "text": "10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 590,
+                    "end": 593,
+                    "text": "12,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 594,
+                    "end": 596,
+                    "text": "39",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 770,
+                    "end": 772,
+                    "text": "40",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 972,
+                    "end": 974,
+                    "text": "41",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 1142,
+                    "end": 1144,
+                    "text": "42",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 1436,
+                    "end": 1439,
+                    "text": "43,",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 1440,
+                    "end": 1442,
+                    "text": "44",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 1580,
+                    "end": 1582,
+                    "text": "1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 1583,
+                    "end": 1585,
+                    "text": "44",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 1834,
+                    "end": 1838,
+                    "text": "[45]",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 1839,
+                    "end": 1843,
+                    "text": "[46]",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 1844,
+                    "end": 1848,
+                    "text": "[47]",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 2097,
+                    "end": 2100,
+                    "text": "44,",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 2101,
+                    "end": 2103,
+                    "text": "48",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 2180,
+                    "end": 2182,
+                    "text": "40",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 2343,
+                    "end": 2345,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 2506,
+                    "end": 2509,
+                    "text": "36,",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 2510,
+                    "end": 2513,
+                    "text": "40,",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 2514,
+                    "end": 2516,
+                    "text": "49",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 2789,
+                    "end": 2791,
+                    "text": "5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 2792,
+                    "end": 2794,
+                    "text": "50",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 2999,
+                    "end": 3001,
+                    "text": "5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 3002,
+                    "end": 3005,
+                    "text": "51,",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 3006,
+                    "end": 3008,
+                    "text": "52",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 3160,
+                    "end": 3163,
+                    "text": "26,",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 3164,
+                    "end": 3167,
+                    "text": "30,",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 3168,
+                    "end": 3171,
+                    "text": "51,",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 3172,
+                    "end": 3174,
+                    "text": "53",
+                    "ref_id": "BIBREF52"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 247,
+                    "end": 254,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 960,
+                    "end": 968,
+                    "text": "(Table 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "POST-TRANSPLANTATION CONSIDERATIONS Immunosuppression and Management of Allograft Rejection"
+        },
+        {
+            "text": "Due to the en bloc nature of FT, restoration of multiple facial subunits can be achieved in a single surgery. Aesthetic and functional outcomes can be further refined with allograft revisions. Despite the inherent risks of additional surgeries related to immunosuppression, potential vascular compromise, and triggering of AR, secondary allograft procedures are nearly ubiquitous and can be successfully performed at various timepoints in the posttransplant course. 2, 14, 51 The range of indications is wide, including emergent return to the operating room, elective aesthetic surgery, unplanned functional corrections, and end-stage salvage procedures. 2 Overall, facial allograft revisions allow optimization of functional and aesthetic outcomes after FT ( Table 5) .",
+            "cite_spans": [
+                {
+                    "start": 466,
+                    "end": 468,
+                    "text": "2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 469,
+                    "end": 472,
+                    "text": "14,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 473,
+                    "end": 475,
+                    "text": "51",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 655,
+                    "end": 656,
+                    "text": "2",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 760,
+                    "end": 768,
+                    "text": "Table 5)",
+                    "ref_id": "TABREF5"
+                }
+            ],
+            "section": "Allograft Revisions"
+        },
+        {
+            "text": "Quality of life (QoL) of FT recipients' remains the ultimate measure of FT success. Currently, there is a lack of consistent reporting using validated measures for QoL, with most FT centers only offering subjective assessments. Among the teams that report using objective assessments, more than 25 unique instruments have been employed, and none have been validated for use in FT. 54 This underscores the need for standardized, FT-specific patient-reported outcomes measures (PROMs). Although robust quantitative analyses are currently limited by the relatively small number of FTs, further qualitative studies may continue to inform the development of standardized PROMs. Open collaboration between teams and consensus on outcomes reporting will be critical to advance the field.",
+            "cite_spans": [
+                {
+                    "start": 381,
+                    "end": 383,
+                    "text": "54",
+                    "ref_id": "BIBREF53"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Quality of Life"
+        },
+        {
+            "text": "Data on functional outcomes remain largely underreported, and have included assessments of olfaction, breathing, facial motor and sensory functions, speech, and eating. 55 Comparison of postoperative functional outcomes across the FT recipient cohort is further nuanced by patient-specific variations in preoperative functional status, mechanism of injury, and allograft composition. 55 Facial tracking technology, video analysis software, and facial surface electromyography have been used to noninvasively track recovery of speech, eyelid function, and facial expression, with results showing at least partial restoration of function after FT and the potential for personalized rehabilitation. [56] [57] [58] Additionally, objective measures such as timing to tracheostomy decannulation, gastrostomy tube removal and resumption of regular oral diet are important parameters to report for QoL assessment.",
+            "cite_spans": [
+                {
+                    "start": 169,
+                    "end": 171,
+                    "text": "55",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 384,
+                    "end": 386,
+                    "text": "55",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 696,
+                    "end": 700,
+                    "text": "[56]",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 701,
+                    "end": 705,
+                    "text": "[57]",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 706,
+                    "end": 710,
+                    "text": "[58]",
+                    "ref_id": "BIBREF57"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Quality of Life"
+        },
+        {
+            "text": "Two unsuccessful attempts at combined FT-DHT have been reported in the past. 8 Ongoing postoperative infectious complications ultimately resulted in death of the first recipient on postoperative day (POD) 65, and vascular complications necessitated removal of the second recipient's upper extremities on POD 5. 8 In August 2020, the world's first successful combined FT-DHT was performed amidst the COVID-19 pandemic in a 21-year-old man who Table 4 had sustained an 80% total body surface area burn injury. Advances in technology, surgical technique, transplant immunology, and expertise gained through 15 years of clinical FT experience, coupled with meticulous preparation and strict adherence to COVID testing and guidelines culminated in the safe execution of this procedure, the most comprehensive VCA to date. 31 In concert with the field's expansion, cross-sex facial transplantation (CSFT) has been proposed as a method of expanding the restricted VCA donor pool. Successful outcomes have been observed in clinical extremity transplantation, including 4 upper extremity transplants and 1 lower extremity transplant. 59, 60 Although it has yet to be performed in the clinical setting, CSFT has shown promising results in cadaveric simulations, and survey data show acceptance of the practice among members of the general public as well as by the ethics community. 22, 61, 62 Despite a trend toward increasingly complex reconstructive undertakings, the inclusion of certain anatomic structures within the facial allograft has yet to be described. To date, only 1 clinical FT involved a unilateral condyle. 63 As trauma to the craniofacial skeleton and subsequent reconstructive attempts can lead to temporomandibular joint (TMJ) ankylosis, FT candidates can experience TMJ-related complications after FT, even with normal TMJ anatomy on pretransplant imaging. 64 For FT candidates with TMJ pathology, either preexisting or as a result of their injury, inclusion of bilateral condyles in the allograft could in theory represent a potential option to restore TMJ function. Three methods of TMJ harvest have been explored in cadaveric simulations, with full passive mandibular range of motion obtained posttransplant. 65, 66 However, important clinical considerations for TMJ-containing FT remain largely unaddressed, including TMJ dynamics after FT, occlusion, and long-term development of TMJ-related complications.",
+            "cite_spans": [
+                {
+                    "start": 77,
+                    "end": 78,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 311,
+                    "end": 312,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 817,
+                    "end": 819,
+                    "text": "31",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1125,
+                    "end": 1128,
+                    "text": "59,",
+                    "ref_id": "BIBREF58"
+                },
+                {
+                    "start": 1129,
+                    "end": 1131,
+                    "text": "60",
+                    "ref_id": "BIBREF59"
+                },
+                {
+                    "start": 1372,
+                    "end": 1375,
+                    "text": "22,",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1376,
+                    "end": 1379,
+                    "text": "61,",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 1380,
+                    "end": 1382,
+                    "text": "62",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 1613,
+                    "end": 1615,
+                    "text": "63",
+                    "ref_id": "BIBREF62"
+                },
+                {
+                    "start": 1867,
+                    "end": 1869,
+                    "text": "64",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 2222,
+                    "end": 2225,
+                    "text": "65,",
+                    "ref_id": "BIBREF64"
+                },
+                {
+                    "start": 2226,
+                    "end": 2228,
+                    "text": "66",
+                    "ref_id": "BIBREF65"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 442,
+                    "end": 449,
+                    "text": "Table 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Advances in Facial Transplantation"
+        },
+        {
+            "text": "With FT recipients now living longer posttransplant, we must prepare for an increasing number of CR and allograft failure. Thus far, re-transplantation appears technically feasible; however, acceptance of the practice may depend on patient-specific determinations of its impact on QoL, as in primary FT. Among FT experts, a majority believe re-transplantation should be considered in cases of graft loss. 50 In theory, re-transplantation may carry increased immunological risks due to recipient sensitization to the primary allograft, which could lead to earlier rejection of a new allograft. Altered recipient vessel architecture from previous anastomoses might contribute to technical complexity. Careful monitoring will inform the long-term implications of this surgical intervention.",
+            "cite_spans": [
+                {
+                    "start": 405,
+                    "end": 407,
+                    "text": "50",
+                    "ref_id": "BIBREF49"
+                }
+            ],
+            "ref_spans": [],
+            "section": "New Ethical Considerations"
+        },
+        {
+            "text": "To date, no pediatric FT has been documented, although 62% of survey respondents at an international ethics conference were in favor, given appropriate indications. 61 Ethical concerns surrounding consent, immunological risks, and ongoing development of children and adolescents weigh against enhanced QoL, psychosocial well-being, social integration, and restoration of function. 67 Nonetheless, discussions addressing donor availability, a dynamic consent process, treatment adherence, and procedural considerations are underway. 68, 69 ",
+            "cite_spans": [
+                {
+                    "start": 165,
+                    "end": 167,
+                    "text": "61",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 381,
+                    "end": 383,
+                    "text": "67",
+                    "ref_id": "BIBREF66"
+                },
+                {
+                    "start": 532,
+                    "end": 535,
+                    "text": "68,",
+                    "ref_id": "BIBREF67"
+                },
+                {
+                    "start": 536,
+                    "end": 538,
+                    "text": "69",
+                    "ref_id": "BIBREF68"
+                }
+            ],
+            "ref_spans": [],
+            "section": "New Ethical Considerations"
+        },
+        {
+            "text": "The COVID-19 pandemic and associated global economic crisis have placed an unprecedented strain on healthcare systems throughout the world. Financing schemes for FT differ significantly across countries and healthcare systems. In European countries, FTs have typically been financed by the national health care system or public research programs. 15, 70 Most FTs in the United States continue to be performed using a combination of institutional resources and research grants from agencies such as the Department of Defense. In 2018, the first FT to be partially supported by an employer-mediated thirdparty private insurer was performed. 14 Financial, regulatory, and access-related considerations have pushed some patients to seek VCA care in countries other than their own, but this may become less feasible as travel restrictions, infection-control practices, and resource allocation measures tighten in the aftermath of the COVID-19 pandemic. 71 Select teams have already engaged in longdistance follow-up care of FT recipients living in areas far from their VCA centers. 72 This approach may gain traction in the post-COVID-19 era, as the challenges imposed by the pandemic meet an accelerated integration of telemedicine throughout the field of plastic and reconstructive surgery. 73, 74 Standardization of monitoring practices with quality control measures are necessary to maximize the benefit of remote patient interactions. Clinical evaluation using photography, serial documentation of signs and symptoms of rejection, and monitoring for medicationrelated adverse events must all be incorporated. 75",
+            "cite_spans": [
+                {
+                    "start": 347,
+                    "end": 350,
+                    "text": "15,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 351,
+                    "end": 353,
+                    "text": "70",
+                    "ref_id": "BIBREF69"
+                },
+                {
+                    "start": 948,
+                    "end": 950,
+                    "text": "71",
+                    "ref_id": "BIBREF70"
+                },
+                {
+                    "start": 1077,
+                    "end": 1079,
+                    "text": "72",
+                    "ref_id": "BIBREF71"
+                },
+                {
+                    "start": 1288,
+                    "end": 1291,
+                    "text": "73,",
+                    "ref_id": "BIBREF72"
+                },
+                {
+                    "start": 1292,
+                    "end": 1294,
+                    "text": "74",
+                    "ref_id": "BIBREF73"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Facial Transplantation in the Post-COVID-19 World"
+        },
+        {
+            "text": "Over the past 15 years, landmark achievements have shaped the field of FT as a feasible, sometimes preferable reconstructive option for otherwise irreparable craniofacial defects. The field is expanding, and outcomes are encouraging. With some facial allografts beginning to succumb to CR, FT teams were challenged to innovate with re-transplantation to overcome new hurdles. Most recently, the world's first successful combined FT-DHT established the feasibility of simultaneous VCA, marking the entry of FT into a new phase in caring for patients with extensive composite defects. In this new decade, amidst a global pandemic, we are now presented with a novel set of challenges as we strive to further the field. Continued research efforts will be necessary to validate the feasibility of CSFT. Community outreach, education, and connectedness with local OPOs will set the stage for expansion of the donor pool. Finally, transparency and standardization of clinical protocols and outcomes reporting will be fundamental to the maturation of the field. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONCLUSIONS"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "First human face allograft: Early report",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Devauchelle",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Badet",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Lengel\u00e9",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Lancet",
+            "volume": "368",
+            "issn": "",
+            "pages": "203--209",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(06)68935-6"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Enhancing face transplant outcomes: Fundamental principles of facial allograft revision",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Diep",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Ramly",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Alfonso",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Plast Reconstr Surg Glob Open",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/GOX.0000000000002949"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Vascularized composite allotransplantation-an emerging concept for burn reconstruction",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ng",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Lellouch",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Drijkoningen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Burn Care Res",
+            "volume": "38",
+            "issn": "",
+            "pages": "371--378",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/BCR.0000000000000532"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Composite tissue transplantation",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Brandacher",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Methods Mol Biol",
+            "volume": "1034",
+            "issn": "",
+            "pages": "103--115",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/978-1-62703-493-7_5"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Clinicopathological findings of chronic rejection in a face grafted patient",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Petruzzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kanitakis",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Testelin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Transplantation",
+            "volume": "99",
+            "issn": "",
+            "pages": "2644--2650",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/TP.0000000000000765"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Facial transplantation in a blind patient: Psychologic, marital, and family outcomes at 15 months follow-up",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lemmens",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Poppe",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hendrickx",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Psychosomatics",
+            "volume": "56",
+            "issn": "",
+            "pages": "362--370",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.psym.2014.05.002"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Evolution of indications for facial transplantation",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Pomahac",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Diaz-Siso",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Bueno",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Plast Reconstr Aesthet Surg",
+            "volume": "64",
+            "issn": "",
+            "pages": "1410--1416",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.bjps.2011.06.024"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Lessons learned from simultaneous face and bilateral hand allotransplantation",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Carty",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hivelin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Dumontier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Plast Reconstr Surg",
+            "volume": "132",
+            "issn": "",
+            "pages": "423--432",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/PRS.0b013e318295883d"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Reconstructive management of devastating electrical injuries to the face",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Janis",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Khansa",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Lehrman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Plast Reconstr Surg",
+            "volume": "136",
+            "issn": "",
+            "pages": "839--847",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/PRS.0000000000001619"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Three patients with full facial transplantation",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Pomahac",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Pribaz",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Eriksson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "N Engl J Med",
+            "volume": "366",
+            "issn": "",
+            "pages": "715--722",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa1111432"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Aesthetic perspectives regarding physically and mentally challenged patients",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Widgerow",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Chait",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Plast Reconstr Surg",
+            "volume": "105",
+            "issn": "",
+            "pages": "2251--2255",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/00006534-200005000-00055"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Achievements and challenges in facial transplantation",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Rifkin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "David",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Plana",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Ann Surg",
+            "volume": "268",
+            "issn": "",
+            "pages": "260--270",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/SLA.0000000000002723"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Road to recovery: woman is youngest patient in United States to receive face transplant",
+            "authors": [
+                {
+                    "first": "Cleveland",
+                    "middle": [],
+                    "last": "Clinic",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Cleveland Clinic",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Facial transplantation for an irreparable central and lower face injury: A modernized approach to a classic challenge",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kantar",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ceradini",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Gelb",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Plast Reconstr Surg",
+            "volume": "144",
+            "issn": "",
+            "pages": "264--283",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/PRS.0000000000005885"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "The Helsinki approach to face transplantation",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lindford",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "M\u00e4kisalo",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Jalanko",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Plast Reconstr Aesthet Surg",
+            "volume": "72",
+            "issn": "",
+            "pages": "173--180",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.bjps.2018.08.030"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Face transplant: Longterm follow-up and results of a prospective open study",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Lantieri",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Grimbert",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ortonne",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Lancet",
+            "volume": "388",
+            "issn": "",
+            "pages": "1398--1407",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(16)31138-2"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Self-inflicted gunshot wound as a consideration in the patient selection process for facial transplantation",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Mcquinn",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Kimberly",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Parent",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Camb Q Healthc Ethics",
+            "volume": "28",
+            "issn": "",
+            "pages": "450--462",
+            "other_ids": {
+                "DOI": [
+                    "10.1017/S0963180119000379"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "The role of face transplantation in the self-inflicted gunshot wound",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kiwanuka",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Aycart",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Gitlin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J Plast Reconstr Aesthet Surg",
+            "volume": "69",
+            "issn": "",
+            "pages": "1636--1647",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.bjps.2016.08.014"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "OPTN vascularized composite allograft waiting list: Current status and trends in the United States",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Wainright",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Wholley",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Cherikh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Transplantation",
+            "volume": "102",
+            "issn": "",
+            "pages": "1885--1890",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/TP.0000000000002232"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "The public face of transplantation: The potential of education to expand the face donor pool",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Plana",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Kimberly",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Parent",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Plast Reconstr Surg",
+            "volume": "141",
+            "issn": "",
+            "pages": "176--185",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/PRS.0000000000003954"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Comprehensive assessment of vascularized composite allotransplantation patient-oriented online resources",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Noel",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Kimberly",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Demitchell-Rodriguez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Ann Plast Surg",
+            "volume": "83",
+            "issn": "",
+            "pages": "217--223",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/SAP.0000000000001931"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Feasibility and perception of cross-sex face transplantation to expand the donor pool",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sosin",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Robinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Diep",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Plast Reconstr Surg Glob Open",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/GOX.0000000000003100"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Guiding strategies for the future of vascularized composite allotransplantation: A systematic review of organ donation campaigns",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Mills",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Felsenheld",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Berman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Plast Reconstr Surg",
+            "volume": "146",
+            "issn": "",
+            "pages": "922--934",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/PRS.0000000000007187"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Development of donor family-oriented resources to facilitate authorization for reconstructive transplantation",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Berman",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Alfonso",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Diep",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Prog Transplant",
+            "volume": "30",
+            "issn": "",
+            "pages": "398--399",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/1526924820958122"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Toward increased organ procurement organization involvement in vascularized composite allograft donation",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Demitchell-Rodriguez",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Irving",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Friedman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Prog Transplant",
+            "volume": "29",
+            "issn": "",
+            "pages": "294--295",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/1526924819856613"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Man's second face transplant is a world first. CNN",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Howard",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "The first immediate face transplant in the world",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Maciejewski",
+                    "suffix": ""
+                },
+                {
+                    "first": "\u0141",
+                    "middle": [],
+                    "last": "Krakowczyk",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Szymczyk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Ann Surg",
+            "volume": "263",
+            "issn": "",
+            "pages": "36--39",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/SLA.0000000000001597"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Canada's first face transplant. National Post",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kirkey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "He's the first African American to receive a face transplant",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ducharme",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "She is the first American to get a new face twice",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Setty",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Available at: https:// apnews.com/article/face-hand-transplant-joe-dimeo-1e11f620b-d84c817e99b00bdf874625a",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Renault",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ritzel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Racial disparities in organ donation and why",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Bratton",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Chavin",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Baliga",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Curr Opin Organ Transplant",
+            "volume": "16",
+            "issn": "",
+            "pages": "243--249",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/MOT.0b013e3283447b1c"
+                ]
+            }
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Total face, eyelids, ears, scalp, and skeletal subunit transplant cadaver simulation: The culmination of aesthetic, craniofacial, and microsurgery principles",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sosin",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ceradini",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hazen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Plast Reconstr Surg",
+            "volume": "137",
+            "issn": "",
+            "pages": "1569--1581",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/PRS.0000000000002122"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Computerized approach to facial transplantation: Evolution and application in 3 consecutive face transplants",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Ramly",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kantar",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Diaz-Siso",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Plast Reconstr Surg Glob Open",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/GOX.0000000000002379"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "First U.S. near-total human face transplantation: A paradigm shift for massive complex injuries",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Siemionow",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Papay",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Djohan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Plast Reconstr Surg",
+            "volume": "125",
+            "issn": "",
+            "pages": "111--122",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/PRS.0b013e3181c15c4c"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Complex facial reconstruction by vascularized composite allotransplantation: The first Belgian case",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Roche",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Vermeersch",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Stillaert",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Plast Reconstr Aesthet Surg",
+            "volume": "68",
+            "issn": "",
+            "pages": "362--371",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.bjps.2014.11.005"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Surgical navigation: A systematic review of indications, treatments, and outcomes in oral and maxillofacial surgery",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Azarmehr",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Stokbro",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Bell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Oral Maxillofac Surg",
+            "volume": "75",
+            "issn": "",
+            "pages": "1987--2005",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.joms.2017.01.004"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Mixed reality and 3D printed models for planning and execution of face transplantation",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Cho",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Papay",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yanof",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Ann Surg",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/SLA.0000000000003794"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Novel immunological and clinical insights in vascularized composite allotransplantation",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Kollar",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Pomahac",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Riella",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Curr Opin Organ Transplant",
+            "volume": "24",
+            "issn": "",
+            "pages": "42--48",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/MOT.0000000000000592"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Reporting practices on immunosuppression and rejection management in face transplantation: A systematic review",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Daneshgaran",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Stern",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Garfein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Reconstr Microsurg",
+            "volume": "35",
+            "issn": "",
+            "pages": "652--661",
+            "other_ids": {
+                "DOI": [
+                    "10.1055/s-0039-1691787"
+                ]
+            }
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Characterization, prophylaxis, and treatment of infectious complications in craniomaxillofacial and upper extremity allotransplantation: A multicenter perspective",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Broyles",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Alrakan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Ensor",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Plast Reconstr Surg",
+            "volume": "133",
+            "issn": "",
+            "pages": "543--551",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/PRS.0000000000000015"
+                ]
+            }
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Immunological issues in clinical composite tissue allotransplantation: Where do we stand today?",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Morelon",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kanitakis",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Petruzzo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Transplantation",
+            "volume": "93",
+            "issn": "",
+            "pages": "855--859",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/TP.0b013e31824728b8"
+                ]
+            }
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Mucosa and rejection in facial vascularized composite allotransplantation: A systematic review",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kauke",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Safi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zhegibe",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Transplantation",
+            "volume": "104",
+            "issn": "",
+            "pages": "2616--2624",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/TP.0000000000003171"
+                ]
+            }
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Defining the role of skin and mucosal biopsy in facial allotransplantation: A 2-year review and analysis of histology",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Chaudhry",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sosin",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Bojovic",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Plast Reconstr Surg",
+            "volume": "136",
+            "issn": "",
+            "pages": "559--567",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/PRS.0000000000001529"
+                ]
+            }
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Noninvasive monitoring of allograft rejection using a novel epidermal sampling technique",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Rabbani",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Rifkin",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Kadle",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Plast Reconstr Surg Glob Open",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/GOX.0000000000002368"
+                ]
+            }
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Circulating donor-derived cell-free DNA as a biomarker in vascularized composite allotransplantation?",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Haug",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kuang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tasigiorgos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Transplantation",
+            "volume": "104",
+            "issn": "",
+            "pages": "79--80",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/TP.0000000000003000"
+                ]
+            }
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Noninvasive monitoring of immune rejection in face transplant recipients",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kueckelhaus",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Imanzadeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Fischer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Plast Reconstr Surg",
+            "volume": "136",
+            "issn": "",
+            "pages": "1082--1089",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/PRS.0000000000001703"
+                ]
+            }
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Evolving concepts of skin and mucosal biopsy in facial vascularized composite allotransplantation",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sosin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Woodall",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Schultz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Curr Transpl Rep",
+            "volume": "1",
+            "issn": "",
+            "pages": "197--202",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Management of steroid-resistant late acute cellular rejection following face transplantation: A case report",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Janis",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Mackenzie",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Wright",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Transplant Proc",
+            "volume": "47",
+            "issn": "",
+            "pages": "223--225",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.transproceed.2014.09.152"
+                ]
+            }
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Are we prepared for the inevitable? A survey on defining and managing failure in face transplantation",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Lopez",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Plana",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Plast Reconstr Surg Glob Open",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/GOX.0000000000002055"
+                ]
+            }
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Face transplantation: Partial graft loss of the first case 10 years later",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Morelon",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Petruzzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kanitakis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Am J Transplant",
+            "volume": "17",
+            "issn": "",
+            "pages": "1935--1940",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/ajt.14218"
+                ]
+            }
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Capillary thrombosis in the skin: A pathologic hallmark of severe/chronic rejection of human vascularized composite tissue allografts?",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kanitakis",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Petruzzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gazarian",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Transplantation",
+            "volume": "100",
+            "issn": "",
+            "pages": "954--957",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/TP.0000000000000882"
+                ]
+            }
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Consideration of difficulties and exit strategies in a case of face allotransplantation resulting in failure",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Ozkan",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Ozkan",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Dogan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Microsurgery",
+            "volume": "37",
+            "issn": "",
+            "pages": "661--668",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Quality of life after face transplantation: Outcomes, assessment tools, and future directions",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Aycart",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kiwanuka",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Krezdorn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Plast Reconstr Surg",
+            "volume": "139",
+            "issn": "",
+            "pages": "194--203",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/PRS.0000000000002890"
+                ]
+            }
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Functional outcomes of face transplantation",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Fischer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kueckelhaus",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Pauzenberger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Am J Transplant",
+            "volume": "15",
+            "issn": "",
+            "pages": "220--233",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/ajt.12956"
+                ]
+            }
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Communication efficiency in a face transplant recipient: Determinants and therapeutic implications",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Levy-Lambert",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Grigos",
+                    "suffix": ""
+                },
+                {
+                    "first": "\u00c9",
+                    "middle": [],
+                    "last": "Leblanc",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Craniofac Surg",
+            "volume": "31",
+            "issn": "",
+            "pages": "528--530",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/SCS.0000000000006727"
+                ]
+            }
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "Total eyelid transplantation in a face transplant: Analysis of postoperative periorbital function",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Grigos",
+                    "suffix": ""
+                },
+                {
+                    "first": "\u00c9",
+                    "middle": [],
+                    "last": "Leblanc",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Rifkin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Surg Res",
+            "volume": "245",
+            "issn": "",
+            "pages": "420--425",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jss.2019.07.096"
+                ]
+            }
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Recovery of facial expressions using functional electrical stimulation after full-face transplantation",
+            "authors": [
+                {
+                    "first": "\u00c7",
+                    "middle": [],
+                    "last": "Top\u00e7u",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Uysal",
+                    "suffix": ""
+                },
+                {
+                    "first": "\u00d6",
+                    "middle": [],
+                    "last": "\u00d6zkan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Neuroeng Rehabil",
+            "volume": "15",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12984-018-0356-0"
+                ]
+            }
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "World experience after more than a decade of clinical hand transplantation: Update on the Polish program",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Jab\u0142ecki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Hand Clin",
+            "volume": "27",
+            "issn": "",
+            "pages": "433--475",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.hcl.2011.08.003"
+                ]
+            }
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Bilateral transfemoral lower extremity transplantation: Result at 1 year",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Cavadas",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Thione",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Carballeira",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Am J Transplant",
+            "volume": "13",
+            "issn": "",
+            "pages": "1343--1349",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/ajt.12178"
+                ]
+            }
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "Ethicists' opinions regarding the permissibility of face transplant",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Suchyta",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sharp",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Amer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Plast Reconstr Surg",
+            "volume": "144",
+            "issn": "",
+            "pages": "212--224",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/PRS.0000000000005748"
+                ]
+            }
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "Public perceptions of cross-sex vascularized composite allotransplantation",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Mills",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Alfonso",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Wolfe",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Ann Plast Surg",
+            "volume": "85",
+            "issn": "",
+            "pages": "685--690",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/SAP.0000000000002472"
+                ]
+            }
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "Surgical aspects of a lower face, mandible, and tongue allotransplantation",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Cavadas",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ib\u00e1\u00f1ez",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Thione",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Reconstr Microsurg",
+            "volume": "28",
+            "issn": "",
+            "pages": "43--47",
+            "other_ids": {
+                "DOI": [
+                    "10.1055/s-0031-1284236"
+                ]
+            }
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Trismus in face transplantation following ballistic trauma",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Krezdorn",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Alhefzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Perry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Craniofac Surg",
+            "volume": "29",
+            "issn": "",
+            "pages": "843--847",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/SCS.0000000000004271"
+                ]
+            }
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "Considerations for temporomandibular joint procurement in vascularized composite allotransplantation",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Khavanin",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Davidson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Craniofac Surg",
+            "volume": "29",
+            "issn": "",
+            "pages": "1742--1746",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/SCS.0000000000004710"
+                ]
+            }
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "Full facial allotransplantation including the temporomandibular joints: A radiologic and anatomical cadaveric study",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Nunez-Villaveiran",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Fahradyan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Dalla",
+                    "middle": [],
+                    "last": "Pozza",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Plast Reconstr Surg",
+            "volume": "146",
+            "issn": "",
+            "pages": "622--632",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/PRS.0000000000007069"
+                ]
+            }
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "Ethical issues in pediatric face transplantation",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Benghiac",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Garrett",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Carter",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Pediatr Transplant",
+            "volume": "21",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "Pediatric vascularized composite allotransplantation: What is the landscape for obtaining appropriate donors in the United States?",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Mendenhall",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Sawyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "West",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Pediatr Transplant",
+            "volume": "23",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/petr.13466"
+                ]
+            }
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "Pediatric face transplantation: A viable option?",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Dorante",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tasigiorgos",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Pomahac",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Curr Opin Organ Transplant",
+            "volume": "23",
+            "issn": "",
+            "pages": "598--604",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/MOT.0000000000000572"
+                ]
+            }
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "Face transplantation program in France: A cost analysis of five patients",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "R\u00fcegg",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hivelin",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Hemery",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Transplantation",
+            "volume": "93",
+            "issn": "",
+            "pages": "1166--1172",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/TP.0b013e31824e75fa"
+                ]
+            }
+        },
+        "BIBREF70": {
+            "ref_id": "b70",
+            "title": "Logistics in coordinating the first adult transatlantic bilateral hand transplant: Lessons learned",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Ben-Amotz",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Kruger",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Mcandrew",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Plast Reconstr Surg",
+            "volume": "142",
+            "issn": "",
+            "pages": "730--735",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/PRS.0000000000004672"
+                ]
+            }
+        },
+        "BIBREF71": {
+            "ref_id": "b71",
+            "title": "Long-distance care of face transplant recipients in the United States",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Rifkin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Manjunath",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Kimberly",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Plast Reconstr Aesthet Surg",
+            "volume": "71",
+            "issn": "",
+            "pages": "1383--1391",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.bjps.2018.05.019"
+                ]
+            }
+        },
+        "BIBREF72": {
+            "ref_id": "b72",
+            "title": "A systematic review of the use of telemedicine in plastic and reconstructive surgery and dermatology",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Vyas",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Hambrick",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Shakir",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Ann Plast Surg",
+            "volume": "78",
+            "issn": "",
+            "pages": "736--768",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/SAP.0000000000001044"
+                ]
+            }
+        },
+        "BIBREF73": {
+            "ref_id": "b73",
+            "title": "Vascularized composite allotransplantation in a post-COVID-19 pandemic world",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Ramly",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Berman",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Diep",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Plast Reconstr Surg",
+            "volume": "146",
+            "issn": "",
+            "pages": "394--395",
+            "other_ids": {}
+        },
+        "BIBREF74": {
+            "ref_id": "b74",
+            "title": "Establishing photographic standards for facial transplantation: A systematic review of the literature",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Wolfe",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Najera-Sweeney",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Berman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Plast Reconstr Surg Glob Open",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/GOX.0000000000002834"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": "PubMed/MEDLINE Comprehensive Search Strategy for Articles on Facial Transplantation 2",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Facial Transplantation Worldwide as of August 2020 woman Ballistic trauma Scalp, forehead, eyelids, orbit, nose, AVM, Arteriovenous malformation; CCA, Common carotid artery; COD, Cause of Death; CR, Chronic rejection; ECA, External carotid artery; FT, Face transplant; HCC, Hepatocellular carcinoma; NF, neurofibromatosis; ORN, osteoradionecrosis; TFT, Time from transplantation; TINI, Trauma-induced necrotizing inflammation. Printed with permission from and copyrights retained by Eduardo D. Rodriguez, MD, DDS.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Summary of the 48 Face Transplants Performed to Date",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "Categorization of the Most Commonly Performed Secondary Revisions after Facial Transplantation",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "Hansj\u00f6rg Wyss Department of Plastic Surgery NYU Langone Health 222 E 41st Street, 6th Floor New York, NY 10017 E-mail: eduardo.rodriguez@nyulangone.org",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

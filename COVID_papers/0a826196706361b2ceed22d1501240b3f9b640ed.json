@@ -1,0 +1,533 @@
+{
+    "paper_id": "0a826196706361b2ceed22d1501240b3f9b640ed",
+    "metadata": {
+        "title": "Coronavirus Disease-19 Vaccines Best Reflect Effective Pharmaceuticals",
+        "authors": [
+            {
+                "first": "Marco",
+                "middle": [],
+                "last": "Cosentino",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Insubria",
+                    "location": {
+                        "settlement": "Varese",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Marco",
+                "middle": [],
+                "last": "Ferrari",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Insubria",
+                    "location": {
+                        "settlement": "Varese",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Franca",
+                "middle": [],
+                "last": "Marino",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Insubria",
+                    "location": {
+                        "settlement": "Varese",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Most western countries, including USA, EU and UK, are building their mass Coronavirus disease-19 vaccination campaigns on products derived from groundbreaking biotechnologies, for messenger RNA (Pfizer/BioN-Tech and Moderna) and DNA delivery through adenovirus vectors (Oxford/AstraZeneca and Johnson & Johnson). The latter is shared by the Russian Federation as the Sputnik V vaccine (Jeyanathan et al. 2020) . At the onset of the severe acute respiratory disease coronavirus-2 (SARS CoV-2) pandemic, only two viral vector-based vaccines against Ebola virus (however not using adenovirus vectors) were licensed for human use (Suschak and Schmaljohn 2019) . In the face of a public health emergency imposed by COVID-19 pandemic the widespread public perception seen with professional scientific support that the vaccines being developed were reflective of what had already been available for tetanus, diphtheria, polio, measles, mumps, or rubella amongst others.",
+            "cite_spans": [
+                {
+                    "start": 385,
+                    "end": 409,
+                    "text": "(Jeyanathan et al. 2020)",
+                    "ref_id": null
+                },
+                {
+                    "start": 626,
+                    "end": 655,
+                    "text": "(Suschak and Schmaljohn 2019)",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Dear Editor,"
+        },
+        {
+            "text": "However, the current COVID-19 vaccines are distinct and in specific ways better reflect pharmaceutical drugs and should be considered as such. Conventional vaccines are preparations containing weakened or killed forms of the microorganism, some of its key antigenic determinants, or an inactivated form of toxin. Such preparations are expected to meet the host immune system at the site of injection, eventually resulting in stimulation of an immune response and in turn of an immunological memory. COVID-19 vaccines are based squarely on messenger RNA or DNA delivery prepared by vector delivery. They contain active SARS-CoV-2 S protein RNA or DNA encased in excipients (lipids, salts and sucrose for RNA vaccines, an adenovirus for DNA vaccines). Active ingredients are unable to directly affect the immune system, unless they undergo translation into the SARS-CoV-2 S protein by cells in which they penetrate through ribosomal processing. This occurs through ribosomal translation in the case of RNAs, and through preliminary nuclear episomal localization, and subsequent transcription and translation for DNAs. Rodent models clearly show that the expression kinetics of RNA delivered in lipid nanoparticles is dose-dependent, with known variability, and that the active ingredient undergoes systemic disposition, with bioavailability dependent on dose, route of administration, distribution, and the variable time courses of elimination (Pardi et al. 2015) . On the other hand, the expression of DNA delivered by adenoviral vectors depends both on the amount and site of administration as well as on the proportion of quiescent as compared to proliferating cells where the gene is finally delivered (Athanasopoulos et al. 2017) . Thus, such products exhibit classical pharmacodynamics and pharmacokinetics, which can affect their pharmacology.",
+            "cite_spans": [
+                {
+                    "start": 1442,
+                    "end": 1461,
+                    "text": "(Pardi et al. 2015)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1704,
+                    "end": 1732,
+                    "text": "(Athanasopoulos et al. 2017)",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Dear Editor,"
+        },
+        {
+            "text": "It has been recently suggested that the SARS-CoV-2 S protein produced and released by the host cells previously targeted by vaccines may interact with its ACE2 receptor expressed on other cells, trigger inflammation, thrombosis, and other adverse reactions, eventually mimicking disease pathology (Angeli et al. 2021) . Would this be the case, then such unintended consequences of vaccine-induced S protein production could depend on the cells, tissues and organs where production occurs; the amount of protein produced and released; and the time-course of its production and release. For example, expression of ACE2 receptors in human heart is a potential mechanism of heart injury during infection with infected with SARS-CoV-2 (Chen et al. 2020) . However, interactions between vaccine-induced SARS-CoV-2 S protein and heart ACE2 receptors should be explored to determine if the recent reports suggesting that acute myocarditis could follow the administration of the COVID-19 vaccines is linked through cause and effect (Reuters 2021; Garc\u00eda et al. 2021 (Devaux et al. 2020) , should be also examined as potential markers of susceptibility to vaccine-induced adverse effects. Finally, but not least, assessing the relevance of SARS-CoV-2 S protein-ACE2 receptor interactions for RNA and or DNA vaccineinduced adverse effects could also help identifying strategies aimed at increasing vaccine safety. This can occur by drugs able to interfere with ACE2 by S protein receptor binding (Bhowmik et al. 2021) . Thorough consideration and detailed characterization of pharmacodynamics and pharmacokinetics of RNA and DNA vaccines, including the pharmacogenetics of RNA and DNA translation and disposition, will likely provide a basis for dose individualization as well as for the identification of subjects at risk for adverse reactions, and in general for a rational management of such novel therapeutics.",
+            "cite_spans": [
+                {
+                    "start": 297,
+                    "end": 317,
+                    "text": "(Angeli et al. 2021)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 730,
+                    "end": 748,
+                    "text": "(Chen et al. 2020)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1023,
+                    "end": 1037,
+                    "text": "(Reuters 2021;",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1038,
+                    "end": 1056,
+                    "text": "Garc\u00eda et al. 2021",
+                    "ref_id": null
+                },
+                {
+                    "start": 1057,
+                    "end": 1077,
+                    "text": "(Devaux et al. 2020)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1485,
+                    "end": 1506,
+                    "text": "(Bhowmik et al. 2021)",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Dear Editor,"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "SARS-CoV-2 Vaccines: Lights and Shadows",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Angeli",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Spanevello",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Reboldi",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Visca",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Verdecchia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Eur J Intern Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ejim.2021.04.019"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Nonintegrating Gene Therapy Vectors",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Athanasopoulos",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Munye",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Y\u00e1\u00f1ez-Mu\u00f1oz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Hematol Oncol Clin North Am",
+            "volume": "31",
+            "issn": "",
+            "pages": "753--770",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.hoc.2017.06.007"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Evaluation of flavonoids as 2019-nCoV cell entry inhibitor through molecular docking and pharmacological analysis",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Bhowmik",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Nandi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Prakash",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kumar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Heliyon",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.heliyon.2021.e06515"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "The ACE2 expression in human heart indicates new potential mechanism of heart injury among patients infected with SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Xiong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cardiovasc Res",
+            "volume": "116",
+            "issn": "",
+            "pages": "1097--1100",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/cvr/cvaa078"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "ACE2 receptor polymorphism: Susceptibility to SARS-CoV-2, hypertension, multi-organ failure, and COVID-19 disease outcome",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Devaux",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Rolain",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Raoult",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Microbiol Immunol Infect",
+            "volume": "53",
+            "issn": "",
+            "pages": "425--435",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jmii.2020.04.015"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Xing Z (2020) Immunological considerations for COVID-19 vaccine strategies",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Jeyanathan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Afkhami",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Smaill",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Lichty",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Nat Rev Immunol",
+            "volume": "20",
+            "issn": "",
+            "pages": "615--632",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41577-020-00434-6"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Expression kinetics of nucleoside-modified mRNA delivered in lipid nanoparticles to mice by various routes",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Pardi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tuyishime",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Muramatsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kariko",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Mui",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Tam",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Madden",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hope",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Weissman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Control Release",
+            "volume": "217",
+            "issn": "",
+            "pages": "345--351",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jconrel.2015.08.007"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Israel examining heart inflammation cases in people who received Pfizer COVID shot",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Reuters",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Vaccines against Ebola virus and Marburg virus: recent advances and promising candidates",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Suschak",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Schmaljohn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Hum Vaccin Immunother",
+            "volume": "15",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/21645515.2019.1651140"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": "). In the same way, ACE2",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

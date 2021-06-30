@@ -1,0 +1,2610 @@
+{
+    "paper_id": "0acc00bcd25f95ebc38be92cb6f9d208dd0d5ed9",
+    "metadata": {
+        "title": "Interplay between intra-urban population density and mobility in determining the spread of epidemics",
+        "authors": [
+            {
+                "first": "Surendra",
+                "middle": [],
+                "last": "Hazarie",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Rochester",
+                    "location": {
+                        "postCode": "14627",
+                        "settlement": "Rochester",
+                        "region": "NY",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "David",
+                "middle": [],
+                "last": "Soriano-Pa\u00f1os",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "GOTHAM Lab",
+                    "institution": "University of Zaragoza",
+                    "location": {
+                        "postCode": "E-50009",
+                        "settlement": "Zaragoza",
+                        "country": "Spain"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Alex",
+                "middle": [],
+                "last": "Arenas",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universitat Rovira i Virgili",
+                    "location": {
+                        "postCode": "E-43007",
+                        "settlement": "Tarragona",
+                        "country": "Spain"
+                    }
+                },
+                "email": "gardenes@unizar.es\u2021gghoshal@pas.rochester.edu"
+            },
+            {
+                "first": "Jes\u00fas",
+                "middle": [],
+                "last": "G\u00f3mez-Garde\u00f1es",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "GOTHAM Lab",
+                    "institution": "University of Zaragoza",
+                    "location": {
+                        "postCode": "E-50009",
+                        "settlement": "Zaragoza",
+                        "country": "Spain"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Gourab",
+                "middle": [],
+                "last": "Ghoshal",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Rochester",
+                    "location": {
+                        "postCode": "14627",
+                        "settlement": "Rochester",
+                        "region": "NY",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "In this work, we address the connection between population density centers in urban areas, and the nature of human flows between such centers, in shaping the vulnerability to the onset of contagious diseases. A study of 163 cities, chosen from four different continents reveals a universal trend, whereby the risk induced by human mobility increases in those cities where mobility flows are predominantly between high population density centers. We apply our formalism to the spread of SARS-COV-2 in the United States, providing a plausible explanation for the observed heterogeneity in the spreading process across cities. Armed with this insight, we propose realistic mitigation strategies (less severe than lockdowns), based on modifying the mobility in cities. Our results suggest that an optimal control strategy involves an asymmetric policy that restricts flows entering the most vulnerable areas but allowing residents to continue their usual mobility patterns. * These two authors contributed equally to this work. \u2020",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "During the last century, humankind has rapidly evolved into an interconnected society driven by the existence of a vast mobility network connecting different areas around the globe. In particular, the striking growth experienced by the international mobility network [1] has helped to bridge socio-cultural [2-4] and economic gaps [5] . Accompanying this is the phenomenon of urbanization, whereby a majority of the world's population reside in densely packed urban centers, with the trend only accelerating [6, 7] , given the socioeconomic advantages that cities afford [8, 9] . Allayed against these benefits, the increase in mobility has removed the main bottleneck limiting the spatial diffusion of confined epidemic outbreaks.",
+            "cite_spans": [
+                {
+                    "start": 331,
+                    "end": 334,
+                    "text": "[5]",
+                    "ref_id": null
+                },
+                {
+                    "start": 508,
+                    "end": 511,
+                    "text": "[6,",
+                    "ref_id": null
+                },
+                {
+                    "start": 512,
+                    "end": 514,
+                    "text": "7]",
+                    "ref_id": null
+                },
+                {
+                    "start": 571,
+                    "end": 574,
+                    "text": "[8,",
+                    "ref_id": null
+                },
+                {
+                    "start": 575,
+                    "end": 577,
+                    "text": "9]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "I. Introduction"
+        },
+        {
+            "text": "Once the disease spreads to different regions, it takes advantage of the high population density and infrastructure networks in cities [10] to rapidly spread through the local population. As a consequence, over the past few years, several contagious disease outbreaks have emerged, notable among them H1N1 in 2009 [11] , Ebola in 2014 [12] , ZIKV in 2015 [13] and of course more recently SARS-COV-2 [14, 15] . Indeed, the frequency with which these pandemics occur is troublingly increasing [16] .",
+            "cite_spans": [
+                {
+                    "start": 314,
+                    "end": 318,
+                    "text": "[11]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 335,
+                    "end": 339,
+                    "text": "[12]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 355,
+                    "end": 359,
+                    "text": "[13]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 399,
+                    "end": 403,
+                    "text": "[14,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 404,
+                    "end": 407,
+                    "text": "15]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 491,
+                    "end": 495,
+                    "text": "[16]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "I. Introduction"
+        },
+        {
+            "text": "Despite the different nature of the pathogens, their spreading, both globally and locally, is primarily explained by the sequential combination of case importation from contagion sources, followed by local community transmission converting initially unaffected regions into new endemic areas. Different flavors of mobility play a role in each process: on the one hand, long-haul flights [17] are usually the drivers facilitating the entry of pathogens into a given country, to the extent that the airport mobility network has proved to be a reliable proxy to determine pathogen arrival times [18] , international infection routes [19] , and to complement phylogeographic inference of emerging pathogens such as SARS-CoV-2 [20] . On the other hand, once index cases are found within a given region, a complex combination of the local mobility [21] and socio-economic features of the population [22, 23] determines the speed of epidemic spread and the extent of its outbreak.",
+            "cite_spans": [
+                {
+                    "start": 387,
+                    "end": 391,
+                    "text": "[17]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 592,
+                    "end": 596,
+                    "text": "[18]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 630,
+                    "end": 634,
+                    "text": "[19]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 722,
+                    "end": 726,
+                    "text": "[20]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 842,
+                    "end": 846,
+                    "text": "[21]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 893,
+                    "end": 897,
+                    "text": "[22,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 898,
+                    "end": 901,
+                    "text": "23]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "I. Introduction"
+        },
+        {
+            "text": "Quantifying the impact of local mobility on the global diffusion of a pandemic constitutes a challenging task. In this sense, several examples addressing the impact of daily recur-rent mobility patterns on the spread of contagious diseases can be found in the literature [24] [25] [26] [27] [28] [29] [30] [31] . The majority of these, however, are theoretical frameworks analyzing the features of synthetic mobility networks, and the influence of total volume of travelers on the course of the epidemic. Nonetheless, recent advances made in data-gathering techniques allow for obtaining accurate representations of daily urban rhythms constructed from mobile phone traces [32] , geolocalized tweets [33] , Location Based Social Networks [34] , or extensive census surveys. These data sets enable the extension of the theoretical machinery to address real epidemic scenarios. Indeed, recurrent mobility patterns have been already useful for identifying the most exposed areas in some epidemic scenarios [35] as well as reproducing the infection routes of H1N1 influenza [36] , Malaria [37] , and more recently SARS-COV-2 [38] [39] [40] [41] .",
+            "cite_spans": [
+                {
+                    "start": 271,
+                    "end": 275,
+                    "text": "[24]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 276,
+                    "end": 280,
+                    "text": "[25]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 281,
+                    "end": 285,
+                    "text": "[26]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 286,
+                    "end": 290,
+                    "text": "[27]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 291,
+                    "end": 295,
+                    "text": "[28]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 296,
+                    "end": 300,
+                    "text": "[29]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 301,
+                    "end": 305,
+                    "text": "[30]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 306,
+                    "end": 310,
+                    "text": "[31]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 673,
+                    "end": 677,
+                    "text": "[32]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 700,
+                    "end": 704,
+                    "text": "[33]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 738,
+                    "end": 742,
+                    "text": "[34]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1003,
+                    "end": 1007,
+                    "text": "[35]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1070,
+                    "end": 1074,
+                    "text": "[36]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 1085,
+                    "end": 1089,
+                    "text": "[37]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1121,
+                    "end": 1125,
+                    "text": "[38]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1126,
+                    "end": 1130,
+                    "text": "[39]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 1131,
+                    "end": 1135,
+                    "text": "[40]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 1136,
+                    "end": 1140,
+                    "text": "[41]",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "I. Introduction"
+        },
+        {
+            "text": "While much attention has been spent on reconstructing past infections, or epidemic forecasting in the case of extant pandemics, an important question that immediately arises, is what makes regions-in particular urban agglomerations where most people reside-vulnerable to the spread of pathogens in the first place? While factors such as population density, levels of healthcare, quality of infrastructure and socioeconomic disparities play a major role [42] , vulnerability to spread is a complex interplay between these features that is, in general, difficult to disentangle. For instance, the role of population density is an open question with evidence both for and against its influence on epidemic spreading [43, 44] . Indeed, merely the density of contacts, while relevant at a neighborhood level, is not enough to explain the mechanisms of spread; one would also need to consider the mobility network of flows that govern the exchange of people between the regions. In such a setting, the spatial distribution of the population densities and the strength of interaction between the regions become especially relevant.",
+            "cite_spans": [
+                {
+                    "start": 453,
+                    "end": 457,
+                    "text": "[42]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 713,
+                    "end": 717,
+                    "text": "[43,",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 718,
+                    "end": 721,
+                    "text": "44]",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [],
+            "section": "I. Introduction"
+        },
+        {
+            "text": "In other words it is reasonable to assume that the morphology of the city in terms of how its residents are distributed and how they navigate the city plays a crucial role in their susceptibility to pandemics. Indeed, recent studies have shown that the spatial patterns of how residents utilize transportation infrastructure is a strong indicator of that regions' levels of social inclusion, quality of infrastructure and wealth creation [45] . In [46] the authors propose a measure of a city's dynamical organization based on mobility hotspots [47] to classify them in a spectrum between compact-hierarchical and sprawled layouts. The extent to which cities are compact or sprawled serve as a low-dimensional proxy for various urban indicators related to quality of life, health and pollution.",
+            "cite_spans": [
+                {
+                    "start": 438,
+                    "end": 442,
+                    "text": "[45]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 448,
+                    "end": 452,
+                    "text": "[46]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 545,
+                    "end": 549,
+                    "text": "[47]",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [],
+            "section": "I. Introduction"
+        },
+        {
+            "text": "In this work we connect the dots between the morphology of human activity in cities, in terms of its associated mobility flows and the distribution of resident populations, and its effect on shaping the transmission of infectious diseases and their associated epidemic outbreaks.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "I. Introduction"
+        },
+        {
+            "text": "We collect data from 163 cities across four continents, on their population density at the zip-code level, and intra-urban mobility flows for the first half of 2020. Using this we extract population density hotspots (i.e. those areas with the highest concentration of residents) and measure the extent to which flows between hotspots dominate the total flows in the city. To capture epidemic spreading, we generalize a MIR (Movement-Interaction-Return) epidemic model [27] that captures the interplay between recurrent mobility flows and the distributions of resident populations. We derive the epidemic threshold, representing the minimum infectivity per contact required to instigate an epidemic outbreak, and connect it with the distribution of flows among population density hotspots. In particular we show that, despite their ostensible differences in terms of spatial layout, evolutionary history, or levels of infrastructure, all considered cities lie on a universal curve capturing an inverse relationship between the epidemic threshold and the extent to which mobility flows are localized between hotspots.",
+            "cite_spans": [
+                {
+                    "start": 468,
+                    "end": 472,
+                    "text": "[27]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "I. Introduction"
+        },
+        {
+            "text": "The results suggests an increased susceptibility to epidemics as a function of flows being concentrated between high population centers. As a proof-of-concept, we analyze the current SARS-COV-2 pandemic by quantifying the epidemic growth from the initial infection curves as an empirical proxy for city vulnerability and plotting it against our calculated epidemic threshold. The empirical trends match our theoretical formalism where cities with mobility concentrated primarily between hotspots are more vulnerable as compared to those with more egalitarian mobility distributions. Based on this observation, we propose a realistic mitigation policy that, being much less severe than draconian lockdowns, lowers the susceptibility of cities that lie in the vulnerable spectrum.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "I. Introduction"
+        },
+        {
+            "text": "The population density for cities at zip-code resolution was collected from national census bureaus [48] [49] [50] and from high resolution population density estimates recently published by Facebook [51] . Each of these cities correspond to the largest in their respective countries in terms of population size. From this data, we extract H k population density hotspots for each city k (varying from city-to-city) by applying a non-parametric method based on the derivative of the Lorenz curve [46, 47] (for details of the calculation see Supplementary Section S1).",
+            "cite_spans": [
+                {
+                    "start": 100,
+                    "end": 104,
+                    "text": "[48]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 105,
+                    "end": 109,
+                    "text": "[49]",
+                    "ref_id": null
+                },
+                {
+                    "start": 110,
+                    "end": 114,
+                    "text": "[50]",
+                    "ref_id": null
+                },
+                {
+                    "start": 200,
+                    "end": 204,
+                    "text": "[51]",
+                    "ref_id": null
+                },
+                {
+                    "start": 496,
+                    "end": 500,
+                    "text": "[46,",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 501,
+                    "end": 504,
+                    "text": "47]",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [],
+            "section": "A. Data"
+        },
+        {
+            "text": "The mobility flows within each city are sourced from the Google SARS-COV-2 Aggregated Mobility Research Dataset, and contain anonymized flows mobility flows aggregated over users who have turned on the Location History setting, which is off by default. The flows are between cells of approximately 5 km 2 for the period ranging November 3rd 2019 to February 29th 2020. For the purposes of our analysis we only consider the period before any mobility mitigation measures were initiated as a response to the SARS-COV-2 pandemic (see Supplementary Section S2 for further details). The flows are encoded in a matrix T whose elements T ij correspond to the population out-flows from i to j and whose diagonal elements correspond to self-flows. For each city k, given H k hotspots, we calculate the hotspot concentration, \u03ba k , defined as the fraction of total flows in the city that occur only between hotspots thus,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A. Data"
+        },
+        {
+            "text": "This metric lies in the range 0 \u2264 \u03ba k \u2264 1, with the limiting cases corresponding to flows exclusively between hotspots or only between hotspot and non-hotspot areas. The list of cities for each country, the administrative unit, and the hotspot concentration is shown in Tab. S1. The results show a wide spectrum of values (0.05 \u2264 \u03ba k \u2264 0.79) both within and between countries, indicating significant variability in cities in terms of the morphology of human flows between population centers.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A. Data"
+        },
+        {
+            "text": "In Fig. 1 , we plot the spatial layout of the hotspots and the mobility network for six representative cities in Australia (upper panel) and the United States (lower panel). The cities are organized in descending order of \u03ba, and it is apparent that in those cities with high \u03ba, flows are mainly confined around hotspots (marked in red), whereas they are increasingly more distributed with decreasing \u03ba. An additional feature is that hotspots are more spatially concentrated in those cities with lower \u03ba and dispersed in those with higher \u03ba, indicating a more heterogeneous distribution of population density in the former as compared to the latter.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 3,
+                    "end": 9,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "A. Data"
+        },
+        {
+            "text": "To characterize a city's vulnerability to disease spread, we calculate the epidemic threshold by generalizing the formalism introduced in [27] . In what is to follow, we incorporate a Susceptible (S), infectious (I) or recovered (R) dynamics, however, we note that the formalism is easily generalizable to more elaborate compartmental schemes. An infectious individual transmits the pathogen to healthy counterparts via direct interaction at a rate \u03bb. In turn, infectious individuals enter the compartment R at a rate \u00b5, which typically encodes the inverse of the expected contagious period. The mixing among healthy and infectious individuals is governed by the spatial distribution of the population and their mobility patterns.",
+            "cite_spans": [
+                {
+                    "start": 138,
+                    "end": 142,
+                    "text": "[27]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "B. Model"
+        },
+        {
+            "text": "The different zip-codes of the city are represented as patches i, which are initially populated by n i residents. The activity of the residents is considered on a daily basis and split into three stages: Movement, Interaction and Return. Residents decide to either move to a different patch with probability p, or remain with probability 1 \u2212 p. If the former, the choice of location is proportional to the elements of the origin destination matrix T. After all movements (or lack thereof) have been completed, interactions occur within patches according to a mean-field assumption where every individual makes the same number of contacts proportional to the population density via a function f i ; the final step involves return to the place of residence. The same process is then repeated for the next time-step (day).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B. Model"
+        },
+        {
+            "text": "Given N patches in a city, the dynamics is completely specified by 2 \u00d7 N coupled discrete equations governing the temporal evolution of the fraction of infected and recovered individuals residing in each patch. Namely, the fraction of infected, \u03c1 I i (t + 1), and recovered individuals, \u03c1 R i (t + 1), associated to patch i at time t + 1, reads:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B. Model"
+        },
+        {
+            "text": "where \u03a0 i (t) represents the probability of a susceptible individual resident in i to contract the disease at time t. Assuming that the process reaches a steady-state and that the size of the outbreak is small in comparison to the overall population, after a sequence of manipulations (Supplementary Section S3, Eqns. S4-S15), it can be shown that the epidemic threshold is of the form, \u03bb c (p) = \u00b5/\u039b max (M), where \u039b max is the spectral radius of a mixing matrix M, taking into account the mobility flows, the degree of mobility p, the effective population in a given patch, and the number of contacts as a function of population density in that patch. If p = 0 then the threshold would correspond to a static population that never moves, whereas if p = 1 then this accounts for a fully active population. Based on this observation one can define a normalized epidemic threshold\u03bb c = \u03bb c (p = 1)/\u03bb c (p = 0) to focus only on mobility effects while removing the influence of the population density.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B. Model"
+        },
+        {
+            "text": "Given the quantitative description of human flows composing the mobility backbone of each city, we now focus on determining the effect that their morphology has on the epidemic threshold. Given the extensive list of considered cities, and the attendant variation in population density, in order for a fair characterization, it is important to remove this component, and therefore the relevant parameter here is the normalized threshold\u03bb c . In Fig. 2A we plot\u03bb c as a function of \u03ba for all the cities in our dataset, represented as filled circles colored according to their respective countries. We find a universal trend, whereby all cities fall into a curve marking an inverse relationship between the vulnerability of the cities and the extent to which flows are concentrated between hotspots, i.e\u03bb c \u223c \u03ba \u03b2 with \u03b2 \u2248 \u22120.25. In particular, cities where there is a more egalitarian distribution of flows (lower \u03ba), the epidemic threshold is higher for a mobile population as compared to a static population, indicating that movement between regions lowers the risk of an epidemic outbreak. Conversely, in those cities where the population moves primarily between hotspots, there is little-to-no difference in risk in terms of whether residents stay in their patches, or whether they move to different ones. In Fig. S1 , we show the equivalent of Fig To further characterize the relation existing between cities' vulnerability and the concentration of mobility between density hotspots, we next analyze the impact of reshuffling the flows at a local scale for each of the analyzed cities. In particular, we preserve the total amount of flows, by removing all links connecting hotspots (thus setting \u03ba = 0) and redistributing them evenly across non-hotspot locations. We then recompute the resulting normalize threshold\u03bb M OD c and in Fig. 2B plot it as a function of the threshold corresponding to the unperturbed network\u03bb c . As the figure indicates for the vast majority of cities (irrespective of their original value of \u03ba), the effect of switching off the flows between hotspots leads to an increase in the epidemic threshold, in turn lowering their vulnerability to epidemic spread. In particular there appears to be three categories of cities: beneficial, those where the threshold is increased greater than 10%; neutral, those where the threshold is increased by less than 10%; and finally detrimental, those where the threshold is instead lowered. The number of cities belonging to each category is plotted as a bar-chart in Fig. 2C , indicating that around 75% of cities experience a lowering of their vulnerability, 15% remain neutral, and the remaining 10% experience an increased susceptibility (interestingly this category is dominated by American cities). For the small number of cities, where we find this counterintuitive effect of lowered threshold, it is likely that there are other more complex features at play not considered in this analysis.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 444,
+                    "end": 451,
+                    "text": "Fig. 2A",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1310,
+                    "end": 1317,
+                    "text": "Fig. S1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1346,
+                    "end": 1349,
+                    "text": "Fig",
+                    "ref_id": null
+                },
+                {
+                    "start": 1833,
+                    "end": 1840,
+                    "text": "Fig. 2B",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 2532,
+                    "end": 2539,
+                    "text": "Fig. 2C",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "C. Connecting the epidemic threshold to hotspot flows"
+        },
+        {
+            "text": "Nevertheless, these results provide overwhelming evidence that, in most cases, the concentration of human mobility between densely populated areas is a feature that enhances disease spreading and makes such cities vulnerable to epidemics. Moreover, the beneficial effect caused by the reorientation of intra-hotspot flows towards less densely populated areas seems to be rooted in a homogenization of the distribution of the underlying density, which, as mentioned in [28, 31] , enforces infected individuals to stay away from the contagion focus, thus reducing their infection power. In turn, this homogenizing flow structure appears naturally in cities with low \u03ba and, as suggested by the empirical trends in Fig. 2 A, characterizes the most resilient cities. Therefore, a lower \u03ba translates into a greater mix of populations, between high and low population density centers, where they can actually take advantage of mobility between city sub-regions to prevent outbreaks.",
+            "cite_spans": [
+                {
+                    "start": 468,
+                    "end": 472,
+                    "text": "[28,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 473,
+                    "end": 476,
+                    "text": "31]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 711,
+                    "end": 717,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "C. Connecting the epidemic threshold to hotspot flows"
+        },
+        {
+            "text": "The formalism proposed here can readily be applied to assess the exposure of cities to actual outbreaks. To illustrate this, we next focus on the spread of SARS-COV-2 in the 50 most populated Core-Based-Statistical-Areas (CBSA) in the United States, chosen due to the appropriate spatial resolution in terms of infection data. Note that, although, thus far, we have focused on the SIR model, the following will illustrate the generality of the results, in the context of the spread of SARS-CoV-2, that has been recently analyzed with more elaborate compartmental models [38, [52] [53] [54] [55] .",
+            "cite_spans": [
+                {
+                    "start": 570,
+                    "end": 574,
+                    "text": "[38,",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 575,
+                    "end": 579,
+                    "text": "[52]",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 580,
+                    "end": 584,
+                    "text": "[53]",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 585,
+                    "end": 589,
+                    "text": "[54]",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 590,
+                    "end": 594,
+                    "text": "[55]",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "ref_spans": [],
+            "section": "D. Application to real pandemic settings"
+        },
+        {
+            "text": "As a proxy for a city's vulnerability to epidemic spread, we make use of the number of confirmed infected cases at the county-level collected from the New York Times [56] and USAFacts [57] . Given the inherent noise due to reporting artifacts, and assuming an exponential growth, I k (t) \u223c exp(b k t) during early onset, we apply a smoothing procedure to extract the growth-rate b k of the number of infected cases, and use that as proxy for a city k's susceptibility to disease spread. To remove any effects due to non-pharmaceutical interventions and behavioral changes in the population, we focus on the period before mitigation measures. The full details of the procedure are shown in Supplementary Section S5, and the temporal infection plots for each city along with the fits are shown in Fig. S3 .",
+            "cite_spans": [
+                {
+                    "start": 184,
+                    "end": 188,
+                    "text": "[57]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 795,
+                    "end": 802,
+                    "text": "Fig. S3",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "D. Application to real pandemic settings"
+        },
+        {
+            "text": "In order to properly connect with the growth rate, we need to reintroduce the effect of the population distribution and, therefore, the relevant variable is the unnormalized threshold \u03bb c (p = 1). Note that, by choosing p = 1, we force all the inhabitants within a city to follow the flow matrix T, but not all of them leave their residential area due to existence of self-loops in this matrix. Indeed, according to the avalaible data for the cities analyzed here, around 36% of the population remains on average inside their residential administrative unit.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "D. Application to real pandemic settings"
+        },
+        {
+            "text": "In Fig. 3A we plot the empirically extracted growth rate b as a function of the epidemic threshold, \u03bb c , finding once again an inverse trend, confirming the role of the threshold as a proxy for vulnerability. Those cities which experienced a faster epidemic growth during the early onset of the pandemic indeed had a lower threshold according to our formalism. (Table S2 ). In both panels, r P and r S denote the Pearson and Spearman rank correlation coefficients among the represented quantities.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 3,
+                    "end": 10,
+                    "text": "Fig. 3A",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 362,
+                    "end": 371,
+                    "text": "(Table S2",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "D. Application to real pandemic settings"
+        },
+        {
+            "text": "Next we connect, the localization of flows to hotspots to the empirical vulnerability in each of the cities. Since \u03ba only takes into account flows between hotspots but does not account for their population density, the variable that captures the effective interaction between the residents in hotspots areas should be a combination of both factors. The observations thus far, immediately suggest the possibility of effective mitigation measures that may shore up the robustness of vulnerable cities to the onset of epidemic spread.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "D. Application to real pandemic settings"
+        },
+        {
+            "text": "Given the lack of therapeutics or vaccines for SARS-COV-2, the prevailing strategy adopted globally has been to resort to non-pharmaceutical interventions of which a key ingredient has been aggressive lock-downs. While ostensibly being very effective in mitigating an active epidemic, significant disruption to the socio-economic fabric is one of the unfortunate consequences [58, 59] . Having demonstrated the key role played by the interactions between population density hotspots, we next investigate some targeted interventions, or even preemptions, that are milder than completely restricting mobility city-wide and assess their efficacy in reducing vulnerability. The strategy we pursue is to modify flows between different types of locations in the city without the need to isolate individuals at home. The different schemes are illustrated in the upper panel of Fig. 4 . In the first intervention (Intervention I), an asymmetrical strategy involves restricting flows from non-hotspot (heretofore referred to as suburbs) towards hotspot areas and converting them to self-loops, while keeping all other flows the same. Intervention II corresponds to the reverse situation where flows from hotspots to suburbs are converted to self-loops. Finally, in Intervention III, only movement between hotspots is restricted.",
+            "cite_spans": [
+                {
+                    "start": 376,
+                    "end": 380,
+                    "text": "[58,",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 381,
+                    "end": 384,
+                    "text": "59]",
+                    "ref_id": "BIBREF46"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 870,
+                    "end": 876,
+                    "text": "Fig. 4",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "D. Application to real pandemic settings"
+        },
+        {
+            "text": "For each of these scenarios we recompute the normalized epidemic threshold\u03bb m c (m \u2208 {I,II,III}) and plot it against the original threshold,\u03bb c , in the bottom panels of Fig. 4 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 170,
+                    "end": 176,
+                    "text": "Fig. 4",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "D. Application to real pandemic settings"
+        },
+        {
+            "text": "In panel A, we find an increase of the threshold across the board indicating that Intervention I is a rather effective strategy. Given that a potential epidemic has a high probability of being seeded and correspondingly spreading extensively in high population density areas, preventing the residents in suburbs from visiting these locations protects them from being exposed to the disease. Conversely in panel B we see that restricting residents in hotspots to travel to suburbs has the opposite effect in further decreasing the threshold.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "D. Application to real pandemic settings"
+        },
+        {
+            "text": "This counterproductive effect emerges due to a phenomenon discussed in [28] . When there is an asymmetry between the population density in cities, mobility from hotspots to suburbs leads to an increase in the threshold due to the dilution of the effective population in the hotspots thus reducing the number of contacts, as well as diverting potentially infectious individuals to to lower density regions where their impact is mitigated. Removing this route makes the situation significantly worse. Finally, panel C reveals that limiting the mobility between hotspots has a mostly neutral effect, although the trends are noisier given that its effectiveness is closely related to the underlying population density distribution inside hotspots. The results suggest that, among the scenarios outlined, the most beneficial policy is to restrict residents in suburbs from visiting hotspots, while at the same time allowing residents in hotspots to continue with their regular mobility behavior. Note, that several other combinations are possible, for instance a combination of interventions I & III which is likely to have even more of a beneficial effect.",
+            "cite_spans": [
+                {
+                    "start": 71,
+                    "end": 75,
+                    "text": "[28]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "D. Application to real pandemic settings"
+        },
+        {
+            "text": "Similar to how a virus enters the human body and replicates from cell to cell, the spread of pathogens in susceptible populations is influenced by the interaction between its hosts.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "III. Discussion"
+        },
+        {
+            "text": "Thus, it is the social interactions, mediated by behavioral and mixing patterns, that shapes the spread of disease in human populations. Among these aspects, human mobility is a key factor underlying the unfolding patterns of epidemic outbreaks. Understanding how human mobility shapes the spatiotemporal unfolding of contagious diseases is essential for the design of efficient containment policies to ameliorate their impact. In this paper, we investigate the interplay between the population density and the spatial distribution of flows in urban areas, and its impact on determining exposure to epidemic outbreaks. We report a clear trend worldwide: the existence of a high volume of individuals commuting among the population density centers of a given city makes it more vulnerable to the spread of epidemics. The extent of a city's vulnerability as determined from our formalism, allows us to shed light on a real epidemic scenario: the spread of SARS-COV-2 across United States. In particular, the epidemic threshold determined by the population density profiles and urban mobility patterns provides one of the potential causative mechanisms behind the different levels of infection observed across cities in the United States.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "III. Discussion"
+        },
+        {
+            "text": "As an application to potential epidemic waves, our indicator allows for identifying those cities that are likely to become epidemic centers once the first imported cases arrive there. This is of importance, given that it can guide authorities to identify places where timely containment policies can be locally implemented to avoid large outbreaks caused by massive community transmission. It is precisely the lack of anticipation to the SARS-COV-2 pandemic, that has led countries to enforce aggressive containment measures aimed at ameliorating the impact of the disease. The predominant strategy has been the implementation of lockdown policies, forcing a large fraction of the population to stay isolated at home, thus reducing considerably their number of interactions. While there is consensus on the effectiveness of these interventions to mitigate an ongoing outbreak, the collateral socio-economic damage caused by lockdowns requires a change of direction towards less-aggressive containment measures.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "III. Discussion"
+        },
+        {
+            "text": "In the case of SARS-COV-2, the strict individual isolation characterizing the first interventions have given rise to more relaxed lockdown scenarios combined with efficient Test-Track and Isolate policies [60] [61] [62] . Along these lines, we present different realistic scenarios based on modifying mobility habits to actively avoid the emergence of large areas of contagion.",
+            "cite_spans": [
+                {
+                    "start": 205,
+                    "end": 209,
+                    "text": "[60]",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 210,
+                    "end": 214,
+                    "text": "[61]",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 215,
+                    "end": 219,
+                    "text": "[62]",
+                    "ref_id": "BIBREF49"
+                }
+            ],
+            "ref_spans": [],
+            "section": "III. Discussion"
+        },
+        {
+            "text": "Our analysis suggest that a potentially effective policy involves an asymmetric closure of neuralgic centers of the cities, restricting movement to population density hotspots from residents of other areas, while allowing those living in hotspots to commute, in order to dilute the number of contacts in the most vulnerable areas. Teleworking and effective distribution of key services in a city are practical manifestations of such interventions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "III. Discussion"
+        },
+        {
+            "text": "An advantage of our formalism is its relative simplicity, paving the way to extend the results to more general scenarios. For example, these results are built upon the assumption that population density centers are much more vulnerable to contagious diseases than scarcely dense areas. While this is a logical assumption, the beneficial effect of mobility from hotspots and suburbs could be reversed for diseases with large reproduction number R 0 . In this scenario, suburbs would also have the potential to develop large outbreaks so the existence of infection routes across the city would lead to an acceleration of the propagation of the epidemic front. Finally, another obvious extension is to consider movement at different geographical scales [63, 64] . Accounting for movement between cities, for instance, could provide valuable information to coordinate joint efforts among different regions to modify both inter-and intra-urban flows in service of reducing the impact of a pandemic. Needless to say, pandemics are complex processes involving a multitude of spatial and socioeconomic factors. The results presented here may provide one of the building blocks for policy planners in devising effective preventive and mitigation measures for future crises.",
+            "cite_spans": [
+                {
+                    "start": 750,
+                    "end": 754,
+                    "text": "[63,",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 755,
+                    "end": 758,
+                    "text": "64]",
+                    "ref_id": "BIBREF51"
+                }
+            ],
+            "ref_spans": [],
+            "section": "III. Discussion"
+        },
+        {
+            "text": "These results should be interpreted in light of several important limitations. First, the Google mobility data is limited to smartphone users who have opted in to Google's Location History feature, which is off by default. These data may not be representative of the population as whole, and furthermore their representativeness may vary by location. Importantly, these limited data are only viewed through the lens of differential privacy algorithms, specifically designed to protect user anonymity and obscure fine detail. Moreover, comparisons across rather than within locations are only descriptive since these regions can differ in substantial ways.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Limitations"
+        },
+        {
+            "text": "[1] The world of air transport in 2018. Tech. Rep., International Civil Aviation Organization (2018).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Limitations"
+        },
+        {
+            "text": "[2] Varghese, N. Globalization of higher education and cross-border student mobility (Citeseer, 2008). ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Limitations"
+        },
+        {
+            "text": "where d i is the population density of cell i in city k and d Lou k is the threshold determined by performing the LouBar method on the population densities of all cells in city k. This allows us to place emphasis on zones within cities that encourage the most relative interaction, as opposed to sharp biasing due to population magnitude. We then examine the hotspots flow concentration in each city k, \u03ba k , defined as fraction of total flows in the city system that exist between these population density hotspots of city. Therefore, \u03ba k is given by:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Limitations"
+        },
+        {
+            "text": "where T ij denotes the flow of individuals going from patch i to patch j according to the mobility data.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Limitations"
+        },
+        {
+            "text": "S-1 ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Limitations"
+        },
+        {
+            "text": "The Google COVID-19 Aggregated Mobility Research Dataset contains anonymized mobility flows aggregated over users who have turned on the Location History setting, which is off by default. This is similar to the data used to show how busy certain types of places are in Google Maps -helping identify when a local business tends to be the most crowded. The dataset aggregates flows of people from region to region.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A. Mobility Data"
+        },
+        {
+            "text": "To produce this dataset, machine learning is applied to logs data to automatically segment it into semantic trips [46] . To provide strong privacy guarantees, all trips were anonymized and aggregated using a differentially private mechanism [65] to aggregate flows over time (see https://policies.google.com/technologies/anonymization). This research is done on the resulting heavily aggregated and differentially private data. No individual user data was ever manually inspected, only heavily aggregated flows of large populations were handled.",
+            "cite_spans": [
+                {
+                    "start": 114,
+                    "end": 118,
+                    "text": "[46]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 241,
+                    "end": 245,
+                    "text": "[65]",
+                    "ref_id": "BIBREF52"
+                }
+            ],
+            "ref_spans": [],
+            "section": "A. Mobility Data"
+        },
+        {
+            "text": "All anonymized trips are processed in aggregate to extract their origin and destination location and time. For example, if users traveled from location a to location b within time interval S-8 t, the corresponding cell (a, b, t) in the tensor would be n \u00b1 err, where err is Laplacian noise.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A. Mobility Data"
+        },
+        {
+            "text": "The automated Laplace mechanism adds random noise drawn from a zero mean Laplace distribution and yields ( , \u03b4)-differential privacy guarantee of = 0.66 and \u03b4 = 2.1 \u00d7 10 \u221229 per metric. Specifically, for each week W and each location pair (a, b) , we compute the number of unique users who took a trip from location a to location b during week W . To each of these metrics, we add Laplace noise from a zero-mean distribution of scale 1/0.66.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 239,
+                    "end": 245,
+                    "text": "(a, b)",
+                    "ref_id": null
+                }
+            ],
+            "section": "A. Mobility Data"
+        },
+        {
+            "text": "We then remove all metrics for which the noisy number of users is lower than 100, following the process described in [66] , and publish the rest. This yields that each metric we publish satisfies ( , \u03b4)-differential privacy with values defined above. The parameter controls the noise intensity in terms of its variance, while \u03b4 represents the deviation from pure -privacy.",
+            "cite_spans": [
+                {
+                    "start": 117,
+                    "end": 121,
+                    "text": "[66]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "A. Mobility Data"
+        },
+        {
+            "text": "The closer they are to zero, the stronger the privacy guarantees.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A. Mobility Data"
+        },
+        {
+            "text": "We use data collected weekly from November 3rd 2019 to February 29th 2020, ensuring that we capture standard movement behavior, uninfluenced by pandemic conditions. Depending on the availability of population data per country, the mobility flows between S2 cells are aggregated to patch size of comparable resolution between countries:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A. Mobility Data"
+        },
+        {
+            "text": "\u2022 United States (USA): 50 Urban areas with zip code patches [48] .",
+            "cite_spans": [
+                {
+                    "start": 60,
+                    "end": 64,
+                    "text": "[48]",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "A. Mobility Data"
+        },
+        {
+            "text": "\u2022 Italy (ITA): 49 Communes with S2 cell patches [51] .",
+            "cite_spans": [
+                {
+                    "start": 48,
+                    "end": 52,
+                    "text": "[51]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "A. Mobility Data"
+        },
+        {
+            "text": "\u2022 South Africa (ZAF): 31 Municipalities with ward patches [50] .",
+            "cite_spans": [
+                {
+                    "start": 58,
+                    "end": 62,
+                    "text": "[50]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "A. Mobility Data"
+        },
+        {
+            "text": "\u2022 Australia (AUS): 33 Statistical Areas Level 4, with Level 2 patches [49] .",
+            "cite_spans": [
+                {
+                    "start": 70,
+                    "end": 74,
+                    "text": "[49]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "A. Mobility Data"
+        },
+        {
+            "text": "To aggregate the S2 cells to the corresponding alternate patch types, the centroid points of the S2 cells were spatially joined with GIS boundaries of the alternate resolution. For example, in the US, flows from a zip code X to a zip code Y are determined by summing all of the flows that start in S2 cells whose centroids lie within X and end in S2 cells whose centroids lie within Y.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A. Mobility Data"
+        },
+        {
+            "text": "S-9",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A. Mobility Data"
+        },
+        {
+            "text": "Population density data is aggregated to patch-size in a similar manner when necessary. In the case of US zip codes, Australian statistical areas, and South African wards, population information is collected and available at those respective resolutions. For patches in Italy, population is determined by aggregating the populations of the 30 meter tiles collected by Facebook [51] to S2 cells. This is done by spatially merging the centroids of the tiles to the patches, similar to the S2-to-patch mobility flow aggregation.",
+            "cite_spans": [
+                {
+                    "start": 377,
+                    "end": 381,
+                    "text": "[51]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "B. Population density data"
+        },
+        {
+            "text": "The model used for estimating the vulnerability of a given city is a generalized version of the formalism included in [27] . In our model, each individual has an associated node which is identified as her residence.",
+            "cite_spans": [
+                {
+                    "start": 118,
+                    "end": 122,
+                    "text": "[27]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "A. Dynamical equations"
+        },
+        {
+            "text": "Therefore, each patch i is initially populated by n i agents. We split each day into three stages: Movement, Interaction and Return. First, agents decide whether or not moving with a probability p. If moving, they choose their destination according to the origin destination S-10 matrix R, being the elements R ij the probability of moving from patch i to patch j. We construct this matrix from mobility data, encoded in T, as",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A. Dynamical equations"
+        },
+        {
+            "text": "After all the movements have been completed, interaction among agents sharing the same current location occurs. At this point, we make a mean-field assumption within each patch, so every agent inside a given location makes the same number of contacts. We also assume that the number of contacts is proportional to the density of each patch via a function f which allows for including different ways of weighting the relevance of population density for the number of interactions inside a given patch. Finally, as we want to reflect the mostly commuting nature of human mobility, we force all the individuals to return to their residence and repeat the same process for a new time step (day).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A. Dynamical equations"
+        },
+        {
+            "text": "Under these assumptions, the dynamics is totally characterized by a set of 2 \u00d7 N coupled discrete equations governing the temporal evolution of the fraction of infected and recovered individuals with residence in each patch. In particular, the fraction of infected, \u03c1 I i (t + 1), and recovered individuals, \u03c1 R i (t + 1), associated to patch i at time t + 1, read: can be expressed as:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A. Dynamical equations"
+        },
+        {
+            "text": "The first term identifies those contagions occurring inside the residence patch whereas the second term contains those taking place inside neighboring areas. Likewise, the probability of contracting the disease inside a given node i at time t, P i (t), is given by: ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A. Dynamical equations"
+        },
+        {
+            "text": "The former equations offer the possibility of estimating the vulnerability for each city. For this purpose, we study the epidemic threshold defined as the minimum infectivity per contact needed to observe an epidemic outbreak. Therefore, the lower the epidemic threshold is, the easier an epidemic wave propagates, thus reflecting a higher city vulnerability to epidemic outbreaks. To estimate the epidemic threshold, we assume that the disease has reached a stationary equilibrium and that the epidemic size is negligible compared with the population size. Mathematically, this imply that \u03c1 I (t + 1) = \u03c1(t) = 1. In addition, we neglect the individuals belonging to the compartment R by setting \u03c1 R (t + 1) = \u03c1 R (t) = 0. Both S-12 assumptions allow us to linearize Eq. (S7) which now reads:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimating cities' vulnerability"
+        },
+        {
+            "text": "(S10)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimating cities' vulnerability"
+        },
+        {
+            "text": "After introducing Eqs.(S6-S10) into Eq.(S4) and taking into account the stationary regime, we obtain:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimating cities' vulnerability"
+        },
+        {
+            "text": "(S11)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimating cities' vulnerability"
+        },
+        {
+            "text": "The former expression holds if \u00b5 \u03bb corresponds to an eigenvalue of matrix M. As our goal is obtaining the minimum \u03bb value triggering epidemic outbreaks, the epidemic threshold \u03bb c is given by:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimating cities' vulnerability"
+        },
+        {
+            "text": "with \u039b max (M) denoting the spectral radius of matrix M.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimating cities' vulnerability"
+        },
+        {
+            "text": "At this point, it is necessary to specify the form of the function f , determining how the number of contacts that each individual makes inside each patch depends on its density. To shed light on the role of mobility inside each city, we follow a non-parametric approach by assuming that these contacts are linearly proportional to the density inside each patch. This way, the results shown in Figs. 2 & 4 are obtained by assuming:",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 394,
+                    "end": 399,
+                    "text": "Figs.",
+                    "ref_id": null
+                }
+            ],
+            "section": "B. Function governing contacts"
+        },
+        {
+            "text": "being a i the area of patch i.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B. Function governing contacts"
+        },
+        {
+            "text": "If one is interested in isolating the role played by mobility in shaping cities' vulnerability,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B. Function governing contacts"
+        },
+        {
+            "text": "we must remove the dependence of the overall population density for each case. we decide to compute the normalized epidemic threshold\u03bb c which is defined as the ratio between the actual epidemic threshold, computed by accounting for human mobility, and the threshold corresponding to a static scenario. Therefore, this quantity reads:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B. Function governing contacts"
+        },
+        {
+            "text": "Although useful for illustrating the role of mobility in each city, the non-parametric linear relation does not correspond with a realistic scenario due to the large difference in terms of contacts existing among zones with disparate densities. To make a more fair comparison S-14 on the expansion of COVID-19 over different cities, we choose a more complex function governing the number of contacts. Following [67] , we assume that",
+            "cite_spans": [
+                {
+                    "start": 411,
+                    "end": 415,
+                    "text": "[67]",
+                    "ref_id": "BIBREF53"
+                }
+            ],
+            "ref_spans": [],
+            "section": "B. Function governing contacts"
+        },
+        {
+            "text": "which is bounded such that f i \u2208 [1, 2). Here the parameter \u03be is estimated by maximizing the correlation among the theoretical and the observed vulnerabilities, yielding \u03be = 2 \u00b7 10 \u22125 square miles. By including this function, we estimate the epidemic threshold for each city, \u03bb c , as:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B. Function governing contacts"
+        },
+        {
+            "text": "where we set \u00b5 = 1 for the sake of simplicity. Note that this parameter does not have any influence on the cities' ranking since it is inherent to the disease features and does not depend on human interactions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B. Function governing contacts"
+        },
+        {
+            "text": "In the main text, we reveal that all the cities analyzed here, regardless of their associated country, fall in an universal curve governing the dependence of the normalized epidemic threshold\u03bb c on the flow concentration within hotspots \u03ba. Moreover, we check that this universal curve is well-represented by a sub-linear power law decay function. Nonetheless, despite the robustness of the results, the spatial resolution of the basic units composing the metapopulations is limited by data availability for each country. Therefore, different spatial resolutions are mixed in Fig. 2 of the main text, which partially hinders the close relation between\u03bb and \u03ba c .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 575,
+                    "end": 581,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "S4. Examining the impact of hotspot concentration at the country level"
+        },
+        {
+            "text": "To characterize the relevance of the flows connecting hotspots for epidemic spreading, we split the universal curve presented in the main text and represent in Fig. S1 while the function governing the relationship is universal, the parameters are dependent on both the spatial resolution at which the data is available and other differences between cities, not considered in this analysis.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 160,
+                    "end": 167,
+                    "text": "Fig. S1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "S4. Examining the impact of hotspot concentration at the country level"
+        },
+        {
+            "text": "We examine the relationship between normalized epidemic threshold\u03bb, population density hotspot concentration \u03ba and two other common population measures: average population density and Lloyd' mean crowding for cities in the US in Fig. S2 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 229,
+                    "end": 236,
+                    "text": "Fig. S2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "S5. Connecting Indicators and Population Measures"
+        },
+        {
+            "text": "The average was calculated by averaging the population densities d i,k of all i tot zip codes i within each city k:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A. Average Population Density"
+        },
+        {
+            "text": "and describes the relative concentration of people within a city. Lloyd mean crowding [52] was calculated according to",
+            "cite_spans": [
+                {
+                    "start": 86,
+                    "end": 90,
+                    "text": "[52]",
+                    "ref_id": "BIBREF41"
+                }
+            ],
+            "ref_spans": [],
+            "section": "A. Average Population Density"
+        },
+        {
+            "text": "for patch populations q i . Lloyd mean crowding measures the number of unique contacts possible for members of patches in a city. We note that unlike \u03ba and average population density, this measure is independent of patch size and therefore doesn't specifically address proximity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "S-16"
+        },
+        {
+            "text": "We find that our chosen pair of\u03bb and \u03ba contains the strongest correlations. Of the three population-related metrics \u03ba, average density, and Lloyd's Mean crowding, \u03ba is the only S-17 one that contains mobility information, and like average population density, differentiates between patches of different spatial size, supporting that mobility and density are vital inclusions to properly understanding the epidemic situation of a city.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "S-16"
+        },
+        {
+            "text": "We quantify the extent to which COVID-19 is able to spread in a US city by examining the We then truncate our data to a window of two weeks after 100 cases were confirmed in each county. This allows our window of observation to capture the regime where COVID-19 awareness encouraged active testing, but before intervention methods influence how the disease propagates within cities. This way, we capture the disease behavior specific to the city structure, and not external suppression. To estimate the vulnerability of each city, we fit the filtered cumulative number of infections to an exponential function I(t) = ae bt (S19) and extract the growth rate b. Although more sophisticated approaches have been proposed in the literature based on the estimation of the effective reproductive number R e , our procedure is simple but effective to capture the vulnerability of each city at the early stage of the outbreak. The smoothed curves along with the exponential fits are presented in Fig. S3 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 988,
+                    "end": 995,
+                    "text": "Fig. S3",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "S6. Empirical Epidemic-Indicator Correlations"
+        },
+        {
+            "text": "S-18 ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "S6. Empirical Epidemic-Indicator Correlations"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Epidemiologic and virologic assessment of the 2009 influenza a (h1n1) pandemic on selected temperate countries in the southern hemisphere",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Van Kerkhove",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Influenza and other respiratory viruses",
+            "volume": "5",
+            "issn": "",
+            "pages": "487--498",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Assessing the international spreading risk associated with the 2014 west african ebola outbreak",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Gomes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "PLoS currents",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Spread of zika virus in the americas",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Proceedings of the National Academy of Sciences",
+            "volume": "114",
+            "issn": "",
+            "pages": "4334--4343",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Covid-19 and sars-cov-2. modeling the present, looking at the future",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Estrada",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Physics Reports",
+            "volume": "869",
+            "issn": "",
+            "pages": "1--51",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Coronavirus disease 2019 (covid-19): situation report, 72",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Organization",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Reviewing the history of pandemic influenza: Understanding patterns of emergence and transmission",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Saunders-Hastings",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Krewski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Pathogens",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Airline networks and the international diffusion of severe acute respiratory syndrome (sars)",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Bowen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Laroe",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Geographical Journal",
+            "volume": "172",
+            "issn": "",
+            "pages": "130--144",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "The Hidden Geometry of Complex, Network-Driven Contagion Phenomena",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Brockmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Helbing",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Science",
+            "volume": "342",
+            "issn": "",
+            "pages": "1337--1342",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Predictability and epidemic pathways in global outbreaks of infectious diseases: the sars case study",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Colizza",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Barrat",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Barth\u00e9lemy",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vespignani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "BMC Medicine",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/1741-7015-5-34"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Accommodating individual travel history and unsampled diversity in bayesian phylogeographic inference of sars-cov-2",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Lemey",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hong",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Hill",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature Communications",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Human mobility: Models and applications",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Barbosa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Physics Reports",
+            "volume": "734",
+            "issn": "",
+            "pages": "1--74",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Economic and social consequences of human mobility restrictions under covid-19",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Bonaccorsi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Proceedings of the National Academy of Sciences",
+            "volume": "117",
+            "issn": "",
+            "pages": "15530--15535",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Why inequality could spread covid-19",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ahmed",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ahmed",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Pissarides",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Stiglitz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Lancet Public Health",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Epidemic processes in complex networks",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Pastor-Satorras",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Castellano",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Van Mieghem",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vespignani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Reviews of Modern Physics",
+            "volume": "87",
+            "issn": "",
+            "pages": "925--979",
+            "other_ids": {
+                "DOI": [
+                    "https:/link.aps.org/doi/10.1103/RevModPhys.87.925"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Natural Human Mobility Patterns and Spatial Spread of Infectious Diseases",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Belik",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Geisel",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Brockmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Physical Review X",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "https:/link.aps.org/doi/10.1103/PhysRevX.1.011001"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Phase transitions in contagion processes mediated by recurrent mobility patterns",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Balcan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vespignani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Nature Physics",
+            "volume": "7",
+            "issn": "",
+            "pages": "581--586",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nphys1944"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Critical regimes driven by recurrent mobility patterns of reaction-diffusion processes in networks",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "G\u00f3mez-Garde\u00f1es",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Soriano-Pa\u00f1os",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Arenas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nature Physics",
+            "volume": "14",
+            "issn": "",
+            "pages": "391--395",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41567-017-0022-7"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Spreading Processes in Multiplex Metapopulations Containing Different Mobility Networks",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Soriano-Pa\u00f1os",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Lotero",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Arenas",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "G\u00f3mez-Garde\u00f1es",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Physical Review X",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "https:/link.aps.org/doi/10.1103/PhysRevX.8.031039"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "What can urban mobility data reveal about the spatial distribution of infection in a single city",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Moss",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Naghizade",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tomko",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Geard",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "BMC Public Health",
+            "volume": "19",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12889-019-6968-x"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Epidemic spreading in localized environments with recurrent mobility patterns",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Granell",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Mucha",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Physical Review E",
+            "volume": "97",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Impact of temporal scales and recurrent mobility patterns on the unfolding of epidemics",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Soriano-Pa\u00f1os",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Ghoshal",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Arenas",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "G\u00f3mez-Garde\u00f1es",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Statistical Mechanics: Theory and Experiment",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "https:/iopscience.iop.org/article/10.1088/1742-5468/ab6a04"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "On the use of human mobility proxies for modeling epidemics",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tizzoni",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "PLOS Computational Biology",
+            "volume": "10",
+            "issn": "",
+            "pages": "1--15",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pcbi.1003716"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Field theory for recurrent mobility",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mazzoli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nature Communications",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "The effect of recency to human mobility",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Barbosa",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "De Lima-Neto",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Evsukoff",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Menezes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "EPJ Data Science",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Vector-borne epidemics driven by human mobility",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Soriano-Pa\u00f1os",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Physical Review Research",
+            "volume": "2",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Real-time numerical forecast of global epidemic spreading: case study of 2009 a/h1n1pdm",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tizzoni",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "BMC Medicine",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/1741-7015-10-165"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Quantifying the impact of human mobility on malaria",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wesolowski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Science",
+            "volume": "338",
+            "issn": "",
+            "pages": "267--270",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "A mathematical model for the spatiotemporal epidemic spreading of",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Arenas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "https:/www.medrxiv.org/content/10.1101/2020.03.21.20040022v1"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Metapopulation modeling of COVID-19 advancing into the countryside: an analysis of mitigation strategies for Brazil",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Costa",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Cota",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Ferreira",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "https:/www.medrxiv.org/content/10.1101/2020.05.06.20093492v2"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Association between mobility patterns and covid-19 transmission in the usa: a mathematical modelling study. The Lancet Infectious Diseases",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Badr",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "The geography of covid-19 spread in italy and implications for the relaxation of confinement measures",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Bertuzzo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature Communications",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Urbanisation and infectious diseases in a globalised world",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Alirol",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Getaz",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Stoll",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Chappuis",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Loutan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "The Lancet. Infectious diseases",
+            "volume": "11",
+            "issn": "",
+            "pages": "131--141",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Big city, small world: density, contact rates, and transmission of dengue across pakistan",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "U G"
+                    ],
+                    "last": "Kraemer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Journal of the Royal Society, Interface",
+            "volume": "12",
+            "issn": "",
+            "pages": "20150468--20150468",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Effect of population density on epidemics",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Richmond",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Roehner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Physica A: Statistical Mechanics and its Applications",
+            "volume": "510",
+            "issn": "",
+            "pages": "713--724",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Morphology of travel routes and the organization of cities",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Barbosa",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Youn",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Holme",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Ghoshal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Nature Communications",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Hierarchical organization of urban mobility and its connection with city livability",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bassolas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nature Communications",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41467-019-12809-y"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "From mobile phone data to the spatial structure of cities",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Louail",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Scientific Reports",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/srep05276"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Free US Population Density And Unemployment Rate By Zip Code (accessed",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Crowding and the shape of covid-19 epidemics",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Rader",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature Medicine",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Impact of lockdown on covid-19 epidemic in\u00eele-de-france and possible exit strategies",
+            "authors": [
+                {
+                    "first": "Di",
+                    "middle": [],
+                    "last": "Domenico",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Pullano",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Sabbatini",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Bo\u00eblle",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.-Y",
+                    "middle": [],
+                    "last": "Colizza",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMC Medicine",
+            "volume": "18",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "The effect of control strategies to reduce social mixing on outcomes of the covid-19 epidemic in wuhan, china: a modelling study",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Prem",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Spread and dynamics of the covid-19 epidemic in italy: Effects of emergency containment measures",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gatto",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Proceedings of the National Academy of Sciences",
+            "volume": "117",
+            "issn": "",
+            "pages": "10484--10491",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Gdp and employment flash estimates for the second quarter of 2020",
+            "authors": [],
+            "year": 2020,
+            "venue": "Eurostat",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Gross domestic product, second quarter 2020 (advance estimate) and annual update",
+            "authors": [],
+            "year": 2020,
+            "venue": "Bureau of Economic Analysis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Feasibility of controlling covid-19 outbreaks by isolation of cases and contacts. The Lancet Global Health",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hellewell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Quantifying sars-cov-2 transmission suggests epidemic control with digital contact tracing",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ferretti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "368",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Covid-19 epidemic in switzerland: on the importance of testing, contact tracing and isolation",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Salath\u00e9",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Swiss medical weekly",
+            "volume": "150",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "resurgent epidemics in a hierarchical metapopulation model",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Watts",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Muhamad",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Medina",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Dodds",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Multiscale",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Proceedings of the National Academy of Sciences",
+            "volume": "102",
+            "issn": "",
+            "pages": "11157--11162",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Multiscale mobility networks and the spatial spreading of infectious diseases",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Balcan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Proceedings of the National Academy of Sciences",
+            "volume": "106",
+            "issn": "",
+            "pages": "21484--21489",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Differentially private sql with bounded user contribution",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Wilson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "The scaling of contact rates with population density for the infectious disease models",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Nigmatulina",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Eckhoff",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Mathematical Biosciences",
+            "volume": "244",
+            "issn": "",
+            "pages": "125--134",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Spatial representation of the urban mobility network for selected cities (upper panel) Autralia, (lower panel) United States. Areas marked blue correspond to population density hotspots. The cities are organized in descending order according to the extent to which mobility flows are concentrated between areas of high population density, \u03ba (Eq.(1)). Line color encodes the number of inhabitants following each route normalized by the highest flow observed within each city.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": ". 2A but now split by country finding the same trend attesting to the robustness of the inverse dependence. (The fits to \u03b2 for each country are shown in Tab. S1). As a comparison to other population-related measures, in Connecting morphology to vulnerability A Normalized epidemic threshold\u03bb c versus population density hotspot concentration \u03ba for cities in each of the chosen 4 countries (color code). The solid line shows the fit to a power-law function given by\u03bb c = A\u03ba \u03b2 , with A = 1.15 \u00b1 0.06 and \u03b2 = \u22120.25 \u00b1 0.03. The shadowed region covers the 95% confidence interval. B Normalized threshold after removing all the flows connecting hotspots\u03bb M OD c as a function of the normalized epidemic threshold without intervention\u03bb c . The green (red) areas contains those cities for which removing flows among hotspots is beneficial (detrimental). C Division of the cities according to the result: beneficial, neutral and detrimental as described in the text.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "we plot the Spearman correlation matrix for \u03ba, the average population density, the Lloyd mean crowding[52] and\u03bb c for the 50 American cities. The figure suggests that the concentration of flows between areas of high population density, \u03ba, is a much better predictor of the vulnerability of cities than the other two measures.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Validation of the model in US cities A Epidemic growth rate b as a function of the epidemic threshold \u03bb c (p) (Eq. S16). In inset we show the same plot after removing NYC. B Epidemic growth rate b as a function of the average population density within hotspots d hot and the hotspot concentration \u03ba. The exponent 0.43 is introduced to reflect the dependence obtained when fitting the normalized epidemic threshold to \u03ba for the United States",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Impact of mobility interventions on the epidemic threshold within cities in the United States. The impact is quantified by representing the normalized threshold for each intervention,\u03bb I c ,\u03bb II c ,\u03bb III c (in panels A,B,C respectively) as a function of the normalized threshold \u03bb c . In all panels, the dashed line denotes the boundary separating the cities for which the intervention is beneficial (above) or detrimental (below). The color of the points represent the hotspot concentration \u03ba for each CBSA.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Filatotchev, I., Liu, X., Lu, J. & Wright, M. Knowledge spillovers through human mobility across national borders: Evidence from zhongguancun science park in china. Research Policy 40, 453-462 (2011). [4] Williams, A. M. & Bal\u00e1\u017e, V. What human capital, which migrants? returned skilled migration to slovakia from the uk 1. International migration review 39, 439-468 (2005).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Boubtane, E., Dumont, J.-C. & Rault, C. Immigration and economic growth in the oecd countries 1986-2006. Oxford Economic Papers 68, 340-360 (2016).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "United Nations, Department of Economic and Social Affairs, Population Division (2019). World Urbanization Prospects 2018: Highlights (ST/ESA/SER.A/421). https:// population.un.org/wup/Publications/Files/WUP2018-Highlights.pdf. Accessed: 2019-01-30.[7] Le N\u00e9chet, F. Urban spatial structure, daily mobility and energy consumption: a study of 34 european cities. Cybergeo: European Journal of Geography 580 (2012).[8] Bettencourt, L. M. The origins of scaling in cities. Science 340, 1438-1441 (2013). [9] Pan, W., Ghoshal, G., Krumme, C., Cebrian, M. & Pentland, A. Urban characteristics attributable to density-driven tie formation. Nature Communications 4, 1961 (2013). [10] Kirkley, A., Barbosa, H., Barthelemy, M. & Ghoshal, G. From the betweenness centrality in street networks to structural invariants in random planar graphs. Nature Communications 9, identified by setting a threshold on the population densities of cells within a city. The threshold for hotspots is assigned by applying a non-parametric method, the LouBar method [46, 47], based on the derivative of the Lorenz curve. The Lorenz curve is the sorted cumulative distribution of population densities and is obtained by plotting, in ascending order, the normalized cumulative number of nodes vs. the normalized cumulative population density. The threshold is then obtained by taking the derivative of the Lorenz curve at (1, 1) and extrapolating it to the point at which it intersects the x-axis. We classify hotspots in cities according to this LouBar method applied to population densities, in agreement with the reliance of the model on effective densities. A cell i is considered a hotspot of city k, H k if it satisfies:",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "From an epidemiological point of view, the model incorporates a SIR dynamics where individuals can be susceptible of contracting the disease (S), infectious (I) or recovered (R). An infectious individual transmits the pathogen to healthy counterparts via direct interaction at a rate \u03bb. In turn, infectious individuals enter the compartment R at a rate \u00b5, which typically encodes the inverse of the expected contagious period. The mixing among healthy and infectious individuals is governed by the spatial distribution of the population and their mobility patterns, which are accommodated in the formalism by using metapopulations. A metapopulation is a complex network composed by a set of N patches which represent places gathering agents. Those individuals can move across the metapopulation, being these movements determined by the mobility patterns usually encoded in origin-destination matrices.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Eq. (S5) determines the evolution of recovered patients. As the SIR model assumes that the compartment R constitutes the final epidemiological state, this evolution is just given by the number of infected individuals overcoming the disease. Regarding the evolution of infectious individuals, the r.h.s. of Eq. (S4) corresponds to those infected overcoming the disease and the second one involves contagions of susceptible individuals. In this sense, the probability that a susceptible individual living inside i contracts the disease at time t, \u03a0 i (t), S-11",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "where f i determines the number of contacts per day of individuals inside i. ), which denote the effective population and effective number of infected individuals inside patch i at time t after population movements, read:",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "FIG. S1. Normalized epidemic threshold versus population density hotspot concentration for the (A) United States (Spearman: -.62, Pearson = -.59), (B) Italy (Spearman = -.81, Pearson = -.77 ), (C) South Africa (Spearman = -.79, Pearson = -.57), and (D) Australia (Spearman = -.45, Pearson = -.47) , with each city colored according to the outcome of removing flows connecting hotspots and distribute them evenly among non-hotspots neighboring areas(Fig. 2B). Solid line shows the power-law fitting\u03bb c = A\u03ba \u03b2 and shadowed regions cover 68% confidence interval.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "the individual curves for each of the four countries analyzed here. The high Pearson and Spearman correlation coefficients among\u03bb and \u03ba along with the goodness of the power law fitting for each individual country strengthen our message about the close connection between the normalized epidemic",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF13": {
+            "text": ". S3. Cumulative number of COVID-19 reported 14 days after the first 100 reported cases for the 50 cities in the United States. Dots show real data, smoothed to remove the inherent noisy nature of case reports by using a Savitzky-Golay filter. The line shows the exponential fit of the data via least-squares method to I(t) = ae bt .",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Specifically, we have chosen d hot \u03ba 0.43 , where the first term corresponds to the average population density within hotspots and the second term reflects the scaling obtained for the normalized epidemic threshold in the individual case of CBSA from the United States (see Supplementary Section E. Potential mitigation measures",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Hotspot flow concentration \u03ba for the different cities analyzed in the manuscript. The resolution column con-",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Exponent of the power law function\u03bb c = A\u03ba \u03b2 governing the dependence of the normalized epidemic threshold on the hotspot concentration.threshold and the hotspot concentration. The analysis at the country level indicates that,",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "FIG. S2. Spearman Correlations between \u03ba, the average population density in the city, and the Lloyd mean crowding[51] with the normalized epidemic threshold\u03bb c B. Lloyd Mean Crowding",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "timeseries of confirmed cases per county[68, 69], from January 23 2020 to April 16 2020 (before truncating.) We aggregate this data to the level of CBSAs by summing across each CBSAs component counties. Given the noise in the data (due to collection and reporting artifacts, etc) we perform preprocessing on the curves. We use a Savitzky-Golay Filter[70] to smooth the data by fitting intermediate windows[71]  with low-order polynomials.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

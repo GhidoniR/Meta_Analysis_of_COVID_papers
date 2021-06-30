@@ -1,0 +1,1555 @@
+{
+    "paper_id": "0acee37598964ad86799e0c5d9d1b66944997906",
+    "metadata": {
+        "title": "Predictors of Health Behaviors Among Undergraduate Students During the COVID-19 Pandemic: A Cross-Sectional Predictive Study",
+        "authors": [
+            {
+                "first": "Wanich",
+                "middle": [],
+                "last": "Suksatan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Chulabhorn Royal Academy",
+                    "location": {
+                        "settlement": "Bangkok",
+                        "country": "Thailand"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Bovornpot",
+                "middle": [],
+                "last": "Choompunuch",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Mahasarakham University",
+                    "location": {
+                        "settlement": "Mahasarakham",
+                        "country": "Thailand"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Apinya",
+                "middle": [],
+                "last": "Koontalay",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Mahidol University",
+                    "location": {
+                        "settlement": "Bangkok",
+                        "country": "Thailand"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Vachira",
+                "middle": [],
+                "last": "Posai",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Ubon Ratchathani",
+                    "location": {
+                        "country": "Thailand"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ali",
+                "middle": [
+                    "H"
+                ],
+                "last": "Abusafia",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "USM Health Campus",
+                    "location": {
+                        "settlement": "Kelantan",
+                        "country": "Malaysia"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The COVID-19 pandemic has affected the health behaviors of university students. Thus, factors influencing students' health behaviors during the COVID-19 outbreak should be examined. Purpose: To our knowledge, little is known about stress, adversity quotient, and health behaviors of university students in Thailand. Therefore, the aims of this study were to determine the relationships among socioeconomic factors, stress, and adversity quotient influencing university students' health behavior during the COVID-19 crisis. Patients and Methods: We conducted a cross-sectional predictive study; it was included 416 undergraduate students \u226518 years of age at a university in Thailand. We used descriptive statistics, chi-squared test, and stepwise multiple linear regression for data analysis. Results: The results indicated that most participants were women (71.90%), and the highest proportion of students were enrolled in College of Politics and Governance (25.24%). Most of the students had a high stress level (M = 3.54, SD = 0.53), high adversity quotient (M = 3.77, SD = 0.63), and good health behavior (M = 3.06, SD = 0.53). Adversity quotient, stress, and current faculty/college were significant predictors of health behaviors of undergrad students (total variance: 37.2%). Conclusion: Total adversity quotient was the strongest predictor of health behavior, followed by stress and current faculty/colleges. On the basis of our results, we suggested that faculty members, caretakers, and interdisciplinary care teams should consider adversity quotient and stress in developing activities to encourage and promote students' physical and mental health behaviors, particularly during the COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "In December 2019, the first cases of coronavirus disease 2019 (COVID- 19) were found in the city of Wuhan, Hubei Province, China. 1 The pneumonia-causing virus was identified as the new coronavirus named as severe acute respiratory syndrome (SARS-CoV) 2, 2 and the disease was named by the World Health Organization as coronavirus disease 2019 (COVID-19). 3 The virus causes the same symptoms as those with respiratory infections, ranging from mild to severe stuffy nose, sore throat, cough, and fever. 4 Some people have pneumonia or difficulty breathing symptoms to diseases that cause serious illnesses, eg, Middle East Respiratory Syndrome (MERS-CoV) and SARS-CoV, which causes respiratory illnesses in people as well. 5 If the symptoms are very severe, death may result. 6 In clinical epidemiology, laboratory characteristics, and radiographic characteristics, cells likely to be destruction of cells in the lower respiratory tract, resulting in respiratory failure. 7 As of February 8, 2021, there were 106,965,292 cases of COVID-19 and 2,334,952 deaths related to it. 8 In Thailand, 23,557 cases of COVID-19 have been confirmed, with 17,410 cured and 79 deaths. 8 Seventy-nine confirmed deaths between 1 month and 97 years old. In terms of gender, male to female ratio 1.13:1, Thai nationality were 4,597, unknown nationals (597 cases), Myanmar (125 cases), India (77 cases), Cambodia (73 cases), and others (53 cases) (Emergency Operation Center Department of Disease Control, 2020). Since December 25, 2020, COVID-19 re-emerged in Thailand, and the tendency of patients to spread in each province is increasing in all age groups, including university students. 9 In many countries, including Thailand, policies have been established to prevent the spread, control, and resolve COVID-19 outbreaks, such as strict city-wide lockdown or closure of areas that are home to large numbers of people, which prevents epidemics from spreading, 10 and ban on foreign tourists from entering the country. These measures have considerably influenced people's lives, including changing their health habits, lifestyle, and slowing down the economy. 10 It also affects the teaching and learning of students who must adapt to government policies, including wearing masks; staying away from people with respiratory symptoms (eg, cold symptoms, cough, and sneezing); washing their hands thoroughly with soap and water or alcohol hand sanitizer; avoiding unnecessary contact with eyes, nose, and mouth; avoiding sharing belongings with others; eating hot cooked food; and avoiding crowded places. 9 If this is inevitable, students must protect themselves by wearing a surgical mask.",
+            "cite_spans": [
+                {
+                    "start": 70,
+                    "end": 73,
+                    "text": "19)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 130,
+                    "end": 131,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 356,
+                    "end": 357,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 503,
+                    "end": 504,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 723,
+                    "end": 724,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 776,
+                    "end": 777,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 972,
+                    "end": 973,
+                    "text": "7",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1075,
+                    "end": 1076,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1169,
+                    "end": 1170,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1670,
+                    "end": 1671,
+                    "text": "9",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1943,
+                    "end": 1945,
+                    "text": "10",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 2142,
+                    "end": 2144,
+                    "text": "10",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 2585,
+                    "end": 2586,
+                    "text": "9",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The university has also adopted new classroom teaching (eg, online learning) that suits the learners' context and the circumstances that arise during this time. 11 University students specifically report more significant mental health problems, including stress levels, compared with individuals who are not studying. 12 Because of the closure of universities or schools, teachers, professors, and students have moved to online distance learning, which may cultivate sensations of separation or disconnection from their schools, affecting students' motivation to learn. However, posttraumatic development perceived from the outbreak might be a protective factor against stress. 13 A literature review on health behavior in the COVID-19 situation indicated that few studies were conducted on the leading factors of student health behavior in Thailand. Studies have been performed on the elderly, the general public, and studies of factors related to the COVID-19 pandemic.",
+            "cite_spans": [
+                {
+                    "start": 161,
+                    "end": 163,
+                    "text": "11",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 318,
+                    "end": 320,
+                    "text": "12",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 678,
+                    "end": 680,
+                    "text": "13",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "However, university students are essential people in the country's future development. Therefore, our results may guide the development of models, management, and promotion of health behavior during COVID-19 crisis in university students, to be in good health and readiness, to learn about the new environment in the age of change.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "This cross-sectional predictive study recruited undergraduate students \u226518 years of age at a Thai university enrolled in the academic year 2020. Total seven faculty/college were included: (1) Faculty of Education, (2) Faculty Architecture, Urban Design, and Creative Arts, (3) College of Politics and Governance, (4) Faculty of Nursing, (5) Faculty of Informatics, (6) Faculty of Public Health, and (7) Faculty of Tourism and Hotel Management. To calculate the sample group, we used the power analysis using the G * power program. 14 Linear multiple regression analysis revealed the medium effect size was 0.15. Considering alpha of 0.05, power of the test as 0.80, and number of predictive variables was seven, a sample size of 416 participants was considered necessary. The sample was randomly selected from the target population using a convenience sampling technique with proportional allocation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Research Design and Sampling"
+        },
+        {
+            "text": "In the present research, we developed the CSUSS based on the literature review, which consisted of 15 items. Participants identify their choices on a 5-point scale from \"least serious\" (1 point) to \"most serious\" (5 points); total scores can range from 15 to 75. The interpretation by mean was five levels, which is using the following categories: 1.00-1.49 had the least stress, 1.50-2.49, had a low level of stress, 2.50-3.49 had moderate stress, 3.50-4.49 had a high level of stress, and 4.50-5.00 had the highest level of stress. Cronbach's alpha coefficient was.86.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Research Instrument Coronavirus Stress for Undergraduate Students (CSUS)"
+        },
+        {
+            "text": "The researchers created the Coronavirus Adversity Quotient (CAQ) based on the literature review, which consisted of 17 items. Participants indicated their choices on a 5-point scale from \"least serious\" (1 point) to \"most serious\" (5 points), with total scores ranging from 17 to 85. On the basis of the scores, the adversity quotient was interpreted as follows: 1.00-1.49 indicated extremely low adversity quotient; 1.50-2.49, low submit your manuscript | www.dovepress.com",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Coronavirus Adversity Quotient"
+        },
+        {
+            "text": "Journal of Multidisciplinary Healthcare 2021:14 adversity quotient; 2.50-3.49, moderate adversity quotient; 3.50-4.49, high adversity quotient; and 4.50-5.00, extremely high adversity quotient. Cronbach's alpha coefficient was 0.93.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DovePress"
+        },
+        {
+            "text": "We used the Health Behaviors Scale (HBS) by the Health Education Division, 15 which comprises 18 items. Participants rated their choices on a 5-point scale from \"least serious\" (1 point) to \"most serious\" (5 points), with total scores ranging from 18 to 90. The interpretation by mean was two levels, which is using the following categories: 1.00-2.99 represented a poor level of health behavior, and 3.00-5.00 represented a good level of health behavior. Cronbach's alpha coefficient was 0.82.",
+            "cite_spans": [
+                {
+                    "start": 75,
+                    "end": 77,
+                    "text": "15",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Health Behaviors Level"
+        },
+        {
+            "text": "Socioeconomic characteristics consisted of four items with multiple choices and open-ended questions. The researchers developed this tool based on literature reviews, including sex, academic year, current faculty/college, and family/household income.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sociodemographic Variables"
+        },
+        {
+            "text": "We collected information between November 27, 2020, and December 15, 2020, as follows: We sent a letter to the deans of each faculty/college requesting to collect research data. After their and Institutional Review Board (IRB) approval, we met with participants. We explained the study objective and procedures, including sample rights protection. Signed informed consent was obtained from all participants willing to participate. Participants spent approximately 10-15 min completing the selfreported questionnaire. After participants completed the questionnaire, we checked the completeness of the questionnaire information. If we found an incomplete questionnaire, we informed the participants to complete the questionnaire. Participants were free to withdraw anytime, and confidentiality of the participants was ensured. The data sets of the current study are not publicly available due to the information that might be compromised the research participants' privacy.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Collection"
+        },
+        {
+            "text": "This research study was approved by the IRB of Mahasarakham University (Research Project Code No. 279/2020), dated 26 November 2020. This study was conducted in accordance with the Declaration of Helsinki.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ethical Considerations"
+        },
+        {
+            "text": "All data were analyzed using IBM SPSS version 21 (SPSS, Chicago, IL). Characteristics of the students were described using descriptive statistics, including frequency (percentage) or mean \u00b1 standard deviation. The stress, adversity quotient, and health behavior scores were not normally distributed as it has been tested using Kolmogorov-Smirnov test, while the relationship between those factors was tested using nonparametric Chi-square test and Fisher's exact test. The factors predicting those variables were tested using the stepwise multiple linear regression analysis. Statistical significance was set at <0.05.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statical Analysis"
+        },
+        {
+            "text": "Of the 416 participants, most were female (n = 299, 71.90%) and freshmen (43.27%). Furthermore, the highest proportion of the participants were studying at the College of Politics and Governance (25.24%). Average monthly income 330-350 USD (33.41%) ( Table 1) . ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 251,
+                    "end": 259,
+                    "text": "Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "As shown in Figure 1 , the overall stress of the students was at a high level (M = 3.54, SD = 0.53) when considered by sex, male students (M = 3.49, SD = 0.51) and female students (M = 3.59, SD = 0.54) had a high stress level. Moreover, the overall of the students was at a high level (M = 3.77, SD = 0.63) when considered by sex, male students (M = 3.71, SD = 0.56) had high adversity quotient, compared with female students (M = 3.79, SD = 0.60). In addition, the overall health behavior of students had good health behavior (M = 3.06, SD = 0.53), when considered by sex male students (M = 3.38, SD = 0.35) and female students (M = 3.37, SD = 0.32) had good health behavior ( Figure 2 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 12,
+                    "end": 20,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 678,
+                    "end": 686,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "729"
+        },
+        {
+            "text": "The current study asserted the relationship among the participants' socioeconomic characteristics, such as sex, academic year, current faculty/college, and monthly income.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "729"
+        },
+        {
+            "text": "Of them, only current faculty/college was significantly correlated with their health behaviors (p < 0.05) ( Table 2) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 108,
+                    "end": 116,
+                    "text": "Table 2)",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "729"
+        },
+        {
+            "text": "We found that current faculty/college, stress, and adversity quotient by using stepwise multiple regression analysis. Three predictive variables ordered adversity quotient (\u03b2 = 0.52), stress (\u03b2 = -0.32), and current faculty/ college (\u03b2 = 0.14). The prediction model was statistically significant, F(3, 416) = 11.74, p < 0.001, accounting for approximately 37.2% of the variance of health behaviors (R 2 = 0.610, adjusted R 2 = 0.372) ( Table 3 ). ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 436,
+                    "end": 443,
+                    "text": "Table 3",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "729"
+        },
+        {
+            "text": "In this study, we identified that most of the students had a high stress level, high adversity quotient, and good health behavior. Our results indicated that only current faculty/college was significantly associated with their health behaviors (p < 0.05). We also determined factors predicting health behavior in undergraduate students during the COVID-19 pandemic and found them to be adversity quotient, stress, and current faculty/college that could predict health behavior in undergraduate students.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our findings demonstrated the first predicted health behavior in undergraduate students was adversity quotient. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Hulaikah et al 16 quality of life. 21 The second factor that predicted health behavior in students was stress. The COVID-19 pandemic has caused tremendous stress and anxiety in people, including students 22,23 because of various reasons, including lockdown and fear of infection. 24 Most people, including students, experience stress, fear, and anxiety when facing emerging diseases and feel overwhelmed. 25 Government policies such as maintaining social distance and lockdown can make people feel alone, stressed, and anxious, as well as affect their physical and mental health. It is essential for individuals to prepare themselves to protect against COVID-19. 13 Our results reveal that both male and female undergraduate students had severe stress (15.87% and 44.47%, respectively). Implementing health behaviors to protect oneself against COVID-19 can reduce students' stress related to the disease. 26 Li et al 27 examined the relationship between health behaviors and perceived stress in Chinese residents; their results revealed that health behaviors were negatively associated with perceived stress, with 39.89% of residents at risk of stress. 27 Additionally, a factor that can predict health behavior in undergraduate students of this study was current faculty/ college. Students from science and health science schools had better health behaviors than those from humanities and social science schools. Students from health sciences schools, such as nursing student, may have higher knowledge and awareness of the COVID-19 outbreak and the relevant self-care behaviors, partly because they may be taught that in their curriculums, such as good selfmanagement of physical and mental health. 28 In line with Raingruber 29 who found that highly educated individuals practice more health-promoting behaviors than those with low literacy levels, this finding is consistent with Gall\u00e8 et al, 30 who found understanding knowledge and behaviors associated with the COVID-19 outbreak in Italian undergraduate students. A previous study also indicated that students in non-health-related fields had a lower level of knowledge compared with students in health sciences. 30 However, the study of Alzoubi et al, 31 who indicated the inexistence of differences in COVID-19 knowledge between medical and nonmedical colleges. They found that the knowledge of medical and nonmedical students about social media, the Internet, and television had no significant difference (p >0.05). Therefore, undergraduate students still required more information and directed measures, good welfare, and awareness campaigns from government and related agencies to improve the knowledge, attitude, and skills in some critical components to contain the COVID-19 crisis.",
+            "cite_spans": [
+                {
+                    "start": 15,
+                    "end": 17,
+                    "text": "16",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 35,
+                    "end": 37,
+                    "text": "21",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 280,
+                    "end": 282,
+                    "text": "24",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 405,
+                    "end": 407,
+                    "text": "25",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 663,
+                    "end": 665,
+                    "text": "13",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 905,
+                    "end": 907,
+                    "text": "26",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1153,
+                    "end": 1155,
+                    "text": "27",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 1701,
+                    "end": 1703,
+                    "text": "28",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 1717,
+                    "end": 1730,
+                    "text": "Raingruber 29",
+                    "ref_id": null
+                },
+                {
+                    "start": 1897,
+                    "end": 1899,
+                    "text": "30",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 2170,
+                    "end": 2172,
+                    "text": "30",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 2210,
+                    "end": 2212,
+                    "text": "31",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DovePress"
+        },
+        {
+            "text": "For this study's implications, the results indicated that the adversity quotient, stress (negative direction) and current faculty/college are predictors of health behaviors in university students during the COVID-19 crisis. Therefore, when planning to promote and support students' healthy behaviors and impact these patients' psychological status. Health care providers should not overlook the students' mental health; otherwise, they may not achieve their study plan's goals. Additionally, future studies that address interventions to improve adversity quotient and decrease stress in university students during the COVID-19 pandemic are recommended, particularly for students in humanities and social science schools.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DovePress"
+        },
+        {
+            "text": "This study has some limitations. First, we included only undergraduate students from seven faculties/schools of one university; thus, our results may not be generalizable to the entire student population. Moreover, our cohort had a female predominance (71.87%). Future studies should therefore include a more diverse population, including different sexes, cultures, faculties, and universities to better understand better how COVID-19 affects them. Second, we predicted socioeconomic factors, stress, and adversity quotient influencing university students' health behavior during the COVID-19 pandemic with only a self-reported questionnaire. Longitudinal or intervention studies are warranted to clarify students' long-term outcomes. Third, our study submit your manuscript | www.dovepress.com",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DovePress"
+        },
+        {
+            "text": "Journal of Multidisciplinary Healthcare 2021:14 assessed socio-demographic characteristics such as sex, academic year, current faculty/college, and family/household income; it would be more informative if the residence condition, and the level of social support could be included, which a significant effect on the students' level of stress experience. Finally, our study used convenience sampling; the lack of random sampling may contribute to sample selection bias and also limit the findings' generalization. Future studies should examine students with other schools and also characteristics of people who are not students across time to identify how the behaviors and perspectives in those populations change as the COVID-19 outbreak shifts in scope.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DovePress"
+        },
+        {
+            "text": "Our study including a cohort of students from a Thai university revealed that the COVID-19 outbreak has a significant negative impact on students' psychological health, particularly on adversity quotient, stress, and health behaviors. The most critical thing for instructors, professors, and students is preparation-both psychically and psychologically-to cope with the new normal of education that changes the way we all learn, including educational management that is no longer the same. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "The datasets generated during and/or analyzed during the current study are available from the corresponding author on reasonable request.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Sharing Statement"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Risk factors for disease progression in hospitalized patients with COVID-19: a retrospective cohort study",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Hou",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jin",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Infect Dis",
+            "volume": "52",
+            "issn": "7",
+            "pages": "498--505",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/23744235.2020.1759817"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "A novel coronavirus from patients with pneumonia in China",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "N Eng J Med",
+            "volume": "382",
+            "issn": "8",
+            "pages": "727--733",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2001017"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Naming the coronavirus disease (COVID-19) and the virus that causes it",
+            "authors": [],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Observations about symptomatic and asymptomatic infections of 494 patients with COVID-19 in",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Mei",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Am J Infect Control",
+            "volume": "48",
+            "issn": "9",
+            "pages": "1045--1050",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ajic.2020.06.221"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Middle east respiratory syndrome (MERS), and SARS-CoV-2. Ref Module Biomed Sci",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hui",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Azhar",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Memish",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zumla",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/B978-0-12-801238-3.11634-4"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Estimates of the severity of coronavirus disease 2019: a model-based analysis",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Verity",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Okell",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Dorigatti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Infect Dis",
+            "volume": "20",
+            "issn": "6",
+            "pages": "669--677",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S1473-3099(20)30243-7"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Pneumonia of unknown cause -China",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "COVID-19 Coronavirus pandemic",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Worldometers",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "In-udom A. Stress, adversity quotient, and health behaviors of undergraduate students in a Thai university during COVID-19 outbreak",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Choompunuch",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Suksatan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sonsroem",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kutawan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "BNJ",
+            "volume": "7",
+            "issn": "1",
+            "pages": "1--7",
+            "other_ids": {
+                "DOI": [
+                    "10.33546/bnj.1276"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Positive impact of lockdown on COVID-19 outbreak in Thailand",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Dechsupa",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Assawakosri",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Phakham",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Honsawek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Travel Med Infect Dis",
+            "volume": "36",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.tmaid.2020.101802"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "COVID-19: threat or opportunity for online education?",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Vlachopoulos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "High Learn Res Commun",
+            "volume": "10",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.18870/hlrc.v10i1.1179"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Anxiety and coping strategies among nursing students during the COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Savitsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Findling",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ereli",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hendel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nurse Educ Pract",
+            "volume": "46",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.nepr.2020.102809"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "The impact of COVID-19 on anxiety in Chinese university students",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Front Psychol",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fpsyg.2020.01168"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Power 3: a flexible statistical power analysis program for the social, behavioral, and biomedical sciences",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Faul",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Erdfelder",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Lang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Buchner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Behav Res Methods",
+            "volume": "39",
+            "issn": "2",
+            "pages": "175--191",
+            "other_ids": {
+                "DOI": [
+                    "10.3758/BF03193146"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Journal of Multidisciplinary Healthcare 2021:14 submit your manuscript | www",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Health Education Division; Health Service Support Department. Operational guidelines for changing health behavior at provincial level. Thailand: Health Education Division, Health Service Support Department",
+            "authors": [],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "The effect of experiential learning and adversity quotient on problem solving ability",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hulaikah",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Degeng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Instr",
+            "volume": "13",
+            "issn": "1",
+            "pages": "869--884",
+            "other_ids": {
+                "DOI": [
+                    "10.29333/iji.2020.13156a"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Adversity quotients, environmental variables and career adaptability in student nurses",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Tian",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J Vocat Behav",
+            "volume": "85",
+            "issn": "3",
+            "pages": "251--257",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jvb.2014.07.006"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Influences of moral, emotional and adversity quotient on good citizenship of Rajabhat University's Students in the Northeast of Thailand",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Siphai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Educ Res Rev",
+            "volume": "10",
+            "issn": "17",
+            "pages": "2413--2421",
+            "other_ids": {
+                "DOI": [
+                    "10.5897/ERR2015.2212"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Mental health and family relationship of nursing students after the practice in nursing",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Tumka",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kongdang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Suksatan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Nurs Health",
+            "volume": "1",
+            "issn": "2",
+            "pages": "111--124",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Contribution of adversity quotient, self awareness and demographic factors to student career maturity",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Kurniawan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Daharnis",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Karneli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Res Couns Educ",
+            "volume": "4",
+            "issn": "1",
+            "pages": "70--75",
+            "other_ids": {
+                "DOI": [
+                    "10.24036/00261za0002"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Adversity quotient: a new paradigm to explore",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Phoolka",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kaur",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Contemporary Business Studies",
+            "volume": "3",
+            "issn": "4",
+            "pages": "67--78",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Online learning amid the COVID-19 pandemic: students' perspectives. Online Submission",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Adnan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Anwar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "2",
+            "issn": "",
+            "pages": "45--51",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "The psychological impacts of a COVID-19 outbreak on college students in China: a longitudinal study",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Mak",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Environ Res Public Health",
+            "volume": "17",
+            "issn": "11",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/ijerph17113933"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Effect of lockdown amid COVID-19 pandemic on air quality of the megacity Delhi",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mahato",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pal",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Ghosh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "India. Sci Total Environ",
+            "volume": "730",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.scitotenv.2020.139086"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "College students' motivation and study results after COVID-19 stayat-home orders",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Meeter",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bele",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Den Hartogh",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bakker",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "De Vries",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Plak",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.31234/osf.io/kn6v9"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Middle east respiratory syndrome-corona virus (MERS-CoV) associated stress among medical students at a university teaching hospital in Saudi Arabia",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Al-Rabiaah",
+                    "suffix": ""
+                },
+                {
+                    "first": "M-H",
+                    "middle": [],
+                    "last": "Temsah",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Al-Eyadhy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Infect Public Health",
+            "volume": "13",
+            "issn": "5",
+            "pages": "687--691",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jiph.2020.01.005"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Perceived stress and its impact on health behavior of Chinese residents during the epidemic of COVID-19: an internet survey",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.21203/rs.3.rs-27180/v1"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Factors influencing health literacy of students in health science curriculum: a cross-sectional study",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Suksatan",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ruamsook",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Prabsangob",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Indian J Public Health Res Dev",
+            "volume": "11",
+            "issn": "7",
+            "pages": "1469--1474",
+            "other_ids": {
+                "DOI": [
+                    "10.37506/ijphrd.v11i7.10303"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Contemporary Health Promotion in Nursing Practice",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Raingruber",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Understanding knowledge and behaviors related to COVID-19 epidemic in Italian undergraduate students: the EPICO study",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Gall\u00e8",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Sabella",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Da Molin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Environ Res Public Health",
+            "volume": "17",
+            "issn": "10",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/ijerph17103481"
+                ]
+            }
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "COVID-19-knowledge, attitude and practice among medical and non-medical University Students in Jordan",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Alzoubi",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Alnawaiseh",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Al-Mnayyis",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lubad",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Aqel",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Al-Shagahin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Pure Appl Microbiol",
+            "volume": "14",
+            "issn": "1",
+            "pages": "17--24",
+            "other_ids": {
+                "DOI": [
+                    "10.22207/JPAM.14.1.04"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Distribution of stress and adversity quotient among students.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Distribution of health behavior among students. submit your manuscript | www.dovepress.com DovePress Journal of Multidisciplinary Healthcare 2021:14",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "because mental strength and self-control affect the body's immune resistance and the individual's self-care behaviors. 18,19 Kurniawan et al 20 explained that facing challenges and overcoming obstacles is indicated by a person's ability to get up and act. Whether it is positive or negative for various situations, it depends on the individual whether there is more or less. 20 Phoolka et al 21 also stated that healthy behaviors and adversity quotient, which are individuals, groups, organizations' actions, and the relational factors and consequences of these actions. For instance, social change policy development and skill improvement actions coping and improving",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Abbreviations nCoV, novel coronavirus; coronavirus disease 2019; MERS-CoV, Middle East Respiratory Syndrome; SARS-CoV, Severe acute respiratory syndrome; CSUS, Coronavirus Stress for Undergraduate Students; CAQ, Coronavirus Adversity Quotient; HBS, Health Behaviors Scale.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Sociodemographic Status of the Participants",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Association Between Demographic Data and Health Behaviors",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Regression of Individual Health Behaviors",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We would like to thank the participants in our online survey for their valuable data and the reviewers for their helpful comments and suggestions to improve our study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        },
+        {
+            "text": "All authors made substantial contributions to conception and design, acquisition of data, or analysis and interpretation of data; took part in drafting the article or revising it critically for important intellectual content; agreed to submit to the current journal; gave final approval of the version to be published; and agree to be accountable for all aspects of the work.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Author Contributions"
+        },
+        {
+            "text": "No funding was received.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding"
+        },
+        {
+            "text": "The authors declare that they have no conflicts of interest for this work.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Disclosure"
+        },
+        {
+            "text": "The Journal of Multidisciplinary Healthcare is an international, peerreviewed open-access journal that aims to represent and publish research in healthcare areas delivered by practitioners of different disciplines. This includes studies and reviews conducted by multidisciplinary teams as well as research which evaluates the results or conduct of such teams or healthcare processes in general. The journal covers a very wide range of areas and welcomes submissions from practitioners at all levels, from all over the world. The manuscript management system is completely online and includes a very quick and fair peer-review system. Visit http://www.dovepress.com/testimonials. php to read real quotes from published authors. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Publish your work in this journal"
+        }
+    ]
+}

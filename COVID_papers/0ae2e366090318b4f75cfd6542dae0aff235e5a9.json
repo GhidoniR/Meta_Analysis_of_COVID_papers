@@ -1,0 +1,1089 @@
+{
+    "paper_id": "0ae2e366090318b4f75cfd6542dae0aff235e5a9",
+    "metadata": {
+        "title": "COVID-19 Survivors' Reports of the Timing, Duration, and Health Impacts of Post-Acute Sequelae of SARS-CoV-2 (PASC) Infection",
+        "authors": [
+            {
+                "first": "Natalie",
+                "middle": [],
+                "last": "Lambert",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Indiana University School of Medicine",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": ";",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Survivor",
+                "middle": [],
+                "last": "Corps",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Sarah",
+                "middle": [
+                    "A"
+                ],
+                "last": "El-Azab",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Michigan",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Nathan",
+                "middle": [
+                    "S"
+                ],
+                "last": "Ramrakhiani",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Brown University",
+                    "location": {
+                        "settlement": "Providence",
+                        "region": "RI"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Anthony",
+                "middle": [],
+                "last": "Barisano",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Brown University",
+                    "location": {
+                        "settlement": "Providence",
+                        "region": "RI"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Lu",
+                "middle": [],
+                "last": "Yu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Illinois at Urbana-Champaign",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Kaitlyn",
+                "middle": [],
+                "last": "Taylor",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Lambert Health Lab",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Alvaro",
+                "middle": [],
+                "last": "Esperanca",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Indiana University Purdue University Indianapolis",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Charles",
+                "middle": [
+                    "A"
+                ],
+                "last": "Downs",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Miami",
+                    "location": {
+                        "settlement": "Coral Gables, Florida"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Heather",
+                "middle": [
+                    "L"
+                ],
+                "last": "Abrahim;",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of California Irvine",
+                    "location": {
+                        "settlement": "Irvine California"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Melissa",
+                "middle": [
+                    "D"
+                ],
+                "last": "Pinto",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of California Irvine",
+                    "location": {
+                        "settlement": "Irvine California"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Rana",
+                "middle": [],
+                "last": "Chakraborty",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Mayo Clinic",
+                    "location": {
+                        "settlement": "Rochester",
+                        "region": "Minnesota"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jessica",
+                "middle": [
+                    "L"
+                ],
+                "last": "Borelli",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of California",
+                    "location": {
+                        "addrLine": "PhD, 410 W. 10th St",
+                        "postCode": "46202",
+                        "settlement": "Irvine, Indianapolis",
+                        "region": "IN"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Post-Acute Sequelae of SARS-CoV-2 Infection (PASC) is a major public health concern. Studies suggest that 1 in 3 infected with SARS-CoV-2 may develop PASC, including those without initial symptoms or with mild COVID-19 disease. 1, 2 OBJECTIVE: To evaluate the timing, duration, and health impacts of PASC reported by a large group of primarily non-hospitalized COVID-19 survivors.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "reporting symptoms for more than 21 days following SARS-CoV-2 infection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Participants were recruited from Survivor Corps and other online COVID-19 survivor support groups.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Participants reported demographic information, as well as the timing, duration, health impacts, and other attributes of PASC. The temporal distribution of symptoms, including average time of onset and duration of symptoms were determined, as well as the perceived distress and impact on ability to work. : medRxiv preprint NOTE: This preprint reports new research that has not been certified by peer review and should not be used to guide clinical practice.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "On average, participants reported 21.4 symptoms and the number of symptoms ranged from 1 to 93. The most common symptoms were fatigue (79.0%), headache (55.3%), shortness of breath (55.3%), difficulty concentrating (53.6%), cough (49.0%), changed sense of taste (44.9%), diarrhea (43.9%), and muscle or body aches (43.5%). The timing of symptom onset varied and was best described as happening in waves. The longest lasting symptoms on average for all participants (in days) were \"frequently changing\" symptoms (112.0), inability to exercise (106.5), fatigue (101.7), difficulty concentrating (101.1), memory problems (100.8), sadness (99.2), hormone imbalance (99.1), and shortness of breath (96.9).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The symptoms that affected ability to work included the relapsing/remitting nature of illness (described by survivors as \"changing symptoms\"), inability to concentrate, fatigue, and memory problems, among others. Symptoms causing the greatest level of distress (on scale of 1 \"none\" to 5 \"a great deal\") were extreme pressure at the base of the head (4.4), syncope (4.3), sharp or sudden chest pain (4.2), brain pressure (4.2), headache (4.2), persistent chest pain or pressure (4.1), and bone pain in extremities (4.1).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "PASC is an emerging public health priority characterized by a wide range of changing symptoms, which hinder survivors' ability to work. PASC has not been fully characterized and the trajectory of symptoms and long-term outcomes are unknown. There is no treatment for PASC, and survivors report distress in addition to a host of ongoing symptoms. Capturing patient reports of symptoms through openended inquiry is a critical first step in accurately and comprehensively characterizing PASC to ensure that medical treatments and management strategies best meet the needs of individual patients and help mitigate health impacts of this new disease.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The long-term effects of infection with SARS-CoV-2 are poorly understood. This is particularly alarming given that over 118,000,000 persons have contracted SARS-CoV-2 since the virus emerged in late 2019. 3 Recent studies suggest that nearly a third of individuals having had SARS-CoV-2 infection, including those who are initially asymptomatic, go on to develop symptoms that appear to last for a yet undefined period of time. 1 These COVID-19 survivors report a wide range of long-lasting sequelae, 4 some of which are ongoing nine months after infection. 5 To date most of the research involving SARS-CoV-2 and its consequences has involved the 10% of individuals with severe illness that required hospitalization, 6-8 leaving a significant gap in our understanding of the health impacts of SARS-CoV-2 infection among the majority (90%) of persons who have been infected to date -those that did not require hospitalization.",
+            "cite_spans": [
+                {
+                    "start": 205,
+                    "end": 206,
+                    "text": "3",
+                    "ref_id": null
+                },
+                {
+                    "start": 428,
+                    "end": 429,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 558,
+                    "end": 559,
+                    "text": "5",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "As data emerged, persons with persistent symptoms 21 or more days following infection have been labeled as \"long-haulers,\" or those with Post-Acute Sequelae of SARS-CoV-2 (PASC). Not only is public awareness surrounding this topic low, but research concerning PASC is minimal. 9 Here, we characterize PASC among a participant group composed primarily of non-hospitalized COVID-19 survivors (n=5,163) through a survey that captures symptom timing, duration, and health impacts of PASC.",
+            "cite_spans": [
+                {
+                    "start": 277,
+                    "end": 278,
+                    "text": "9",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Data for this project were procured through an IRB-approved study and was made possible by a collaboration between the Indiana University School of Medicine and Survivor Corps. Survivor Corps is a COVID-19 grassroots organization and Facebook group dedicated to supporting COVID-19 survivors and scientific research of COVID-19. In August 2020, a REDCap survey was disseminated to Survivor Corps group members on Facebook and in other online COVID-19 groups. The survey was sent out again in November 2020 to collect more data. The purpose of the survey was to understand respondents' experiences with the timing and duration of the COVID-19 symptoms and how they were impacted by these symptoms.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "To participate in the study, all respondents had to be 18 years or older and have been diagnosed with COVID-19 through a positive SARS-CoV-2 antigen or RT PCR test, physician diagnosis, self-diagnosis, or some other method (e.g., positive antibody test). The survey collected self-reported demographic information, an extensive medical history (including underlying conditions), and experiences with COVID-19 (including hospitalization). In addition, the survey listed and asked questions about 101 distinct . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 22, 2021. ; COVID-19 symptoms and gave respondents the option to report additional symptoms they had experienced that were not listed. The initial survey collected 5,875 responses.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "All survey data were manually reviewed and cleaned for analysis. While asymptomatic respondents could participate, only data from respondents who reported symptoms were included in the results. To focus on the experiences of people with PASC, the data analyzed were further limited to respondents who had experienced symptoms for longer than 21 days.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "The final dataset for analysis consisted of 5,163 participants.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "For each symptom, the percentage of participants reporting the symptom, average pain or discomfort associated with the symptom, average duration, and average time to symptom onset were calculated. Means were calculated for participants' responses to a 5-point Likert scale from \"Not at all\" to \"Very much\" for questions about the pain and discomfort, work impairment, and social relationship impact caused by each symptom. Additionally, the percentage of participants that reported the symptom as ongoing and the percentage who reported the symptom as intermittent was calculated for each symptom. The ggplot R package was used to visualize the relationship between symptom discomfort and average duration, the distribution of the number of symptoms reported by each participant, and to create a table containing all symptom metrics calculated for this study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "A total of 5,875 people responded to the survey. Of these, 5,163 reported persistent symptoms. Participants were predominantly White (81.3%), female (85.7%), never hospitalized for COVID-19 (89.3%), and received either a provider diagnosis or RT-PCR confirmed SARS-CoV-2 infection (77.1%). See Table 1 for more detail.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 294,
+                    "end": 301,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Survey demographics"
+        },
+        {
+            "text": "PASC individuals reported an average of 21.4 symptoms with a range of 1 to 93 symptoms occurring (Supplemental Figure 1) . The prevalence of symptoms is reported in Figure 1 , and a graph of combined average time to symptom onset and duration among participants with PASC is reported in Figure 2 . Of the 101 symptoms reported, the most . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 111,
+                    "end": 120,
+                    "text": "Figure 1)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 165,
+                    "end": 173,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 287,
+                    "end": 295,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Prevalence and duration of symptoms among participants with PASC"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 22, 2021. ; prevalent symptoms included fatigue, headache, shortness of breath, difficulty concentrating, inability to exercise, cough, change in sense of taste, diarrhea, and muscle or body aches.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Prevalence and duration of symptoms among participants with PASC"
+        },
+        {
+            "text": "Timing of symptom onset varied and was typically described as occurring in \"waves\".",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Prevalence and duration of symptoms among participants with PASC"
+        },
+        {
+            "text": "Symptom duration ranged from 2 weeks to over 100 days, with changing symptoms being a prominent, long-lasting feature ( Figure 2 ). The first wave (arrhythmia to burning calves) appeared to be heavily dominated by neurological and cardiovascular manifestations with some indicators of a strong immune response (enlarged and painful lymph nodes), followed by microvascular consequences in the second wave (Covid toes). The final wave suggested impact on endocrine (thyroid) function. At the time that they took the survey 98.0% of the respondents said they had symptoms that were unresolved, and 97.8% reported that at least one of their symptoms was intermittent, meaning it would temporarily resolve and then later return.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 120,
+                    "end": 128,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Prevalence and duration of symptoms among participants with PASC"
+        },
+        {
+            "text": "The calculations of average time to symptom onset; symptom duration; percentage of respondents who reported the symptom as intermittent or ongoing; and the average symptom impact in terms of pain and discomfort, work impairment, and social relationship are recorded in Table 2 . Variables included percentage reporting a symptom; pain and discomfort of the symptom (e.g., distress); ability to work or socialize; symptom duration; percentage reporting ongoing symptoms; and percentage reporting symptoms as intermittent. Potential morbidity, especially inability to work, was assessed through symptom severity, duration, and perceived impact on ability to work ( Figure 3 ). Symptoms perceived to have the most impact on ability to work included fatigue, personality change, a sensation of \"brain pressure\", inability to sleep, inability to exercise, difficulty concentrating, memory problems, confusion, shortness of breath, and the relapsing/remitting nature of symptoms.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 269,
+                    "end": 276,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 663,
+                    "end": 671,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Impact of symptoms on participants with PASC"
+        },
+        {
+            "text": "The current study provides much needed insight into the sequelae of acute SARS-CoV-2 infection. These findings warrant additional discussion, investigation, and context within the current knowledge of PASC. In reviewing our findings, we believe there are 4 key take-. CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 22, 2021. ; away points that warrant further discussion.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "First, the fact that survey participants reported an average of 24.1 symptoms means that the average PASC patient experiences more long-lasting sequelae of COVID-19 than is currently captured by most research studies. 10 Participants were able to describe their symptoms and health impact caused by these symptoms in detail, which provides additional richness and insight into the symptom sequelae.",
+            "cite_spans": [
+                {
+                    "start": 218,
+                    "end": 220,
+                    "text": "10",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "A second insight was that PASC may affect more women than men since 85.7% of our PASC respondents were women. Although prior research has found that older adults are at greater risk of hospitalization than younger adults, in our participant group PASC impacted people in the middle years of life most frequently with 77.0% (n= 3,980) of our participants aged 35-64. We 2 and others 8, 12, 13 have shown that PASC occurs more frequently in women with an age distribution similar to this study. Our participants were also largely not hospitalized, indicating a less severe initial course. 77% of participants reported clinician diagnosis or confirmed RT PCR for SARS-CoV-2, with 5% reporting \"other\" and ~18% self-diagnosing.",
+            "cite_spans": [
+                {
+                    "start": 382,
+                    "end": 384,
+                    "text": "8,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 385,
+                    "end": 388,
+                    "text": "12,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 389,
+                    "end": 391,
+                    "text": "13",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Those without confirmed diagnosis may have attributed SARS-CoV-2 infection with a confirmed antibody test that was available early in the pandemic or through the presence of COVID-specific symptoms such as loss of sense of smell. While there may be an inclination for researchers to exclude participants who do not have a positive RT PCR or antibody test from COVID-19 research, capturing the experiences of the earliest long haulers (before validated tests had become available) is essential for understanding the trajectory of PASC.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Third, participants reported multiple symptoms that appear to occur in waves. This observation is consistent with other reports, including hospitalized individuals. The temporal nature of these symptoms may provide clues into underlying pathophysiology, which is currently unclear. Others describe PASC symptoms occurring in waves which may indicate an evolving process guided by endothelial dysfunction, inflammation, oxidative stress, and . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 22, 2021. ; hormonal imbalance. 14, 15 However, a causal relationship has not been established. These findings align with the team's prior work in different data sets that observed medically documented symptoms in electronic health records longitudinally and established a temporal order and inclusion of only new symptoms at 0-11 and 60+days following a positive SARS-CoV-2 PCR test. In this work we identified 5 symptom clusters in non-hospitalized PASC survivors, with dominant symptoms in those clusters all represented in the top quartile of symptoms reported here. Of note is the changing nature of symptoms, which appears to be a particularly distressing feature among PASC survivors.",
+            "cite_spans": [
+                {
+                    "start": 97,
+                    "end": 100,
+                    "text": "14,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 101,
+                    "end": 103,
+                    "text": "15",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Finally, PASC appears to exert variable degrees of impact on individuals, but mechanistic insight is lacking. Most studies to date have focused on hospitalized patients; however, in our study most participants were never hospitalized, suggesting that PASC has profound effects, independent of COVID-19 severity. Factors that were reported to have the most impact on participants' ability to work after developing PASC included the relapsing/remitting nature of symptoms, the long duration of many symptoms reported as unresolved, as well as fatigue and symptoms associated with altered cognition or memory impairment. Overall, reported symptoms varied with regards to duration and for their degree of distress, suggesting that a symptom of PASC can cause severe health impacts for some and milder impacts for others, making PASC an experience that is unique to the individual.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Considering the great number and severity of health impacts caused by PASC, future research with PASC patients should endeavor to collect qualitative data, asking patients to report on the lasting impacts including their ability to work, maintain social relationships, their mental health, as well as basic everyday functioning. Analysis and fusion of biological and qualitative data are essential to ensure that health policy can be designed to meet PASC survivors' needs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The sequelae of acute SARS-CoV-2 infection are just beginning to be understood, and it is clear that PASC affects those who were never hospitalized for severe illness. More work is needed to corroborate our findings and to document the temporal nature of symptoms of PASC. Further research is needed to determine non-modifiable risk factors associated with increased risk of acquiring PASC, as well as aberrant innate and adaptive immune responses . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Limitations"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 22, 2021. ; associated with PASC.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Thank you to Survivor Corps for mobilizing many thousands of COVID-19 survivors to participate in research to find a cure for COVID-19, and for being the epicenter of hope for so many. We would like to express our deep gratitude to the thousands of long haulers who spent many hours taking this survey while suffering from the impacts of PASC. The answers we need to cure PASC will come from listening and learning from those who suffer from the disease.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": "We would also like to thank the Precision Health Initiative at Indiana University for their support on this project.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 22, 2021. ; percentage of participants reporting symptoms, pain and discomfort (e.g. level of distress), ability to work, social impairment, symptom duration, percentage reporting symptoms as ongoing, and percentage reporting symptoms as intermittent. . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 22, 2021. ; is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 22, 2021.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": ";",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "COVID-19 Symptoms: Longitudinal Evolution and Persistence in Outpatient Settings",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Nehme",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Braillard",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Alcoba",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Ann Intern Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.7326/M20-5926"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "COVID Symptoms, Symptom Clusters, and Predictors for Becoming a Long-Hauler: Looking for Clarity in the Haze of the Pandemic",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Pinto",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Md",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Borelli",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2021.03.03.21252086"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Survivor Corps COVID-19 \"Long Hauler",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lambert",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Symptoms Survey Report. Indiana University School of Medicine",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Sequelae in Adults at 6 Months After COVID-19 Infection",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Logue",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Franko",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Mcculloch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "JAMA Netw Open",
+            "volume": "4",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jamanetworkopen.2021.0830"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Post-discharge persistent symptoms and health-related quality of life after hospitalization for COVID-19",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Garrigues",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Janvier",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kherabi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Infect",
+            "volume": "81",
+            "issn": "6",
+            "pages": "4--6",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jinf.2020.08.029"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "6-month consequences of COVID-19 in patients discharged from hospital: a cohort study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tenforde",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lindsell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Lancet",
+            "volume": "397",
+            "issn": "",
+            "pages": "220--232",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)32656-8"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Persistent symptoms in patients after acute COVID-19",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Carfi",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Bernabei",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Landi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "324",
+            "issn": "6",
+            "pages": "603--605",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.12603"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Surveillance is underestimating the burden of the COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Alwan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "396",
+            "issn": "",
+            "pages": "31823--31830",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Symptom Duration and Risk Factors for Delayed Return to Usual Health Among Outpatients with COVID-19 in a Multistate Health Care Systems Network -United States",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Tenforde",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lindsell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "MMWR Morb Mortal Wkly Rep",
+            "volume": "69",
+            "issn": "",
+            "pages": "993--998",
+            "other_ids": {
+                "DOI": [
+                    "10.15585/mmwr.mm6930e1"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "et al Persistent symptoms 1.5-6 months after COVID-19 in non-hospitalised subjects: a population-based cohort study",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Stavem",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Ghanima",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Olsen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Thorax",
+            "volume": "76",
+            "issn": "",
+            "pages": "405--407",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Attributes and predictors of long COVID",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Sudre",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Murray",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Varsavsky",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41591-021-01292-y"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Post-COVID-19 chronic symptoms: a postinfectious entity",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Davido",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Seang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Tubiana",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Truchis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Microbiol Infect",
+            "volume": "26",
+            "issn": "11",
+            "pages": "1448--1449",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cmi.2020.07.028"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "COVID-19 and multisystem inflammatory syndrome, or is it mast cell activation syndrome",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Theoharides",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Conti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Biol Regul Homeost Agents",
+            "volume": "34",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Short-and potential long-term adverse health outcomes of COVID-19: a rapid review",
+            "authors": [
+                {
+                    "first": "Tym",
+                    "middle": [],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ayl",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emerg Microbes Infect",
+            "volume": "9",
+            "issn": "1",
+            "pages": "2190--2199",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/22221751.2020.1825914"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": ", 11 The study's ability to detect a larger number of symptoms can be attributed to including a list of potential COVID-19 symptoms based on initial open-ended research of the range of COVID-19 sequelae conducted in July of 2020 4 and expanded through feedback on the survey design from Survivor Corps. Strengths of this study include reporting of symptoms among the 5,163 individuals who have and are continuing to experience symptoms up to a year after SARS-CoV-2 infection, (PASC survivors).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Percentage of respondents reporting each COVID-19 symptom. Graph showing percentage of participants (x-axis) who experienced a given symptom (y-axis).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Average symptom onset and duration. Graph plotting the average time of symptom onset (in days after initial infection date) with average symptom duration. *Duration measures length of time the symptom was present and does not indicate resolution of the symptom. Participants noted these symptoms were ongoing at the time they completed the survey.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Impact of level of distress and duration of symptoms on ability to work among PASC survivors. Graph showing the effect of duration of symptoms (x-axis) and level of distress (y-axis) on ability to work. Darker shades indicate greater impact on ability to work. Supplemental Figure 1. Distribution of the number of symptoms reported by participants. Graph visualizing the distribution of the number of symptoms reported by survey participants.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Participant demographics. Table showing distribution of participants based on race and ethnicity, gender, age, mode of determining SARS-CoV-2 infection, and hospitalization status.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "COVID-19 symptoms and their health impacts. Health impact variables include:",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "COVID-19 symptoms and their health impacts",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.(which was not certified by peer review) The copyright holder for this preprint this version posted March 22, 2021. CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) The copyright holder for this preprint this version posted March 22, 2021. CC-BY-NC-ND 4.0 International license It is made available under a",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "this version posted March 22, 2021. ; https://doi.org/10.1101/2021.03.22.21254026 CC-BY-NC-ND 4.0 International license It is made available under a",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

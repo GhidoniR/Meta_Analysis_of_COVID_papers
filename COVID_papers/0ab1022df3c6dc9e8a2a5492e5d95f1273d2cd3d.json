@@ -1,0 +1,2221 @@
+{
+    "paper_id": "0ab1022df3c6dc9e8a2a5492e5d95f1273d2cd3d",
+    "metadata": {
+        "title": "",
+        "authors": [
+            {
+                "first": "Enyew",
+                "middle": [],
+                "last": "Mekonen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Gondar",
+                    "location": {
+                        "settlement": "Gondar",
+                        "country": "Ethiopia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Belayneh",
+                "middle": [],
+                "last": "Shetie",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Gondar",
+                    "location": {
+                        "settlement": "Gondar",
+                        "country": "Ethiopia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Niguse",
+                "middle": [],
+                "last": "Muluneh",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Gondar",
+                    "location": {
+                        "settlement": "Gondar",
+                        "country": "Ethiopia"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The psychosocial consequences of the coronavirus pandemic are serious for health professionals including nurses because of a higher level of exposure. Nurses often face huge psychological pressure as a result of workload, long hours, and working in a high-risk environment. This study aimed to assess the prevalence and associated factors of anxiety, depression, and stress among nurses working in northwest Amhara referral hospitals. Methods: Institution-based cross-sectional study was conducted from 25th September to 20th October 2020. A total of 302 nurses were selected using a simple random sampling technique. A structured pretested self-administered questionnaire was used to collect data. The data were entered into EpiData version 3 and analyzed using SPSS version 21. A binary logistic regression model was used to compute bivariable and multivariable analyses. Results: The prevalence of anxiety, depression, and stress among nurses was 69.6%, 55.3%, and 20.5%, respectively. Unavailability of a guideline, fear of infecting family, and having chronic diseases increase the risk of developing anxiety. Nurses who did not have a guideline, received negative feedback from families, had a history of mental disorders, and chronic diseases have a higher odds of depression. Working in the night shift, lack of training, fear of infecting family, negative feedback from families, presence of confirmed/ suspected cases in the family, and having chronic diseases increase the risk of developing stress. Conclusion: More than two-thirds, more than half, and nearly one-fifth of the nurses had anxiety, depression, and stress, respectively. It is better to create awareness for the community, avail a guideline, train nurses, and give special attention to nurses with chronic disease and a history of mental disorders to minimize the psychological impact of the COVID-19 pandemic on nurses and protect their mental health. The government shall develop and implement national programs for occupational health and safety, prevent violence in the workplace, improve psychological well-being, and protect from physical and biological hazards to take care of the mental health of healthcare professionals during this pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Coronavirus Disease 2019 (COVID-19) is a disease caused by a novel coronavirus (SARS-CoV-2) that emerged in a seafood and poultry market in the Chinese city of Wuhan in 2019. The World Health Organization (WHO) characterized the outbreak as a pandemic on March 11, 2020, as cases have been detected in most countries worldwide. 1 As of August 17, 2020, there have been 21,901,102 laboratory-confirmed coronavirus cases, including 774,299 deaths worldwide according to Johns Hopkins University. The International Council of Nurses (ICN) reported that more than 600 nurses around the world have died from COVID-19 until 3 June 2020. The first case of COVID-19 was confirmed in Ethiopia on 13 March 2020 which was the first one to be reported since the beginning of the outbreak in China in December 2019. 2 According to the ministry of health, in Ethiopia there were 31,336 COVID-19 reported cases and 544 (1.74%) deaths in Ethiopia until August 17, 2020.",
+            "cite_spans": [
+                {
+                    "start": 328,
+                    "end": 329,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 687,
+                    "end": 689,
+                    "text": "13",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 803,
+                    "end": 804,
+                    "text": "2",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The pandemic not only affects physical health but also mental health and well-being. 3, 4 Mental health and psychosocial consequences of the COVID-19 pandemic may be particularly serious for health professionals because of a higher level of exposure. 5 A poorly known contagious disease outbreak, like COVID-19, leads to unavoidable stress, fear, and anxiety that can be profound among the higher-risk groups, such as healthcare professionals including nurses. 6 The mental well-being of healthcare professionals can be negatively affected by fear of being exposed to the COVID-19 cases in hospitals, being separated from families, and confronting the death or illness of patients from COVID-19. 7, 8 During the pandemic, healthcare professionals (HCPs) are at significant risk of adverse mental health outcomes resulted from limited clinical knowledge about the virus, long working hours, risk of infection, and insufficient provision of protective equipment, loneliness, physical fatigue, and separation from families. 9 Studies conducted during the outbreak of Middle East Respiratory Syndrome (MERS) showed that nurses developed serious depressive symptoms. 10 Along with the other HCPs nurses plays a pivotal role in healthcare setup in prevention, infection control, isolation, continuous monitoring of the patients and because of their unique patient-facing nature, there are occupational risks to providing care during the COVID-19 outbreak 11 and it is also reported that the chances of occupational exposure are relatively higher in nurses. 12 Additionally, previous studies have shown that a higher level of anxiety and depression among the nurses due to their long interaction with the patients and the nature of their job. [13] [14] [15] Deprived mental health among nurses may not only be damaging to them but may also affect their professional routine and in turn, the quality of providing patient care 16 as it is evident that the well-being of the mental state is crucial to managing infectious diseases. 9, 17 Nurses often face huge psychological pressure as a result of overwhelming workload, long hours, shift duties, and working in a high-risk environment. 18 Nurses are the frontline healthcare professionals who work across acute care hospitals, long-term care agencies, nursing homes, schools, communities, and government healthcare agencies. The multiple roles and functions played by nurses are particularly important during this COVID-19 pandemic by providing health education, screening services, and support for the general public and individuals in high-risk categories. 19 Estimating the psychological impact of the COVID-19 outbreak on nurses is important for health authorities to develop preventive strategies and effective treatment modalities to alleviate its negative outcome. Despite this fact, no studies on the epidemiology of depression, anxiety, and stress in nurses have been conducted in the study area. Therefore, this study is intended to assess the prevalence and associated factors of depression, anxiety, and stress among nurses working in the northwest of Amhara Regional State referral hospitals, northwest Ethiopia.",
+            "cite_spans": [
+                {
+                    "start": 85,
+                    "end": 87,
+                    "text": "3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 88,
+                    "end": 89,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 251,
+                    "end": 252,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 461,
+                    "end": 462,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 696,
+                    "end": 698,
+                    "text": "7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 699,
+                    "end": 700,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1021,
+                    "end": 1022,
+                    "text": "9",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1162,
+                    "end": 1164,
+                    "text": "10",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1449,
+                    "end": 1451,
+                    "text": "11",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1551,
+                    "end": 1553,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1736,
+                    "end": 1740,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1741,
+                    "end": 1745,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1746,
+                    "end": 1750,
+                    "text": "[15]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1918,
+                    "end": 1920,
+                    "text": "16",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 2022,
+                    "end": 2024,
+                    "text": "9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 2025,
+                    "end": 2027,
+                    "text": "17",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 2178,
+                    "end": 2180,
+                    "text": "18",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 2601,
+                    "end": 2603,
+                    "text": "19",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "An institution-based cross-sectional study was conducted from September 25 to October 20, 2020.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study Design and Period"
+        },
+        {
+            "text": "The study was conducted in the northwest of Amhara Regional State referral hospitals. According to the 2017 Amhara Region population statistics, the region has a total population of 21,134,988. It also has eleven administrative zones. There are a total of sixty-seven public hospitals in the region. Debre Markos, Tibebe Gion, and the University of Gondar are the three referral hospitals found in the northwest of Amhara. Each referral hospital serves 3.5-5 million people. There were a total of 955 nurses working in those hospitals.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study Setting"
+        },
+        {
+            "text": "Nurses working in the northwest of Amhara Regional state referral hospitals and available during the data collection period were included in the study. Those nurses who were seriously ill and attending external training courses off-site during the study period were excluded. Sample Size Determination and Sampling Procedure",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Participants of the Study"
+        },
+        {
+            "text": "The sample size was calculated using the single population proportion formula by taking the estimated proportion of anxiety, depression, and stress among nurses: 50%, a confidence level of 95%, and a margin of error of 5%. The final sample size was 302, after adding a 10% nonresponse rate and using the correction formula. The study participants from the three hospitals were selected after all hospitals were listed down with their respective number of nurses. The proportional allocation formula was used to allocate the number of nurses to the three referral hospitals. Lists of nurses from the hospital's human resource management were taken to prepare a sampling frame. Finally, a simple random sampling technique was used to select the study subjects of each hospital.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Participants of the Study"
+        },
+        {
+            "text": "Participants who score below 8 on the Depression, Anxiety, and Stress Scale -21 Items (DASS-21) were considered as having no anxiety and those who score 8 and above were considered as having anxiety. 20",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Operational Definitions Anxiety"
+        },
+        {
+            "text": "Participants who score below 10 on the Depression, Anxiety, and Stress Scale -21 Items (DASS-21) were considered as having no depression and those who score 10 and above were considered as having depression. 20",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Depression"
+        },
+        {
+            "text": "Participants who score below 15 on the Depression, Anxiety, and Stress Scale -21 Items (DASS-21) were considered as having no stress and those who score 15 and above were considered as having anxiety. 20",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Stress"
+        },
+        {
+            "text": "Data were collected using a structured pretested selfadministered questionnaire. The questionnaire contains 45 questions arranged into five sections; the first section contains seven questions regarding the socio-demographic characteristics of the participants, the second section contains four questions regarding work-related conditions of nurses, the third section contains four organization related questions, the fourth section contains nine personal related questions, and the fifth section contains 21 questions regarding the depression, anxiety, and stress status of nurses. Depression, anxiety, and stress was measured using the Depression, Anxiety, and Stress Scale -21 Items (DASS-21). The DASS-21 comprises 3 components: stress, anxiety, and depression. Each has 7 scales, and the final score of each part was obtained by summing the scores of the related questions. Each item scores from 0 (strongly disagree) to 3 (strongly agree). 20 The reliability and validity of this questionnaire have been investigated. Its test-retest reliabilities for depression, anxiety, and stress were reported as 0.80, 0.76, and 0.77, respectively. For examining the validity of this scale, the confirmatory factor analysis method and the main component technique were implemented. 21 In the present study, the scale's face validity was examined by the psychology and research methods expert. Four trained BSc nurse data collectors and two MSc nurse supervisors were used. The anonymity of the participant was kept by informing them not to write their name. The instruments were distributed among the study population, after guarantying their willingness to take part in the study, and then collected by the data collectors after completion. During data collection data collectors and supervisors followed the recommended precautions to prevent COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 946,
+                    "end": 948,
+                    "text": "20",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1276,
+                    "end": 1278,
+                    "text": "21",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data Collection Instruments and Procedures"
+        },
+        {
+            "text": "Data clean-up and cross-checking was done before analysis. Checked, cleaned, and coded data were entered into EpiData version 3 and exported to SPSS version 21 for analysis. Descriptive statistics like frequencies, percentages, mean and standard deviation, tables, and figure were used to present data. First, bivariable relationships between each independent variable and the dependent variable were investigated using a binary logistic regression model. Independent variables with a p-value < 0.25 were included in multivariable analysis to control potential confounding factors. Finally, those variables with a p-value < 0.05 with a 95% confidence interval were regarded as factors significantly associated.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Processing and Analysis"
+        },
+        {
+            "text": "A pretest was done before the actual data collection time at Debre Tabor hospital. Unclear questions and ambiguous words were corrected accordingly. It was also used to estimate how much time it takes to administer the entire questionnaire. The tool was first developed in the English language and was translated to the Amharic language with back translation to English for consistency. The one-day training was given to data collectors and supervisors on Psychology Research and Behavior Management 2020:13 submit your manuscript | www.dovepress.com DovePress the objective of the study, tool, and how to collect the data by the principal investigators. Principal investigators and supervisors conducted supervision. Each data collector checks the questionnaire from each study participant for completeness daily to ensure data quality. Each questionnaire was reviewed and checked for completeness daily by the supervisors and principal investigators.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Quality Assurance"
+        },
+        {
+            "text": "A total of 293 nurses participated in this study, with a 97.01% response rate. More than half (54.6%) of the respondents were male and 53.2% of them were married. The mean age of the respondents was 29.6\u00b1 5.1 SD years and nearly half (48.8%) of them fall in the age range of 25-29 years. Concerning the educational status, more than half of the respondents (59.7%) were BSc nurses. Nearly half (50.2%) of the respondents earn a monthly salary of greater than or equal to 7000 ETB ( Table 1 ). The mean work experience of respondents was 6.2\u00b1 4.6 SD years and more than half (56.0%) of them were working inwards. Concerning to duty shift, more than two-thirds (68.9%) of the respondents were working the day shift. The majority (79.2%) of the participants were forced to work more than expected to do at a specified time ( Table 2 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 482,
+                    "end": 489,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 822,
+                    "end": 829,
+                    "text": "Table 2",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Socio-Demographic and Work-Related Characteristics of the Respondents"
+        },
+        {
+            "text": "The majority (85.7%) of study participants reported that there is no adequate protective equipment in their hospital. Fifty-seven (19.5%) of the participants give care for more than ten patients per shift. More than three-fourths (78.2%) of the respondents did not have a guideline for the comprehensive management of COVID-19. More than twothirds (68.6%) of the participants did not take training on infection prevention (Table 3) . ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 422,
+                    "end": 431,
+                    "text": "(Table 3)",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "Organization Related Characteristics of the Respondents"
+        },
+        {
+            "text": "The prevalence of anxiety, depression and, stress among nurses was 69.6% with a 95% CI (64.2%, 75.0%), 55.3% with a 95% CI (48.8%, 61.4%), and 20.5% with a 95% CI (15.7%, 24.9%) respectively ( Figure 1 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 193,
+                    "end": 201,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Prevalence of Anxiety, Depression, and Stress"
+        },
+        {
+            "text": "The following variables were found to be significantly associated with anxiety using bivariable logistic regression ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Factors Associated with Anxiety"
+        },
+        {
+            "text": "In bivariable logistic regression analysis, the following variables were found to be significantly associated with depression. Sex, workload, have a guideline, adequate protective equipment, having children, feedback from ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Factors Associated with Depression"
+        },
+        {
+            "text": "Using bivariable logistic regression analysis the following variables were found to be significantly associated with stress. Sex, duty shift, taking training, have a guideline, fear of infecting family members, feedback from families and friends, confirmed/suspected cases in the family, diagnosed with chronic disease, history of mental disorders, and living with a person aged >60 years. Duty shift, taking training, fear of infecting family members, feedback from families and friends, confirmed/suspected cases in the family, and diagnosed with chronic disease were factors significantly associated with stress in multivariable logistic regression analysis. Nurses working in night shifts were two times at higher risk of developing stress compared with those who work in the day shift [AOR: 2.03; 95% CI (1.06, 3.90)]. Those study participants who did not take training on infection prevention were nearly three times at higher risk of experiencing stress compared with their counterparts [AOR: 2.87; 95% CI (1.27, 6.47)]. Those nurses (Table 7 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1041,
+                    "end": 1049,
+                    "text": "(Table 7",
+                    "ref_id": "TABREF8"
+                }
+            ],
+            "section": "Factors Associated with Stress"
+        },
+        {
+            "text": "The current study revealed that 69.6%, 55.3%, and 20.5% of the respondents experienced anxiety, depression, and stress respectively in response to the COVID-19 pandemic. 31 The possible justification for this difference might be due to the difference in socioeconomic, cultural, and environmental factors such as attitudes, lack of adequate equipment like personal protective equipment and resources contribute to coping with the psychological crisis of the pandemic. The prevalence of depression in this study is consistent with the findings of studies conducted in Jordan; 57.8%, 28 China; 57.3%, 26 and New York; 53%. 29 On the other hand, this finding was higher than studies conducted in China; 44.4%, 23 Jinzhong, Shanxi Province; 12.4%, 24 Wuhan; 13.5%, 25 Miniland; 25.2%, 32 Guangdong; 43.6%, 31 Spain; 46%, 27 and Singapore; 8.9%. 30 The plausible justification for this difference might be due to the difference in the implementation of psychological protective measures, data collection techniques, and sample size.",
+            "cite_spans": [
+                {
+                    "start": 170,
+                    "end": 172,
+                    "text": "31",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 582,
+                    "end": 584,
+                    "text": "28",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 599,
+                    "end": 601,
+                    "text": "26",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 621,
+                    "end": 623,
+                    "text": "29",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 707,
+                    "end": 709,
+                    "text": "23",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 817,
+                    "end": 819,
+                    "text": "27",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 841,
+                    "end": 843,
+                    "text": "30",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The prevalence of stress in this study is consistent with studies conducted in Guangdong, China; 24.7%. 31 However, the finding of this study was lower than studies conducted in Jiangsu Province, China; 32.23%, 22 Jinzhong, Shanxi Province, China; 49.1%, 24 Wuhan, China; 29.8%, 25 multiple centers in China; 28%, 26 Jordan; 50.1%, 28 and New York; 64%. 29 The possible reason for this difference might be due to the difference in the study period in which feelings when the COVID-19 pandemic first appears and overtime may vary. Since the previous studies were conducted immediately the pandemic exists.",
+            "cite_spans": [
+                {
+                    "start": 104,
+                    "end": 106,
+                    "text": "31",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 211,
+                    "end": 213,
+                    "text": "22",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 255,
+                    "end": 257,
+                    "text": "24",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 332,
+                    "end": 334,
+                    "text": "28",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 354,
+                    "end": 356,
+                    "text": "29",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Unavailability of a guideline, fear of infecting family members, and having a chronic disease was significantly associated with anxiety among nurses. The odds of anxiety was three times higher among nurses who did not have a guideline for the comprehensive management of COVID-19 as compared with those nurses who had a guideline. This finding was supported by a study conducted in New York in which a lack of national guidelines regarding treatment for COVID-19 was one of the major sources of distress among healthcare workers during the COVID-19 pandemic. 29 This might be due to the absence of a guideline for the management of COVID-19 expose nurses to develop anxiety due to the unknown nature of the virus.",
+            "cite_spans": [
+                {
+                    "start": 559,
+                    "end": 561,
+                    "text": "29",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Those nurses who worried about family members who could be infected when they join them after work were nearly two times at a higher risk of developing anxiety compared with their counterparts. This finding was supported by studies conducted in Jiangsu Province; China and Spain. 22, 27 This might be due to one of the greatest fears of health personnel during the pandemic is the possibility of infecting others, specifically family members. 33 As a result, those nurses who are worried about infecting family members have a higher risk of developing anxiety. Similarly, having a chronic disease increases the risk of developing anxiety by nearly four times. This finding was supported by studies conducted in Wuhan; China and Turkey. 25, 34 This might be due to individuals with chronic conditions are at a higher risk of developing serious complications due to COVID-19 and dying. 35 Nurses with chronic diseases may be fearful of complications that may arise from infection which increases the risk of developing anxiety.",
+            "cite_spans": [
+                {
+                    "start": 280,
+                    "end": 283,
+                    "text": "22,",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 284,
+                    "end": 286,
+                    "text": "27",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 443,
+                    "end": 445,
+                    "text": "33",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 736,
+                    "end": 739,
+                    "text": "25,",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 740,
+                    "end": 742,
+                    "text": "34",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 884,
+                    "end": 886,
+                    "text": "35",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Having a guideline, feedback from families and friends, history of mental disorders, and diagnosed with chronic disease were factors significantly associated with depression. The odds of depression were nearly two times higher among nurses who did not have a guideline for the comprehensive management of COVID-19 as compared with those nurses who had a guideline. This finding was supported by a study conducted in New York. 29 This might be due to nurses become unable to keep up-to-date information without a guideline. It is difficult to control infection risk in health facilities if a guideline is not available which makes nurses more depressed. Similarly, those nurses who received negative feedback from families and friends who joined front line work were nearly two times at a higher risk of developing depression compared with their counterparts. This finding was supported by a study conducted in China. 23 This might be due to social stigma and discrimination experienced by the nurse from the community. Families, friends, and the community at large thought that the nurses were carriers of the virus and there was a possibility of transmission. During the outbreak, the community perceived that being a hospital staff means being a carrier of the virus.",
+            "cite_spans": [
+                {
+                    "start": 426,
+                    "end": 428,
+                    "text": "29",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 917,
+                    "end": 919,
+                    "text": "23",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Having a chronic disease increases the risk of developing depression by nearly five times. This finding was supported by a study conducted in Wuhan, China. 25 This might be due to patients with chronic diseases who are at increased risk of developing depressive symptoms resulted from fear, loneliness, excessive worry, lack of social support, social isolation, and lockdown. 36 Patients with chronic disease were identified as a high-risk group to be affected by COVID-19. Due to this nurses with the chronic disease become more depressed than their counterparts. Also, those nurses who had a history of mental disorders were nearly seven times at a higher risk of developing depression compared with those who had not. This finding was supported by a study conducted in Wuhan, China. 25 This might be due to the reason that infection with coronavirus may exacerbate the pre-existing illness among patients with pre-existing psychiatric illness. 37 Patients with a history of mental disorders who become infected Psychology Research and Behavior Management 2020:13 submit your manuscript | www.dovepress.com DovePress with coronavirus may develop new, comorbid psychiatric symptoms and disorders. Due to this nurses with preexisting mental disorders becomes more depressed.",
+            "cite_spans": [
+                {
+                    "start": 156,
+                    "end": 158,
+                    "text": "25",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 376,
+                    "end": 378,
+                    "text": "36",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 786,
+                    "end": 788,
+                    "text": "25",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 947,
+                    "end": 949,
+                    "text": "37",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Duty shift, taking training, fear of infecting family members, feedback from families and friends, confirmed/suspected cases in the family, and diagnosed with chronic disease were factors significantly associated with stress among nurses. Nurses working night shifts were two times at higher risk of developing stress compared with those who work the day shift. This finding was supported by a study conducted in Jiangsu Province; China. 22 This might be due to working at night shift that can make nurses lose the sense of control in their life, produce the feeling of powerless, cause insomnia, and other psychological problems including stress. 38 Those study participants who did not take training on infection prevention were nearly three times at higher risk of experiencing stress compared with their counterparts. This finding was supported by a study conducted in Jiangsu Province; China. 22 This might be due to the reason that inadequate training on infection prevention, lack of knowledge, and unclear specific tasks increased the risk of developing stress during a pandemic. 39 Training can help to understand the nature of diseases, standardize protection measures, enhance confidence, and improve compliance with infection control measures, thus reducing the risk of developing stress.",
+            "cite_spans": [
+                {
+                    "start": 438,
+                    "end": 440,
+                    "text": "22",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 648,
+                    "end": 650,
+                    "text": "38",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 898,
+                    "end": 900,
+                    "text": "22",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1088,
+                    "end": 1090,
+                    "text": "39",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Those nurses who worried about family members could be infected when they join them after work was nearly nine times at a higher risk of developing stress compared with their counterparts. This finding was supported by a study conducted in Jiangsu Province; China. 22 This might be because during a pandemic it is difficult for nurses to return home from the hospital because they worried about family infection. 40 During the COVID-19 outbreak, health institutions are the high-risk workplaces, where nurses are more likely to be exposed. Nurses become more stressed as they worried more about their family members highly due to the highly infectious nature of COVID-19. Participants who received negative feedback from families and friends who joined front line work were nearly three times at a higher risk of developing stress compared with those who received positive feedback. This might be due to the stigma about the vulnerabilities of their job and restrictions on personal freedom. Poor support from families and friends is a significant risk factor for poor mental health. 41 Nurses become isolated due to discrimination and stigmatization and may have long-term effects on their psychological well-being.",
+            "cite_spans": [
+                {
+                    "start": 265,
+                    "end": 267,
+                    "text": "22",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 413,
+                    "end": 415,
+                    "text": "40",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 1084,
+                    "end": 1086,
+                    "text": "41",
+                    "ref_id": "BIBREF41"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Similarly, having a chronic disease increases the risk of developing stress by nearly three times. This finding was supported by a study conducted in Wuhan, China. 25 This might be due to patients with chronic disease are at a higher risk of complications and there are additional questions about safety during the outbreak. Fear and worry about the worsening of their chronic health problems make them become stressed during an infectious disease outbreak. Since patients with underlying medical problems like cardiovascular disease, diabetes, and cancer are more likely to develop serious illness and death, nurses with chronic diseases become more stressed compared with their counterparts. Also, those nurses who had family members/relatives confirmed or suspected for COVID-19 were three times at higher risk of developing stress compared with those who had not. This finding was supported by a study conducted in Wuhan, China. 25 This might be due to nurses may extremely concerned that their family members/relatives might be infected or even die. Nurses become stressed since they lose the possibility to visit their loved ones, cannot contact their family members, and unable to cope with this challenging situation. This study has some limitations. Study participants included in this study were from all departments but the study did not analyze the differences between nurses working in different departments. The study was based on subjective responses using questionnaires that may be prone to reporting bias since it does not incorporate objective measurements. The short duration of the study did not enable us to assess psychological impacts that accumulate over time and have an impact later in the outbreak like posttraumatic stress disorder.",
+            "cite_spans": [
+                {
+                    "start": 164,
+                    "end": 166,
+                    "text": "25",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 933,
+                    "end": 935,
+                    "text": "25",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "More than two-thirds, more than half, and nearly one-fifth of the nurses had anxiety, depression, and stress in response to the COVID-19 outbreak respectively. This prevalence is high and nurses are highly affected psychologically during the pandemic which suggests psychological health interventions like psychological counseling and group meeting sessions. It is better to create awareness for the community, avail a guideline, train nurses, and give special attention to nurses with chronic disease and a history of mental disorders to minimize the psychological impact of the COVID-19 pandemic on nurses and protect their mental health. The government shall submit your manuscript | www.dovepress.com",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "Psychology Research and Behavior Management 2020:13 develop and implement national programs for occupational health and safety, prevent violence in the workplace, improve psychological well-being, and protect from physical and biological hazards to take care of the mental health of healthcare professionals during this pandemic. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DovePress"
+        },
+        {
+            "text": "All data are available upon request. The reader could contact the corresponding author for the underlying data.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Sharing Statement"
+        },
+        {
+            "text": "Before conducting the study, ethical clearance was obtained from the institutional review board (IRB) of the University of Gondar (Reference number: V/P/RCS/05/92/ 2020). A written permission letter was obtained from hospital directors. Written informed consent was obtained from participants and they were aware of the purpose of the study. Omitting direct personal identifiers, using code numbers, and storing data locked with a password were measures taken to maintain confidentiality. This study complied with the Declaration of Helsinki.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ethics Approval and Informed Consent"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Coronavirus Disease 2019 (COVID-19): a perspective from China",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Zu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Radiology",
+            "volume": "296",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1148/radiol.2020200490"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "the First Case of Covid-19 Confirmed in Ethiopia",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Who",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Africa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "The psychological impact of quarantine and how to reduce it: rapid review of the evidence",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Brooks",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Webster",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "20",
+            "pages": "30460--30468",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30460-8"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Public responses to the novel 2019 coronavirus (2019-nCoV) in Japan: mental health consequences and target populations",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shigemura",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ursano",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Morganstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kurosawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Benedek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Psychiatry Clin Neurosci",
+            "volume": "74",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/pcn.12988"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "The consequences of the COVID-19 pandemic on mental health and implications for clinical practice",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Fiorillo",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gorwood",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eur Psychiatry",
+            "volume": "63",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1192/j.eurpsy.2019.3"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "The psychological impact of the SARS epidemic on hospital employees in China: exposure, risk perception, and altruistic acceptance of risk",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Can J Psychiatry",
+            "volume": "54",
+            "issn": "5",
+            "pages": "302--311",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/070674370905400504"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Managing mental health challenges faced by healthcare workers during covid-19 pandemic",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Greenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Docherty",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gnanapragasam",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wessely",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ",
+            "volume": "368",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmj.m1211"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Depression after exposure to stressful events: lessons learned from the severe acute respiratory syndrome epidemic",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kakade",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Fuller",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Compr Psychiatry",
+            "volume": "53",
+            "issn": "1",
+            "pages": "15--23",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.comppsych.2011.02.003"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "The mental health of medical workers in Wuhan, China dealing with the 2019 novel coronavirus",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Psychiatry",
+            "volume": "7",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2215-0366(20)30047-X"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "It feels like I'm the dirtiest person in the world.\": exploring the experiences of healthcare providers who survived MERS-CoV in Saudi Arabia",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Almutairi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Adlan",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Balkhy",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Abbas",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Clark",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Infect Public Health",
+            "volume": "11",
+            "issn": "2",
+            "pages": "187--191",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jiph.2017.06.011"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "COVID-19: emerging compassion, courage and resilience in the face of misinformation and adversity",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Whc",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clin Nurs",
+            "volume": "29",
+            "issn": "9",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/jocn.15231"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Work stress among Chinese nurses to support Wuhan in fighting against COVID-19 epidemic",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Mo",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Nurs Manag",
+            "volume": "28",
+            "issn": "5",
+            "pages": "1002--1009",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/jonm.13014"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Stress, depression, and intention to leave among nurses in different medical units: implications for healthcare management/nursing practice. Health Policy",
+            "authors": [
+                {
+                    "first": "Y-M",
+                    "middle": [],
+                    "last": "Chiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "",
+            "volume": "108",
+            "issn": "",
+            "pages": "149--157",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.healthpol.2012.08.027"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Prevalence and risk factors of depression, anxiety, and stress in a cohort of Australian nurses",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Maharaj",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Lees",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Int J Environ Res Public Health",
+            "volume": "16",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/ijerph16010061"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Psychology Research and Behavior Management 2020:13 submit your manuscript | www",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "The psychological impact of severe acute respiratory syndrome outbreak on healthcare workers in emergency departments and how they cope",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Yau",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Eur J Emerg Med",
+            "volume": "12",
+            "issn": "1",
+            "pages": "13--18",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/00063110-200502000-00005"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Depression in registered nurses: a state of the science",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Brandford",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Reed",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Workplace Health Saf",
+            "volume": "64",
+            "issn": "10",
+            "pages": "488--511",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/2165079916653415"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Timely mental health care for the 2019 novel coronavirus outbreak is urgently needed",
+            "authors": [
+                {
+                    "first": "Y-T",
+                    "middle": [],
+                    "last": "Xiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Psychiatry",
+            "volume": "7",
+            "issn": "3",
+            "pages": "30046--30054",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2215-0366(20)30046-8"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Stress in emergency departments: experiences of nurses and doctors",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Healy",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tyrrell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Emergency Nurse",
+            "volume": "19",
+            "issn": "4",
+            "pages": "31--37",
+            "other_ids": {
+                "DOI": [
+                    "10.7748/en2011.07.19.4.31.c8611"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Nursing perspectives on the impacts of COVID-19",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Shu-Ching",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yeur-Hur",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Shiow-Luan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Nurs Res",
+            "volume": "28",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/NRJ.0000000000000389"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "The structure of negative emotional states: comparison of the Depression Anxiety Stress Scales (DASS) with the beck depression and anxiety inventories",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Lovibond",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lovibond",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "Behav Res Ther",
+            "volume": "33",
+            "issn": "3",
+            "pages": "335--343",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/0005-7967(94)00075-U"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Preliminary validation of the depression, anxiety, and stress scales (DASS) in a non-clinical sample",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Asghari",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Saed",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Dibajnia",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zangeneh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Impact of COVID-19 on the psychology of nurses working in the emergency and fever outpatient: a cross-sectional survey",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cui",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Psychological impact of the COVID-19 pandemic on healthcare workers: a cross-sectional study in China",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Que",
+                    "suffix": ""
+                },
+                {
+                    "first": "Le",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Gen Psychiatry",
+            "volume": "33",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/gpsych-2020-100259"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Mental distress among frontline healthcare workers outside the central epidemic area during the novel coronavirus disease (COVID-19) outbreak in China: a cross-sectional study",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "COVID-19 in Wuhan: immediate psychological impact on 5062 health workers",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Psychological impact of healthcare workers in China during COVID-19 pneumonia epidemic: a multi-center cross-sectional survey investigation",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Fu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Affect Disord",
+            "volume": "274",
+            "issn": "",
+            "pages": "405--410",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jad.2020.05.081"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Symptoms of posttraumatic stress, anxiety, depression, levels of resilience, and burnout in spanish health personnel during the COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Luce\u00f1o-Moreno",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Talavera-Velasco",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Garc\u00eda-Albuerne",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mart\u00edn-Garc\u00eda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Environ Res Public Health",
+            "volume": "17",
+            "issn": "15",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/ijerph17155514"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Prevalence and correlates of psychological reactions among jordanian nurses during the coronavirus disease",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Al-Amer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Malak",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Aburumman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Psychological distress, coping behaviors, and preferences for support among New York healthcare workers during the COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Shechter",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Diaz",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Moise",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Gen Hosp Psychiatry",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.genhosppsych.2020.06.007"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Psychological impact of the COVID-19 pandemic on health care workers in Singapore",
+            "authors": [
+                {
+                    "first": "Byq",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Nws",
+                    "middle": [],
+                    "last": "Chew",
+                    "suffix": ""
+                },
+                {
+                    "first": "Gkh",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Ann Intern Med",
+            "volume": "173",
+            "issn": "4",
+            "pages": "317--320",
+            "other_ids": {
+                "DOI": [
+                    "10.7326/M20-1083"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "The psychological impact of the covid-19 pandemic on medical staff in Guangdong, China: a cross-sectional study",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Psychol Med",
+            "volume": "",
+            "issn": "",
+            "pages": "1--9",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Mental health status of medical staff in emergency departments during the coronavirus disease 2019 epidemic in China",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Fu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Brain Behav Immun",
+            "volume": "88",
+            "issn": "",
+            "pages": "60--65",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.bbi.2020.06.002"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Supporting the health care workforce during the COVID-19 global epidemic",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Adams",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Walls",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "323",
+            "issn": "15",
+            "pages": "1439--1440",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.3972"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Evaluation of depression and anxiety levels and related factors among operating theater workers during the novel Coronavirus (COVID-19) pandemic",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Koksal",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Dost",
+                    "suffix": ""
+                },
+                {
+                    "first": "\u00d6",
+                    "middle": [],
+                    "last": "Terzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Ustun",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "\u00d6zdin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bilgin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J PeriAnesth Nurs",
+            "volume": "35",
+            "issn": "5",
+            "pages": "472--477",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jopan.2020.06.017"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "1054--1062",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30566-3"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "COPD Patients in a COVID-19 Society: Depression and Anxiety",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Yohannes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Psychiatric and neuropsychiatric presentations associated with severe coronavirus infections: a systematic review and meta-analysis with comparison to the COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Rogers",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Chesney",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Oliver",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Psychiatry",
+            "volume": "7",
+            "issn": "7",
+            "pages": "611--627",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2215-0366(20)30203-0"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Psychosocial impacts of quarantine during disease outbreaks and interventions that may help to relieve strain",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Johal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Will the community nurse continue to function during the H1N1 influenza pandemic: a cross-sectional study of Hong Kong community nurses? BMC",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kung",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Cheung",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Griffiths",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Health Serv Res",
+            "volume": "10",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/1472-6963-10-107"
+                ]
+            }
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "The experience of the 2003 SARS outbreak as a traumatic stress among frontline healthcare workers in Toronto: lessons learned",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Maunder",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "May",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mclean",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Pattison",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Weiss",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Philos Trans R Soc Lond Ser B Biol Sci",
+            "volume": "359",
+            "issn": "",
+            "pages": "1117--1125",
+            "other_ids": {
+                "DOI": [
+                    "10.1098/rstb.2004.1483"
+                ]
+            }
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Immediate psychological impact on nurses working at 42 government-designated hospitals during COVID-19 outbreak in China: a cross-sectional study",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ai",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.outlook.2020.07.007"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "AOR, adjusted odds ratio; CI, confidence interval; COVID-19, Coronavirus Disease 2019; DASS, Depression, Anxiety, and Stress Scale; HCP, Healthcare professionals; ICN, International Council of Nurses; IRB, Institutional Review Board; MERS, Middle East Respiratory Syndrome; SARS-CoV, Severe Acute Respiratory Syndrome coronavirus; SPSS, Statistical Package for Social Sciences; WHO, World Health Organization.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "submit your manuscript | www.dovepress.com Psychology Research and Behavior Management 2020:13",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Socio-Demographic Characteristics of Nurses Working in Northwest Amhara Region Referral Hospitals, Northwest Ethiopia, 2020 (N= 293) Note: *Divorced, Widowed. Abbreviation: ETB, Ethiopian Birr.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Work-Related Characteristics of Nurses Working in Northwest Amhara Region Referral Hospitals, Northwest Ethiopia, 2020 (N= 293) Abbreviation: ICU, intensive care unit. your manuscript | www.dovepress.com Psychology Research and Behavior Management 2020:13 Personal Related Characteristics of the Respondents Nearly half (50.2%) of study participants had children, of these ninety-seven (66.4%) of them had more than two children. Nearly three-fourths (75.1%) of the participants have worried about family members could be infected when they join them after work. Nearly two-thirds (66.6%) of the respondents received negative feedback from families and friends who joined front line work. The majority (84%) and (85%) of the participants had no family members/relatives confirmed or suspected for COVID-19 and not diagnosed with any chronic disease respectively. More than half (52.2%) of the participants had contact history with suspected or confirmed cases.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Organizational Related Characteristics of Nurses Working in Northwest Amhara Region Referral Hospitals, Northwest Ethiopia, 2020 (N= 293) Abbreviations: PE, protective equipment; IP, infection prevention.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Personal Related Characteristics of Nurses Working in Northwest Amhara Region Referral Hospitals, Northwest Ethiopia, 2020 (N= 293)",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "Bivariate and Multivariable Logistic Regression Analysis of Factors Associated with Anxiety Among Nurses Working inNotes: *Statistically significant at p-value <0.05.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "Bivariate and Multivariable Logistic Regression Analysis of Factors Associated with Depression Among Nurses Working in Northwest Amhara Region Referral Hospitals, Northwest Ethiopia, 2020 (N= 293)",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF8": {
+            "text": "Bivariate and Multivariable Logistic Regression Analysis of Factors Associated with Stress Among Nurses Working in Northwest Amhara Region Referral Hospitals, Northwest Ethiopia, 2020 (N= 293)",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We would like to acknowledge Debre Markos, Tibebe Ghion, and University of Gondar referral hospital clinical directors, data collectors, and study participants.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        },
+        {
+            "text": "All authors made a significant contribution to the work reported, whether that is in the conception, study design, execution, acquisition of data, analysis, and interpretation, or in all these areas; took part in drafting, revising, or critically reviewing the article; gave final approval of the version to be published; have agreed on the journal to which the article has been submitted; and agree to be accountable for all aspects of the work.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Author Contributions"
+        },
+        {
+            "text": "No funding has been received for the conduct of this study and/or preparation of this manuscript.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding"
+        },
+        {
+            "text": "The authors report no conflicts of interest for this work.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Disclosure"
+        },
+        {
+            "text": "Psychology Research and Behavior Management is an international, peer-reviewed, open access journal focusing on the science of psychology and its application in behavior management to develop improved outcomes in the clinical, educational, sports and business arenas. Specific topics covered in the journal include: Neuroscience, memory and decision making; Behavior modification and management; Clinical applications; Business and sports performance management; Social and developmental studies; Animal studies. The manuscript management system is completely online and includes a very quick and fair peer-review system, which is all easy to use. Visit http://www. dovepress.com/testimonials.php to read real quotes from published authors.Submit your manuscript here: https://www.dovepress.com/psychology-research-and-behavior-management-journal submit your manuscript | www.dovepress.com",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Publish your work in this journal"
+        },
+        {
+            "text": "Psychology Research and Behavior Management 2020:13",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DovePress"
+        }
+    ]
+}

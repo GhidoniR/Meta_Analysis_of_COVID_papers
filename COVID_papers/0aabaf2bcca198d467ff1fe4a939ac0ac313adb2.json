@@ -1,0 +1,1301 @@
+{
+    "paper_id": "0aabaf2bcca198d467ff1fe4a939ac0ac313adb2",
+    "metadata": {
+        "title": "Journal Pre-proof Sero-epidemiological study of SARS-CoV-2 infection among healthcare personnel in a healthcare department Seroepidemiology study of SARS-CoV-2 infection in healthcare professionals in a healthcare department Estudio de Sero-Epidemiolog\u00eda de la Infecci\u00f3n por SARS-CoV-2 en Profesionales Grupo COVID-19 del Servicio de Medicina Preventiva a ; Grupo COVID-19 de la Comisi\u00f3n de Infecciones Grupo COVID-19 del Servicio de Medicina Preventiva",
+        "authors": [
+            {
+                "first": "Paula",
+                "middle": [],
+                "last": "Gras-Valent\u00ed",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital General Universitario de Alicante",
+                    "location": {
+                        "settlement": "Alicante",
+                        "country": "Espa\u00f1a"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Pablo",
+                "middle": [],
+                "last": "Chico-S\u00e1nchez",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital General Universitario de Alicante",
+                    "location": {
+                        "settlement": "Alicante",
+                        "country": "Espa\u00f1a"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Natividad",
+                "middle": [],
+                "last": "Algado-Sell\u00e9s",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital General Universitario de Alicante",
+                    "location": {
+                        "settlement": "Alicante",
+                        "country": "Espa\u00f1a"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Adelina",
+                "middle": [],
+                "last": "Gimeno-Gasc\u00f3n",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital General Universitario de Alicante",
+                    "location": {
+                        "settlement": "Alicante",
+                        "country": "Espa\u00f1a"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Juan",
+                "middle": [],
+                "last": "Gabriel",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Mora-Muriel",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Natali",
+                "middle": [],
+                "last": "Juliet Jim\u00e9nez-Sep\u00falveda",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital General Universitario de Alicante",
+                    "location": {
+                        "settlement": "Alicante",
+                        "country": "Espa\u00f1a"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Isel",
+                "middle": [],
+                "last": "Lilibeth G\u00f3mez-Sotero",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital General Universitario de Alicante",
+                    "location": {
+                        "settlement": "Alicante",
+                        "country": "Espa\u00f1a"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "In\u00e9s",
+                "middle": [],
+                "last": "Montiel-Higuero",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Unidad de Epidemiolog\u00eda. Servicio de Medicina Preventiva Instituto de Investigaci\u00f3n Sanitaria y Biom\u00e9dica de Alicante. (ISABIAL) Hospital General Universitario de Alicante (HGUA)",
+                    "institution": "Hospital General Universitario de Alicante",
+                    "location": {
+                        "settlement": "Alicante",
+                        "country": "Espa\u00f1a"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jos\u00e9",
+                "middle": [],
+                "last": "S\u00e1nchez-Pay\u00e1",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital General Universitario de Alicante",
+                    "location": {
+                        "settlement": "Alicante",
+                        "country": "Espa\u00f1a"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Juan",
+                "middle": [],
+                "last": "Carlos Rodr\u00edguez-D\u00edaz",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Sanitarios",
+                "middle": [],
+                "last": "De Un",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Departamento",
+                "middle": [],
+                "last": "Sanitario",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Juan",
+                "middle": [
+                    "Gabriel"
+                ],
+                "last": "Mora-Muriel",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital General Universitario de Alicante",
+                    "location": {
+                        "settlement": "Alicante",
+                        "country": "Espa\u00f1a"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Juan",
+                "middle": [],
+                "last": "Carlos Rodriguez-Diaz",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital General Universitario de Alicante",
+                    "location": {
+                        "settlement": "Alicante",
+                        "country": "Espa\u00f1a"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "C",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Victor",
+                "middle": [
+                    "Manuel"
+                ],
+                "last": "Soler-Molina",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Unidad de Epidemiolog\u00eda. Servicio de Medicina Preventiva Instituto de Investigaci\u00f3n Sanitaria y Biom\u00e9dica de Alicante. (ISABIAL) Hospital General Universitario de Alicante (HGUA)",
+                    "institution": "Hospital General Universitario de Alicante",
+                    "location": {
+                        "settlement": "Alicante",
+                        "country": "Espa\u00f1a"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Cesar",
+                "middle": [],
+                "last": "Osvaldo Villanueva-Ruiz",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Julio",
+                "middle": [],
+                "last": "Barrenengoa-Sa\u00f1udo",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Marina",
+                "middle": [],
+                "last": "Fuster",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Marina Fuster-J o u r n a l P r e -p r o o f (physician, nurse, etc.) and the work area (primary care, Emergency Room, etc.) were gathered.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The IgG antibody prevalence was then calculated with its 95% Confidence Interval (95%CI).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "To study the association between HCP characteristics and the presence IgG the Chi Square test was used, and to study the magnitude of association, the Odds Ratio (95%CI) was calculated.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Results: Of the 4813 HCP in the HD, 4179 (87,1%) participated. Of these, 73,3% (3065) were women and 26,7% (1114) men. The global prevalence of IgG antibodies against SARS-CoV-2 was 6,6% (95%CI: 5,8%-7,3%). There were statistically significant differences depending on the occupation, from 8,7% (95%CI: 6,9%-10,6%) on medics down to 3,2% (95%CI: 1,0%-8,0%) on personnel not associated with health care. The other characteristics didn't associate significantly to antibody presence against SARS-CoV-2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Conclusion: The SARS-CoV-2 infection frequency in HCP is similar to the estimated in the general population for big cities in Spain. This highlights the effectiveness of the Infection Control and prevention programme in this Healthcare Department targeted at healthcare personnel.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Algado Sell\u00e9s participaron en la elaboraci\u00f3n del borrador del art\u00edculo. Todos los autores pertenecientes a los grupos de trabajo revisaron cr\u00edticamente el manuscrito, realizaron importantes contribuciones intelectuales y aprobaron la versi\u00f3n definitiva que se presenta.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Justificaci\u00f3n necesidad de un mayor n\u00famero de contribuciones: Debido a que el estudio se ha desarrollado en el transcurso de la pandemia por COVID19, la puesta en marcha de las actividades de Vigilancia, Prevenci\u00f3n y Control de Infecciones por SARS-CoV-2 del centro hospitalario ha supuesto un esfuerzo considerable y ha requerido del trabajo intenso e perseverante de todos los integrantes de los grupos de trabajo creados para tal fin. Todos los autores nombrados y pertenecientes a los grupos de trabajo COVID-19 del Servicio de Medicina Preventiva y de la Comisi\u00f3n de Infecciones han participado en el estudio y han realizado contribuciones notables en el dise\u00f1o del mismo, en la recogida de datos, en la interpretaci\u00f3n de los resultados y en la revisi\u00f3n cr\u00edtica del manuscrito. Sin la colaboraci\u00f3n de todos y cada uno de ellos, no habr\u00eda sido posible llevarlo a cabo.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Conflictos de intereses de todos los autores: Todos los autores declaran que no existen conflictos de J o u r n a l P r e -p r o o f intereses.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Financiaci\u00f3n: No."
+        },
+        {
+            "text": "Objetivo: Estimar la prevalencia de anticuerpos IgG frente a SARS-CoV-2 en profesionales sanitarios (PS) de un Departamento Sanitario (DS).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Resumen:"
+        },
+        {
+            "text": "M\u00e9todos: Estudio de prevalencia. Se determin\u00f3 la presencia de anticuerpos IgG frente a SARS-CoV-2 en los PS del DS. La determinaci\u00f3n se realiz\u00f3 mediante la t\u00e9cnica de ELISA. El trabajo de campo se realiz\u00f3 del 24/04/2020 al 08/05/2020. Se recogi\u00f3 edad, sexo, estamento (facultativo, enfermer\u00eda, etc.) y \u00e1rea de trabajo (atenci\u00f3n primaria, urgencias, etc.). Se calcul\u00f3 la prevalencia de anticuerpos IgG frente a SARS-CoV-2 con su intervalo de confianza al 95% (IC95%). Para estudiar la asociaci\u00f3n entre las caracter\u00edsticas de los PS y la presencia de IgG se utiliz\u00f3 la prueba de la Ji Cuadrado y para cuantificar la magnitud de asociaci\u00f3n se calcul\u00f3 la Odds Ratio (IC95%).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Resumen:"
+        },
+        {
+            "text": "Resultados: De los 4813 PS del DS participaron 4179 (87,1%). De \u00e9stos el 73,3% (3065) eran mujeres y el 26,7% (1114) hombres. La prevalencia global de presencia de anticuerpos IgG frente a SARS-CoV-2 fue del 6,6% (IC95%:5,8%-7,3%). Hubo diferencias estad\u00edsticamente significativas seg\u00fan estamento, oscilando del 8,7% (IC95%:6,9%-10,6%) en facultativos a un 3,2% (IC95%:1,0%-8,0%) en otro personal no sanitario. El resto de caracter\u00edsticas no se asociaron de forma significativa a la presencia de anticuerpos frente a SARS-CoV-2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Resumen:"
+        },
+        {
+            "text": "Conclusi\u00f3n: La frecuencia de infecci\u00f3n por SARS-CoV-2 en PS es similar a la estimada para la poblaci\u00f3n general en grandes ciudades en Espa\u00f1a, lo que orienta sobre la efectividad del programa de prevenci\u00f3n y control de infecciones dirigido a los profesionales sanitarios en este Departamento Sanitario. Although it is possible for anyone to contract COVID-19, healthcare professionals (HPs) are more vulnerable as they are more exposed. 3 Members of this group face the same risks of exposure to potentially contagious individuals as the general population: social interactions and contact with the people with whom they live. However, they also face additional risks: 1) the risk deriving from providing healthcare to patients (symptomatic or asymptomatic), and 2) the risk deriving from going about their workday at a healthcare centre, which, being a closed institution, may act as an amplifier of transmissibility of infectious diseases that are spread through contact, droplets or the air (Fig. 1) .",
+            "cite_spans": [
+                {
+                    "start": 436,
+                    "end": 437,
+                    "text": "3",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 993,
+                    "end": 1001,
+                    "text": "(Fig. 1)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Resumen:"
+        },
+        {
+            "text": "For this reason, ever since the first cases of COVID-19 were detected in China, its impact on HPs has been studied. Some studies have estimated that 9-16% of HPs have been affected. [4] [5] [6] [7] [8] Most reported data are derived from microbiological diagnosis using real-time polymerase J o u r n a l P r e -p r o o f chain reaction (PCR) testing on respiratory samples from symptomatic individuals. Real-time PCR detects viral RNA before symptoms begin and for a variable period of time depending on disease severity. 9, 10 This technique yields false negative results when performed once the disease has already progressed, since it is known that negative PCR results increase as seropositivity rates increase. 11 Serology techniques can be used for retrospective diagnosis of cases and identification of asymptomatic cases. They detect specific anti-SARS-CoV-2 antibodies and have demonstrated a growing sensitivity over the course of the infection, exceeding 90% in the second week following the onset of symptoms. 11 Measuring the impact on HPs is the first step towards ascertaining whether HPs have been infected with the same frequency as the rest of the population, and therefore determining whether the infection prevention and control (IPC) programmes implemented at healthcare centres have been effective. These are based on the virus's mechanism of transmission 12 , i.e. respiratory droplets when one is within a metre of an individual with symptomatic COVID-19. 13 Asymptomatic persons are also known to be capable of transmitting the virus. 14 Suitable IPC programmes, together with proper compliance with established recommendations, should render the risks of exposure faced by HPs equal to those faced by the general population.",
+            "cite_spans": [
+                {
+                    "start": 182,
+                    "end": 185,
+                    "text": "[4]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 186,
+                    "end": 189,
+                    "text": "[5]",
+                    "ref_id": null
+                },
+                {
+                    "start": 190,
+                    "end": 193,
+                    "text": "[6]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 194,
+                    "end": 197,
+                    "text": "[7]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 198,
+                    "end": 201,
+                    "text": "[8]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 523,
+                    "end": 525,
+                    "text": "9,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 526,
+                    "end": 528,
+                    "text": "10",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 717,
+                    "end": 719,
+                    "text": "11",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1023,
+                    "end": 1025,
+                    "text": "11",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1481,
+                    "end": 1483,
+                    "text": "13",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Resumen:"
+        },
+        {
+            "text": "Following the publication of the preliminary report of the population-based seroepidemiology study for estimating the prevalence of SARS-CoV-2 infection in Spain 15 , it is important to determine the impact on HPs by means of serology so that comparisons may be made. The objective of the study is to estimate the prevalence of anti-SARS-CoV-2 IgG antibodies in HPs in a health department.",
+            "cite_spans": [
+                {
+                    "start": 162,
+                    "end": 164,
+                    "text": "15",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Resumen:"
+        },
+        {
+            "text": "This was a cross-sectional observational study in a health department (HD) with a tertiary hospital and 12 primary care centres. It was conducted in the context of a seroprevalence study sponsored by the Health System of the corresponding Spanish autonomous community. The study population consisted of HPs affiliated with the HD and included both patient care providers (physicians, nurses, orderlies, etc.) and support staff (maintenance, cooking, administration, etc.). The number of HPs contractually linked to the HD during the COVID-19 epidemic (as of 19 April 2020) was 4,813.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "HPs were recruited through an information document distributed through established communication channels (department heads, teaching, intranet, etc.) to all HPs in the HD, through an internal note on 21 April 2020 that described the characteristics of the study, and when and where testing was to be done.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "Those who wished to participate had a blood sample taken by venipuncture in the unit or at the health centre with which they were affiliated, under the coordination of the department head or corresponding coordinator. As an alternative, a walk-in support unit with a capacity for more than 4,000 appointments was created at the hospital. Samples were collected from 24 April 2020 to 8 May 2020 on an extended schedule from 8.30 a.m. to 9.30 p.m., excluding holidays. Informed consent for storing surplus samples at the biobank of the healthcare research institute of the HD (ISABIAL) was requested on a supplementary basis. At the time of the blood draw, the following data were collected for each HP: age, sex, occupation and work area. The groups established for work area (primary care, hospital emergency room, critical care unit, etc.) and occupation (physician, nurse, nursing assistant [NA], porter, technician, administrative staff, other healthcare worker [physical therapist, psychologist or social worker] or non-healthcare staff [maintenance staff, warehouse staff, etc.]) were those established according to the protocol of the autonomous community.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "To measure antibodies, a screening process was initially performed using two ELISA techniques (VIRCELL, Granada, Spain) that detected the presence of specific anti-SARS-CoV-2 antibodies; the first detected IgG and the second detected IgM and IgA. If the first test yielded a negative result, then subsequent confirmation was not done. If positive results for IgM and IgA were obtained or the presence of IgG was detected with uncertainty, then a process of confirmation by chemiluminescence was performed using the COVID-19 VIRCLIA \u00ae test, which detected the presence of the IgM and IgA isotopes jointly, and the IgG isotope. In all cases, the protocols established by the manufacturer were followed. An immune response was considered to be present when at least one diagnostic test confirmed the presence of anti-SARS-CoV-2 IgG. Those who tested positive for IgM/IgA and negative for IgG had a microbiological confirmation test done by polymerase chain reaction (PCR) for SARS-CoV-2 on a sample of nasopharyngeal aspirate to rule out infection at that time. The antibody determination was repeated using the same serology techniques two to three weeks after the first determination to ascertain whether there was IgG seroconversion.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "Data was collected retrospectively from medical records. The ethical principles established in the Declaration of Helsinki were respected. The data were anonymised and their use was governed by the provisions of current legislation on personal data protection. The study was authorised by the Independent Ethics Committee for research involving medicinal products of the Departamento de Salud Alicante-Hospital General [Alicante Department of Health-General Hospital] with reference number PI2020-50.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "The characteristics of the participating HPs were described according to sex, and absolute and relative frequencies were used for each category of variable. The prevalence of the presence of anti-SARS-CoV-2 IgG antibodies was calculated with its 95% confidence interval for all HPs and for each category of variable. The chi-squared test was used to study the association between the presence of antibodies and each variable. The odds ratio (OR) and its 95% confidence interval (95% CI) were calculated to study the magnitude of association. The level of statistical significance used was p \u02c20.05.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "Of the 4,813 HPs contractually linked to the Health Department in the study period, 87.1% (4,179) participated in the study. Of these, 73.3% (3,065) were women and 26.7% (1,114) were men; 23.3% (947) were physicians, 28.4% (1,186) were nursing staff, 15.6% (651) were NAs and 16.1% (672) were administrative staff. Table 1 shows the rest of the characteristics of the HPs enrolled, taken together and according to the distribution by sex.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 315,
+                    "end": 322,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "The overall prevalence of the presence of anti-SARS-CoV-2 IgG antibodies was 6.6% (95% CI: 5.8-7.3). The prevalence by age group was found to range from 5.2% (95% CI: 3.5-7.0) in the 60-64 age group to 10.8% (95% CI: 2.5-19.1) in the 65+ age group. The prevalence in the group of physicians was 8.7% (95% CI: 6.9-10.6) and was the only characteristic that was associated with the presence of anti-SARS-CoV-2 IgG antibodies, with an OR = 2.9 (95% CI: 1.0-8.0). None of the other characteristics studied, nor the age group, sex or area of care, was significantly associated with the presence of anti-SARS-CoV-2 IgG antibodies (Table 2 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 624,
+                    "end": 632,
+                    "text": "(Table 2",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Now that results for the seroepidemiology of SARS-CoV-2 infection in the Spanish population have been published 15 , the true impact on HPs in particular must be determined, as HPs constitute a population group at higher risk of exposure. 3 This means that the results presented in this study take on special importance.",
+            "cite_spans": [
+                {
+                    "start": 112,
+                    "end": 114,
+                    "text": "15",
+                    "ref_id": null
+                },
+                {
+                    "start": 239,
+                    "end": 240,
+                    "text": "3",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "This study found that the prevalence of anti-SARS-CoV-2 IgG antibodies in HPs in the HD was 6.6% (95% CI: 5.8-7.3). It should be noted that all HPs who tested positive for IgM/IgA and negative for IgG underwent a PCR test that yielded negative results. It was verified that they remained asymptomatic, and the second determination of antibodies yielded negative results for IgM/IgA and IgG. Hence, they were interpreted as false positives in the first determination. This can happen in seroepidemiology studies conducted in low-prevalence settings, as indicated by Valdivia et al. 16 in their study on the profile of IgM+/IgG-antibodies in asymptomatic healthcare workers at a hospital in Valencia.",
+            "cite_spans": [
+                {
+                    "start": 581,
+                    "end": 583,
+                    "text": "16",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Previously, with data analysed on 12 April 2020, a prevalence of SARS-CoV-2 infection diagnosed by PCR in HPs in the same HD of 3.9% (95% CI: 3.4-4.6) had been estimated. 17 The difference found between the two studies is not incongruent. The lower prevalence calculated in the prior study may have been due to the following considerations: 1) only HPs studied as part of a study of contacts from a confirmed case of COVID-19 and HPs who asked to be evaluated as they presented symptoms were enrolled; 2) asymptomatic cases were not counted because they did not have diagnostic testing done; and 3) the analysis of the results of the prior study occurred earlier in time, and so it may be that this study counted new cases that had not been counted previously. Moreover, it should be noted that on the date on which this study was finalised, 166 symptomatic workers had been diagnosed with COVID-19 by PCR. Of these, 12.0% (20) did not participate in this seroprevalence study. Had they participated, and had their serology testing yielded positive results for IgG in all cases, the prevalence of anti-SARS-CoV-2 antibodies in HPs in the department would have risen from 6.6% to 7.0%.",
+            "cite_spans": [
+                {
+                    "start": 171,
+                    "end": 173,
+                    "text": "17",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 923,
+                    "end": 927,
+                    "text": "(20)",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "According to preliminary data on 3 June 2020 from the second round of the National Seroepidemiology Study of SARS-CoV-2 infection in Spain, conducted from 18 May 2020 to 1 June 2020 with 63,564 participants, the estimated national prevalence of anti-SARS-CoV-2 IgG antibodies was 5.2% (95% CI: 4.9-5.5), and the estimated prevalence in the province of the HD in particular was 3.3% (95% CI: 2.4-4.7). 15 Notably, there was marked geographic variability; the proportion of positive results was higher in major cities (>100,000 inhabitants), with a prevalence of 6.8% (95% CI: 6.2-7.4). According to official figures, the population on 1 January 2019 in the city of the HD was 334,887 inhabitants. 18 Hence, the estimated prevalence of anti-SARS-CoV-2 IgG antibodies in the HPs in the HD would not have been higher than that of the population of major cities. This comparison is limited by the fact that the HP sample lacked participants under 20 and over 70 years of age. To date, data corresponding to HPs in other HDs in the immediate surroundings that could be used for comparison are unknown. On a national level, another leading hospital in Barcelona found that 9.3% of HPs had developed anti-SARS-CoV-2 antibodies, although in this case positive results for IgG and also IgM and IgA were considered. 19 In Le\u00f3n (Spain), in primary care and nursing home settings, a true prevalence of SARS-CoV-2 infection of 4.9-11.0% was found, considering positive results for IgG or IgM by means of a rapid differentiation test (RDT), using a whole blood sample from a finger stick. 20 As regards age distribution, this study found no statistically significant differences in the prevalence of anti-SARS-CoV-2 antibodies among the different age groups. Moreover, J o u r n a l P r e -p r o o f comparison of the prevalence of antibodies in the different age subgroups in this study to that in the same age subgroups in the National Seroepidemiology Study of SARS-CoV-2 infection in Spain 15 reveals that the prevalence is similar among those 45-64 years of age. However, differences were seen in other age groups: in HPs in the HD under 44 years of age, the prevalence of antibodies was higher than that estimated in the general population, where prevalences from 3.9% (in the 30-34 age group) to 4.9% (in the 25-29 age group) were obtained. It is also striking that the group of physicians was the one that presented a higher prevalence of antibodies, with a frequency of 8.7%. This occupation is not, a priori, the one that is most exposed to procedures associated with a higher risk of SARS-CoV-2 transmission, which are those that generate aerosols: aspiration of secretions, administration of nebulised treatment, non-invasive ventilation with positive pressure, etc. 3 . This would suggest that perhaps there are settings in which exposure occurs other than patient care per se, such as working in a closed institution or having to interact with other HPs in the course of their professional activities (Fig. 1) .",
+            "cite_spans": [
+                {
+                    "start": 401,
+                    "end": 403,
+                    "text": "15",
+                    "ref_id": null
+                },
+                {
+                    "start": 696,
+                    "end": 698,
+                    "text": "18",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1305,
+                    "end": 1307,
+                    "text": "19",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1574,
+                    "end": 1576,
+                    "text": "20",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 2764,
+                    "end": 2765,
+                    "text": "3",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 3000,
+                    "end": 3008,
+                    "text": "(Fig. 1)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "The figures for impact on HPs invite reflection on how IPC programmes can contribute to reducing the risk of transmission at healthcare centres. As a result of the rapid spread of the COVID-19 pandemic, the WHO urged governments to make controlling the disease an utmost priority 21 with social distancing measures in order to minimise contact between people. Such measures in Spain were strict; several levels of distancing were implemented simultaneously with the declaration of a state of alarm on 14 March 2020 22 and a lockdown was introduced, with people ordered to remain at home, workplaces and educational centres were closed, and so on. These radical measures with targeted compliance had a direct impact on social interactions ( Fig. 1 ) and, therefore, on slowing the spread of the virus. 23 However, the above measures had no bearing on specific additional risks faced by HPs resulting from interactions occurring in a closed institution and in caring for patients. Therefore, IPC programmes specifically aimed at infections associated with healthcare at healthcare centres should be a priority for protecting the health of HPs and patients. In the case of this HD, considering that the disease is transmitted by droplets and taking international recommendations into account 3,24 , the following strategies were established before the start of the epidemic: 1) respiratory hygiene measures aimed at patients with respiratory symptoms, including the recommendation to use a surgical mask (provided by the centre); and 2) application of expanded droplet, contact and eye protection precautions for the care of patients who present symptoms consistent with COVID-19, which require using personal protective equipment (gown, gloves, surgical or FFP2/FFP3 mask and face shield or protective goggles). 12 These two strategies with measurable compliance directly contribute to the decrease in the risk of exposure to patients with symptoms but do not protect against exposure to asymptomatic patients or other HPs who could potentially be infected. With the goal of protecting HPs against these risks, on 19 March 2020, a decision was made to establish the following measure: 3) the recommendation that healthcare staff use a surgical mask as long as they are less than one metre from a patient or other individual (in the care of asymptomatic patients, in all other workplace activities, in their shared home environment and in their social lives).",
+            "cite_spans": [
+                {
+                    "start": 280,
+                    "end": 282,
+                    "text": "21",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 515,
+                    "end": 517,
+                    "text": "22",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 801,
+                    "end": 803,
+                    "text": "23",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 740,
+                    "end": 746,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "It is worth noting that the effectiveness of these measures depends directly on compliance with them. It was possible to determine by means of (informal) observation that compliance with the use of a surgical mask by HPs in the course of the workday during patient care exceeded 90%. This measure would have a high impact as it would protect HPs caring for asymptomatic patients. Such patients represent a risk for HPs, who may not clinically suspect COVID-19 and therefore they may not adopt suitable protective measures. However, compliance in domestic and social settings and in occupational settings outside of patient care were unknown. Hence, the impact on these risks may have varied widely. This measure was subsequently evaluated at the centre and it was concluded that it had been effective. The cumulative incidence of COVID-19 in HPs dropped from 22.1 per 1,000 workers in the pre-exposure period to 8.0 per 1,000 workers in the exposure period. 25 Data from other studies have also supported using a mask when interacting with other members of an individual's household 26 , which is essential if attempting to reduce risks across all settings. Lower compliance with this recommendation in those belonging to younger age groups, who tend to engage in more social interactions, could explain why there was a higher prevalence of anti-SARS-CoV-2 IgG in said age groups, though it is true that this hypothesis could not be tested.",
+            "cite_spans": [
+                {
+                    "start": 958,
+                    "end": 960,
+                    "text": "25",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 1083,
+                    "end": 1085,
+                    "text": "26",
+                    "ref_id": "BIBREF41"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Notable among the limitations of this study is a possible selection bias stemming from nonparticipation by 12.9% of HPs. However, this might be disregarded because the absence of statistically significant differences in the distribution by sex, age and occupation between participants and non-participants was verified. In addition, no information was collected on the presence of symptoms, possible contact with suspected or confirmed cases of COVID-19, settings in which such contact took place, etc., which would have made it possible to establish the potential origin of risky contact moments that could have led to infection. Another possible limitation is underdiagnosis deriving from false negative results, although it is true that the sensitivity and specificity of the techniques used exceed 90%, according to the manufacturers. In addition, it should be noted that the diagnostic validity of the ELISA technique (used in this study) is superior to immunofluorescence techniques (which were the basis of the provisional data from the national seroepidemiology study). Finally, there is no seroepidemiology study in the general population in the area of the HD with the same structure by sex and age as the HPs, and so the effectiveness of IPC programmes against the additional risks to which HPs are exposed could not be evaluated more precisely.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The impact of COVID-19 on HPs in the HD is equal to its impact on the general population in major cities. This gives an idea of the effectiveness of the IPC programme aimed at HPs in this HD. Equalisation of the risks to which HPs are exposed and the risks to which the rest of the population is exposed largely depends on the recommendations established in the IPC programmes implemented and on the degree of compliance with them. Thus, there is an urgent need to support research studies aimed at controlling the pandemic through non-pharmacologic measures and, in particular, measures focused on infection prevention and control in healthcare settings. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "European Centre for Disease Prevention and Control. Pneumonia cases possibly associated with a novel coronavirus in Wuhan",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Pneumonia-casespossibly-associated-to-a-novel-coronavirus-in-Wuhan-China.pdf 2. WHO Director-General's opening remarks at the media briefing on COVID-19 -11",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "World Health Organization",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "European Centre for Disease Prevention and Control. Infection prevention and control for COVID-19 in healthcare settings -Third update",
+            "authors": [],
+            "year": 2020,
+            "venue": "ECDC",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Report of the WHO-China Joint Mission on Coronavirus Disease 2019 (COVID-19). World Health Organization: China",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Integrated surveillance of COVID-19 in Italy",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Characteristics of Health Care Personnel with COVID-19 -United States",
+            "authors": [],
+            "year": 2020,
+            "venue": "CDC COVID-19 Response Team",
+            "volume": "69",
+            "issn": "",
+            "pages": "477--81",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Roll-out of SARS-CoV-2 testing for healthcare workers at a large NHS Foundation Trust in the United Kingdom",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Keeley",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Evans",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Colton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Euro Surveill",
+            "volume": "25",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2807/1560-7917.ES.2020.25.14.2000433"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "SARS-CoV-2 infection in Health Care Workers",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Folgueira",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Munoz-Ruiperez",
+                    "suffix": ""
+                },
+                {
+                    "first": "Alonso-Lopez",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.04.07.20055723"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Viral load dynamics and disease severity in patients infected with SARS-CoV-2 in Zhejiang province",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ",
+            "volume": "369",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmj.m1443"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Viral dynamics in mild and severe cases of COVID-19",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wan",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Temporal profiles of viral load in posterior oropharyngeal saliva samples and serum antibody responses during infection by SARS-CoV-2: observational cohort study",
+            "authors": [
+                {
+                    "first": "Kkw",
+                    "middle": [],
+                    "last": "To",
+                    "suffix": ""
+                },
+                {
+                    "first": "Oty",
+                    "middle": [],
+                    "last": "Tsang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Infect Dis",
+            "volume": "20",
+            "issn": "",
+            "pages": "565--74",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Infection prevention and control during health care when COVID-19 is suspected. World Health Organization: Geneva",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Modes of transmission of virus causing COVID-19: implications for IPC precaution recommendations",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "World Health Organization",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Presymptomatic Transmission of SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Chiew",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "CoV-2 en Espa\u00f1a",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Instituto de Salud Carlos III",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Caveats in interpreting SARS-CoV-2 IgM+/IgGantibody profile in asymptomatic health care workers",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Valdivia",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Torres",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Huntley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Impacto de la pandemia de COVID-19 en los trabajadores sanitarios del servicio de urgencias de un hospital terciario",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Chico-S\u00e1nchez",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gras-Valent\u00ed",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Mora-Muriel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emergencias",
+            "volume": "32",
+            "issn": "",
+            "pages": "227--259",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Madrid: Instituto Nacional de Estadi\u0301stica",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Seroprevalence of antibodies against SARS-CoV-2 among helath care workers in a large Spanish reference hospital",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Garcia-Basteiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Moncunill",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tortajada",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Commun",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41467-020-17318-x"
+                ]
+            }
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Prevalencia de la infecci\u00f3n por SARS-CoV-2 en m\u00e9dicos generales y enfermeras de atenci\u00f3n primaria y residencias de ancianos del \u00c1rea de Salud de Le\u00f3n y factores asociados",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Mart\u00edn",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Fern\u00e1ndez-Villa",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lamuedra",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Semergen",
+            "volume": "46",
+            "issn": "1",
+            "pages": "35--44",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Top priority' must be on containment, insists WHO's Tedros",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Covid-19",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Relaciones con las Cortes y Memoria Democr\u00e1tica. Real Decreto 463/2020. Declaraci\u00f3n del Estado de Alarma. Espa\u00f1a",
+            "authors": [
+                {
+                    "first": "Ministerio",
+                    "middle": [],
+                    "last": "De",
+                    "suffix": ""
+                },
+                {
+                    "first": "La",
+                    "middle": [],
+                    "last": "Presidencia",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "European Centre for Disease Prevention and Control. Considerations relating to social distancing measures in response to COVID-19 -second update. ECDC: Stockholm",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Prevenci\u00f3n y control de las infecciones respiratorias agudas con tendencia epid\u00e9mica y pand\u00e9mica durante la atenci\u00f3n sanitaria. WHO/PAHO: Geneva",
+            "authors": [],
+            "year": 2014,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Effectivity of a Programme for the Control & Prevention of COVID-19 Healthcare-Associated Infections in a Spanish Academic Hospital. Bull World Health Organ",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gras-Valenti\u0301",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Mora-Muriel",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Chico-Sa\u0301nchez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2471/BLT.20.263384"
+                ]
+            }
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Reduction of secondary transmission of SARS-CoV-2 in households by face mask use, disinfection and social distancing: a cohort study in Beijing",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Tian",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China BMJ Global Health",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmjgh-2020-002794"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "-Lucas, Juan Gil-Carbonell, Rosario S\u00e1nchez-Mart\u00ednez, Pere Llorens, Maria Galiana-Ivars, Luis G\u00f3mez-Salinas, Francisco Jaime-S\u00e1nchez, Javier Gonz\u00e1lez-de Dios, German Lloret, Maria Rosario Garc\u00eda-Santaf\u00e9, Remedios Sanz Beltr\u00e1, Luis Mena-Esquivias, Miguel \u00c1ngel Garc\u00eda-Alonso Autor en correspondencia: Jos\u00e9 S\u00e1nchez-Pay\u00e1 Unidad de Epidemiolog\u00eda. Servicio de Medicina Preventiva Instituto de Investigaci\u00f3n Sanitaria y Biom\u00e9dica de Alicante. (ISABIAL) Hospital General Universitario de Alicante (HGUA) Avda Pintor Baeza, 12. Alicante-03010, Alicante. Espa\u00f1a. Contribuci\u00f3n de autor\u00eda: Paula Gras Valent\u00ed, Pablo Chico S\u00e1nchez, Jos\u00e9 S\u00e1nchez Pay\u00e1 y Juan Carlos Rodr\u00edguez D\u00edaz participaron en la concepci\u00f3n y el dise\u00f1o del estudio. Juan Carlos Rodr\u00edguez D\u00edaz y Mar\u00eda Adelina Gimeno Gasc\u00f3n fueron los responsables de realizar los estudios serol\u00f3gicos. Natividad Algado Sell\u00e9s, Mar\u00eda Adelina Gimeno Gasc\u00f3n y Juan Gabriel Mora-Muriel, participaron en la recogida de datos y gesti\u00f3n de la base de datos. Pablo Chico S\u00e1nchez y Jos\u00e9 S\u00e1nchez Pay\u00e1 realizaron el an\u00e1lisis principal de los datos. Todos los autores participaron en la interpretaci\u00f3n de los resultados. Paula Gras Valent\u00ed y Natividad",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "2019 in Wuhan (Hubei, China), a novel coronavirus emerged that caused a cluster of pneumonia cases.1 It quickly spread through different countries and, on 11 March 2020, the World Health Organization declared the disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), called COVID-19, a pandemic. 2",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Diseases transmitted by droplets: types of population, risks and impact of infection prevention and control strategies on risks. gr1",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Figura 1. Enfermedades transmitidas por Gotas: tipos de poblaci\u00f3n, riesgos y acci\u00f3n de las estrategias de prevenci\u00f3n y control de infecciones sobre los riesgos.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Palabras clave: Estudio sero-epidemiol\u00f3gico, SARS-CoV-2, COVID-19, profesionales sanitarios, prevenci\u00f3n y control de infecciones Objective: Estimate IgG antibody prevalence against SARS-CoV-2 in Healthcare Personnel (HCP) of a Healthcare Department (HD). Method: Prevalence Study. The presence of IgG antibodies against SARS-CoV-2 was determined in HCP of the HD. Enzyme Linked Immunosorbent Assays (ELISA) tests were used. Field work took place from April 24, 2020 to May 8, 2020. The age, sex, occupation",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "1. Enfermedades transmitidas por Gotas: tipos de poblaci\u00f3n, riesgos y acci\u00f3n de las estrategias de prevenci\u00f3n y control de infecciones sobre los riesgos.Expanded droplet, contact and eye protection precautions Repercusi\u00f3n de la acci\u00f3n dependiendo de la posibilidad de evaluaci\u00f3n del grado de cumplimiento: Alto impacto (\u2192) Grado cumplimiento f\u00e1cilmente objetivable; Impacto variable (---\uf0e0) Grado cumplimiento dif\u00edcilmente objetivable Repercussions of action depending on possibility of evaluation of degree of compliance: High impact (\u2192) Degree of compliance easy to measure; Variable impact (---\uf0e0) Degree of compliance hard to measureTable 1General characteristics of the participants in the seroepidemiology study of (IgG+) SARS-CoV-2 infection conducted in healthcare professionals in the Departamento de Salud Alicante-Hospital General",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Results of the seroepidemiology study of (IgG+) SARS-CoV-2 infection conducted in healthcare professionals in the Departamento de Salud Alicante-Hospital General",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Paula Gras-Valent\u00ed, Pablo Chico-S\u00e1nchez, Jos\u00e9 S\u00e1nchez-Pay\u00e1 and Juan Carlos Rodr\u00edguez-D\u00edaz participated in developing the study concept and design. Juan Carlos Rodr\u00edguez-D\u00edaz and Mar\u00eda Adelina Gimeno-Gasc\u00f3n were responsible for performing the serological tests. Natividad Algado-Sell\u00e9s, Mar\u00eda Adelina Gimeno-Gasc\u00f3n and Juan Gabriel Mora-Muriel participated in the data collection and database management. Pablo Chico-S\u00e1nchez and Jos\u00e9 S\u00e1nchez-Pay\u00e1 performed the primary data analysis. All authors participated in the interpretation of results. Paula Gras-Valent\u00ed and Natividad Algado-Sell\u00e9s participated in drafting the article. All authors belonging to the working groups critically reviewed the manuscript, made significant intellectual contributions and approved the definitive version submitted.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Authors"
+        }
+    ]
+}
